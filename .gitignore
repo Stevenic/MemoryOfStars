@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Jekyll (website build output & caches)
+docs/_site/
+docs/.jekyll-cache/
+docs/.jekyll-metadata
+docs/.sass-cache/
+docs/vendor/
+docs/.bundle/
+
+# Ruby / Bundler
+.bundle/
+vendor/
+
+# Manuscript tooling scratch
+*.tmp
+*.bak
+~$*.docx
+
+# Secrets
+.env
