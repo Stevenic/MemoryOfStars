@@ -55,3 +55,20 @@ chapters:
       Mara: "mother; warm, guarded, grieving something unspoken"
       Tomas: "same age as Lyra; fast, deadpan, theorizing"
       Elias: "very old; gentle, then shaken by recognition"
+
+  - id: chapter-2
+    title: "Tomas Knows Everything"
+    mood: "wry, companionable, mystery gathering underneath"
+    pace: "measured; quick in the Lyra/Tomas volleys"
+    pause_ms: { scene_break: 1200, line: 350 }
+    notes: >
+      Five ⸻ scene breaks — treat each as a location/time cut (Hall interior, registration,
+      outside, market, western wall, evening). The Lyra/Tomas banter is rapid and deadpan;
+      let "…I was." land dry. Slow and lower for the two Elias beats — the bird, and the
+      compass that points to the mountain. Close quiet and unresolved on "disappointed her
+      or brought relief."
+    voices:
+      Lyra: "seventeen; curious, dry wit"
+      Tomas: "fast, deadpan, over-thorough; rare genuine 'I don't know'"
+      Elias: "very old; warm, then unguarded grief over the compass"
+      Clerk: "kind, routine, ritual cadence"
