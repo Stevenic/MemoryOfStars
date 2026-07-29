@@ -72,3 +72,22 @@ chapters:
       Tomas: "fast, deadpan, over-thorough; rare genuine 'I don't know'"
       Elias: "very old; warm, then unguarded grief over the compass"
       Clerk: "kind, routine, ritual cadence"
+
+  - id: chapter-3
+    title: "The Festival of Last Things"
+    mood: "festive and joyous up top, turning intimate and haunted by the end"
+    pace: "lively through the theft/race; slow and grave for the slate ceremony and the ending"
+    pause_ms: { scene_break: 1200, line: 350 }
+    notes: >
+      Widest tonal range in the book so far — six ⸻ sections move from raucous
+      (hat theft, the race) to solemn (Seren, the slate ceremony) to tender-and-eerie
+      (Mara tying the red thread). Seren speaks quietly but carries; a still, uncanny calm.
+      Handle the two supernatural beats with restraint: Elias's bell-fright, and the woman
+      in blue behind Mara — no music sting, just a held breath. Land "I am afraid I will
+      forget what was mine." bare and quiet. Close hushed on the unseen dancer.
+    voices:
+      Lyra: "seventeen; curious, dry wit"
+      Mara: "warm and teasing, then frightened by her own forgetting"
+      Tomas: "deadpan; the slate half he keeps is a crack in the armor"
+      Elias: "old; a flash of pale fear at the bell"
+      Seren: "quiet, still, uncanny; a traveler who forgot to keep walking"
