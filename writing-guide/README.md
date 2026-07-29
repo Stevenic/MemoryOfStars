@@ -10,6 +10,7 @@ told.
 |------|---------|
 | [`commandments.md`](commandments.md) | **The Writer's Card** — core question, metaphor, Ten Commandments, Seven Laws, and Writer's Test on one page. Start here. |
 | [`voice.md`](voice.md) | **The Voice** — the concrete, example-driven spec of how the prose sounds (derived from *The First Pilgrim*). |
+| [`structure.md`](structure.md) | **The series structure signature** — Prologue · 3 acts × 3 chapters · Epilogue, and the word budget. |
 | [`style-guide.md`](style-guide.md) | Prose mechanics: POV, tense, formatting, punctuation. |
 | [`voice-and-craft.md`](voice-and-craft.md) | Broader craft principles (see [`voice.md`](voice.md) for the sound of the prose). |
 | [`naming-conventions.md`](naming-conventions.md) | How names of people, places, and coined terms are formed. |
