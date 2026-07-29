@@ -1,0 +1,57 @@
+# Audio production sheet — The First Pilgrim (Book 01)
+# Feeds a future ElevenLabs pipeline; NOT published to the website.
+# The web reader also reads `mood`/`pace` per chapter as optional prosody hints.
+# All values are starting suggestions — edit to taste; you know the voices in your head.
+
+voice:
+  narrator_ref: "TBD"                 # ElevenLabs voice id or name once chosen
+  description: "aged, warm, measured — a man who has climbed this mountain fifty-three times"
+  default_style: "intimate, reflective"
+  default_pace: "slow"
+  # ElevenLabs voice-settings placeholders (0.0–1.0):
+  stability: 0.55
+  similarity_boost: 0.75
+  style: 0.30
+
+# Canonical pronunciations for coined/ambiguous names.
+# respell = plain phonetic respelling; ipa = IPA. CONFIRM these against your intent.
+pronunciation:
+  Elias:      { respell: "eh-LEE-as",   ipa: "ɛˈliːɐs",   note: "not EE-lee-as" }
+  Lyra:       { respell: "LY-ruh",      ipa: "ˈlaɪrə" }
+  Orin:       { respell: "OR-in",       ipa: "ˈɔːrɪn" }
+  Tomas:      { respell: "TOH-mahs",    ipa: "ˈtoʊmɑːs" }
+  Mara:       { respell: "MAH-rah",     ipa: "ˈmɑːrə" }
+  Amarin:     { respell: "AH-muh-reen", ipa: "ˌɑːməˈriːn" }
+  Pilgrimage: { respell: "PIL-gruh-mij", ipa: "ˈpɪlɡrɪmɪdʒ", note: "capitalized in-world; read with weight" }
+  Gate:       { respell: "gayt",        note: "proper noun — the Gate; slight emphasis" }
+
+# Per-chapter direction. `id` matches the manuscript heading:
+#   prologue | chapter-1 … chapter-9 | epilogue
+chapters:
+  - id: prologue
+    title: "The Mountain Remembers"
+    mood: "elegiac, hushed, reverent"
+    pace: "very slow"
+    pause_ms: { scene_break: 1500, line: 500 }   # ⸻ = long pause; each short line breathes
+    notes: >
+      Solitary and quiet. Let the one-line paragraphs breathe. The two ⸻ scene breaks
+      are long silences. The final two lines are the gut-punch — hold silence before
+      "He could not remember whether he had climbed it alone."
+
+  - id: chapter-1
+    title: "The Last Ordinary Morning"
+    mood: "warm, domestic, quietly foreboding"
+    pace: "measured"
+    pause_ms: { scene_break: 1200, line: 350 }
+    notes: >
+      Two distinct registers: the kitchen banter with Mara and Tomas is light and quick —
+      let the dialogue overlap and land its comedy — under a current of dread the adults
+      can't hide. Tighten the pace for banter, slow for Mara's fear and the Elias beat.
+      The bells motif matters: hit "a seventh" (miscounted) and the closing "A fourth note
+      where none belonged" with a faint unease. The final three "Seven days…" lines are a
+      slow, deliberate close.
+    voices:
+      Lyra: "seventeen; curious, dry wit"
+      Mara: "mother; warm, guarded, grieving something unspoken"
+      Tomas: "same age as Lyra; fast, deadpan, theorizing"
+      Elias: "very old; gentle, then shaken by recognition"

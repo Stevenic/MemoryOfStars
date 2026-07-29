@@ -1,0 +1,25 @@
+# Audio production sheet — Book NN
+# Feeds a future ElevenLabs pipeline; NOT published to the website.
+# The web reader reads `mood`/`pace` per chapter as optional prosody hints.
+
+voice:
+  narrator_ref: "TBD"
+  description: "_..._"
+  default_style: "_..._"
+  default_pace: "slow"
+  stability: 0.55
+  similarity_boost: 0.75
+  style: 0.30
+
+# respell = plain phonetic; ipa = IPA. Add every coined/ambiguous name.
+pronunciation:
+  # Name: { respell: "...", ipa: "...", note: "..." }
+
+# Per-chapter direction; `id` matches the manuscript heading (prologue | chapter-N | epilogue).
+chapters:
+  - id: prologue
+    title: "_..._"
+    mood: "_..._"
+    pace: "_..._"
+    notes: >
+      _..._
