@@ -8,8 +8,10 @@
 
 ## The series voice
 
-_Describe the narrative voice in a few sentences. What makes a sentence sound like it
-belongs in The Memory of Stars?_
+**See [`voice.md`](voice.md) for the full, example-driven voice specification** — the
+vertical one-sentence-per-line rhythm, definition-by-negation, deadpan dialogue, the
+flatly-rendered uncanny, and the canonical litany. This file covers the broader craft
+around that voice.
 
 ## Rhythm & sentence craft
 

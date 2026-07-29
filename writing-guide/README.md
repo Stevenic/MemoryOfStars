@@ -9,8 +9,9 @@ told.
 | File | Purpose |
 |------|---------|
 | [`commandments.md`](commandments.md) | **The Writer's Card** — core question, metaphor, Ten Commandments, Seven Laws, and Writer's Test on one page. Start here. |
+| [`voice.md`](voice.md) | **The Voice** — the concrete, example-driven spec of how the prose sounds (derived from *The First Pilgrim*). |
 | [`style-guide.md`](style-guide.md) | Prose mechanics: POV, tense, formatting, punctuation. |
-| [`voice-and-craft.md`](voice-and-craft.md) | Voice, rhythm, and craft principles for the series. |
+| [`voice-and-craft.md`](voice-and-craft.md) | Broader craft principles (see [`voice.md`](voice.md) for the sound of the prose). |
 | [`naming-conventions.md`](naming-conventions.md) | How names of people, places, and coined terms are formed. |
 | [`templates/`](templates/) | Reusable scaffolds for outlines, chapters, and character sheets. |
 
