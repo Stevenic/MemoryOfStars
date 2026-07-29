@@ -132,3 +132,23 @@ chapters:
       Seren: "calm, careful, unsurprised; names change things"
       Mara (young): "seventeen, unburdened, a laugh Lyra has never heard"
       woman_in_blue: "warm, sorrowful, certain; speaks in gentle riddles, then afraid"
+
+  - id: chapter-6
+    title: "The Climb Begins"
+    mood: "punishing ascent building to awe and grief at the Gate"
+    pace: "relentless and thinning with altitude; blows open at the Gate reveal, then slow dread on the seventh bell"
+    pause_ms: { scene_break: 1500, line: 400 }
+    notes: >
+      Seven ⸻ sections; the physical climb should sound like it's costing them (breath
+      "unfinished", feeling lost in fingers). Two gut-punches: **Tomas dropping the
+      notebook** ("Your mother is not in that book!") — let his grief, not the fall, carry
+      it; and **the Gate reveal** — awe, then Elias collapsing as he almost remembers Sael.
+      The bell count is the payoff of the whole bell motif: ring one through six flat and
+      familiar, then let the **seventh** land wrong and cold. End on the missing word —
+      Lyra can't remember "home"; the disembodied "Home." should be tender and terrible.
+    voices:
+      Lyra: "driving herself; then losing a word she cannot get back"
+      Tomas: "grief over the notebook = grief over his mother; goes quiet after"
+      Elias: "reaching for Sael, breaking, apologizing to someone unseen"
+      Seren: "withholding on purpose — 'we are close enough that it already has'"
+      woman_in_blue: "a single word at Lyra's ear — 'Home.' — intimate, sorrowful"
