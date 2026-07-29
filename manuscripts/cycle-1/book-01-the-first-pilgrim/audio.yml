@@ -152,3 +152,25 @@ chapters:
       Elias: "reaching for Sael, breaking, apologizing to someone unseen"
       Seren: "withholding on purpose — 'we are close enough that it already has'"
       woman_in_blue: "a single word at Lyra's ear — 'Home.' — intimate, sorrowful"
+
+  - id: chapter-7
+    title: "The Gate"
+    mood: "hushed awe and mounting dread; grief; transcendence at the threshold"
+    pace: "measured and ceremonial through the crossings; slows and stills for Elias; builds to Lyra's crossing"
+    pause_ms: { scene_break: 1600, line: 450 }
+    notes: >
+      The climax. Six ⸻ sections, each Gate-crossing its own small devastation — Cor
+      returning without Anet ("I believe you." / "He did not remember. But he believed.")
+      is the gut-punch of the middle; keep it quiet. Tomas's crossing is the one moment of
+      grace — let it breathe. Elias's farewell is the emotional peak: play his anger at
+      Seren, then his sad joke, then the step through. Seren's "He made the same joke. The
+      first time." should chill. Build Lyra's crossing to something ceremonial and
+      inevitable; land the final "Welcome home… Amarin." with a held pause before the name,
+      then go silent into "Lyra fell forward into another life."
+    voices:
+      Lyra: "frightened, then certain; each step 'remembered, not learned'"
+      Seren: "fear for the first time; reliving an old wound exactly"
+      Elias: "anger, then tenderness, then peace as he chooses the empty chair"
+      Tomas: "no proof left, only 'I believe you' — trust as the turning point"
+      Cor: "a child's joy, then blank politeness — the cruelty of the trade"
+      woman_in_blue: "faceless, sorrowful, certain; calls Lyra by another life's name"
