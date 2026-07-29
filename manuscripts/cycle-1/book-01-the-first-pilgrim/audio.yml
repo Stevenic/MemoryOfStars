@@ -174,3 +174,26 @@ chapters:
       Tomas: "no proof left, only 'I believe you' — trust as the turning point"
       Cor: "a child's joy, then blank politeness — the cruelty of the trade"
       woman_in_blue: "faceless, sorrowful, certain; calls Lyra by another life's name"
+
+  - id: chapter-8
+    title: "Amarin"
+    mood: "otherworldly, dense, revelatory; grief and cosmic dread braided together"
+    pace: "dreamlike and continuous — no scene-break rests; let transitions blur, then surge at Elias's sacrifice and the collapse"
+    pause_ms: { line: 450 }
+    notes: >
+      NOTE: no ⸻ dividers — the chapter flows unbroken through worlds (plain → workshop →
+      two chairs → collapse), matching Lyra dissolving into Amarin. Keep it hypnotic; don't
+      impose hard breaks. This is the lore core: the anchors, the erasure that "follows
+      meaning", the bird as *contradiction*, Amarin as "the one who carries what cannot
+      safely belong to anyone." Play Sael faceless and sorrowful. The emotional peak is
+      Elias taking the empty chair — his montage of Sael memories should build, then his
+      "Do I know you?" must gut. Escalate the filling chairs to horror; land the final line
+      cold: the seventh bell now comes "from the empty chair."
+    voices:
+      Lyra: "two selves at once — Lyra wearing Amarin's scarred hands and borrowed grief"
+      Sael: "faceless, exhausted, deliberate; the architect who erased herself"
+      Elias (young): "raw, unguarded, wants certainty he can't be trusted with"
+      Elias (old): "decades of grief; chooses love over self, then forgets Lyra"
+      Mara (young): "the unrestrained laugh again — heartbreak in hindsight"
+      Seren: "younger, watchful; later, the one who says 'Run.'"
+      Tomas: "the arm through the Gate; the anchor that pulls Lyra back to herself"
