@@ -197,3 +197,27 @@ chapters:
       Mara (young): "the unrestrained laugh again — heartbreak in hindsight"
       Seren: "younger, watchful; later, the one who says 'Run.'"
       Tomas: "the arm through the Gate; the anchor that pulls Lyra back to herself"
+
+  - id: chapter-9
+    title: "The Empty Chair"
+    mood: "the resolution — grief, temptation, refusal, and communal catharsis; bittersweet, earned"
+    pace: "slow and heavy through Seren's confession and the father temptation; warmer and lighter in the chain of small memories; quiet and elegiac at the descent"
+    pause_ms: { line: 450 }
+    notes: >
+      Continuous, no ⸻ dividers (like ch.8). The longest, most complete chapter — the
+      thematic payoff. Three movements: (1) **Seren's confession** — his brother "moved,
+      not copied"; grave and worn-smooth. (2) **The father** — the Gate's cruelest offer;
+      Lyra's "I love you." / "Is that enough?" / "No… but it has to be." is the emotional
+      apex; play it devastating. (3) **The chain of small memories** — let it lift into
+      warmth and even humor (Seren sharpening his knife when he lies), the book's argument
+      made literal: memory lives between people. Close hushed on the thesis — "Memory asks
+      what remains. Love decides what you carry." — and the final line as a benediction:
+      "She stepped into the storm carrying more people than herself."
+    voices:
+      Lyra: "grief-stricken but resolute; refuses possession, chooses love"
+      Seren: "confession worn smooth by repetition; then wry warmth with Elias"
+      Elias: "reaches for the imitation, then lets her go — 'I loved her,' past tense"
+      Sael: "the imitation; sorrowful, self-aware; delivers the closing thesis"
+      the_father: "warm, perfect, wrong — 'I remember everything' is the tell"
+      Tomas: "steady anchor; 'we remember each other… it is what people have always had'"
+      Cor / Anet: "belief without memory; the sister beat lands as gentle comedy then tears"
