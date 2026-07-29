@@ -111,3 +111,24 @@ chapters:
       Tomas: "deadpan comedy up front, then genuinely rattled by the count"
       Elias: "old; evasive riddles, then trembling, half-hearing someone unseen"
       Seren: "calm; the only one unsurprised by the vanishing bedroll"
+
+  - id: chapter-5
+    title: "The House of Memories"
+    mood: "grueling and cold on the climb; uncanny in the house; tender-devastating in the dream"
+    pace: "labored through the storm/ledge; hushed and strange indoors; dreamlike then breaking in the Mara vision"
+    pause_ms: { scene_break: 1500, line: 400 }
+    notes: >
+      The longest, most pivotal chapter — nine ⸻ sections. The climb should sound
+      physically hard (wind tearing words, breath as work); the ledge fall and the
+      disembodied "Left hand." are a real jolt. The house is quietly wrong — clean,
+      warm, tended by no one. The centerpiece is the **Mara dream**: Lyra inside her
+      mother's body, the woman in blue painting the red bird — play it dreamlike and
+      aching; young Mara's laugh should land as heartbreak ("Never like this."). Escalate
+      the fiftieth-traveler dread to the cold close: "someone had just left."
+    voices:
+      Lyra: "exhausted, shaken; wonder curdling into fear"
+      Tomas: "deadpan, then frightened; the 'May I?' is him softening"
+      Elias: "old, unmoored — 'I do not know which of my memories are mine'"
+      Seren: "calm, careful, unsurprised; names change things"
+      Mara (young): "seventeen, unburdened, a laugh Lyra has never heard"
+      woman_in_blue: "warm, sorrowful, certain; speaks in gentle riddles, then afraid"
