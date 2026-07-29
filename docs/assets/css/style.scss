@@ -256,6 +256,11 @@ img { max-width: 100%; height: auto; }
   color: var(--gold);
   font-weight: 600;
 }
+/* The prose is written in very short one-sentence paragraphs, so the floated
+   drop cap can pull the SECOND paragraph up beside it and make it read as
+   indented too. Clearing the paragraph after the first keeps the cap — and its
+   text-wrap — on paragraph one only. */
+.reader-body > p:first-of-type + p { clear: left; }
 .reader-body em { color: #fff; }
 
 /* Ornamental scene break (generated from ⸻ / * * * / ---) */
