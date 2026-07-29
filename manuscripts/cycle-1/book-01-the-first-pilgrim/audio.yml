@@ -91,3 +91,23 @@ chapters:
       Tomas: "deadpan; the slate half he keeps is a crack in the armor"
       Elias: "old; a flash of pale fear at the bell"
       Seren: "quiet, still, uncanny; a traveler who forgot to keep walking"
+
+  - id: chapter-4
+    title: "Elias Returns"
+    mood: "tender goodbye giving way to real dread; the first undeniable wrongness"
+    pace: "slow and aching in the kitchen; brisk on the road; taut and cold at the camp"
+    pause_ms: { scene_break: 1400, line: 400 }
+    notes: >
+      The turn from Act I to Act II. Open intimate — the Mara farewell is the emotional
+      anchor; play "…don't decide immediately that it's false" and "I can't remember"
+      with quiet fear. Elias's arrival in the square is a public shock — hold the crowd's
+      silence. The camp / 43rd-bedroll sequence is the book's first hard supernatural
+      event: build methodically, let the counting create dread, and let the overlapping
+      argument voices ("The blanket was blue." / "It wasn't blue.") tumble and dissolve.
+      End cold on "no one agreed on how many bedrolls there had been."
+    voices:
+      Lyra: "seventeen; curious, steady, frightened underneath"
+      Mara: "tender, guarded, a warning she can't finish"
+      Tomas: "deadpan comedy up front, then genuinely rattled by the count"
+      Elias: "old; evasive riddles, then trembling, half-hearing someone unseen"
+      Seren: "calm; the only one unsurprised by the vanishing bedroll"
