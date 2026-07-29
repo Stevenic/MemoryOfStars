@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<article class="post wrap">
+  <p class="breadcrumb"><a href="{{ '/news/' | relative_url }}">← All news</a></p>
+  <header class="page-head">
+    <p class="eyebrow"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
+    <h1>{{ page.title }}</h1>
+  </header>
+  <div class="prose">
+    {{ content }}
+  </div>
+</article>

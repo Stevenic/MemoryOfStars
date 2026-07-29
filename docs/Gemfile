@@ -1,0 +1,8 @@
+source "https://rubygems.org"
+
+# Matches the gem set GitHub Pages uses to build the site, so local previews
+# behave like production. Run `bundle install`, then `bundle exec jekyll serve`.
+gem "github-pages", group: :jekyll_plugins
+
+# Required to run a local server on Ruby 3.0+ (no longer bundled with Ruby).
+gem "webrick", "~> 1.8"

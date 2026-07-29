@@ -1,0 +1,14 @@
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p class="footer-brand">✦ The Memory of Stars</p>
+    <nav class="footer-nav" aria-label="Footer">
+      {%- for item in site.data.nav -%}
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {%- endfor -%}
+      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+    </nav>
+    <p class="footer-legal">
+      &copy; {{ 'now' | date: "%Y" }} {{ site.author }}. All rights reserved.
+    </p>
+  </div>
+</footer>

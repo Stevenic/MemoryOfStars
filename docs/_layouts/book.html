@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<article class="book wrap">
+  <p class="breadcrumb"><a href="{{ '/books/' | relative_url }}">← All books</a></p>
+  <header class="book-head">
+    {% if page.number %}<p class="book-number">Book {{ page.number }} of 30{% if page.cycle %} · {{ page.cycle }}{% endif %}</p>{% endif %}
+    <h1>{{ page.title }}</h1>
+    {% if page.status %}<span class="badge badge--{{ page.status | slugify }}">{{ page.status }}</span>{% endif %}
+    {% if page.logline %}<p class="book-logline">{{ page.logline }}</p>{% endif %}
+  </header>
+  {% if page.cover %}
+  <img class="book-cover" src="{{ page.cover | relative_url }}" alt="Cover of {{ page.title }}">
+  {% endif %}
+  <div class="prose">
+    {{ content }}
+  </div>
+
+  {%- assign chapters = site.reading | where: "book_slug", page.book_slug | sort: "order" -%}
+  {%- if chapters.size > 0 -%}
+  <section class="book-read">
+    <a class="btn btn--primary" href="{{ chapters.first.url | relative_url }}">Start reading{% if chapters.first.label %} · {{ chapters.first.label }}{% endif %}</a>
+    <h2>Contents</h2>
+    <ol class="chapter-list">
+      {%- for c in chapters -%}
+      <li><a href="{{ c.url | relative_url }}"><span class="c-label">{{ c.label }}</span><span class="c-title">{{ c.title }}</span></a></li>
+      {%- endfor -%}
+    </ol>
+  </section>
+  {%- endif -%}
+</article>

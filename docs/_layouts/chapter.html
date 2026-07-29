@@ -1,0 +1,61 @@
+---
+layout: default
+---
+{%- comment -%} All chapters of this book, in reading order. {%- endcomment -%}
+{%- assign chapters = site.reading | where: "book_slug", page.book_slug | sort: "order" -%}
+{%- assign total = chapters | size -%}
+{%- assign idx = 0 -%}
+{%- for c in chapters -%}{%- if c.url == page.url -%}{%- assign idx = forloop.index0 -%}{%- endif -%}{%- endfor -%}
+{%- assign human = idx | plus: 1 -%}
+
+<div class="reader-progress" role="presentation"><span id="reader-bar"></span></div>
+
+<article class="reader">
+  <header class="reader-head">
+    <p class="reader-book">
+      <a href="{{ page.book_url | relative_url }}">{{ page.book_title }}</a>
+      {%- if total > 1 %} <span class="reader-count">· {{ human }} / {{ total }}</span>{% endif -%}
+    </p>
+    {% if page.label %}<p class="reader-label">{{ page.label }}</p>{% endif %}
+    <h1 class="reader-chapter">{{ page.title }}</h1>
+    <div class="reader-rule" aria-hidden="true">✦</div>
+  </header>
+
+  <div class="reader-body">
+    {{ content }}
+  </div>
+
+  <nav class="reader-nav" aria-label="Chapter navigation">
+    {%- if idx > 0 -%}
+      {%- assign p = idx | minus: 1 -%}{%- assign prev = chapters[p] -%}
+      <a class="reader-nav-link prev" href="{{ prev.url | relative_url }}">
+        <span class="dir">← Previous</span><span class="ch">{{ prev.label | default: prev.title }}</span>
+      </a>
+    {%- else -%}<span></span>{%- endif -%}
+    <a class="reader-nav-link home" href="{{ page.book_url | relative_url }}">Contents</a>
+    {%- assign last = total | minus: 1 -%}
+    {%- if idx < last -%}
+      {%- assign n = idx | plus: 1 -%}{%- assign next = chapters[n] -%}
+      <a class="reader-nav-link next" href="{{ next.url | relative_url }}">
+        <span class="dir">Next →</span><span class="ch">{{ next.label | default: next.title }}</span>
+      </a>
+    {%- else -%}<span></span>{%- endif -%}
+  </nav>
+</article>
+
+<script>
+  (function () {
+    var bar = document.getElementById('reader-bar');
+    var body = document.querySelector('.reader-body');
+    if (!bar || !body) return;
+    function update() {
+      var start = body.offsetTop;
+      var end = start + body.offsetHeight - window.innerHeight;
+      var pct = (window.scrollY - start) / Math.max(1, end - start);
+      bar.style.width = Math.max(0, Math.min(1, pct)) * 100 + '%';
+    }
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  })();
+</script>

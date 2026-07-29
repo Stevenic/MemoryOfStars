@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<article class="lore wrap">
+  <p class="breadcrumb"><a href="{{ '/lore/' | relative_url }}">← All lore</a></p>
+  <header class="page-head">
+    {% if page.category %}<p class="eyebrow">{{ page.category }}</p>{% endif %}
+    <h1>{{ page.title }}</h1>
+  </header>
+  <div class="prose">
+    {{ content }}
+  </div>
+</article>

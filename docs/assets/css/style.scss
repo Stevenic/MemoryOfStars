@@ -1,0 +1,298 @@
+---
+# Front matter (even empty) tells Jekyll to process this file with Sass.
+---
+
+/* ============================================================
+   The Memory of Stars — site styles
+   Self-contained: system fonts, no external assets.
+   ============================================================ */
+
+:root {
+  --bg:        #0a0e1a;
+  --bg-soft:   #10152a;
+  --panel:     #141b33;
+  --panel-2:   #1a2242;
+  --border:    #263156;
+  --text:      #e8ecf7;
+  --muted:     #97a3c4;
+  --gold:      #e9c46a;
+  --gold-soft: #f2d98a;
+  --star:      #cfe0ff;
+  --accent:    #7aa2ff;
+  --maxw:      1080px;
+  --prose:     720px;
+  --radius:    14px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 17px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .brand-name {
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Georgia", "Times New Roman", serif;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+a { color: var(--gold); text-decoration: none; }
+a:hover { color: var(--gold-soft); text-decoration: underline; }
+
+img { max-width: 100%; height: auto; }
+
+.wrap { max-width: var(--maxw); margin-inline: auto; padding-inline: 1.25rem; }
+
+/* --- Starfield backdrop --------------------------------------------------- */
+.starfield {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(1200px 600px at 70% -10%, rgba(122,162,255,.16), transparent 60%),
+    radial-gradient(900px 500px at 10% 110%, rgba(233,196,106,.08), transparent 60%),
+    var(--bg);
+}
+.starfield::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(1.5px 1.5px at 20% 30%, var(--star), transparent),
+    radial-gradient(1.5px 1.5px at 80% 20%, #fff, transparent),
+    radial-gradient(1px 1px at 50% 60%, var(--star), transparent),
+    radial-gradient(1px 1px at 35% 80%, #fff, transparent),
+    radial-gradient(1.5px 1.5px at 90% 70%, var(--star), transparent),
+    radial-gradient(1px 1px at 65% 45%, #fff, transparent),
+    radial-gradient(1px 1px at 12% 65%, var(--star), transparent);
+  opacity: .5;
+}
+
+/* --- Header --------------------------------------------------------------- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(10, 14, 26, .82);
+  backdrop-filter: saturate(140%) blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+.header-inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 64px; }
+.brand { display: inline-flex; align-items: center; gap: .55rem; color: var(--text); }
+.brand:hover { text-decoration: none; color: #fff; }
+.brand-mark { color: var(--gold); font-size: 1.15rem; }
+.brand-name { font-size: 1.12rem; letter-spacing: .2px; }
+
+.site-nav { display: flex; gap: 1.4rem; }
+.site-nav a { color: var(--muted); font-size: .95rem; }
+.site-nav a:hover { color: var(--text); text-decoration: none; }
+.site-nav a.active { color: var(--gold); }
+
+.nav-toggle-label { display: none; cursor: pointer; }
+.nav-toggle-label span { display: block; width: 24px; height: 2px; margin: 5px 0; background: var(--text); transition: .2s; }
+
+@media (max-width: 720px) {
+  .nav-toggle-label { display: block; }
+  .site-nav {
+    position: absolute; top: 64px; left: 0; right: 0;
+    flex-direction: column; gap: 0;
+    background: var(--bg-soft); border-bottom: 1px solid var(--border);
+    max-height: 0; overflow: hidden; transition: max-height .25s ease;
+  }
+  .site-nav a { padding: .85rem 1.25rem; border-top: 1px solid var(--border); }
+  .nav-toggle:checked ~ .site-nav { max-height: 60vh; }
+}
+
+/* --- Main / sections ------------------------------------------------------ */
+.site-main { padding-block: 2.5rem 4rem; }
+
+/* --- Hero ----------------------------------------------------------------- */
+.hero { text-align: center; padding: 4rem 1.25rem 3rem; }
+.hero-eyebrow { color: var(--gold); letter-spacing: .28em; text-transform: uppercase; font-size: .72rem; margin: 0 0 1rem; }
+.hero h1 { font-size: clamp(2.4rem, 6vw, 4rem); margin: 0 0 1rem; background: linear-gradient(180deg, #fff, var(--star)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.hero-tagline { color: var(--text); font-size: 1.2rem; max-width: 34ch; margin: 0 auto 1.1rem; }
+.hero-question { font-family: "Iowan Old Style", Palatino, Georgia, serif; font-style: italic; color: var(--gold); font-size: 1.15rem; max-width: 36ch; margin: 0 auto 2rem; }
+.hero-actions { display: flex; gap: .9rem; justify-content: center; flex-wrap: wrap; }
+
+.btn { display: inline-block; padding: .7rem 1.4rem; border-radius: 999px; font-weight: 600; font-size: .95rem; border: 1px solid transparent; }
+.btn--primary { background: var(--gold); color: #201803; }
+.btn--primary:hover { background: var(--gold-soft); text-decoration: none; }
+.btn--ghost { border-color: var(--border); color: var(--text); }
+.btn--ghost:hover { border-color: var(--gold); color: var(--gold); text-decoration: none; }
+
+/* --- Generic section ------------------------------------------------------ */
+.section { padding-block: 2.5rem; }
+.section-head { text-align: center; margin-bottom: 2rem; }
+.section-head h2 { font-size: 1.9rem; margin: 0 0 .4rem; }
+.section-head p { color: var(--muted); margin: 0; }
+.eyebrow { color: var(--gold); letter-spacing: .22em; text-transform: uppercase; font-size: .72rem; margin: 0 0 .6rem; }
+
+/* --- Cards / grids -------------------------------------------------------- */
+.grid { display: grid; gap: 1.25rem; }
+.grid--3 { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.grid--2 { grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+
+.card {
+  display: block;
+  background: linear-gradient(180deg, var(--panel), var(--panel-2));
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.4rem;
+  color: var(--text);
+  transition: transform .15s ease, border-color .15s ease;
+}
+.card:hover { transform: translateY(-3px); border-color: var(--gold); text-decoration: none; }
+.card h3 { margin: .1rem 0 .5rem; font-size: 1.2rem; }
+.card p { color: var(--muted); margin: 0; font-size: .95rem; }
+
+/* --- Books ---------------------------------------------------------------- */
+.book-number { color: var(--gold); font-size: .8rem; letter-spacing: .12em; text-transform: uppercase; margin: 0 0 .3rem; }
+.book-logline { color: var(--muted); font-style: italic; }
+.book-cover { border-radius: var(--radius); border: 1px solid var(--border); margin: 1.5rem 0; max-width: 320px; }
+
+.badge { display: inline-block; font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; padding: .25rem .6rem; border-radius: 999px; border: 1px solid var(--border); color: var(--muted); }
+.badge--published, .badge--draft-complete { color: var(--gold); border-color: var(--gold); }
+
+/* --- Content lists (book / lore / news index) ----------------------------- */
+.entry-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 1rem; }
+.entry {
+  display: flex; gap: 1rem; align-items: baseline;
+  background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 1.1rem 1.3rem; transition: border-color .15s ease;
+}
+.entry:hover { border-color: var(--gold); }
+.entry a { color: var(--text); font-family: "Iowan Old Style", Palatino, Georgia, serif; font-size: 1.15rem; }
+.entry a:hover { color: var(--gold); }
+.entry .meta { color: var(--muted); font-size: .85rem; white-space: nowrap; }
+.entry .num { color: var(--gold); font-variant-numeric: tabular-nums; min-width: 2.5rem; }
+
+/* --- Prose (page / article bodies) --------------------------------------- */
+.prose { max-width: var(--prose); }
+.wrap.book .prose, .wrap.lore .prose, .wrap.post .prose, .wrap.page .prose { margin-inline: 0; }
+.prose > * + * { margin-top: 1.1rem; }
+.prose h2 { font-size: 1.6rem; margin-top: 2.4rem; }
+.prose h3 { font-size: 1.25rem; margin-top: 1.8rem; }
+.prose blockquote { margin: 1.5rem 0; padding: .3rem 1.2rem; border-left: 3px solid var(--gold); color: var(--muted); font-style: italic; }
+.prose code { background: var(--panel-2); padding: .12em .4em; border-radius: 5px; font-size: .9em; }
+.prose pre { background: var(--panel-2); border: 1px solid var(--border); border-radius: 10px; padding: 1rem; overflow-x: auto; }
+.prose pre code { background: none; padding: 0; }
+.prose table { width: 100%; border-collapse: collapse; display: block; overflow-x: auto; }
+.prose th, .prose td { border: 1px solid var(--border); padding: .55rem .8rem; text-align: left; }
+.prose th { background: var(--panel-2); }
+.prose hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+/* --- Page headers --------------------------------------------------------- */
+.page-head { margin-bottom: 2rem; }
+.page-head h1 { font-size: clamp(2rem, 4vw, 2.8rem); margin: 0; }
+.page-subtitle { color: var(--muted); font-size: 1.1rem; margin-top: .5rem; }
+.breadcrumb { margin: 0 0 1.2rem; font-size: .9rem; }
+.breadcrumb a { color: var(--muted); }
+
+/* --- Footer --------------------------------------------------------------- */
+.site-footer { border-top: 1px solid var(--border); background: var(--bg-soft); margin-top: 3rem; }
+.footer-inner { display: flex; flex-direction: column; gap: .8rem; align-items: center; text-align: center; padding-block: 2.5rem; }
+.footer-brand { font-family: "Iowan Old Style", Palatino, Georgia, serif; color: var(--text); margin: 0; }
+.footer-nav { display: flex; flex-wrap: wrap; gap: 1.1rem; justify-content: center; }
+.footer-nav a { color: var(--muted); font-size: .9rem; }
+.footer-legal { color: var(--muted); font-size: .82rem; margin: 0; }
+
+/* --- Utilities ------------------------------------------------------------ */
+.center { text-align: center; }
+.lead { font-size: 1.15rem; color: var(--muted); }
+
+/* ============================================================
+   The Reader — immersive chapter view
+   ============================================================ */
+.reader-progress {
+  position: fixed; top: 0; left: 0; right: 0; height: 3px; z-index: 30;
+  background: rgba(255,255,255,.06);
+}
+.reader-progress #reader-bar {
+  display: block; height: 100%; width: 0;
+  background: linear-gradient(90deg, var(--gold), var(--accent));
+  transition: width .1s linear;
+}
+
+.reader {
+  max-width: 38rem;               /* comfortable reading measure */
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 2rem;
+}
+
+.reader-head { text-align: center; margin: 1.5rem 0 2.5rem; }
+.reader-book { margin: 0 0 1.2rem; font-size: .95rem; }
+.reader-book a { color: var(--muted); }
+.reader-book a:hover { color: var(--gold); }
+.reader-count { color: var(--muted); }
+.reader-label { margin: 0; color: var(--gold); letter-spacing: .28em; text-transform: uppercase; font-size: .72rem; }
+.reader-chapter { font-size: clamp(1.9rem, 5vw, 2.6rem); margin: .4rem 0 0; }
+.reader-rule { color: var(--gold); opacity: .7; margin-top: 1.4rem; letter-spacing: .5em; }
+
+/* Reading body: large serif, generous rhythm. One-sentence paragraphs breathe. */
+.reader-body {
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  font-size: 1.3rem;
+  line-height: 1.85;
+  color: #eef1fb;
+}
+.reader-body p { margin: 0 0 1.25rem; }
+.reader-body p:first-of-type { text-indent: 0; }
+/* Drop cap on the opening line */
+.reader-body > p:first-of-type::first-letter {
+  float: left;
+  font-size: 3.4em;
+  line-height: .82;
+  padding: .06em .1em 0 0;
+  color: var(--gold);
+  font-weight: 600;
+}
+.reader-body em { color: #fff; }
+
+/* Ornamental scene break (generated from ⸻ / * * * / ---) */
+.scene-break {
+  text-align: center;
+  color: var(--gold);
+  opacity: .65;
+  margin: 2.4rem 0;
+  font-size: 1.1rem;
+  letter-spacing: .4em;
+  user-select: none;
+}
+
+/* Chapter navigation */
+.reader-nav {
+  display: flex; align-items: stretch; justify-content: space-between; gap: 1rem;
+  margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border);
+}
+.reader-nav-link { display: flex; flex-direction: column; gap: .2rem; color: var(--text); font-size: .95rem; max-width: 42%; }
+.reader-nav-link.next { text-align: right; align-items: flex-end; }
+.reader-nav-link.home { align-self: center; color: var(--muted); font-size: .85rem; }
+.reader-nav-link:hover { text-decoration: none; }
+.reader-nav-link .dir { color: var(--gold); font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; }
+.reader-nav-link .ch { font-family: "Iowan Old Style", Palatino, Georgia, serif; }
+.reader-nav-link:hover .ch { color: var(--gold); }
+
+@media (max-width: 480px) {
+  .reader-body { font-size: 1.18rem; }
+}
+
+/* Chapter list on the book page */
+.chapter-list { list-style: none; padding: 0; margin: 1.25rem 0 0; display: grid; gap: .6rem; }
+.chapter-list li a {
+  display: flex; align-items: baseline; gap: .8rem;
+  padding: .9rem 1.1rem; border: 1px solid var(--border); border-radius: 10px;
+  background: var(--panel); color: var(--text);
+}
+.chapter-list li a:hover { border-color: var(--gold); text-decoration: none; }
+.chapter-list .c-label { color: var(--gold); font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; min-width: 5.5rem; }
+.chapter-list .c-title { font-family: "Iowan Old Style", Palatino, Georgia, serif; }

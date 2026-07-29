@@ -1,0 +1,69 @@
+# --- Site ---
+title: The Memory of Stars
+tagline: What must a civilization remember if it hopes to survive?
+description: >-
+  A mythic science fiction universe about the rise, flourishing, and decline of
+  civilizations across millions of years — told across thirty novellas. The greatest
+  treasures are not planets or weapons. They are memories.
+author: Steven Ickman
+lang: en
+
+# --- URLs ---
+# For a GitHub Pages project site served from /docs on the main branch.
+# If you later add a custom domain, set baseurl to "" and update url.
+url: "https://stevenic.github.io"
+baseurl: "/MemoryOfStars"
+
+# --- Build ---
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# --- Collections ---
+collections:
+  books:
+    output: true
+    permalink: /books/:name/
+  lore:
+    output: true
+    permalink: /lore/:name/
+  reading:
+    output: true
+    permalink: /read/:name/
+
+# --- Layout defaults ---
+defaults:
+  - scope:
+      path: ""
+      type: books
+    values:
+      layout: book
+  - scope:
+      path: ""
+      type: lore
+    values:
+      layout: lore
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: reading
+    values:
+      layout: chapter
+  # NOTE: no catch-all `layout: default` default here on purpose — it would also
+  # apply to assets/css/style.scss (which has front matter) and wrap the CSS in
+  # HTML. Every page/collection sets its layout explicitly instead.
+
+# --- Don't publish these ---
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .bundle
