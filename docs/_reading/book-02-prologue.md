@@ -1,13 +1,16 @@
-# The Archivist
-
-*Memory of Stars — Novella #2*
-
-<!--
-Structure follows the series signature (Prologue + 3 acts × 3 chapters + Epilogue).
-Chapter titles are provisional until each is drafted. Scene breaks: ⸻.
--->
-
-## Prologue — Observation
+---
+layout: chapter
+book_title: The Archivist
+book_number: '02'
+book_slug: the-archivist
+book_url: "/books/book-02/"
+label: Prologue
+title: Observation
+order: 0
+generated: true
+mood: hushed, patient, dawning wonder; scholarly calm over a quiet awe
+pace: slow and unhurried; let the visions and the silences breathe
+---
 
 Master Renn disliked the word *error.*
 
@@ -25,7 +28,7 @@ He had once believed that.
 
 Not anymore.
 
-⸻
+<div class="scene-break" aria-hidden="true">⸻</div>
 
 The wooden cup sat alone upon the stone pedestal.
 
@@ -374,43 +377,3 @@ Children hurried through the streets carrying lessons they did not yet know woul
 Inside the forgotten chamber, where an ancient instrument had waited centuries for someone to ask the right question, two archivists quietly began the oldest work in the world.
 
 They observed.
-
-## Chapter 1 — The Historian
-
-_..._
-
-## Chapter 2 — The Hall of Names
-
-_..._
-
-## Chapter 3 — The Road to Valen
-
-_..._
-
-## Chapter 4 — Ordinary Things
-
-_..._
-
-## Chapter 5 — The Red Bird
-
-_..._
-
-## Chapter 6 — The Signal
-
-_..._
-
-## Chapter 7 — The Perfect Record
-
-_..._
-
-## Chapter 8 — The Collapse
-
-_..._
-
-## Chapter 9 — The Histories
-
-_..._
-
-## Epilogue — First Light
-
-_..._

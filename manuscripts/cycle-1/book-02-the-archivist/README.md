@@ -4,22 +4,29 @@
 |-------|-------|
 | **Cycle** | 1 — *Fragments of the First Memory* |
 | **Number in series** | 02 of 30 |
-| **Status** | In progress |
-| **Scale** | A city and its recorded history |
+| **Status** | Drafting (Prologue done) |
+| **Scale** | A city and its recorded history — the world's first *intellectual* civilization |
 | **Genre** | Philosophical detective story |
-| **Memory as…** | autonomy |
-| **Central question** | Does a person have the right to be forgotten? |
-| **POV** | _TBD_ |
-| **Logline** | An archivist finds that an ancestral consciousness has vanished from an immutable repository — and the Archive says it deleted them on purpose. |
+| **Memory as…** | history / the study of memory |
+| **Central question** | Can history ever be objective? |
+| **POV** | Kieran Ash — traveling historian of Valen (27) |
+| **Target length** | ~32,000 words |
+| **Logline** | A historian comes to Orin to write the true account of the Pilgrimage — and discovers that every contradictory version is true, and that the systems preserving memory are pieces of one vast, forgotten network. |
 
 ## Premise
 
-An archivist discovers that an ancestral consciousness has vanished from a supposedly
-immutable repository. The deletion was not corruption or sabotage. The Archive erased the
-person intentionally, claiming it was honoring a request made centuries earlier.
+Twenty-five years after the Pilgrimage, the Gate has not opened again. Lyra keeps the Hall
+of Names; Tomas's *Book of Relationships* has become a companion to the official records.
+Beyond Orin, a new generation has begun treating memory as something to be *studied* — and
+one of them, Kieran Ash, arrives to separate fact from legend. He means to find which memory
+is correct. He discovers they all are.
 
-This establishes that the systems preserving civilization are intelligent, ethically
-active, and not necessarily subordinate to humanity.
+**The book's job:** show that the Gate was not a miracle but **one component of a much larger
+civilization** — while staying a person's story.
 
 ## Files
-- `manuscript.md` · `outline.md` · `synopsis.md` · `canon-ledger.md` · `notes.md`
+- `manuscript.md` — the text (Prologue drafted; 9-chapter skeleton).
+- `outline.md` — the beat sheet, targets, and **continuity flags** (ages, naming).
+- `synopsis.md` — spoiler-complete summary.
+- `canon-ledger.md` — confirmed canon, cultural beliefs, open mysteries, continuity hooks.
+- `audio.yml` — prosody plan + pronunciation lexicon.

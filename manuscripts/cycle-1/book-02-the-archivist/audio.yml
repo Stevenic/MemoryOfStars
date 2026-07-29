@@ -1,0 +1,39 @@
+# Audio production sheet — The Archivist (Book 02)
+# Feeds a future ElevenLabs pipeline; NOT published to the website.
+# The web reader reads `mood`/`pace` per chapter as optional prosody hints.
+
+voice:
+  narrator_ref: "TBD"
+  description: "scholarly, patient, quietly wondering — an archive that has learned humility"
+  default_style: "measured, contemplative"
+  default_pace: "slow"
+  stability: 0.6
+  similarity_boost: 0.75
+  style: 0.25
+
+# respell = plain phonetic; ipa = IPA. CONFIRM these against your intent.
+pronunciation:
+  Renn:   { respell: "ren",       ipa: "rɛn" }
+  Neris:  { respell: "NEH-ris",   ipa: "ˈnɛrɪs" }
+  Valen:  { respell: "VAH-len",   ipa: "ˈvɑːlən", note: "the new city" }
+  Kieran: { respell: "KEER-an",   ipa: "ˈkɪərən", note: "protagonist; surname Ash" }
+  Sera:   { respell: "SEH-rah",   ipa: "ˈsɛrə", note: "FLAG: collides audibly with Book 1 Seren/Sael — candidate for rename" }
+  Ash:    { respell: "ash",       ipa: "æʃ", note: "Kieran's surname; echoes Lyra Ashen — confirm intentional" }
+
+# Per-chapter direction; `id` matches the manuscript heading (prologue | chapter-N | epilogue).
+chapters:
+  - id: prologue
+    title: "Observation"
+    mood: "hushed, patient, dawning wonder; scholarly calm over a quiet awe"
+    pace: "slow and unhurried; let the visions and the silences breathe"
+    pause_ms: { scene_break: 1400, line: 450 }
+    notes: >
+      A two-hander in a forgotten chamber. Renn is dry and gentle, decades past needing to
+      be right ("I don't know." / "I try to."); Neris is earnest and quick. Play the Lens
+      visions (cup → bowl → whistle) as reverent, not spectacular — people appearing "only
+      long enough to remind the world they had once existed." The turn is quiet: "The
+      memories changed. The relationships did not." Land the blank notebook titled only
+      **Observations** softly. Close on the benediction rhythm: "They observed."
+    voices:
+      Renn: "old archivist; dry, humble, patient — the thesis-bearer"
+      Neris: "young apprentice; earnest, literal, hungry for the correct answer"

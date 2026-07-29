@@ -16,7 +16,7 @@ its own folder with `manuscript.md`, `outline.md`, `synopsis.md`, `canon-ledger.
 | # | Title | Memory as… | Status |
 |---|-------|------------|--------|
 | 01 | [The First Pilgrim](cycle-1/book-01-the-first-pilgrim/) | inheritance | **Draft complete** |
-| 02 | [The Archivist](cycle-1/book-02-the-archivist/) | autonomy | In progress |
+| 02 | [The Archivist](cycle-1/book-02-the-archivist/) | history / study | Drafting |
 | 03 | [The Lighthouse](cycle-1/book-03-the-lighthouse/) | identity | Planned |
 | 04 | [The City That Forgave](cycle-1/book-04-the-city-that-forgave/) | burden | Planned |
 | 05 | [The Last Witness](cycle-1/book-05-the-last-witness/) | survival | Planned |
