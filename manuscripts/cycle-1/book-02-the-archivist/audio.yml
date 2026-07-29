@@ -37,3 +37,23 @@ chapters:
     voices:
       Renn: "old archivist; dry, humble, patient — the thesis-bearer"
       Neris: "young apprentice; earnest, literal, hungry for the correct answer"
+
+  - id: chapter-1
+    title: "The Historian"
+    mood: "wry, curious, gently disorienting; a rationalist walking into a town that thinks differently"
+    pace: "measured; quicker in the deadpan exchanges"
+    pause_ms: { scene_break: 1300, line: 400 }
+    notes: >
+      Kieran is precise, confident, faintly superior — read his narration crisp and dry;
+      let Orin keep wrong-footing him. The town voices are warm and unbothered (the school
+      children in unison, the archivist's "My condolences," the elderly couple's doll). Lyra
+      is the returning voice — same dry humor, now weathered and wise; play her lightly,
+      never portentous. The bird reveal (faded, the silver line) is quiet, not a sting. The
+      one-note tea "bell" gag ("No." / "We do.") should land clean. End on the Tomas reveal
+      and the button: "It would not be the last."
+    voices:
+      Kieran: "27; exact, rationalist, a little superior — the man certainty is about to fail"
+      Lyra: "~50 now; dry, warm, unhurried; wears the faded bird"
+      Tomas: "the archive-keeper; gentle, oblique — 'I remembered someone eventually would'"
+      archivist_young: "cheerful, matter-of-fact about contradiction"
+      teacher: "patient; teaches memory as relationship"
