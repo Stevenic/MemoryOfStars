@@ -221,3 +221,23 @@ chapters:
       the_father: "warm, perfect, wrong — 'I remember everything' is the tell"
       Tomas: "steady anchor; 'we remember each other… it is what people have always had'"
       Cor / Anet: "belief without memory; the sister beat lands as gentle comedy then tears"
+
+  - id: epilogue
+    title: "Another Sky"
+    mood: "warm homecoming and quiet grief resolving into hope, then a cold thread of mystery"
+    pace: "tender and unhurried through the reunion and the Hall; hushed and dreamlike in the final vision; end on a held, open note"
+    pause_ms: { scene_break: 1400, line: 450 }
+    notes: >
+      Three ⸻ sections plus the dream. Let the Mara reunion land the whole book's ache
+      ("Are you all here?" / "Enough of me."). The Hall sequence is the theme made
+      civic — Sael's plaque, the empty chair, the bowl of pears, Tomas's new book of
+      "things people remember about each other" — play it warm, even funny (pears), but
+      earned. Then shift into the closing hook: the dream, the child under another sky, the
+      silver line on the bird pointing to an unknown star. The final line is the doorway to
+      Novella #2 — deliver it quiet and open, not a sting: "something remembered her name."
+    voices:
+      Lyra: "home but changed; carrying more than herself now"
+      Mara: "joy, then the grief of 'I remember forgetting her'; the ring warmed at the Gate"
+      Elias: "gentle, failing, at peace — 'it proves they were here long enough to leave something behind'"
+      Seren: "wry, softened; the pears beat"
+      Tomas: "hope with humility — 'I found a relationship,' not evidence"
