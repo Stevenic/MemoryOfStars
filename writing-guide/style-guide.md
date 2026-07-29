@@ -15,7 +15,7 @@
 
 - **Chapters:** `## Prologue — Title`, `## Chapter N — Title`, `## Epilogue — Title` in `manuscript.md`. The web reader and audio pipeline both parse these headings.
 - **Scene breaks:** a line containing only `⸻` between scenes. (The renderer also accepts `* * *` / `---`.) The web reader turns it into an ornamental divider; the audio sheet turns it into a long pause.
-- **Prose rhythm:** one-sentence paragraphs separated by blank lines are intentional — keep the blank line so each beat stands alone.
+- **Prose rhythm:** flow by default; the single-sentence "drop" (a line on its own) is a deliberate **emphasis device**, not the norm — a few per scene. Attach action beats to dialogue rather than isolating every line. See [`voice.md` §1 & §3](voice.md).
 - **Emphasis:** _italics_ for emphasis and internal thought; no bold in prose.
 - **Dialogue:** _e.g. em-dashes vs. quotation marks — pick one and hold it._
 

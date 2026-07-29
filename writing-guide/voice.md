@@ -22,26 +22,30 @@ emotion lands through restraint and accumulation rather than intensity.
 
 ---
 
-## 1. The vertical line (rhythm & paragraphing)
+## 1. Rhythm & paragraphing — flow by default, drop for emphasis
 
-The default unit is **one sentence per paragraph**, separated by a blank line. Each beat
-gets air. This is the signature rhythm — a litany, a held breath.
+**Write in natural paragraphs.** Group sentences that belong to the same thought or beat;
+the prose should read smoothly, not as a list.
 
-> There had been six.
+The **single-sentence drop** — one sentence alone on its own line — is the series' signature
+move, but it is a **deliberate device, not the default.** Used everywhere, it flattens: when
+every line stands alone, nothing stands out, and the voice becomes a single sustained note.
+Reserve it — a handful of times per scene — for the moments that earn the weight:
+
+- **a turn** (definition by negation): *"Not weather. / Memory."*
+- **a dry punch or button:** *"History left marks. / Kieran approved of marks."*
+- **a beat of dread or a revelation**
+- **a ritual list:** *"Fold. / Press. / Turn."* · *"One. / Two. / Three."*
+- **a chapter landing:** *"He could not remember whether he had climbed it alone."*
+
+> **Flow:** The road to Orin had become wider, and Kieran considered this an improvement. He
+> paused where the old highway crossed the river and studied the valley below.
 >
-> There were always six.
->
-> For a moment, she had thought she heard a seventh.
+> **Then drop, for the button:** History left marks. Kieran approved of marks.
 
-**Break the pattern deliberately, for two jobs only:**
-- **Sensory/setting sweeps** — one longer, comma-rich sentence or a compact paragraph to
-  ground a place, then return to the vertical line. *("The city slept below, scattered
-  across the valley like fallen stars…")*
-- **Lists rendered as single-word lines** for weight or ritual: *"Fold. / Press. / Turn."*
-  · *"Food. / Blanket. / Rain cloak. / Cup. / Knife."* · *"One. / Two. / Three."*
-
-Rule of thumb: if three consecutive paragraphs are all long, something is wrong. If nothing
-is ever long, the prose goes airless — let one sensory sweep breathe per scene.
+Rule of thumb: most paragraphs should carry more than one sentence. If a whole page is
+single-line drops, you've spent the device — pull most of them back into flowing prose and
+keep the two or three that truly land.
 
 ## 2. Definition by negation (the signature move)
 
@@ -61,18 +65,25 @@ though someone had only just stood up."*
 Use it for the uncanny, for correction, and for emotional precision. Don't overuse it —
 roughly once or twice per scene, never twice in a row.
 
-## 3. Dialogue — deadpan and stichomythic
+## 3. Dialogue — deadpan, with the beats attached
 
-Fast, clipped exchanges, often one line each, frequently **untagged**. Wit comes from
-literalism and understatement, not jokes.
+Fast, dry exchanges — but **attach the action beat and attribution to the line of dialogue**
+(same paragraph). Do *not* isolate every utterance on its own line; that reads as a list,
+not a conversation.
 
-> "You started without me," Lyra said.
-> "I was starving."
-> "You always say families should eat together."
-> "I also say people should come downstairs when called."
+> **Not:** “A historian?” / *[blank]* / “Yes.” / *[blank]* / “My condolences.” / *[blank]* / Kieran blinked. / *[blank]* / “I’m sorry?”
+>
+> **But:** The archivist brightened. “A historian?”
+> “Yes.”
+> “My condolences.”
+> Kieran blinked. “I’m sorry?”
 
-- **Comic understatement:** *"It was a large apple."* · *"You returned two."* ·
-  *"I appreciate skill."*
+Keep a reply **alone on its own line only when the beat wants the silence or the comic
+timing** — *“If you say so.”* · *“It was a large apple.”* New paragraph per speaker, as
+usual. Wit comes from literalism and understatement, never adverbs on tags.
+
+- **Comic understatement:** *“It was a large apple.”* · *“You returned two.”* ·
+  *“I appreciate skill.”*
 - **Characters answer the precise question, slightly off-axis** — especially Tomas
   (*"That is adjacent to the truth."*) and Seren (*answers a question with a flat "No."*).
 - **Tags:** minimal — `said` / `asked`, or none. Never adverbs on tags. Let the line carry
@@ -145,20 +156,22 @@ came before. The gut-punch is a *plain* sentence, not a flourish.
 
 ## Do / Avoid
 
-**Do:** one beat per line · plain, concrete diction · tactile nouns (winterleaf, resin,
-wet spoon) · define by negation · underplay the impossible · minimal dialogue tags ·
-land chapters on a quiet blow.
+**Do:** flowing paragraphs by default · the single-line drop saved for real emphasis ·
+plain, concrete diction · tactile nouns (winterleaf, resin, wet spoon) · define by negation ·
+underplay the impossible · action beats attached to dialogue · land chapters on a quiet blow.
 
-**Avoid:** purple/ornate description · adverb-laden tags (*"she said nervously"*) ·
-explaining the mystery or the emotion · melodramatic reactions to the supernatural ·
-paragraph walls · rhetorical questions from the narrator · modern/anachronistic idiom ·
-drifting the canonical litany phrases.
+**Avoid:** **every line dropped onto its own line** (the whole page as a list — the
+monotony trap) · isolating every dialogue utterance · purple/ornate description ·
+adverb-laden tags (*"she said nervously"*) · explaining the mystery or the emotion ·
+melodramatic reactions to the supernatural · rhetorical questions from the narrator ·
+modern/anachronistic idiom · drifting the canonical litany phrases.
 
 ## 30-second self-check
 
-- [ ] Does the passage read as stacked single-sentence beats, with longer lines used only for sensory grounding?
+- [ ] Does the passage read as **flowing paragraphs**, with the single-line drop reserved for a few genuine emphasis beats — not every line?
+- [ ] Are dialogue **beats attached** (not every utterance isolated), while the punch-lines still get their solo moment?
 - [ ] Is there at least one "define by negation" turn, and not more than two?
-- [ ] Is dialogue clipped, mostly untagged, dry rather than jokey?
+- [ ] Is dialogue clipped, dry rather than jokey?
 - [ ] Are supernatural beats stated flatly, with dread built by repetition/counting?
 - [ ] Are recurring phrases/gestures reproduced verbatim?
 - [ ] Is the emotion shown obliquely, not named?
