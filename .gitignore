@@ -33,3 +33,8 @@ vendor/
 
 # Secrets
 .env
+
+# Private planning & drafts — NEVER COMMIT.
+# The repo is public; spoiler-heavy roadmap/meta-mystery/unwritten-book plans live here
+# and must not leak. Anchored to repo root.
+/planning/
