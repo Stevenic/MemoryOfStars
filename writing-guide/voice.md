@@ -16,9 +16,10 @@ broad craft principles, this file is the measurable sound of the series. It is w
 
 ## The voice in one breath
 
-Spare, vertical, and quietly devastating. Short declaratives stacked one per line, plain
-diction, tactile detail, deadpan wit in dialogue, and the uncanny rendered flatly — so the
-emotion lands through restraint and accumulation rather than intensity.
+Spare and quietly devastating. Flowing paragraphs punctuated by single-line drops at the
+moments that earn them, plain diction, tactile detail, deadpan wit in dialogue, **emotion
+carried by the body rather than named**, and the uncanny rendered flatly — so the feeling
+lands through restraint and accumulation rather than intensity.
 
 ---
 
@@ -82,6 +83,16 @@ Keep a reply **alone on its own line only when the beat wants the silence or the
 timing** — *“If you say so.”* · *“It was a large apple.”* New paragraph per speaker, as
 usual. Wit comes from literalism and understatement, never adverbs on tags.
 
+**Never run more than ~3 clipped exchanges without a body.** A long volley with no hands,
+no objects, no attribution reads as a list and loses the speakers — the reader tracks who
+is talking by counting lines. Ground it: *“Mara didn’t look up from the dough.”* ·
+*“Tomas counted the offenses off on his fingers.”*
+
+**Each character deflects differently** — that, not tags, is what makes untagged lines
+trackable: **Mara** answers sideways while her hands stay busy with something; **Tomas**
+answers the literal question, defended by data; **Lyra** is the one who won’t stop pushing.
+If two speakers share one clipped wit, no amount of tagging will save the exchange.
+
 - **Comic understatement:** *“It was a large apple.”* · *“You returned two.”* ·
   *“I appreciate skill.”*
 - **Characters answer the precise question, slightly off-axis** — especially Tomas
@@ -130,6 +141,25 @@ stage an action or a plain line and move on.
 > He did not promise the answer no longer mattered.
 >
 > He simply stood beside her while she grieved it.
+
+**Put the feeling in the body.** Don’t just avoid naming the emotion — give it a physical
+carrier: hands, breath, voice, an object. The loudest grief is rendered as silence and
+ringing ears, not as the word *grief*.
+
+> *“His shoulders came down half an inch.”* · *“He said it gently, the way you correct a
+> stranger.”* · *“His body remembered her before he did.”* · *“The old man made a sound
+> that was half laugh, half wound.”* · *“Mara’s hand went back to the knot she had already
+> tied, checking it again.”*
+
+**Banned templates** — the tells that read as mechanical, hunted by the critic:
+- *“[Emotion] crossed / filled / entered his face (voice, expression)”* — and the labeled
+  triplet: *“Recognition. Affection. Loss.”*
+- *“[Emotion] rose / arrived / came”* with the feeling as agent — *“Panic rose inside
+  her.”* · *“Anger arrived all at once.”*
+- The narrator frame *“The answer came too quickly / instantly / immediately”* (and its
+  cousins *“The answer satisfied no one / settled slowly / ended the conversation”*). Show
+  the speed or the evasion in a beat instead: *“They walked three steps in silence. He
+  sighed. ‘…Perhaps.’”*
 
 Earn sentiment, then undercut or exit fast. The biggest emotions get the *shortest*
 sentences.

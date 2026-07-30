@@ -8,22 +8,32 @@
 
 ## The series voice
 
-**See [`voice.md`](voice.md) for the full, example-driven voice specification** — the
-vertical one-sentence-per-line rhythm, definition-by-negation, deadpan dialogue, the
-flatly-rendered uncanny, and the canonical litany. This file covers the broader craft
-around that voice.
+**See [`voice.md`](voice.md) for the full, example-driven voice specification** — flowing
+paragraphs with the single-line drop reserved for emphasis, definition-by-negation, deadpan
+dialogue with the beats attached, emotion carried by the body, the flatly-rendered uncanny,
+and the canonical litany. This file covers the broader craft around that voice.
 
 ## Rhythm & sentence craft
 
-_Preferences on sentence length, cadence, paragraphing, white space._
+Flow by default; drop for emphasis (voice.md §1). Group sentences that share a thought
+into natural paragraphs and save the single-line drop for the few beats that earn it. Vary
+any repeated-reply ladder (*"No." / "No." / "No."*) — at most one bare repetition, then a
+body or a sharper variant. A page of identical short lines reads as a metronome, not a
+voice.
 
 ## Description & sensory grounding
 
-_How much, how often, and through whose senses._
+The emotion lives in the body and the object, never in a named feeling (voice.md §6).
+Ground every scene in a few tactile, workaday nouns (dough, winterleaf, a charcoal stylus,
+a wet spoon) and let hands do the emotional work — a strap retied though it was already
+tight says more than any labeled fear. Everything through the POV character's senses.
 
 ## Dialogue
 
-_How characters speak; how much subtext; dialect and idiolect rules._
+Beats attached; never more than ~3 clipped exchanges without a body (voice.md §3). Each
+character deflects differently — that difference, not tags, is what keeps untagged lines
+trackable. Subtext through answering slightly off-axis; wit through literalism and
+understatement.
 
 ## Handling memory (the central force)
 

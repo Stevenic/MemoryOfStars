@@ -46,7 +46,7 @@ Rate each category **0–10**, then take the weighted total to **/100**. Weights
 | 2 | **Theme & Core Question** | 15 | Meaningfully explores *"What must a civilization remember if it hopes to survive?"* and delivers **its assigned facet of memory** (e.g. inheritance). Advances the argument that *preserving memory is never morally neutral*. |
 | 3 | **Story & Structure** | 14 | Pacing, escalation, causality, setups paid off, a satisfying shape. |
 | 4 | **Character** | 14 | Depth, distinct voices, and **at least one permanent change** ("characters matter more than ideas"). |
-| 5 | **Voice & Prose** | 14 | Line-level craft and adherence to [`voice.md`](../../../writing-guide/voice.md) (vertical rhythm, definition-by-negation, deadpan dialogue, flat uncanny, verbatim litany). |
+| 5 | **Voice & Prose** | 14 | Line-level craft and adherence to [`voice.md`](../../../writing-guide/voice.md) (flow-with-drops rhythm, **emotion in the body — no labeled feelings or banned narrator frames**, definition-by-negation, deadpan dialogue with beats attached, flat uncanny, verbatim litany). |
 | 6 | **Wonder & Mystery** | 10 | Earns the "Wow" ([Law 7](../../../series-bible/seven-laws.md#law-7--wonder-comes-first)); introduces/deepens mystery without over-explaining; respects the deliberately-undefined. |
 | 7 | **Emotional Resonance** | 10 | Does it actually move the reader; is sentiment earned and unforced. |
 | 8 | **Series Contribution** | 5 | Enriches the universe, plants durable continuity hooks, fits its cycle's concentric role, sets up what comes next. |
@@ -74,6 +74,13 @@ at "Needs work — not yet publishable"** regardless of the numeric total, and n
 
 ## 4. Scoring discipline
 
+- **The drafter never scores its own prose.** If this session drafted or revised the
+  target, run the scoring through an **independent judge subagent** (use Opus 4.8) that did
+  not write it and is not shown prior scores. To compare versions or measure a revision,
+  judge them **blind A/B**: strip labels/front matter, shuffle which letter is which
+  (don't always make the revision "B"), and require verbatim-quote rationales per score.
+  Within-run A/B deltas are the reliable signal; absolute totals wobble ~5–8 points between
+  judge instances, so never compare totals across runs.
 - **Score within the universe, not generic fiction.** Beautiful prose that breaks a Law
   still tanks Canon Fidelity. Theme is scored on *this book's facet*, not memory in general.
 - **Evidence, not vibes.** Each category score needs a one-line rationale citing a specific

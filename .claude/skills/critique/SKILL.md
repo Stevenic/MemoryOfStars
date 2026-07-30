@@ -73,12 +73,13 @@ From `seven-laws.md`. It's a per-novella gate; for a single chapter, assess its 
 - [ ] Makes the universe feel larger at the end than the start.
 
 ### C. Voice  *(severity: Craft)* — run `voice.md`'s checks
-- Vertical **one-sentence-per-line** rhythm; long sentences reserved for sensory sweeps; no paragraph walls.
+- **Flowing paragraphs by default; the single-line drop as emphasis only** — a page of one-line paragraphs is the monotony trap; long sentences reserved for sensory sweeps; no paragraph walls.
 - **Definition by negation** present but not overused (≈1–2 per scene, never twice in a row).
-- Dialogue **clipped, mostly untagged, dry**; no adverb-laden tags; character voices distinct.
+- Dialogue **dry and deadpan with the beats attached** — never more than ~3 clipped exchanges without a body or attribution; character registers distinct (each deflects differently — if two speakers share one clipped wit, flag it); no adverb-laden tags.
+- **Repeated-reply ladders varied** — *"No." / "No." / "No."* (or *"I know."* ×3) reads mechanical; at most one bare repetition before a body or a variant.
 - The **uncanny rendered flatly**; dread built by repetition/counting, not melodrama.
 - **Canonical litany reproduced verbatim** (the farewell, the gesture, the refrains) — flag any drift.
-- Emotion shown **obliquely**, not named; biggest beats get the shortest sentences.
+- Emotion **in the body, never named** — hunt the banned templates (voice.md §6): *"[emotion] crossed/filled/entered his face"*; *"[emotion] rose/arrived/came"* with the feeling as agent; labeled triplets (*"Recognition. Affection. Loss."*); and the narrator frames *"The answer came too quickly/instantly/immediately"* and cousins (*"satisfied no one" / "settled slowly" / "ended the conversation"*).
 - Section **lands on a short, resonant line**.
 
 ### D. Style & mechanics  *(severity: Nit)* — from `style-guide.md`

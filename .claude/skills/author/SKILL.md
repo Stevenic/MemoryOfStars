@@ -56,7 +56,7 @@ Fan out **dimensional reviewers** (adversarially verify findings; don't trust on
 Feed review findings **back into an outline revision**; re-draft affected chapters; draft Acts II–III against the improved outline (each chapter self-reviewed as in Phase 2). **Loop** review→revise until it comes back clean (loop-until-dry). **Escalate only forks (Gate 4); fix the rest.**
 
 ### Phase 5 — Polish + Score (→ GATE 5)
-Line-edit for voice discipline (the single-line-**drop** used as emphasis only; dialogue beats attached; motifs verbatim). Run `score` — must clear a tier threshold **and** pass the Writer's Test gate. If it can't after K tries, that's a **fork → escalate**. → **GATE 5: final taste read.**
+Line-edit for voice discipline (the single-line-**drop** used as emphasis only; dialogue beats attached; **emotion in the body — hunt the banned templates of voice.md §6**; repeated-reply ladders varied; motifs verbatim). Run `score` via its **blind independent-judge protocol** — must clear a tier threshold **and** pass the Writer's Test gate. If it can't after K tries, that's a **fork → escalate**. → **GATE 5: final taste read.**
 
 ### Phase 6 — Integrate (→ GATE 6)
 Store to `manuscript.md`; add per-chapter `audio.yml` prosody; regenerate the reader (`ruby scripts/build-reading.rb`); return the **four canon-ledger artifacts** to the trunk; update the roadmap/scoreboard; log new glossary terms; flag new coined names for the bible. → **GATE 6: authorize commit/push.**
@@ -70,10 +70,14 @@ From what we've learned reviewing real chapters. Flag any of these:
 - **Bad proportion** — a compressed climax or a thin setup (per-chapter targets are guides, not contracts).
 - **Orphaned prologue** — POV/threads that don't reconnect for a third of the book.
 - **On-the-nose theme** — the theme *recited* (chanted mottos, oracular side-characters) instead of *dramatized*.
+- **Emotion said, not felt** — feelings named (*"[emotion] crossed his face"*, *"Panic rose inside her"*, labeled triplets) or narrator tic frames (*"The answer came too quickly"* family); mechanical one-word reply ladders; beat-less dialogue volleys. (The Book-1 reader complaint — the banned-template list lives in voice.md §6.)
 - Plus the standard gates: Seven-Laws violations, chosen-one drift, answering an *intentionally-undefined* question, motif drift, continuity breaks.
 
 ## Guardrails
 - **Never one-shot a book.** Chapter-by-chapter with continuity, always.
+- **Never self-review.** Phase-3 reviewers and all scoring must be independent subagents that did **not** draft the text; when comparing drafts/revisions, use `score`'s blind A/B protocol. The drafter defends its own median choices — independence is what catches them.
+- **Counter-steer toward restraint.** The machine's characteristic failure is *over*-writing: aphoristic narrator lines, foreshadow tells, rhetorical speeches, labeled emotions. When in doubt, underwrite — put the feeling in the body and let the plain line land (the prose must obey the book's own thesis).
+- **Condition on the author's real prose.** Before drafting, read the author's own written chapters (this book and prior books) and match *their* register — never default to the model's house style.
 - **Never auto-commit or auto-publish.** Gate 6 is the human's.
 - **Never leak `planning/`** into public files. Ground from it; don't quote it.
 - **Escalate forks, fix the rest** — the boundary in Gate 4 is the whole game. When unsure whether something is mechanical or a direction call, treat it as a direction call and ask.
