@@ -599,7 +599,7 @@ Registration occupied most of the morning. Each Pilgrim approached a long table 
 
 The rules had remained unchanged for generations. No one seemed to know why.
 
-When Lyra reached the table, the eldest clerk smiled kindly. “Lyra Ashen.”
+When Lyra reached the table, the eldest clerk smiled kindly. “Lyra Ash.”
 
 She nodded.
 
@@ -3943,7 +3943,7 @@ Young Elias looked between them. “Who is Lyra?”
 
 Sael said nothing.
 
-Lyra looked down at the unfamiliar hands again. “My name is Lyra Ashen.”
+Lyra looked down at the unfamiliar hands again. “My name is Lyra Ash.”
 
 The words felt wrong in this body. Not false. Misplaced.
 

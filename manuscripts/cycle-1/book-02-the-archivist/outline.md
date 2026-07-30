@@ -50,7 +50,7 @@ Pilgrimage.* Far to the north, a beacon wakes.
 ## Continuity flags (resolve before Act I drafts lock)
 - **Ages / time-gap — MUST FIX.** Book 1: Lyra & Tomas were **both 17**. Outline said Lyra 52 / Tomas 55, which is impossible at "25 years" (would be ~42) and makes Tomas older than Lyra. **Decide:** keep them as elders (~52) → set the gap to **~35 years** and Tomas = 52; *or* keep **25 years** → both ~42. (The drafted Ch. 1 should settle it.)
 - **Rename "Sera"** — collides audibly with Book 1's *Seren* / *Sael*.
-- **"Kieran Ash" vs "Lyra Ashen"** — confirm deliberate (family echo) or nudge the surname.
+- **The Ash name — RESOLVED.** Canon is now **Lyra Ash** (Book 1 retconned from "Ashen"). Kieran **Ash** shares the surname deliberately: the Ash line is Kieran's personal stake and the spine of Book 2's mystery (see the concept redesign). The prologue's *ash-wood* cup is a fitting seed.
 - **Hold the network as mystery** — the Lens/Hall may be shown to *connect*, but never explain who built the network or how (see [intentionally-undefined](../../../series-bible/seven-laws.md#things-that-are-intentionally-undefined)).
 
 ## Continuity checklist

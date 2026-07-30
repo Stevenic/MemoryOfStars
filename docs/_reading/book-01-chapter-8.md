@@ -71,7 +71,7 @@ Young Elias looked between them. “Who is Lyra?”
 
 Sael said nothing.
 
-Lyra looked down at the unfamiliar hands again. “My name is Lyra Ashen.”
+Lyra looked down at the unfamiliar hands again. “My name is Lyra Ash.”
 
 The words felt wrong in this body. Not false. Misplaced.
 
