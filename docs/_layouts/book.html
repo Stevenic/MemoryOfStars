@@ -16,10 +16,40 @@ layout: default
     {{ content }}
   </div>
 
-  {%- assign chapters = site.reading | where: "book_slug", page.book_slug | sort: "order" -%}
+  {%- comment -%} Pick the default version's chapters for the contents list. {%- endcomment -%}
+  {%- assign vlist = site.data.reading_versions[page.book_slug] -%}
+  {%- assign all = site.reading | where: "book_slug", page.book_slug -%}
+  {%- if vlist and vlist.size > 1 -%}
+    {%- assign defv = vlist | where: "default", true | first -%}
+    {%- unless defv -%}{%- assign defv = vlist | last -%}{%- endunless -%}
+    {%- assign vid = defv.id -%}
+  {%- else -%}
+    {%- assign vid = all.first.version_id -%}
+  {%- endif -%}
+  {%- assign chapters = all | where: "version_id", vid | sort: "order" -%}
+
   {%- if chapters.size > 0 -%}
   <section class="book-read">
     <a class="btn btn--primary" href="{{ chapters.first.url | relative_url }}">Start reading{% if chapters.first.label %} · {{ chapters.first.label }}{% endif %}</a>
+
+    {%- if vlist and vlist.size > 1 -%}
+    <div class="version-picker version-picker--landing" role="group" aria-label="Choose which version to read">
+      <span class="vp-label">Version</span>
+      <span class="vp-set">
+      {%- for v in vlist -%}
+        {%- assign vfirst = all | where: "version_id", v.id | sort: "order" | first -%}
+        {%- if v.id == vid -%}
+          <span class="vp-opt is-active" aria-current="true">{{ v.label }}</span>
+        {%- elsif vfirst -%}
+          <a class="vp-opt" href="{{ vfirst.url | relative_url }}" title="{{ v.note }}">{{ v.label }}</a>
+        {%- endif -%}
+      {%- endfor -%}
+      </span>
+    </div>
+    {%- assign shown = vlist | where: "id", vid | first -%}
+    {%- if shown.note %}<p class="version-note">Showing the <strong>{{ shown.label }}</strong> version — {{ shown.note | downcase }} Use the picker (here or inside any chapter) to compare.</p>{%- endif -%}
+    {%- endif -%}
+
     <h2>Contents</h2>
     <ol class="chapter-list">
       {%- for c in chapters -%}

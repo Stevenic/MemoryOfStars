@@ -238,6 +238,30 @@ img { max-width: 100%; height: auto; }
 .reader-chapter { font-size: clamp(1.9rem, 5vw, 2.6rem); margin: .4rem 0 0; }
 .reader-rule { color: var(--gold); opacity: .7; margin-top: 1.4rem; letter-spacing: .5em; }
 
+/* Version picker — a small segmented control (Original / Revised …) */
+.version-picker {
+  display: inline-flex; align-items: center; justify-content: center;
+  flex-wrap: wrap; gap: .55rem;
+  margin-top: 1.6rem;
+}
+.vp-label { color: var(--muted); font-size: .66rem; letter-spacing: .24em; text-transform: uppercase; }
+.vp-set {
+  display: inline-flex; gap: 2px;
+  padding: 3px; border: 1px solid var(--border); border-radius: 999px;
+  background: rgba(255,255,255,.02);
+}
+.vp-opt {
+  display: inline-block; padding: .5rem 1.05rem; border-radius: 999px;
+  font-size: .82rem; font-weight: 600; line-height: 1.1; white-space: nowrap;
+  color: var(--muted);
+}
+a.vp-opt:hover { color: var(--gold); text-decoration: none; background: rgba(233,196,106,.09); }
+.vp-opt.is-active { background: var(--gold); color: #201803; }
+
+/* Landing-page variant sits left-aligned under the Start-reading button */
+.version-picker--landing { justify-content: flex-start; margin: 1.1rem 0 .25rem; }
+.version-note { color: var(--muted); font-size: .9rem; margin: .7rem 0 0; max-width: var(--prose); }
+
 /* Reading body: large serif, generous rhythm. One-sentence paragraphs breathe. */
 .reader-body {
   font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
@@ -289,6 +313,7 @@ img { max-width: 100%; height: auto; }
 
 @media (max-width: 480px) {
   .reader-body { font-size: 1.18rem; }
+  .vp-opt { padding: .62rem 1.15rem; }   /* larger tap targets on phones */
 }
 
 /* Chapter list on the book page */

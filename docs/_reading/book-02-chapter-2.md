@@ -8,6 +8,8 @@ label: Chapter 2
 title: The Hall of Names
 order: 2
 generated: true
+version_id: base
+chapter_key: chapter-2
 mood: wry, sharp, a duel of ideas that turns quietly ominous
 pace: brisk in the Tomas debate; slows and cools at the wall of names / Sael
 ---

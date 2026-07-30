@@ -8,9 +8,9 @@ label: Chapter 2
 title: Tomas Knows Everything
 order: 2
 generated: true
-version_id: revised
+version_id: original
 chapter_key: chapter-2
-version_label: Revised
+version_label: Original
 mood: wry, companionable, mystery gathering underneath
 pace: measured; quick in the Lyra/Tomas volleys
 ---
@@ -23,9 +23,17 @@ Tomas nudged her shoulder. “You’ve stopped again.”
 
 “I know.”
 
-“He was looking at you. He knew the bird. And then he acted like he didn’t.” Tomas counted the offenses off on his fingers.
+“He was looking at you.”
 
-“I noticed.” Lyra’s thumb was moving over the chipped wing in her pocket. She made it stop.
+“I noticed.”
+
+“He knew the bird.”
+
+“So it seemed.”
+
+“And then he acted like he didn’t.”
+
+“Also true.”
 
 Tomas frowned. “I dislike contradictions.”
 
@@ -41,9 +49,17 @@ Lyra smiled. “How many?”
 
 “There are at least eleven.”
 
-He produced a folded notebook from his satchel and flipped to a fresh page. “Mystery one, he recognized the bird. Mystery two, he corrected himself almost immediately.” He wrote as he spoke, in remarkably tiny handwriting. “Mystery three.” He looked up. “Whatever frightened him wasn’t the bird.”
+He produced a folded notebook from his satchel and flipped through several pages covered in remarkably tiny handwriting. “First,” he said, “Elias recognized the bird.”
 
-Lyra looked toward the far end of the hall, where Elias stood speaking with a clerk as though nothing in the world had recently refused to make sense. “What was it, then?”
+“I noticed.”
+
+“Second, he corrected himself almost immediately.”
+
+“I noticed that too.”
+
+“Third, whatever frightened him wasn’t the bird.”
+
+Lyra looked toward the far end of the hall where Elias was speaking with another clerk. “What was it?”
 
 Tomas closed the notebook. “I don’t know.”
 
@@ -71,11 +87,25 @@ Registration occupied most of the morning. Each Pilgrim approached a long table 
 
 The rules had remained unchanged for generations. No one seemed to know why.
 
-When Lyra reached the table, the eldest clerk smiled kindly. “Lyra Ash.” She confirmed her age, her household, her health, while the clerk marked each answer with a charcoal stylus, and none of it felt like a morning that would matter.
+When Lyra reached the table, the eldest clerk smiled kindly. “Lyra Ash.”
 
-Then the clerk set the stylus down and looked up. “You understand that the Pilgrimage is voluntary.”
+She nodded.
 
-Every Pilgrim received the same question. Everyone already knew the answer. Still, the clerk waited — properly waited, hands folded — as though the question were being asked for the first time in the history of the world.
+“Age?”
+
+“Seventeen.”
+
+The clerk marked something with a charcoal stylus. “Any changes to your household since Midwinter?”
+
+“No.”
+
+“Any illness that would prevent travel?”
+
+“No.”
+
+The clerk looked up. “You understand that the Pilgrimage is voluntary.”
+
+Every Pilgrim received the same question. Everyone already knew the answer.
 
 “I understand.”
 
@@ -85,9 +115,9 @@ Every Pilgrim received the same question. Everyone already knew the answer. Stil
 
 The clerk slid a narrow silver thread across the table. “Then welcome.”
 
-Walking away, Lyra wondered, for the first time in her life, what would happen if a Pilgrim said no. She had never heard of one who had. She could not decide which was stranger: that the question was always asked, or that it had never once been needed.
+Lyra tied the thread around her wrist. It felt absurdly light.
 
-She tied the thread around her wrist. It weighed nothing. She was aware of it for the rest of the day.
+Yet somehow heavier than anything she had ever worn.
 
 <div class="scene-break" aria-hidden="true">⸻</div>
 
@@ -137,7 +167,9 @@ She handed it to him. He turned it carefully in his hands. His thumb paused over
 
 “So you said.”
 
-He turned the bird over once more. Whatever he had been looking for, he did not find it, and his shoulders came down half an inch. “He did good work.” He returned the bird. “Take good care of it.”
+He smiled. A genuine smile this time. “He did good work.”
+
+Relief crossed his face so subtly Lyra almost missed it. He returned the bird. “Take good care of it.”
 
 “I always have.”
 
@@ -151,7 +183,9 @@ The old man turned. “Yes?”
 
 “Did you know my mother?”
 
-“Sel. Of course.”
+“Sel?”
+
+The answer came instantly. “Of course.”
 
 “You remembered her quickly.”
 
@@ -167,7 +201,9 @@ He withdrew an old brass compass. Its glass was cracked. The needle wandered laz
 
 “It was my mother’s.”
 
-Elias stared at it. For several seconds he said nothing. Then he took the compass with both hands, the way you take something that is still warm.
+Elias stared at it. For several seconds he said nothing. Then he took the compass. His expression softened into something almost impossible to name.
+
+Recognition. Affection. Loss.
 
 “She carried this.”
 
@@ -187,7 +223,7 @@ Tomas opened his mouth. Closed it again. Even he seemed unsure how to respond.
 
 <div class="scene-break" aria-hidden="true">⸻</div>
 
-They left the Hall just before noon. Neither of them mentioned the compass. It rode in Tomas’s satchel like a small, quiet argument against everything they knew. The market had grown crowded. Pilgrims moved through the streets wearing fresh silver threads around their wrists, easy to recognize even without them. Shopkeepers called them by name. Neighbors offered small gifts. A baker pressed warm rolls into Tomas’s hands despite his protests. A florist tucked another white blossom behind Lyra’s ear.
+They left the Hall just before noon. The market had grown crowded. Pilgrims moved through the streets wearing fresh silver threads around their wrists, easy to recognize even without them. Shopkeepers called them by name. Neighbors offered small gifts. A baker pressed warm rolls into Tomas’s hands despite his protests. A florist tucked another white blossom behind Lyra’s ear.
 
 An elderly man she’d never met clasped her shoulders and said, “Carry us well.” Before she could ask what he meant, he had already disappeared into the crowd.
 
@@ -197,7 +233,7 @@ An elderly man she’d never met clasped her shoulders and said, “Carry us wel
 
 “Talking as though they know something.”
 
-“They do know something.” He said it around a mouthful of the baker’s roll he had sworn he didn’t want.
+“They do know something.”
 
 “What?”
 
@@ -253,9 +289,11 @@ Lyra laughed. He looked pleased.
 
 Lyra looked back toward the mountain. She had never thought about it that way.
 
-She thought of every adult she had ever asked. Master Rian had described his boots. Mara had described being frightened. The baker had once spent a quarter hour on the subject of which breads traveled well. Not one of them had ever described arriving.
+Adults happily recounted the climb. The campsites. The weather. The food.
 
-Whenever a conversation approached the summit, it drifted elsewhere. Not abruptly. Almost unconsciously. Like rivers flowing around a stone.
+But whenever conversations approached the summit… They drifted elsewhere.
+
+Not abruptly. Almost unconsciously. Like rivers flowing around a stone.
 
 “What if they just can’t explain it?” she asked.
 
@@ -265,7 +303,7 @@ It was the closest thing to surrender she had ever heard from him.
 
 <div class="scene-break" aria-hidden="true">⸻</div>
 
-As shadows lengthened across the city, families began lighting lanterns. Smoke curled upward from hundreds of chimneys. The streets glowed gold beneath the setting sun.
+As shadows lengthened across the city, the bells announced evening. Families began lighting lanterns. Smoke curled upward from hundreds of chimneys. The streets glowed gold beneath the setting sun.
 
 “It’s beautiful,” Lyra said.
 
@@ -293,24 +331,14 @@ Tomas looked confused. “I do believe it.”
 
 They sat together in comfortable silence.
 
-Then, from the eastern tower, the evening bells began.
-
-Tomas took the compass out and set it on the warm stone between them. Through the first bell the needle wandered, lazy as ever. Through the second. Through the third. On the last it drifted — unhurried, as though it had all the time in the world — until it pointed at the mountain.
-
-It stayed there, trembling faintly, for as long as the final note hung in the air.
-
-Then the note faded, and the needle let go.
-
-Neither of them said anything. Tomas put the compass away with both hands.
-
-Far below, Elias crossed the square alone. He stopped. Looked toward the mountain. Then he glanced beside himself, the way you glance at someone to share a thought too small for words.
+Far below, Elias crossed the square alone. He stopped. Looked toward the mountain. Then, inexplicably, glanced beside himself. As though expecting someone to be walking with him.
 
 No one was there.
 
 He stood for another moment. Then continued toward the Hall of Names.
 
-Lyra watched until he disappeared inside. The last echo of the bells hung over Orin, and she found herself listening for another note. A note where none belonged.
+Lyra watched until he disappeared inside. The evening bells echoed across Orin. For just an instant, she found herself listening for another one.
 
-There wasn’t one. Not this time.
+There wasn’t. Not this time.
 
-She wasn’t sure which she had wanted.
+She wasn’t sure whether that disappointed her or brought relief.

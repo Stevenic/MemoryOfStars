@@ -8,9 +8,9 @@ label: Epilogue
 title: Another Sky
 order: 1000
 generated: true
-version_id: revised
+version_id: original
 chapter_key: epilogue
-version_label: Revised
+version_label: Original
 mood: warm homecoming and quiet grief resolving into hope, then a cold thread of mystery
 pace: tender and unhurried through the reunion and the Hall; hushed and dreamlike
   in the final vision; end on a held, open note
@@ -288,7 +288,7 @@ He came and sat on the floor across from her. His knees protested loudly. Neithe
 
 “Less than yesterday.”
 
-“Does that frighten you?”
+Fear tightened her chest. “Does that frighten you?”
 
 “Yes.”
 

@@ -8,6 +8,8 @@ label: Chapter 3
 title: The Road to Valen
 order: 3
 generated: true
+version_id: base
+chapter_key: chapter-3
 mood: road-quiet and wry, turning inward; the personal wound opens under the intellect
 pace: unhurried; a long exhale between Orin and Valen; stills at the ruin, lifts at
   the city

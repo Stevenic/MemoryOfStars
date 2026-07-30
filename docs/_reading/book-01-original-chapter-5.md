@@ -8,9 +8,9 @@ label: Chapter 5
 title: The House of Memories
 order: 5
 generated: true
-version_id: revised
+version_id: original
 chapter_key: chapter-5
-version_label: Revised
+version_label: Original
 mood: grueling and cold on the climb; uncanny in the house; tender-devastating in
   the dream
 pace: labored through the storm/ledge; hushed and strange indoors; dreamlike then
@@ -287,7 +287,7 @@ She turned. One of the girls stood behind her.
 
 Lyra looked at the mattress. “Yes.”
 
-She had answered without deciding to. The girl moved on. Lyra sat.
+The answer had come without thought. The girl moved on. Lyra sat.
 
 For an instant, she smelled winterleaf. Not faintly. Strongly. As though Mara had just entered the room with an armful of herbs.
 
@@ -539,6 +539,8 @@ Elias looked toward Seren. Again, that silent exchange passed between them.
 
 Elias looked back at her. “I do not know which of my memories are mine.”
 
+The answer ended the conversation.
+
 <div class="scene-break" aria-hidden="true">⸻</div>
 
 Tomas waited near the stairs. His notebook was tucked beneath his coat.
@@ -651,7 +653,9 @@ Lyra tried to stand. The body moved before she commanded it.
 
 Across the room, a young woman was braiding her hair before a mirror. Dark hair. Green eyes. Mara’s face, seventeen years old. Lyra stared at her.
 
-She was looking through Mara’s eyes and seeing Mara across the room.
+Impossible.
+
+She was looking through Mara’s eyes and seeing Mara across the room. The thought made no sense.
 
 The young woman in the mirror turned. Not Mara. Someone else. The face vanished before Lyra understood it.
 
@@ -683,7 +687,7 @@ The woman looked at the bird. “Because she will need to find it.”
 
 “Who?”
 
-The woman looked down at the bird for a moment too long.
+The woman’s expression changed. Grief passed across her face so quickly that Mara might have imagined it.
 
 “You know.”
 
@@ -701,7 +705,7 @@ Mara stood. The room swayed.
 
 The woman smiled faintly. “Seren learned to be careful.”
 
-Mara laughed. Lyra had heard her mother laugh a thousand times. Never like this.
+Mara laughed. The sound broke something inside Lyra. She had heard her mother laugh a thousand times. Never like this.
 
 Young. Unburdened. Before Lyra. Before her father’s death. Before whatever the mountain had taken.
 
@@ -719,7 +723,7 @@ The woman folded Mara’s fingers around it. “You’re giving it to someone el
 
 “Who?”
 
-Mara looked down at the bird. For one impossible instant she found herself holding it the way you hold something that belongs to someone you love. The feeling passed before she could name it.
+Mara looked down at the bird. For one impossible instant, affection filled her for someone she had never met. The feeling passed before she could name it.
 
 The woman leaned forward. For an instant, Lyra thought she would whisper a name. Instead, she touched two fingers to Mara’s heart.
 
@@ -729,7 +733,7 @@ The room shook. Not from thunder. From something enormous moving beneath it.
 
 The windows turned black. The woman in blue stood. “Mara.”
 
-It was not the voice she had painted with. “Wake up.”
+Fear entered her voice for the first time. “Wake up.”
 
 The walls stretched. The beds multiplied. The sunlight vanished.
 

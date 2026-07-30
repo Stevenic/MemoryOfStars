@@ -1,12 +1,13 @@
 ---
 layout: default
 ---
-{%- comment -%} All chapters of this book, in reading order. {%- endcomment -%}
-{%- assign chapters = site.reading | where: "book_slug", page.book_slug | sort: "order" -%}
+{%- comment -%} Chapters of THIS book AND THIS version, in reading order. {%- endcomment -%}
+{%- assign chapters = site.reading | where: "book_slug", page.book_slug | where: "version_id", page.version_id | sort: "order" -%}
 {%- assign total = chapters | size -%}
 {%- assign idx = 0 -%}
 {%- for c in chapters -%}{%- if c.url == page.url -%}{%- assign idx = forloop.index0 -%}{%- endif -%}{%- endfor -%}
 {%- assign human = idx | plus: 1 -%}
+{%- assign vlist = site.data.reading_versions[page.book_slug] -%}
 
 <div class="reader-progress" role="presentation"><span id="reader-bar"></span></div>
 
@@ -19,6 +20,25 @@ layout: default
     {% if page.label %}<p class="reader-label">{{ page.label }}</p>{% endif %}
     <h1 class="reader-chapter">{{ page.title }}</h1>
     <div class="reader-rule" aria-hidden="true">✦</div>
+
+    {%- if vlist and vlist.size > 1 -%}
+    <div class="version-picker" role="group" aria-label="Choose which version to read">
+      <span class="vp-label">Version</span>
+      <span class="vp-set">
+      {%- for v in vlist -%}
+        {%- assign target = site.reading | where: "book_slug", page.book_slug | where: "version_id", v.id | where: "chapter_key", page.chapter_key | first -%}
+        {%- if v.id == page.version_id -%}
+          <span class="vp-opt is-active" aria-current="true">{{ v.label }}</span>
+        {%- elsif target -%}
+          <a class="vp-opt" href="{{ target.url | relative_url }}" title="{{ v.note }}">{{ v.label }}</a>
+        {%- else -%}
+          {%- assign vfirst = site.reading | where: "book_slug", page.book_slug | where: "version_id", v.id | sort: "order" | first -%}
+          {%- if vfirst -%}<a class="vp-opt" href="{{ vfirst.url | relative_url }}" title="{{ v.note }}">{{ v.label }}</a>{%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
+      </span>
+    </div>
+    {%- endif -%}
   </header>
 
   <div class="reader-body">

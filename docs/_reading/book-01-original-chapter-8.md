@@ -8,9 +8,9 @@ label: Chapter 8
 title: Amarin
 order: 8
 generated: true
-version_id: revised
+version_id: original
 chapter_key: chapter-8
-version_label: Revised
+version_label: Original
 mood: otherworldly, dense, revelatory; grief and cosmic dread braided together
 pace: dreamlike and continuous — no scene-break rests; let transitions blur, then
   surge at Elias's sacrifice and the collapse
@@ -34,7 +34,7 @@ Lyra pulled the hand against her chest. Her coat was blue. Not Sael’s blue. Da
 
 A voice behind her said, “Amarin.”
 
-Lyra turned. Elias stood several paces away. Young. His hair was dark except for one pale strand above his left temple. His back was straight. His face had not yet learned to hide what he felt.
+Lyra turned. Elias stood several paces away. Young. His hair was dark except for one pale strand above his left temple. His back was straight. His face had not yet learned to hide what he felt. He looked terrified.
 
 Beyond him, Sael was disappearing. Light moved through her body in fine fractures.
 
@@ -86,7 +86,7 @@ Elias stepped closer. “You are Amarin.”
 
 “I’ve never seen this place.”
 
-“You lived here.”
+His fear sharpened. “You lived here.”
 
 Sael lifted one hand. “Do not force the memories together.”
 
@@ -129,6 +129,8 @@ Sael hesitated. It was the first uncertain movement Lyra had seen from her. “W
 “I remember building them.”
 
 Sael looked at the dark tower. “I no longer remember what they belonged to.”
+
+Her grief entered the wind.
 
 The plain changed. Lyra stood inside a workshop. There had been no movement between places. No Gate. No darkness. One moment black grass. The next, sunlight through high windows.
 
@@ -278,7 +280,7 @@ Lyra pulled free. “That was him.”
 
 “I saw you see someone.”
 
-It sounded like Seren. It sounded like every warning that had brought them here without giving them enough to survive it.
+The answer made her furious. It sounded like Seren. It sounded like every warning that had brought them here without giving them enough to survive it.
 
 Sael stepped between them. “The bird did not preserve a history.”
 
@@ -314,9 +316,11 @@ Sael looked toward the fractured moon. “Because you answered.”
 
 The word held no apology.
 
-“I am not chosen,” Lyra said.
+Lyra’s anger rose. “I am not chosen.”
 
-Sael turned back to her. “No one is. The Gate does not choose people. It encounters them.”
+Sael turned back to her. “No one is.”
+
+The answer came immediately. “The Gate does not choose people. It encounters them.”
 
 “Then what is Amarin?”
 
@@ -350,7 +354,7 @@ Sael’s absent face seemed to turn toward the towers. “Perhaps once.”
 
 “No one whole.”
 
-Amarin had never been a single office passed cleanly from one keeper to the next. It was a responsibility assembled from fragments. A warning from one person. A technique from another. A memory no one else could hold. A refusal to complete the pattern.
+The answer settled slowly. Amarin had never been a single office passed cleanly from one keeper to the next. It was a responsibility assembled from fragments. A warning from one person. A technique from another. A memory no one else could hold. A refusal to complete the pattern.
 
 “Were you Amarin?” Lyra asked.
 
@@ -394,7 +398,7 @@ Sael stood behind the empty chair. He did not see her.
 
 Old Elias looked up. He saw her. “Neither are you.”
 
-Lyra did not ask what he meant.
+The words frightened her.
 
 Young Elias remained nearby, superimposed over the older man. Both versions turned toward Sael.
 
@@ -456,7 +460,9 @@ The Gate appeared between the chairs. On the other side, Seren struck the black 
 
 “Yes.”
 
-Lyra’s breath had already loosened when Sael continued. “But you cannot leave everything here as it was.”
+Relief came too quickly.
+
+Sael continued. “But you cannot leave everything here as it was.”
 
 The empty chair turned. Not physically. Its invitation changed direction. Toward Lyra.
 
@@ -534,7 +540,7 @@ He touched the chair. The white chamber convulsed. Memories burst into the air.
 
 Sael laughing beside a river. Sael asleep over a table. Sael biting into a pear and immediately spitting it out. Sael covering her left hand in red paint. Sael standing in a storm while insisting she was not afraid. Sael holding Elias’s face between her palms. Sael saying his name.
 
-The old man made a sound that was half laugh, half wound.
+The old man gasped. Recognition crossed him. Complete. Joy and grief arrived together.
 
 “Sael.”
 
@@ -592,7 +598,7 @@ Lyra stepped between them. “No.”
 
 Elias looked at her politely. The same way Cor had looked at Anet. “I’m sorry.”
 
-He did not know her.
+Her heart broke. He did not know her.
 
 Sael moved toward the chair. Lyra blocked her. “Get him out.”
 
@@ -634,7 +640,7 @@ The missing. The forgotten. The people who had become grief without names.
 
 Every chair turned toward Elias.
 
-Sael looked at them. The light around her drew inward. “The Gate found the path.”
+Sael looked at them. Fear entered the light around her. “The Gate found the path.”
 
 The red bird appeared in Lyra’s hand. She did not remember taking it.
 
@@ -720,9 +726,9 @@ Elias began to rise. Seren held him down. “No.”
 
 “She came back.”
 
-Seren put his whole weight into holding him.
+“No.”
 
-The old caretaker fought with a strength Lyra had not seen during the entire climb.
+The old caretaker fought him with a strength Lyra had not seen during the entire climb.
 
 Tomas caught Lyra’s shoulders. “Are you here?”
 

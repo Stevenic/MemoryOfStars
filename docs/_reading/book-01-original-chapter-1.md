@@ -8,9 +8,9 @@ label: Chapter 1
 title: The Last Ordinary Morning
 order: 1
 generated: true
-version_id: revised
+version_id: original
 chapter_key: chapter-1
-version_label: Revised
+version_label: Original
 mood: warm, domestic, quietly foreboding
 pace: measured
 ---
@@ -39,11 +39,9 @@ She pushed back the blankets and crossed the room barefoot. Her Pilgrimage cloth
 
 On the windowsill sat a small wooden bird painted red. One wing was chipped. The paint had worn smooth along its back from years of handling. She picked it up without thinking.
 
-Her father had carved it when she was five. At least, that was what Mara had always said. Lyra had no memory of him making it — only of the bird appearing one morning beside her breakfast, and Mara saying he had worked on it after she went to sleep.
+Her father had carved it when she was five. At least, that was what Mara had always said. Lyra had no memory of him making it. She remembered only the bird appearing one morning beside her breakfast and Mara telling her he had worked on it after she went to sleep.
 
-Sometimes she tried to build the scene anyway: a man at this table, a knife, red paint drying by lamplight. The table came easily. The lamplight came easily. The man never had a face. When she tried to give him one, it was always a face borrowed from somewhere else — a merchant’s, a neighbor’s, once even Mara’s — and she would have to take it back.
-
-She returned the bird to the sill and dressed.
+Some memories arrived whole. Others were built from what people told you. She returned the bird to the sill and dressed.
 
 Downstairs, Mara was kneading bread with more force than the dough deserved. Their kitchen was small and warm, built against the rear wall of the house where the morning sun reached first. Copper pans hung above the stove. Bundles of thyme and winterleaf dried near the window. On the table sat two bowls of porridge, one untouched and one already half-eaten.
 
@@ -59,7 +57,7 @@ Mara wiped flour from her hands onto her apron and looked at her. She looked a l
 
 “What?”
 
-“Nothing.” Mara turned back to the dough, which did not need turning.
+“Nothing.”
 
 “That was clearly something.”
 
@@ -67,9 +65,9 @@ Mara wiped flour from her hands onto her apron and looked at her. She looked a l
 
 “I was older yesterday.”
 
-“Not like this.” She said it to her hands, not to Lyra.
+“Not like this.”
 
-Lyra sat at the table.
+Lyra sat at the table. Mara turned back to the bread.
 
 For the past month, adults had been saying strange things to the Pilgrims. You look different. You’ll understand soon. Enjoy this while it lasts. As if everyone who had ever climbed the mountain belonged to a conversation that ended whenever someone younger entered the room.
 
@@ -85,9 +83,17 @@ Mara’s hands stopped. Only for an instant. Then she folded the dough again. �
 
 Mara gave a small laugh, but it arrived too late. “No one thinks you’re dying.”
 
-“Master Rian cried when I bought lamp oil yesterday,” Lyra said. “He held both my hands. Told me I’d always be welcome in his shop.”
+“Master Rian cried when I bought lamp oil yesterday.”
 
-Mara didn’t look up from the dough. “Master Rian cries when the weather changes. And you stole three candles from him when you were eight.”
+“Master Rian cries when the weather changes.”
+
+“He held both my hands.”
+
+“He’s dramatic.”
+
+“He told me I’d always be welcome in his shop.”
+
+“You stole three candles from him when you were eight.”
 
 “I returned them.”
 
@@ -113,7 +119,7 @@ Lyra leaned forward. Mara rarely spoke about her own ascent. Most adults did not
 
 “Were you?”
 
-“Terrified.” Mara said it lightly, the way you set down something heavy.
+“Terrified.”
 
 “You never said that.”
 
@@ -121,11 +127,13 @@ Lyra leaned forward. Mara rarely spoke about her own ascent. Most adults did not
 
 “I’ve asked you a hundred times.”
 
-Mara lifted the dough and dropped it into a clay bowl. “You asked what happened.”
+“You asked what happened.”
 
 “That seems like the same question.”
 
-“It isn’t.” Flour hung between them in the morning light.
+“It isn’t.”
+
+Mara lifted the dough and dropped it into a clay bowl. Flour hung between them in the morning light.
 
 “What were you frightened of?” Lyra asked.
 
@@ -265,7 +273,7 @@ Lyra tucked the flower into her coat. “She’s never spoken to me before,” s
 
 They turned onto the market road. Stalls were unfolding beneath striped awnings. Fishmongers packed river trout into beds of ice. Bakers stacked dark loaves still steaming from the ovens. A spice seller poured red powder from one jar to another, releasing a sharp scent that made Lyra’s eyes water.
 
-Everything looked ordinary.
+Everything looked ordinary. That was what made it feel strange.
 
 The same streets. The same bells. The same people calling the same greetings. But each familiar thing seemed to carry an invisible mark.
 
@@ -345,11 +353,11 @@ Tomas folded the paper. “He’s good at climbing.”
 
 “Another involves ritual inheritance.”
 
-“Also no.”
+“No.”
 
 “The third is more complicated.”
 
-“The third can stay in your satchel.”
+“No.”
 
 They crossed beneath the archway into the oldest part of Orin. The streets narrowed here. Buildings leaned close enough that neighbors could speak across the upper windows. The stones underfoot had been worn smooth by generations of carts, rain, and Pilgrims walking toward the mountain.
 
@@ -379,15 +387,19 @@ Lyra stopped. Tomas nearly walked into her.
 
 “What?”
 
-“Nothing.” But she didn’t move.
+“Nothing.”
 
 “You stopped.”
 
-“I thought I saw someone standing beside Elias.”
+“I thought I saw someone.”
 
-Tomas followed her gaze down the crowded hall. “There’s no one there.”
+“Who?”
 
-“I know,” Lyra said. That was what unsettled her.
+“I don’t know.”
+
+Tomas looked toward Elias. “There’s no one there.”
+
+“I know.”
 
 They joined the line. Along the walls, names climbed from floor to ceiling.
 
@@ -401,7 +413,9 @@ Tomas noticed. “What are you looking for?”
 
 “Thank you.”
 
-The line moved forward. Elias turned. His eyes found Lyra immediately, and the conversation around him seemed to fade. He looked at her the way a man looks at a face he has spent years grieving. Then he caught himself — as though she were only a stranger who resembled someone — and the look was gone.
+The line moved forward. Elias turned. His eyes found Lyra immediately. The conversation around him seemed to fade. He stared at her with an expression she could not understand.
+
+Recognition. Then confusion. Then something close to grief.
 
 Lyra touched the red bird in her pocket, though she did not remember putting it there.
 
@@ -414,8 +428,6 @@ Lyra drew the bird from her pocket. The worn red paint caught the light. “My f
 Elias took one step toward her. “No,” he said.
 
 The word was quiet. Certain.
-
-Lyra’s thumb found the chipped wing. She had answered questions about her father all her life with other people’s sentences. This was the first time anyone had refused one.
 
 Then his certainty vanished. He looked at the bird again. At Lyra. At the wall of names.
 
@@ -441,4 +453,4 @@ Lyra looked toward the mountain. High above Orin, morning mist curled around the
 
 Seven days remained before the Pilgrimage. Seven days before Lyra climbed the mountain.
 
-All the way home, Lyra found herself counting bells that did not ring.
+Seven days before the last ordinary morning of her life became a memory.

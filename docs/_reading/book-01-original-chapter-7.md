@@ -8,9 +8,9 @@ label: Chapter 7
 title: The Gate
 order: 7
 generated: true
-version_id: revised
+version_id: original
 chapter_key: chapter-7
-version_label: Revised
+version_label: Original
 mood: hushed awe and mounting dread; grief; transcendence at the threshold
 pace: measured and ceremonial through the crossings; slows and stills for Elias; builds
   to Lyra's crossing
@@ -34,7 +34,9 @@ Elias stepped forward.
 
 Seren raised one hand. “Wait.”
 
-The old caretaker stopped. Not because he wished to. Because Seren’s voice had cracked on the word.
+The old caretaker stopped. Not because he wished to. Because Seren’s voice carried something Lyra had never heard before.
+
+Fear.
 
 For a long moment Seren simply looked at the opening. Then he faced the Pilgrims. “There is only one rule.”
 
@@ -96,9 +98,9 @@ He searched her face. “I don’t.”
 
 “I’m your sister.”
 
-He said it gently, the way you correct a stranger. “I don’t have a sister.”
+Confusion spread across his features. “I don’t have a sister.”
 
-Anet took his hand as though it might still remember her. “You do.”
+Something inside Anet broke. She reached for his hand anyway. “You do.”
 
 Cor looked at her with helpless kindness. “I believe you.”
 
@@ -137,6 +139,8 @@ He looked toward Lyra. “I don’t need the date anymore.”
 Lyra smiled. “No.”
 
 “I only needed to know it happened.”
+
+Something settled inside him. The mountain seemed lighter.
 
 For the first time since dropping the notebook, Tomas stood without reaching for it.
 
@@ -178,7 +182,7 @@ Elias turned. “You knew?”
 
 “For thirty-two years.”
 
-The staff began to shake in his hand. “You watched me forget.”
+Anger arrived all at once. “You watched me forget.”
 
 “Yes.”
 
@@ -240,7 +244,11 @@ Like a page where the ink had been carefully removed while leaving the paper unt
 
 She lifted two fingers to her heart. Elias made the same gesture without thinking.
 
-His body remembered her before he did.
+Recognition flooded his face.
+
+Not certainty.
+
+Recognition.
 
 “I loved you.” The words surprised even him.
 
@@ -256,7 +264,7 @@ Elias never looked away. “She waited.”
 
 “She remembered.”
 
-“She cannot.”
+“No.”
 
 “She’s alone.”
 
@@ -292,7 +300,7 @@ Lyra looked at him.
 
 “The first time.” His voice barely carried. “He smiled exactly the same way.”
 
-Lyra took a small step back from him. This had happened before.
+The realization frightened Lyra more than the Gate itself. This had happened before.
 
 Not similarly.
 
@@ -382,7 +390,7 @@ She stumbled. Tomas caught her. “Lyra.”
 
 “I don’t know who said it first.”
 
-Mara had not invented the words. She had carried them. Just as someone else had carried them before her.
+The realization hurt. Mara had not invented the words. She had carried them. Just as someone else had carried them before her.
 
 The bird blazed. The Gate widened. The other sky deepened until the mountain itself seemed to stand beneath unfamiliar stars.
 
@@ -398,7 +406,7 @@ Seren looked at Lyra. “If you cross now…” He stopped.
 
 “I don’t know if the person who returns will still be only you.”
 
-Lyra looked toward Tomas. He had gone very white. Not for himself. For her.
+Lyra looked toward Tomas. Fear filled his face. Not fear for himself. For her.
 
 “I can’t tell you what to do,” he said quietly. “I don’t have any evidence.”
 

@@ -8,9 +8,9 @@ label: Chapter 6
 title: The Climb Begins
 order: 6
 generated: true
-version_id: revised
+version_id: original
 chapter_key: chapter-6
-version_label: Revised
+version_label: Original
 mood: punishing ascent building to awe and grief at the Gate
 pace: relentless and thinning with altitude; blows open at the Gate reveal, then slow
   dread on the seventh bell
@@ -294,7 +294,7 @@ Seren ignored him. Lyra held his gaze. “What does that mean?”
 
 “Yes.”
 
-Lyra found she had nothing to put against that.
+The answer silenced her.
 
 Seren looked around the shelter. “If I tell you what others saw, you may see the same because you were told to expect it. If I tell you what others feared, you may mistake their fear for your own.”
 
@@ -530,7 +530,7 @@ He reached toward the bird. His fingers stopped before touching it. “I remembe
 
 “Sael?”
 
-The name almost reached him. Then it vanished.
+Pain crossed his face. The name almost reached him. Then it vanished.
 
 Elias began to cry. Not loudly. With the exhausted grief of someone losing the same person again.
 
@@ -574,7 +574,7 @@ Something was missing. A small word. A simple word. The place every journey was 
 
 Lyra knew the shape of it. She could remember Mara’s mouth forming it. She could remember the warmth of her voice before and after. But not the sound itself.
 
-“Tomas.” Her voice came out wrong.
+Panic rose inside her. “Tomas.”
 
 He looked at her.
 

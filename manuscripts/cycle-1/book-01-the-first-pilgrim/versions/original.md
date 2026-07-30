@@ -43,13 +43,13 @@ The path carried him forward.
 
 The chamber was empty. It always had been. Stone walls curved upward into darkness. Shelves disappeared into shadow. At the center of the room stood a single chair.
 
+Empty.
+
 Elias approached it without hurry. Age had taught him that nothing waiting here could be rushed.
 
 He rested one hand on the worn wood. “I kept my promise.”
 
-Silence.
-
-“So did you,” he said to the empty room.
+Silence. “So did you.”
 
 A breeze drifted through the chamber, though there was no opening for the wind. Something brushed past him.
 
@@ -109,11 +109,9 @@ She pushed back the blankets and crossed the room barefoot. Her Pilgrimage cloth
 
 On the windowsill sat a small wooden bird painted red. One wing was chipped. The paint had worn smooth along its back from years of handling. She picked it up without thinking.
 
-Her father had carved it when she was five. At least, that was what Mara had always said. Lyra had no memory of him making it — only of the bird appearing one morning beside her breakfast, and Mara saying he had worked on it after she went to sleep.
+Her father had carved it when she was five. At least, that was what Mara had always said. Lyra had no memory of him making it. She remembered only the bird appearing one morning beside her breakfast and Mara telling her he had worked on it after she went to sleep.
 
-Sometimes she tried to build the scene anyway: a man at this table, a knife, red paint drying by lamplight. The table came easily. The lamplight came easily. The man never had a face. When she tried to give him one, it was always a face borrowed from somewhere else — a merchant’s, a neighbor’s, once even Mara’s — and she would have to take it back.
-
-She returned the bird to the sill and dressed.
+Some memories arrived whole. Others were built from what people told you. She returned the bird to the sill and dressed.
 
 Downstairs, Mara was kneading bread with more force than the dough deserved. Their kitchen was small and warm, built against the rear wall of the house where the morning sun reached first. Copper pans hung above the stove. Bundles of thyme and winterleaf dried near the window. On the table sat two bowls of porridge, one untouched and one already half-eaten.
 
@@ -129,7 +127,7 @@ Mara wiped flour from her hands onto her apron and looked at her. She looked a l
 
 “What?”
 
-“Nothing.” Mara turned back to the dough, which did not need turning.
+“Nothing.”
 
 “That was clearly something.”
 
@@ -137,9 +135,9 @@ Mara wiped flour from her hands onto her apron and looked at her. She looked a l
 
 “I was older yesterday.”
 
-“Not like this.” She said it to her hands, not to Lyra.
+“Not like this.”
 
-Lyra sat at the table.
+Lyra sat at the table. Mara turned back to the bread.
 
 For the past month, adults had been saying strange things to the Pilgrims. You look different. You’ll understand soon. Enjoy this while it lasts. As if everyone who had ever climbed the mountain belonged to a conversation that ended whenever someone younger entered the room.
 
@@ -155,9 +153,17 @@ Mara’s hands stopped. Only for an instant. Then she folded the dough again. �
 
 Mara gave a small laugh, but it arrived too late. “No one thinks you’re dying.”
 
-“Master Rian cried when I bought lamp oil yesterday,” Lyra said. “He held both my hands. Told me I’d always be welcome in his shop.”
+“Master Rian cried when I bought lamp oil yesterday.”
 
-Mara didn’t look up from the dough. “Master Rian cries when the weather changes. And you stole three candles from him when you were eight.”
+“Master Rian cries when the weather changes.”
+
+“He held both my hands.”
+
+“He’s dramatic.”
+
+“He told me I’d always be welcome in his shop.”
+
+“You stole three candles from him when you were eight.”
 
 “I returned them.”
 
@@ -183,7 +189,7 @@ Lyra leaned forward. Mara rarely spoke about her own ascent. Most adults did not
 
 “Were you?”
 
-“Terrified.” Mara said it lightly, the way you set down something heavy.
+“Terrified.”
 
 “You never said that.”
 
@@ -191,11 +197,13 @@ Lyra leaned forward. Mara rarely spoke about her own ascent. Most adults did not
 
 “I’ve asked you a hundred times.”
 
-Mara lifted the dough and dropped it into a clay bowl. “You asked what happened.”
+“You asked what happened.”
 
 “That seems like the same question.”
 
-“It isn’t.” Flour hung between them in the morning light.
+“It isn’t.”
+
+Mara lifted the dough and dropped it into a clay bowl. Flour hung between them in the morning light.
 
 “What were you frightened of?” Lyra asked.
 
@@ -335,7 +343,7 @@ Lyra tucked the flower into her coat. “She’s never spoken to me before,” s
 
 They turned onto the market road. Stalls were unfolding beneath striped awnings. Fishmongers packed river trout into beds of ice. Bakers stacked dark loaves still steaming from the ovens. A spice seller poured red powder from one jar to another, releasing a sharp scent that made Lyra’s eyes water.
 
-Everything looked ordinary.
+Everything looked ordinary. That was what made it feel strange.
 
 The same streets. The same bells. The same people calling the same greetings. But each familiar thing seemed to carry an invisible mark.
 
@@ -415,11 +423,11 @@ Tomas folded the paper. “He’s good at climbing.”
 
 “Another involves ritual inheritance.”
 
-“Also no.”
+“No.”
 
 “The third is more complicated.”
 
-“The third can stay in your satchel.”
+“No.”
 
 They crossed beneath the archway into the oldest part of Orin. The streets narrowed here. Buildings leaned close enough that neighbors could speak across the upper windows. The stones underfoot had been worn smooth by generations of carts, rain, and Pilgrims walking toward the mountain.
 
@@ -449,15 +457,19 @@ Lyra stopped. Tomas nearly walked into her.
 
 “What?”
 
-“Nothing.” But she didn’t move.
+“Nothing.”
 
 “You stopped.”
 
-“I thought I saw someone standing beside Elias.”
+“I thought I saw someone.”
 
-Tomas followed her gaze down the crowded hall. “There’s no one there.”
+“Who?”
 
-“I know,” Lyra said. That was what unsettled her.
+“I don’t know.”
+
+Tomas looked toward Elias. “There’s no one there.”
+
+“I know.”
 
 They joined the line. Along the walls, names climbed from floor to ceiling.
 
@@ -471,7 +483,9 @@ Tomas noticed. “What are you looking for?”
 
 “Thank you.”
 
-The line moved forward. Elias turned. His eyes found Lyra immediately, and the conversation around him seemed to fade. He looked at her the way a man looks at a face he has spent years grieving. Then he caught himself — as though she were only a stranger who resembled someone — and the look was gone.
+The line moved forward. Elias turned. His eyes found Lyra immediately. The conversation around him seemed to fade. He stared at her with an expression she could not understand.
+
+Recognition. Then confusion. Then something close to grief.
 
 Lyra touched the red bird in her pocket, though she did not remember putting it there.
 
@@ -484,8 +498,6 @@ Lyra drew the bird from her pocket. The worn red paint caught the light. “My f
 Elias took one step toward her. “No,” he said.
 
 The word was quiet. Certain.
-
-Lyra’s thumb found the chipped wing. She had answered questions about her father all her life with other people’s sentences. This was the first time anyone had refused one.
 
 Then his certainty vanished. He looked at the bird again. At Lyra. At the wall of names.
 
@@ -511,7 +523,7 @@ Lyra looked toward the mountain. High above Orin, morning mist curled around the
 
 Seven days remained before the Pilgrimage. Seven days before Lyra climbed the mountain.
 
-All the way home, Lyra found herself counting bells that did not ring.
+Seven days before the last ordinary morning of her life became a memory.
 
 ## Chapter 2 — Tomas Knows Everything
 
@@ -523,9 +535,17 @@ Tomas nudged her shoulder. “You’ve stopped again.”
 
 “I know.”
 
-“He was looking at you. He knew the bird. And then he acted like he didn’t.” Tomas counted the offenses off on his fingers.
+“He was looking at you.”
 
-“I noticed.” Lyra’s thumb was moving over the chipped wing in her pocket. She made it stop.
+“I noticed.”
+
+“He knew the bird.”
+
+“So it seemed.”
+
+“And then he acted like he didn’t.”
+
+“Also true.”
 
 Tomas frowned. “I dislike contradictions.”
 
@@ -541,9 +561,17 @@ Lyra smiled. “How many?”
 
 “There are at least eleven.”
 
-He produced a folded notebook from his satchel and flipped to a fresh page. “Mystery one, he recognized the bird. Mystery two, he corrected himself almost immediately.” He wrote as he spoke, in remarkably tiny handwriting. “Mystery three.” He looked up. “Whatever frightened him wasn’t the bird.”
+He produced a folded notebook from his satchel and flipped through several pages covered in remarkably tiny handwriting. “First,” he said, “Elias recognized the bird.”
 
-Lyra looked toward the far end of the hall, where Elias stood speaking with a clerk as though nothing in the world had recently refused to make sense. “What was it, then?”
+“I noticed.”
+
+“Second, he corrected himself almost immediately.”
+
+“I noticed that too.”
+
+“Third, whatever frightened him wasn’t the bird.”
+
+Lyra looked toward the far end of the hall where Elias was speaking with another clerk. “What was it?”
 
 Tomas closed the notebook. “I don’t know.”
 
@@ -571,11 +599,25 @@ Registration occupied most of the morning. Each Pilgrim approached a long table 
 
 The rules had remained unchanged for generations. No one seemed to know why.
 
-When Lyra reached the table, the eldest clerk smiled kindly. “Lyra Ash.” She confirmed her age, her household, her health, while the clerk marked each answer with a charcoal stylus, and none of it felt like a morning that would matter.
+When Lyra reached the table, the eldest clerk smiled kindly. “Lyra Ash.”
 
-Then the clerk set the stylus down and looked up. “You understand that the Pilgrimage is voluntary.”
+She nodded.
 
-Every Pilgrim received the same question. Everyone already knew the answer. Still, the clerk waited — properly waited, hands folded — as though the question were being asked for the first time in the history of the world.
+“Age?”
+
+“Seventeen.”
+
+The clerk marked something with a charcoal stylus. “Any changes to your household since Midwinter?”
+
+“No.”
+
+“Any illness that would prevent travel?”
+
+“No.”
+
+The clerk looked up. “You understand that the Pilgrimage is voluntary.”
+
+Every Pilgrim received the same question. Everyone already knew the answer.
 
 “I understand.”
 
@@ -585,9 +627,9 @@ Every Pilgrim received the same question. Everyone already knew the answer. Stil
 
 The clerk slid a narrow silver thread across the table. “Then welcome.”
 
-Walking away, Lyra wondered, for the first time in her life, what would happen if a Pilgrim said no. She had never heard of one who had. She could not decide which was stranger: that the question was always asked, or that it had never once been needed.
+Lyra tied the thread around her wrist. It felt absurdly light.
 
-She tied the thread around her wrist. It weighed nothing. She was aware of it for the rest of the day.
+Yet somehow heavier than anything she had ever worn.
 
 ⸻
 
@@ -637,7 +679,9 @@ She handed it to him. He turned it carefully in his hands. His thumb paused over
 
 “So you said.”
 
-He turned the bird over once more. Whatever he had been looking for, he did not find it, and his shoulders came down half an inch. “He did good work.” He returned the bird. “Take good care of it.”
+He smiled. A genuine smile this time. “He did good work.”
+
+Relief crossed his face so subtly Lyra almost missed it. He returned the bird. “Take good care of it.”
 
 “I always have.”
 
@@ -651,7 +695,9 @@ The old man turned. “Yes?”
 
 “Did you know my mother?”
 
-“Sel. Of course.”
+“Sel?”
+
+The answer came instantly. “Of course.”
 
 “You remembered her quickly.”
 
@@ -667,7 +713,9 @@ He withdrew an old brass compass. Its glass was cracked. The needle wandered laz
 
 “It was my mother’s.”
 
-Elias stared at it. For several seconds he said nothing. Then he took the compass with both hands, the way you take something that is still warm.
+Elias stared at it. For several seconds he said nothing. Then he took the compass. His expression softened into something almost impossible to name.
+
+Recognition. Affection. Loss.
 
 “She carried this.”
 
@@ -687,7 +735,7 @@ Tomas opened his mouth. Closed it again. Even he seemed unsure how to respond.
 
 ⸻
 
-They left the Hall just before noon. Neither of them mentioned the compass. It rode in Tomas’s satchel like a small, quiet argument against everything they knew. The market had grown crowded. Pilgrims moved through the streets wearing fresh silver threads around their wrists, easy to recognize even without them. Shopkeepers called them by name. Neighbors offered small gifts. A baker pressed warm rolls into Tomas’s hands despite his protests. A florist tucked another white blossom behind Lyra’s ear.
+They left the Hall just before noon. The market had grown crowded. Pilgrims moved through the streets wearing fresh silver threads around their wrists, easy to recognize even without them. Shopkeepers called them by name. Neighbors offered small gifts. A baker pressed warm rolls into Tomas’s hands despite his protests. A florist tucked another white blossom behind Lyra’s ear.
 
 An elderly man she’d never met clasped her shoulders and said, “Carry us well.” Before she could ask what he meant, he had already disappeared into the crowd.
 
@@ -697,7 +745,7 @@ An elderly man she’d never met clasped her shoulders and said, “Carry us wel
 
 “Talking as though they know something.”
 
-“They do know something.” He said it around a mouthful of the baker’s roll he had sworn he didn’t want.
+“They do know something.”
 
 “What?”
 
@@ -753,9 +801,11 @@ Lyra laughed. He looked pleased.
 
 Lyra looked back toward the mountain. She had never thought about it that way.
 
-She thought of every adult she had ever asked. Master Rian had described his boots. Mara had described being frightened. The baker had once spent a quarter hour on the subject of which breads traveled well. Not one of them had ever described arriving.
+Adults happily recounted the climb. The campsites. The weather. The food.
 
-Whenever a conversation approached the summit, it drifted elsewhere. Not abruptly. Almost unconsciously. Like rivers flowing around a stone.
+But whenever conversations approached the summit… They drifted elsewhere.
+
+Not abruptly. Almost unconsciously. Like rivers flowing around a stone.
 
 “What if they just can’t explain it?” she asked.
 
@@ -765,7 +815,7 @@ It was the closest thing to surrender she had ever heard from him.
 
 ⸻
 
-As shadows lengthened across the city, families began lighting lanterns. Smoke curled upward from hundreds of chimneys. The streets glowed gold beneath the setting sun.
+As shadows lengthened across the city, the bells announced evening. Families began lighting lanterns. Smoke curled upward from hundreds of chimneys. The streets glowed gold beneath the setting sun.
 
 “It’s beautiful,” Lyra said.
 
@@ -793,27 +843,17 @@ Tomas looked confused. “I do believe it.”
 
 They sat together in comfortable silence.
 
-Then, from the eastern tower, the evening bells began.
-
-Tomas took the compass out and set it on the warm stone between them. Through the first bell the needle wandered, lazy as ever. Through the second. Through the third. On the last it drifted — unhurried, as though it had all the time in the world — until it pointed at the mountain.
-
-It stayed there, trembling faintly, for as long as the final note hung in the air.
-
-Then the note faded, and the needle let go.
-
-Neither of them said anything. Tomas put the compass away with both hands.
-
-Far below, Elias crossed the square alone. He stopped. Looked toward the mountain. Then he glanced beside himself, the way you glance at someone to share a thought too small for words.
+Far below, Elias crossed the square alone. He stopped. Looked toward the mountain. Then, inexplicably, glanced beside himself. As though expecting someone to be walking with him.
 
 No one was there.
 
 He stood for another moment. Then continued toward the Hall of Names.
 
-Lyra watched until he disappeared inside. The last echo of the bells hung over Orin, and she found herself listening for another note. A note where none belonged.
+Lyra watched until he disappeared inside. The evening bells echoed across Orin. For just an instant, she found herself listening for another one.
 
-There wasn’t one. Not this time.
+There wasn’t. Not this time.
 
-She wasn’t sure which she had wanted.
+She wasn’t sure whether that disappointed her or brought relief.
 
 ## Chapter 3 — The Festival of Last Things
 
@@ -1139,7 +1179,9 @@ Elias looked toward Tomas, who was explaining race standards to an uninterested 
 
 “No.”
 
-Elias frowned, as though the word had left him before he had chosen it. “I suppose I mean Sel.”
+The answer came too quickly.
+
+Elias’s brow tightened. “I suppose I mean Sel.”
 
 “You knew her well?”
 
@@ -1361,7 +1403,7 @@ Mara looked toward the mountain. “No,” she said slowly. “Not my mother.”
 
 “Then who?”
 
-Mara’s hand went back to the knot she had already tied, checking it again. “I don’t remember.”
+The question seemed to frighten her. She touched the red thread. “I don’t remember.”
 
 A bell rang from somewhere in the Festival. A small brass sound. Mara turned sharply.
 
@@ -1375,7 +1417,9 @@ Then the dancers crossed between them. The woman disappeared. Mara blinked.
 
 “You saw someone.”
 
-“No.” But Mara was still looking at the place where the dancers had crossed.
+“No.”
+
+The answer came too quickly.
 
 Lyra waited. Mara looked at the red thread around her wrist.
 
@@ -1491,7 +1535,11 @@ Neither of them moved toward the door. At last Mara reached up and adjusted Lyra
 
 “I will.”
 
-“If the weather changes, put your rain cloak on before you’re soaked. Eat before you’re hungry.” Mara was retying the top strap of the pack as she spoke, though it was already tight.
+“If the weather changes, put your rain cloak on before you’re soaked.”
+
+“I know.”
+
+“Eat before you’re hungry.”
 
 “I know.”
 
@@ -1519,7 +1567,7 @@ Lyra searched her mother’s face. “What does that mean?”
 
 “Who?”
 
-Mara looked toward the empty hallway, as though the answer had been standing there a moment ago.
+Mara looked toward the empty hallway. Fear crossed her expression. Just for an instant.
 
 “I can’t remember.”
 
@@ -1653,7 +1701,9 @@ Elias looked toward the mountain. “No.”
 
 Silence settled over the square.
 
-Lyra found Mara immediately. Her mother was watching Elias the way you watch a locked door swing open. Not surprise. Recognition.
+Lyra found Mara immediately. Her mother was watching Elias. Not with surprise. With recognition.
+
+And fear.
 
 Seren lowered his voice. Whatever he said next, only Elias heard.
 
@@ -1721,7 +1771,7 @@ She touched the pocket holding the bird. “Did you come because of this?”
 
 His eyes shifted briefly toward her coat. “No.”
 
-They walked three steps in silence. He sighed. “…Perhaps.”
+The answer came too quickly. He sighed. “…Perhaps.”
 
 “What do you know about it?”
 
@@ -1771,7 +1821,7 @@ A boy raised his hand. “How do we recognize it?”
 
 “You’ll know.”
 
-No one found this reassuring.
+The answer satisfied no one.
 
 Darkness settled quickly. One by one the Pilgrims crawled beneath their blankets. Above them stretched the clearest night sky Lyra had ever seen. Entire rivers of stars hidden from Orin by smoke and lantern light.
 
@@ -1819,7 +1869,7 @@ His face had gone pale.
 
 “Do you know whose this is?” Lyra whispered.
 
-Elias stared at the bedroll. His lips parted around a name that did not arrive.
+Elias stared at the bedroll. His lips parted. A name almost appeared. Instead confusion overtook him.
 
 “I…”
 
@@ -2153,7 +2203,7 @@ She turned. One of the girls stood behind her.
 
 Lyra looked at the mattress. “Yes.”
 
-She had answered without deciding to. The girl moved on. Lyra sat.
+The answer had come without thought. The girl moved on. Lyra sat.
 
 For an instant, she smelled winterleaf. Not faintly. Strongly. As though Mara had just entered the room with an armful of herbs.
 
@@ -2405,6 +2455,8 @@ Elias looked toward Seren. Again, that silent exchange passed between them.
 
 Elias looked back at her. “I do not know which of my memories are mine.”
 
+The answer ended the conversation.
+
 ⸻
 
 Tomas waited near the stairs. His notebook was tucked beneath his coat.
@@ -2517,7 +2569,9 @@ Lyra tried to stand. The body moved before she commanded it.
 
 Across the room, a young woman was braiding her hair before a mirror. Dark hair. Green eyes. Mara’s face, seventeen years old. Lyra stared at her.
 
-She was looking through Mara’s eyes and seeing Mara across the room.
+Impossible.
+
+She was looking through Mara’s eyes and seeing Mara across the room. The thought made no sense.
 
 The young woman in the mirror turned. Not Mara. Someone else. The face vanished before Lyra understood it.
 
@@ -2549,7 +2603,7 @@ The woman looked at the bird. “Because she will need to find it.”
 
 “Who?”
 
-The woman looked down at the bird for a moment too long.
+The woman’s expression changed. Grief passed across her face so quickly that Mara might have imagined it.
 
 “You know.”
 
@@ -2567,7 +2621,7 @@ Mara stood. The room swayed.
 
 The woman smiled faintly. “Seren learned to be careful.”
 
-Mara laughed. Lyra had heard her mother laugh a thousand times. Never like this.
+Mara laughed. The sound broke something inside Lyra. She had heard her mother laugh a thousand times. Never like this.
 
 Young. Unburdened. Before Lyra. Before her father’s death. Before whatever the mountain had taken.
 
@@ -2585,7 +2639,7 @@ The woman folded Mara’s fingers around it. “You’re giving it to someone el
 
 “Who?”
 
-Mara looked down at the bird. For one impossible instant she found herself holding it the way you hold something that belongs to someone you love. The feeling passed before she could name it.
+Mara looked down at the bird. For one impossible instant, affection filled her for someone she had never met. The feeling passed before she could name it.
 
 The woman leaned forward. For an instant, Lyra thought she would whisper a name. Instead, she touched two fingers to Mara’s heart.
 
@@ -2595,7 +2649,7 @@ The room shook. Not from thunder. From something enormous moving beneath it.
 
 The windows turned black. The woman in blue stood. “Mara.”
 
-It was not the voice she had painted with. “Wake up.”
+Fear entered her voice for the first time. “Wake up.”
 
 The walls stretched. The beds multiplied. The sunlight vanished.
 
@@ -3087,7 +3141,7 @@ Seren ignored him. Lyra held his gaze. “What does that mean?”
 
 “Yes.”
 
-Lyra found she had nothing to put against that.
+The answer silenced her.
 
 Seren looked around the shelter. “If I tell you what others saw, you may see the same because you were told to expect it. If I tell you what others feared, you may mistake their fear for your own.”
 
@@ -3323,7 +3377,7 @@ He reached toward the bird. His fingers stopped before touching it. “I remembe
 
 “Sael?”
 
-The name almost reached him. Then it vanished.
+Pain crossed his face. The name almost reached him. Then it vanished.
 
 Elias began to cry. Not loudly. With the exhausted grief of someone losing the same person again.
 
@@ -3367,7 +3421,7 @@ Something was missing. A small word. A simple word. The place every journey was 
 
 Lyra knew the shape of it. She could remember Mara’s mouth forming it. She could remember the warmth of her voice before and after. But not the sound itself.
 
-“Tomas.” Her voice came out wrong.
+Panic rose inside her. “Tomas.”
 
 He looked at her.
 
@@ -3413,7 +3467,9 @@ Elias stepped forward.
 
 Seren raised one hand. “Wait.”
 
-The old caretaker stopped. Not because he wished to. Because Seren’s voice had cracked on the word.
+The old caretaker stopped. Not because he wished to. Because Seren’s voice carried something Lyra had never heard before.
+
+Fear.
 
 For a long moment Seren simply looked at the opening. Then he faced the Pilgrims. “There is only one rule.”
 
@@ -3475,9 +3531,9 @@ He searched her face. “I don’t.”
 
 “I’m your sister.”
 
-He said it gently, the way you correct a stranger. “I don’t have a sister.”
+Confusion spread across his features. “I don’t have a sister.”
 
-Anet took his hand as though it might still remember her. “You do.”
+Something inside Anet broke. She reached for his hand anyway. “You do.”
 
 Cor looked at her with helpless kindness. “I believe you.”
 
@@ -3516,6 +3572,8 @@ He looked toward Lyra. “I don’t need the date anymore.”
 Lyra smiled. “No.”
 
 “I only needed to know it happened.”
+
+Something settled inside him. The mountain seemed lighter.
 
 For the first time since dropping the notebook, Tomas stood without reaching for it.
 
@@ -3557,7 +3615,7 @@ Elias turned. “You knew?”
 
 “For thirty-two years.”
 
-The staff began to shake in his hand. “You watched me forget.”
+Anger arrived all at once. “You watched me forget.”
 
 “Yes.”
 
@@ -3619,7 +3677,11 @@ Like a page where the ink had been carefully removed while leaving the paper unt
 
 She lifted two fingers to her heart. Elias made the same gesture without thinking.
 
-His body remembered her before he did.
+Recognition flooded his face.
+
+Not certainty.
+
+Recognition.
 
 “I loved you.” The words surprised even him.
 
@@ -3635,7 +3697,7 @@ Elias never looked away. “She waited.”
 
 “She remembered.”
 
-“She cannot.”
+“No.”
 
 “She’s alone.”
 
@@ -3671,7 +3733,7 @@ Lyra looked at him.
 
 “The first time.” His voice barely carried. “He smiled exactly the same way.”
 
-Lyra took a small step back from him. This had happened before.
+The realization frightened Lyra more than the Gate itself. This had happened before.
 
 Not similarly.
 
@@ -3761,7 +3823,7 @@ She stumbled. Tomas caught her. “Lyra.”
 
 “I don’t know who said it first.”
 
-Mara had not invented the words. She had carried them. Just as someone else had carried them before her.
+The realization hurt. Mara had not invented the words. She had carried them. Just as someone else had carried them before her.
 
 The bird blazed. The Gate widened. The other sky deepened until the mountain itself seemed to stand beneath unfamiliar stars.
 
@@ -3777,7 +3839,7 @@ Seren looked at Lyra. “If you cross now…” He stopped.
 
 “I don’t know if the person who returns will still be only you.”
 
-Lyra looked toward Tomas. He had gone very white. Not for himself. For her.
+Lyra looked toward Tomas. Fear filled his face. Not fear for himself. For her.
 
 “I can’t tell you what to do,” he said quietly. “I don’t have any evidence.”
 
@@ -3841,7 +3903,7 @@ Lyra pulled the hand against her chest. Her coat was blue. Not Sael’s blue. Da
 
 A voice behind her said, “Amarin.”
 
-Lyra turned. Elias stood several paces away. Young. His hair was dark except for one pale strand above his left temple. His back was straight. His face had not yet learned to hide what he felt.
+Lyra turned. Elias stood several paces away. Young. His hair was dark except for one pale strand above his left temple. His back was straight. His face had not yet learned to hide what he felt. He looked terrified.
 
 Beyond him, Sael was disappearing. Light moved through her body in fine fractures.
 
@@ -3893,7 +3955,7 @@ Elias stepped closer. “You are Amarin.”
 
 “I’ve never seen this place.”
 
-“You lived here.”
+His fear sharpened. “You lived here.”
 
 Sael lifted one hand. “Do not force the memories together.”
 
@@ -3936,6 +3998,8 @@ Sael hesitated. It was the first uncertain movement Lyra had seen from her. “W
 “I remember building them.”
 
 Sael looked at the dark tower. “I no longer remember what they belonged to.”
+
+Her grief entered the wind.
 
 The plain changed. Lyra stood inside a workshop. There had been no movement between places. No Gate. No darkness. One moment black grass. The next, sunlight through high windows.
 
@@ -4085,7 +4149,7 @@ Lyra pulled free. “That was him.”
 
 “I saw you see someone.”
 
-It sounded like Seren. It sounded like every warning that had brought them here without giving them enough to survive it.
+The answer made her furious. It sounded like Seren. It sounded like every warning that had brought them here without giving them enough to survive it.
 
 Sael stepped between them. “The bird did not preserve a history.”
 
@@ -4121,9 +4185,11 @@ Sael looked toward the fractured moon. “Because you answered.”
 
 The word held no apology.
 
-“I am not chosen,” Lyra said.
+Lyra’s anger rose. “I am not chosen.”
 
-Sael turned back to her. “No one is. The Gate does not choose people. It encounters them.”
+Sael turned back to her. “No one is.”
+
+The answer came immediately. “The Gate does not choose people. It encounters them.”
 
 “Then what is Amarin?”
 
@@ -4157,7 +4223,7 @@ Sael’s absent face seemed to turn toward the towers. “Perhaps once.”
 
 “No one whole.”
 
-Amarin had never been a single office passed cleanly from one keeper to the next. It was a responsibility assembled from fragments. A warning from one person. A technique from another. A memory no one else could hold. A refusal to complete the pattern.
+The answer settled slowly. Amarin had never been a single office passed cleanly from one keeper to the next. It was a responsibility assembled from fragments. A warning from one person. A technique from another. A memory no one else could hold. A refusal to complete the pattern.
 
 “Were you Amarin?” Lyra asked.
 
@@ -4201,7 +4267,7 @@ Sael stood behind the empty chair. He did not see her.
 
 Old Elias looked up. He saw her. “Neither are you.”
 
-Lyra did not ask what he meant.
+The words frightened her.
 
 Young Elias remained nearby, superimposed over the older man. Both versions turned toward Sael.
 
@@ -4263,7 +4329,9 @@ The Gate appeared between the chairs. On the other side, Seren struck the black 
 
 “Yes.”
 
-Lyra’s breath had already loosened when Sael continued. “But you cannot leave everything here as it was.”
+Relief came too quickly.
+
+Sael continued. “But you cannot leave everything here as it was.”
 
 The empty chair turned. Not physically. Its invitation changed direction. Toward Lyra.
 
@@ -4341,7 +4409,7 @@ He touched the chair. The white chamber convulsed. Memories burst into the air.
 
 Sael laughing beside a river. Sael asleep over a table. Sael biting into a pear and immediately spitting it out. Sael covering her left hand in red paint. Sael standing in a storm while insisting she was not afraid. Sael holding Elias’s face between her palms. Sael saying his name.
 
-The old man made a sound that was half laugh, half wound.
+The old man gasped. Recognition crossed him. Complete. Joy and grief arrived together.
 
 “Sael.”
 
@@ -4399,7 +4467,7 @@ Lyra stepped between them. “No.”
 
 Elias looked at her politely. The same way Cor had looked at Anet. “I’m sorry.”
 
-He did not know her.
+Her heart broke. He did not know her.
 
 Sael moved toward the chair. Lyra blocked her. “Get him out.”
 
@@ -4441,7 +4509,7 @@ The missing. The forgotten. The people who had become grief without names.
 
 Every chair turned toward Elias.
 
-Sael looked at them. The light around her drew inward. “The Gate found the path.”
+Sael looked at them. Fear entered the light around her. “The Gate found the path.”
 
 The red bird appeared in Lyra’s hand. She did not remember taking it.
 
@@ -4527,9 +4595,9 @@ Elias began to rise. Seren held him down. “No.”
 
 “She came back.”
 
-Seren put his whole weight into holding him.
+“No.”
 
-The old caretaker fought with a strength Lyra had not seen during the entire climb.
+The old caretaker fought him with a strength Lyra had not seen during the entire climb.
 
 Tomas caught Lyra’s shoulders. “Are you here?”
 
@@ -4735,7 +4803,7 @@ Sael rose within the chamber. Elias stared at her. Her face was nearly visible n
 
 Dark eyes. A narrow mouth. A strand of hair moving across one cheek.
 
-Lyra could remember her now. Absence had been kinder. The path was becoming complete.
+Lyra could remember her. That frightened her more than absence had. The path was becoming complete.
 
 Elias took one step toward the Gate. Seren did not stop him.
 
@@ -4988,6 +5056,8 @@ Forty-nine travelers joined beneath the snow.
 Lyra felt another hand close around her empty left hand. Warm. Familiar.
 
 No one stood there. She did not look. Someone was missing.
+
+Leaving room was not the same as filling it.
 
 The Gate trembled. The red bird remained on the empty chair.
 
@@ -5643,7 +5713,7 @@ He came and sat on the floor across from her. His knees protested loudly. Neithe
 
 “Less than yesterday.”
 
-“Does that frighten you?”
+Fear tightened her chest. “Does that frighten you?”
 
 “Yes.”
 

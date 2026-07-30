@@ -8,6 +8,8 @@ label: Chapter 1
 title: The Historian
 order: 1
 generated: true
+version_id: base
+chapter_key: chapter-1
 mood: wry, curious, gently disorienting; a rationalist walking into a town that thinks
   differently
 pace: measured; quicker in the deadpan exchanges

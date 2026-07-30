@@ -8,9 +8,9 @@ label: Chapter 9
 title: The Empty Chair
 order: 9
 generated: true
-version_id: revised
+version_id: original
 chapter_key: chapter-9
-version_label: Revised
+version_label: Original
 mood: the resolution — grief, temptation, refusal, and communal catharsis; bittersweet,
   earned
 pace: slow and heavy through Seren's confession and the father temptation; warmer
@@ -187,7 +187,7 @@ Sael rose within the chamber. Elias stared at her. Her face was nearly visible n
 
 Dark eyes. A narrow mouth. A strand of hair moving across one cheek.
 
-Lyra could remember her now. Absence had been kinder. The path was becoming complete.
+Lyra could remember her. That frightened her more than absence had. The path was becoming complete.
 
 Elias took one step toward the Gate. Seren did not stop him.
 
@@ -440,6 +440,8 @@ Forty-nine travelers joined beneath the snow.
 Lyra felt another hand close around her empty left hand. Warm. Familiar.
 
 No one stood there. She did not look. Someone was missing.
+
+Leaving room was not the same as filling it.
 
 The Gate trembled. The red bird remained on the empty chair.
 

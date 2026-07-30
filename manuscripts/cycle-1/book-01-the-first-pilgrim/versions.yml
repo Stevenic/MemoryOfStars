@@ -1,0 +1,23 @@
+# Reading versions for this book.
+#
+# When this file is present, the site renders one set of reading pages PER version
+# and shows a version picker in the reader. When it is ABSENT, the book renders as a
+# single version from manuscript.md with no picker (the original behaviour).
+#
+# - `default` is the version served at the plain /read/book-NN-<chapter>/ URLs, so
+#   existing links keep working. Non-default versions get /read/book-NN-<id>-<chapter>/.
+# - `file` is relative to this book folder. The default version normally points at the
+#   live manuscript.md; frozen snapshots live under versions/.
+# - `label` is what the picker shows. Keep it short (fits a segmented control).
+
+default: revised
+
+versions:
+  - id: original
+    label: Original
+    file: versions/original.md
+    note: The first complete draft.
+  - id: revised
+    label: Revised
+    file: manuscript.md
+    note: Dialogue, emotion and rhythm pass.

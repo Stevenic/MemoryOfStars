@@ -8,9 +8,9 @@ label: Chapter 3
 title: The Festival of Last Things
 order: 3
 generated: true
-version_id: revised
+version_id: original
 chapter_key: chapter-3
-version_label: Revised
+version_label: Original
 mood: festive and joyous up top, turning intimate and haunted by the end
 pace: lively through the theft/race; slow and grave for the slate ceremony and the
   ending
@@ -338,7 +338,9 @@ Elias looked toward Tomas, who was explaining race standards to an uninterested 
 
 “No.”
 
-Elias frowned, as though the word had left him before he had chosen it. “I suppose I mean Sel.”
+The answer came too quickly.
+
+Elias’s brow tightened. “I suppose I mean Sel.”
 
 “You knew her well?”
 
@@ -560,7 +562,7 @@ Mara looked toward the mountain. “No,” she said slowly. “Not my mother.”
 
 “Then who?”
 
-Mara’s hand went back to the knot she had already tied, checking it again. “I don’t remember.”
+The question seemed to frighten her. She touched the red thread. “I don’t remember.”
 
 A bell rang from somewhere in the Festival. A small brass sound. Mara turned sharply.
 
@@ -574,7 +576,9 @@ Then the dancers crossed between them. The woman disappeared. Mara blinked.
 
 “You saw someone.”
 
-“No.” But Mara was still looking at the place where the dancers had crossed.
+“No.”
+
+The answer came too quickly.
 
 Lyra waited. Mara looked at the red thread around her wrist.
 

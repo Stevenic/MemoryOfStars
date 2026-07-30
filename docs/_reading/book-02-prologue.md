@@ -8,6 +8,8 @@ label: Prologue
 title: Observation
 order: 0
 generated: true
+version_id: base
+chapter_key: prologue
 mood: hushed, patient, dawning wonder; scholarly calm over a quiet awe
 pace: slow and unhurried; let the visions and the silences breathe
 ---

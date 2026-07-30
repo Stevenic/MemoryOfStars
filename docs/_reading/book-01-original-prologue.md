@@ -8,9 +8,9 @@ label: Prologue
 title: The Mountain Remembers
 order: 0
 generated: true
-version_id: revised
+version_id: original
 chapter_key: prologue
-version_label: Revised
+version_label: Original
 mood: elegiac, hushed, reverent
 pace: very slow
 ---
@@ -49,13 +49,13 @@ The path carried him forward.
 
 The chamber was empty. It always had been. Stone walls curved upward into darkness. Shelves disappeared into shadow. At the center of the room stood a single chair.
 
+Empty.
+
 Elias approached it without hurry. Age had taught him that nothing waiting here could be rushed.
 
 He rested one hand on the worn wood. “I kept my promise.”
 
-Silence.
-
-“So did you,” he said to the empty room.
+Silence. “So did you.”
 
 A breeze drifted through the chamber, though there was no opening for the wind. Something brushed past him.
 

@@ -8,9 +8,9 @@ label: Chapter 4
 title: Elias Returns
 order: 4
 generated: true
-version_id: revised
+version_id: original
 chapter_key: chapter-4
-version_label: Revised
+version_label: Original
 mood: tender goodbye giving way to real dread; the first undeniable wrongness
 pace: slow and aching in the kitchen; brisk on the road; taut and cold at the camp
 ---
@@ -111,7 +111,11 @@ Neither of them moved toward the door. At last Mara reached up and adjusted Lyra
 
 “I will.”
 
-“If the weather changes, put your rain cloak on before you’re soaked. Eat before you’re hungry.” Mara was retying the top strap of the pack as she spoke, though it was already tight.
+“If the weather changes, put your rain cloak on before you’re soaked.”
+
+“I know.”
+
+“Eat before you’re hungry.”
 
 “I know.”
 
@@ -139,7 +143,7 @@ Lyra searched her mother’s face. “What does that mean?”
 
 “Who?”
 
-Mara looked toward the empty hallway, as though the answer had been standing there a moment ago.
+Mara looked toward the empty hallway. Fear crossed her expression. Just for an instant.
 
 “I can’t remember.”
 
@@ -273,7 +277,9 @@ Elias looked toward the mountain. “No.”
 
 Silence settled over the square.
 
-Lyra found Mara immediately. Her mother was watching Elias the way you watch a locked door swing open. Not surprise. Recognition.
+Lyra found Mara immediately. Her mother was watching Elias. Not with surprise. With recognition.
+
+And fear.
 
 Seren lowered his voice. Whatever he said next, only Elias heard.
 
@@ -341,7 +347,7 @@ She touched the pocket holding the bird. “Did you come because of this?”
 
 His eyes shifted briefly toward her coat. “No.”
 
-They walked three steps in silence. He sighed. “…Perhaps.”
+The answer came too quickly. He sighed. “…Perhaps.”
 
 “What do you know about it?”
 
@@ -391,7 +397,7 @@ A boy raised his hand. “How do we recognize it?”
 
 “You’ll know.”
 
-No one found this reassuring.
+The answer satisfied no one.
 
 Darkness settled quickly. One by one the Pilgrims crawled beneath their blankets. Above them stretched the clearest night sky Lyra had ever seen. Entire rivers of stars hidden from Orin by smoke and lantern light.
 
@@ -439,7 +445,7 @@ His face had gone pale.
 
 “Do you know whose this is?” Lyra whispered.
 
-Elias stared at the bedroll. His lips parted around a name that did not arrive.
+Elias stared at the bedroll. His lips parted. A name almost appeared. Instead confusion overtook him.
 
 “I…”
 
