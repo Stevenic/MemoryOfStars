@@ -14,33 +14,11 @@ pace: labored through the storm/ledge; hushed and strange indoors; dreamlike the
   breaking in the Mara vision
 ---
 
-By morning, the extra bedroll had become an argument.
+By morning, the extra bedroll had become an argument. Some Pilgrims remembered seeing it. Some remembered only hearing about it. Three insisted there had never been an extra bedroll at all. One girl remembered a blue thread tied around the pack. Another remembered red.
 
-Some Pilgrims remembered seeing it.
+Tomas remembered everything. Or claimed to.
 
-Some remembered only hearing about it.
-
-Three insisted there had never been an extra bedroll at all.
-
-One girl remembered a blue thread tied around the pack.
-
-Another remembered red.
-
-Tomas remembered everything.
-
-Or claimed to.
-
-He sat beside the dead fire with his notebook open across his knees, writing while the others packed.
-
-Lyra watched him from her bedroll.
-
-His pencil moved quickly.
-
-Stopped.
-
-Crossed out three lines.
-
-Began again.
+He sat beside the dead fire with his notebook open across his knees, writing while the others packed. Lyra watched him from her bedroll. His pencil moved quickly. Stopped. Crossed out three lines. Began again.
 
 She pulled on her boots.
 
@@ -60,13 +38,9 @@ She pulled on her boots.
 
 “That would compromise the data.”
 
-Lyra folded her blanket.
+Lyra folded her blanket. “What do you remember?”
 
-“What do you remember?”
-
-Tomas did not look up.
-
-“Forty-three bedrolls. The extra one was in the middle of the second row. Gray blanket. Old pack. A faded thread tied to the left buckle.”
+Tomas did not look up. “Forty-three bedrolls. The extra one was in the middle of the second row. Gray blanket. Old pack. A faded thread tied to the left buckle.”
 
 “Elias stopped me from touching it.”
 
@@ -78,9 +52,7 @@ Tomas did not look up.
 
 “Tomas.”
 
-He looked up.
-
-“Yes. Elias stopped you.”
+He looked up. “Yes. Elias stopped you.”
 
 “And Seren knew something.”
 
@@ -94,15 +66,7 @@ He looked up.
 
 “That was cruel.”
 
-Lyra sat beside him.
-
-Across the camp, Elias stood alone near the edge of the stone shelf.
-
-He had not eaten.
-
-He had not spoken since waking.
-
-At least, not to anyone Lyra could see.
+Lyra sat beside him. Across the camp, Elias stood alone near the edge of the stone shelf. He had not eaten. He had not spoken since waking. At least, not to anyone Lyra could see.
 
 “What did Elias say last night?” Tomas asked.
 
@@ -114,13 +78,9 @@ At least, not to anyone Lyra could see.
 
 Tomas wrote it down.
 
-Lyra pulled the notebook away.
+Lyra pulled the notebook away. “Stop.”
 
-“Stop.”
-
-He reached for it.
-
-“Those are my notes.”
+He reached for it. “Those are my notes.”
 
 “I know.”
 
@@ -132,27 +92,11 @@ He reached for it.
 
 “It was frightening.”
 
-The word hung between them.
+The word hung between them. Tomas’s hand remained extended. After a moment, he lowered it. “Yes,” he said. “It was.”
 
-Tomas’s hand remained extended.
+Lyra returned the notebook. He closed it.
 
-After a moment, he lowered it.
-
-“Yes,” he said. “It was.”
-
-Lyra returned the notebook.
-
-He closed it.
-
-Around them, Seren called the Pilgrims into line.
-
-The sky had turned white with cloud.
-
-The sun was visible only as a brighter stain above the eastern ridge.
-
-Wind moved steadily across the camp, carrying the smell of wet stone.
-
-The easy weather had ended.
+Around them, Seren called the Pilgrims into line. The sky had turned white with cloud. The sun was visible only as a brighter stain above the eastern ridge. Wind moved steadily across the camp, carrying the smell of wet stone. The easy weather had ended.
 
 “Rain before midday,” Tomas said.
 
@@ -162,25 +106,13 @@ The easy weather had ended.
 
 <div class="scene-break" aria-hidden="true">⸻</div>
 
-The marked path began where the stone shelf narrowed into a steep ridge.
+The marked path began where the stone shelf narrowed into a steep ridge. Lyra had expected painted signs. Posts. Carved arrows. Something.
 
-Lyra had expected painted signs.
-
-Posts.
-
-Carved arrows.
-
-Something.
-
-Instead, Seren stopped beside a pine tree and touched a patch of pale lichen growing along its trunk.
-
-It formed a crooked shape like an open hand.
+Instead, Seren stopped beside a pine tree and touched a patch of pale lichen growing along its trunk. It formed a crooked shape like an open hand.
 
 “This marks the path,” he said.
 
-Tomas leaned closer.
-
-“That grows naturally.”
+Tomas leaned closer. “That grows naturally.”
 
 “Yes.”
 
@@ -188,147 +120,53 @@ Tomas leaned closer.
 
 Seren continued walking.
 
-Tomas looked at Lyra.
-
-“That was not an answer.”
+Tomas looked at Lyra. “That was not an answer.”
 
 “I think it was.”
 
 “It was a statement placed near a question.”
 
-The trail rose sharply.
-
-Within the first hour, conversation disappeared.
-
-Every breath became work.
+The trail rose sharply. Within the first hour, conversation disappeared. Every breath became work.
 
 The path twisted through dense pines, climbing over roots polished by generations of boots. In places, the slope was so steep that the Pilgrims pulled themselves upward using branches and exposed stone.
 
-The first rain began as a mist.
+The first rain began as a mist. Then thickened.
 
-Then thickened.
+Lyra stopped to retrieve her cloak. By the time she fastened it, water had already soaked through the shoulders of her coat.
 
-Lyra stopped to retrieve her cloak.
+Mara had been right. Lyra disliked that almost as much as being wet.
 
-By the time she fastened it, water had already soaked through the shoulders of her coat.
-
-Mara had been right.
-
-Lyra disliked that almost as much as being wet.
-
-Ahead, one of the Pilgrims slipped.
-
-His boots went out from beneath him.
-
-For an instant, he slid backward toward the drop beside the trail.
-
-Torren caught his pack strap with both hands and pulled him against the slope.
+Ahead, one of the Pilgrims slipped. His boots went out from beneath him. For an instant, he slid backward toward the drop beside the trail. Torren caught his pack strap with both hands and pulled him against the slope.
 
 No one laughed.
 
-The boy stood shaking while Seren checked his ankle.
+The boy stood shaking while Seren checked his ankle. The climb resumed more slowly.
 
-The climb resumed more slowly.
+The mountain had ceased to be beautiful. It was mud under Lyra’s nails. Cold water running down her neck. A burning pain beneath the straps of her pack. The constant knowledge that one wrong step could send her into the trees below.
 
-The mountain had ceased to be beautiful.
+The world narrowed to the next foothold. Then the next. Then the next.
 
-It was mud under Lyra’s nails.
+For a while, the mysteries of Orin seemed childish. The bells. The woman in blue. The missing bedroll. All of them belonged to a warm city with dry clothes and level streets. The mountain required more immediate attention.
 
-Cold water running down her neck.
+Near midday, they reached a broken ledge where the trail crossed open rock. Wind struck them without warning. Lyra dropped to one knee. Rain moved sideways across the ridge. Seren shouted something, but the wind tore the words apart. Tomas grabbed her arm. Together, they moved toward the mountain wall.
 
-A burning pain beneath the straps of her pack.
+A rope had been fixed across the exposed section. It looked old. Not frayed. Old in a deeper way, as though it had endured weather longer than rope should.
 
-The constant knowledge that one wrong step could send her into the trees below.
+The Pilgrims crossed one at a time. Lyra fastened the safety line around her waist. The drop below disappeared into cloud. She tried not to look.
 
-The world narrowed to the next foothold.
+Halfway across, the wind strengthened. Her boots slipped. The rope caught her. For a heartbeat, her feet found nothing. She struck the rock hard enough to knock the breath from her lungs.
 
-Then the next.
-
-Then the next.
-
-For a while, the mysteries of Orin seemed childish.
-
-The bells.
-
-The woman in blue.
-
-The missing bedroll.
-
-All of them belonged to a warm city with dry clothes and level streets.
-
-The mountain required more immediate attention.
-
-Near midday, they reached a broken ledge where the trail crossed open rock.
-
-Wind struck them without warning.
-
-Lyra dropped to one knee.
-
-Rain moved sideways across the ridge.
-
-Seren shouted something, but the wind tore the words apart.
-
-Tomas grabbed her arm.
-
-Together, they moved toward the mountain wall.
-
-A rope had been fixed across the exposed section.
-
-It looked old.
-
-Not frayed.
-
-Old in a deeper way, as though it had endured weather longer than rope should.
-
-The Pilgrims crossed one at a time.
-
-Lyra fastened the safety line around her waist.
-
-The drop below disappeared into cloud.
-
-She tried not to look.
-
-Halfway across, the wind strengthened.
-
-Her boots slipped.
-
-The rope caught her.
-
-For a heartbeat, her feet found nothing.
-
-She struck the rock hard enough to knock the breath from her lungs.
-
-Someone shouted her name.
-
-Not Tomas.
-
-Not Seren.
-
-A woman’s voice.
-
-Close to her ear.
+Someone shouted her name. Not Tomas. Not Seren. A woman’s voice. Close to her ear.
 
 “Left hand.”
 
-Lyra reached left.
+Lyra reached left. Her fingers closed around a narrow crack in the stone. She pulled herself upright. Torren reached her from the far side and dragged her onto the ledge. Lyra collapsed against the mountain.
 
-Her fingers closed around a narrow crack in the stone.
-
-She pulled herself upright.
-
-Torren reached her from the far side and dragged her onto the ledge.
-
-Lyra collapsed against the mountain.
-
-Blood gathered across her palm.
-
-The crack had cut her.
+Blood gathered across her palm. The crack had cut her.
 
 Or something inside it had.
 
-Tomas crossed immediately after her.
-
-His face had gone pale.
+Tomas crossed immediately after her. His face had gone pale.
 
 “Are you hurt?”
 
@@ -338,9 +176,7 @@ His face had gone pale.
 
 “So am I.”
 
-He gripped both her shoulders.
-
-“Can you breathe?”
+He gripped both her shoulders. “Can you breathe?”
 
 “Yes.”
 
@@ -354,17 +190,7 @@ He gripped both her shoulders.
 
 “Good.”
 
-Lyra looked back toward the crossing.
-
-The other Pilgrims were moving over the rope.
-
-No woman stood near where she had fallen.
-
-Nalia was behind the line.
-
-Vey was ahead with Seren.
-
-The closest female Pilgrim had not yet begun crossing.
+Lyra looked back toward the crossing. The other Pilgrims were moving over the rope. No woman stood near where she had fallen. Nalia was behind the line. Vey was ahead with Seren. The closest female Pilgrim had not yet begun crossing.
 
 “Did you hear someone?” Lyra asked.
 
@@ -372,17 +198,11 @@ The closest female Pilgrim had not yet begun crossing.
 
 “A voice.”
 
-Tomas shook his head.
+Tomas shook his head. “What did it say?”
 
-“What did it say?”
+Lyra stared at the place where her hand had found the crack. “Left hand.”
 
-Lyra stared at the place where her hand had found the crack.
-
-“Left hand.”
-
-He looked at the rock.
-
-“You could have seen it.”
+He looked at the rock. “You could have seen it.”
 
 “I didn’t.”
 
@@ -390,59 +210,29 @@ He looked at the rock.
 
 “Perhaps.”
 
-The word sounded weak.
+The word sounded weak. Tomas studied her face. Then reached for his notebook.
 
-Tomas studied her face.
+Lyra slapped his hand away. “Not now.”
 
-Then reached for his notebook.
-
-Lyra slapped his hand away.
-
-“Not now.”
-
-He stopped.
-
-“Right.”
+He stopped. “Right.”
 
 That seemed to cost him something.
 
-Seren called for them to continue.
-
-Lyra stood.
-
-Her knees trembled.
+Seren called for them to continue. Lyra stood. Her knees trembled.
 
 She told herself it was the fall.
 
 <div class="scene-break" aria-hidden="true">⸻</div>
 
-The House of Memories appeared in the rain.
+The House of Memories appeared in the rain. There was no gradual approach. One moment, there were only trees and gray stone. Then the path bent around a wall of black rock, and the house stood before them.
 
-There was no gradual approach.
+It was larger than Lyra expected. Three stories of pale stone built directly into the mountain, with a steep slate roof and narrow windows shining amber in the storm. Smoke rose from two chimneys.
 
-One moment, there were only trees and gray stone.
+A wooden sign hung above the entrance. No words had been carved into it. Only a circle crossed by a single vertical line.
 
-Then the path bent around a wall of black rock, and the house stood before them.
+Tomas stopped. “There should not be smoke.”
 
-It was larger than Lyra expected.
-
-Three stories of pale stone built directly into the mountain, with a steep slate roof and narrow windows shining amber in the storm.
-
-Smoke rose from two chimneys.
-
-A wooden sign hung above the entrance.
-
-No words had been carved into it.
-
-Only a circle crossed by a single vertical line.
-
-Tomas stopped.
-
-“There should not be smoke.”
-
-Lyra pulled her cloak tighter.
-
-“Perhaps another group is inside.”
+Lyra pulled her cloak tighter. “Perhaps another group is inside.”
 
 “There are no other groups.”
 
@@ -452,201 +242,87 @@ Lyra pulled her cloak tighter.
 
 “It was a little funny.”
 
-Seren opened the door.
+Seren opened the door. Warm air rushed outward. The Pilgrims entered without waiting to be invited.
 
-Warm air rushed outward.
+Inside, the house smelled of cedar, soup, and something faintly sweet Lyra could not identify. The main room stretched nearly the full width of the building. Long tables stood near a central hearth. Hooks lined the walls for wet cloaks. Shelves held bowls, cups, folded blankets, and stacks of firewood.
 
-The Pilgrims entered without waiting to be invited.
+Everything was clean. Not recently cleaned. Always clean.
 
-Inside, the house smelled of cedar, soup, and something faintly sweet Lyra could not identify.
+No dust gathered in the corners. No soot darkened the stones above the hearth. The fire burned steadily, though no one had tended it.
 
-The main room stretched nearly the full width of the building.
-
-Long tables stood near a central hearth.
-
-Hooks lined the walls for wet cloaks.
-
-Shelves held bowls, cups, folded blankets, and stacks of firewood.
-
-Everything was clean.
-
-Not recently cleaned.
-
-Always clean.
-
-No dust gathered in the corners.
-
-No soot darkened the stones above the hearth.
-
-The fire burned steadily, though no one had tended it.
-
-Lyra stood beneath the doorway, dripping onto the floor.
-
-“Who lives here?” she asked.
+Lyra stood beneath the doorway, dripping onto the floor. “Who lives here?” she asked.
 
 “No one,” Seren said.
 
-Tomas looked toward the fire.
-
-“Someone lit that.”
+Tomas looked toward the fire. “Someone lit that.”
 
 “Yes.”
 
 “Who?”
 
-Seren removed his cloak.
+Seren removed his cloak. “The house.”
 
-“The house.”
+Several Pilgrims laughed. Seren did not.
 
-Several Pilgrims laughed.
+Master En began assigning rooms. The girls were sent to the second floor. The boys to the third. The guides remained below.
 
-Seren did not.
+There were exactly enough beds. Lyra counted them before Tomas could.
 
-Master En began assigning rooms.
-
-The girls were sent to the second floor.
-
-The boys to the third.
-
-The guides remained below.
-
-There were exactly enough beds.
-
-Lyra counted them before Tomas could.
-
-Twenty-one in the girls’ room.
-
-Each narrow bed held a folded blanket and a small pillow.
-
-At the foot of every frame sat a wooden chest.
-
-No names.
-
-No markings.
-
-The walls were paneled in dark wood.
-
-Rain tapped against the windows.
+Twenty-one in the girls’ room. Each narrow bed held a folded blanket and a small pillow. At the foot of every frame sat a wooden chest. No names. No markings. The walls were paneled in dark wood. Rain tapped against the windows.
 
 The room felt familiar.
 
-Lyra stopped beside the third bed from the door.
+Lyra stopped beside the third bed from the door. Her hand went to the bedpost. A shallow line had been scratched into the wood. Then another beneath it. And another.
 
-Her hand went to the bedpost.
-
-A shallow line had been scratched into the wood.
-
-Then another beneath it.
-
-And another.
-
-Seven marks.
-
-Her fingers fitted over them perfectly.
+Seven marks. Her fingers fitted over them perfectly.
 
 “Lyra?”
 
-She turned.
-
-One of the girls stood behind her.
+She turned. One of the girls stood behind her.
 
 “Are you taking that bed?”
 
-Lyra looked at the mattress.
+Lyra looked at the mattress. “Yes.”
 
-“Yes.”
+The answer had come without thought. The girl moved on. Lyra sat.
 
-The answer had come without thought.
+For an instant, she smelled winterleaf. Not faintly. Strongly. As though Mara had just entered the room with an armful of herbs.
 
-The girl moved on.
-
-Lyra sat.
-
-For an instant, she smelled winterleaf.
-
-Not faintly.
-
-Strongly.
-
-As though Mara had just entered the room with an armful of herbs.
-
-Then the scent vanished.
-
-Lyra opened the wooden chest.
-
-It was empty.
-
-She closed it again.
+Then the scent vanished. Lyra opened the wooden chest. It was empty. She closed it again.
 
 <div class="scene-break" aria-hidden="true">⸻</div>
 
-Dinner waited in the main room.
+Dinner waited in the main room. A large iron pot hung above the fire. It contained a thick stew of roots, barley, and dried meat.
 
-A large iron pot hung above the fire.
+Bread sat beneath a cloth on the table. Still warm. No one admitted to cooking it.
 
-It contained a thick stew of roots, barley, and dried meat.
-
-Bread sat beneath a cloth on the table.
-
-Still warm.
-
-No one admitted to cooking it.
-
-The guides did not appear concerned.
-
-That made the Pilgrims more concerned.
+The guides did not appear concerned. That made the Pilgrims more concerned.
 
 “Has the house always done this?” someone asked.
 
-“Not always,” Elias said.
+“Not always,” Elias said. It was the first thing he had spoken all day.
 
-It was the first thing he had spoken all day.
-
-Everyone turned.
-
-He sat at the end of the table with both hands around a cup of hot water.
+Everyone turned. He sat at the end of the table with both hands around a cup of hot water.
 
 “When did it begin?” Tomas asked.
 
-Elias looked toward the hearth.
-
-“I don’t remember.”
+Elias looked toward the hearth. “I don’t remember.”
 
 Tomas’s mouth tightened.
 
-Before anyone ate, Tomas counted the bowls.
+Before anyone ate, Tomas counted the bowls. Forty-nine. One for every traveler.
 
-Forty-nine.
+Then Seren served the stew. Hunger defeated suspicion. The room filled with the sound of spoons and rain.
 
-One for every traveler.
+Lyra sat across from Tomas. Elias sat two places away. For several minutes, no one spoke.
 
-Then Seren served the stew.
+Then a Pilgrim named Dain looked toward the windows. “The snow was worse last time.”
 
-Hunger defeated suspicion.
+The table quieted. Dain continued eating.
 
-The room filled with the sound of spoons and rain.
+A girl beside him frowned. “Last time?”
 
-Lyra sat across from Tomas.
-
-Elias sat two places away.
-
-For several minutes, no one spoke.
-
-Then a Pilgrim named Dain looked toward the windows.
-
-“The snow was worse last time.”
-
-The table quieted.
-
-Dain continued eating.
-
-A girl beside him frowned.
-
-“Last time?”
-
-He looked up.
-
-“What?”
+He looked up. “What?”
 
 “You said the snow was worse last time.”
 
@@ -654,43 +330,25 @@ He looked up.
 
 “You did.”
 
-Dain laughed.
-
-“I’ve never been here.”
+Dain laughed. “I’ve never been here.”
 
 “There isn’t any snow,” someone said.
 
-Dain looked toward the rain-streaked glass.
+Dain looked toward the rain-streaked glass. His smile faded. “I know.”
 
-His smile faded.
+At the next table, Ressa set down her spoon. “We arrived after dark.”
 
-“I know.”
+Seren looked at her. “No, we didn’t.”
 
-At the next table, Ressa set down her spoon.
-
-“We arrived after dark.”
-
-Seren looked at her.
-
-“No, we didn’t.”
-
-She stared at him.
-
-“I know.”
+She stared at him. “I know.”
 
 “Then why did you say that?”
 
-Ressa looked toward the door.
+Ressa looked toward the door. “I remember lanterns outside.”
 
-“I remember lanterns outside.”
+A boy near the hearth shook his head. “Elias wasn’t with us.”
 
-A boy near the hearth shook his head.
-
-“Elias wasn’t with us.”
-
-Elias lifted his eyes.
-
-The boy’s face went pale.
+Elias lifted his eyes. The boy’s face went pale.
 
 “I mean yesterday. I know he was.”
 
@@ -700,105 +358,51 @@ The room seemed to grow colder despite the fire.
 
 “Which woman?” Tomas asked.
 
-The Pilgrim stared at the empty doorway.
+The Pilgrim stared at the empty doorway. “I can’t see her face.”
 
-“I can’t see her face.”
+Voices began overlapping. Snow instead of rain. Night instead of afternoon. Elias absent. A woman waiting for them.
 
-Voices began overlapping.
+Every account was impossible. Every speaker believed the memory for several seconds before doubt returned.
 
-Snow instead of rain.
-
-Night instead of afternoon.
-
-Elias absent.
-
-A woman waiting for them.
-
-Every account was impossible.
-
-Every speaker believed the memory for several seconds before doubt returned.
-
-Tomas wrote faster.
-
-Lyra looked toward Elias.
-
-He was staring into the fire.
+Tomas wrote faster. Lyra looked toward Elias. He was staring into the fire.
 
 “What do you remember?” she asked.
 
-The room quieted again.
+The room quieted again. Elias did not answer immediately. Then he said, “Too much.”
 
-Elias did not answer immediately.
+Seren set down his spoon. “Enough.”
 
-Then he said, “Too much.”
-
-Seren set down his spoon.
-
-“Enough.”
-
-The word carried through the room.
-
-The Pilgrims fell silent.
+The word carried through the room. The Pilgrims fell silent.
 
 “You are tired,” he said. “The climb has strained you. Eat. Rest. Do not chase every thought that enters your mind.”
 
-Tomas closed his notebook halfway.
+Tomas closed his notebook halfway. “These are not thoughts.”
 
-“These are not thoughts.”
-
-Seren looked at him.
-
-“No?”
+Seren looked at him. “No?”
 
 “They feel like memories.”
 
 “That does not make them yours.”
 
-Tomas opened the notebook again.
-
-“What does that mean?”
+Tomas opened the notebook again. “What does that mean?”
 
 “It means you should eat.”
 
 Seren returned to his stew.
 
-Lyra thought of Mara’s warning.
+Lyra thought of Mara’s warning. An impossible memory could still be true. Seren was suggesting that truth and ownership were different questions.
 
-An impossible memory could still be true.
-
-Seren was suggesting that truth and ownership were different questions.
-
-Tomas looked ready to argue.
-
-Lyra touched his wrist.
-
-“Later.”
+Tomas looked ready to argue. Lyra touched his wrist. “Later.”
 
 His hand was cold.
 
 <div class="scene-break" aria-hidden="true">⸻</div>
 
-After dinner, the rain intensified.
+After dinner, the rain intensified. Water hammered the roof. Wind pressed against the windows. The Pilgrims gathered near the hearth while the guides checked equipment for the next day.
 
-Water hammered the roof.
+No one wanted to go upstairs. The house had become less comforting. Each room seemed to contain a silence waiting to be filled.
 
-Wind pressed against the windows.
-
-The Pilgrims gathered near the hearth while the guides checked equipment for the next day.
-
-No one wanted to go upstairs.
-
-The house had become less comforting.
-
-Each room seemed to contain a silence waiting to be filled.
-
-Elias sat apart from the others.
-
-Lyra joined him.
-
-He had removed the silver cord from his hair.
-
-It hung loose around his shoulders, making him look even older.
+Elias sat apart from the others. Lyra joined him. He had removed the silver cord from his hair. It hung loose around his shoulders, making him look even older.
 
 “Have you stayed here before?” she asked.
 
@@ -810,9 +414,7 @@ It hung loose around his shoulders, making him look even older.
 
 “Did this happen?”
 
-He looked at her.
-
-“What do you mean by this?”
+He looked at her. “What do you mean by this?”
 
 “People remembering things that never happened.”
 
@@ -822,13 +424,9 @@ He looked at her.
 
 “That is the problem.”
 
-Lyra sat on the bench beside him.
+Lyra sat on the bench beside him. “Did you remember the extra bedroll?”
 
-“Did you remember the extra bedroll?”
-
-Elias closed his eyes.
-
-“I remember seeing it.”
+Elias closed his eyes. “I remember seeing it.”
 
 “And now?”
 
@@ -838,37 +436,25 @@ Elias closed his eyes.
 
 “No.”
 
-The fire cracked.
-
-A spark rose into the chimney.
+The fire cracked. A spark rose into the chimney.
 
 “Who were you apologizing to?” Lyra asked.
 
-Elias’s fingers tightened around his cup.
-
-“I don’t know.”
+Elias’s fingers tightened around his cup. “I don’t know.”
 
 “You spoke as though someone was there.”
 
 “Someone was.”
 
-Lyra’s pulse quickened.
-
-“Who?”
+Lyra’s pulse quickened. “Who?”
 
 “I don’t know.”
 
 “You keep saying that.”
 
-“I keep meaning it.”
+“I keep meaning it.” He sounded tired rather than defensive.
 
-He sounded tired rather than defensive.
-
-Lyra looked toward Seren.
-
-The guide stood near the supply packs with Nalia.
-
-They were speaking too quietly to hear.
+Lyra looked toward Seren. The guide stood near the supply packs with Nalia. They were speaking too quietly to hear.
 
 “Does Seren know?”
 
@@ -884,21 +470,13 @@ They were speaking too quietly to hear.
 
 “Why?”
 
-Elias turned toward her.
+Elias turned toward her. “Because sometimes naming a thing changes it.”
 
-“Because sometimes naming a thing changes it.”
-
-Lyra thought of the woman in blue.
-
-Of Mara forgetting who had given her the farewell.
-
-Of the voice on the ledge.
+Lyra thought of the woman in blue. Of Mara forgetting who had given her the farewell. Of the voice on the ledge.
 
 “Did you hear someone during the crossing today?”
 
-His expression sharpened.
-
-“No.”
+His expression sharpened. “No.”
 
 “A woman told me where to put my hand.”
 
@@ -910,17 +488,11 @@ His expression sharpened.
 
 “Tomas didn’t.”
 
-Elias looked toward the dark windows.
-
-“What did she say?”
+Elias looked toward the dark windows. “What did she say?”
 
 “Left hand.”
 
-He stood so quickly that hot water spilled across the table.
-
-Several Pilgrims turned.
-
-Elias did not notice.
+He stood so quickly that hot water spilled across the table. Several Pilgrims turned. Elias did not notice.
 
 “Where did you place your hand?”
 
@@ -932,39 +504,23 @@ Elias did not notice.
 
 “Your hand.”
 
-Lyra held it out.
+Lyra held it out. The cut crossed her palm.
 
-The cut crossed her palm.
-
-Elias took her wrist.
-
-His grip was surprisingly strong.
-
-He studied the cut.
-
-Then her fingers.
-
-Then the red thread beside the silver one.
+Elias took her wrist. His grip was surprisingly strong. He studied the cut. Then her fingers. Then the red thread beside the silver one.
 
 “What is it?” Lyra asked.
 
-He released her.
-
-“Nothing.”
+He released her. “Nothing.”
 
 “That is clearly something.”
 
-For one instant, he smiled.
-
-The expression vanished.
+For one instant, he smiled. The expression vanished.
 
 “Did your mother ever tell you about her climb?”
 
 “Only that she was frightened to come home.”
 
-Elias looked toward Seren.
-
-Again, that silent exchange passed between them.
+Elias looked toward Seren. Again, that silent exchange passed between them.
 
 “Go to sleep,” he said.
 
@@ -978,17 +534,13 @@ Again, that silent exchange passed between them.
 
 “Then tell me.”
 
-Elias looked back at her.
-
-“I do not know which of my memories are mine.”
+Elias looked back at her. “I do not know which of my memories are mine.”
 
 The answer ended the conversation.
 
 <div class="scene-break" aria-hidden="true">⸻</div>
 
-Tomas waited near the stairs.
-
-His notebook was tucked beneath his coat.
+Tomas waited near the stairs. His notebook was tucked beneath his coat.
 
 “You kicked me.”
 
@@ -1006,13 +558,9 @@ His notebook was tucked beneath his coat.
 
 “Do any repeat?”
 
-He hesitated.
+He hesitated. “Three people remembered a woman opening the door.”
 
-“Three people remembered a woman opening the door.”
-
-Lyra stopped.
-
-“What did she look like?”
+Lyra stopped. “What did she look like?”
 
 “Two couldn’t describe her. One said she wore blue.”
 
@@ -1028,17 +576,7 @@ The room seemed to tilt.
 
 “I didn’t.”
 
-That was not entirely true.
-
-The house had felt familiar.
-
-The bed had felt chosen before she chose it.
-
-The smell of winterleaf.
-
-But she had not seen the woman.
-
-Not here.
+That was not entirely true. The house had felt familiar. The bed had felt chosen before she chose it. The smell of winterleaf. But she had not seen the woman. Not here.
 
 “Did anyone remember her face?” Lyra asked.
 
@@ -1048,13 +586,9 @@ Not here.
 
 “No.”
 
-Tomas studied her.
+Tomas studied her. “You’ve seen her before.”
 
-“You’ve seen her before.”
-
-Lyra looked toward the hearth.
-
-Elias was speaking with Seren.
+Lyra looked toward the hearth. Elias was speaking with Seren.
 
 “I thought I saw her in the Hall of Names.”
 
@@ -1070,205 +604,87 @@ Tomas went still.
 
 “No.”
 
-He frowned.
-
-“You saw the same woman twice.”
+He frowned. “You saw the same woman twice.”
 
 “I saw someone in blue for an instant. That doesn’t make her the same person.”
 
 “You believe it does.”
 
-Lyra climbed the first stair.
-
-Tomas followed.
+Lyra climbed the first stair. Tomas followed.
 
 “Lyra.”
 
 “Not here.”
 
-They continued upward.
-
-The house creaked around them.
-
-Not like settling wood.
-
-Like footsteps moving through rooms they could not see.
+They continued upward. The house creaked around them. Not like settling wood. Like footsteps moving through rooms they could not see.
 
 <div class="scene-break" aria-hidden="true">⸻</div>
 
-The Pilgrims slept poorly.
+The Pilgrims slept poorly. The rain did not stop. Wind moved around the house in long, low breaths.
 
-The rain did not stop.
-
-Wind moved around the house in long, low breaths.
-
-Lyra lay beneath the blanket, staring at the dark ceiling.
-
-Every time she closed her eyes, she saw the open drop beneath the ledge.
-
-Heard the woman’s voice.
+Lyra lay beneath the blanket, staring at the dark ceiling. Every time she closed her eyes, she saw the open drop beneath the ledge. Heard the woman’s voice.
 
 Left hand.
 
-The room smelled of wet wool and pine soap.
+The room smelled of wet wool and pine soap. Around her, the other girls shifted in their beds. Someone whispered in sleep. Someone cried quietly and pretended not to when another asked.
 
-Around her, the other girls shifted in their beds.
+Lyra turned toward the wall. Seven shallow marks crossed the bedpost. She traced them. One for each day? One for each year? She did not know.
 
-Someone whispered in sleep.
-
-Someone cried quietly and pretended not to when another asked.
-
-Lyra turned toward the wall.
-
-Seven shallow marks crossed the bedpost.
-
-She traced them.
-
-One for each day?
-
-One for each year?
-
-She did not know.
-
-Her eyelids grew heavy.
-
-The sound of rain softened.
-
-The darkness changed.
+Her eyelids grew heavy. The sound of rain softened. The darkness changed.
 
 <div class="scene-break" aria-hidden="true">⸻</div>
 
-Sunlight filled the room.
+Sunlight filled the room. Lyra opened her eyes.
 
-Lyra opened her eyes.
+The walls were the same. The beds were not.
 
-The walls were the same.
+Only twelve stood in the room. Blankets and clothing covered the floor. Someone was laughing.
 
-The beds were not.
+Lyra sat up. Her body felt wrong. Not smaller. Different.
 
-Only twelve stood in the room.
+Her hands rested on the blanket. They were not her hands. The fingers were broader. A pale scar crossed the right thumb.
 
-Blankets and clothing covered the floor.
+She knew that scar. Mara had it. A knife had slipped while cutting winterroot when she was fourteen.
 
-Someone was laughing.
+Lyra tried to stand. The body moved before she commanded it.
 
-Lyra sat up.
-
-Her body felt wrong.
-
-Not smaller.
-
-Different.
-
-Her hands rested on the blanket.
-
-They were not her hands.
-
-The fingers were broader.
-
-A pale scar crossed the right thumb.
-
-She knew that scar.
-
-Mara had it.
-
-A knife had slipped while cutting winterroot when she was fourteen.
-
-Lyra tried to stand.
-
-The body moved before she commanded it.
-
-Across the room, a young woman was braiding her hair before a mirror.
-
-Dark hair.
-
-Green eyes.
-
-Mara’s face, seventeen years old.
-
-Lyra stared at her.
+Across the room, a young woman was braiding her hair before a mirror. Dark hair. Green eyes. Mara’s face, seventeen years old. Lyra stared at her.
 
 Impossible.
 
-She was looking through Mara’s eyes and seeing Mara across the room.
+She was looking through Mara’s eyes and seeing Mara across the room. The thought made no sense.
 
-The thought made no sense.
-
-The young woman in the mirror turned.
-
-Not Mara.
-
-Someone else.
-
-The face vanished before Lyra understood it.
+The young woman in the mirror turned. Not Mara. Someone else. The face vanished before Lyra understood it.
 
 “Are you frightened?” a voice asked.
 
-The woman in blue sat on the next bed.
+The woman in blue sat on the next bed. Clearly. Not a glimpse. Not a shape behind someone else.
 
-Clearly.
-
-Not a glimpse.
-
-Not a shape behind someone else.
-
-She appeared perhaps thirty.
-
-Perhaps older.
-
-Her dress was not truly blue.
-
-It shifted from dark to pale depending on how the light touched it, like the color beneath deep water.
-
-Her hair had been cut unevenly at her shoulders.
-
-A red wooden bird rested in her hands.
+She appeared perhaps thirty. Perhaps older. Her dress was not truly blue. It shifted from dark to pale depending on how the light touched it, like the color beneath deep water. Her hair had been cut unevenly at her shoulders. A red wooden bird rested in her hands.
 
 The bird.
 
-Lyra tried to speak.
+Lyra tried to speak. The body whose eyes she occupied answered. “Yes.”
 
-The body whose eyes she occupied answered.
+Mara’s voice. Young.
 
-“Yes.”
-
-Mara’s voice.
-
-Young.
-
-The woman smiled.
-
-“Good.”
+The woman smiled. “Good.”
 
 “That is not comforting.”
 
 “It was not meant to be.”
 
-She turned the bird over.
+She turned the bird over. A small brush moved between her fingers. Red paint shone wetly across one wing.
 
-A small brush moved between her fingers.
-
-Red paint shone wetly across one wing.
-
-Lyra could smell it.
-
-Sharp.
-
-Sweet.
-
-The same faint scent that had lingered downstairs when they entered the house.
+Lyra could smell it. Sharp. Sweet. The same faint scent that had lingered downstairs when they entered the house.
 
 “Why red?” Mara asked.
 
-The woman looked at the bird.
-
-“Because she will need to find it.”
+The woman looked at the bird. “Because she will need to find it.”
 
 “Who?”
 
-The woman’s expression changed.
-
-Grief passed across her face so quickly that Mara might have imagined it.
+The woman’s expression changed. Grief passed across her face so quickly that Mara might have imagined it.
 
 “You know.”
 
@@ -1276,9 +692,7 @@ Grief passed across her face so quickly that Mara might have imagined it.
 
 “You will.”
 
-Mara stood.
-
-The room swayed.
+Mara stood. The room swayed.
 
 “You keep saying things like that.”
 
@@ -1286,125 +700,57 @@ The room swayed.
 
 “Seren does too.”
 
-The woman smiled faintly.
+The woman smiled faintly. “Seren learned to be careful.”
 
-“Seren learned to be careful.”
+Mara laughed. The sound broke something inside Lyra. She had heard her mother laugh a thousand times. Never like this.
 
-Mara laughed.
+Young. Unburdened. Before Lyra. Before her father’s death. Before whatever the mountain had taken.
 
-The sound broke something inside Lyra.
+Mara sat beside the woman in blue. “Will I remember you?”
 
-She had heard her mother laugh a thousand times.
+The brush stopped. The woman looked toward the window. Outside, the mountain rose beneath a blue sky.
 
-Never like this.
+“No,” she said. The answer was quiet. Certain.
 
-Young.
-
-Unburdened.
-
-Before Lyra.
-
-Before her father’s death.
-
-Before whatever the mountain had taken.
-
-Mara sat beside the woman in blue.
-
-“Will I remember you?”
-
-The brush stopped.
-
-The woman looked toward the window.
-
-Outside, the mountain rose beneath a blue sky.
-
-“No,” she said.
-
-The answer was quiet.
-
-Certain.
-
-Mara took the bird from her.
-
-“Then why are you giving me this?”
+Mara took the bird from her. “Then why are you giving me this?”
 
 “I’m not.”
 
-The woman folded Mara’s fingers around it.
-
-“You’re giving it to someone else.”
+The woman folded Mara’s fingers around it. “You’re giving it to someone else.”
 
 “Who?”
 
-Mara looked down at the bird.
+Mara looked down at the bird. For one impossible instant, affection filled her for someone she had never met. The feeling passed before she could name it.
 
-For one impossible instant, affection filled her for someone she had never met.
-
-The feeling passed before she could name it.
-
-The woman leaned forward.
-
-For an instant, Lyra thought she would whisper a name.
-
-Instead, she touched two fingers to Mara’s heart.
+The woman leaned forward. For an instant, Lyra thought she would whisper a name. Instead, she touched two fingers to Mara’s heart.
 
 “Come home carrying more people than yourself.”
 
-The room shook.
+The room shook. Not from thunder. From something enormous moving beneath it.
 
-Not from thunder.
+The windows turned black. The woman in blue stood. “Mara.”
 
-From something enormous moving beneath it.
+Fear entered her voice for the first time. “Wake up.”
 
-The windows turned black.
-
-The woman in blue stood.
-
-“Mara.”
-
-Fear entered her voice for the first time.
-
-“Wake up.”
-
-The walls stretched.
-
-The beds multiplied.
-
-The sunlight vanished.
+The walls stretched. The beds multiplied. The sunlight vanished.
 
 “Mara, wake up.”
 
-The woman reached for her.
-
-Her hand passed through Lyra’s chest.
+The woman reached for her. Her hand passed through Lyra’s chest.
 
 <div class="scene-break" aria-hidden="true">⸻</div>
 
-Lyra woke crying.
+Lyra woke crying. Darkness surrounded her. Rain struck the windows.
 
-Darkness surrounded her.
-
-Rain struck the windows.
-
-Someone gripped her shoulders.
-
-“Lyra.”
+Someone gripped her shoulders. “Lyra.”
 
 Tomas.
 
-He knelt beside the bed.
-
-Several girls had lit a lamp.
-
-Their faces hovered beyond him.
+He knelt beside the bed. Several girls had lit a lamp. Their faces hovered beyond him.
 
 “What happened?” he asked.
 
-Lyra tried to breathe.
-
-Her hands searched for the red bird.
-
-It remained inside her coat, which hung at the foot of the bed.
+Lyra tried to breathe. Her hands searched for the red bird. It remained inside her coat, which hung at the foot of the bed.
 
 “I saw her.”
 
@@ -1412,21 +758,15 @@ It remained inside her coat, which hung at the foot of the bed.
 
 “The woman.”
 
-Tomas looked toward the others.
-
-“Go back to sleep,” he said.
+Tomas looked toward the others. “Go back to sleep,” he said.
 
 None moved.
 
 “Now.”
 
-Something in his voice worked.
+Something in his voice worked. The girls returned reluctantly to their beds.
 
-The girls returned reluctantly to their beds.
-
-Tomas sat beside Lyra.
-
-“You were calling for Mara.”
+Tomas sat beside Lyra. “You were calling for Mara.”
 
 “I think I was inside something Mara remembered.”
 
@@ -1438,13 +778,9 @@ He said nothing.
 
 “The woman in blue.”
 
-Tomas’s face tightened.
+Tomas’s face tightened. “What happened?”
 
-“What happened?”
-
-Lyra looked toward her coat.
-
-“She was painting the bird.”
+Lyra looked toward her coat. “She was painting the bird.”
 
 “The red bird?”
 
@@ -1454,45 +790,19 @@ Lyra looked toward her coat.
 
 “No.”
 
-The word came out too loudly.
+The word came out too loudly. Several girls shifted.
 
-Several girls shifted.
+Lyra lowered her voice. “He gave it to me. I don’t think he made it.”
 
-Lyra lowered her voice.
-
-“He gave it to me. I don’t think he made it.”
-
-Tomas pulled out the notebook.
-
-Then stopped.
-
-He looked at her.
+Tomas pulled out the notebook. Then stopped. He looked at her.
 
 “May I?”
 
-The question surprised her.
+The question surprised her. Lyra nodded. He opened to a blank page.
 
-Lyra nodded.
+She told him what she remembered. The other hands. Mara’s scar. The wet red paint. The woman saying someone would need to find the bird. The farewell.
 
-He opened to a blank page.
-
-She told him what she remembered.
-
-The other hands.
-
-Mara’s scar.
-
-The wet red paint.
-
-The woman saying someone would need to find the bird.
-
-The farewell.
-
-When she finished, Tomas read back every line.
-
-Lyra corrected two.
-
-He closed the notebook.
+When she finished, Tomas read back every line. Lyra corrected two. He closed the notebook.
 
 “You believe it came from Mara.”
 
@@ -1506,9 +816,7 @@ He closed the notebook.
 
 “I was using it.”
 
-Tomas looked toward the bedpost.
-
-“Did Mara sleep in this bed?”
+Tomas looked toward the bedpost. “Did Mara sleep in this bed?”
 
 “I don’t know.”
 
@@ -1516,35 +824,17 @@ Tomas looked toward the bedpost.
 
 “I just did.”
 
-He examined the seven scratches.
-
-Then his eyes moved to the opposite side of the post.
+He examined the seven scratches. Then his eyes moved to the opposite side of the post.
 
 “There’s writing.”
 
-Lyra leaned closer.
+Lyra leaned closer. The marks were almost invisible. Not letters. A small carved shape. A circle crossed by a vertical line. The same symbol above the entrance.
 
-The marks were almost invisible.
-
-Not letters.
-
-A small carved shape.
-
-A circle crossed by a vertical line.
-
-The same symbol above the entrance.
-
-Beneath it was a bird.
-
-Its wings spread.
-
-One chipped.
+Beneath it was a bird. Its wings spread. One chipped.
 
 Lyra’s breath caught.
 
-Tomas touched the carving.
-
-“It’s old.”
+Tomas touched the carving. “It’s old.”
 
 “How old?”
 
@@ -1554,55 +844,29 @@ Tomas touched the carving.
 
 He did not smile.
 
-Below them, something shattered.
+Below them, something shattered. Voices rose from the main room.
 
-Voices rose from the main room.
-
-Tomas stood.
-
-They pulled on their boots and hurried downstairs.
+Tomas stood. They pulled on their boots and hurried downstairs.
 
 <div class="scene-break" aria-hidden="true">⸻</div>
 
-The guides stood around the dining table.
-
-Elias held a broken piece of white clay.
-
-The rest of the bowl lay across the floor.
-
-Seren’s face was hard.
+The guides stood around the dining table. Elias held a broken piece of white clay. The rest of the bowl lay across the floor. Seren’s face was hard.
 
 “What happened?” Lyra asked.
 
 No one answered.
 
-Tomas looked toward the shelves.
-
-He began counting.
+Tomas looked toward the shelves. He began counting.
 
 “Forty-eight intact,” he said.
 
-Master En looked at the fragments.
+Master En looked at the fragments. “And one broken.”
 
-“And one broken.”
+“Forty-nine total,” Nalia said. “One for each of us.”
 
-“Forty-nine total,” Nalia said.
+Tomas did not move. Before dinner, he had counted forty-nine bowls.
 
-“One for each of us.”
-
-Tomas did not move.
-
-Before dinner, he had counted forty-nine bowls.
-
-He opened his notebook.
-
-The number remained written near the bottom of the page.
-
-Beneath it was another mark.
-
-A short vertical stroke.
-
-As though he had begun writing another number and stopped.
+He opened his notebook. The number remained written near the bottom of the page. Beneath it was another mark. A short vertical stroke. As though he had begun writing another number and stopped.
 
 Tomas stared at it.
 
@@ -1614,19 +878,13 @@ Tomas stared at it.
 
 “I don’t remember.”
 
-Elias dropped the piece he was holding.
+Elias dropped the piece he was holding. It struck the floor.
 
-It struck the floor.
-
-Tomas looked toward the empty tables.
-
-“I handed bowls to people before dinner.”
+Tomas looked toward the empty tables. “I handed bowls to people before dinner.”
 
 “No,” Seren said. “I served.”
 
-“You filled them. I carried them.”
-
-His voice had gone distant.
+“You filled them. I carried them.” His voice had gone distant.
 
 “I remember giving one to every Pilgrim. Every guide. Elias.”
 
@@ -1636,17 +894,13 @@ His voice had gone distant.
 
 “Then nothing is wrong.”
 
-Tomas looked at her.
-
-“I remember finishing.”
+Tomas looked at her. “I remember finishing.”
 
 No one spoke.
 
 “Then I saw someone already seated,” he continued. “Near the hearth. They were eating.”
 
-Lyra looked toward the empty bench.
-
-“Who?”
+Lyra looked toward the empty bench. “Who?”
 
 “I can’t see their face.”
 
@@ -1658,65 +912,31 @@ Lyra looked toward the empty bench.
 
 “Yes.”
 
-Nalia glanced toward the shelves.
+Nalia glanced toward the shelves. “There were never fifty bowls.”
 
-“There were never fifty bowls.”
+Tomas looked down at the broken pieces. “Not anymore.”
 
-Tomas looked down at the broken pieces.
+The wind struck the house. Every flame in the room went out.
 
-“Not anymore.”
+For one breath, darkness swallowed them. Lyra felt someone standing behind her. A hand touched her shoulder. Warm. Familiar.
 
-The wind struck the house.
+Then the fire returned. The lamps relit. No one stood there.
 
-Every flame in the room went out.
-
-For one breath, darkness swallowed them.
-
-Lyra felt someone standing behind her.
-
-A hand touched her shoulder.
-
-Warm.
-
-Familiar.
-
-Then the fire returned.
-
-The lamps relit.
-
-No one stood there.
-
-On the table beside Tomas lay a spoon.
-
-Wet.
-
-A thin line of stew still clung to its edge.
+On the table beside Tomas lay a spoon. Wet. A thin line of stew still clung to its edge.
 
 No one remembered placing it there.
 
-Seren looked directly at Lyra.
+Seren looked directly at Lyra. Not at the others. At her.
 
-Not at the others.
-
-At her.
-
-His expression held no surprise.
-
-Only concern.
+His expression held no surprise. Only concern.
 
 “Pack your things,” he said.
 
-Nalia stared toward the dark windows.
-
-“It’s the middle of the night.”
+Nalia stared toward the dark windows. “It’s the middle of the night.”
 
 “Then we climb in darkness.”
 
-No one argued.
-
-The house creaked around them.
-
-From somewhere above came the sound of a door closing.
+No one argued. The house creaked around them. From somewhere above came the sound of a door closing.
 
 There were forty-nine travelers in the room.
 
