@@ -53,7 +53,43 @@ chapters:
       and the button: "It would not be the last."
     voices:
       Kieran: "27; exact, rationalist, a little superior — the man certainty is about to fail"
-      Lyra: "~50 now; dry, warm, unhurried; wears the faded bird"
+      Lyra: "~42 now; dry, warm, unhurried; wears the faded bird"
       Tomas: "the archive-keeper; gentle, oblique — 'I remembered someone eventually would'"
       archivist_young: "cheerful, matter-of-fact about contradiction"
       teacher: "patient; teaches memory as relationship"
+
+  - id: chapter-2
+    title: "The Hall of Names"
+    mood: "wry, sharp, a duel of ideas that turns quietly ominous"
+    pace: "brisk in the Tomas debate; slows and cools at the wall of names / Sael"
+    pause_ms: { scene_break: 1300, line: 400 }
+    notes: >
+      The chapter that seeds Kieran's hubris — he WINS the argument (the "verdict wearing
+      gloves" beat) and Tomas is delighted, not defeated, so his certainty reads as
+      formidable and seductive, never naive. Keep the debate quick and enjoyable. Then cool
+      and darken at the wall: the unpinnable woman (Sael) as "a hole your village agreed to
+      be polite about," and Kieran's warm, total certainty that a contradiction that
+      complete must hide a single truth he can excavate — the danger seed. Land the two
+      closing beats quiet and foreboding: he's started thinking of her as *her*, and his own
+      Ash name has begun to itch.
+    voices:
+      Kieran: "sharp, rigorous, seductive certainty; wins the point and distrusts the pleasure"
+      Tomas: "delighted by a good argument; undefended; oblique about Sael"
+
+  - id: chapter-3
+    title: "The Road to Valen"
+    mood: "road-quiet and wry, turning inward; the personal wound opens under the intellect"
+    pace: "unhurried; a long exhale between Orin and Valen; stills at the ruin, lifts at the city"
+    pause_ms: { scene_break: 1300, line: 400 }
+    notes: >
+      The world widens (the old road, the unmade markers, the warm ruin — infrastructure
+      shown as wonder, NEVER explained). Nio is the foil who doesn't out-argue Kieran — she
+      out-*sees* him: she opens the Ash wound (a man who collects families and keeps none of
+      his own) without scoring a point. Keep Kieran formidable; let the vulnerability be
+      personal, not intellectual. The reveal to play quietly: the historian who can trace a
+      border war from one coin cannot trace his own name back four steps. Land Valen as
+      argument-vs-Orin's-memory, and close on his certainty ("the answers I'll bring myself")
+      against Nio's silence — the warning no one can be handed.
+    voices:
+      Kieran: "formidable intellect, newly and privately unsettled by his own blank line"
+      Nio: "19; a story-carrier; kind as technique, sharp as instinct; sees people, doesn't argue"
