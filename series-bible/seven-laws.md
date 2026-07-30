@@ -55,11 +55,17 @@ Sometimes cultural.
 
 Sometimes architectural.
 
-Nothing truly disappears.
+Memory outlives the body.
 
-The question is whether anyone can still interpret what remains.
+But it is not immortal, and it is not safe.
 
-**Why:** This is the central mechanic of the universe. Archaeology. Religion. Politics. Identity. Everything flows from this.
+What is remembered endures.
+
+What no one holds is lost.
+
+The question is whether anyone can still interpret what remains — and whether anyone still keeps it at all.
+
+**Why:** This is the central mechanic of the universe. Archaeology. Religion. Politics. Identity. Everything flows from this. To be forgotten is not to fade — it is to be lost. So remembering is never passive: it is what keeps the past alive.
 
 ---
 
