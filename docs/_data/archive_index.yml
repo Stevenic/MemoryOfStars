@@ -1,0 +1,70 @@
+# =============================================================================
+# THE ARCHIVE INDEX — the star map that fronts the Step Inside / Archive feature.
+# Thirty novellas as six constellations of five stars. Drives docs/step-inside.md.
+#
+# SPOILER FIREWALL: public information only. Cycle 1's titles/facets are public
+# (they appear in the repo + site). Cycles 2–6 are DARK, UNNAMED stars on purpose
+# — nothing from planning/ may ever appear here. A dark star has no title.
+#
+# status: published (book done) · writing (in progress) · planned (named, unwritten)
+#         · dark (unnamed future). "Has recordings" is derived at runtime from
+#         docs/_data/archive/*.yml (slice.star → book id) — not stored here.
+# =============================================================================
+
+canvas: { w: 1200, h: 640 }
+
+cycles:
+  - id: cycle-1
+    name: "Fragments of the First Memory"
+    label: { x: 315, y: 505 }
+    books:
+      - { id: book-01, n: 1,  title: "The First Pilgrim",      facet: "Memory as inheritance", status: published, x: 140, y: 430 }
+      - { id: book-02, n: 2,  title: "The Archivist",          facet: "Memory as history",     status: writing,   x: 225, y: 365 }
+      - { id: book-03, n: 3,  title: "The Lighthouse",         facet: "Memory as identity",    status: planned,   x: 305, y: 300 }
+      - { id: book-04, n: 4,  title: "The City That Forgave",  facet: "Memory as burden",      status: planned,   x: 400, y: 245 }
+      - { id: book-05, n: 5,  title: "The Last Witness",       facet: "Memory as survival",    status: planned,   x: 490, y: 185 }
+
+  - id: cycle-2
+    name: null
+    books:
+      - { id: book-06, n: 6,  status: dark, x: 140,  y: 120 }
+      - { id: book-07, n: 7,  status: dark, x: 205,  y: 88  }
+      - { id: book-08, n: 8,  status: dark, x: 275,  y: 122 }
+      - { id: book-09, n: 9,  status: dark, x: 340,  y: 92  }
+      - { id: book-10, n: 10, status: dark, x: 405,  y: 135 }
+
+  - id: cycle-3
+    name: null
+    books:
+      - { id: book-11, n: 11, status: dark, x: 770,  y: 95  }
+      - { id: book-12, n: 12, status: dark, x: 838,  y: 72  }
+      - { id: book-13, n: 13, status: dark, x: 905,  y: 88  }
+      - { id: book-14, n: 14, status: dark, x: 962,  y: 122 }
+      - { id: book-15, n: 15, status: dark, x: 1012, y: 172 }
+
+  - id: cycle-4
+    name: null
+    books:
+      - { id: book-16, n: 16, status: dark, x: 1010, y: 320 }
+      - { id: book-17, n: 17, status: dark, x: 1065, y: 375 }
+      - { id: book-18, n: 18, status: dark, x: 1010, y: 432 }
+      - { id: book-19, n: 19, status: dark, x: 950,  y: 395 }
+      - { id: book-20, n: 20, status: dark, x: 958,  y: 330 }
+
+  - id: cycle-5
+    name: null
+    books:
+      - { id: book-21, n: 21, status: dark, x: 640,  y: 480 }
+      - { id: book-22, n: 22, status: dark, x: 712,  y: 516 }
+      - { id: book-23, n: 23, status: dark, x: 692,  y: 582 }
+      - { id: book-24, n: 24, status: dark, x: 612,  y: 574 }
+      - { id: book-25, n: 25, status: dark, x: 586,  y: 516 }
+
+  - id: cycle-6
+    name: null
+    books:
+      - { id: book-26, n: 26, status: dark, x: 630,  y: 175 }
+      - { id: book-27, n: 27, status: dark, x: 672,  y: 148 }
+      - { id: book-28, n: 28, status: dark, x: 708,  y: 188 }
+      - { id: book-29, n: 29, status: dark, x: 668,  y: 228 }
+      - { id: book-30, n: 30, status: dark, x: 622,  y: 214 }

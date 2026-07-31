@@ -1,0 +1,336 @@
+# =============================================================================
+# ARCHIVE SLICE — Orin, the last ordinary week (pre-Pilgrimage)
+# Runtime world DB for the "Step Inside" / Archive feature. The client-side tools
+# (enter_location / examine / recall) resolve against this file.
+#
+# SPOILER FIREWALL — read before editing:
+#   This file is the enforcement point. It may contain ONLY what a person standing
+#   in Orin, in the week before the Pilgrimage, could plausibly know. No later
+#   Book 1 reveals (the Gate's nature, Sael, Amarin, the empty chair), and NOTHING
+#   from planning/. Each entity carries `withholds:` — things it must keep hidden.
+#   If you can't say it in the town square that week, it doesn't belong here.
+# =============================================================================
+
+slice:
+  id: orin-pre-pilgrimage
+  star: book-01                       # ties to the star-map (Archive index) entry
+  # Reader integration: chapters of the book this recording covers. The reader shows a
+  # "step inside this moment" portal at the end of each listed chapter. Omit to show on
+  # every chapter of the book.
+  chapters: [chapter-1, chapter-2, chapter-3, chapter-4]
+  title: "Orin — the last ordinary week"
+  frame: >
+    The seven days before the Pilgrimage. The city is stringing silver thread and
+    pretending nothing is about to change. The climb has not happened; no one has
+    gone to the mountain yet. That memory is not in this recording.
+
+# Who the visitor may inhabit (telepresence: always a body). Default first.
+inhabit:
+  default: lyra
+  note: >
+    Inhabiting a body sets who you are, how the town treats you, and what you know.
+    You wake into that body's natural place. Switching bodies mid-session is allowed
+    later via an inhabit() tool; for now it is chosen at the start.
+  bodies:
+    - id: lyra
+      start: mara-kitchen
+      become: "Lyra Ash, seventeen — curious and dry, the girl who climbs in seven days."
+      seen_as: "Mara is your mother; Tomas your closest friend; the town has watched you grow up."
+    - id: mara
+      start: mara-kitchen
+      become: "Mara — Lyra's mother, a herb-seller; warm and guarded, your hands never still."
+      seen_as: "Lyra is your daughter; neighbours greet you by name; you made this climb once yourself."
+    - id: tomas
+      start: western-wall
+      become: "Tomas — Lyra's friend; over-precise, deadpan, a notebook always to hand."
+      seen_as: "Lyra is your closest friend; adults find you exhausting and useful in equal measure."
+    - id: elias
+      start: hall-of-names
+      become: "Elias — the ancient caretaker of the Hall of Names; gentle, forgetful, kind."
+      seen_as: "You have kept the names longer than anyone remembers; the whole town knows your face."
+    - id: rian
+      start: rians-shop
+      become: "Master Rian — a shopkeeper who cries at the weather; an ordinary life in Orin."
+      seen_as: "A fixture of the market; the children steal your hat every Festival."
+
+# --- The map -----------------------------------------------------------------
+# exits: { to: <location id>, note: <how it reads> [, boundary: true] }
+locations:
+  mara-kitchen:
+    name: "Mara's Kitchen"
+    vibe: >
+      Small and warm, built against the back wall where the morning sun reaches first.
+      Copper pans above the stove; thyme and winterleaf drying by the window; two bowls
+      of porridge, one already half gone. Mara works the dough more than it needs.
+    present: [mara, lyra]
+    objects: [red-bird, winterleaf, dough]
+    exits:
+      - { to: house-lane, note: "the front door, onto the lane" }
+
+  house-lane:
+    name: "The Lane"
+    vibe: >
+      Pale-stone houses with blue-painted doors, narrow gardens built into terraces,
+      balconies strung with silver thread that webs the light when the wind moves.
+    present: []
+    objects: [silver-thread]
+    exits:
+      - { to: mara-kitchen, note: "back inside" }
+      - { to: market-road, note: "downhill, toward the market" }
+      - { to: eastern-square, note: "along the wall, toward the eastern arch" }
+
+  market-road:
+    name: "The Market Road"
+    vibe: >
+      Stalls under striped awnings. Fishmongers packing river trout into ice; bakers
+      stacking dark loaves still steaming; a spice-seller pouring red powder that stings
+      the eyes. Everything ordinary — which is what makes it feel strange this week.
+    present: [mara, townsfolk]
+    objects: [brass-bell]
+    exits:
+      - { to: house-lane, note: "uphill, toward home" }
+      - { to: flower-shop, note: "a florist's, blossoms in buckets" }
+      - { to: rians-shop, note: "Master Rian's, lamp oil and candles" }
+      - { to: en-cobbler, note: "Master En's, the smell of leather" }
+      - { to: fountain-square, note: "on toward the central fountain" }
+      - { to: western-stair, note: "steps climbing the western side" }
+      - { to: the-old-street, note: "an archway into the oldest part of town" }
+
+  flower-shop:
+    name: "The Florist"
+    vibe: >
+      Cool and green-smelling, blossoms in tin buckets. The woman here has never spoken
+      to you before this week; now she presses a sprig of white starleaf into your hand.
+    present: [flower-seller]
+    objects: [white-starleaf]
+    exits:
+      - { to: market-road, note: "back to the stalls" }
+
+  rians-shop:
+    name: "Master Rian's Shop"
+    vibe: >
+      Lamp oil, candles, coils of wick. Master Rian is dramatic and damp-eyed and has
+      lately taken to holding people's hands too long and wishing them well.
+    present: [rian]
+    objects: [blue-hat, lamp-oil]
+    exits:
+      - { to: market-road, note: "back to the stalls" }
+
+  en-cobbler:
+    name: "Master En's"
+    vibe: "Leather and wax and the tap of a small hammer. Boots in rows, some newly resoled for the road."
+    present: [master-en]
+    objects: [boots]
+    exits:
+      - { to: market-road, note: "back to the stalls" }
+
+  fountain-square:
+    name: "The Fountain Square"
+    vibe: >
+      The central square, a fountain, the clock tower above. Chalk drawings when the
+      Festival is on — birds, mountains, crooked maps of places that do not exist.
+      Sometimes, near a ceremony, a gray-coated stranger is simply here, having arrived
+      the way weather arrives.
+    present: [townsfolk]
+    objects: []
+    exits:
+      - { to: market-road, note: "back toward the stalls" }
+      - { to: river-bridge, note: "down to the old bridge and the river" }
+      - { to: the-old-street, note: "into the narrow old streets" }
+
+  river-bridge:
+    name: "The Old Bridge"
+    vibe: >
+      The river, a sandy and grassy bank. The old stone bridge where, at Festival's end,
+      the slates are broken and cast into the water. The far side is flat and treeless.
+    present: []
+    objects: []
+    exits:
+      - { to: fountain-square, note: "back up into the square" }
+      - { to: river-far-side, note: "across the bridge, out past the town", boundary: true }
+
+  the-old-street:
+    name: "The Old Street"
+    vibe: >
+      The oldest part of Orin. Streets narrow; buildings lean close enough that neighbours
+      could speak across the upper windows; the stones underfoot worn smooth by generations
+      of carts and rain and Pilgrims walking toward the mountain.
+    present: []
+    objects: []
+    exits:
+      - { to: market-road, note: "back toward the market" }
+      - { to: hall-of-names, note: "to the black-stone building at the street's end" }
+
+  hall-of-names:
+    name: "The Hall of Names"
+    vibe: >
+      One of the few buildings in Orin made of black stone — not painted black, black all
+      the way through; it catches no reflection. Above the door, thousands of names carved
+      in lines so fine they look like thread: the living, the dead, those who left, those
+      who returned. Clerks in gray robes move with tablets and lengths of silver cord.
+    present: [elias, clerks]
+    objects: [wall-of-names, silver-cord]
+    exits:
+      - { to: the-old-street, note: "back out into the old street" }
+
+  western-stair:
+    name: "The Western Stair"
+    vibe: "Worn steps climbing the western side of the city, the rooftops falling away below."
+    present: []
+    objects: []
+    exits:
+      - { to: market-road, note: "back down to the market" }
+      - { to: western-wall, note: "up to the top of the wall" }
+
+  western-wall:
+    name: "The Western Wall"
+    vibe: >
+      The top of the wall, nearly the whole city laid out below — the river, the market,
+      the towers. And beyond everything else, the mountain, its summit wrapped in cloud
+      that never quite hides it. This has been Lyra and Tomas's place for years.
+    present: [tomas]
+    objects: []
+    exits:
+      - { to: western-stair, note: "back down the steps" }
+
+  eastern-square:
+    name: "The Eastern Square"
+    vibe: >
+      The old stone arch, silver thread strung across it. This is where the Pilgrims will
+      gather at dawn on the seventh day — but the square is quiet now, only lanterns and
+      the thread moving in the wind.
+    present: []
+    objects: [silver-thread]
+    exits:
+      - { to: house-lane, note: "back along the wall toward home" }
+      - { to: eastern-arch, note: "to the arch and the road out" }
+
+  eastern-arch:
+    name: "The Eastern Arch"
+    vibe: >
+      The arch itself, and past it the road leaving Orin — the road that climbs, in seven
+      days' time, toward the mountain. The silver thread ends here.
+    present: []
+    objects: [silver-thread]
+    exits:
+      - { to: eastern-square, note: "back into the square" }
+      - { to: mountain-road, note: "out, up the road toward the mountain", boundary: true }
+
+# --- The edges of the recording ---------------------------------------------
+# Reaching one of these does not exist as a place; it triggers the boundary warning.
+boundaries:
+  fraying: >
+    Describe the edge as a memory losing its hold: colours thin, faces smooth to blur,
+    sound falls away, the smell of the place fades to nothing. Do not narrate what lies
+    beyond — there is nothing recorded there. Then stop; the choice to leave or stay is
+    the visitor's.
+  edges:
+    mountain-road: >
+      The road up the mountain. The climb has not happened in this memory — there is
+      nothing up there to walk into. The edge of the recording is the arch.
+    river-far-side: >
+      The flat land across the river, and the world beyond Orin. The recording is of the
+      town, that week. It does not reach past the water.
+  temporal: >
+    The recording holds the last ordinary week and no further. If the visitor tries to
+    push time forward — to the day of departure, the climb, the summit — that is a
+    temporal edge; treat it exactly like a boundary.
+
+# --- The people --------------------------------------------------------------
+characters:
+  lyra:
+    name: "Lyra Ash"
+    inhabitable: true
+    voice: "Seventeen, curious and dry; asks the next question; keeps her fear behind a joke."
+    knows: "Her mother, Tomas, the town; that she climbs in seven days; the little red bird she's always had."
+    withholds: "Nothing in particular — she is a girl on an ordinary morning."
+  mara:
+    name: "Mara"
+    inhabitable: true
+    voice: "Warm but guarded; answers sideways; her hands stay busy while she talks."
+    knows: "She made the Pilgrimage once. She was frightened — not of the climb, but of coming home to find everything the same. The farewell: 'Come home carrying more people than yourself.'"
+    withholds: "She cannot remember who first said the farewell to her, and it unsettles her. She will not name her fear plainly. Let the not-remembering stay a small, real ache — do not resolve it."
+  tomas:
+    name: "Tomas"
+    inhabitable: true
+    voice: "Over-precise, deadpan, defended by data; answers the literal question; a notebook always to hand."
+    knows: "Everything he's written down; the registration order; that Seren leads every third year; that his mother lost the order of things before she lost anything else."
+    withholds: "Nothing hidden — but he'd rather present a theory than a feeling."
+  elias:
+    name: "Elias"
+    inhabitable: true
+    voice: "Ancient, gentle, forgetful; soft riddles. A refrain: 'I don't know.' / 'I keep meaning it.'"
+    knows: "Every family line in Orin; the names on the wall; the shape of the town's whole memory."
+    withholds: "The red bird unsettles him and he cannot say why — a name almost surfaces and slips. He does NOT understand what he half-remembers. Keep it a mystery even to himself; never explain it."
+  seren:
+    name: "Seren"
+    inhabitable: false
+    voice: "Spare, careful, silver-haired; no one ever sees him arrive; answers a question with another, or with 'No.'"
+    knows: "[Withheld. He knows far more than he says, and none of it belongs in this recording.]"
+    withholds: "Everything. If asked anything of weight, he deflects, gently and completely. He appears only near a ceremony, briefly. Do not let him reveal anything about the Gate, the climb, or what he has seen."
+  rian:
+    name: "Master Rian"
+    inhabitable: true
+    voice: "Sentimental and dramatic; cries when the weather changes; means every word of it."
+    knows: "His shop, the market's gossip, everyone's small histories; that he'll miss the Pilgrims."
+    withholds: "Nothing — he is an open book, mostly a damp one."
+  flower-seller:
+    name: "The Florist"
+    inhabitable: false
+    voice: "Quiet and kind; presses a blossom on you 'for the road'; touches two fingers to her heart."
+    knows: "The season, the flowers, the weight of a Pilgrimage year."
+    withholds: "Nothing; she simply feels the goodbyes coming."
+  master-en:
+    name: "Master En"
+    inhabitable: false
+    voice: "Few words; lets the work speak; proud of a good resole."
+    knows: "Feet, leather, the road's demands on a boot."
+    withholds: "Nothing."
+  clerks:
+    name: "The Hall Clerks"
+    inhabitable: false
+    voice: "Cheerful, matter-of-fact about contradiction; gray robes, tablets, silver cord."
+    knows: "Registration, the rules ('no weapons beyond a walking knife, no written histories, no heirlooms that cannot be replaced'), which no one can explain."
+    withholds: "The reasons behind the rules — because they don't know them either."
+  townsfolk:
+    name: "The People of Orin"
+    inhabitable: false
+    voice: "Warm, unbothered, a little sentimental this week; they call the Pilgrims by name and give them small gifts."
+    knows: "Ordinary life; that the young ones are leaving soon."
+    withholds: "Whatever the mountain is; they discuss the weather, the road, the food — everything except what happens at the top."
+
+# --- Things you can pick up, open, examine -----------------------------------
+objects:
+  red-bird:
+    public: "A small wooden bird painted red, one wing chipped, the paint worn smooth from years of handling. Lyra has always had it; her father carved it — or so Mara has always said."
+    withholds: "Nothing deeper is known in this moment. If examined hard, it is only a much-loved toy. (No markings, no other truth — not in this recording.)"
+  winterleaf:
+    public: "A sharp green-smelling herb Mara dries by the window and sells in bundles."
+    withholds: "Nothing."
+  dough:
+    public: "Bread dough on the board, worked more than it needs when Mara wants time to think."
+    withholds: "Nothing."
+  brass-bell:
+    public: "A small brass bell on the corner of Mara's stall; she rings it to call Lyra across the market. The Festival children consider it a prize."
+    withholds: "Nothing."
+  blue-hat:
+    public: "Master Rian's imported-felt hat, which the children steal every Festival and return decorated in chalk."
+    withholds: "Nothing."
+  lamp-oil:
+    public: "Jars of lamp oil and coils of candlewick; the shop's ordinary trade."
+    withholds: "Nothing."
+  white-starleaf:
+    public: "A white blossom the florist gives to travellers, 'for the road.'"
+    withholds: "Nothing."
+  boots:
+    public: "Traveling boots, some newly resoled by Master En for the climb."
+    withholds: "Nothing."
+  silver-thread:
+    public: "Silver thread strung across doorways, lampposts, and between rooftops — it marks a Pilgrimage year; there is more of it than usual."
+    withholds: "Nothing — only that families use it, and that this year there seems to be a great deal."
+  silver-cord:
+    public: "Lengths of silver cord the clerks carry; a strand is tied around each Pilgrim's wrist at registration."
+    withholds: "Nothing."
+  wall-of-names:
+    public: "Names carved into the black stone from floor to ceiling — every citizen of Orin: the living, the dead, those who left, those who returned. Elias keeps them."
+    withholds: "Whether any name is missing. If the visitor searches for one, let the searching feel meaningful but find nothing certain — do not confirm or invent an absence."

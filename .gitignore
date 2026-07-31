@@ -38,3 +38,8 @@ vendor/
 # The repo is public; spoiler-heavy roadmap/meta-mystery/unwritten-book plans live here
 # and must not leak. Anchored to repo root.
 /planning/
+
+# The Archive star map's PRIVATE roadmap overlay — full 30-book titles/loglines for
+# local UX work only. Production (GitHub Pages) never has this file, so the public
+# map keeps its dark, unnamed stars. NEVER COMMIT.
+/docs/_data/archive_index_full.yml

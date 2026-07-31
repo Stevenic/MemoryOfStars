@@ -45,6 +45,26 @@ layout: default
     {{ content }}
   </div>
 
+  {%- comment -%} Archive portals: recordings that cover this chapter. {%- endcomment -%}
+  {%- assign bid = 'book-' | append: page.book_number -%}
+  {%- for entry in site.data.archive -%}
+    {%- assign sl = entry[1] -%}
+    {%- if sl.slice.star == bid -%}
+      {%- assign show = true -%}
+      {%- if sl.slice.chapters and sl.slice.chapters.size > 0 -%}
+        {%- unless sl.slice.chapters contains page.chapter_key -%}{%- assign show = false -%}{%- endunless -%}
+      {%- endif -%}
+      {%- if show -%}
+      <aside class="archive-portal">
+        <p class="ap-eyebrow">The Archive</p>
+        <p class="ap-title">Step inside this moment</p>
+        <p class="ap-note">{{ sl.slice.title }} — inhabit someone who was there and look around.</p>
+        <a class="ap-btn" href="{{ '/step-inside/' | relative_url }}?open={{ entry[0] }}">Open an Archive session</a>
+      </aside>
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+
   <nav class="reader-nav" aria-label="Chapter navigation">
     {%- if idx > 0 -%}
       {%- assign p = idx | minus: 1 -%}{%- assign prev = chapters[p] -%}
