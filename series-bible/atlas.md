@@ -42,10 +42,17 @@ atlas can agree. *(Proposed — confirm or replace; `timeline.md` carries the pl
 | 03 The Lighthouse | ~60 | **The Skerry's post** — a beacon moonlet at a route-crossing *(its star unnamed — naming debt)* | The station itself | The **southern relay** (dark, then one flash); the routes of ten thousand crossings; the *Anthem*'s last position |
 | 04 The City That Forgave | ~180 | **Meret's system** *(star & world unnamed — naming debt)* | Meret, the river Sil, the bridge, the two Wells | The Bridge Night (~CR −120, on the same ground); the diaspora routes outward |
 | 05 The Last Witness | ~240 | **The unroaded system** *(unnamed by design — space was made to forget it)* | The vault moonlet | The **Choir's homeworld** (in carried memory only); the re-remembered roads |
+| 06 The Cartographer of Silence | ~300 | The **chapter-house system** (guild post) + **Farrow** *(frontier world; its star unnamed — naming debt)* | The chapter-house, Farrow's town and port | The silences on Veya's map — frontier worlds gone quiet, uncounted |
+| 07 A Hundred Empty Years | ~300 *(prologue ~200)* | **Sowen** *(one settled world; star unnamed — naming debt)* | The colony: bindery, depot, tether-port | Meret (the founders' city, one scene); the Librarian (as an address only) |
+| 08 The Last Librarian | ~301 *(epilogue years later)* | **The Librarian's site** — a hollowed mountain range of holdings *(its world unnamed — naming debt)* | The halls, the wings, the tea room | The **long shelf** — hundreds of small keepers across the reach, implied |
+| 09 The Severed Reach | ~312 | The **Corvane–Dresk frontier**: the beacon graveyard, the blockade run, the **Selt system** | The auction yard, the tug, the relight site | The vacated placement (an empty sky going dark); the peace conference |
+| 10 Where the Names Go | ~318 *(prologue ~313)* | **Carath** — hub world of the re-routed mesh | The Hall of Rolls, the squares, the substructure beneath | The letters' origin: a relay three centuries dark *(D3 — Book 1's calling tower)* |
 
-**Census so far: 4 on-page systems · 2 walkable planets · 2 moonlets · 4 invoked
-off-page locales.** Five books, four systems — the cycle is deliberately intimate;
-Cycles 2–6 have thousands of dark systems to light.
+**Census after the Cycle 2 outlines: ~10 on-page systems · 5 walkable worlds ·
+2 moonlets · the Librarian's range · ~8 invoked off-page locales.** The atlas roughly
+doubled, as the cycle charter planned — while the almanac's own diegetic count
+(*eleven thousand four hundred six worlds answering*) keeps the lit rooms honest:
+still a handful, in an enormous dark house.
 
 ## Registry — stations & megastructures
 
@@ -57,9 +64,12 @@ Cycles 2–6 have thousands of dark systems to light.
 | **The beacon network** | Ancient infrastructure (many stations) | 02 (epilogue) / 03 | The Skerry's beacon + the southern relay on-page; the rest implied — keep the total count vague ("the settled routes are strung with them"). |
 | **The Wells of Meret** | Ancient infrastructure (two mouths, one root) | 04 | Circle-crossed-line on the copings; builders unknown. |
 | **The Witness's vault** | Megastructure — "a library the size of a moon" (Law 7's own exemplar) | 05 | Older than the Choir who used it. The cycle's largest object. |
-| *The suspected whole* | — | 02 → | Gate, Hall, Lens, beacons, Wells, vault may be limbs of **one network**. Open mystery; never confirmed in Cycle 1. |
+| **The Librarian** | Archive-mind + site (human-built, settled-ages old) | 08 | Deleted its own name first; dispersed its holdings to the long shelf; smaller now, and alive. |
+| **The beacon graveyard & the moved beacons** | Infrastructure (mobile) | 09 | Beacons can be towed; reach is treaty-capped; one placed illegally for the Selt, later legalized (placement-as-right precedent). |
+| **Carath's substructure** | Ancient infrastructure (foundation-deep, beneath the Hall of Rolls) | 10 | Woke once, fought the taking, guttered. Circle-crossed-line on the warm stone. Builders unknown. |
+| *The suspected whole* | — | 02 → | Gate, Hall, Lens, beacons, Wells, vault — and now Carath's root — may be limbs of **one network**. Open mystery; never confirmed on the page. |
 
-**Count: 6 named structures (+1 suspected whole).**
+**Count: 9 named structures (+1 suspected whole).**
 
 ## Registry — ships
 
@@ -70,8 +80,12 @@ Cycles 2–6 have thousands of dark systems to light.
 | The freighter (Ch 1) / the convoy (Ch 8) | 03 | Unnamed; the convoy nearly dies blind. |
 | The fragment-ships | 03 → 04 | Several; one logged bound for Meret (its fragment becomes an heirloom). |
 | The expedition ship | 05 | **Unnamed — naming debt before drafting.** |
+| Veya's crossings (held & unheld) | 06 | Working passages, no named hull; the road is the character. |
+| The consignment ship (Sowen's crates) | 07 → 08 | Joss's courier run; ten crates, one urn, one passenger. |
+| Madge's tug (+ the beacon under tow) | 09 | A lighthouse riding a barge train — the war's image. The beacon's old station-voice logs the crew, courteously. |
 
-**Count: 1 named · ~6+ unnamed with on-page roles.**
+**Count: 1 named · ~10 unnamed with on-page roles.** *(Naming a ship stays a
+meaningful act — the Anthem remains the only one that earned it.)*
 
 ## Registry — significant objects
 
@@ -86,7 +100,13 @@ Cycles 2–6 have thousands of dark systems to light.
 | Renn's *Observations* notebook | 02 | The first artifact of the new method. |
 | The sealed casket of Meret | 04 | The Mercy's one unread copy; circle-crossed-line on the seal. |
 | The *Anthem* fragments | 03 → 04 | Distributed memory of a lost ship; one an heirloom in Meret. |
-| **The circle crossed by a single line** | 01 → | Road markers (02), waystation (02), beacon seal (03), Well copings (04), vault threshold (05 — *older than the Choir*). The cycle's spine symbol; never explained. |
+| **The circle crossed by a single line** | 01 → | Road markers (02), waystation (02), beacon seal (03), Well copings (04), vault threshold (05 — *older than the Choir*), Carath's substructure (10). Rationed: deliberately absent from 06–09. Never explained. |
+| **The river lullaby** | 04 → 05 | Sung whole (04 Ch 1); a verse lost to the Mercy (04 Ch 8, reader-only); heard whole in the vault (05 Ch 8 — the eucatastrophe). The series' mutating song; canonical text written at Book 4's drafting. |
+| **The patient mail (the letters from tomorrow)** | 06 → 10 | Raised (06), echoed (07: the century-dated envelope; 08: "not yet due"), resolved (10: the watchers — senders unidentified). Cycle 2's spine artifact. |
+| **The guild almanac** | 06 → | The census ticker, diegetic: *11,406 worlds answering*. Never decrements in Cycle 2. |
+| **The map of silences** | 06 → 10 | Veya's chart of holes; a later edition rides with the responders (10, one line). |
+| **Sowen's crates & the urn of ash** | 07 → 08 | A century exported; one decade burned unrecoverable. First cargo of the long shelf. |
+| **The rite-book** | 10 | Assembled over decades from opened letters; source of the Night of Strangers. |
 
 ## Naming debts (things that exist but have no name yet)
 
@@ -94,7 +114,13 @@ Cycles 2–6 have thousands of dark systems to light.
 - [ ] Meret's world and its star
 - [ ] The Skerry's star / locale designation
 - [ ] Book 05's expedition ship
+- [ ] Farrow's star; Sowen's star; Carath's star; the Librarian's world
 - [ ] The dating system, in-world (per-culture; CR is authorial only)
+
+**Deliberately never paid (weight-of-names doctrine — mark, don't fill):**
+- The Selt's own name for themselves — plural, untranslated, kept off the page (09).
+- The Librarian's name — the first thing it deleted (08).
+- The unroaded system (05) and the walked worlds of Cycle 1 — unnamed by design.
 
 ## Upkeep
 

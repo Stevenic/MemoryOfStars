@@ -16,6 +16,7 @@ slot into this chronology without contradiction. Companion: [`atlas.md`](atlas.m
 | Deep time | ≲ −1,000,000 | The Choir rise and end; the Witness begins its vigil; the oldest structures (the vault, and whatever cut the circle-crossed-line into it) already old. (Book 05's canon event — signed off 2026-08.) |
 | The settled ages | ≪ 0 → | Humanity spread across thousands of systems; colonies from decades to hundreds of thousands of years old; Earth's status unknown (intentionally undefined). |
 | The waking (Cycle 1's undertow) | ~25 → | The Signal (Book 02) crawls the relays; dark infrastructure begins answering. Never named on the page in Cycle 1. |
+| The scattered light (Cycle 2's present) | ~300 → ~320 | The mesh as everyday life; the Wayfinders' Guild; the letters from tomorrow; the first *witnessed* Erasure event (Carath) and the defense's first visible flicker. |
 
 ## Chronology
 
@@ -29,8 +30,8 @@ slot into this chronology without contradiction. Companion: [`atlas.md`](atlas.m
 | ~25 | Kieran's investigation; the Lens; the Signal; the northern beacon flashes | 02 | "Twenty-five years" per the drafted Ch 1. |
 | ~60 | The flash reaches the Skerry; the *Anthem* speaks; the fragment-carriage rite begins | 03 | Gap = signal crawl through the relays; adjustable. |
 | ~180 | The Mercy: Meret deletes the Bridge Night | 04 | The heirloom *Anthem* fragment is generations old by now. |
-| ~240 | The unroaded system is found; the first carrier | 05 | Canon event (humanity not the first) — signed off 2026-08; logged at drafting. |
 | ~200 | Sowen founded by the Mercy's emigrant children | 07 | ~20-year emigration gap after the Mercy (Law 1). |
+| ~240 | The unroaded system is found; the first carrier | 05 | Canon event (humanity not the first) — signed off 2026-08; logged at drafting. |
 | ~300 | Farrow's silence; plural holding's precedent · Sowen's first Hundredth | 06, 07 | Contemporaneous, different worlds. |
 | ~301 | The Librarian's dispersal; the beacon-registry released | 08 | Sowen's crates arrive with the new year. |
 | ~312 | The beacon war; the Selt relit; the treaty annex promotes Carath | 09 | The registry's echo, a decade on. |
