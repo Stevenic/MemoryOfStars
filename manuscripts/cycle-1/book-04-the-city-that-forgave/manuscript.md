@@ -3,8 +3,9 @@
 *Memory of Stars — Novella #4*
 
 <!--
-Structure follows the series signature (Prologue + 3 acts × 3 chapters + Epilogue).
-Chapter titles are provisional until each is drafted. Scene breaks: ⸻.
+Structure per the Shape Rule (structure.md v2.0): Prologue + 3 acts × 3 chapters +
+Epilogue, re-pointed — the referendum lands at the midpoint (Ch 6); the back half is
+consequence. Chapter titles from the locked outline. Scene breaks: ⸻.
 -->
 
 ## Prologue — The Bridge Night
@@ -23,27 +24,27 @@ _..._
 
 _..._
 
-## Chapter 4 — What the Wells Are
+## Chapter 4 — The Living Argument
 
 _..._
 
-## Chapter 5 — The Living Argument
+## Chapter 5 — What the Wells Are
 
 _..._
 
-## Chapter 6 — The Pivot Instant
+## Chapter 6 — The Vote
 
 _..._
 
-## Chapter 7 — The Vote
+## Chapter 7 — The Forgetting
 
 _..._
 
-## Chapter 8 — The Forgetting
+## Chapter 8 — The Peace
 
 _..._
 
-## Chapter 9 — The City That Forgave
+## Chapter 9 — The Petition
 
 _..._
 

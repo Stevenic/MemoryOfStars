@@ -10,7 +10,7 @@
 | **Memory as…** | burden |
 | **Central question** | Can peace exist while everyone remembers the truth? |
 | **POV** | Juna — a Bearer of Southbank in Meret, 20; the reformer is her mother |
-| **Target length** | ~30,500 words (Prologue + 3×3 + Epilogue) |
+| **Target length** | ~30,300 words (Prologue + 3×3 + Epilogue, re-pointed: the referendum lands at the midpoint) |
 | **Logline** | Two peoples hold perfect records of an old atrocity — and a reformer proposes deleting both sides' inherited memory of it. |
 
 ## Premise

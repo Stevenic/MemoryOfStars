@@ -10,6 +10,9 @@ _Facts this story makes objectively true for the universe._
   by **beacon-stations**. Ships take **soundings** before a crossing; every passage leaves
   **residue** the beacon keeps. Losing route-memory blinds live ships (Law 1 made
   mechanical).
+- Residue has **two kinds of keeping**: a loose surface, freely skimmed and carriable —
+  and load-bearing strata beneath, which live crossings stand on. Carrying the loose
+  costs the living nothing; *completion* digs into what they stand on.
 - A **reconstruction** assembled from residue can converse, want, and choose. Whether it
   is a *person* is not settled — but it is not nothing.
 - The keeper's office transmits memory keeper-to-keeper; keepers surrender their surnames

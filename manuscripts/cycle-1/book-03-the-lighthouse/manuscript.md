@@ -3,8 +3,8 @@
 *Memory of Stars — Novella #3*
 
 <!--
-Structure follows the series signature (Prologue + 3 acts × 3 chapters + Epilogue).
-Chapter titles are provisional until each is drafted. Scene breaks: ⸻.
+Structure per the Shape Rule (structure.md v2.0): Prologue + 8 chapters (2 acts × 4) +
+Epilogue — the held-breath shape. Chapter titles from the locked outline. Scene breaks: ⸻.
 -->
 
 ## Prologue — The Flash
@@ -31,22 +31,18 @@ _..._
 
 _..._
 
-## Chapter 6 — The Choice Named
+## Chapter 6 — What the Station Keeps
 
 _..._
 
-## Chapter 7 — What the Station Keeps
+## Chapter 7 — The Unwinding
 
 _..._
 
-## Chapter 8 — The Unwinding
+## Chapter 8 — Anthem
 
 _..._
 
-## Chapter 9 — Anthem
-
-_..._
-
-## Epilogue — The Next Keeper
+## Epilogue — The Entry
 
 _..._

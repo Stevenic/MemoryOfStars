@@ -25,8 +25,13 @@ route-strata live ships depend on; when she tries anyway, a convoy mid-crossing 
 go blind, and she halts with the dead half-gathered. She tells the voice what it is. After
 three watches of silence it asks: *"Then who is asking you to be let go?"*
 
-Her answer is neither recovery nor deletion: she gives every passing ship a fragment of
-the Anthem to carry outward, so the ship comes home in many holds. The voice chooses to
-disperse — and the choosing is as close as the book comes to calling it a person. Years
-later Edda administers the keeper's rite to her successor and watches one of her own
-memories become the station's, the way you watch a ship leave.
+Her answer is neither recovery nor deletion. What her halted recovery already gathered
+lies *loose* — skimmed from residue's surface, not quarried from the strata live ships
+stand on — and she gives every passing ship a fragment of it to carry outward, so the
+ship comes home in many holds. The voice chooses to disperse — and the choosing is as
+close as the book comes to calling it a person. One fragment-ship is logged bound for
+Meret.
+
+Years later, in the Log, Edda finds a watch-entry in her own hand that she does not
+remember writing. She reads it twice. Then she files it, and keeps the watch it
+describes. The station keeps its keepers; she keeps it back.

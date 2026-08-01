@@ -1,17 +1,26 @@
-# Book 06 — _Title TBD_
+# Book 06 — *The Cartographer of Silence*
 
 | Field | Value |
 |-------|-------|
+| **Cycle** | 2 — *The Scattered Light* |
 | **Number in series** | 06 of 30 |
-| **Status** | Planned |
-| **POV character(s)** | _TBD_ |
-| **Timeline placement** | _TBD_ |
-| **Logline** | _One sentence: who wants what, and what stands in the way._ |
+| **Status** | Outlining |
+| **Scale** | One route-holder and two worlds |
+| **Genre** | Frontier mystery (the cycle's front door) |
+| **Memory as…** | wayfinding |
+| **Central question** | What happens to a world no one remembers the way to? |
+| **POV** | Veya — licensed route-holder of the Wayfinders' Guild, 38 |
+| **Timeline placement** | ~CR 300 (see [timeline](../../../series-bible/timeline.md)) |
+| **Target length** | ~30,000 words (Prologue + 3×3 + Epilogue) |
+| **Logline** | The only route to a frontier world fails inside the woman who holds it — and finding out whether the road died in her or the world is being unwritten means crossing the dark without a map. |
 
-> Rename this folder to `book-06-your-title-slug` once the title is set.
+## Premise
+
+The interstellar mesh has people in it: beacons hold the great routes, and the guild's
+route-holders carry the small ones in living memory — one licensed holder to a road.
+When Veya's route to Farrow fails mid-crossing, clean as a cut page, the guild rules the
+failure is in her. Proving otherwise costs her license, buys a world its map back, and
+starts a chart no one asked for: a map of the frontier's silences.
 
 ## Files
-- `manuscript.md` — the full text of the novella.
-- `outline.md` — beat sheet / chapter outline.
-- `synopsis.md` — spoiler-complete summary for continuity tracking.
-- `notes.md` — research, loose ideas, revision to-dos.
+- `manuscript.md` · `outline.md` · `synopsis.md` · `canon-ledger.md` · `notes.md`

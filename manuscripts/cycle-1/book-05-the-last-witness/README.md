@@ -10,8 +10,8 @@
 | **Memory as…** | survival |
 | **Central question** | Who owns the memory of the dead? |
 | **POV** | Odri — salvage-archaeologist of the Meret diaspora, 44 |
-| **Target length** | ~32,000 words (Prologue + 3×3 + Epilogue) |
-| **Logline** | An ancient intelligence offers humanity a dead species' knowledge — if humans agree to carry the minds stored inside it. |
+| **Target length** | ~30,400 words (Prologue + 3×3 + Epilogue — the founding shape, echoing Book 1; the genre inverts at dead center) |
+| **Logline** | An ancient intelligence offers humanity a dead species' knowledge — if humans will carry the minds stored inside it — and the woman who led everyone there, whose people famously set their burden down, says yes. |
 
 ## Premise
 

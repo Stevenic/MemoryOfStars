@@ -20,6 +20,12 @@ _Facts this story makes objectively true for the universe._
   become the dead. Whether carried memory *is* the person remains unruled.
 - A star system can be **unroaded** — its route-memory removed from the galaxy so that no
   one remembers the way.
+- The Witness **banks rather than dies**: it ceases outward watching and holds its
+  remaining strata as a vault for carriers to come. Most of the Choir will never be
+  carried — the first carriage is a precedent, not a rescue.
+- The vault kept **drifted human signal** among its hearings — including the river
+  lullaby of Meret, whole, from before the Mercy. The sky has been listened to longer
+  than anyone knew.
 
 ## 2. Cultural beliefs
 _Claims characters believe but that are NOT verified as true._
@@ -31,6 +37,7 @@ _Claims characters believe but that are NOT verified as true._
 ## 3. Open mysteries
 _Questions deliberately left unresolved._
 - What ended the Choir. Never explained. "They ended" is the entire answer.
+- How much of *us* is already in the vault — how long has the sky been listening?
 - Who unroaded the system — who made the galaxy forget the way.
 - Who built the vault the Choir themselves inherited — and why the circle crossed by a
   single line is worn into stone older than the Choir.
@@ -41,7 +48,8 @@ _People, systems, places, symbols another story may echo._
 - **Carriers**: humans who dream in two species now walk the universe (→ Cycle 2).
 - The re-remembered roads to the once-unroaded system — open to any later expedition.
 - Cassen's ledger line: the first reclassification of a find from *salvage* to *persons* —
-  a legal precedent later books can cite.
+  a legal precedent later books can cite. His dissent, filed beside Odri's testimony —
+  both kept, neither ruled on (*The Histories*' way, unnamed).
 - The farewell, now spoken at species scale: *"Come home carrying more people than
   yourself."*
 - The circle-crossed-line symbol: its oldest known appearance.

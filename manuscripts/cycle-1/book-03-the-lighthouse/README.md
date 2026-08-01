@@ -10,7 +10,7 @@
 | **Memory as…** | identity |
 | **Central question** | When does a reconstruction become a person? |
 | **POV** | Edda — Keeper of the beacon on the Skerry, ~60 |
-| **Target length** | ~29,500 words (Prologue + 3×3 + Epilogue) |
+| **Target length** | ~28,100 words (Prologue + 8 chapters, 2 acts × 4 + Epilogue — the held-breath shape) |
 | **Logline** | A beacon keeper receives a message from a ship lost for centuries — in a voice that cannot be alive. |
 
 ## Premise

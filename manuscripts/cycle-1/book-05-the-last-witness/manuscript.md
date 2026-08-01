@@ -3,8 +3,9 @@
 *Memory of Stars — Novella #5*
 
 <!--
-Structure follows the series signature (Prologue + 3 acts × 3 chapters + Epilogue).
-Chapter titles are provisional until each is drafted. Scene breaks: ⸻.
+Structure per the Shape Rule (structure.md v2.0): Prologue + 3 acts × 3 chapters +
+Epilogue — the founding shape, echoing Book 1; the genre inverts at the midpoint.
+Chapter titles from the locked outline. Scene breaks: ⸻.
 -->
 
 ## Prologue — The Unroaded System
@@ -39,7 +40,7 @@ _..._
 
 _..._
 
-## Chapter 8 — The First Carrier
+## Chapter 8 — The Carriage
 
 _..._
 

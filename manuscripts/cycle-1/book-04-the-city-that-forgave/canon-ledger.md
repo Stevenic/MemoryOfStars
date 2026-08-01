@@ -11,8 +11,9 @@ _Facts this story makes objectively true for the universe._
 - Deliberate, consensual **deletion of inherited memory from a whole people** is possible
   and survivable — **the Mercy**. The universe now contains a city that forgave by
   forgetting. Preservation is not always virtuous.
-- The Mercy's own law: one sealed copy is kept, unread, by a custodian — deletion at civic
-  scale still requires one person to carry what everyone else set down.
+- The Mercy's own law: one sealed copy is kept, unread, by a custodian — who undergoes
+  the Forgetting like everyone else. **The custodian keeps the door, not the memory**;
+  the office is faith in one's own sealed past self.
 - The two Wells of Meret share a single root: one instrument, two mouths.
 
 ## 2. Cultural beliefs
@@ -20,7 +21,7 @@ _Claims characters believe but that are NOT verified as true._
 - Each bank believes its record of the Bridge Night is the true one (both are "true";
   neither is complete).
 - That the Wells were dug by the city's founders.
-- That the Mercy removed the grief (it removed the object of grief; Ch 9 shows mourning
+- That the Mercy removed the grief (it removed the object of grief; Ch 8 shows mourning
   without a name).
 - That the sealed copy will never be needed.
 
@@ -42,3 +43,7 @@ _People, systems, places, symbols another story may echo._
 - The circle crossed by a single line: the Wells' copings, the casket's seal.
 - A Bearer family keeps an *Anthem* fragment as an heirloom (← Book 3, one line).
 - The custodial rule, quotable: *"We keep it so no one must."*
+- **Garrel's petition**, refused — the precedent that the sealed room stays sealed even
+  for the one who was right.
+- The **river lullaby** of Meret — sung whole before the Mercy; a verse fewer after
+  (→ Book 5).
