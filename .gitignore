@@ -43,3 +43,8 @@ vendor/
 # local UX work only. Production (GitHub Pages) never has this file, so the public
 # map keeps its dark, unnamed stars. NEVER COMMIT.
 /docs/_data/archive_index_full.yml
+
+# Body-art generator scratch: unpicked variants + the billing log. The PICKED
+# finals live in /docs/assets/art/ and ARE committed (public site assets).
+/scripts/art/work/
+/scripts/art/gen-log.jsonl

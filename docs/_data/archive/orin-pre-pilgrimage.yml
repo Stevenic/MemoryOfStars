@@ -14,44 +14,32 @@
 slice:
   id: orin-pre-pilgrimage
   star: book-01                       # ties to the star-map (Archive index) entry
-  # Reader integration: chapters of the book this recording covers. The reader shows a
-  # "step inside this moment" portal at the end of each listed chapter. Omit to show on
-  # every chapter of the book.
-  chapters: [chapter-1, chapter-2, chapter-3, chapter-4]
+  # This recording's entry points are its `memories:` (below), each surfaced by one or more
+  # chapters (many-to-many). The reader shows a portal on any chapter a memory lists.
   title: "Orin — the last ordinary week"
   frame: >
     The seven days before the Pilgrimage. The city is stringing silver thread and
     pretending nothing is about to change. The climb has not happened; no one has
     gone to the mountain yet. That memory is not in this recording.
 
-# Who the visitor may inhabit (telepresence: always a body). Default first.
-inhabit:
-  default: lyra
-  note: >
-    Inhabiting a body sets who you are, how the town treats you, and what you know.
-    You wake into that body's natural place. Switching bodies mid-session is allowed
-    later via an inhabit() tool; for now it is chosen at the start.
-  bodies:
-    - id: lyra
-      start: mara-kitchen
-      become: "Lyra Ash, seventeen — curious and dry, the girl who climbs in seven days."
-      seen_as: "Mara is your mother; Tomas your closest friend; the town has watched you grow up."
-    - id: mara
-      start: mara-kitchen
-      become: "Mara — Lyra's mother, a herb-seller; warm and guarded, your hands never still."
-      seen_as: "Lyra is your daughter; neighbours greet you by name; you made this climb once yourself."
-    - id: tomas
-      start: western-wall
-      become: "Tomas — Lyra's friend; over-precise, deadpan, a notebook always to hand."
-      seen_as: "Lyra is your closest friend; adults find you exhausting and useful in equal measure."
-    - id: elias
-      start: hall-of-names
-      become: "Elias — the ancient caretaker of the Hall of Names; gentle, forgetful, kind."
-      seen_as: "You have kept the names longer than anyone remembers; the whole town knows your face."
-    - id: rian
-      start: rians-shop
-      become: "Master Rian — a shopkeeper who cries at the weather; an ordinary life in Orin."
-      seen_as: "A fixture of the market; the children steal your hat every Festival."
+# Persona framing for the inhabitable characters — who you become, and how the town sees you.
+# WHICH of these you may inhabit is decided per memory (each memory's `inhabit:` list).
+personas:
+  lyra:
+    become: "Lyra Ash, seventeen — curious and dry, the girl who climbs in seven days."
+    seen_as: "Mara is your mother; Tomas your closest friend; the town has watched you grow up."
+  mara:
+    become: "Mara — Lyra's mother, a herb-seller; warm and guarded, your hands never still."
+    seen_as: "Lyra is your daughter; neighbours greet you by name; you made this climb once yourself."
+  tomas:
+    become: "Tomas — Lyra's friend; over-precise, deadpan, a notebook always to hand."
+    seen_as: "Lyra is your closest friend; adults find you exhausting and useful in equal measure."
+  elias:
+    become: "Elias — the ancient caretaker of the Hall of Names; gentle, forgetful, kind."
+    seen_as: "You have kept the names longer than anyone remembers; the whole town knows your face."
+  rian:
+    become: "Master Rian — a shopkeeper who cries at the weather; an ordinary life in Orin."
+    seen_as: "A fixture of the market; the children steal your hat every Festival."
 
 # --- The map -----------------------------------------------------------------
 # exits: { to: <location id>, note: <how it reads> [, boundary: true] }
@@ -334,3 +322,129 @@ objects:
   wall-of-names:
     public: "Names carved into the black stone from floor to ceiling — every citizen of Orin: the living, the dead, those who left, those who returned. Elias keeps them."
     withholds: "Whether any name is missing. If the visitor searches for one, let the searching feel meaningful but find nothing certain — do not confirm or invent an absence."
+  slate:
+    public: "A small square of dark stone given to each Pilgrim for the Festival's end — smooth on one side, rough on the other. At sunset they are broken and thrown into the river."
+    withholds: "Whatever a Pilgrim chooses to write on it. If the visitor tries to read someone else's slate, it is quietly turned facedown."
+
+# ---------------------------------------------------------------------------
+# MEMORIES — the entry points into this recording. Each is a moment: a time, a place you
+# wake, the people present (per-location world-state), and which of them you may inhabit.
+# `chapters:` lists which chapters surface it (many-to-many; an empty list = reachable from
+# the sky only). Overrides replace a location's present/vibe/objects for THIS memory;
+# geography and exits never change. NO SPOILERS — every memory holds only what a person
+# could know that week; nothing from later in the story.
+# ---------------------------------------------------------------------------
+memories:
+  - id: ordinary-morning
+    title: "The Last Ordinary Morning"
+    when: "seven days out · dawn"
+    chapters: [chapter-1]
+    start: mara-kitchen
+    inhabit: [lyra, mara]
+    frame: >
+      An ordinary morning, seven days before the Pilgrimage. The six dawn bells have just
+      finished; the city is only beginning to wake. Nothing has happened yet. Keep it quiet,
+      domestic, and warm.
+    overrides:
+      mara-kitchen: { present: [mara, lyra] }
+
+  - id: registration
+    title: "The Hall of Names"
+    when: "the week of registration · midmorning"
+    chapters: [chapter-2]
+    start: hall-of-names
+    inhabit: [lyra, tomas, elias]
+    frame: >
+      Registration is underway. Pilgrims file through the Hall to have their names confirmed and
+      a silver cord tied to each wrist. Tomas is full of theories; Elias, the old caretaker, is
+      quietly unsettled by something he can't name. Wry, curious, a mystery gathering underneath.
+    overrides:
+      hall-of-names:
+        present: [elias, tomas, lyra, clerks]
+        vibe: >
+          The black-stone Hall, cool and dim, the carved names climbing every wall. A long table
+          has been set up: clerks in gray robes confirm each Pilgrim's name and tie a length of
+          silver cord to their wrist, and a line of the young and their families waits its turn.
+          Elias moves among them with his silver staff, greeting people he has known all their lives.
+        objects: [wall-of-names, silver-cord]
+      market-road: { present: [mara, townsfolk] }
+
+  - id: festival
+    title: "The Festival of Last Things"
+    when: "six days out · the Festival"
+    chapters: [chapter-3]
+    start: fountain-square
+    inhabit: [lyra, mara, tomas, rian]
+    frame: >
+      It is the Festival of Last Things — for this one day the children may steal one harmless
+      thing from any adult who has made the climb, and the whole city is a game: chalk drawings,
+      stolen hats, music, silver thread on everything. Beneath the joy, the slate ceremony is
+      gathering. Lively and warm on the surface; the goodbye underneath.
+    overrides:
+      fountain-square:
+        present: [seren, townsfolk]
+        vibe: >
+          The central square, chalk birds and crooked maps covering the stones, silver thread looped
+          overhead. People are gathering for the slate ceremony — each Pilgrim will be given a square
+          of dark stone to write on, then break. Beneath the clock tower stands a gray-coated stranger
+          with silver hair whom no one saw arrive.
+        objects: [slate]
+      market-road:
+        present: [mara, tomas, townsfolk]
+        vibe: >
+          The Festival has turned the market into a game — chalk birds underfoot, silver thread strung
+          between the striped awnings, the smell of honey and roasted onions. Somewhere a stolen brass
+          bell is ringing as it flees through the laughing crowd. Mara works her herb stall and
+          pretends not to notice the children eyeing her bell.
+        objects: [brass-bell]
+      house-lane:
+        vibe: "Every doorway strung with silver thread and chalked with birds and crooked little maps; the lane louder than usual with the Festival."
+      river-bridge:
+        vibe: "The old bridge over the river — where, at the Festival's end, the Pilgrims will break their slates and cast the pieces into the water."
+
+  - id: departure
+    title: "The Morning of the Climb"
+    when: "the seventh day · before dawn"
+    chapters: [chapter-4]
+    start: eastern-square
+    inhabit: [lyra, mara, tomas]
+    frame: >
+      Departure. The Pilgrimage leaves at the third bell. The forty-two Pilgrims are gathering in
+      the eastern square beneath the old arch; families are saying goodbye; and Elias — who has not
+      joined a Pilgrimage in thirty-two years — has arrived with a pack on his shoulders, which no
+      one expected. Quiet, charged, a held breath.
+    overrides:
+      eastern-square:
+        present: [seren, elias, tomas, lyra, townsfolk]
+        vibe: >
+          The eastern square before dawn, lanterns still burning, silver thread strung across the old
+          arch. Forty-two Pilgrims gather with their packs; families tighten straps and repeat advice
+          no one will remember by noon. Seren the guide stands a little apart, having arrived unseen.
+          And walking slowly up the northern street comes Elias — old, stooped, a traveler's pack on
+          his shoulders — the caretaker of the names, joining the climb.
+        objects: [silver-thread]
+      mara-kitchen:
+        present: [mara]
+        vibe: >
+          The kitchen before dawn, a single candle burning. Breakfast set for more people than are
+          here — bread, cheese, two boiled eggs — and no one mentioning it. Mara waits, her hands busy
+          with nothing.
+
+  - id: the-wall
+    title: "The Western Wall"
+    when: "an evening that week · sundown"
+    chapters: []
+    start: western-wall
+    inhabit: [lyra, tomas]
+    frame: >
+      A quiet evening at the top of the western wall — Lyra and Tomas's place for years. The city
+      lies gold below; the mountain stands in its cloud. Nothing happens here. It is only the two of
+      them, and the view, and the last of the ordinary days. (Reachable from the sky, not tied to a
+      chapter.)
+    overrides:
+      western-wall:
+        present: [tomas]
+        vibe: >
+          The top of the wall at sundown, nearly the whole city laid out below and going gold — the
+          river, the market, the towers. And beyond everything else, the mountain, its summit wrapped
+          in cloud that never quite hides it.

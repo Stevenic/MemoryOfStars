@@ -1,0 +1,22 @@
+# =============================================================================
+# NAMED / STORY-TIED STARS — the curated overlay.
+# Most of the starfield is anonymous background (generated). These are the stars the
+# books actually name. A star lights up on the map — and becomes drillable into its
+# system — once a book listed in `refs` has been READ (read-to-reveal; skip the book
+# and the star stays dark, a gap in your universe). `system` links to a
+# docs/_data/system-<id>.yml for the drill-down. Positions are in the starfield
+# coordinate space (see starfield.json `bounds`). This list grows as books name stars.
+#
+# scripts/gen-starfield.rb merges these into the generated docs/_data/starfield.json.
+# NO mesh / temporal-transmitter data here — that's private (planning/).
+# =============================================================================
+stars:
+  - id: auros
+    name: "Auros"
+    x: 760
+    y: 470
+    cls: "G"
+    mag: 1.35
+    refs: [book-01]
+    system: orin-system
+    note: "Orin's sun. The Auros system holds Enara — the world of The First Pilgrim."

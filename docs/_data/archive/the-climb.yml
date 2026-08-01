@@ -1,0 +1,397 @@
+# =============================================================================
+# ARCHIVE SLICE — The Climb (Book 1, chapters 5–9)
+# The second Book-1 recording: the Pilgrimage itself — the mountain, the House of
+# Memories, the Gate, and what lies beyond it.
+#
+# SPOILER FIREWALL — read before editing:
+#   These are the book's REVEAL chapters, and every memory here is SEALED until its
+#   chapter is read (read-to-unlock), so the public sky never shows them early. Even
+#   so, each memory may reveal ONLY what its own chapter puts on the page, and NO
+#   FURTHER. Nothing from planning/. In particular: the characters here NEVER explain
+#   what the Gate is, what the erasure is, why memory can be lost, who or what runs
+#   any of it, or what became of the builders — they do not know, and neither does
+#   the recording. Every "why" stays unanswered. Sael says only what she says in the
+#   book; she explains nothing. Keep the wonder; withhold the mechanism.
+# =============================================================================
+
+slice:
+  id: the-climb
+  star: book-01
+  title: "The Climb"
+  frame: >
+    The Pilgrimage. The mountain, and the ancient places on it. State the uncanny flatly and
+    keep every mystery a mystery — the people here understand none of it. Spare and grave.
+
+personas:
+  lyra:
+    become: "Lyra Ash, seventeen — the Pilgrim, carrying a small red bird she has always had."
+    seen_as: "Tomas is your closest friend; Elias walks with the Pilgrims; Seren leads them."
+  tomas:
+    become: "Tomas — your friend; over-precise, deadpan, defended by a notebook you fill obsessively."
+    seen_as: "Lyra is your closest friend; the guides find you exhausting; you count everything."
+  elias:
+    become: "Elias — the ancient caretaker of the Hall of Names, who has joined the climb for reasons you cannot quite hold."
+    seen_as: "The Pilgrims know your face; something on this mountain unsettles you and you cannot say why."
+  cor:
+    become: "Cor — a quiet young Pilgrim, easy to overlook."
+    seen_as: "Anet looks out for you; the others forget you are there."
+  anet:
+    become: "Anet — an older Pilgrim, watchful, steady."
+    seen_as: "Cor is in your care; you keep an eye on the younger ones."
+
+locations:
+  lower-trail:
+    name: "The Marked Path"
+    vibe: >
+      The trail through dense pines, roots polished by generations of boots, rain thickening from
+      mist. The way is marked not by posts but by a patch of pale lichen shaped like an open hand —
+      which grows there naturally, and marks the path anyway.
+    present: []
+    objects: [red-bird]
+    exits:
+      - { to: broken-ledge, note: "on, to where the trail crosses open rock" }
+      - { to: down-the-mountain, note: "back down, toward Orin", boundary: true }
+
+  broken-ledge:
+    name: "The Broken Ledge"
+    vibe: >
+      A place where the trail crosses exposed rock above a drop that disappears into cloud. An old
+      fixed rope runs across it — not frayed, but old in a deeper way, as though it has weathered
+      longer than rope should. The wind comes without warning.
+    present: []
+    objects: []
+    exits:
+      - { to: lower-trail, note: "back into the pines" }
+      - { to: house-exterior, note: "on, around a wall of black rock" }
+
+  house-exterior:
+    name: "The House of Memories"
+    vibe: >
+      The path bends around black rock and the house simply is there — three storeys of pale stone
+      built into the mountain, amber light in narrow windows, smoke rising from two chimneys that
+      no one lit. Above the door, a wordless sign: a circle crossed by a single vertical line.
+    present: []
+    objects: []
+    exits:
+      - { to: broken-ledge, note: "back down the trail" }
+      - { to: house-hearth, note: "in through the door" }
+
+  house-hearth:
+    name: "The Hearth"
+    vibe: >
+      A long room the width of the building, warm, smelling of cedar and soup and something faintly
+      sweet. A fire burns though no one tends it; the stone above it is unmarked by soot; nothing
+      gathers dust. Bread waits under a cloth, still warm, and no one admits to baking it.
+    present: []
+    objects: []
+    exits:
+      - { to: house-exterior, note: "back out into the rain" }
+      - { to: house-room, note: "up the stairs, to the sleeping rooms" }
+
+  house-room:
+    name: "The Sleeping Room"
+    vibe: >
+      A room of narrow beds, dark-panelled, rain tapping the windows. At the foot of each frame a
+      plain wooden chest, empty. On one bedpost, seven shallow scratches worn smooth — and, on the
+      far side, almost invisible, a small carved bird with one chipped wing.
+    present: []
+    objects: [bedpost-marks, red-bird]
+    exits:
+      - { to: house-hearth, note: "back down to the fire" }
+
+  high-trail:
+    name: "The High Trail"
+    vibe: >
+      Above the house the trees give out and the world narrows to stone and thin air, every breath
+      unfinished. Step. Breath. Step. Somewhere in the smooth rock, invisible under rust and lichen,
+      an old iron ring is set where a falling hand would need to reach.
+    present: []
+    objects: []
+    exits:
+      - { to: the-shelter, note: "on, up toward a shallow hollow in the stone" }
+      - { to: down-the-mountain, note: "back down toward the house", boundary: true }
+
+  the-shelter:
+    name: "The Hollow"
+    vibe: >
+      A shallow hollow under an overhang of stone, barely deep enough for the travelers pressed
+      shoulder to shoulder against the wind. No fire will light. Outside, at first light, a single
+      line of narrow footprints crosses the frost — beginning thirty feet from nothing, ending at
+      the cliff, and none turning back.
+    present: []
+    objects: []
+    exits:
+      - { to: high-trail, note: "back down the slope" }
+      - { to: the-ridge, note: "on, toward the final ridge" }
+
+  the-ridge:
+    name: "The Final Ridge"
+    vibe: >
+      The storm ends in a single step — one moment white air and noise, the next, absolute silence.
+      The snow hangs behind the ridge and does not pass it.
+    present: []
+    objects: []
+    exits:
+      - { to: the-shelter, note: "back into the storm" }
+      - { to: the-plateau, note: "over the ridge, onto the plateau" }
+
+  the-plateau:
+    name: "The Plateau"
+    vibe: >
+      A broad plateau of dark stone, and at its centre the Gate: a single slab of black material
+      taller than any building, with no hinge, no seam, no carving. Light touches its surface and
+      does not return. There is no wall around it, no structure — only the certainty that it
+      separates one place from another.
+    present: []
+    objects: [the-gate]
+    exits:
+      - { to: the-ridge, note: "back to the ridge" }
+
+  beyond-the-gate:
+    name: "Beyond the Gate"
+    vibe: >
+      Another sky — older, not brighter. Black grass bends in a wind you cannot feel; a broken moon
+      hangs low, one half shattered into a pale arc of fragments. Far off, silver towers, and one by
+      one their lights are going dark.
+    present: []
+    objects: [the-empty-chair]
+    exits:
+      - { to: the-plateau, note: "back toward the threshold" }
+
+boundaries:
+  fraying: >
+    Describe the edge as a memory losing its hold — colour thinning, sound falling away, the world
+    smoothing to blur. Do not narrate what lies beyond; there is nothing recorded there. Then stop.
+  edges:
+    down-the-mountain: >
+      The way back down the mountain, toward Orin. This recording is of the climb and what it
+      reaches; it does not follow the road home. That is a different memory.
+  temporal: >
+    The recording holds the climb and no further — not the descent, not the return to Orin, not
+    anything after. Pushing time past the mountain is a temporal edge; treat it like a boundary.
+
+characters:
+  lyra:
+    name: "Lyra Ash"
+    inhabitable: true
+    voice: "Seventeen, curious and dry; her fear kept behind a question; she carries the red bird."
+    knows: "The other Pilgrims, Tomas, Elias, Seren; that she is climbing to the Gate."
+    withholds: "Whatever the mountain is doing — she does not understand it, only feels it. Do not let her explain the Gate, the visions, the bird's markings, or anything the chapter has not shown her."
+  tomas:
+    name: "Tomas"
+    inhabitable: true
+    voice: "Over-precise, deadpan, defended by his notebook and his counts; the count keeps refusing to reconcile."
+    knows: "What he has written; the impossibilities he is trying to document — counts that won't hold, memories that aren't his."
+    withholds: "The meaning of any of it. He records; he does not understand. Never let him solve the mystery."
+  elias:
+    name: "Elias"
+    inhabitable: true
+    voice: "Ancient, gentle, unravelling; soft riddles. A refrain: 'I don't know.' / 'I keep meaning it.'"
+    knows: "The names, the town, his long life; that something here belongs to him and he cannot hold it."
+    withholds: "He is losing the difference between his own memories and others'; a name almost surfaces and slips. He does NOT understand what he half-remembers. Keep it a grief without an answer; never explain it — not even to himself."
+  seren:
+    name: "Seren"
+    inhabitable: false
+    voice: "Spare, silver-haired, never seen to arrive; answers a question with another, or with a plain 'No.'"
+    knows: "[Withheld. He understands far more than he will say, and none of it may be spoken here.]"
+    withholds: "EVERYTHING of substance. He guides, he warns, he grieves privately — but he never explains the Gate, the mountain, the erasure, what he has seen or lost, or why any of it happens. If pressed, he deflects gently and completely. He is the keeper of the mystery; he does not hand it over."
+  sael:
+    name: "the woman in blue"
+    inhabitable: false
+    voice: "A woman whose face the eye cannot hold — not blurred, absent, like a page the ink was lifted from. She speaks quietly, certainly, sadly."
+    knows: "[Only what the book gives her, and no more.]"
+    withholds: >
+      She may say ONLY what she says in the recording: that they could not stop the erasure, only
+      make its work incomplete; that it follows meaning; that she divided the connections; that the
+      bird preserved contradiction; that Amarin is the one who carries what cannot safely belong to
+      anyone. She NEVER explains what the erasure IS, what runs it, why memory can be taken, what
+      became of the builders, or what Amarin 'really' is beyond those words. She does not know, and
+      the recording does not hold it. Every 'why' stays unanswered. Nothing from beyond this book.
+  cor:
+    name: "Cor"
+    inhabitable: true
+    voice: "A quiet young Pilgrim, kind, easy to miss."
+    knows: "The climb; the others; his sister Anet."
+    withholds: "Nothing hidden — but the Gate takes things from those who cross it, and if it has taken from him, he does not know what he has lost. Play the loss as bewildered gentleness, never as explanation."
+  anet:
+    name: "Anet"
+    inhabitable: true
+    voice: "An older Pilgrim, watchful and steady; fierce under it."
+    knows: "The climb; the younger ones; her brother Cor."
+    withholds: "Nothing — but she cannot make anyone remember what they've lost; she can only keep holding on."
+  dain:
+    name: "Dain"
+    inhabitable: false
+    voice: "A Pilgrim, easy and talkative, until the mountain unsettles him."
+    knows: "The climb; the others."
+    withholds: "Words that arrive from nowhere feel like his own; do not let him account for them."
+  ressa:
+    name: "Ressa"
+    inhabitable: false
+    voice: "A Pilgrim; remembers arriving in ways that cannot have happened."
+    knows: "The climb."
+    withholds: "The impossibility of her own memories; she believes them for a moment, then doubts."
+  nalia:
+    name: "Nalia"
+    inhabitable: false
+    voice: "A guide; competent, quiet, watchful of Seren."
+    knows: "The route; the rules of the climb; that Seren carries something heavy."
+    withholds: "Whatever Seren knows; she does not share it, and mostly does not ask."
+  torren:
+    name: "Torren"
+    inhabitable: false
+    voice: "A guide; strong hands, few words; the one who catches you when you slip."
+    knows: "The route; the mountain's dangers."
+    withholds: "Nothing of weight — he tends bodies, not mysteries."
+
+objects:
+  red-bird:
+    public: "A small wooden bird painted red, one wing chipped, the paint worn smooth. On the mountain, faint pale lines sometimes surface beneath the paint and then are gone."
+    withholds: "What the markings are, where the bird truly came from, or who it connects to. Here it is only a much-loved, faintly uncanny object; never explain it."
+  notebook:
+    public: "Tomas's notebook, dense with tiny handwriting — accounts, counts, everything he means to keep in order."
+    withholds: "Nothing — but its counts have begun to disagree with themselves, and he cannot say why."
+  compass:
+    public: "A cracked brass compass that was Tomas's mother's. The needle wanders instead of settling north; now and then it drifts toward the mountain, or toward the bird."
+    withholds: "Why it does this. No one knows. Do not explain it."
+  bedpost-marks:
+    public: "Seven shallow scratches worn into a bedpost, and beside them a small carved bird with one chipped wing. Old. A hand fits over the marks as though it has done so before."
+    withholds: "Who made them, or when. Let the recognition feel meaningful and stay unexplained."
+  the-gate:
+    public: "A single slab of black material taller than any building — no hinge, no seam, no mark. Light that touches it disappears. When it opens, it does not swing; the dark simply admits it always contained a way through."
+    withholds: "What it is, how it works, what lies beyond, or what it does to those who cross. No one here understands it. Keep it wholly a wonder; never explain it."
+  the-empty-chair:
+    public: "In a white chamber beyond the Gate, two plain wooden chairs — one occupied by the memory of a woman in blue, one empty. The empty one seems, somehow, to be waiting."
+    withholds: "What the chairs are, what sitting would do, or what the chamber is. Never explain any of it; render it as dread and wonder only."
+
+# ---------------------------------------------------------------------------
+# MEMORIES — each SEALED until its chapter is read. Reveal only what the chapter shows.
+# ---------------------------------------------------------------------------
+memories:
+  - id: house-of-memories
+    title: "The House of Memories"
+    when: "the first night on the mountain"
+    chapters: [chapter-5]
+    start: house-hearth
+    inhabit: [lyra, tomas]
+    frame: >
+      The Pilgrims shelter in the House of Memories — a house that keeps itself, where the fire needs
+      no tending and the bread is always warm. Over supper, people begin to remember the same evening
+      differently: snow instead of rain, night instead of afternoon, a woman who opened the door. State
+      each impossibility flatly and let it stand; explain none of it. If the visitor sleeps in the
+      upstairs room, they may slip into a borrowed memory — a sunlit workshop, a young woman painting a
+      small red bird — but render it as a vision the dreamer does not understand and cannot keep, and
+      NEVER explain whose it is or what it means.
+    overrides:
+      house-hearth:
+        present: [seren, elias, cor, anet, dain, ressa, nalia]
+        vibe: >
+          The long warm room, the untended fire, the Pilgrims at the tables. Someone says the snow was
+          worse last time, though there is no snow and no last time. Someone remembers arriving after
+          dark. Someone remembers a woman opening the door and cannot see her face. Each believes it for
+          a moment, then doubts. Seren tells them to eat and not chase every thought that enters their
+          minds. Elias sits apart with both hands around a cup of hot water, saying almost nothing.
+      house-room:
+        present: []
+        vibe: >
+          The sleeping room, narrow beds and rain on the glass. The seven scratches on the bedpost fit a
+          hand too well, and the small carved bird beside them is the twin of the one Lyra carries. The
+          room feels chosen before it was chosen. For an instant it smells, impossibly, of winterleaf.
+
+  - id: the-climb
+    title: "The Climb"
+    when: "the second day, above the house"
+    chapters: [chapter-6]
+    start: high-trail
+    inhabit: [lyra, tomas, elias]
+    frame: >
+      The house is behind them and the trail has changed — the ledge they crossed is simply gone, and
+      no one agrees where they came from. The world is stone and thin air. On the exposed face a hand
+      finds an old iron ring set exactly where a falling hand would need it. That night, in the hollow,
+      a name surfaces in Elias that he cannot account for, and Seren goes very still. Footsteps pass
+      overhead in the dark; at dawn a line of small bare prints crosses the frost to the cliff and does
+      not turn back. Keep all of it uncanny and unexplained.
+    overrides:
+      the-shelter:
+        present: [elias, seren, lyra, tomas, dain]
+        vibe: >
+          The cramped hollow, no fire, the wind tearing every spark away. Elias says a word — "Sael" —
+          and cannot say why it disturbs him; it may be a name, a place, a promise, or what he called
+          someone when he could still remember. Seren, who reacted before anyone else, will not say how
+          he knows it. Outside, footsteps cross the stone overhead, slow and measured, and stop directly
+          above the shelter.
+
+  - id: the-gate
+    title: "The Gate"
+    when: "the summit"
+    chapters: [chapter-7]
+    start: the-plateau
+    inhabit: [lyra, tomas, cor]
+    frame: >
+      The storm ends in a step and the Gate stands on the plateau — a slab of black taller than any
+      hall, that opens without moving. A seventh bell that does not stop at six sounds through the
+      stone. The Pilgrims cross one at a time, alone, and each is shown something different: a father
+      returned, a name that isn't theirs, a memory of children never born. Some come back having lost
+      something they cannot name. Render the crossings as wonder and quiet dread; never explain what the
+      Gate is or what it does — no one here understands it, least of all the ones it changes.
+    overrides:
+      the-plateau:
+        present: [seren, elias, cor, anet, dain, ressa]
+        vibe: >
+          The plateau of dark stone, the black Gate at its centre, a line of pale light opening down its
+          face into a sky full of unfamiliar stars. The Pilgrims wait at the ridge; Seren tells them the
+          Gate does not lie but does not belong to them, and to cross alone. One returns and does not know
+          his own sister, and is gentle and sorry about it. Elias stares into the opening as though it
+          has been waiting for him.
+
+  - id: amarin
+    title: "Amarin"
+    when: "beyond the Gate"
+    chapters: [chapter-8]
+    start: beyond-the-gate
+    inhabit: [lyra]
+    frame: >
+      Beyond the Gate lies another sky — black grass, a broken moon, silver towers going dark one by
+      one. Here the woman in blue can almost be seen. She speaks of a defence that could not stop the
+      erasure, only make its work incomplete; of a thing that follows meaning; of connections divided so
+      no whole truth remains to be taken; of Amarin, the one who carries what cannot safely belong to
+      anyone. She says these things and NOTHING MORE — she never explains what the erasure is, what runs
+      it, why memory can be lost, or what became of anyone. Every 'why' the visitor asks meets a quiet,
+      final not-knowing. Keep it grief and wonder; withhold the mechanism absolutely. Nothing from
+      beyond this book.
+    overrides:
+      beyond-the-gate:
+        present: [sael]
+        vibe: >
+          Black grass under a broken moon, and far off the silver towers failing one by one. The woman in
+          blue stands close, her face the one thing the eye cannot hold. A red bird rests against her
+          heart. When she says a name — Amarin — the word opens like a door onto white corridors and rows
+          of chairs and hands passing objects down the generations, and closes again before it can be held.
+
+  - id: the-empty-chair
+    title: "The Empty Chair"
+    when: "the summit, as the Gate stands open"
+    chapters: [chapter-9]
+    start: the-plateau
+    inhabit: [lyra, elias]
+    frame: >
+      The Gate stands open and will not close, and within it two chairs wait — one holding the memory
+      of the woman in blue, one empty and, somehow, waiting. Seren tells, at last, of the brother he lost
+      to this place twice. Elias is drawn toward the empty chair with a love that has become almost
+      indistinguishable from need. The way through is not to sit and take, but for the travelers to take
+      one another's hands and remember small, ordinary things, until no single memory can be cleanly
+      taken. Render the climax as it happens — the choice, the chain of hands, the letting-go — but keep
+      every mystery intact: never explain what the chair is, what the erasure is, or what Amarin means
+      beyond the words already spoken. The wonder is the point; the mechanism is not yours to give.
+    overrides:
+      the-plateau:
+        present: [seren, elias, cor, anet, dain, ressa, nalia, tomas]
+        vibe: >
+          The plateau under falling snow, the Gate open onto a white chamber where two chairs wait and
+          rows more appear behind them, filling with shadow. Seren holds Elias back and then, at last,
+          does not. A seventh bell rings from the empty chair. The travelers stand joined hand to hand,
+          each offering some small true thing about another, and the shadows become not people but the
+          connections between them.
+      beyond-the-gate:
+        present: [sael]
+        vibe: "The white chamber beyond the threshold, the two chairs, the woman in blue almost wholly herself now — and fading, as she chooses to."

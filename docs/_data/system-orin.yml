@@ -1,0 +1,288 @@
+# =============================================================================
+# THE AUROS SYSTEM — Orin's home solar system
+# Data-first worldbuilding for the explorable "system view" of the Archive/star map.
+# Believable hard-SF (obeys the foundation: known physics, no contradictions). Orbits
+# are to scale-ish (period ≈ a^1.5 around a ~0.9-solar-mass star); stats are Earth-relative
+# where marked (_e = Earth = 1, _g = Earth gravity = 1). Not all bodies touch the story —
+# the system should feel real. Each body carries an `art.prompt` for gpt-image-2
+# (scripts/gen-art.py); generated stills land in docs/assets/art/orin-system/<id>.png.
+#
+# NOTE: astronomy only. The ancient temporal-transmitter mesh (which will one day overlay
+# the galaxy map) is PRIVATE roadmap and must NOT appear here.
+# =============================================================================
+
+system:
+  id: orin-system
+  name: "The Auros System"
+  star_ref: book-01                 # the galaxy star that is Auros (ties to the map)
+  summary: >
+    A quiet mature system around a warm amber star, with one living world — Enara, whose
+    northern mountains hold the town of Orin. Seven planets, a scattered belt, and a distant
+    red companion that Enara's people have watched, and named, and made stories of, for as
+    long as there have been people to look up.
+  view:
+    au_span: 18                     # outer edge to render (AU); Halq sits near this
+    tilt_deg: 18                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: auros
+    name: "Auros"
+    role: primary
+    common: "the Sun (to Orin, simply 'the sun')"
+    spectral: "G8 V"
+    stats:
+      mass_sol: 0.91
+      radius_sol: 0.89
+      temp_k: 5400
+      luminosity_sol: 0.62
+      color: "warm amber-gold"
+      age_gyr: 6.8
+    palette: ["#ffd98a", "#f4c065", "#e9a04a", "#c9762a"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of a warm amber main-sequence star (late-G, ~5400K) filling
+        most of the frame against deep black space: golden granulated photosphere, a few dark
+        starspots, soft prominences at the limb, faint corona. Scientific, cinematic, no lens
+        flare kitsch. Believable stellar astronomy.
+  - id: auros-b
+    name: "Auros B"
+    role: companion
+    common: "the Ember Star / the Watcher (a bright red point in Enara's night sky)"
+    spectral: "M4 V (red dwarf)"
+    orbit: { au: 1180, period_yr: 43000, ecc: 0.4 }
+    stats:
+      mass_sol: 0.19
+      radius_sol: 0.22
+      temp_k: 3200
+      luminosity_sol: 0.006
+      color: "dim red"
+    palette: ["#d86a5a", "#b23a2a", "#7a241c"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small, dim red-dwarf star (M-class, ~3200K) seen from far away, a deep ember-red
+        disc with faint flare loops, against a dense starfield. Cold, distant, lonely.
+        Scientific and understated.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: kess
+    name: "Kess"
+    kind: planet
+    order: 1
+    common: "the Cinder"
+    orbit: { au: 0.31, period_yr: 0.17, ecc: 0.05, tilt_deg: 3 }
+    phys:
+      radius_e: 0.42
+      mass_e: 0.06
+      gravity_g: 0.34
+      day_hr: 1400                  # nearly tide-locked; a long slow day
+      mean_temp_c: 390
+      atmosphere: "none (scoured away)"
+    palette: ["#7a6a5c", "#4a3f38", "#2b2420"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small scorched airless rocky world seen from orbit, close to a warm amber sun:
+        cratered iron-grey and burnt-sienna surface, a blindingly lit dayside and a hard black
+        terminator, no atmosphere, no clouds. Mercury-like but warmer-toned. Photoreal,
+        scientific, stark. Black star-strewn space behind.
+
+  - id: vurn
+    name: "Vurn"
+    kind: planet
+    order: 2
+    common: "the Veiled"
+    orbit: { au: 0.58, period_yr: 0.44, ecc: 0.01, tilt_deg: 2 }
+    phys:
+      radius_e: 0.97
+      mass_e: 0.9
+      gravity_g: 0.93
+      day_hr: 5800                  # slow retrograde spin
+      mean_temp_c: 240
+      atmosphere: "thick CO₂ + sulphur haze (opaque)"
+    palette: ["#e8c98a", "#c99a52", "#9a6f3a"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cloud-shrouded hothouse world seen from orbit: an unbroken, featureless deck of pale
+        ochre and cream sulphur clouds swirling in slow banded patterns, no surface visible,
+        a soft amber terminator. Venus-like. Photoreal, scientific, oppressive stillness.
+
+  - id: enara
+    name: "Enara"
+    kind: planet
+    order: 3
+    common: "the World / home"
+    story: >
+      Enara is the living world of *Memory of Stars*' opening. In its northern ranges lies
+      Orin — the mountain town of *The First Pilgrim* — and, above it, the Gate.
+    orbit: { au: 0.92, period_yr: 0.88, ecc: 0.017, tilt_deg: 23.5 }
+    phys:
+      radius_e: 1.03
+      mass_e: 1.08
+      gravity_g: 1.02
+      day_hr: 26.2
+      mean_temp_c: 13
+      atmosphere: "breathable (N₂/O₂), temperate"
+    palette: ["#3f6f8f", "#5b8a5a", "#c9a86a", "#eef1fb"]
+    moons:
+      - id: sohr
+        name: "Sohr"
+        common: "the Great Moon"
+        radius_e: 0.29
+        orbit_days: 24
+        note: "A pale, close, cratered moon; its slow phases keep Orin's calendar and its festivals."
+      - id: iselle
+        name: "Iselle"
+        common: "the Far Light"
+        radius_e: 0.09
+        orbit_days: 61
+        note: "A small far moon, little more than a bright wandering star; children wish on it."
+    art:
+      size: "1024x1024"
+      prompt: >
+        A living temperate world seen from orbit, lit by a warm amber sun: deep blue-green
+        oceans, ochre-and-green continents, a great white mountain range crossing the northern
+        latitudes, swirls of white weather, polar ice. Two moons in the black star-strewn sky —
+        one large and pale and close, one small and distant. Earthlike but its own world;
+        photoreal, scientific, luminous and hopeful. Soft rim light on the limb.
+
+  - id: tamis
+    name: "Tamis"
+    kind: planet
+    order: 4
+    common: "the Rust"
+    orbit: { au: 1.5, period_yr: 1.84, ecc: 0.09, tilt_deg: 25 }
+    phys:
+      radius_e: 0.53
+      mass_e: 0.11
+      gravity_g: 0.38
+      day_hr: 24.6
+      mean_temp_c: -55
+      atmosphere: "thin CO₂ (cold, dry)"
+    palette: ["#b45a3a", "#8a4028", "#d6a06a"]
+    moons:
+      - id: pell
+        name: "Pell"
+        radius_e: 0.03
+        orbit_days: 0.6
+        note: "A tiny captured potato of rock, tumbling close and fast."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cold rusty desert world seen from orbit: rust-red and ochre dust plains, dark
+        wind-streaks, a vast canyon system, thin bright ice caps, wisps of high cloud in a
+        pale sky-thin atmosphere. Mars-like but its own palette. One tiny irregular moon.
+        Photoreal, scientific, austere and beautiful.
+
+  - id: belt
+    name: "The Scatter"
+    kind: belt
+    order: 5
+    common: "the Scatter"
+    orbit: { au_inner: 2.2, au_outer: 3.3 }
+    story: null
+    art: null                       # rendered as a ring of specks, not a still
+
+  - id: orroth
+    name: "Orroth"
+    kind: planet
+    order: 6
+    common: "the Lantern (its rings catch the sun; brightest 'star' in Enara's sky)"
+    orbit: { au: 5.1, period_yr: 11.5, ecc: 0.05, tilt_deg: 3 }
+    phys:
+      radius_e: 10.4
+      mass_e: 260
+      gravity_g: 2.3
+      day_hr: 10.5
+      mean_temp_c: -130
+      atmosphere: "hydrogen/helium gas giant, banded"
+    rings: true
+    moons:
+      - id: vael-moon
+        name: "Vael"
+        radius_e: 0.26
+        orbit_days: 3.6
+        note: "An ice moon, cracked and refrozen; a thin ocean is suspected beneath."
+      - id: dun
+        name: "Dun"
+        radius_e: 0.21
+        orbit_days: 7.2
+        note: "A dark, sooty, volcanic moon, flexed and heated by Orroth's pull."
+      - id: cae
+        name: "Cae"
+        radius_e: 0.15
+        orbit_days: 16.8
+        note: "A pale, quiet, distant moon."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A great banded gas giant seen from orbit, three-quarter lit by a distant warm sun:
+        cream, gold and slate cloud bands, a slow storm-eye, and a bright system of thin
+        rings tilted across the frame casting a shadow line on the planet. Two or three small
+        moons as points nearby. Saturn/Jupiter-like, its own colours. Photoreal, majestic,
+        scientific.
+
+  - id: sevet
+    name: "Sevet"
+    kind: planet
+    order: 7
+    common: "the Deep"
+    orbit: { au: 9.8, period_yr: 30.7, ecc: 0.02, tilt_deg: 28 }
+    phys:
+      radius_e: 3.9
+      mass_e: 15
+      gravity_g: 1.05
+      day_hr: 17.2
+      mean_temp_c: -200
+      atmosphere: "hydrogen/methane ice giant"
+    moons:
+      - id: hesh
+        name: "Hesh"
+        radius_e: 0.13
+        orbit_days: 5.9
+        note: "A frozen moon of nitrogen frost and slow cryo-geysers."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A serene ice-giant world seen from orbit: a deep teal-and-blue methane atmosphere,
+        faint pale bands, a few high white cloud streaks, a thin dark ring arc. Neptune-like,
+        cold and quiet. One small frosted moon. Photoreal, scientific, still.
+
+  - id: halq
+    name: "Halq"
+    kind: planet
+    order: 8
+    common: "the Edge"
+    orbit: { au: 17.0, period_yr: 70.1, ecc: 0.24, tilt_deg: 12 }
+    phys:
+      radius_e: 0.19
+      mass_e: 0.004
+      gravity_g: 0.07
+      day_hr: 153
+      mean_temp_c: -235
+      atmosphere: "trace (frozen most of its orbit)"
+    moons:
+      - id: mote
+        name: "Mote"
+        radius_e: 0.06
+        orbit_days: 4.1
+        note: "A shared little world; Halq and Mote turn always facing each other."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A tiny frozen dwarf world at the edge of a system, barely lit by a far-off pinpoint
+        sun: pale nitrogen-ice plains tinted faint rose and grey, dark tholim splotches, a
+        smooth frozen heart-shaped basin, no atmosphere. Pluto-like, remote and lovely. A
+        small companion moon nearby. Photoreal, scientific, lonely.

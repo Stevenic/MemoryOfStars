@@ -1,0 +1,86 @@
+{
+  "count": 9,
+  "assets": [
+    {
+      "system": "orin-system",
+      "id": "auros",
+      "name": "Auros",
+      "kind": "star",
+      "size": "1024x1024",
+      "prompt": "A photoreal close render of a warm amber main-sequence star (late-G, ~5400K) filling most of the frame against deep black space: golden granulated photosphere, a few dark starspots, soft prominences at the limb, faint corona. Scientific, cinematic, no lens flare kitsch. Believable stellar astronomy.",
+      "out": "docs/assets/art/orin-system/auros.png"
+    },
+    {
+      "system": "orin-system",
+      "id": "auros-b",
+      "name": "Auros B",
+      "kind": "star",
+      "size": "1024x1024",
+      "prompt": "A small, dim red-dwarf star (M-class, ~3200K) seen from far away, a deep ember-red disc with faint flare loops, against a dense starfield. Cold, distant, lonely. Scientific and understated.",
+      "out": "docs/assets/art/orin-system/auros-b.png"
+    },
+    {
+      "system": "orin-system",
+      "id": "kess",
+      "name": "Kess",
+      "kind": "planet",
+      "size": "1024x1024",
+      "prompt": "A small scorched airless rocky world seen from orbit, close to a warm amber sun: cratered iron-grey and burnt-sienna surface, a blindingly lit dayside and a hard black terminator, no atmosphere, no clouds. Mercury-like but warmer-toned. Photoreal, scientific, stark. Black star-strewn space behind.",
+      "out": "docs/assets/art/orin-system/kess.png"
+    },
+    {
+      "system": "orin-system",
+      "id": "vurn",
+      "name": "Vurn",
+      "kind": "planet",
+      "size": "1024x1024",
+      "prompt": "A cloud-shrouded hothouse world seen from orbit: an unbroken, featureless deck of pale ochre and cream sulphur clouds swirling in slow banded patterns, no surface visible, a soft amber terminator. Venus-like. Photoreal, scientific, oppressive stillness.",
+      "out": "docs/assets/art/orin-system/vurn.png"
+    },
+    {
+      "system": "orin-system",
+      "id": "enara",
+      "name": "Enara",
+      "kind": "planet",
+      "size": "1024x1024",
+      "prompt": "A living temperate world seen from orbit, lit by a warm amber sun: deep blue-green oceans, ochre-and-green continents, a great white mountain range crossing the northern latitudes, swirls of white weather, polar ice. Two moons in the black star-strewn sky — one large and pale and close, one small and distant. Earthlike but its own world; photoreal, scientific, luminous and hopeful. Soft rim light on the limb.",
+      "out": "docs/assets/art/orin-system/enara.png"
+    },
+    {
+      "system": "orin-system",
+      "id": "tamis",
+      "name": "Tamis",
+      "kind": "planet",
+      "size": "1024x1024",
+      "prompt": "A cold rusty desert world seen from orbit: rust-red and ochre dust plains, dark wind-streaks, a vast canyon system, thin bright ice caps, wisps of high cloud in a pale sky-thin atmosphere. Mars-like but its own palette. One tiny irregular moon. Photoreal, scientific, austere and beautiful.",
+      "out": "docs/assets/art/orin-system/tamis.png"
+    },
+    {
+      "system": "orin-system",
+      "id": "orroth",
+      "name": "Orroth",
+      "kind": "planet",
+      "size": "1024x1024",
+      "prompt": "A great banded gas giant seen from orbit, three-quarter lit by a distant warm sun: cream, gold and slate cloud bands, a slow storm-eye, and a bright system of thin rings tilted across the frame casting a shadow line on the planet. Two or three small moons as points nearby. Saturn/Jupiter-like, its own colours. Photoreal, majestic, scientific.",
+      "out": "docs/assets/art/orin-system/orroth.png"
+    },
+    {
+      "system": "orin-system",
+      "id": "sevet",
+      "name": "Sevet",
+      "kind": "planet",
+      "size": "1024x1024",
+      "prompt": "A serene ice-giant world seen from orbit: a deep teal-and-blue methane atmosphere, faint pale bands, a few high white cloud streaks, a thin dark ring arc. Neptune-like, cold and quiet. One small frosted moon. Photoreal, scientific, still.",
+      "out": "docs/assets/art/orin-system/sevet.png"
+    },
+    {
+      "system": "orin-system",
+      "id": "halq",
+      "name": "Halq",
+      "kind": "planet",
+      "size": "1024x1024",
+      "prompt": "A tiny frozen dwarf world at the edge of a system, barely lit by a far-off pinpoint sun: pale nitrogen-ice plains tinted faint rose and grey, dark tholim splotches, a smooth frozen heart-shaped basin, no atmosphere. Pluto-like, remote and lovely. A small companion moon nearby. Photoreal, scientific, lonely.",
+      "out": "docs/assets/art/orin-system/halq.png"
+    }
+  ]
+}
