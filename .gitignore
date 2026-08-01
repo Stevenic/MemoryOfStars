@@ -34,10 +34,10 @@ vendor/
 # Secrets
 .env
 
-# Private planning & drafts — NEVER COMMIT.
-# The repo is public; spoiler-heavy roadmap/meta-mystery/unwritten-book plans live here
-# and must not leak. Anchored to repo root.
-/planning/
+# planning/ is COMMITTED as of 2026-08 (author decision, contributor onboarding).
+# The repo is public, so the roadmap/meta-mystery is world-readable — planning/README.md
+# carries the spoiler warning. Personal PDFs dropped in planning/ stay local:
+/planning/*.pdf
 
 # The Archive star map's PRIVATE roadmap overlay — full 30-book titles/loglines for
 # local UX work only. Production (GitHub Pages) never has this file, so the public
