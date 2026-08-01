@@ -145,7 +145,7 @@ question it draws down, if any).
 ### The canon-event budget (one answer per cycle, maximum)
 | Cycle | Spends | Stays untouched |
 |-------|--------|-----------------|
-| 1 | Humanity is **not the first** (⚑ Book 05, pending sign-off; "alone *now*" stays open) | everything else |
+| 1 | Humanity is **not the first** (Book 05 — **signed off 2026-08**; "alone *now*" stays open) | everything else |
 | 2 | **Nothing.** The mesh's scope is revelation, not an undefined answer — spend zero here; it makes Cycle 3 land harder | FTL mechanics stay unstated (comms ≠ travel) |
 | 3 | **Who built** the network — partially: the builders were plural, afraid, and divided themselves; identity stays veiled | the "gods," consciousness-after-death |
 | 4 | The Erasure's **nature** (garbage collection; the Custodian glimpsed) | *why* storage is finite; where collected memories go |
@@ -187,11 +187,10 @@ question it draws down, if any).
   Librarian's dispersal released the beacon-registry into obscurity — provenance
   unprovable, the war's casus belli; 09→10 the moved beacons re-route the mesh
   *through* B10's world (Carath), which is where the names start to go.
-- **⚑ D3 (pending):** Book 1's calling tower / the child under another sky — proposed
-  assignment to this cycle (natural home: 06 or 10, the far side of the mesh). Until
-  decided, C2 outlines must *reserve* the slot, not fill it. **Reserved in the 2026-08
-  outlines:** 06 (the patient mail) and 10 (the epilogue's far side) both carry the ⚑
-  slot; neither fills it.
+- **D3 — RESOLVED (2026-08): Book 10's epilogue pays the tower** (the dark relay that
+  posts; the lost name held on the far side). Book 06's patient mail is the same postal
+  system's near door and pays nothing. The child under another sky stays unspent — see
+  the D3 entry under Open steering questions for the full record and the scope guard.
 - **Canvas plan:** the wide cycle — ~6 new systems + the near-future tech texture
   (ambient capture, telepresence as furniture); first sight of a relay-dense core vs. the
   dark frontier. The atlas roughly doubles.
@@ -313,7 +312,7 @@ different weights:
 | **Constitution** — hard law, invisible on the page, costless | always | the canon-event budget · reveal-must-enlarge (4) · all six refusals + anti-Galaxia · the **Easy-Read Standard** & **Chapter-Two Rule** (`writing-guide/commandments.md`) |
 | **Scheduled beats** — few, deliberate, throttled to ceilings | at most as scheduled | vanishing name (1, **≤1 per cycle**) · romp slot (3, one per cycle; far picks penciled) · census ticker (5, from C2) · Mule slot (7, Book 19) · the Scouring (10, C6 only) · eucatastrophe (13, finales only) |
 | **Toolbox** — opportunities, never owed | when a story wants them | continuity witness (2) · artifact-as-front-door (6) · mutating song (8) · weight of names (9) · domestic anchor (10) · provenance framing (11) |
-| **Deferred** | decide at the C2 charter | ritual epigraph (12) — visible machinery on page one; the Easy-Read Standard probably kills it |
+| **Killed** | — | ritual epigraph (12) — killed at the C2 charter (2026-08), as scheduled; see its entry for the record |
 
 **The operating rule (who holds the devices):** devices live in **outlining and
 critique passes — never in the drafter's hands.** The write pass holds the outline, the
@@ -406,13 +405,13 @@ discovered prose. (This maps directly onto the existing skill pipeline: `outline
     frames the books as holdings; this makes it doctrine. It also arms the endgame:
     once each book is in-world an object with a keeper, late cycles can run
     vanishing-name-grade devices on **the books themselves**.
-12. **The ritual epigraph** *(Wheel of Time)* — **DEFERRED (v0.5); decide at the C2
-    charter.** The idea: each book opens with a fragment of its cycle's spine artifact,
-    five epigraphs assembling per cycle. The case against, and it's strong: visible
+12. **The ritual epigraph** *(Wheel of Time)* — **KILLED (2026-08, at the C2 charter,
+    as v0.5 scheduled).** The idea was: each book opens with a fragment of its cycle's
+    spine artifact, five epigraphs assembling per cycle. Killed because: visible
     machinery on page one of every book, in a series whose books open cold and whose
-    Easy-Read Standard forbids surface machinery — and it can't be executed before C2's
-    artifact exists anyway. Expect this one to die; it's kept only so the decision is
-    recorded rather than re-invented.
+    Easy-Read Standard forbids surface machinery — and the letters from tomorrow give
+    C2 its boarding point without any apparatus. Recorded here so it isn't re-invented;
+    do not resurrect without re-arguing against this entry.
 13. **Eucatastrophe** *(Tolkien's coinage — "joy poignant as grief").* Each cycle's
     final book (05 · 10 · 15 · 20 · 25 · 30) earns **one grace note that arrives like
     luck and was actually paid for**. The plaque with one name at the end of Book 1 is
@@ -514,12 +513,15 @@ father and the human-scale Sael secret in full; Book 5 carries the one-sentence 
 beat, still ⚑-flagged so it can be cut if the author flips. Flip remains possible until
 Book 2's Act III drafts.
 
-### D3 — Book 1's calling-tower ending: who pays it? *(OPEN)*
+### D3 — Book 1's calling-tower ending: who pays it? *(RESOLVED 2026-08)*
 The drafted final page (the tower "calling," the child under another sky, "something
-remembered her name") is a Tier-2 thread. Proposal: assign to **Cycle 2** (the mesh's
-far side — Book 06 or 10), where C2's charter now reserves the slot. Alternative: leave
-unassigned as pure atmosphere (risk the review named: "a live engine nobody drives").
-Until decided: C2 outlines reserve, don't fill.
+remembered her name") is a Tier-2 thread. **Resolution: Book 10's epilogue pays the
+tower** — the Carath thank-you letter routes from a relay three centuries dark and
+carries the city's lost name, held whole on the far side: the tower was never failing,
+it was *posting* (the letters' far door; a watcher node). **The child under another sky
+stays deliberately unspent** — one promise kept back for a later cycle (or forever;
+"something remembered her name" is already true twice over). Scope guard: the far side
+is *shown by mail only* — no book visits it without a charter-level decision.
 
 ## Open decisions (load-bearing)
 

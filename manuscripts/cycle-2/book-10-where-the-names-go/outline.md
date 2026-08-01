@@ -81,7 +81,7 @@ movements: the misprints, the taking, the holding.
 | **Act III — The Holding** | 7 | The Night of Strangers | 3,000 | The rite-book's last page — the folk-armor, deployed citywide: every person speaks their name to two strangers and takes theirs in return. Plural custody at street scale; a city becoming each other's keeping. Ivet, who knows every name and no faces, walks the squares matching one to the other all night — her ledger-craft, finally embodied. The child tells Ivet her name. |
 | | 8 | Where the Names Go | 3,800 | **Set-piece — the crest.** The last surge: what is singly held goes; what is plurally held *holds*. The famous name of Carath — the loudest, most singular handle on the world — is taken entire. The flicker rises once more and gutters out, its cost visible in cooling stone. **The eucatastrophe (device 13, named):** dawn's arithmetic — the names spoken to strangers in time survived, every one; the saved list is exactly as long as the crowd's courage. Joy poignant as grief: it worked, and it is small, and it is enough to build on. |
 | | 9 | The Renaming | 2,900 | After. The world that outlived its own name takes new ones — *plural, by custom, on purpose*: the survivors' invention, born on-page (the weight-of-names doctrine becomes folk practice, uncredited). The losses inventoried plainly — stones, rolls, the grandmother; nothing comes back. Marek seals the damaged rolls unread *(Book 4's shape, honored in one line)*. Ivet opens the new register; its first entry is her own two names. |
-| **Epilogue** | — | The Dead Letter | 1,300 | The responders' last duty: the final letter in the Carath file, arrived nineteen years ago, dated *yesterday*. It is a thank-you. It names no one; it is signed the way the watchers sign, which is not at all. Noor files the report; a scholar-order that interviews old minds requisitions a copy *(→ Cycle 3, cold)*. **⚑ D3 reserve:** if the author assigns Book 1's calling-tower/child thread to this cycle, this epilogue's far side — the letter's origin — is where it lands. Reserved, not filled. |
+| **Epilogue** | — | The Dead Letter | 1,300 | The responders' last duty: the final letter in the Carath file, arrived nineteen years ago, dated *yesterday*. It is a thank-you. It names no sender — the watchers sign nothing — but its routing stamp is a relay every registry lists as dark for three centuries, and it closes with a single line that empties the room: **the city's lost name, written whole.** Not restored — the rolls stay blank, the city keeps its new names — but *held*, somewhere beneath another sky. Noor files the report; a scholar-order that interviews old minds requisitions a copy *(→ Cycle 3, cold)*. **(D3 — PAID, 2026-08: Book 1's silver tower is the letters' far door; it was never failing — it was posting. The child under another sky stays unspent: a promise a later cycle may keep.)** |
 | | | **Total** | **~31,000** | |
 
 ## The Writer's Test (must pass)
@@ -131,9 +131,9 @@ movements: the misprints, the taking, the holding.
 - **Hooks outward (Cycle 3):** the scholar-order that interviews old minds
   requisitions the report; the watchers unidentified; what woke beneath Carath
   unexplained; the letters' margin unexamined.
-- **⚑ D3:** reserved in this book's epilogue (and in Book 6's patient mail) — the
-  calling tower / the child under another sky is assignable here if the author
-  chooses; neither outline fills it.
+- **D3 — resolved here (2026-08):** the epilogue pays Book 1's calling tower (the
+  dark relay that posts; the lost name held on the far side). The child under
+  another sky is deliberately *not* spent — one promise kept back, on purpose.
 - **New names** (→ glossary via `canonize` when drafted): Ivet, Noor, Marek,
   Carath, the Hall of Rolls, the responders, the Night of Strangers, the patient
   mail (formalized), plural names (custom).

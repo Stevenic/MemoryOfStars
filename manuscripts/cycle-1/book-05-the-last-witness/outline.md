@@ -21,10 +21,10 @@ inverts at the midpoint without a single fact changing. *(Re-drafted 2026-08.)*
   stored inside it — and Odri, whose people famously set their burden down, is the one
   who led everyone there and the one who says yes.
 
-## ⚑ Canon-event flag (author must confirm before drafting)
+## Canon event (SIGNED OFF 2026-08)
 This book, by premise, **confirms humanity is not the first great civilization** — which
-touches the intentionally-undefined list ("Is humanity alone?"). Proposed scoping, the
-smallest possible bite:
+touches the intentionally-undefined list ("Is humanity alone?"). Scoping as approved,
+the smallest possible bite:
 - **Answered (log in `canon-and-continuity.md` when drafted):** humanity is *not the
   first* — at least one nonhuman civilization (the Choir) rose and ended long before us.
 - **Still open, deliberately:** whether humanity is alone *now* (the Choir are dead; the
@@ -91,7 +91,7 @@ smallest possible bite:
 | | | **Total** | **~30,400** | |
 
 ## The Writer's Test (must pass)
-- [ ] New truth — humanity is not the first (scoped above, ⚑ flagged); whole-mind,
+- [ ] New truth — humanity is not the first (scoped above, signed off); whole-mind,
       cross-species carriage is possible; the great archives die too. *(Ch 4, 6, 8.)*
 - [ ] A mystery left — what ended the Choir; who unroaded the system; who built the vault
       the Choir themselves inherited; the symbol older than everyone; how much of *us*
@@ -146,6 +146,6 @@ smallest possible bite:
 - [ ] Placed on the [master timeline](../../../series-bible/timeline.md) (~CR 240).
 - [ ] New characters/locations → [bible](../../../series-bible/) (Odri, Cassen, Fenn, Dov, the Witness's system).
 - [ ] New terms → [glossary](../../../series-bible/glossary.md) (the Witness, the Choir, unroaded, carrier).
-- [ ] ⚑ The answered [undefined question](../../../series-bible/seven-laws.md#things-that-are-intentionally-undefined)
+- [ ] The answered [undefined question](../../../series-bible/seven-laws.md#things-that-are-intentionally-undefined)
       (humanity not the first) logged in [canon-and-continuity](../../../series-bible/canon-and-continuity.md)
-      **after author sign-off**, scoped as above.
+      when drafted — **author signed off 2026-08**, scoped as above.

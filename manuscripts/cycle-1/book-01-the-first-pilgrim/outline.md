@@ -29,8 +29,8 @@ later books choose their own grids — the length is the law, not the grid.)
 - **The cost:** Elias's reunion has a price, and the memories Lyra carries home are
   already becoming dreams. Nothing is kept whole; keeping at all is the victory.
 - **The promise outward:** the epilogue's calling tower and the child under another sky —
-  a deliberately unpaid, series-scale promise. *(⚑ D3: Cycle 2 reserves the slot; no
-  Cycle 1 book touches it.)*
+  a deliberately unpaid, series-scale promise. *(D3 resolved 2026-08: Book 10's epilogue
+  pays the tower — it was posting, not failing. The child stays a kept promise.)*
 
 ## Characters in play
 - **Lyra** — the chosen Pilgrim; the one who keeps asking the questions the town has
@@ -92,8 +92,9 @@ later books choose their own grids — the length is the law, not the grid.)
   continuity witness, unexplained until late cycles); Mara's kitchen.
 - **Weight of names (doctrine, retro-fitted):** Sael's name is written in exactly one
   place; Orin's *world* is never named — a naming debt deliberately unpaid.
-- **Hooks outward:** the calling tower and the child (⚑ D3 → Cycle 2); Master Rian and
-  the minor cast (Cycle 2's vanishing-name candidates); the Ash family name → Book 2.
+- **Hooks outward:** the calling tower (D3: paid in Book 10) and the child (kept);
+  Master Rian and the minor cast (Cycle 2's vanishing-name candidates); the Ash family
+  name → Book 2.
 
 ## Continuity checklist
 - [x] Placed on the [master timeline](../../../series-bible/timeline.md) (CR 0).

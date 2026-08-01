@@ -4,15 +4,15 @@ The four artifacts this branch returns to the trunk (see
 [canon & continuity](../../../series-bible/canon-and-continuity.md)). Seeded from the
 outline; refine against the finished draft.
 
-> ⚑ **Canon event pending author sign-off:** this book confirms humanity is **not the
+> **Canon event — author signed off 2026-08:** this book confirms humanity is **not the
 > first** great civilization. Log in `canon-and-continuity.md` when drafted, scoped
 > exactly as below — and no wider.
 
 ## 1. Confirmed canon
 _Facts this story makes objectively true for the universe._
 - At least one nonhuman civilization — called by humans **the Choir** — rose and ended
-  long before humanity. *(⚑ the canon event; "is humanity alone NOW" stays open: the
-  Choir are dead and carried, not living.)*
+  long before humanity. *(The canon event, signed off; "is humanity alone NOW" stays
+  open: the Choir are dead and carried, not living.)*
 - **The Witness**: an ancient intelligence that has held the Choir's final memories for
   a million years. It is failing — even the great archives die (Law 2: memory is finite).
 - **Carriage** across species is possible: a living human can take a stored mind's

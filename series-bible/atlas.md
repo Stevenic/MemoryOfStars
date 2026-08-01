@@ -20,8 +20,8 @@ this file is the index and the census).
 - **Thousands of settled systems** (foundation) — some colonies decades old, some
   hundreds of thousands of years old. The series will only ever visit a sliver; the
   sliver implies the rest.
-- **Deep time.** Humanity is not the first great civilization here (⚑ Book 05's canon
-  event, pending sign-off). The oldest infrastructure predates every culture that uses it.
+- **Deep time.** Humanity is not the first great civilization here (Book 05's canon
+  event — signed off 2026-08). The oldest infrastructure predates every culture that uses it.
 - **Distance is real (Law 1).** Nothing in this file is "nearby." Every line between two
   entries below was paid for.
 
