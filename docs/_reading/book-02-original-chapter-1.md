@@ -8,9 +8,9 @@ label: Chapter 1
 title: The Historian
 order: 1
 generated: true
-version_id: revised
+version_id: original
 chapter_key: chapter-1
-version_label: Revised
+version_label: Original
 mood: wry, curious, gently disorienting; a rationalist walking into a town that thinks
   differently
 pace: measured; quicker in the deadpan exchanges
@@ -24,7 +24,7 @@ History left marks. Kieran approved of marks.
 
 He adjusted the leather satchel resting against his hip and removed a folded map, copied only a month earlier by the Royal Historical Society in Valen.
 
-ORIN
+**ORIN**
 Population: 2,104.
 
 Primary exports:
@@ -38,7 +38,7 @@ The Pilgrimage.
 The Gate.
 
 Estimated historical reliability:
-Uncertain.
+**Uncertain.**
 
 Kieran frowned at the final word. Entire libraries had been written because of that single assessment.
 
@@ -54,7 +54,7 @@ He folded the map. A wagon rattled past carrying barrels of winterleaf, and the 
 
 “You’ll like Orin.”
 
-“I hope to understand it,” Kieran said.
+“I hope to understand it.”
 
 The driver laughed. “That’ll be harder.”
 
@@ -70,13 +70,13 @@ Children sat beneath an open pavilion while an elderly woman wrote names across 
 
 One boy raised his hand. “If Bren repaired Tomas’s roof…”
 
-The teacher nodded and finished it for him. “…who remembers the storm?”
+“…who remembers the storm?” the teacher nodded.
 
 The children considered the question, and several answered at once. “The neighbors.” “The carpenter.” “The roof.”
 
 A girl near the back shook her head. “The roof doesn’t remember.”
 
-The teacher smiled. “What do you think?”
+“What do you think?” the teacher smiled.
 
 “The people who fixed it together.”
 
@@ -102,9 +102,9 @@ Curious.
 
 He climbed the remaining hill. Above the entrance hung another carved circle crossed by a single vertical line, and beneath it someone had added newer words.
 
-THE HALL OF NAMES
+**THE HALL OF NAMES**
 
-No life is remembered alone.
+**No life is remembered alone.**
 
 Kieran sighed. Another slogan.
 
@@ -116,7 +116,7 @@ A young archivist approached. “Welcome.”
 
 “I’ve come from Valen.”
 
-The archivist brightened. “A historian?”
+“A historian?” the archivist brightened.
 
 “Yes.”
 
@@ -124,7 +124,7 @@ The archivist brightened. “A historian?”
 
 Kieran blinked. “I’m sorry?”
 
-“The contradictions.” The young man smiled. “They upset historians.”
+“The contradictions.” The young man smiled apologetically. “They upset historians.”
 
 “They challenge us.”
 
@@ -132,7 +132,7 @@ Kieran blinked. “I’m sorry?”
 
 Kieran decided not to pursue the matter. “I’ve come to speak with Lyra Ash.”
 
-The archivist was already nodding. “She’s expecting you.”
+“She’s expecting you,” the archivist nodded immediately.
 
 That stopped him. “Expecting me?”
 
@@ -142,33 +142,33 @@ That stopped him. “Expecting me?”
 
 “I assumed you told him.”
 
-“I’ve never met him,” Kieran said.
+“I’ve never met him.”
 
 The young man considered that. “Hm.” He did not appear particularly surprised. “Please wait here.” He disappeared through a side doorway.
 
 Kieran looked around the Hall. Shelves reached almost to the ceiling, and unlike most archives they were not organized by year, or kingdom, or language. Small wooden plaques marked each section instead.
 
-Families
+**Families**
 
-Journeys
+**Journeys**
 
-Builders
+**Builders**
 
-Promises
+**Promises**
 
-Songs
+**Songs**
 
 One shelf simply read:
 
-Things We Nearly Forgot
+**Things We Nearly Forgot**
 
 He stared at it. An elderly couple browsed the section together, and the woman removed a small cloth doll from one shelf.
 
 “I thought your aunt made this.”
 
-Her husband smiled. “No. My grandmother.”
+“No,” her husband smiled. “My grandmother.”
 
-The woman laughed softly. “Your aunt repaired it.”
+“Your aunt repaired it,” the woman laughed softly.
 
 “That’s why I remembered her.”
 
@@ -186,7 +186,7 @@ Except it was no longer red. Most of the paint had worn away, and only a thin si
 
 “You must be Lyra.”
 
-“I usually am.” The transcripts had been failing to record that smile for twenty-five years.
+“I usually am.” Her smile carried the same dry humor preserved in dozens of recorded conversations.
 
 He bowed politely. “It is an honor.”
 
@@ -206,7 +206,7 @@ Kieran hesitated. “I’ve come to understand what happened.”
 
 “I don’t believe they are.”
 
-“No.” She nodded. “You probably wouldn’t.”
+“No.” She nodded thoughtfully. “You probably wouldn’t.”
 
 They reached a balcony overlooking the valley. The mountains rose beyond the rooftops, and somewhere among them stood the Gate, hidden from sight.
 
@@ -218,9 +218,9 @@ They reached a balcony overlooking the valley. The mountains rose beyond the roo
 
 “Of course.”
 
-She was watching the valley, not him. “What do you think they mean?”
+“What do you think they mean?”
 
-“That memory is unreliable,” he said, before she had quite finished asking.
+Kieran answered without hesitation. “That memory is unreliable.”
 
 Lyra rested both hands on the stone railing, the wind lifting strands of gray hair across her face. “I think you’ve come a long way.”
 
@@ -236,7 +236,7 @@ He almost smiled. “You sound like the scholars in Valen.”
 
 “They do.”
 
-“They’ve yet to prove it,” Kieran said.
+“They’ve yet to prove it.”
 
 “Tomas says proof is what people ask for when they aren’t ready to trust observation,” Lyra said, looking toward the Hall below.
 
@@ -264,7 +264,7 @@ Lyra gestured toward a doorway at the end of the gallery. “Come.”
 
 “Where are we going?”
 
-“To meet the man who’s about to ruin your understanding of history.” She paused beside the door, her hand on the latch, not yet lifting it. “And afterward, if you’re still interested in certainty, I’ll introduce you to someone who dislikes it even more than I do.”
+“To meet the man who’s about to ruin your understanding of history.” She paused beside the door, her expression growing more thoughtful. “And afterward, if you’re still interested in certainty, I’ll introduce you to someone who dislikes it even more than I do.”
 
 “Who?”
 
@@ -276,7 +276,7 @@ The name was familiar. Kieran searched his memory. “The archivist from Valen?�
 
 “I’ve read two of his papers.”
 
-Lyra nodded. “Then prepare yourself.”
+“Then prepare yourself,” Lyra nodded.
 
 “For what?”
 
@@ -290,6 +290,6 @@ Kieran frowned. “How did you know I accepted the commission?”
 
 Tomas closed the journal gently. “I didn’t. I remembered someone eventually would.”
 
-Kieran waited for an explanation to assemble itself. For the first time in many years, none came.
+The answer made no sense. For the first time in many years, Kieran Ash found himself without an immediate explanation.
 
 It would not be the last.

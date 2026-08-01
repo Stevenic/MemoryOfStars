@@ -19,7 +19,8 @@ Two documents sit above everything else. Every story is measured against them.
 |---------------|---------|
 | [`overview.md`](overview.md) | Orientation + the shape of the 30-book arc. |
 | [`cosmology.md`](cosmology.md) | Memory-as-force and the mechanics — pinned down only as stories demand. |
-| [`timeline.md`](timeline.md) | Master chronology across the series. |
+| [`timeline.md`](timeline.md) | Master chronology across the series (**when**). |
+| [`atlas.md`](atlas.md) | The census of the canvas — systems, worlds, stations, ships, megastructures, objects (**where** and **what**). |
 | [`glossary.md`](glossary.md) | Coined terms with canonical spellings. |
 | [`canon-and-continuity.md`](canon-and-continuity.md) | What counts as canon, the acceptance test, and the continuity log. |
 | [`characters/`](characters/) | One file per significant character. |

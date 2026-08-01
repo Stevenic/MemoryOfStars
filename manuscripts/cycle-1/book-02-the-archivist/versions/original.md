@@ -9,7 +9,7 @@ Chapter titles are provisional until each is drafted. Scene breaks: ⸻.
 
 ## Prologue — Observation
 
-Master Renn disliked the word *error.* It appeared too often in the margins of history. *Copyist’s error. Translation error. The witness erred.* As though every contradiction existed only to be removed.
+Master Renn disliked the word *error.* It appeared too often in the margins of history. *Copyist's error. Translation error. The witness erred.* As though every contradiction existed only to be removed.
 
 He had once believed that.
 
@@ -37,7 +37,7 @@ Renn waited. A long moment passed. Then another.
 
 The silver lines brightened so gradually that neither man could later agree exactly when they had begun. The room seemed to exhale. Neris blinked.
 
-Someone stood beside the pedestal. A woman. She turned the cup slowly between her hands while speaking to someone just beyond the edge of sight. He could not hear the words. Her thumb kept crossing the crack in the rim as she spoke, back and forth, soothing something that was past being hurt.
+Someone stood beside the pedestal. A woman. She turned the cup slowly between her hands while speaking to someone just beyond the edge of sight. He could not hear the words, only the affection in her voice.
 
 Then she was gone.
 
@@ -47,7 +47,7 @@ Then the chamber became ordinary again.
 
 Neris did not realize he had stopped breathing until he heard the scratch of Renn’s pen. He hurried to write. When he finished, he pushed the journal across the table, and Master Renn did the same.
 
-Neris read. Then he read it again. “You didn’t see any of them.”
+Neris read. His brow furrowed. “You didn’t see any of them.”
 
 “No.”
 
@@ -63,9 +63,9 @@ Neris picked it up and turned it over. Nothing. Only worn wood polished smooth b
 
 “I think one of us imagined it.”
 
-“A reasonable hypothesis,” Renn said.
+“A reasonable hypothesis,” Renn nodded.
 
-Neris studied him. “You disagree.”
+“You disagree.”
 
 “I don’t know.”
 
@@ -77,7 +77,7 @@ The old archivist stood. Instead of reaching for another journal, he walked to t
 
 He selected the bowl, its rim chipped and carefully mended, and carried it back to the table. “Observe.”
 
-The bowl replaced the cup. Again the crystal awakened. Again the room filled with people—different people, different lives. One woman repaired the broken rim with careful hands. An old neighbor accepted it with both hands. Years passed between heartbeats: the neighbor’s daughter carried the bowl, then her son, and a little girl stirred soup with a wooden spoon almost too large for her hand.
+The bowl replaced the cup. Again the crystal awakened. Again the room filled with people—different people, different lives. One woman repaired the broken rim with careful hands. An old neighbor accepted it with quiet gratitude. Years passed between heartbeats: the neighbor’s daughter carried the bowl, then her son, and a little girl stirred soup with a wooden spoon almost too large for her hand.
 
 The room fell silent. The bowl remained.
 
@@ -103,11 +103,9 @@ For a long time, the only sound in the chamber was turning pages. At last Neris 
 
 “No.”
 
-Renn took back the journals and squared them into a neat stack, and his hands rested on top of them a moment longer than tidiness required—as though something he had suspected for years had finally found the courage to become visible. He opened a new notebook, its pages blank, and across the top of the first page he wrote a single word.
+Renn took back the journals. He did not look triumphant, only relieved—as though something he had suspected for years had finally found the courage to become visible. He opened a new notebook, its pages blank, and across the top of the first page he wrote only two words.
 
-Observations
-
-
+**Observations**
 
 Nothing more. No title. No theory. No conclusions. He closed the cover.
 
@@ -125,7 +123,7 @@ Neris looked at the bowl. “Or perhaps people remember objects.”
 
 Renn smiled. “I don’t know.”
 
-Neither of them wrote it down.
+The answer seemed to satisfy them both.
 
 He reached toward the shelves once more, and this time chose a child’s wooden whistle, its paint long since faded, one finger hole worn smooth by countless hands. He placed it gently beneath the crystal. The silver lines awakened again.
 
@@ -147,7 +145,7 @@ History left marks. Kieran approved of marks.
 
 He adjusted the leather satchel resting against his hip and removed a folded map, copied only a month earlier by the Royal Historical Society in Valen.
 
-ORIN
+**ORIN**
 Population: 2,104.
 
 Primary exports:
@@ -161,7 +159,7 @@ The Pilgrimage.
 The Gate.
 
 Estimated historical reliability:
-Uncertain.
+**Uncertain.**
 
 Kieran frowned at the final word. Entire libraries had been written because of that single assessment.
 
@@ -177,7 +175,7 @@ He folded the map. A wagon rattled past carrying barrels of winterleaf, and the 
 
 “You’ll like Orin.”
 
-“I hope to understand it,” Kieran said.
+“I hope to understand it.”
 
 The driver laughed. “That’ll be harder.”
 
@@ -193,13 +191,13 @@ Children sat beneath an open pavilion while an elderly woman wrote names across 
 
 One boy raised his hand. “If Bren repaired Tomas’s roof…”
 
-The teacher nodded and finished it for him. “…who remembers the storm?”
+“…who remembers the storm?” the teacher nodded.
 
 The children considered the question, and several answered at once. “The neighbors.” “The carpenter.” “The roof.”
 
 A girl near the back shook her head. “The roof doesn’t remember.”
 
-The teacher smiled. “What do you think?”
+“What do you think?” the teacher smiled.
 
 “The people who fixed it together.”
 
@@ -225,9 +223,9 @@ Curious.
 
 He climbed the remaining hill. Above the entrance hung another carved circle crossed by a single vertical line, and beneath it someone had added newer words.
 
-THE HALL OF NAMES
+**THE HALL OF NAMES**
 
-No life is remembered alone.
+**No life is remembered alone.**
 
 Kieran sighed. Another slogan.
 
@@ -239,7 +237,7 @@ A young archivist approached. “Welcome.”
 
 “I’ve come from Valen.”
 
-The archivist brightened. “A historian?”
+“A historian?” the archivist brightened.
 
 “Yes.”
 
@@ -247,7 +245,7 @@ The archivist brightened. “A historian?”
 
 Kieran blinked. “I’m sorry?”
 
-“The contradictions.” The young man smiled. “They upset historians.”
+“The contradictions.” The young man smiled apologetically. “They upset historians.”
 
 “They challenge us.”
 
@@ -255,7 +253,7 @@ Kieran blinked. “I’m sorry?”
 
 Kieran decided not to pursue the matter. “I’ve come to speak with Lyra Ash.”
 
-The archivist was already nodding. “She’s expecting you.”
+“She’s expecting you,” the archivist nodded immediately.
 
 That stopped him. “Expecting me?”
 
@@ -265,33 +263,33 @@ That stopped him. “Expecting me?”
 
 “I assumed you told him.”
 
-“I’ve never met him,” Kieran said.
+“I’ve never met him.”
 
 The young man considered that. “Hm.” He did not appear particularly surprised. “Please wait here.” He disappeared through a side doorway.
 
 Kieran looked around the Hall. Shelves reached almost to the ceiling, and unlike most archives they were not organized by year, or kingdom, or language. Small wooden plaques marked each section instead.
 
-Families
+**Families**
 
-Journeys
+**Journeys**
 
-Builders
+**Builders**
 
-Promises
+**Promises**
 
-Songs
+**Songs**
 
 One shelf simply read:
 
-Things We Nearly Forgot
+**Things We Nearly Forgot**
 
 He stared at it. An elderly couple browsed the section together, and the woman removed a small cloth doll from one shelf.
 
 “I thought your aunt made this.”
 
-Her husband smiled. “No. My grandmother.”
+“No,” her husband smiled. “My grandmother.”
 
-The woman laughed softly. “Your aunt repaired it.”
+“Your aunt repaired it,” the woman laughed softly.
 
 “That’s why I remembered her.”
 
@@ -309,7 +307,7 @@ Except it was no longer red. Most of the paint had worn away, and only a thin si
 
 “You must be Lyra.”
 
-“I usually am.” The transcripts had been failing to record that smile for twenty-five years.
+“I usually am.” Her smile carried the same dry humor preserved in dozens of recorded conversations.
 
 He bowed politely. “It is an honor.”
 
@@ -329,7 +327,7 @@ Kieran hesitated. “I’ve come to understand what happened.”
 
 “I don’t believe they are.”
 
-“No.” She nodded. “You probably wouldn’t.”
+“No.” She nodded thoughtfully. “You probably wouldn’t.”
 
 They reached a balcony overlooking the valley. The mountains rose beyond the rooftops, and somewhere among them stood the Gate, hidden from sight.
 
@@ -341,9 +339,9 @@ They reached a balcony overlooking the valley. The mountains rose beyond the roo
 
 “Of course.”
 
-She was watching the valley, not him. “What do you think they mean?”
+“What do you think they mean?”
 
-“That memory is unreliable,” he said, before she had quite finished asking.
+Kieran answered without hesitation. “That memory is unreliable.”
 
 Lyra rested both hands on the stone railing, the wind lifting strands of gray hair across her face. “I think you’ve come a long way.”
 
@@ -359,7 +357,7 @@ He almost smiled. “You sound like the scholars in Valen.”
 
 “They do.”
 
-“They’ve yet to prove it,” Kieran said.
+“They’ve yet to prove it.”
 
 “Tomas says proof is what people ask for when they aren’t ready to trust observation,” Lyra said, looking toward the Hall below.
 
@@ -387,7 +385,7 @@ Lyra gestured toward a doorway at the end of the gallery. “Come.”
 
 “Where are we going?”
 
-“To meet the man who’s about to ruin your understanding of history.” She paused beside the door, her hand on the latch, not yet lifting it. “And afterward, if you’re still interested in certainty, I’ll introduce you to someone who dislikes it even more than I do.”
+“To meet the man who’s about to ruin your understanding of history.” She paused beside the door, her expression growing more thoughtful. “And afterward, if you’re still interested in certainty, I’ll introduce you to someone who dislikes it even more than I do.”
 
 “Who?”
 
@@ -399,7 +397,7 @@ The name was familiar. Kieran searched his memory. “The archivist from Valen?�
 
 “I’ve read two of his papers.”
 
-Lyra nodded. “Then prepare yourself.”
+“Then prepare yourself,” Lyra nodded.
 
 “For what?”
 
@@ -413,7 +411,7 @@ Kieran frowned. “How did you know I accepted the commission?”
 
 Tomas closed the journal gently. “I didn’t. I remembered someone eventually would.”
 
-Kieran waited for an explanation to assemble itself. For the first time in many years, none came.
+The answer made no sense. For the first time in many years, Kieran Ash found himself without an immediate explanation.
 
 It would not be the last.
 
@@ -497,7 +495,7 @@ Tomas stopped. He did not ask *who.* That was the first thing Kieran noted, and 
 
 Above them, set into the black stone, was a small wooden plaque no larger than a palm. One name.
 
-SAEL
+**SAEL**
 
 “That is the only place in Orin her name is written,” Tomas said. “Elias hung it. He said she was remembered by more than one person, and that was enough to be recorded. He would not say more. He is very old now. Some days he cannot say more.”
 
@@ -555,7 +553,7 @@ She had no letters, this trip. She had him. The Society paid for a guide who kne
 
 “So you don’t lose them.”
 
-Nio laughed — a real laugh, not the kind, door-opening one. “If I wrote them down, I *would* lose them. I’d have the paper and forget the words. This way there’s only the words.” She tapped her temple, then her chest, unhurried. “A letter isn’t what it says. It’s the face I make when I say it, and who I am to the person I say it to. You can’t fold that into an envelope.”
+Nio laughed — a real laugh, not the kind door-opening one. “If I wrote them down, I *would* lose them. I’d have the paper and forget the words. This way there’s only the words.” She tapped her temple, then her chest, unhurried. “A letter isn’t what it says. It’s the face I make when I say it, and who I am to the person I say it to. You can’t fold that into an envelope.”
 
 “You’d make a poor historian.”
 
@@ -615,7 +613,7 @@ Nio stopped at the ridge to let him look. She had brought a hundred travelers to
 
 Nio said nothing to that. She had carried a great many certain men down this road and up it again, and she had learned there was no letter you could hand a man to warn him about himself. He would not read it. He was certain he already knew what it said.
 
-She shouldered her pack and started down toward the lights, and after a moment the historian followed, into the city that argued, carrying his name like a stone he had only just noticed he’d been holding.
+She shouldered her pack and started down toward the lights, and after a moment the historian followed, into the city that argued, carrying his name like a stone he had only just noticed he'd been holding.
 
 ## Chapter 4 — Ordinary Things
 

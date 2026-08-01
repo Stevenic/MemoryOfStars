@@ -8,9 +8,9 @@ label: Chapter 2
 title: The Hall of Names
 order: 2
 generated: true
-version_id: revised
+version_id: original
 chapter_key: chapter-2
-version_label: Revised
+version_label: Original
 mood: wry, sharp, a duel of ideas that turns quietly ominous
 pace: brisk in the Tomas debate; slows and cools at the wall of names / Sael
 ---
@@ -93,7 +93,7 @@ Tomas stopped. He did not ask *who.* That was the first thing Kieran noted, and 
 
 Above them, set into the black stone, was a small wooden plaque no larger than a palm. One name.
 
-SAEL
+**SAEL**
 
 “That is the only place in Orin her name is written,” Tomas said. “Elias hung it. He said she was remembered by more than one person, and that was enough to be recorded. He would not say more. He is very old now. Some days he cannot say more.”
 

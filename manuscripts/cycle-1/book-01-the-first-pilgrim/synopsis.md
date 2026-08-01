@@ -17,11 +17,17 @@ discovers inconsistencies inside preserved memories as the Pilgrims ascend. The 
 shifts from a physical place into something stranger, culminating in the approach to the
 Gate.
 
-The mountain tests each Pilgrim through memory itself. Lyra encounters the impossible; the
-Gate opens; she awakens in another life as **Amarin**, beneath an alien sky. Lyra and
-Amarin now share a single consciousness — and the **Empty Chair** reveals that someone has
-been forgotten by history itself.
+The mountain tests each Pilgrim through memory itself. Beyond the Gate, under a broken
+moon, Lyra meets **Sael** — the woman no record can hold, who divided her own connections
+so the erasure's work would stay incomplete — and learns that **Amarin is a role, not a
+name**: a responsibility assembled from fragments, taken up by whoever answers. Elias
+reaches Sael at last, and the reunion has a price. The **Empty Chair** reveals that
+someone has been forgotten by history itself. Lyra comes home carrying more people than
+herself, the memories already becoming dreams; Orin hangs a small plaque bearing one name
+— **SAEL** — because she was remembered by more than one person, and that is enough.
 
-A brief coda from Amarin's perspective establishes the mystery that will drive the next
-novella. The Pilgrimage is not a rite of passage; it is the beginning of a much larger
-story spanning worlds, memories, and forgotten lives.
+In the epilogue, Lyra dreams of the other sky: the last silver tower pulsing — not
+failing, *calling* — and a child holding something red who returns the farewell gesture.
+She wakes to the red bird returned, wet with black grass, a new silver line on its wing
+pointing toward a star she has never seen. Far beyond the mountain, beneath another sky,
+something remembered her name — a promise the series, not this book, will keep.

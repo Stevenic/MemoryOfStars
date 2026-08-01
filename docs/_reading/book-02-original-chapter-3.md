@@ -8,9 +8,9 @@ label: Chapter 3
 title: The Road to Valen
 order: 3
 generated: true
-version_id: revised
+version_id: original
 chapter_key: chapter-3
-version_label: Revised
+version_label: Original
 mood: road-quiet and wry, turning inward; the personal wound opens under the intellect
 pace: unhurried; a long exhale between Orin and Valen; stills at the ruin, lifts at
   the city
@@ -36,7 +36,7 @@ She had no letters, this trip. She had him. The Society paid for a guide who kne
 
 “So you don’t lose them.”
 
-Nio laughed — a real laugh, not the kind, door-opening one. “If I wrote them down, I *would* lose them. I’d have the paper and forget the words. This way there’s only the words.” She tapped her temple, then her chest, unhurried. “A letter isn’t what it says. It’s the face I make when I say it, and who I am to the person I say it to. You can’t fold that into an envelope.”
+Nio laughed — a real laugh, not the kind door-opening one. “If I wrote them down, I *would* lose them. I’d have the paper and forget the words. This way there’s only the words.” She tapped her temple, then her chest, unhurried. “A letter isn’t what it says. It’s the face I make when I say it, and who I am to the person I say it to. You can’t fold that into an envelope.”
 
 “You’d make a poor historian.”
 
@@ -96,4 +96,4 @@ Nio stopped at the ridge to let him look. She had brought a hundred travelers to
 
 Nio said nothing to that. She had carried a great many certain men down this road and up it again, and she had learned there was no letter you could hand a man to warn him about himself. He would not read it. He was certain he already knew what it said.
 
-She shouldered her pack and started down toward the lights, and after a moment the historian followed, into the city that argued, carrying his name like a stone he had only just noticed he’d been holding.
+She shouldered her pack and started down toward the lights, and after a moment the historian followed, into the city that argued, carrying his name like a stone he had only just noticed he'd been holding.

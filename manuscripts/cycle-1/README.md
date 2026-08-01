@@ -11,9 +11,9 @@ an infrastructure no character fully understands.
 |---|-------|-------|-------|------------|--------|
 | 01 | [The First Pilgrim](book-01-the-first-pilgrim/) | One young person and one community | Coming-of-age mystery | inheritance | Draft complete |
 | 02 | [The Archivist](book-02-the-archivist/) | A city and its recorded history | Philosophical detective story | history / the study of memory | Drafting |
-| 03 | [The Lighthouse](book-03-the-lighthouse/) | An isolated station serving many systems | Psychological mystery | identity | Planned |
-| 04 | [The City That Forgave](book-04-the-city-that-forgave/) | A divided civilization | Political tragedy | burden | Planned |
-| 05 | [The Last Witness](book-05-the-last-witness/) | A vanished civilization | Archaeological horror → wonder | survival | Planned |
+| 03 | [The Lighthouse](book-03-the-lighthouse/) | An isolated station serving many systems | Psychological mystery | identity | Outlining |
+| 04 | [The City That Forgave](book-04-the-city-that-forgave/) | A divided civilization | Political tragedy | burden | Outlining |
+| 05 | [The Last Witness](book-05-the-last-witness/) | A vanished civilization | Archaeological horror → wonder | survival | Outlining |
 
 ## Central questions
 

@@ -8,14 +8,14 @@ label: Prologue
 title: Observation
 order: 0
 generated: true
-version_id: revised
+version_id: original
 chapter_key: prologue
-version_label: Revised
+version_label: Original
 mood: hushed, patient, dawning wonder; scholarly calm over a quiet awe
 pace: slow and unhurried; let the visions and the silences breathe
 ---
 
-Master Renn disliked the word *error.* It appeared too often in the margins of history. *Copyist’s error. Translation error. The witness erred.* As though every contradiction existed only to be removed.
+Master Renn disliked the word *error.* It appeared too often in the margins of history. *Copyist's error. Translation error. The witness erred.* As though every contradiction existed only to be removed.
 
 He had once believed that.
 
@@ -43,7 +43,7 @@ Renn waited. A long moment passed. Then another.
 
 The silver lines brightened so gradually that neither man could later agree exactly when they had begun. The room seemed to exhale. Neris blinked.
 
-Someone stood beside the pedestal. A woman. She turned the cup slowly between her hands while speaking to someone just beyond the edge of sight. He could not hear the words. Her thumb kept crossing the crack in the rim as she spoke, back and forth, soothing something that was past being hurt.
+Someone stood beside the pedestal. A woman. She turned the cup slowly between her hands while speaking to someone just beyond the edge of sight. He could not hear the words, only the affection in her voice.
 
 Then she was gone.
 
@@ -53,7 +53,7 @@ Then the chamber became ordinary again.
 
 Neris did not realize he had stopped breathing until he heard the scratch of Renn’s pen. He hurried to write. When he finished, he pushed the journal across the table, and Master Renn did the same.
 
-Neris read. Then he read it again. “You didn’t see any of them.”
+Neris read. His brow furrowed. “You didn’t see any of them.”
 
 “No.”
 
@@ -69,9 +69,9 @@ Neris picked it up and turned it over. Nothing. Only worn wood polished smooth b
 
 “I think one of us imagined it.”
 
-“A reasonable hypothesis,” Renn said.
+“A reasonable hypothesis,” Renn nodded.
 
-Neris studied him. “You disagree.”
+“You disagree.”
 
 “I don’t know.”
 
@@ -83,7 +83,7 @@ The old archivist stood. Instead of reaching for another journal, he walked to t
 
 He selected the bowl, its rim chipped and carefully mended, and carried it back to the table. “Observe.”
 
-The bowl replaced the cup. Again the crystal awakened. Again the room filled with people—different people, different lives. One woman repaired the broken rim with careful hands. An old neighbor accepted it with both hands. Years passed between heartbeats: the neighbor’s daughter carried the bowl, then her son, and a little girl stirred soup with a wooden spoon almost too large for her hand.
+The bowl replaced the cup. Again the crystal awakened. Again the room filled with people—different people, different lives. One woman repaired the broken rim with careful hands. An old neighbor accepted it with quiet gratitude. Years passed between heartbeats: the neighbor’s daughter carried the bowl, then her son, and a little girl stirred soup with a wooden spoon almost too large for her hand.
 
 The room fell silent. The bowl remained.
 
@@ -109,11 +109,9 @@ For a long time, the only sound in the chamber was turning pages. At last Neris 
 
 “No.”
 
-Renn took back the journals and squared them into a neat stack, and his hands rested on top of them a moment longer than tidiness required—as though something he had suspected for years had finally found the courage to become visible. He opened a new notebook, its pages blank, and across the top of the first page he wrote a single word.
+Renn took back the journals. He did not look triumphant, only relieved—as though something he had suspected for years had finally found the courage to become visible. He opened a new notebook, its pages blank, and across the top of the first page he wrote only two words.
 
-Observations
-
-
+**Observations**
 
 Nothing more. No title. No theory. No conclusions. He closed the cover.
 
@@ -131,7 +129,7 @@ Neris looked at the bowl. “Or perhaps people remember objects.”
 
 Renn smiled. “I don’t know.”
 
-Neither of them wrote it down.
+The answer seemed to satisfy them both.
 
 He reached toward the shelves once more, and this time chose a child’s wooden whistle, its paint long since faded, one finger hole worn smooth by countless hands. He placed it gently beneath the crystal. The silver lines awakened again.
 

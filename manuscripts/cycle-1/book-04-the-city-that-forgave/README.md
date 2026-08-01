@@ -4,12 +4,13 @@
 |-------|-------|
 | **Cycle** | 1 — *Fragments of the First Memory* |
 | **Number in series** | 04 of 30 |
-| **Status** | Planned |
+| **Status** | Outlining |
 | **Scale** | A divided civilization |
 | **Genre** | Political tragedy |
 | **Memory as…** | burden |
 | **Central question** | Can peace exist while everyone remembers the truth? |
-| **POV** | _TBD_ |
+| **POV** | Juna — a Bearer of Southbank in Meret, 20; the reformer is her mother |
+| **Target length** | ~30,500 words (Prologue + 3×3 + Epilogue) |
 | **Logline** | Two peoples hold perfect records of an old atrocity — and a reformer proposes deleting both sides' inherited memory of it. |
 
 ## Premise

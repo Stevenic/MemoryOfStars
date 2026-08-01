@@ -9,3 +9,12 @@ the-first-pilgrim:
   label: Revised
   note: Dialogue, emotion and rhythm pass.
   default: true
+the-archivist:
+- id: original
+  label: Original
+  note: The first draft (Prologue + Act I).
+  default: false
+- id: revised
+  label: Revised
+  note: Dialogue, emotion and rhythm pass.
+  default: true

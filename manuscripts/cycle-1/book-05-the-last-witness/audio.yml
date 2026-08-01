@@ -1,0 +1,74 @@
+# Audio production sheet — The Last Witness (Book 05)
+# Feeds a future ElevenLabs pipeline; NOT published to the website.
+# The web reader reads `mood`/`pace` per chapter as optional prosody hints.
+
+voice:
+  narrator_ref: "TBD"
+  description: "expedition-log spareness opening into awe — horror carried in arithmetic, wonder in stillness"
+  default_style: "controlled, then widening"
+  default_pace: "slow"
+  stability: 0.55
+  similarity_boost: 0.75
+  style: 0.3
+
+# respell = plain phonetic; ipa = IPA. CONFIRM these against your intent.
+pronunciation:
+  Odri:   { respell: "OH-dree",  ipa: "ˈoʊdri", note: "POV; Meret diaspora" }
+  Cassen: { respell: "KASS-en",  ipa: "ˈkæsən", note: "expedition master" }
+  Fenn:   { respell: "fen",      ipa: "fɛn", note: "route-reader" }
+  Dov:    { respell: "dov",      ipa: "dɒv", note: "the young one" }
+  Choir:  { respell: "KWY-er",   ipa: "ˈkwaɪər", note: "the vanished species — the humans' word, always with the article" }
+
+# Per-chapter direction; `id` matches the manuscript heading (prologue | chapter-N | epilogue).
+chapters:
+  - id: prologue
+    title: "The Unroaded System"
+    mood: "cold approach; a place space was made to forget"
+    pace: "slow, expedition-log clipped"
+  - id: chapter-1
+    title: "Salvage Rights"
+    mood: "professional routine over a wrong threshold"
+    pace: "steady"
+    voices:
+      Odri: "dry, inventory-minded; feeling arrives late and lands hard"
+      Cassen: "contract-careful, fair; reads clauses like weather"
+  - id: chapter-2
+    title: "The Counting"
+    mood: "dread by arithmetic; the number becomes a face"
+    pace: "measured, tightening with each count"
+  - id: chapter-3
+    title: "The Singing"
+    mood: "horror crest — each hears their own childhood; the tidied wake"
+    pace: "slow, airless"
+    voices:
+      Fenn: "flat professional fear — the most frightening voice in the book"
+  - id: chapter-4
+    title: "First Contact"
+    mood: "terror and grief at once; the deleted lullaby returned in shape"
+    pace: "very slow; long silences"
+    voices:
+      Witness: "courteous, ancient, failing; never sinister once understood"
+  - id: chapter-5
+    title: "The Offer"
+    mood: "the trap-priced bargain; the crew splitting along old lines"
+    pace: "measured debate rhythm"
+  - id: chapter-6
+    title: "What It Is Not"
+    mood: "the turn: horror re-read as hospice; one held breath"
+    pace: "slow, then still"
+  - id: chapter-7
+    title: "The Terms of the Dead"
+    mood: "solemn; the consensus played once; argument no one wins"
+    pace: "slow"
+  - id: chapter-8
+    title: "The First Carrier"
+    mood: "the wonder beat — a million-year sunset; cost paid on the page"
+    pace: "slow and wide; let it be vast"
+  - id: chapter-9
+    title: "The Last Witness"
+    mood: "departure and passing of duty; testimony at last; the old symbol, uncommented"
+    pace: "slow, settling"
+  - id: epilogue
+    title: "Carrying"
+    mood: "homeward warmth; the farewell said to the stars"
+    pace: "gentle, final"

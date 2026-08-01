@@ -1,0 +1,77 @@
+# Audio production sheet — The Lighthouse (Book 03)
+# Feeds a future ElevenLabs pipeline; NOT published to the website.
+# The web reader reads `mood`/`pace` per chapter as optional prosody hints.
+
+voice:
+  narrator_ref: "TBD"
+  description: "solitary, watchful, weathered calm — a log kept aloud; long silences belong in it"
+  default_style: "measured, interior, unhurried"
+  default_pace: "slow"
+  stability: 0.6
+  similarity_boost: 0.75
+  style: 0.25
+
+# respell = plain phonetic; ipa = IPA. CONFIRM these against your intent.
+pronunciation:
+  Edda:   { respell: "EH-dah",   ipa: "ˈɛdə" }
+  Skerry: { respell: "SKEH-ree", ipa: "ˈskɛri", note: "the beacon's rock; maritime word, deliberate" }
+  Joren:  { respell: "JOR-en",   ipa: "ˈdʒɔːrən", note: "the dead mentor; the voice" }
+  Pell:   { respell: "pel",      ipa: "pɛl", note: "the courier" }
+  Anthem: { respell: "AN-them",  ipa: "ˈænθəm", note: "the lost ship; always with the article: the Anthem" }
+
+# Per-chapter direction; `id` matches the manuscript heading (prologue | chapter-N | epilogue).
+chapters:
+  - id: prologue
+    title: "The Flash"
+    mood: "hushed, procedural, a hairline of wrongness under routine"
+    pace: "slow; log-entry rhythm"
+    notes: >
+      Edda alone at the watch. Play the double log entry flatly — the disagreement between
+      her own two records is the horror and must not be leaned on.
+  - id: chapter-1
+    title: "The Keeper"
+    mood: "workaday calm; the loneliness underneath, never named"
+    pace: "steady"
+    voices:
+      Edda: "dry, spare; deflects into procedure"
+      Pell: "warm, quick, unbothered — the only human warmth on the station"
+  - id: chapter-2
+    title: "The Anthem"
+    mood: "held breath; the impossible arriving through protocol"
+    pace: "slow, with long pauses around the hails"
+    voices:
+      Joren: "gentle, familiar, slightly worn — a voice remembered more than heard"
+  - id: chapter-3
+    title: "The Log Disagrees"
+    mood: "quiet investigation curdling into unease"
+    pace: "measured"
+    voices:
+      Log: "slow, literal, faintly antique; answers arrive after pauses too long for comfort"
+  - id: chapter-4
+    title: "Residue"
+    mood: "wonder — the route-sea; awe without alarm"
+    pace: "slow and wide; let the vista breathe"
+  - id: chapter-5
+    title: "The Voice"
+    mood: "intimate, uneasy; two speakers unsure which of them is real"
+    pace: "slow"
+  - id: chapter-6
+    title: "The Choice Named"
+    mood: "arithmetic dread; the warning from the dead"
+    pace: "steady, tightening"
+  - id: chapter-7
+    title: "What the Station Keeps"
+    mood: "the floor giving way, rendered flatly; grief mistrusted"
+    pace: "slow"
+  - id: chapter-8
+    title: "The Unwinding"
+    mood: "set-piece tension; then three watches of silence"
+    pace: "faster through the unwinding, dead stop after she tells it"
+  - id: chapter-9
+    title: "Anthem"
+    mood: "bittersweet resolve; a burial at sea, outward"
+    pace: "slow, ceremonial"
+  - id: epilogue
+    title: "The Next Keeper"
+    mood: "quiet passage of office; loss accepted, not healed"
+    pace: "slow"

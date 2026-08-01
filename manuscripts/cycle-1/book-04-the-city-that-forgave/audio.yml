@@ -1,0 +1,79 @@
+# Audio production sheet — The City That Forgave (Book 04)
+# Feeds a future ElevenLabs pipeline; NOT published to the website.
+# The web reader reads `mood`/`pace` per chapter as optional prosody hints.
+
+voice:
+  narrator_ref: "TBD"
+  description: "grave, humane, close to the ground — a city's grief told at kitchen-table distance"
+  default_style: "restrained, warm under the restraint"
+  default_pace: "slow"
+  stability: 0.6
+  similarity_boost: 0.75
+  style: 0.25
+
+# respell = plain phonetic; ipa = IPA. CONFIRM these against your intent.
+pronunciation:
+  Meret:  { respell: "MEH-ret",  ipa: "ˈmɛrɛt", note: "the city" }
+  Sil:    { respell: "sil",      ipa: "sɪl", note: "the river" }
+  Juna:   { respell: "JOO-nah",  ipa: "ˈdʒuːnə", note: "POV; Bearer of Southbank" }
+  Vessa:  { respell: "VEH-sah",  ipa: "ˈvɛsə", note: "Juna's mother; the reformer" }
+  Tammo:  { respell: "TAH-moh",  ipa: "ˈtɑːmoʊ", note: "Bearer of Northbank" }
+  Garrel: { respell: "GAIR-el",  ipa: "ˈɡɛrəl", note: "Northbank chief archivist; the opposition" }
+
+# Per-chapter direction; `id` matches the manuscript heading (prologue | chapter-N | epilogue).
+chapters:
+  - id: prologue
+    title: "The Bridge Night"
+    mood: "flat horror from inside an ancestor; counting dread; no melodrama"
+    pace: "slow, relentless"
+    notes: >
+      The only full Reliving of the Night in the book. Render the atrocity underplayed —
+      the cut-off where Southbank's record ends should land like a held breath, not a sting.
+  - id: chapter-1
+    title: "The Reliving"
+    mood: "ritual formality; a city choreographed around a wound"
+    pace: "steady"
+    voices:
+      Juna: "young, formal in the rite, dry outside it; the office is her posture"
+  - id: chapter-2
+    title: "The Proposal"
+    mood: "public storm, private kitchen-table quiet"
+    pace: "measured"
+    voices:
+      Vessa: "level, practiced, a speaker who has counted the cost of every sentence"
+  - id: chapter-3
+    title: "The Other Bank"
+    mood: "wary symmetry; two strangers with the same scar"
+    pace: "steady"
+    voices:
+      Tammo: "careful, deadpan; checks facts when moved"
+  - id: chapter-4
+    title: "What the Wells Are"
+    mood: "wonder in descent — grief in strata; awe, not fright"
+    pace: "slow and wide"
+  - id: chapter-5
+    title: "The Living Argument"
+    mood: "tragedy accelerating; every speaker right"
+    pace: "quicker; let the incident hit and move"
+    voices:
+      Garrel: "old, granite dignity; grief argued as law"
+  - id: chapter-6
+    title: "The Pivot Instant"
+    mood: "forbidden intimacy; two truths refusing each other; the unheld figure"
+    pace: "slow, doubled"
+  - id: chapter-7
+    title: "The Vote"
+    mood: "civic solemnity; a daughter's one-line choice"
+    pace: "measured"
+  - id: chapter-8
+    title: "The Forgetting"
+    mood: "victory rendered as loss; the city's largest rite"
+    pace: "ceremonial, then hollowing"
+  - id: chapter-9
+    title: "The City That Forgave"
+    mood: "peace that works; mourning without an object"
+    pace: "slow, gentle"
+  - id: epilogue
+    title: "The Unopened Room"
+    mood: "custodial quiet; the weight kept so no one must"
+    pace: "slow"

@@ -11,8 +11,12 @@ _Facts this story makes objectively true for the universe._
   experience carefully selected memories of generations of the dead.
 - The rite is mediated by an **ancient intelligence (the Gate / Archive)** that can present,
   withhold, and even **deny the existence** of specific memories.
-- A pilgrim's consciousness can **merge with another life** (Lyra ↔ Amarin) across what
-  appears to be great distance — memory can carry identity between people.
+- A pilgrim can **briefly live another life** across what appears to be great distance
+  (Lyra, beyond the Gate) — memory can carry identity between people, though the carried
+  life fades toward dream afterward.
+- **Amarin is a role, not a name** — a responsibility assembled from fragments (a warning
+  from one person, a technique from another, a memory no one else could hold), taken up
+  by whoever answers. No one is chosen.
 
 ## 2. Cultural beliefs
 _Claims characters believe but that are NOT verified as true._
@@ -25,9 +29,12 @@ _Claims characters believe but that are NOT verified as true._
 _Deliberately unresolved._
 - The memory the Archive insists does not exist — what is it, and why deny it?
 - **The Empty Chair:** who has been forgotten by history itself?
-- Who — or what — is Amarin, and how does she share one consciousness with Lyra?
+- Who takes up **Amarin** next — and how much of the role survives each passing.
 - The question Elias has asked the Archive for decades.
 - Whether the mountain is a place, a machine, or something else.
+- **The calling tower and the child under another sky** — the final page's promise:
+  something, far away, remembers Lyra's name. *(A later book's to keep — not this
+  cycle's.)*
 
 ## 4. Continuity hooks
 _People, systems, places, symbols another story may echo._
