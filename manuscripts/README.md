@@ -34,14 +34,26 @@ its own folder with `manuscript.md`, `outline.md`, `synopsis.md`, `canon-ledger.
 | 09 | [The Severed Reach](cycle-2/book-09-the-severed-reach/) | reconciliation | Outlining |
 | 10 | [Where the Names Go](cycle-2/book-10-where-the-names-go/) | survival | Outlining |
 
-## Cycles 3–6 — *to be defined*
+## Cycle 3 — [*The Long Watch*](cycle-3/) · *deep time & nonhuman minds*
+
+> Connective tissue: the **Listeners** and their growing **dossier** — five books, five
+> witnesses (factory · planet · inherited memory · god · the Reading).
+
+| # | Title | Memory as… | Status |
+|---|-------|------------|--------|
+| 11 | [The Cathedral of Engines](cycle-3/book-11-the-cathedral-of-engines/) | purpose | Outlining |
+| 12 | [The Ninth Observer](cycle-3/book-12-the-ninth-observer/) | witness | Outlining |
+| 13 | [The Inheritors](cycle-3/book-13-the-inheritors/) | inherited memory | Outlining |
+| 14 | [The God That Forgot](cycle-3/book-14-the-god-that-forgot/) | divinity / doubt | Outlining |
+| 15 | [The Divided Ones](cycle-3/book-15-the-divided-ones/) | sacrifice | Outlining |
+
+## Cycles 4–6 — *to be defined*
 
 Five books each, numbered globally. Give each cycle a title and theme, then name and fill
 its books.
 
 | Cycle | Books | Status |
 |-------|-------|--------|
-| [Cycle 3](cycle-3/) | 11–15 | Planned |
 | [Cycle 4](cycle-4/) | 16–20 | Planned |
 | [Cycle 5](cycle-5/) | 21–25 | Planned |
 | [Cycle 6](cycle-6/) | 26–30 | Planned |

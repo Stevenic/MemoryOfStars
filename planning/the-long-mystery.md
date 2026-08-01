@@ -223,9 +223,25 @@ question it draws down, if any).
 - **Handoffs:** each testimony names the next witness — a chain of referrals across deep
   time; the dossier itself becomes an artifact later cycles can cite (and C4's factions
   fight over).
-- **Romp (pencil — re-confirm at charter): Book 13 (The Inheritors)** — shipboard
+- **Romp — CONFIRMED FIRM at charter (2026-08): Book 13 (The Inheritors)** — shipboard
   adventure; a crew that is its own ancestry. The cycle's one fast book among four slow,
-  old minds.
+  old minds. House custom holds: romps open cold (no prologue), and the bill lands in
+  the fourth movement.
+- **Device placements (2026-08 outlines):** the **vanishing name's second instance
+  escalates to a place** — the Skerry's name, blank in Book 12's transcription
+  appendix (see the device table); **Seren** is Book 11's motherhouse guest-master (Book 15's epilogue
+  bench-listener is deliberately unidentified — the author may rule he is nobody);
+  **the dossier is the front-door artifact**, taught in Book 11's prologue and Book
+  15's Ch 1; the **Dyson-scale sight** is spent in Book 11 Ch 1, up front; the
+  **caretaker glimpse** is Book 14 (the Shepherd — proto-Custodian, kept local and
+  small); the **eucatastrophe** is named in Book 15 Ch 8 (the Reading ends in the
+  Night of Strangers, by instinct).
+- **Outlined 2026-08:** CR ~350–400; grids varied per the Shape Rule (11 chamber 2×4 ·
+  12 re-pointed 3×3, the offer at midpoint · 13 cold-open ten-chapter romp · 14
+  founding 3×3 · 15 finale echo). Canon spend lands in 15 only, scoped: made defense ·
+  plural makers · self-division; identity veiled, fear unnamed, fate open. Cycle-local
+  mystery: *why do the testimonies rhyme* (raised 11, resolved 15); *why are the old
+  minds stirring now* (raised 12, deliberately unresolved → C4).
 - **Canvas plan:** the megastructure cycle — the Cathedral of Engines, the planetary
   mind, the inherited ship, and the series' first **Dyson-scale** sight (Law 7's promise,
   spent here). Few systems, enormous objects, deep time.
@@ -338,6 +354,7 @@ discovered prose. (This maps directly onto the existing skill pipeline: `outline
    | Cycle | The vanished | Planted in | Goes missing in |
    |-------|--------------|------------|-----------------|
    | 2 | **Master Rian** — Orin's shopkeeper (the blue hat, the lamp oil) | 01 | **09**, Ch 4 — a blank where his name should be, in the trade-roll the forger copies; uncommented |
+   | 3 | **The Skerry** — the beacon-station itself (a *place* now; the escalation begins) | 03 | **12**, Ch 4 — a blank where the beacon's name should stand, in the Observer transcription appendix; uncommented |
    | 3–6 | _escalate: places, then events, then a book's own record_ | — | TBD |
 2. **The continuity witness** *(Foundation's Daneel — defanged).* **Seren** (already
    canon-strange: never sleeps, "several different men," distributed presence) is the

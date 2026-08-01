@@ -47,6 +47,16 @@ atlas can agree. *(Proposed — confirm or replace; `timeline.md` carries the pl
 | 08 The Last Librarian | ~301 *(epilogue years later)* | **The Librarian's site** — a hollowed mountain range of holdings *(its world unnamed — naming debt)* | The halls, the wings, the tea room | The **long shelf** — hundreds of small keepers across the reach, implied |
 | 09 The Severed Reach | ~312 | The **Corvane–Dresk frontier**: the beacon graveyard, the blockade run, the **Selt system** | The auction yard, the tug, the relight site | The vacated placement (an empty sky going dark); the peace conference |
 | 10 Where the Names Go | ~318 *(prologue ~313)* | **Carath** — hub world of the re-routed mesh | The Hall of Rolls, the squares, the substructure beneath | The letters' origin: a relay three centuries dark *(D3 — Book 1's calling tower)* |
+| 11 The Cathedral of Engines | ~350 | **The Cathedral's system** — a broken Dyson ring around a dim star *(star unnamed — naming debt)* + the Listeners' **motherhouse** *(locale unnamed — debt)* | The ring's forges, the interview gallery, the motherhouse | The dead shipping address *(which accepted)* |
+| 12 The Ninth Observer | ~362 | **Aulis** — a settled world under a failing sun | Ferrow's Rest, the Harrow valley terraces, the mountain slot | The diaspora berths; nine buried rises |
+| 13 The Inheritors | ~375 | The **Charter Run's three legs** (relay-dense core lanes) | The *Marigold*, deck to deck | The dim off-chart star *("where the shepherd stands" → Book 14)* |
+| 14 The God That Forgot | ~388 | **Tolm** — one god, one world *(star unnamed — debt)* | The temple, the terraces, Coss's garden | Whatever set the Shepherd in place |
+| 15 The Divided Ones | ~400 | The Listeners' **motherhouse** | The reading hall, the five shelves, the open-day benches | The scattered emphases; the mapping institute *(→ Cycle 4)* |
+
+**Census after the Cycle 3 outlines: ~14 on-page systems · 8 walkable worlds · the
+Cathedral ring (the series' first Dyson-scale object) · 2 moonlets · the Librarian's
+range.** The megastructure cycle adds few systems and enormous objects — deep time
+measured in mass, not map.
 
 **Census after the Cycle 2 outlines: ~10 on-page systems · 5 walkable worlds ·
 2 moonlets · the Librarian's range · ~8 invoked off-page locales.** The atlas roughly
@@ -67,6 +77,9 @@ still a handful, in an enormous dark house.
 | **The Librarian** | Archive-mind + site (human-built, settled-ages old) | 08 | Deleted its own name first; dispersed its holdings to the long shelf; smaller now, and alive. |
 | **The beacon graveyard & the moved beacons** | Infrastructure (mobile) | 09 | Beacons can be towed; reach is treaty-capped; one placed illegally for the Selt, later legalized (placement-as-right precedent). |
 | **Carath's substructure** | Ancient infrastructure (foundation-deep, beneath the Hall of Rolls) | 10 | Woke once, fought the taking, guttered. Circle-crossed-line on the warm stone. Builders unknown. |
+| **The Cathedral of Engines** | Megastructure — a broken Dyson ring, working | 11 | A million years building one unfinished component; finished it once, and stopped. The series' largest object. |
+| **The Observer** | Planetary mind (grown or made: never settled) | 12 | Nine rises held as seasons; answered a petitioner for the first time in its record. |
+| **The Shepherd** | Caretaker mind (god of Tolm) | 14 | Set to protect against [unfinished]; tends past remembering why. Now plural-kept by its own flock. |
 | *The suspected whole* | — | 02 → | Gate, Hall, Lens, beacons, Wells, vault — and now Carath's root — may be limbs of **one network**. Open mystery; never confirmed on the page. |
 
 **Count: 9 named structures (+1 suspected whole).**
@@ -83,9 +96,10 @@ still a handful, in an enormous dark house.
 | Veya's crossings (held & unheld) | 06 | Working passages, no named hull; the road is the character. |
 | The consignment ship (Sowen's crates) | 07 → 08 | Joss's courier run; ten crates, one urn, one passenger. |
 | Madge's tug (+ the beacon under tow) | 09 | A lighthouse riding a barge train — the war's image. The beacon's old station-voice logs the crew, courteously. |
+| **The *Marigold*** | 13 | The series' **second named ship** — a junk-line family hull, nine generations inherited; won the Charter Run by a dead road. The naming is load-bearing. |
 
-**Count: 1 named · ~10 unnamed with on-page roles.** *(Naming a ship stays a
-meaningful act — the Anthem remains the only one that earned it.)*
+**Count: 2 named · ~10 unnamed with on-page roles.** *(Naming a ship stays a
+meaningful act — the Anthem and the Marigold earned it; battleships don't.)*
 
 ## Registry — significant objects
 
@@ -107,6 +121,9 @@ meaningful act — the Anthem remains the only one that earned it.)*
 | **The map of silences** | 06 → 10 | Veya's chart of holes; a later edition rides with the responders (10, one line). |
 | **Sowen's crates & the urn of ash** | 07 → 08 | A century exported; one decade burned unrecoverable. First cargo of the long shelf. |
 | **The rite-book** | 10 | Assembled over decades from opened letters; source of the Night of Strangers. |
+| **The dossier** | 11 → 15 | Five testimonies, five volumes, shelved apart by charter; spoken together exactly once (the Reading). Cycle 3's spine artifact. |
+| **The finished component** | 11 | The Wright's million-year work, completed once; shipped to a dead address. The receipt came back stamped. |
+| **The line's book (the Marigold)** | 13 | Each captain's page in their own hand; one shared page in five hands. |
 
 ## Naming debts (things that exist but have no name yet)
 
@@ -115,12 +132,15 @@ meaningful act — the Anthem remains the only one that earned it.)*
 - [ ] The Skerry's star / locale designation
 - [ ] Book 05's expedition ship
 - [ ] Farrow's star; Sowen's star; Carath's star; the Librarian's world
+- [ ] The Cathedral's star; Tolm's star; the Listeners' motherhouse locale
 - [ ] The dating system, in-world (per-culture; CR is authorial only)
 
 **Deliberately never paid (weight-of-names doctrine — mark, don't fill):**
 - The Selt's own name for themselves — plural, untranslated, kept off the page (09).
 - The Librarian's name — the first thing it deleted (08).
 - The unroaded system (05) and the walked worlds of Cycle 1 — unnamed by design.
+- The Wright's makers (11) and the Shepherd's true designation (14) — never recovered.
+- "The divided ones" (15) — a description, not a name; the makers are given none.
 
 ## Upkeep
 
