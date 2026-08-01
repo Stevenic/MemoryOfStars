@@ -44,7 +44,7 @@ needed, concisely, then wait.
 - **Continuity:** prior books' `manuscript.md` synopses + `canon-ledger.md` (names, timeline, motifs, hooks to echo/pay off).
 
 ### Phase 1 — Outline (→ GATE 2)
-Do **not** single-pass it. Generate **N candidate outlines from different angles** (character-first, mystery-first, theme-first), each obeying the structure signature. **Adversarially critique** each against the Writer's Test *and the reviewer checklist below*. **Judge-panel + synthesize** the strongest, grafting the best of the rest. Fold in any **Seed (Gate 1)**. → **GATE 2: present the outline for approval/steer.**
+Do **not** single-pass it. Generate **N candidate outlines from different angles** (character-first, mystery-first, theme-first), each honoring the Shape Rule (`structure.md`: the length is the law; each candidate chooses and defends its own chapter grid). **Adversarially critique** each against the Writer's Test *and the reviewer checklist below*. **Judge-panel + synthesize** the strongest, grafting the best of the rest. Fold in any **Seed (Gate 1)**. → **GATE 2: present the outline for approval/steer.**
 
 ### Phase 2 — Draft Act I (→ GATE 3)
 Draft **chapter-by-chapter, in order, with continuity carried forward** (never one-shot). Per chapter (via `write`): draft → self-critique (voice + canon + "did it hit the beat?") → revise once → update a running **continuity ledger**. After the first act → **GATE 3: present Act I + the first proposed outline revision.**
