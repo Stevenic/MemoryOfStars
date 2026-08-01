@@ -1,6 +1,6 @@
 # The First Pilgrim — Outline
 
-**Memory of Stars — Novella #1** · **Length:** ~31,000 words (as drafted) · **Structure:**
+**Memory of Stars — Novella #1** · **Length:** 28,550 words (actual draft) · **Structure:**
 Prologue + 3 acts × 3 chapters + Epilogue — the founding shape. (Book 1 established it;
 later books choose their own grids — the length is the law, not the grid.)
 
@@ -48,18 +48,23 @@ later books choose their own grids — the length is the law, not the grid.)
 
 | Act | Ch | Title | Words | Beat |
 |-----|----|-------|------:|------|
-| **Prologue** | — | The Mountain Remembers | 1,500 | Elias's annual climb; the question he has carried for decades; the Archive's only answer is a promise to return in seven days. Leaving, he cannot remember whether he climbed alone. |
-| **Act I — The Last Ordinary Week** | 1 | The Last Ordinary Morning | 3,000 | Orin before anything changes: Mara's kitchen, Lyra's last ordinary day, the Pilgrimage a week away. The reader falls in love with the town first. |
-| | 2 | Tomas Knows Everything | 3,000 | Tomas and the rite as the young receive it — secondhand, half-myth; the first subtle crack in the town's shared memory shows. *(Chapter-Two Rule: this book predates it — the early detonation is distributed between the prologue's wrongness and this first crack. If the prose is ever re-drafted, budget this chapter up, not chapter 1.)* |
-| | 3 | The Festival of Last Things | 3,000 | The town says its goodbyes by tradition; the Festival; departure. |
-| **Act II — The Pilgrimage** | 4 | Elias Returns | 3,500 | The ascent begins; Elias's memories start failing in impossible ways. |
-| | 5 | The House of Memories | 3,500 | Preserved memories show inconsistencies *from the inside* — the first proof that memory itself can be wrong (Law 5, planted for Book 2 to formalize). |
-| | 6 | The Climb Begins | 4,000 | The mountain stops being only a place; the approach to the Gate. |
-| **Act III — The Gate** | 7 | The Gate | 4,000 | The mountain tests each Pilgrim through memory itself. |
-| | 8 | Amarin | 3,000 | Beyond the Gate, under a broken moon: Sael — and the revelation that **Amarin is a role, not a name**: a responsibility assembled from fragments, taken up by whoever answers. Elias reaches Sael at last; the reunion has a price. |
-| | 9 | The Empty Chair | 1,500 | Someone has been forgotten by history itself. Lyra returns carrying more people than herself; Orin hangs a plaque with one name — **SAEL** — remembered by more than one person, which is enough. *(The series' eucatastrophe template — device 13's reference beat.)* |
-| **Epilogue** | — | Another Sky | 1,000 | Lyra's dream: the last silver tower pulsing — not failing, *calling*; a child holding something red returns the farewell gesture. She wakes to the red bird returned, wet with black grass, a new silver line on its wing pointing toward a star she has never seen. Far beyond the mountain, beneath another sky, something remembered her name. |
-| | | **Total** | **~31,000** | |
+| **Prologue** | — | The Mountain Remembers | 428 | Elias's annual climb; the question he has carried for decades; the Archive's only answer is a promise to return in seven days. Leaving, he cannot remember whether he climbed alone. |
+| **Act I — The Last Ordinary Week** | 1 | The Last Ordinary Morning | 2,737 | Orin before anything changes: Mara's kitchen, Lyra's last ordinary day, the Pilgrimage a week away. The reader falls in love with the town first. |
+| | 2 | Tomas Knows Everything | 1,671 | Tomas and the rite as the young receive it — secondhand, half-myth; the first subtle crack in the town's shared memory shows. *(Chapter-Two Rule: this book predates it, and the count shows it — the shortest chapter in the book where the law now wants the strongest. If the prose is ever re-drafted, budget this chapter up, not chapter 1.)* |
+| | 3 | The Festival of Last Things | 2,911 | The town says its goodbyes by tradition; the Festival; departure. |
+| **Act II — The Pilgrimage** | 4 | Elias Returns | 2,061 | The ascent begins; Elias's memories start failing in impossible ways. |
+| | 5 | The House of Memories | 4,307 | Preserved memories show inconsistencies *from the inside* — the first proof that memory itself can be wrong (Law 5, planted for Book 2 to formalize). |
+| | 6 | The Climb Begins | 3,030 | The mountain stops being only a place; the approach to the Gate. |
+| **Act III — The Gate** | 7 | The Gate | 1,821 | The mountain tests each Pilgrim through memory itself. |
+| | 8 | Amarin | 3,672 | Beyond the Gate, under a broken moon: Sael — and the revelation that **Amarin is a role, not a name**: a responsibility assembled from fragments, taken up by whoever answers. Elias reaches Sael at last; the reunion has a price. |
+| | 9 | The Empty Chair | 3,742 | Someone has been forgotten by history itself. Lyra returns carrying more people than herself; Orin hangs a plaque with one name — **SAEL** — remembered by more than one person, which is enough. *(The series' eucatastrophe template — device 13's reference beat.)* |
+| **Epilogue** | — | Another Sky | 2,170 | Lyra's dream: the last silver tower pulsing — not failing, *calling*; a child holding something red returns the farewell gesture. She wakes to the red bird returned, wet with black grass, a new silver line on its wing pointing toward a star she has never seen. Far beyond the mountain, beneath another sky, something remembered her name. |
+| | | **Total** | **28,550** | |
+
+> *Counts are the actual drafted lengths (2026-08 measurement of the revised
+> manuscript) — this outline is a record, and records don't round up. Chapters 2, 4,
+> and 7 sit under the Shape Rule's one-sitting floor; grandfathered, noted for any
+> future re-draft.*
 
 ## The Writer's Test (passed in draft)
 - [x] New truth — the Pilgrimage works; memory can be inherited and walked into. *(Acts II–III.)*

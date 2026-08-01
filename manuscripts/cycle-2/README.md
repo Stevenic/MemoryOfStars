@@ -9,8 +9,8 @@ Its connective tissue is an institution rather than a place: the **Wayfinders' G
 couriers, route-holders, brokers, and responders. Each book stands alone with its own
 protagonist; the guild appears in a different role in every one (a holder's story, a
 colony's contract, a courier's run, a broker's war, the responders' night). And through
-all five, quietly, recurs the cycle's strangeness: **the letters from tomorrow** — mail
-that arrives before it is sent.
+the cycle, quietly, recurs its strangeness: **the letters from tomorrow** — mail that
+arrives before it is sent.
 
 ## The five novellas
 
@@ -20,7 +20,7 @@ that arrives before it is sent.
 | 07 | [A Hundred Empty Years](book-07-a-hundred-empty-years/) | One colony and one calendar | Closed-room moral drama | deliberate forgetting | Outlining |
 | 08 | [The Last Librarian](book-08-the-last-librarian/) | One courier and one mind | Chamber piece | stewardship | Outlining |
 | 09 | [The Severed Reach](book-09-the-severed-reach/) | Three powers and one small people | Heist (the cycle's bright book) | reconciliation | Outlining |
-| 10 | [Where the Names Go](book-10-where-the-names-go/) | A hub world, one night | Real-time catastrophe → resolve | survival | Outlining |
+| 10 | [Where the Names Go](book-10-where-the-names-go/) | A hub world, one hard week | Real-time catastrophe → resolve | survival | Outlining |
 
 ## Central questions
 

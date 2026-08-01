@@ -1,6 +1,6 @@
 # The Lighthouse — Outline
 
-**Memory of Stars — Novella #3** · **Target length:** ~28,000 words · **Structure:**
+**Memory of Stars — Novella #3** · **Target length:** ~28,100 words · **Structure:**
 Prologue + **8 chapters (2 acts × 4)** + Epilogue — chosen: one keeper, one station, one
 voice, and a story with exactly two movements (the impossible thing arrives; answering it
 costs). A held breath, structured like one. *(Re-drafted 2026-08.)*
@@ -45,7 +45,7 @@ costs). A held breath, structured like one. *(Re-drafted 2026-08.)*
   voice, the book's whole trap closes in one sentence.)*
 - **The Log** — the station's old intelligence. Slow, literal, fallible (Law 3). Answers
   in hours, sometimes days. Not a companion; a ledger that occasionally has opinions —
-  and the only conversation partner Edda has had in nine years.
+  and the nearest thing to conversation the station has offered in nine years.
 - **The voice / Joren** — Edda's mentor and predecessor, nine years dead — speaking from
   the *Anthem*, a ship lost three hundred and twelve years ago, before Joren was born.
   The impossibility is the hook; the explanation (a reconstruction assembling itself from
@@ -57,17 +57,17 @@ costs). A held breath, structured like one. *(Re-drafted 2026-08.)*
 
 | Act | Ch | Title | Target | Beat |
 |-----|----|-------|-------:|------|
-| **Prologue** | — | The Flash | 1,200 | Edda logs a single flash from the southern relay — dark for centuries. The Log has no entry. She records it twice; her two entries disagree. (Book 2's epilogue, seen from the far side.) |
+| **Prologue** | — | The Flash | 1,200 | Edda logs a single flash from the southern relay — dark for centuries. The Log has no entry. She records it twice; her two entries disagree. *(Book 2's Signal, arrived at last — not the same night; the same wave, thirty-five years down the relays.)* |
 | **Act I — The Hail** | 1 | The Keeper | 3,000 | Station life shown in work: a freighter takes its soundings and pays its toll; keeper culture (the surrendered surname); Pell's quarterly visit, warmth, departure. Edda talks to everything; nothing answers. The silence after. |
-| | 2 | The Anthem | 3,200 | **Detonation.** On the oldest band, a position-hail from the *Anthem*, lost 312 years — in Joren's voice. Protocol answers; the hail answers *back*. Not a recording. The first thing in nine years to answer her — and it cannot exist. |
+| | 2 | The Anthem | 3,200 | **Detonation.** On the oldest band, a position-hail from the *Anthem*, lost 312 years — in Joren's voice. Protocol answers; the hail answers *back*. Not a recording. In a lifetime of talking to things, it is the first thing that has ever answered — and it cannot exist. |
 | | 3 | The Log Disagrees | 2,800 | Investigation: the archive contradicts itself about the Anthem (Law 5); the Log's record of Joren has gaps Edda doesn't remember being there. First crack: the voice knows a thing only Edda and Joren knew. |
-| | 4 | Residue | 3,400 | What a beacon is: every crossing leaves residue; the beacon keeps it. **Wonder beat (Law 7), Act I climax:** Edda goes into the routes — ten thousand remembered crossings at once, the space between stars as a remembered sea. In it: the Anthem's wake. *Recent.* |
+| | 4 | Residue | 3,400 | What a beacon is: every crossing leaves residue; the beacon keeps it — two kinds of keeping, taught in one lesson: the loose surface, freely skimmed, and the load-bearing strata beneath, which live crossings stand on. **Wonder beat (Law 7), Act I climax:** Edda goes into the routes — ten thousand remembered crossings at once, the space between stars as a remembered sea. In it: the Anthem's wake. *Recent.* |
 | **Act II — The Keeping** | 5 | The Voice | 3,000 | The voice is assembling itself from the Anthem's residue and the keepers' imprint — and does not know what it is. Edda must decide whether to tell it. Isolation pressure: she starts checking her own joins — did she train under Joren, or inherit the training? |
 | | 6 | What the Station Keeps | 3,200 | Floor-drop: Joren's final log entry, addressed to her — the station keeps its keepers. She stops trusting her own grief for him, which is the cruelest cut the book makes. In the same movement the Log finishes the arithmetic: full recovery means unwinding route-strata live ships depend on. The voice asks anyway: *"Bring us home."* |
 | | 7 | The Unwinding | 3,800 | **Set-piece.** She begins the recovery; a convoy mid-crossing starts to go blind; she halts it with the dead half-gathered. She tells the voice what it is. Three watches of silence. Then: *"Then who is asking you to be let go?"* |
-| | 8 | Anthem | 3,200 | Neither recovery nor deletion. She gives passing ships each a fragment of the Anthem to carry outward — the ship comes home in many holds. The voice chooses to disperse; the choosing is the closest the book comes to an answer. The keepers' farewell, in Joren's voice. One fragment-ship is logged bound for **Meret** (name only — Book 4, planted cold). |
+| | 8 | Anthem | 3,200 | Neither recovery nor deletion: what her halted recovery already gathered lies *loose* — skimmed, not quarried; carrying it costs the living nothing — and she gives passing ships each a fragment of it to carry outward. The ship comes home in many holds. The voice chooses to disperse; the choosing is the closest the book comes to an answer. The keepers' farewell, in Joren's voice. One fragment-ship is logged bound for **Meret** (name only — Book 4, planted cold). |
 | **Epilogue** | — | The Entry | 1,300 | Years later. In the Log, Edda finds a watch-entry in her own hand that she does not remember writing. She reads it twice. Then she files it, and keeps the watch it describes. The station keeps its keepers; she keeps it back. |
-| | | **Total** | **~28,000** | |
+| | | **Total** | **~28,100** | |
 
 ## The Writer's Test (must pass)
 - [ ] New truth — navigation runs on route-memory; beacons keep the residue of every

@@ -49,7 +49,7 @@ founding shape the way Cycle 1 did — the front door swings on familiar hinges.
   thousand worlds honest.
 - **Bri** — clerk of the dead-letter office; keeper of the patient mail; the guild's
   institutional memory and its quietest heretic.
-- **Halm** — a retired holder, half-lost to age, who once ran the Farrow road's
+- **Cobb** — a retired holder, half-lost to age, who once ran the Farrow road's
   precursor; his fragments are half the reconstruction.
 - **Darro** — Farrow's postmaster; the far side of the silence, who has been writing
   letters into the dark for a year.
@@ -63,12 +63,12 @@ founding shape the way Cycle 1 did — the front door swings on familiar hinges.
 | **Act I — The Failing** | 1 | The Holder | 3,000 | Route-holding shown in work: what it is to carry a road in your head — the soundings, the joins, the discipline of rehearsal; the mail and the clients; the guild's economy of reach. One line in passing: a colony's contract the guild refused (its terms required forgetting the client — → Book 7). |
 | | 2 | The Missing Mile | 3,200 | **Detonation.** Mid-crossing, the route fails under her — a segment simply *not there*, clean as a cut page. She survives on dead reckoning and twenty years of nerve, and arrives shaking to find the far post's ledger disagrees with her own about Farrow's last three consignments. The road is wrong, and the paper is going wrong behind it. |
 | | 3 | Decertified | 2,900 | The hearing. Her memory tests perfect — everywhere but the one road; the verdict writes itself: *the failure is in the holder.* Osten takes her license with visible grief and total procedure. In the dead-letter office, Bri shows her the patient mail — and the letter that mentions Farrow's harvest, three years from now. She chooses the hard way. |
-| **Act II — The Hard Way** | 4 | Dead Reckoning | 2,900 | Rebuilding the road from paper and people: freight manifests, old soundings, Halm's fragments — a route assembled from what everyone else half-remembers. *(An office assembled from fragments: the Amarin-rhyme, unnamed.)* |
+| **Act II — The Hard Way** | 4 | Dead Reckoning | 2,900 | Rebuilding the road from paper and people: freight manifests, old soundings, Cobb's fragments — a route assembled from what everyone else half-remembers. *(An office assembled from fragments: the Amarin-rhyme, unnamed.)* |
 | | 5 | The Crossing | 3,400 | **Wonder beat (Law 7).** The passage itself, with no held route — Law 1 paid at full price, alone. Where Book 3's keeper swam a remembered sea, Veya crosses an *unremembered* one: the space between stars with nothing written on it. What she feels out there is not that the dark is empty. It is that the dark is *recently* empty. |
 | | 6 | Farrow *(midpoint)* | 3,000 | Arrival. The world is there — alive, ordinary, unaware it was ever in question. But its beacon is dark, its outbound mail has been returning undeliverable for a year, and its own maps of the road out are wrong *too*. The silence has two sides. Whatever is happening is not happening in Veya's head. |
 | **Act III — The Teaching** | 7 | What a Road Is | 2,900 | Working Farrow's side of the problem with Darro: re-deriving the outbound route with the townspeople's scraps. The realization that the guild's own structure is the weak joint: one holder to a road means one thread between a world and existence. She has spent her life being a single point of failure and calling it an honor. |
-| | 8 | The Relighting | 3,400 | **Set-piece.** Farrow's beacon relit; the first convoy feels its way through on Veya's rebuilt road — and she does the thing that ends her career even if the reinstatement succeeds: she teaches the route, freely, to Etta and two others. Four holders to one road. The guild has a word for it (*dilution*); the reader has another (Book 1's, unspoken). |
-| | 9 | The Cartographer of Silence | 2,700 | The title turns: stripped of her license, Veya starts the map no one asked for — not of roads, but of *silences*: frontier worlds gone quiet, mail returned, entries that disagree. A private chart of holes. It is thin, deniable, and it is growing. She mails a copy to the guild. Bri files it where the patient mail lives. |
+| | 8 | The Relighting | 3,400 | **Set-piece.** Farrow's beacon relit; the first convoy feels its way through on Veya's rebuilt road — and she does the thing that ends her career even if the reinstatement succeeds: she teaches the route, freely, to Etta and two others. Four holders to one road. Teaching, she draws Etta the road — and, for the first time in her life, also draws what is *missing* around it: the map of silences is born as a lesson, not a report. The guild has a word for what she's done (*dilution*); the reader has another (Book 1's, unspoken). |
+| | 9 | The Cartographer of Silence | 2,700 | The reprise hearing: confronted with Farrow's own corrupted ledgers and the patient letter, the guild must choose between admitting its records failed — existential, for an institution that *is* records — and accepting four holders as the cheaper embarrassment. It ratifies the holders and offers Veya her license back. She declines it. The title turns: cartographer of the *silences* now — the map growing, thin and deniable; a copy stays with Bri, filed where the patient mail lives. Last scene: Veya and Cobb — the holder who lost his road to age across the table from the one who lost hers to something else; neither says the word for what they are. She leaves him a copy. |
 | **Epilogue** | — | Page Nine Hundred | 1,300 | Next year's almanac. Farrow is listed — four holders of record. The cover count is one higher. In the dead-letter office, the drawer of patient mail has gained a letter. *(⚑ D3 reserve: if the author assigns Book 1's calling-tower/child thread to this cycle, the patient mail is one of its two natural doors. Reserved, not filled.)* |
 | | | **Total** | **~30,000** | |
 
@@ -102,12 +102,12 @@ founding shape the way Cycle 1 did — the front door swings on familiar hinges.
   the relays for 275 years, never named on the page.
 - **Echoes carried:** soundings and residue (Book 3, now everyday vocabulary); an
   office assembled from fragments (Amarin-rhyme); plural custody as armor — enacted,
-  never preached (Books 1/3's shape at guild scale); the circle-crossed-line worn into
-  the chapter-house lintel (uncommented).
+  never preached (Books 1/3's shape at guild scale). *(The circle-crossed-line sits this
+  book out — five appearances in ten books was turning a mystery into furniture.)*
 - **Hooks outward:** the refused colony contract (→ Book 7); the patient mail (→ raised
   here, resolved Book 10); the map of silences (→ Book 10's responders will own a later
   edition of it); the almanac count (the ticker every C2 book touches).
-- **New names** (→ glossary via `canonize` when drafted): Veya, Osten, Bri, Halm,
+- **New names** (→ glossary via `canonize` when drafted): Veya, Osten, Bri, Cobb,
   Darro, Etta, Farrow, the Wayfinders' Guild, route-holder, the patient mail, the
   almanac.
 

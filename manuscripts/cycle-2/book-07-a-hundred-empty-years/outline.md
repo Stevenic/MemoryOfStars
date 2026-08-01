@@ -1,6 +1,6 @@
 # A Hundred Empty Years — Outline
 
-**Memory of Stars — Novella #7** · **Target length:** ~29,500 words · **Structure:**
+**Memory of Stars — Novella #7** · **Target length:** ~29,900 words · **Structure:**
 Prologue + 3 acts × 3 chapters + Epilogue — chosen: three real movements (the practice,
 the secret, the night), with the full secret landing at dead center so the back half can
 ask the harder question: *does forgetting count if you could take it back?*
@@ -13,11 +13,12 @@ ask the harder question: *does forgetting count if you could take it back?*
   tragedy is gentler and stranger than Meret's: not whether to forget, but whether
   their forgetting has ever been real.
 - **POV:** Tilde — twenty-three, apprentice **Keeper of the Manual** in the colony of
-  Sowen. Her private vice, since childhood: she keeps lists. Names of dogs, storms,
-  bread prices. In a town that empties itself every hundred years, she is a rememberer
-  the way other people are left-handed.
-- **The spine in one line:** weeks before her colony's first great Emptying, its
-  apprentice archivist finds proof that nothing was ever destroyed — the past is
+  Sowen. Her private vice, since childhood: she recites. Names of dogs, storms, bread
+  prices — kept nowhere but in her head, rehearsed like prayers. In a town that empties
+  itself every hundred years, she is a rememberer the way other people are left-handed —
+  and hers is the one kind of memory no Emptying can crate.
+- **The spine in one line:** weeks before her colony's first Hundredth — the great
+  Emptying — its apprentice archivist finds proof that nothing was ever destroyed — the past is
   crated, sold, and *addressed* — and the office she is about to inherit is the one
   that must decide what a hundred honest years are worth.
 
@@ -45,7 +46,7 @@ ask the harder question: *does forgetting count if you could take it back?*
   people she trusts are standing on it comfortably.
 
 ## Characters in play
-- **Tilde** — the apprentice Keeper; the list-maker. Her arc is from *keeping secretly*
+- **Tilde** — the apprentice Keeper; the reciter. Her arc is from *keeping secretly*
   to *keeping honestly* — and out the door.
 - **Ansel** — the Keeper, her master, old and kind and complicit; every Keeper finds
   the truth, he says. The office *is* the finding. What you do next is the test.
@@ -61,17 +62,17 @@ ask the harder question: *does forgetting count if you could take it back?*
 | Act | Ch | Title | Target | Beat |
 |-----|----|-------|-------:|------|
 | **Prologue** | — | The First Emptying | 1,200 | ~CR 200: the founders' rite, rendered as grief — crates sealed, a ship swallowing them, a town of emigrants watching its own history leave orbit. No one speaks a name aloud. The reader won't understand what they watched until the midpoint. |
-| **Act I — The Practice** | 1 | The Manual | 2,900 | Sowen at ninety-nine years: skills without stories, law without precedent, no statues, no surnames older than a generation. The Manual (what survives each Emptying) shown in daily use; Tilde's secret lists; the Hundredth year approaching like weather. The freedom is real — show it working before questioning it. |
+| **Act I — The Practice** | 1 | The Manual | 2,900 | Sowen at ninety-nine years: skills without stories, law without precedent, no statues, no surnames older than a generation. The Manual (what survives each Emptying) shown in daily use; Tilde's secret recitations; the Hundredth year approaching like weather. And one absence she has somehow never recited: there are no old former Keepers anywhere in Sowen. The freedom is real — show it working before questioning it. |
 | | 2 | The Page | 3,000 | **Detonation.** In the bindery, a page that predates the founding — contraband past, where nothing old should exist. Tilde brings it to Ansel and watches his face do the wrong thing: not surprise. *Recognition.* The practice has a floor under it, and her master has been standing on it all along. |
 | | 3 | The Keepers' Room | 2,800 | Ansel's half-confession: every Keeper finds a thread of it; the office is the finding; the test is what you do. He will not tell her the rest — the rest is *earned or nothing*. She starts pulling the thread herself: bindery, ledgers, the shape of a lie made of omissions. |
-| **Act II — The Secret** | 4 | The Ledger of Sales | 2,900 | The trail: freight manifests, a courier line under permanent contract, crates that leave every Emptying and never come back. The colony's past has been *going somewhere* for a hundred years. Tilde does what she was born doing — she makes the list — and the list has an address on it. |
+| **Act II — The Secret** | 4 | The Ledger of Sales | 2,900 | The trail: freight manifests, a courier line under permanent contract, crates that leave every Emptying and never come back. The colony's past has been *going somewhere* for a hundred years. Tilde does what she was born doing — she recites the manifests until they become one pattern — and the pattern has an address in it. |
 | | 5 | The Address *(midpoint)* | 3,200 | The full secret, in the Keepers' sealed annex: nothing was ever destroyed. The crates go to a buyer of last resort — an archive that takes everything *(named only as the Librarian — → Book 8)* — and the founders were Meret's children, whose one law was **never again unrecoverable**. The Emptying is not a fire. It is a mercy with a return address. Tilde's world re-keys around one question: is that wisdom, or is it cheating? |
 | | 6 | Vorn's Fire | 3,000 | The reformer finds it too (the same page led him the same way). His argument at full strength, in public: a hundred empty years were a performance; the colony is not free, only *unburdened at interest*. His remedy: make the Hundredth real — burn the backlog, cancel the address, forget like Meret meant it. The colony splits along a line no one knew was there. |
 | **Act III — The Night** | 7 | The Keeper's No | 3,000 | Ansel steps down on the eve (the office passes at the Hundredth); Tilde is Keeper when it matters most. Sowen's custom bares itself: no vote — the Emptying proceeds unless the Keeper refuses. Vorn's people bring torches to the depot gate; the traditionalists bring the liturgy; both sides believe she is theirs. The office is one woman's silence with a town inside it. |
-| | 8 | The Emptying | 3,600 | **Set-piece.** The Hundredth, performed in full — and Tilde's reform, live, mid-rite: she tells the truth. *We do not burn. We send away. Forgetting is our work, not our lie.* The crates go up the tether in plain sight; Vorn's attempt on the depot fails not by force but because the town, told the truth, chooses the practice anyway — smaller, sadder, honest. **Wonder beat (Law 7):** a hundred years in eleven crates, riding light into orbit — a century small enough to hold and too heavy for anyone to keep. |
-| | 9 | The Keeper's Road | 2,800 | The price, per the founders' hygiene: whoever holds the address leaves with it. Keepers don't retire in Sowen; they *emigrate* — that is why there is always a young one. Tilde hands the Manual to her successor, says goodbye to Petra (the colony's first honest farewell in a century), and rides the crates out. Her lists go with her. They are allowed now. |
-| **Epilogue** | — | The Manifest | 1,300 | The port. Joss signs for the consignment — eleven crates, one passenger. Among the export papers, an envelope with a send-stamp dated the *next* Hundredth, a century away. Nobody comments. It is filed with the cargo, patient. |
-| | | **Total** | **~29,500** | |
+| | 8 | The Emptying | 3,800 | **Set-piece.** The Hundredth, performed in full — and Tilde's reform, live, mid-rite: she tells the truth. *We do not burn. We send away. Forgetting is our work, not our lie.* The crates go up the tether in plain sight — and Vorn burns one. A decade's crate, ash before the town's eyes: unrecoverable, against the founders' one law, and no one will ever know what it held. It is his monument, and it breaks his following — the town, having now *tasted* real forgetting, chooses the practice with its eyes open: smaller, sadder, honest. **Wonder beat (Law 7):** a century — ten crates and an urn of ash — riding light into orbit; small enough to hold, too heavy for anyone to keep. |
+| | 9 | The Keeper's Road | 2,800 | The price, per the founders' hygiene: whoever holds the address leaves with it. Keepers don't retire in Sowen; they *emigrate* — that is why there is always a young one. Tilde hands the Manual to her successor, says goodbye to Petra (the colony's first honest farewell in a century), and rides the crates out. On the ship, she writes her recitations down — the first time in her life. They are allowed now. |
+| **Epilogue** | — | The Manifest | 1,300 | The port. Joss signs for the consignment — ten crates, one urn, one passenger. Among the export papers, an envelope with a send-stamp dated the *next* Hundredth, a century away. Nobody comments. It is filed with the cargo, patient. |
+| | | **Total** | **~29,900** | |
 
 ## The Writer's Test (must pass)
 - [ ] New truth — civilizational forgetting as sustainable *practice*; reversible
@@ -80,7 +81,8 @@ ask the harder question: *does forgetting count if you could take it back?*
       made them write the one law (never said); whether honesty will hold for the next
       hundred years. *(Epilogue, Ch 5, 8.)*
 - [ ] A character permanently changed — Tilde: secret rememberer → honest Keeper →
-      emigrant; the girl who kept lists becomes the woman the lists are for. *(Ch 8–9.)*
+      emigrant; the girl who kept it all in her head becomes the woman who may finally
+      write it down. *(Ch 8–9.)*
 - [ ] Civilization changed — the practice survives its own truth; Sowen becomes the
       universe's proof that forgetting can be *chosen honestly, on schedule*. *(Ch 8.)*
 - [ ] Larger universe — the address implies the archive; the archive implies everyone
@@ -106,11 +108,11 @@ ask the harder question: *does forgetting count if you could take it back?*
   events of Book 4 are ~120 years past). Contemporaneous with Book 6, different world.
 - **Echoes carried:** the Mercy and its diaspora (Book 4, one scene); "we keep it so
   no one must" inverted — *we send it away so we can be kind*; the sealed-thing-
-  with-a-custodian shape (Book 4's room, now a fleet of crates); Tilde's lists (the
-  plural record, domestic scale).
-- **Hooks backward:** Book 6's one-line refused contract — the guild would not hold
-  Sowen's route under a forget-clause; the courier line that *did* take the work is
-  Joss's employer.
+  with-a-custodian shape (Book 4's room, now a fleet of crates); Tilde's recitations
+  (the plural record, oral scale — the memory no crate can ship).
+- **Hooks backward:** Book 6's one-line refused contract — the guild refused Sowen's
+  *route-holding* under its forget-clause; plain freight carriage carries no such
+  clause, and that is ordinary guild work. Joss's line.
 - **Hooks outward:** the Librarian (named, unvisited → Book 8); the envelope dated a
   century out (the patient mail, second appearance); Joss (Book 8's POV, met in one
   scene).

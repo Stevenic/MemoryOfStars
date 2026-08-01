@@ -179,6 +179,9 @@ question it draws down, if any).
   (self-consistent; nobody can make the channel say otherwise). B10 resolves it: the
   senders are the defense's own watchers — the network waking (ties the flash of B02/B03
   into C2's present tense) — while the Erasure event in B10 shows *why* it is waking.
+  **Temporal scoping (2026-08):** the letters are a witnessed anomaly, never explained;
+  "is time linear?" stays on the undefined list, and no later book may explain the
+  mesh's margin without a canon-budget entry.
 - **Handoffs:** 06→07 a route the cartographer refuses to carry (the amnesiac colony's);
   07→08 the colony's discarded archives were sold to the Librarian; 08→09 the
   Librarian's dispersal released the beacon-registry into obscurity — provenance
@@ -194,7 +197,9 @@ question it draws down, if any).
   dark frontier. The atlas roughly doubles.
 - **Device debuts (v0.3) — placed in the 2026-08 outlines:** the **census ticker**
   debuts in 06's prologue (the almanac cover count) and recurs as texture (08's catalog
-  count, 09's epilogue edition — never decrements in C2); the **first vanishing name**
+  count, 09's epilogue edition). Scoping: the *almanac worlds-count* never decrements in
+  C2 — that horror is C4's; the Librarian pruning its own catalog in 08 is a deliberate,
+  self-chosen decrement that sharpens C4's involuntary one by contrast; the **first vanishing name**
   lands in **09 Ch 4** (Master Rian — see the device table); **Book 09 is the romp**
   (beacon heist, cold open, no prologue); the cycle artifact (**the letters from
   tomorrow**) is raised in 06 (the patient mail), echoed in 07 (the century-dated
