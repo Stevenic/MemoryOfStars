@@ -38,7 +38,10 @@ _Principal [characters](../../series-bible/characters/) and what each wants._
 - [ ] Makes the universe feel larger at the end than at the start.
 
 **Facet of memory explored:** _which one (see [story-seeds](../../manuscripts/story-seeds.md))_
-**One "Wow" moment:** _the awe beat this novella earns ([Law 7](../../series-bible/seven-laws.md#law-7--wonder-comes-first))_
+**One "Wow" moment:** _the awe beat this novella earns ([Law 7](../../series-bible/seven-laws.md#law-7--wonder-comes-first)) —
+and tag it **in the chapter table itself** as_ `**Wonder beat (Law 7).**` _Every
+outline, in the table, not only here — four cycles of audits have flagged the
+missing tag; the table is where critique passes look._
 
 ## Continuity checklist
 - [ ] Placed on the [master timeline](../../series-bible/timeline.md).

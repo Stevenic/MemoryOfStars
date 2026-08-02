@@ -49,11 +49,14 @@ its own oldest silence.
   possibility that the enemy of the whole series is the least bad version of
   something worse. Nobody is asked to believe it. Everybody has to carry it.
 - **The vanishing name, escalated to the series' own record (device 1, instance
-  #4 — a book's own account):** mid-book, verifying transcription drift, Hask
-  reads aloud from the team's copy of the Hall's account of the First
+  #4 — a book's own account):** in Act I (Ch 3), verifying transcription drift,
+  Hask reads aloud from the team's copy of the Hall's account of the First
   Pilgrimage — the reach's most-copied text — and in the quoted passage, where
   the old climber's name should stand, the line is blank. *(The reader knows the
-  name. It is Elias. No character notices — none of them ever knew it.)*
+  name. It is Elias. No character notices — none of them ever knew it.
+  **Mechanics guard:** the blank matches across all copies consulted; the
+  calibration read passes clean — drift is copies disagreeing, and they do not.
+  Never depict the Hall or assert the original's state.)*
 - **Chapter-Two Rule:** chapter 2 is the first dark walk — the builders'
   instrument hall, and the realization that reframes the cycle: *they were
   investigating too.* The makers the series has treated as answer-holders were
@@ -79,17 +82,17 @@ its own oldest silence.
 
 | Act | Ch | Title | Target | Beat |
 |-----|----|-------|-------:|------|
-| **Prologue** | — | The Last Two Pages | 1,300 | The store, nearly spent: the ledger mostly strike-throughs; two strata left, both dark-reading (older, colder, refusing classification). Hask's litany, objections one through nine, ending where it always ends: *and yet we will walk it.* The vote. |
+| **Prologue** | — | The Last Two Pages | 1,300 | The store, nearly spent: the ledger mostly strike-throughs; two strata left, both dark-reading (deeper, colder, refusing classification). Hask's litany, objections one through nine, ending where it always ends: *and yet we will walk it.* The vote. |
 | **Act I — The Investigation** | 1 | The Skeptic's Office | 2,900 | Hask's craft taught in work: what testing a walk means, what beautiful contamination is, why the team's record is trusted across the reach — and what it costs him (a life spent doubting things he loved). The dark strata's instruments read from outside: this was a *facility*. |
-| | 2 | The Instrument Hall | 3,200 | **Detonation.** The first dark walk: the builders' research hall, alive — instruments the size of weather, arguments in the era's idiom, data accumulating on the dying of meaning. The reframe that turns the cycle over: *they were investigating too.* The makers were mid-question when they poured. Nobody was ever holding the answer. |
-| | 3 | The Litany Under | 3,000 | The walks systematized: Hask applies his testing *inside* the recording — following the investigators' own controls, replicating their reads — two skeptics' methods shaking hands across half a million years. And the drift-check scene: the Hall's account of the First Pilgrimage, read aloud for calibration, with the blank where the old climber's name should be. *(Uncommented. One paragraph. The reader alone carries it.)* |
+| | 2 | The Instrument Hall | 3,200 | **Detonation.** The first dark walk: the builders' research hall, alive — instruments the size of weather, arguments in the era's idiom, data accumulating on the dying of meaning. On the hall's threshold, worn shallow by the era's own hands: a circle crossed by a single line. Nobody comments. *(The in-book plant: the midpoint's decode closes a loop this book itself opened.)* The reframe that turns the cycle over: *they were investigating too.* The makers were mid-question when they poured. Nobody was ever holding the answer. |
+| | 3 | The Litany Under | 3,000 | The walks systematized: Hask applies his testing *inside* the recording — following the investigators' own controls, replicating their reads — two skeptics' methods shaking hands across a million years. And the drift-check scene: the Hall's account of the First Pilgrimage, read aloud for calibration, with the blank where the old climber's name should be. *(Uncommented. One paragraph. The reader alone carries it.)* |
 | **Act II — The Shape** | 4 | The Data of the Dying | 3,100 | The investigation's substance, walked: the dying mapped by the first minds — meaning thinning at the edges first, the obscure and the whole going strangely, the pattern the reader knows as the selection rule, derived the first time. Their dread, procedural like Hask's. Their conclusion approaching. |
 | | 5 | The Mark *(midpoint)* | 3,300 | **The shape, read.** The investigation's final chamber: no words. One mark, drawn large and everywhere — **the circle crossed by a single line** — and the walked context that makes it legible at last: the circle as the kept-whole; the line as the cut that both takes and saves. Warning and instruction in one figure, drawn because words are collectable and shapes survive. Twenty-four books of trail resolve in one held silence. Amel does not transcribe. Amel *copies*. |
 | | 6 | What the Mark Holds | 3,100 | The back half begins: the team, up, with the meaning — and the mercy-horror surfacing from the data underneath it: the dying may be structural; the cull may be the gentle form. Hask's litany fails for the first time in his life — objections one through nine, and the finding stands through all of them. **Wonder beat (Law 7), inverted to vertigo:** certainty, arriving at a skeptic, rendered as the largest thing in the book. |
 | **Act III — The Bearing** | 7 | The Question of Telling | 3,000 | What is the reach owed? The team's argument at full dignity: publish the mark's reading (the practice's own symbol, vindicated — armor for everyone) against publishing the mercy-horror (a truth that could unmake the will to keep anything). Isla's steward-ruling: **the shape travels; the horror is held** — plural, unwritten, in the team, the Listeners' way. Hask dissents — and is asked to hold the horror anyway, because a doubter's custody is the safest kind. |
 | | 8 | The Skeptic's Custody | 3,500 | **Set-piece.** The last stratum walked — the investigators' own ending: they reach the mercy-possibility, refuse to write it, pour it into the mark, and go to the pouring *(← Book 23, now fully legible)* — and Hask, walking it, does what the first skeptics did: he carries what cannot be safely said. His litany reforged: doubts one through nine, and a tenth article, unnumbered, held. The store's final page burns behind him on the way up. |
-| | 9 | The Empty Store | 2,900 | The cold face, blank; the ledger, all strike-throughs; the team, custodians now of everything the strata were. The shape published to the reach with its plain reading (division saves; the mark is the practice's own signature — keep plural, keep scattered, keep each other). The reach receives an answer twenty-four books old. The team keeps the rest. |
-| **Epilogue** | — | The Tenth Article | 1,400 | Hask's testing log, final entry — the litany as he now says it, nine objections and the held tenth; and beneath it, the first line of his hand the series has seen without a number: *some certainties are to be carried, not resolved.* Filed beside Amel's copied mark. The testament lacks one book now. *(→ Book 25.)* |
+| | 9 | The Empty Store | 2,900 | The cold face, blank; the ledger, all strike-throughs — and the release *contested*: Yent's appeal matures into an injunction against publication (the Concord wants the reading held, vetted, licensed — owned). The team's answer is the practice itself: the mark and its plain reading published **plural and everywhere at once** — schoolhouses, chapter-houses, the long shelf — before the order can be served. You cannot enjoin what is already in every town's hands; Yent, served with his own defeat, files it with something close to admiration. The reach receives an answer twenty-four books old, as a gift it cannot be sued out of. The team keeps the rest. |
+| **Epilogue** | — | The Tenth Article | 1,400 | **A scene, spoken — the litany is an oral form and closes as one:** the team at the empty cold face, the last departure rite, and Hask says the litany aloud the way he has said it before every walk for nine years — objections one through nine — and then, for the first time with witnesses, the unnumbered tenth, held not argued: *some certainties are to be carried, not resolved.* Amel does not transcribe it. That is the point, and everyone present knows it. The testament lacks one book now. *(→ Book 25.)* |
 | | | **Total** | **~30,700** | |
 
 ## The Writer's Test (must pass)
@@ -124,6 +127,10 @@ its own oldest silence.
 - **No prophecy:** the investigators' mark is conclusion, not foretelling; the
   team's publication is a reading, not a scripture — Isla's ruling makes the
   epistemics explicit on the page.
+- **Applicability, not allegory (guard):** the mercy-horror stays at structural
+  scale — a finite medium, a gentle cull — rendered in archival and cosmological
+  terms only; no character maps it onto a person, and no human end-of-life
+  vocabulary survives into draft. Applicable to all, reducible to none.
 - **No chosen one:** Hask holds the tenth article because a doubter's custody
   is safest — an argument, not an election; he accepts under protest, which is
   the point.
@@ -131,7 +138,7 @@ its own oldest silence.
 ## Continuity
 - **Timeline:** **~CR 481.**
 - **Echoes carried:** the selection rule derived the first time (← Book 18,
-  half a million years early — staged, never cited); the Reading's
+  a million years early — staged, never cited); the Reading's
   held-plural knowing (← Book 15, now the team's method for the horror); the
   pouring (← Book 23, made fully legible); Hask's litany beside the first
   skeptics' controls (the series' quiet love letter to rigor).

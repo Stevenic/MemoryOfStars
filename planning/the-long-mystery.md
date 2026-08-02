@@ -149,7 +149,7 @@ question it draws down, if any).
 | 2 | **Nothing.** The mesh's scope is revelation, not an undefined answer — spend zero here; it makes Cycle 3 land harder | FTL mechanics stay unstated (comms ≠ travel) |
 | 3 | **Who built** the network — partially: the builders were plural, afraid, and divided themselves; identity stays veiled | the "gods," consciousness-after-death |
 | 4 | The Erasure's **nature** (garbage collection; the Custodian glimpsed) | *why* storage is finite; where collected memories go |
-| 5 | **What happened before recorded history** — the golden age, the first defense, the builders' dissolution | the Erasure's root cause (named only as shape) |
+| 5 | **What happened before recorded history** — the golden age, the first defense, the builders' dissolution; plus the C4-deferred half-answer: *some* collected memory went to cold storage | the Erasure's root cause (named only as shape); the rest of "where the collected go"; what collected memories *become* (C6's forever-candidate) |
 | 6 | Resolution of the whole — and **one mystery kept forever** (choose late; current lean: what collected memories become) | — |
 
 ### Cycle 1 — *Fragments of the First Memory* *(charter retro-fitted; books outlined)*
@@ -380,6 +380,35 @@ question it draws down, if any).
   echo). Wonder beats tagged in all five at write time. Wandering tic-note: Kova
   counts thresholds and ends at twelve forever (deepened, not surrendered — the
   Edda shape).
+- **Twenty-five-book review applied (2026-08):** the deep-time ladder corrected
+  (makers' era ends ~1M years ago — the pouring, the Wright's commissioning, the
+  32nd's flight, within the Choir's hearing; the era's *start* stays deliberately
+  vague; the golden age ends ~200k; the fused day's gap is ~800k) — **sequence
+  guard:** the builders dissolved into the substrate they *built*; the pouring
+  joined the infrastructure, it did not create it. Cycle clock conformed to the
+  timeline: fourteen years (B22 "four years on," B23 "seven years on," B25
+  "fourteen years"). **The counterparty installed:** the Claimants' Concord and
+  Advocate Yent (seeded B21 Ch 8; petitions B22; tribunal + near-injunction B23;
+  contested release B24 Ch 9; the maturing counter-claim = B25's clock, with
+  Ondine converting personally at the cost of her provostship and Isla's bill the
+  Ash claim's irreversible relinquishment). B23's gun fired (the weld pulls at
+  Pim) and the joiner priced (the wrong-note sense permanently bent); the stayer
+  *acts* in-scene; B24's mark planted in its own Act I; B22's opened-stratum rule
+  (plays to its end whether walked or not) gives the mis-join its clock. Renames:
+  Bream→Dunn, Tarn→Moss. Codas broken: B21 ends on the night watch as scene, B24
+  on the litany spoken. Eucatastrophe ledger corrected (phrase 01/03/05/22;
+  practice 10/12) + the armor-sentence (*the instruction survived by obeying
+  itself*) + the attestation disclaims on the page. Glossary exception logged for
+  B22's close-not-verbatim plant. **Custodian reconciliation:** "lossy remnant" =
+  the single unpoured volunteer (B23) — one self welded to a duty and compressed
+  by a million years of it; C6 outlines from the volunteer reading, never a
+  composite. Amel/Amarin ruled deliberate; Isla reads EYE-la.
+- **Doc updates owed at drafting (logged, not yet done):** atlas symbol row
+  (meaning read in 24; authorship never; trail + ration extension), atlas
+  "suspected whole" row (confirmed in substance at B23), canon-and-continuity
+  rows (B05's event; C3/C4/C5 spends), seven-laws undefined-list annotation
+  ("What happened before recorded history?" — spent), B10 farewell-practice
+  crosscheck at its drafting.
 - **Canvas plan:** the ruins cycle — golden-age sites, the first defense's ground, the
   builders' last cities; old rooms lit for the first time. The atlas gains *history*
   rather than breadth: layers under known space.
@@ -453,7 +482,7 @@ discovered prose. (This maps directly onto the existing skill pipeline: `outline
    | 3 | **The Skerry** — the beacon-station itself (a *place* now; the escalation begins) | 03 | **12**, Ch 4 — a blank where the beacon's name should stand, in the Observer transcription appendix; uncommented |
    | 4 | **The Charter Run's winning year** — an *event* now (Nell's Run, the dead-road finish) | 13 | **19**, Ch 2 — an empty event-slot in the Record's ingest log; the perfect record doesn't notice; uncommented |
    | 5 | **Elias's name in the Hall's account of the First Pilgrimage** — *a book's own record* (the escalation's last step) | 01 | **24**, Ch 3 — the reach's most-copied text, read aloud for drift-calibration, blank where the old climber's name stands; no living character ever knew it; uncommented |
-   | 3–6 | _escalate: places, then events, then a book's own record_ | — | TBD |
+   | — | **The ladder is complete at four** (person → place → event → a book's own record, instances 09/12/19/24). C6: a new rung or none — a ceiling, not a quota; the strongest option may be silence. | — | — |
 2. **The continuity witness** *(Foundation's Daneel — defanged).* **Seren** (already
    canon-strange: never sleeps, "several different men," distributed presence) is the
    series' one recurring figure: present somewhere in **every cycle**, warm, minor,
@@ -470,7 +499,7 @@ discovered prose. (This maps directly onto the existing skill pipeline: `outline
    | 2 | **09 The Severed Reach** | FIRM | the beacon heist |
    | 3 | 13 The Inheritors | **FIRM** (confirmed at charter, 2026-08) | shipboard adventure — a crew that is its own ancestry; opens cold per house custom |
    | 4 | 17 The Memory War | **FIRM** (confirmed at charter, 2026-08) | war-thriller propulsion (contrast enough in the dark cycle); opens cold per house custom |
-   | 5 | 21 The Golden Age That Wasn't | pencil | explorer's adventure — the joy of discovery before the grief of it |
+   | 5 | 21 The Golden Age That Wasn't | **FIRM** (confirmed at charter, 2026-08) | explorer's adventure — the joy of discovery before the grief of it; opens cold per house custom |
    | 6 | 26 The Gathering | pencil | reunion warmth — the pleasure of threads meeting |
 4. **Reveal-must-enlarge** *(Expanse's discipline, mechanized).* Any mechanism revealed
    must **enlarge a mystery in the same book** — no scene may close a question without

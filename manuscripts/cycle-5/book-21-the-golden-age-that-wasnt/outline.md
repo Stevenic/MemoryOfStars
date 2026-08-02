@@ -21,7 +21,7 @@ explorer's book should start already moving.
 - **POV:** Isla Ash — twenty-nine, a licensed dig-staker and salvage-explorer of the
   Ash line (Kieran's, Lyra's: the family that hunts erased things and has never once
   been able to stop). Her tic, the family grammar made cheerful: she narrates her
-  finds aloud to her predecessors — a running commentary to five generations of dead
+  finds aloud to her predecessors — a running commentary to generations of dead
   Ashes, who do not answer and have never needed to.
 - **The spine in one line:** an explorer chasing a dating anomaly under an ordinary
   world breaks into a stratum of compressed memory, walks half an hour in a city of
@@ -54,7 +54,7 @@ explorer's book should start already moving.
 - **Isla Ash** — the dig-staker. Quick, lucky, debt-ridden, joyful; talks to her
   dead ancestors the way other people whistle. The cycle will teach her what the
   family hunger is actually for.
-- **Bream** — her partner and rig-master: heavyset, unhurried, the one who reads
+- **Dunn** — her partner and rig-master: heavyset, unhurried, the one who reads
   soil like the Ash line reads absences. The romp's straight man.
 - **The staker's clerk** — the auction-house factor who funds half the frontier's
   digs from a back office that never seems to close; warm, precise, and described
@@ -70,17 +70,17 @@ explorer's book should start already moving.
 
 | Mv | Ch | Title | Target | Beat |
 |----|----|-------|-------:|------|
-| **I — The Hunt** | 1 | The Staker | 2,900 | **Cold open.** Isla mid-dig, mid-debt, mid-patter — losing an auction, winning a lead: a dating anomaly under the ordinary green world of Tarn, where the bedrock's memory-residue reads *older than the colony by two hundred thousand years*. The Ash grammar in one scene: she cannot not go. |
-| | 2 | The Shaft | 3,100 | **Detonation.** The survey shaft, the cold layer, the fall — and the first walk, accidental: half an hour inside a morning of a city that ended before history began. Music she almost knows. Bread. A holiday of some kind. She comes up weeping without knowing why, boots muddy with soil Tarn has never had. |
-| **II — The Find** | 3 | Claim and Counter-Claim | 3,000 | The romp at full spin: staking the find before the rivals; permit capers; Bream's soil-craft proving the stratum is *seeded, not native* — placed deep, deliberately, long ago. The clerk funds her against every rule of his office. |
+| **I — The Hunt** | 1 | The Staker | 2,900 | **Cold open.** Isla mid-dig, mid-debt, mid-patter — losing an auction, winning a lead: a dating anomaly under the ordinary green world of Moss, where the bedrock's memory-residue reads *older than the colony by two hundred thousand years*. The Ash grammar in one scene: she cannot not go. |
+| | 2 | The Shaft | 3,100 | **Detonation.** The survey shaft, the cold layer, the fall — and the first walk, accidental: half an hour inside a morning of a city that ended before history began. Music she almost knows. Bread. A holiday of some kind. She comes up weeping without knowing why, boots muddy with soil Moss has never had. |
+| **II — The Find** | 3 | Claim and Counter-Claim | 3,000 | The romp at full spin: staking the find before the rivals; permit capers; Dunn's soil-craft proving the stratum is *seeded, not native* — placed deep, deliberately, long ago. The clerk funds her on a factor's hunch her record barely justifies — a banker's gamble, priced as one. |
 | | 4 | The Cold Layer | 3,000 | Mapping the stratum's extent (it is vast — a whole *era*, compressed); first instruments into the walkable horizon. The joy peaks — the greatest find in the history of finding — and the first wrongness: the sampled corner she walked in Ch 2 now reads *blank*. |
 | **III — The Walk** | 5 | Single-Walk | 3,100 | The rule, proven and priced: entering warms; warmed evaporates. Her half hour of the bright city is *gone* — she is the only record of it now, and she didn't know to pay attention. The find inverts: this is not a library. It is a last performance, and every seat burns. |
-| | 6 | The Second Walk | 3,200 | The deliberate walk, done right — prepared, witnessed, transcribed live: one evening of the first rise, walked to its end. The city's ordinary splendor; a language nobody will ever speak again; a child's game with rules she memorizes on purpose. The joy and the grief finally in the same room. |
-| | 7 | The Dating | 3,000 | The proof assembled: human. Prior. Erased. The settled ages re-read in one chapter — old colonies, "hundreds of thousands of years old," are the first rise's *re-inhabited* ground; the reach has been living in its own unmarked graves all along. Bream, who reads soil, says the thing the book is for: *"Nobody mourned them. There was nobody left to know there was somebody to mourn."* |
-| **IV — The Grief** | 8 | The Auction of the Age | 3,700 | **Set-piece.** The find goes public and the reach descends — stakers, powers, the institute, all bidding for walking rights to a finite past. The romp's machinery turns to horror: every walk sold is a page burned. Isla, who has never once held a find back, jams the auction with the one thing a staker owns: her claim — and holds the stratum shut. |
-| | 9 | The Mandate | 3,000 | Ondine and the mandate's paperwork; the institutions surprise the reader (and Isla) by learning from their own cycle: no absorption, no institute — a **team**, chartered small: walkers, joiners, a skeptic, a scribe. The Restorers, founded around a staker with a held claim and mud from a dead world still on her boots. She signs — and the family patter goes quiet for the first page in the book: this is what the Ash hunger was *for*. |
-| | 10 | First Rites | 2,800 | The team's first protocols written on-site (walk seldom; walk witnessed; transcribe everything; spend nothing lightly) — the cycle's method born as ethics. The last movement's quiet: Isla walks nothing; she sits the night watch over the shaft the way her family has sat over absences for four hundred years. |
-| **Epilogue** | — | The First Page | 1,300 | The team's ledger of the strata, page one, in Isla's hand: the inventory of what is down there — eras, cities, voices, all finite, all single-walk. At the head of the page, the accounting rule the whole cycle will live and die by: *everything read here is read for the last time.* |
+| | 6 | The Second Walk | 3,200 | **Wonder beat (Law 7).** The deliberate walk, done right — prepared, witnessed, transcribed live: one evening of the first rise, walked to its end. The city's ordinary splendor; a language nobody will ever speak again; a child's game with rules she memorizes on purpose. The joy and the grief finally in the same room. |
+| | 7 | The Dating | 3,000 | The proof assembled: human. Prior. Erased. The settled ages re-read in one chapter — old colonies, "hundreds of thousands of years old," are the first rise's *re-inhabited* ground; the reach has been living in its own unmarked graves all along. Dunn, who reads soil, says the thing the book is for: *"Nobody mourned them. There was nobody left to know there was somebody to mourn."* |
+| **IV — The Grief** | 8 | The Auction of the Age | 3,700 | **Set-piece.** The find goes public and the reach descends — stakers, powers, the institute, all bidding for walking rights to a finite past. The romp's machinery turns to horror: every walk sold is a page burned. Isla, who has never once held a find back, jams the auction with the one thing a staker owns: her claim — and holds the stratum shut. The losers do not disperse. They confederate — **the Claimants' Concord**, counsel retained (a young advocate named Yent takes the brief) — and the cycle acquires the counterparty that will knock on every book of it. |
+| | 9 | The Mandate | 3,000 | Ondine's absorption case, at full strength — and its best weapon is the series' own doctrine, said aloud: *a held claim is singular custody; the practice you'd protect forbids exactly what you're doing.* Isla wins the team-charter on the page, not by grace: her answer (a claim held *open* by a small plural body beats a vault held shut by a large singular one) is the argument the institutions accept — a **team**, chartered small: walkers, joiners, a skeptic, a scribe. The Restorers, founded around a staker with mud from a dead world still on her boots. She signs — and the family patter goes quiet for the first page in the book: this is what the Ash hunger was *for*. Quietly, in the same week's post: the clerk's office retires her debt. No note. Nobody comments. |
+| | 10 | First Rites | 2,800 | The team's first protocols written on-site (walk seldom; walk witnessed; transcribe everything; spend nothing lightly) — the cycle's method born as ethics, and its accounting rule spoken aloud into the record by the whole table: *everything read here is read for the last time.* The ledger of the strata opened, page one in Isla's hand. |
+| **Epilogue** | — | The Night Watch | 1,300 | **A scene, not a document:** Isla alone at the shaft head, first watch of the new office — the patter tried once, softly, to the generations of dead Ashes, and set down unfinished; the dark below, full of finite mornings; the lamp turned low the way you keep a vigil, not a worksite. Her family has sat over absences for close on five hundred years. Tonight, for the first time, one of them sits over what was found. |
 | | | **Total** | **~32,100** | |
 
 ## The Writer's Test (must pass)
@@ -117,19 +117,19 @@ explorer's book should start already moving.
 - **Timeline:** **~CR 470** (see [timeline](../../../series-bible/timeline.md));
   ten years after the mandate.
 - **Echoes carried:** the Ash line (← Books 1–2 — the family that hunts erased
-  things, five generations on); "gone into the ground of things" (← Book 12's
+  things, fifteen generations on); "gone into the ground of things" (← Book 12's
   oldest stratum, made literal and never cited); the unroaded system's lesson
   (space made to forget) inverted — ground made to *remember*, coldly; the
   auction-house texture (← Book 9's graveyard auction, one register brighter).
 - **Hooks outward:** the strata's depth (→ Books 22–24 walk deeper); the ledger of
   the strata (→ the cycle's emptying artifact — every book draws it down); the
   held claim precedent; who seeded the strata (→ the cycle's deepest question).
-- **New names** (→ glossary via `canonize` when drafted): Isla Ash, Bream, Tarn,
+- **New names** (→ glossary via `canonize` when drafted): Isla Ash, Dunn, Moss,
   the Restorers, the cold strata, single-walk, dig-staker, the bright city
   (folk label, never a name).
 
 ## Continuity checklist
 - [ ] Placed on the [master timeline](../../../series-bible/timeline.md) (~CR 470).
-- [ ] New characters/locations → [bible](../../../series-bible/) (Isla Ash, the Restorers, Tarn, the cold strata).
+- [ ] New characters/locations → [bible](../../../series-bible/) (Isla Ash, the Restorers, Moss, the cold strata).
 - [ ] New terms → [glossary](../../../series-bible/glossary.md) (cold strata, single-walk, the walk).
 - [ ] No [intentionally-undefined question](../../../series-bible/seven-laws.md#things-that-are-intentionally-undefined) answered beyond the cycle's budgeted spend, part one (the golden age; cold storage as half-answer).

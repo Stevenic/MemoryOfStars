@@ -23,7 +23,9 @@ unmakes memory; spoken of obliquely, never explained. _(first appears: book 01)_
 
 **The farewell** — *"Come home carrying more people than yourself,"* with its
 two-finger gesture; Orin's parting blessing. Motif: reproduce verbatim, never
-paraphrase. _(first appears: book 01)_
+paraphrase. **One deliberate exception:** Book 22's epilogue renders the phrase's
+deep-past ancestor *close-not-verbatim, by design*, so Book 25 can close the gap —
+do not "correct" that plant (see both outlines). _(first appears: book 01)_
 
 **Festival of Last Things** — Orin's leave-taking feast on the eve of a Pilgrimage;
 borrowed possessions, returned changed. _(first appears: book 01)_
