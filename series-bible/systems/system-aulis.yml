@@ -1,0 +1,271 @@
+# =============================================================================
+# THE GLOAM SYSTEM — Aulis's home solar system (Book 12, The Ninth Observer)
+# Data-first worldbuilding for the explorable "system view" of the Archive/star map.
+# Believable hard-SF (obeys the foundation: known physics, no contradictions). Orbits
+# are to scale-ish (period ≈ √(a³/M) around a 1.1-solar-mass subgiant); stats are
+# Earth-relative where marked (_e = Earth = 1, _g = Earth gravity = 1). Gloam is
+# leaving the main sequence: swollen to twice a sun's width, near three times a sun's
+# light, and still rising — the habitable zone is walking outward through the system,
+# off Aulis and toward the ice. Each body carries an `art.prompt` for gpt-image-2
+# (scripts/gen-art.py); stills land in docs/assets/art/aulis-system/<id>.png.
+#
+# BIBLE-SIDE / READ-TO-REVEAL: this file lives in series-bible/systems/ until Book 12
+# publishes — then it is copied to docs/_data/ and Gloam is added to stars-named.yml.
+# Until that day, no site data references it (see systems/README.md).
+#
+# NOTE: astronomy only. The ancient temporal-transmitter mesh (which will one day overlay
+# the galaxy map) is PRIVATE roadmap and must NOT appear here.
+# =============================================================================
+
+system:
+  id: aulis-system
+  name: "The Gloam System"
+  star_ref: book-12                 # the galaxy star that is Gloam (ties to the map)
+  summary: >
+    A system in its long evening. Gloam has begun to leave the main sequence — swollen,
+    pale gold, brighter every age — and the band where water holds has moved outward
+    past its living world. Aulis dries in the late light while, two orbits further out,
+    the frosts of Firn have begun to sublime. Seven planets, a belt, and beyond them
+    the cold that has not yet heard the news.
+  view:
+    au_span: 17                     # outer edge to render (AU); Fallow sits near this
+    tilt_deg: 16                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: gloam
+    name: "Gloam"
+    role: primary
+    common: "the sun (to Aulis, 'the sun' — too bright now to love); Gloam in the rolls"
+    spectral: "G8 IV (subgiant, leaving the main sequence)"
+    stats:
+      mass_sol: 1.1
+      radius_sol: 2.0               # swollen; still swelling
+      temp_k: 5350
+      luminosity_sol: 3.0           # rising — the zone where water holds is centred near
+                                    # 1.7 AU now, and walking outward
+      color: "swollen pale gold"
+      age_gyr: 7.8                  # a 1.1-solar-mass star's allotted span, nearly spent
+    palette: ["#fff6d8", "#ffe7a8", "#f6cd7c", "#dfa74e"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of a subgiant star (G8 IV, ~5350K) filling most of the
+        frame against deep black space: a swollen pale-gold disc, softer and smoother than
+        a dwarf sun's, low granulation contrast, wide faint supergranules, a thin quiet
+        corona. A star grown large and calm in its age. Scientific, cinematic, no lens
+        flare kitsch. Believable stellar astronomy.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: sere
+    name: "Sere"
+    kind: planet
+    order: 1
+    common: "the Burnt"
+    orbit: { au: 0.5, period_yr: 0.34, ecc: 0.06, tilt_deg: 2 }
+    phys:
+      radius_e: 0.62
+      mass_e: 0.2
+      gravity_g: 0.52
+      day_hr: 800                   # a slow, seared turning
+      mean_temp_c: 450              # dayside; airless
+      atmosphere: "none (boiled away as the star grew)"
+    palette: ["#a1785a", "#6e4c3a", "#3a2a22"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small airless rocky world scorched under a huge swollen pale-gold sun that fills
+        a quarter of the sky behind it: baked umber and bone-grey plains, heat-shattered
+        crater rims, a glaring dayside and a knife-edge terminator. No atmosphere. Photoreal,
+        scientific, pitiless late light.
+
+  - id: caul
+    name: "Caul"
+    kind: planet
+    order: 2
+    common: "the White Eye (blinding-bright in Aulis's dusk)"
+    orbit: { au: 0.85, period_yr: 0.75, ecc: 0.01, tilt_deg: 3 }
+    phys:
+      radius_e: 0.94
+      mass_e: 0.85
+      gravity_g: 0.96
+      day_hr: 3100                  # slow spin under permanent cloud
+      mean_temp_c: 385
+      atmosphere: "crushing CO₂ under unbroken cloud"
+    palette: ["#f3ead2", "#dcc79a", "#b39366"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A brilliant cloud-shrouded hothouse world seen from orbit, over-lit by a swollen
+        pale-gold subgiant sun: a total, dazzling white-cream cloud deck with slow curdled
+        banding, no surface ever visible, a glowing terminator. Venus-like but brighter,
+        washed in too much light. Photoreal, scientific, blinding stillness.
+
+  - id: aulis
+    name: "Aulis"
+    kind: planet
+    order: 3
+    common: "the World / home"
+    story: >
+      Aulis is the world of *The Ninth Observer*: terraced valley country — the Harrow
+      valley's stepped fields — drying over the generations under a sun grown too
+      generous, which is why its people are leaving; the light at evening has never
+      been more beautiful.
+    orbit: { au: 1.55, period_yr: 1.84, ecc: 0.02, tilt_deg: 21 }
+    phys:
+      radius_e: 1.0
+      mass_e: 1.02
+      gravity_g: 1.02
+      day_hr: 23.4
+      mean_temp_c: 24               # sunlight ~1.25 times what Enara gets, and rising —
+                                    # past the edge where a world's water holds
+      atmosphere: "breathable (N₂/O₂), hot; the rains thinner every decade"
+    palette: ["#c9a86a", "#a8955c", "#6f8a92", "#f4e6c4"]
+    moons:
+      - id: glean
+        name: "Glean"
+        common: "the Harvest-moon"
+        radius_e: 0.22
+        orbit_days: 22
+        note: "One pale moon; its phases set the terrace calendar, and harvests were cut by its light."
+    art:
+      size: "1024x1024"
+      prompt: >
+        A drying temperate world seen from orbit in honeyed late light from a swollen
+        pale-gold sun: shrunken blue-green seas ringed with wide pale salt margins, gold
+        and dun continents veined with green only along river valleys and terraced
+        highlands, thin sparse cloud, small tired ice caps. One pale moon in the black
+        star-strewn sky. Beautiful and failing at once; photoreal, scientific, elegiac.
+        Soft amber rim light on the limb.
+
+  - id: belt
+    name: "The Chaff"
+    kind: belt
+    order: 4
+    common: "the Chaff"
+    orbit: { au_inner: 2.2, au_outer: 2.75 }
+    story: null
+    art: null                       # rendered as a ring of specks, not a still
+
+  - id: firn
+    name: "Firn"
+    kind: planet
+    order: 5
+    common: "the White Field"
+    orbit: { au: 3.1, period_yr: 5.2, ecc: 0.04, tilt_deg: 8 }
+    phys:
+      radius_e: 0.8
+      mass_e: 0.28                  # ice over a small rock heart
+      gravity_g: 0.44
+      day_hr: 19.6
+      mean_temp_c: -74              # and climbing; the outward-walking zone reaches
+                                    # Firn's orbit in roughly 150 million years
+      atmosphere: "thin CO₂, thickening as the old frosts sublime"
+    palette: ["#e9edf2", "#c2ccd8", "#8f9bab", "#5d6774"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        An ice-sheathed world seen from orbit, lit generously by a swollen pale-gold sun:
+        white and blue-grey ice plains going grey along the equator where the frost has
+        begun to sublime, dark bedrock freckles showing through, thin new mists in the
+        lowest basins, hard bright poles. A thaw beginning that no one will see finish.
+        Photoreal, scientific, patient.
+
+  - id: wain
+    name: "Wain"
+    kind: planet
+    order: 6
+    common: "the Wagon (brightest wanderer in Aulis's sky)"
+    orbit: { au: 5.8, period_yr: 13.3, ecc: 0.05, tilt_deg: 4 }
+    phys:
+      radius_e: 10.8
+      mass_e: 290
+      gravity_g: 2.49
+      day_hr: 9.4
+      mean_temp_c: -135
+      atmosphere: "hydrogen/helium gas giant, banded"
+    palette: ["#e8d5a8", "#c2a172", "#8a97a8", "#f2e8cd"]
+    moons:
+      - id: sheaf
+        name: "Sheaf"
+        radius_e: 0.25
+        orbit_days: 3.9
+        note: "A close moon kneaded warm by Wain's pull; pale young ice."
+      - id: tine
+        name: "Tine"
+        radius_e: 0.19
+        orbit_days: 8.7
+        note: "Grey-brown and cratered, a plain working moon."
+      - id: stook
+        name: "Stook"
+        radius_e: 0.14
+        orbit_days: 19
+        note: "A far, frost-dusted moon, dim and deliberate."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A great banded gas giant seen from orbit, warmly lit by a distant swollen pale-gold
+        sun: butter-cream, tan and dusk-blue cloud bands, one long pale storm ellipse, no
+        bright rings. Three small moons as points nearby. Jupiter-like in the light of an
+        ageing star. Photoreal, majestic, scientific.
+
+  - id: winnow
+    name: "Winnow"
+    kind: planet
+    order: 7
+    common: "the Deep"
+    orbit: { au: 11.0, period_yr: 34.8, ecc: 0.02, tilt_deg: 29 }
+    phys:
+      radius_e: 3.6
+      mass_e: 13
+      gravity_g: 1.0
+      day_hr: 16.8
+      mean_temp_c: -175
+      atmosphere: "hydrogen/methane ice giant"
+    palette: ["#5d8a8f", "#3f6a72", "#28474f"]
+    moons:
+      - id: drift
+        name: "Drift"
+        radius_e: 0.1
+        orbit_days: 6.1
+        note: "A snow-bright moon; long streaks where old geysers fell."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A serene ice-giant world seen from orbit: a deep blue-green methane atmosphere,
+        faint pale bands, a thin bright ring arc tilted across the frame, one high white
+        cloud streak. Neptune-like, cold and quiet, its light still the old kind. One small
+        snow-bright moon. Photoreal, scientific, still.
+
+  - id: fallow
+    name: "Fallow"
+    kind: planet
+    order: 8
+    common: "the Far Field"
+    orbit: { au: 16.0, period_yr: 61.0, ecc: 0.19, tilt_deg: 11 }
+    phys:
+      radius_e: 0.17
+      mass_e: 0.0018
+      gravity_g: 0.06
+      day_hr: 110
+      mean_temp_c: -200
+      atmosphere: "trace (frozen)"
+    palette: ["#6d6a72", "#49474f", "#2a292f"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A tiny frozen dwarf world at the system's edge, its swollen sun shrunk by distance
+        to a warm bright point: dim violet-grey ice plains, soft ancient craters, one
+        bright frost basin, no atmosphere. The cold that has not yet heard the news.
+        Photoreal, scientific, lonely.

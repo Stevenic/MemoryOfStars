@@ -85,11 +85,11 @@ systems:
       books: [11], note: "the Cathedral of Engines; the broken ring is its world" }
   - { id: lull,    world: null,      star: "Lull",    x: 19,  y: -22, z: 34,
       books: [5, 27], note: "the unroaded system; the vault moonlet; high off the plane" }
-  - { id: vane,    world: "Vane",    star: null,      x: -58, y: 6,   z: 29,
+  - { id: vane,    world: "Vane",    star: "Squall",  x: -58, y: 6,   z: 29,
       books: [19], note: "pilot region" }
-  - { id: holt,    world: "Holt",    star: null,      x: -63, y: 9,   z: 26,
+  - { id: holt,    world: "Holt",    star: "Garn",    x: -63, y: 9,   z: 26,
       books: [19], note: "pilot region" }
-  - { id: mirren,  world: "Mirren",  star: null,      x: -60, y: 1,   z: 32,
+  - { id: mirren,  world: "Mirren",  star: "Keld",    x: -60, y: 1,   z: 32,
       books: [19], note: "pilot region" }
   - { id: corvane, world: "Corvane", star: null,      x: -62, y: -34, z: -7,
       books: [9, 17], note: "power; polity = home-system name" }

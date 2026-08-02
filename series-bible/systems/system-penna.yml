@@ -1,0 +1,265 @@
+# =============================================================================
+# THE PLUME SYSTEM — Penna's home solar system
+# Data-first worldbuilding for the explorable "system view" of the Archive/star map.
+# Believable hard-SF (obeys the foundation: known physics, no contradictions). Orbits
+# are to scale-ish (period ≈ √(a³/M) around a 0.88-solar-mass star); stats are
+# Earth-relative where marked (_e = Earth = 1, _g = Earth gravity = 1). Not all bodies
+# touch the story — the system should feel real. Each body carries an `art.prompt` for
+# gpt-image-2 (scripts/gen-art.py); stills will land in docs/assets/art/penna-system/<id>.png.
+#
+# READ-TO-REVEAL: this file lives bible-side (series-bible/systems/) until Book 18
+# publishes; then it is copied to docs/_data/ and Plume joins stars-named.yml. Until
+# then, nothing on the site references it.
+#
+# NOTE: astronomy only. The ancient temporal-transmitter mesh (which will one day overlay
+# the galaxy map) is PRIVATE roadmap and must NOT appear here.
+#
+# A late-G star runs cool and close: Penna's year is short, its habitable ground sits
+# well inside where Enara's would, and the settlers — orchard people — named the rest
+# of the sky out of the cider-house: the cask, the stave, the lees, the windfall.
+# =============================================================================
+
+system:
+  id: penna-system
+  name: "The Plume System"
+  star_ref: book-18                 # the galaxy star that is Plume (ties to the map)
+  summary: >
+    A soft-gold late-G star with a close-set family: two hot worlds hurrying near the
+    sun, then Penna — a garden world of orchard country, gentle seasons and shallow
+    seas — then the long cold tail of any old system: a dry small world, a thin belt,
+    a mellow gas giant, an ice giant, and one stray dwarf swinging wide. Everything
+    here is close, quick and warm-named.
+  view:
+    au_span: 15                     # outer edge to render (AU); Windfall sits near this
+    tilt_deg: 20                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: plume
+    name: "Plume"
+    role: primary
+    common: "the Sun (to Penna, simply 'the sun')"
+    spectral: "G9 V"
+    stats:
+      mass_sol: 0.88
+      radius_sol: 0.86
+      temp_k: 5300
+      luminosity_sol: 0.52
+      color: "soft old gold"
+      age_gyr: 7.4
+    palette: ["#ffe1a0", "#f2c375", "#dba050", "#b3722f"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of a soft old-gold main-sequence star (late-G, ~5300K)
+        filling most of the frame against deep black space: honey-toned granulated
+        photosphere, a scatter of small dark starspots, low quiet prominences at the limb,
+        faint corona. Warm, settled, autumnal. Scientific, cinematic, no lens flare kitsch.
+        Believable stellar astronomy.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: char
+    name: "Char"
+    kind: planet
+    order: 1
+    common: "the Coal"
+    orbit: { au: 0.11, period_yr: 0.039, ecc: 0.02, tilt_deg: 1 }   # a 14-day year
+    phys:
+      radius_e: 1.35
+      mass_e: 2.9
+      gravity_g: 1.59
+      day_hr: 341                   # tide-locked; day = year
+      mean_temp_c: 440
+      atmosphere: "none (boiled off)"
+    palette: ["#6f4a3c", "#4a2e26", "#261a16"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A tide-locked rocky super-Earth hugging a soft gold sun: one hemisphere glowing
+        dull charcoal-red under permanent noon, cracked lava plains and glassy basins, a
+        knife-hard terminator into a frozen black farside. No atmosphere, no clouds.
+        Photoreal, scientific, severe. The huge dim-gold sun looming at frame's edge.
+
+  - id: wisp
+    name: "Wisp"
+    kind: planet
+    order: 2
+    common: "the Smudge (a dim blurred point low in Penna's dusk)"
+    orbit: { au: 0.27, period_yr: 0.15, ecc: 0.03, tilt_deg: 2 }
+    phys:
+      radius_e: 2.4
+      mass_e: 6.5
+      gravity_g: 1.13
+      day_hr: 130                   # tide-slowed
+      mean_temp_c: 190
+      atmosphere: "deep hydrogen/helium haze (sub-Neptune envelope)"
+    palette: ["#c9b8d6", "#9a8ab3", "#6f6088"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A hazy sub-Neptune seen from orbit: a deep soft envelope of lilac-grey and dusty
+        mauve, edges fading without a hard limb, faint banding barely there, no surface,
+        no storms — a world like a thumb-smudge of smoke. Lit warmly by a gold sun.
+        Photoreal, scientific, dim and vague and quiet.
+
+  - id: penna
+    name: "Penna"
+    kind: planet
+    order: 3
+    common: "the World / home"
+    story: >
+      The garden world Book 18's surface chapters walk: orchard country in long low
+      hills, seasons gentled by a small axial tilt and a near-circular orbit, and seas
+      so shallow the light reaches the sand of them — a world that asks very little
+      and gives fruit back.
+    orbit: { au: 0.72, period_yr: 0.65, ecc: 0.01, tilt_deg: 9 }
+    phys:
+      radius_e: 0.94
+      mass_e: 0.85
+      gravity_g: 0.96
+      day_hr: 25.6
+      mean_temp_c: 15
+      atmosphere: "breathable (N₂/O₂), mild"
+    palette: ["#6f9a52", "#9ec46f", "#7fc4b8", "#f2ecd9"]
+    moons:
+      - id: gage
+        name: "Gage"
+        common: "the Plum"
+        radius_e: 0.22
+        orbit_days: 21
+        note: "One green-grey moon hanging like a plum; its three-week round times Penna's picking seasons."
+    art:
+      size: "1024x1024"
+      prompt: >
+        A garden world seen from orbit, lit by a soft gold sun: green continents quilted
+        with orchard country and hedged valleys, low worn hills, and wide pale-turquoise
+        shelf seas so shallow the sea-floor shows through them, laced with white sandbars.
+        Gentle scattered fair-weather cloud, small ice caps. One small green-grey moon in
+        the black star-strewn sky. Earthlike but kinder; photoreal, scientific, warm and
+        abundant. Soft rim light on the limb.
+
+  - id: rind
+    name: "Rind"
+    kind: planet
+    order: 4
+    common: "the Husk"
+    orbit: { au: 1.35, period_yr: 1.67, ecc: 0.09, tilt_deg: 18 }
+    phys:
+      radius_e: 0.58
+      mass_e: 0.14
+      gravity_g: 0.42
+      day_hr: 27.1
+      mean_temp_c: -70
+      atmosphere: "thin CO₂ (cold, dry)"
+    palette: ["#b3906f", "#8a684a", "#d9c2a3"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cold dried-out small world seen from orbit: wrinkled tan and russet plains like
+        old fruit skin, deep dust-filled basins, thin frost at the poles, the barest breath
+        of atmosphere at the limb. Mars-like but browner and more shrivelled. No moons.
+        Photoreal, scientific, spent.
+
+  - id: belt
+    name: "The Chaff"
+    kind: belt
+    order: 5
+    common: "the Chaff (what the winnowing left)"
+    orbit: { au_inner: 2.1, au_outer: 2.9 }
+    story: null
+    art: null                       # rendered as a ring of specks, not a still
+
+  - id: cask
+    name: "Cask"
+    kind: planet
+    order: 6
+    common: "the Harvest Star (its rising once marked the press-season)"
+    orbit: { au: 4.4, period_yr: 9.84, ecc: 0.05, tilt_deg: 3 }
+    phys:
+      radius_e: 9.3
+      mass_e: 170
+      gravity_g: 1.97
+      day_hr: 10.9
+      mean_temp_c: -160
+      atmosphere: "hydrogen/helium gas giant, banded"
+    palette: ["#d9a96f", "#b37f4a", "#8a5c33", "#5c4030"]
+    moons:
+      - id: stave
+        name: "Stave"
+        radius_e: 0.24
+        orbit_days: 4.4
+        note: "A pale barrel-ribbed ice moon, its surface split in long parallel staves of ridge and groove."
+      - id: hoop
+        name: "Hoop"
+        radius_e: 0.12
+        orbit_days: 11.0
+        note: "A small round bright moon, ringing Cask like a band on a barrel."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A stout banded gas giant seen from orbit, three-quarter lit by a distant gold sun:
+        rich cider-coloured bands of amber, russet and oak-brown, one long weathered storm
+        streak, no rings. Two small moons as points nearby — one ridged and pale, one small
+        and bright. Jupiter-like but warmer-toned, a barrel of a world. Photoreal, majestic,
+        scientific.
+
+  - id: perry
+    name: "Perry"
+    kind: planet
+    order: 7
+    common: "the Winter Star"
+    orbit: { au: 8.7, period_yr: 27.4, ecc: 0.02, tilt_deg: 24 }
+    phys:
+      radius_e: 3.6
+      mass_e: 13
+      gravity_g: 1.0
+      day_hr: 15.8
+      mean_temp_c: -200
+      atmosphere: "hydrogen/methane ice giant"
+    palette: ["#a3c9b8", "#6f9e94", "#48706c"]
+    moons:
+      - id: lees
+        name: "Lees"
+        radius_e: 0.11
+        orbit_days: 7.3
+        note: "A dark sediment-coloured moon, all settled dust and old ice, quiet at the bottom of Perry's sky."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A serene ice-giant world seen from orbit: a pale green-over-blue methane atmosphere
+        the colour of pear skin, faint soft bands, one high white cloud thread, no rings.
+        One small dark moon. Neptune-like, cold and mild-mannered. Photoreal, scientific,
+        still.
+
+  - id: windfall
+    name: "Windfall"
+    kind: planet
+    order: 8
+    common: "the Stray"
+    orbit: { au: 13.8, period_yr: 54.6, ecc: 0.31, tilt_deg: 17 }
+    phys:
+      radius_e: 0.14
+      mass_e: 0.002
+      gravity_g: 0.10
+      day_hr: 86
+      mean_temp_c: -230
+      atmosphere: "trace (frozen most of its orbit)"
+    palette: ["#8a7f70", "#5c544a", "#332e29"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small bruised dwarf world flung wide of its system, barely lit by a far-off
+        pinpoint gold sun: lopsided, dented, one great old impact scar like the bruise on
+        a dropped fruit, surfaces of dirty grey-brown ice, no atmosphere, no moon. Falling
+        along a long lonely ellipse. Photoreal, scientific, forlorn.

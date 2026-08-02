@@ -1,0 +1,246 @@
+# =============================================================================
+# THE KARST SYSTEM — Reed's home solar system (Meret, the river Sil; Books 4/7/20)
+# Data-first worldbuilding in the format of docs/_data/system-orin.yml (the Auros
+# exemplar) — see README.md in this folder. Believable hard-SF (obeys the foundation:
+# known physics, no contradictions). Orbits are Kepler-computed (period = √(a³/M)
+# around a 0.95-solar-mass star); stats are Earth-relative where marked (_e = Earth
+# = 1, _g = Earth gravity = 1). Not all bodies touch the story — the system should
+# feel real. Each body carries an `art.prompt` for gpt-image-2 (scripts/gen-art.py);
+# generated stills land in docs/assets/art/reed-system/<id>.png once revealed.
+#
+# READ-TO-REVEAL: this file lives bible-side; it copies to docs/_data/ when its book
+# publishes (Book 4, The City That Forgave) and Karst joins stars-named.yml.
+# NOTE: astronomy only. The ancient temporal-transmitter mesh is PRIVATE roadmap
+# (planning/) and must NOT appear here.
+# =============================================================================
+
+system:
+  id: reed-system
+  name: "The Karst System"
+  star_ref: book-04                 # the galaxy star that is Karst (Reed's sun; Books 4/7/20 walk Reed)
+  summary: >
+    A settled, orderly system around a pale-gold star a little smaller than the sun,
+    with one living world — Reed, limestone country of broad slow rivers, where the
+    Sil crosses under the bridges of Meret. Inward, a furnace and a dry hot waste;
+    outward, a gravel belt, two patient giants, and a far cold stray. An old system,
+    long watched from the copings of an old city.
+  view:
+    au_span: 16                     # outer edge to render (AU); Crake sits near this
+    tilt_deg: 17                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: karst
+    name: "Karst"
+    role: primary
+    common: "the Sun (to Meret, simply 'the sun'); Karst in the navigators' rolls"
+    spectral: "G5 V"
+    stats:
+      mass_sol: 0.95
+      radius_sol: 0.93
+      temp_k: 5650
+      luminosity_sol: 0.78
+      color: "pale warm gold"
+      age_gyr: 5.9
+    palette: ["#ffe6a8", "#f7d178", "#e5ad50", "#c07e2e"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of a pale-gold main-sequence star (mid-G, ~5650K)
+        filling most of the frame against deep black space: finely granulated cream-gold
+        photosphere, a sparse pair of dark starspots, low quiet prominences at the limb,
+        a soft corona. Calm, mature, steady. Scientific, cinematic, no lens flare kitsch.
+        Believable stellar astronomy.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: kiln
+    name: "Kiln"
+    kind: planet
+    order: 1
+    common: "the Kiln (a dawn-and-dusk spark from Reed)"
+    orbit: { au: 0.07, period_yr: 0.019, ecc: 0.02, tilt_deg: 1 }
+    phys:
+      radius_e: 1.4
+      mass_e: 3.2
+      gravity_g: 1.63
+      day_hr: 167                   # tide-locked; one face always to the sun
+      mean_temp_c: 710
+      atmosphere: "none (boiled off); a faint sodium wisp at the terminator"
+    palette: ["#f2b08a", "#b56a44", "#6e3a26", "#2e1c14"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A tide-locked super-Earth hugging its pale-gold star, seen from orbit: a dayside
+        of dull-glowing rock and slow lava seams, a hard black terminator, a frozen
+        starless nightside, no atmosphere. The star huge and near beyond the limb.
+        Photoreal, scientific, brutal and simple.
+
+  - id: marl
+    name: "Marl"
+    kind: planet
+    order: 2
+    common: "the Dry"
+    orbit: { au: 0.44, period_yr: 0.30, ecc: 0.06, tilt_deg: 4 }
+    phys:
+      radius_e: 0.81
+      mass_e: 0.55
+      gravity_g: 0.84
+      day_hr: 37
+      mean_temp_c: 120
+      atmosphere: "thin CO₂ (dusty, bone-dry)"
+    palette: ["#d9b184", "#b3855a", "#8a5f3e", "#57402c"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A hot dry rocky world seen from orbit, lit by a pale-gold sun: tan and umber
+        dust basins, old cracked highlands, salt-white playas in the low ground, a thin
+        dusty limb of atmosphere, no water, no clouds worth the name. Photoreal,
+        scientific, parched and still.
+
+  - id: reed
+    name: "Reed"
+    kind: planet
+    order: 3
+    common: "the World / home"
+    story: >
+      Reed is the living world of the river Sil — limestone country, broad slow waters,
+      and the city of Meret with its bridge and its two ancient Wells. Books 4, 7 and 20
+      walk its streets; the diaspora that settled Sowen sailed from here.
+    orbit: { au: 0.91, period_yr: 0.89, ecc: 0.02, tilt_deg: 21 }
+    phys:
+      radius_e: 1.0
+      mass_e: 1.02
+      gravity_g: 1.02
+      day_hr: 24.9
+      mean_temp_c: 14
+      atmosphere: "breathable (N₂/O₂), temperate and humid"
+    palette: ["#4a7d92", "#6a9158", "#d8cfa8", "#eef2f6"]
+    moons:
+      - id: weir
+        name: "Weir"
+        common: "the Great Moon"
+        radius_e: 0.27
+        orbit_days: 27
+        note: "A pale, close, cratered moon; its pull works the Sil's slow tides, and Meret's floods and festivals keep its count."
+      - id: sedge
+        name: "Sedge"
+        common: "the Small Light"
+        radius_e: 0.06
+        orbit_days: 58
+        note: "A far dim second moon, a wandering point; river folk call a clear night with both moons up a 'two-lamp night'."
+    art:
+      size: "1024x1024"
+      prompt: >
+        A living temperate world seen from orbit, lit by a pale-gold sun: green-and-grey
+        limestone lowlands veined with broad slow silver rivers, wide shallow seas the
+        colour of jade, long white cloud rivers following the valleys, modest ice caps.
+        Two moons in the black star-strewn sky — one large and pale, one a small far point.
+        Earthlike but softer, water-worked, its own world. Photoreal, scientific, serene.
+
+  - id: shingle
+    name: "The Shingle"
+    kind: belt
+    order: 4
+    common: "the Shingle (gravel of the sky, in Meret's almanacs)"
+    orbit: { au_inner: 1.9, au_outer: 2.8 }
+    story: null
+    art: null                       # rendered as a ring of specks, not a still
+
+  - id: garth
+    name: "Garth"
+    kind: planet
+    order: 5
+    common: "the Steady (brightest wanderer in Reed's sky; the almanac's fixed friend)"
+    orbit: { au: 4.6, period_yr: 10.1, ecc: 0.04, tilt_deg: 2 }
+    phys:
+      radius_e: 11.2
+      mass_e: 340
+      gravity_g: 2.7
+      day_hr: 9.8
+      mean_temp_c: -150
+      atmosphere: "hydrogen/helium gas giant, banded"
+    moons:
+      - id: cob
+        name: "Cob"
+        radius_e: 0.24
+        orbit_days: 2.9
+        note: "A close ochre moon, kneaded warm inside by Garth's pull; young ice floods its plains."
+      - id: wick
+        name: "Wick"
+        radius_e: 0.19
+        orbit_days: 6.1
+        note: "A bright cracked ice moon; a dark ocean is suspected under the white."
+      - id: peat
+        name: "Peat"
+        radius_e: 0.13
+        orbit_days: 14.3
+        note: "A dark, sooty, ancient moon, its craters soft with dust."
+      - id: hob
+        name: "Hob"
+        radius_e: 0.07
+        orbit_days: 33
+        note: "A small grey outrider, likely a caught stray from the Shingle."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A great banded gas giant seen from orbit, three-quarter lit by a distant pale-gold
+        sun: bands of cream, oat and slate-blue, two slow pale storm-ovals, no rings.
+        Three or four small moons strung as points along the orbit plane. Jupiter-like,
+        its own quieter colours. Photoreal, majestic, scientific.
+
+  - id: thorn
+    name: "Thorn"
+    kind: planet
+    order: 6
+    common: "the Winter Star"
+    orbit: { au: 9.2, period_yr: 28.6, ecc: 0.03, tilt_deg: 26 }
+    phys:
+      radius_e: 3.7
+      mass_e: 14
+      gravity_g: 1.02
+      day_hr: 16.4
+      mean_temp_c: -187
+      atmosphere: "hydrogen/methane ice giant"
+    moons:
+      - id: rime
+        name: "Rime"
+        radius_e: 0.11
+        orbit_days: 4.8
+        note: "A frost-white moon of nitrogen ice, smooth as a washed stone."
+    art:
+      size: "1024x1024"
+      prompt: >
+        A quiet ice-giant world seen from orbit: a deep blue-green methane atmosphere,
+        faint pale banding, one small high white cloud streak, no rings. One small
+        frost-white moon nearby. Neptune-like, cold, unhurried. Photoreal, scientific,
+        still.
+    story: null
+
+  - id: crake
+    name: "Crake"
+    kind: planet
+    order: 7
+    common: "the Stray"
+    orbit: { au: 14.5, period_yr: 56.6, ecc: 0.21, tilt_deg: 14 }
+    phys:
+      radius_e: 0.16
+      mass_e: 0.0025
+      gravity_g: 0.1
+      day_hr: 118
+      mean_temp_c: -205
+      atmosphere: "trace (frozen most of its orbit)"
+    moons: []
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small frozen dwarf world at the cold edge of a system, lit by a far-off
+        pinpoint gold sun: mottled grey and rose nitrogen-ice plains, long pale fracture
+        scars, one bright young crater rayed like a thrown stone in water, no atmosphere,
+        no moon. Pluto-like, remote, alone. Photoreal, scientific, lonely.

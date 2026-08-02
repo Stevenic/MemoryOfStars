@@ -65,7 +65,13 @@ Worlds and stars now reserved by the gazetteer:
   Dresk).
 - **Stars:** Auros (and Auros B, *the Watcher* — Enara's red companion), Karst, Beck,
   Torr, Harl, Grell, Pike, Salt, Lorn, Voss, Cinder, Gloam, Crook, Murr, Blanch,
-  Plume, Nock, Loam.
+  Plume, Nock, Loam, Squall, Garn, Keld.
+- **Minor bodies (planets, moons, belts — the systems registry):** settler names
+  **repeat freely across systems** — isolation breeds convergence, and every reach
+  world has its Kiln and its Char the way Earth has its Springfields. Uniqueness is
+  required only *within* a system, and at the registry tier (worlds, stars, systems),
+  which is unique galaxy-wide. Retired names (the rename record) are banned at every
+  tier — three independent coiners reached for "Tarn"; none survived.
 - **Precedence note (2026-08):** Enara/Auros were established first by the site's
   Archive (star chart + system file) and supersede the atlas's short-lived
   Alder/Sarn coinage — published names win. Renamed historically: see the rename

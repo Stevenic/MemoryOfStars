@@ -1,0 +1,156 @@
+# =============================================================================
+# THE MIRREN SYSTEM — third of the pilot-region neighbours (Book 19 background;
+# geography only). Data-first worldbuilding in the Auros-exemplar format
+# (docs/_data/system-orin.yml). Believable hard-SF (obeys the foundation: known
+# physics, no contradictions). Orbits are Kepler-honest (period = √(a³/M) around a
+# 0.55-solar-mass star); stats are Earth-relative where marked (_e = Earth = 1,
+# _g = Earth gravity = 1). Not all bodies touch the story — the system should feel
+# real. Each body carries an `art.prompt` for gpt-image-2 (scripts/gen-art.py);
+# generated stills land in docs/assets/art/mirren-system/<id>.png.
+#
+# READ-TO-REVEAL: this file lives bible-side until Book 19 publishes; then it is
+# copied to docs/_data/ and its star added to stars-named.yml (see systems/README.md).
+# NOTE: astronomy only. The ancient temporal-transmitter mesh (which will one day
+# overlay the galaxy map) is PRIVATE roadmap and must NOT appear here.
+# =============================================================================
+
+system:
+  id: mirren-system
+  name: "The Mirren System"
+  star_ref: book-19                 # the galaxy star that is Keld (ties to the map)
+  summary: >
+    A close-built system around a late-K star at the red end of its class, with one
+    living world — Mirren, a cold lake-country world of short summers and hardy
+    settlements, hugging its small sun on a 98-day year. Three planets and a thin outer
+    gravel of ice. Mirren's long nights are well-lit with neighbours: Garn, Holt's
+    yellow sun, burns second-magnitude ten light-years off, and Squall, Vane's orange
+    one, sits plain beside it. The three neighbours steer by each other's suns.
+  view:
+    au_span: 10                     # outer edge to render (AU); the Shingle ends near this
+    tilt_deg: 20                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: tarn
+    name: "Keld"
+    role: primary
+    common: "the sun (to Mirren); a faint deep-red spark from its neighbours' skies"
+    spectral: "K9 V"
+    stats:
+      mass_sol: 0.55
+      radius_sol: 0.57
+      temp_k: 3950
+      luminosity_sol: 0.07
+      color: "deep red-orange"
+      age_gyr: 7.1
+    palette: ["#ff9a5e", "#e0703a", "#b04c24", "#7d3418"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of a small red-orange main-sequence star (latest-K,
+        ~3950K) filling most of the frame against deep black space: heavy coppery
+        granulation, broad dark starspot archipelagos, a few low tight prominences at
+        the limb, a thin corona. Scientific, cinematic, no lens flare kitsch.
+        Believable stellar astronomy.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: char
+    name: "Char"
+    kind: planet
+    order: 1
+    common: "the Coal (a dim fast spark hugging the sun; named for the fish and the fire both)"
+    orbit: { au: 0.06, period_yr: 0.02, ecc: 0.01, tilt_deg: 1 }
+    phys:
+      radius_e: 0.45
+      mass_e: 0.07
+      gravity_g: 0.35
+      day_hr: 174                   # tide-locked; day = year (a 7.2-day round)
+      mean_temp_c: 262
+      atmosphere: "none (stripped)"
+    palette: ["#7d5a4a", "#4c352a", "#241812"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small tide-locked airless rocky world seen from orbit, very close to a deep
+        red-orange sun: a dull-glowing charcoal-and-rust dayside, a black frozen farside,
+        one hard unmoving terminator, no atmosphere. Photoreal, scientific, severe.
+        Black star-strewn space behind.
+
+  - id: mirren
+    name: "Mirren"
+    kind: planet
+    order: 2
+    common: "the World / the Lakes (its people's word for the planet and the country both)"
+    story: >
+      Mirren is Book 19 background — geography only. Cold lake-country: ten thousand
+      lakes strung through low glaciated hills, summers short and bright on a 98-day
+      year, winters long and star-clear, and hardy settlements on the sheltered shores
+      that ice over and thaw and ice again.
+    orbit: { au: 0.34, period_yr: 0.27, ecc: 0.05, tilt_deg: 27 }
+    phys:
+      radius_e: 0.92
+      mass_e: 0.9
+      gravity_g: 1.06
+      day_hr: 61                    # tide-slowed; its close moon is credited with holding the spin
+      mean_temp_c: 2
+      atmosphere: "breathable (N₂/O₂), cold, clear; long freezes"
+    palette: ["#4c7d9a", "#7fa4b8", "#5a7d5a", "#eef4f8"]
+    moons:
+      - id: floe
+        name: "Floe"
+        common: "the Skater"
+        radius_e: 0.16
+        orbit_days: 5.0
+        note: >
+          A close, quick, bright moon; its five-day round rules the lake tides and the
+          ice-roads' opening, and its pull is the reason Mirren's day is still a day.
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cold living world seen from orbit, lit low and warm by a red-orange sun:
+        blue-grey continents stippled with thousands of small bright lakes, dark conifer
+        green in the sheltered valleys, broad white winter latitudes, thin high cloud.
+        One small bright moon close in the black star-strewn sky. Earthlike but colder
+        and lake-strewn; photoreal, scientific, crisp and clean. Soft rim light on the
+        limb.
+
+  - id: rime
+    name: "Rime"
+    kind: planet
+    order: 3
+    common: "the Grey Lantern (the one bright wanderer in Mirren's long winter nights)"
+    orbit: { au: 3.4, period_yr: 8.45, ecc: 0.04, tilt_deg: 8 }
+    phys:
+      radius_e: 3.8
+      mass_e: 14
+      gravity_g: 0.97
+      day_hr: 15.8
+      mean_temp_c: -202
+      atmosphere: "hydrogen/methane ice giant"
+    palette: ["#8fb8c9", "#5a8fa8", "#35607d"]
+    moons:
+      - id: perch
+        name: "Perch"
+        radius_e: 0.1
+        orbit_days: 4.8
+        note: "A small grey moon sitting neat and close; a favourite first find for Mirren's glasses."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A pale frost-blue ice-giant world seen from orbit, lit faintly by a distant
+        red-orange sun: a smooth hazy methane atmosphere, the barest banding, a thin
+        bright polar hood. One small grey moon. Uranus-like, cold and composed.
+        Photoreal, scientific, still.
+
+  - id: shingle
+    name: "The Shingle"
+    kind: belt
+    order: 4
+    common: "the Shingle (a thin cold gravel of ice-rock, like a lake-shore's)"
+    orbit: { au_inner: 6.0, au_outer: 8.5 }
+    story: null
+    art: null                       # rendered as a ring of specks, not a still

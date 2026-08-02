@@ -8,36 +8,38 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
   /* The world DB + star index, injected at build time from docs/_data/ */
   window.SI_ARCHIVE = {{ site.data.archive | jsonify }};
   window.SI_STARS = {{ site.data.starfield | jsonify }};   /* the deterministic star catalog */
+  window.SI_STARS_FULL = {% if site.data.starfield_full %}{{ site.data.starfield_full | jsonify }}{% else %}null{% endif %};   /* local preview only (gitignored) */
+  window.SI_SYSTEMS_FULL = {% if site.data.systems_full %}{{ site.data.systems_full | jsonify }}{% else %}null{% endif %};
   window.SI_SYSTEMS = {                                     /* drill-down solar systems, by id */
     {% for sys in site.data %}{% if sys[1].system %}"{{ sys[1].system.id }}": {{ sys[1] | jsonify }},{% endif %}{% endfor %}
   };
   window.SI_BASEURL = "{{ site.baseurl }}";
 </script>
 {% raw %}
-<section class="si-intro wrap">
-  <p class="eyebrow">The Archive</p>
-  <h1>The Memory of Stars</h1>
-  <p class="lead">A sky of stars — far more than have names. The lit ones hold recorded
-  moments you can step inside: inhabit someone who was there, wander the world, talk to
-  the people. It's a memory — you can touch it, but you can't change what was. The rest
-  of the sky is uncharted: stories not yet told. Between them lies everything else —
-  pairs and triples, cinders, pulsars, the dark thing at the centre of it all, quasars
-  burning from before this galaxy had a shape, and five objects nobody has accounted for.</p>
-  <p class="si-note">Runs on <strong>your own Anthropic API key</strong> — the world is
-  conjured live, so it uses your API credits. The key lives only in this browser.
-  <button type="button" class="si-link" id="si-open-settings-inline">Settings</button></p>
-</section>
-
-<!-- ENTRY: the constellation (Archive index) -->
-<section class="si-scenes wrap" id="si-entry">
-  <p class="si-preview-badge" id="si-preview-badge" hidden>Roadmap preview — local only. Production shows these stars dark and unnamed.</p>
+<!-- ENTRY: the Archive as a full-page shell — the chart is the app; sheets ride over it -->
+<div class="si-shell" id="si-entry">
+  <header class="si-topbar">
+    <a class="si-wordmark" id="si-home-link" href="/">◄ Memory of Stars</a>
+    <p class="si-preview-badge" id="si-preview-badge" hidden>Roadmap preview — local only</p>
+    <span class="si-top-spacer"></span>
+    <button type="button" class="si-gear" id="si-open-settings-inline" title="Settings" aria-label="Settings">⚙</button>
+  </header>
+  <div class="si-stage">
   <div class="si-map-wrap">
     <div class="si-map-ui">
       <button type="button" id="si-back-galaxy" hidden>◄ galaxy</button>
+      <button type="button" id="si-mesh-toggle" hidden aria-pressed="false" title="Show the routes the books have lit">mesh</button>
+      <button type="button" id="si-zoom-out" title="Zoom out" aria-label="Zoom out">−</button>
+      <button type="button" id="si-zoom-in" title="Zoom in" aria-label="Zoom in">+</button>
       <button type="button" id="si-map-reset" title="Reset view" aria-label="Reset view">⌖</button>
     </div>
     <svg id="si-map" viewBox="0 0 1200 640" role="img"
          aria-label="An interactive star chart. Drag to pan, scroll to zoom. Lit stars hold recordings."></svg>
+    <div class="si-search" id="si-search-wrap">
+      <input id="si-search" type="text" placeholder="Find a star, or ask the Archive…"
+             autocomplete="off" spellcheck="false" aria-label="Find a star, or ask the Archive">
+      <div class="si-search-results" id="si-search-results" hidden></div>
+    </div>
   </div>
   <div class="si-star-panel" id="si-star-panel">
     <span class="si-sp-cycle" id="si-sp-cycle">&nbsp;</span>
@@ -46,9 +48,8 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
     <span class="si-sp-blurb" id="si-sp-blurb"></span>
     <span class="si-sp-status" id="si-sp-status">Drag to pan · scroll to zoom · the lit stars hold recordings.</span>
   </div>
-  <h2 class="si-rec-head" id="si-rec-head" hidden>Open a memory</h2>
-  <div class="si-scene-grid" id="si-entry-grid"></div>
-</section>
+  </div><!-- /si-stage -->
+</div>
 
 <!-- INHABIT: choose a body -->
 <section class="si-scenes wrap" id="si-inhabit" hidden>
@@ -97,6 +98,9 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
 <div class="si-modal-scrim" id="si-modal" hidden>
   <div class="si-modal" role="dialog" aria-modal="true" aria-labelledby="si-modal-title">
     <h2 id="si-modal-title">Before you step inside</h2>
+    <p class="si-modal-sub">A sky of stars — far more than have names. The lit ones hold
+    recorded moments you can step inside: inhabit someone who was there, wander the world,
+    talk to the people. It's a memory — you can touch it, but you can't change what was.</p>
     <p class="si-modal-sub">This calls Anthropic's API directly from your browser, so it needs
     your own key. Nothing is sent anywhere else.</p>
     <label class="si-field">
@@ -153,16 +157,22 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
 .si-scene-card .si-sc-name { font-family: "Iowan Old Style", Palatino, Georgia, serif; font-size: 1.3rem; }
 .si-scene-card .si-sc-blurb { color: var(--muted); font-size: .92rem; }
 
-/* --- The constellation (Archive index) --- */
+/* --- The full-page shell: topbar, stage (chart + sheets), tab bar --- */
+.si-shell { position: fixed; inset: 0; z-index: 60; display: flex; flex-direction: column; background: var(--bg); }
+.si-shell[hidden] { display: none; }
+.si-topbar { display: flex; align-items: center; gap: .8rem; padding: .5rem .9rem; border-bottom: 1px solid var(--border); flex: none; }
+.si-wordmark { color: var(--muted); text-decoration: none; font-size: .85rem; letter-spacing: .04em; white-space: nowrap; }
+.si-wordmark:hover { color: var(--gold); }
+.si-top-spacer { flex: 1; }
+.si-stage { position: relative; flex: 1; min-height: 0; }
+
 .si-map-wrap {
-  border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden;
-  aspect-ratio: 1200 / 640;
+  position: absolute; inset: 0; overflow: hidden;
   background:
     radial-gradient(900px 420px at 68% -8%, rgba(122,162,255,.14), transparent 60%),
     radial-gradient(700px 380px at 12% 108%, rgba(233,196,106,.07), transparent 60%),
     var(--bg);
 }
-.si-map-wrap { position: relative; }
 #si-map { display: block; width: 100%; height: 100%; touch-action: none; cursor: grab; }
 #si-map:active { cursor: grabbing; }
 .si-map-ui { position: absolute; top: .6rem; right: .6rem; display: flex; gap: .45rem; align-items: center; z-index: 2; }
@@ -173,14 +183,46 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
   padding: .3rem .75rem; backdrop-filter: blur(4px);
 }
 .si-map-toggle input { accent-color: var(--gold); }
-#si-map-reset {
+#si-map-reset, #si-zoom-in, #si-zoom-out {
   background: rgba(10,14,26,.6); border: 1px solid var(--border); color: var(--muted);
   border-radius: 999px; width: 1.9rem; height: 1.9rem; cursor: pointer; font: inherit;
+  font-size: 1rem; line-height: 1; backdrop-filter: blur(4px);
 }
-#si-map-reset:hover, .si-map-toggle:hover { border-color: var(--gold); color: var(--gold); }
-#si-back-galaxy { background: rgba(10,14,26,.6); border: 1px solid var(--border); color: var(--muted); border-radius: 999px; padding: .3rem .8rem; font: inherit; font-size: .78rem; cursor: pointer; backdrop-filter: blur(4px); }
-#si-back-galaxy:hover { border-color: var(--gold); color: var(--gold); }
-#si-back-galaxy[hidden] { display: none; }
+#si-map-reset:hover, #si-zoom-in:hover, #si-zoom-out:hover, .si-map-toggle:hover { border-color: var(--gold); color: var(--gold); }
+@media (pointer: coarse) { #si-map-reset, #si-zoom-in, #si-zoom-out { width: 2.4rem; height: 2.4rem; } }
+#si-back-galaxy, #si-mesh-toggle { background: rgba(10,14,26,.6); border: 1px solid var(--border); color: var(--muted); border-radius: 999px; padding: .3rem .8rem; font: inherit; font-size: .78rem; cursor: pointer; backdrop-filter: blur(4px); }
+#si-back-galaxy:hover, #si-mesh-toggle:hover { border-color: var(--gold); color: var(--gold); }
+#si-back-galaxy[hidden], #si-mesh-toggle[hidden] { display: none; }
+#si-mesh-toggle[aria-pressed="true"] { border-color: var(--gold); color: var(--gold); }
+.si-mesh-edge { fill: none; stroke: #ffd98a; stroke-width: .9; opacity: .38; stroke-dasharray: 5 7; animation: si-mesh-flow 26s linear infinite; }
+.si-mesh-edge--dead { stroke: #7d8cb0; stroke-dasharray: 1.5 6; opacity: .3; animation: none; }
+@keyframes si-mesh-flow { to { stroke-dashoffset: -240; } }
+.si-mote { cursor: pointer; }
+.si-mote-halo { fill: var(--gold); opacity: .16; animation: si-mote-breathe 3.2s ease-in-out infinite; }
+.si-mote-core { fill: #ffe9b0; }
+.si-mote--sealed .si-mote-halo { fill: #7d8cb0; opacity: .1; animation: none; }
+.si-mote--sealed .si-mote-core { fill: #8ea0c6; }
+@keyframes si-mote-breathe { 50% { opacity: .38; } }
+#si-inhabit:not([hidden]) { animation: si-fadein .35s ease; }
+@keyframes si-fadein { from { opacity: 0; } }
+#si-map { transition: opacity .18s ease; }
+#si-map.si-fading { opacity: 0; }
+/* --- the search-and-ask box: the one way to find things, upper left --- */
+.si-search { position: absolute; left: .7rem; top: .7rem; z-index: 6; width: min(340px, calc(100% - 8.5rem)); }
+.si-search input { width: 100%; box-sizing: border-box; padding: .5rem .9rem; font: inherit; font-size: .85rem;
+  color: var(--text); background: rgba(10,14,26,.78); border: 1px solid var(--border); border-radius: 999px;
+  backdrop-filter: blur(6px); outline: none; }
+.si-search input:focus { border-color: var(--gold); }
+.si-search-results { margin-top: .35rem; border: 1px solid var(--border); border-radius: var(--radius);
+  background: rgba(12,16,30,.94); backdrop-filter: blur(8px); overflow: hidden; max-height: 46vh; overflow-y: auto; }
+.si-search-results[hidden] { display: none; }
+.si-sr-row { display: block; width: 100%; text-align: left; background: none; border: none; border-bottom: 1px solid var(--border);
+  color: var(--text); font: inherit; font-size: .85rem; padding: .55rem .9rem; cursor: pointer; }
+.si-sr-row:last-child { border-bottom: none; }
+.si-sr-row:hover, .si-sr-row.si-sr-active { background: rgba(233,196,106,.08); color: var(--gold); }
+.si-sr-row .si-sr-note { display: block; color: var(--muted); font-size: .74rem; margin-top: .1rem; }
+.si-sr-answer { padding: .7rem .9rem; color: var(--star); font-size: .85rem; line-height: 1.5; }
+.si-sr-answer .si-sr-note { display: block; color: var(--muted); font-size: .72rem; margin-top: .45rem; }
 .si-starlabel { fill: var(--gold); font-size: 11px; letter-spacing: .04em; pointer-events: none; }
 .si-planetlabel { fill: var(--muted); font-size: 10px; pointer-events: none; }
 .si-orbit { fill: none; stroke: rgba(207,224,255,.13); stroke-width: 1; }
@@ -252,10 +294,14 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
 @media (max-width: 560px) { .si-clabel { display: none; } }
 
 .si-star-panel {
-  margin-top: 1.1rem; padding: 1rem 1.2rem;
+  position: absolute; left: .7rem; bottom: .7rem; z-index: 4;
+  max-width: min(430px, calc(100% - 1.4rem));
+  padding: .8rem 1rem;
   border: 1px solid var(--border); border-radius: var(--radius);
-  background: linear-gradient(180deg, var(--panel), var(--panel-2));
+  background: linear-gradient(180deg, rgba(16,22,38,.92), rgba(12,16,30,.92));
+  backdrop-filter: blur(6px);
   display: flex; flex-direction: column; gap: .15rem;
+  pointer-events: none;
 }
 .si-sp-cycle { color: var(--gold); font-size: .68rem; letter-spacing: .2em; text-transform: uppercase; min-height: 1em; }
 .si-sp-title { font-family: "Iowan Old Style", Palatino, Georgia, serif; font-size: 1.35rem; color: var(--text); }
@@ -263,12 +309,22 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
 .si-sp-blurb { color: var(--star); font-size: .9rem; margin-top: .25rem; }
 .si-sp-status { color: var(--muted); font-size: .85rem; margin-top: .3rem; }
 .si-preview-badge {
-  display: inline-block; margin: 0 0 1rem; padding: .35rem .9rem;
+  display: inline-block; margin: 0; padding: .2rem .7rem;
   border: 1px dashed var(--gold); border-radius: 999px;
-  color: var(--gold); font-size: .75rem; letter-spacing: .06em;
+  color: var(--gold); font-size: .68rem; letter-spacing: .06em; white-space: nowrap;
 }
 .si-preview-badge[hidden] { display: none; }
-.si-rec-head { font-size: 1.2rem; margin: 1.6rem 0 0; }
+.si-rec-head { font-size: 1.2rem; margin: 0 0 .4rem; }
+/* --- small screens: the chart index becomes one scrollable strip; the panel tightens --- */
+@media (max-width: 700px) {
+  .si-search { width: calc(100% - 8.2rem); }
+  .si-search-results { max-height: 38vh; }
+  .si-star-panel { left: .5rem; right: .5rem; bottom: .5rem; max-width: none; padding: .6rem .8rem; }
+  .si-sp-title { font-size: 1.15rem; }
+  .si-sp-blurb { font-size: .84rem; }
+  .si-preview-badge { display: none; }
+}
+#si-inhabit { position: fixed; inset: 0; z-index: 65; overflow-y: auto; overscroll-behavior: contain; background: var(--bg); padding-top: 1.5rem; }
 
 .si-room {
   position: fixed; top: 0; left: 0; right: 0;
@@ -712,8 +768,9 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
     return "An unrecorded star. Nothing is known of it yet.";
   }
   function renderMemories(list) {
-    var grid = $("si-entry-grid"); grid.innerHTML = "";
-    $("si-rec-head").hidden = !list.length;
+    var grid = $("si-entry-grid"); if (!grid) return;
+    grid.innerHTML = "";
+    var rh = $("si-rec-head"); if (rh) rh.hidden = !list.length;
     list.slice().sort(function (a, b) { return (b.unlocked ? 1 : 0) - (a.unlocked ? 1 : 0); }).forEach(function (it) {
       var m = it.mem, ok = it.unlocked;
       var card = document.createElement(ok ? "button" : "div");
@@ -752,21 +809,34 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
   // ============================ THE COSMOS ==============================
   // A real starfield you browse; reading lights the story-stars; a lit star drills
   // into its solar system (accurate-ish orbits). Replaces the old constellation map.
-  var STARS = window.SI_STARS || { bounds: { w: 2000, h: 1200 }, stars: [] };
+  // Local preview (gitignored data present) sees the full chart; production sees only
+  // what published books have named. Same read-to-reveal law, two audiences.
+  var PREVIEW = !!window.SI_STARS_FULL;
+  var STARS = window.SI_STARS_FULL || window.SI_STARS || { bounds: { w: 2000, h: 1200 }, stars: [] };
   var SYSTEMS = window.SI_SYSTEMS || {};
+  if (window.SI_SYSTEMS_FULL) Object.keys(window.SI_SYSTEMS_FULL).forEach(function (k) { if (!SYSTEMS[k]) SYSTEMS[k] = window.SI_SYSTEMS_FULL[k]; });
   var CLS_COLOR = { O: "#9db4ff", B: "#b3ccff", A: "#dce6ff", F: "#f6f4ff", G: "#fff2cf", K: "#ffcf9a", M: "#ff9d78" };
   var NS2 = "http://www.w3.org/2000/svg";
-  var cosmos = { view: null, panzoom: null };
+  var cosmos = { view: null, panzoom: null, back: null, mesh: localStorage.getItem("mos_mesh") === "1" };
+  if (PREVIEW) $("si-preview-badge").hidden = false;
 
   function bookTouched(bookId) { var r = readSet(); return Object.keys(r).some(function (k) { return k.indexOf(bookId + "-") === 0; }); }
   function starLit(s) { return !!(s.refs && s.refs.length && s.refs.some(function (b) { return bookTouched(b); })); }
+  function starShown(s) { return starLit(s) || (PREVIEW && !!s.name); }
   // --- Progressive UX disclosure: a feature appears only when the story makes it relevant.
-  // The GALAXY/starfield unlocks once >=2 systems are charted (Cycle 2 goes interstellar);
+  // The SKY/starfield unlocks once >=2 systems are charted (Cycle 2 goes interstellar);
   // until then a reader sees only their home system — the universe IS one system, so far.
-  // (Future gates, same pattern, each keyed to the book that reveals it: the timeline
-  // scrubber, the mesh/megastructure overlay, memory/star filters.)
-  function chartedStars() { return (STARS.stars || []).filter(function (s) { return s.name && s.system && starLit(s); }); }
+  // The MESH overlay appears with the first route both of whose ends are lit.
+  // (Future gates, same pattern, keyed to the books that reveal them.)
+  function chartedStars() { return (STARS.stars || []).filter(function (s) { return s.name && s.system && starShown(s); }); }
   function galaxyUnlocked() { return chartedStars().length >= 2; }
+  function setBack(mode) {
+    var b = $("si-back-galaxy");
+    if (!mode) { b.hidden = true; cosmos.back = null; return; }
+    b.hidden = false;
+    b.textContent = "◄ sky";
+    cosmos.back = leaveSystem;
+  }
   function homeSystem() {
     for (var i = 0; i < (STARS.stars || []).length; i++) { var s = STARS.stars[i]; if (s.name && s.system && SYSTEMS[s.system]) return s.system; }
     return null;
@@ -784,21 +854,109 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
     function clamp() { vb.w = Math.min(vb.w, world.w); vb.h = Math.min(vb.h, world.h); vb.x = Math.min(Math.max(vb.x, world.x), world.x + world.w - vb.w); vb.y = Math.min(Math.max(vb.y, world.y), world.y + world.h - vb.h); }
     function toWorld(cx, cy) { var r = svg.getBoundingClientRect(); return { x: vb.x + (cx - r.left) / r.width * vb.w, y: vb.y + (cy - r.top) / r.height * vb.h }; }
     function zoomAt(w, f) { var nw = Math.min(Math.max(vb.w * f, world.w * 0.05), world.w); f = nw / vb.w; vb.x = w.x - (w.x - vb.x) * f; vb.y = w.y - (w.y - vb.y) * f; vb.w = nw; vb.h *= f; clamp(); apply(); }
-    var pts = new Map(), moved = 0, pinch = 0;
-    svg.addEventListener("pointerdown", function (e) { svg.setPointerCapture(e.pointerId); pts.set(e.pointerId, { x: e.clientX, y: e.clientY }); if (pts.size === 1) moved = 0; if (pts.size === 2) { var a = Array.from(pts.values()); pinch = Math.hypot(a[0].x - a[1].x, a[0].y - a[1].y); } });
-    svg.addEventListener("pointermove", function (e) { var p = pts.get(e.pointerId); if (!p) return; var r = svg.getBoundingClientRect(); if (pts.size === 1) { vb.x -= (e.clientX - p.x) * vb.w / r.width; vb.y -= (e.clientY - p.y) * vb.h / r.height; moved += Math.abs(e.clientX - p.x) + Math.abs(e.clientY - p.y); clamp(); apply(); } pts.set(e.pointerId, { x: e.clientX, y: e.clientY }); if (pts.size === 2) { var a = Array.from(pts.values()); var d = Math.hypot(a[0].x - a[1].x, a[0].y - a[1].y); if (pinch > 0 && d > 0) zoomAt(toWorld((a[0].x + a[1].x) / 2, (a[0].y + a[1].y) / 2), pinch / d); pinch = d; } });
-    function pe(e) { pts.delete(e.pointerId); pinch = 0; }
+    var pts = new Map(), moved = 0, pinch = 0, pinchMid = null;
+    // NB: capture only once a real drag starts — capturing on pointerdown retargets the
+    // synthesized click to the svg, and the stars never hear it (the enter-a-star bug).
+    svg.addEventListener("pointerdown", function (e) {
+      pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (pts.size === 1) moved = 0;
+      if (pts.size === 2) {
+        var a = Array.from(pts.values());
+        pinch = Math.hypot(a[0].x - a[1].x, a[0].y - a[1].y);
+        pinchMid = { x: (a[0].x + a[1].x) / 2, y: (a[0].y + a[1].y) / 2 };
+        // a pinch is a committed gesture: capture both fingers so it survives leaving the svg
+        pts.forEach(function (_, pid) { try { svg.setPointerCapture(pid); } catch (err) {} });
+        moved = 99;   // a pinch is never a click
+      }
+    });
+    svg.addEventListener("pointermove", function (e) {
+      var p = pts.get(e.pointerId); if (!p) return;
+      var r = svg.getBoundingClientRect();
+      if (pts.size === 1) {
+        vb.x -= (e.clientX - p.x) * vb.w / r.width; vb.y -= (e.clientY - p.y) * vb.h / r.height;
+        moved += Math.abs(e.clientX - p.x) + Math.abs(e.clientY - p.y);
+        if (moved > 4 && !svg.hasPointerCapture(e.pointerId)) { try { svg.setPointerCapture(e.pointerId); } catch (err) {} }
+        clamp(); apply();
+      }
+      pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (pts.size === 2) {
+        var a = Array.from(pts.values());
+        var d = Math.hypot(a[0].x - a[1].x, a[0].y - a[1].y);
+        var mid = { x: (a[0].x + a[1].x) / 2, y: (a[0].y + a[1].y) / 2 };
+        // the midpoint pans; the spread zooms — one gesture, both hands honest
+        if (pinchMid) { vb.x -= (mid.x - pinchMid.x) * vb.w / r.width; vb.y -= (mid.y - pinchMid.y) * vb.h / r.height; clamp(); apply(); }
+        if (pinch > 0 && d > 0) zoomAt(toWorld(mid.x, mid.y), pinch / d);
+        pinch = d; pinchMid = mid;
+      }
+    });
+    function pe(e) { pts.delete(e.pointerId); pinch = 0; pinchMid = null; }
     svg.addEventListener("pointerup", pe); svg.addEventListener("pointercancel", pe);
     svg.addEventListener("wheel", function (e) { e.preventDefault(); zoomAt(toWorld(e.clientX, e.clientY), e.deltaY > 0 ? 1.15 : 1 / 1.15); }, { passive: false });
     apply();
-    return { toWorld: toWorld, moved: function () { return moved; }, span: function () { return vb.w; },
+    function flyTo(cx, cy, span, ms) {
+      var t0 = { x: vb.x, y: vb.y, w: vb.w, h: vb.h };
+      var w1 = Math.min(Math.max(span, world.w * 0.02), world.w), h1 = w1 * (t0.h / t0.w);
+      var t1 = { x: cx - w1 / 2, y: cy - h1 / 2, w: w1, h: h1 }, start = null;
+      function step(ts) {
+        if (start === null) start = ts;
+        var k = Math.min(1, (ts - start) / (ms || 450));
+        k = k < 0.5 ? 2 * k * k : 1 - Math.pow(-2 * k + 2, 2) / 2;
+        vb.x = t0.x + (t1.x - t0.x) * k; vb.y = t0.y + (t1.y - t0.y) * k;
+        vb.w = t0.w + (t1.w - t0.w) * k; vb.h = t0.h + (t1.h - t0.h) * k;
+        clamp(); apply();
+        if (k < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    }
+    return { toWorld: toWorld, moved: function () { return moved; }, span: function () { return vb.w; }, flyTo: flyTo,
+             jumpTo: function (cx, cy, span) { var w1 = Math.min(Math.max(span, world.w * 0.02), world.w); var h1 = w1 * (vb.h / vb.w); vb = { x: cx - w1 / 2, y: cy - h1 / 2, w: w1, h: h1 }; clamp(); apply(); },
+             zoomBy: function (f) { flyTo(vb.x + vb.w / 2, vb.y + vb.h / 2, vb.w * f, 260); },
              reset: function () { vb = { x: home.x, y: home.y, w: home.w, h: home.h }; apply(); } };
   }
-  function setSky(sub, title, blurb, status) {
-    $("si-sp-cycle").textContent = sub || ""; $("si-sp-title").textContent = title || "";
-    $("si-sp-facet").textContent = ""; $("si-sp-blurb").textContent = blurb || ""; $("si-sp-status").textContent = status || "";
+  // --- continuous camera: views never cut, they arrive. A fade masks the svg swap;
+  // entering a system flies the camera into the star first, then dissolves inward.
+  function fadeSwap(fn) {
+    var m = $("si-map"); m.classList.add("si-fading");
+    setTimeout(function () { fn(); $("si-map").classList.remove("si-fading"); }, 170);
   }
-  function clearMemPanel() { $("si-rec-head").hidden = true; $("si-rec-head").textContent = "Open a memory"; $("si-entry-grid").innerHTML = ""; }
+  function enterSystem(s) {
+    // dive into the star until its glow owns the frame; the dissolve lands on the
+    // system's sun at the same visual scale — one light, resolving into a place
+    cosmos.lastStar = s;
+    if (cosmos.panzoom) cosmos.panzoom.flyTo(s.x, s.y, 26, 620);
+    setTimeout(function () { fadeSwap(function () { showSystem(s.system, "dive"); }); }, 380);
+  }
+  function leaveSystem() {
+    // the reverse: collapse into the sun, dissolve at the same scale, and the sky
+    // blooms back out from the star you left
+    var s = cosmos.lastStar;
+    if (cosmos.view !== "system" || !s || !cosmos.panzoom) { fadeSwap(function () { showGalaxy(); }); return; }
+    cosmos.panzoom.flyTo(0, 0, 110, 560);
+    setTimeout(function () { fadeSwap(function () { showGalaxy(s); }); }, 340);
+  }
+  var skyStream = { token: 0 };
+  function setSky(sub, title, blurb, status) {
+    // old glass: the name lands whole; the annotation streams in after it
+    var tok = ++skyStream.token;
+    $("si-sp-cycle").textContent = sub || "";
+    $("si-sp-title").textContent = title || "";
+    $("si-sp-facet").textContent = "";
+    var queue = [[$("si-sp-blurb"), blurb || ""], [$("si-sp-status"), status || ""]];
+    queue.forEach(function (q) { q[0].textContent = ""; });
+    var qi = 0, ci = 0;
+    function step() {
+      if (tok !== skyStream.token) return;
+      var n = 4;
+      while (n-- > 0 && qi < queue.length) {
+        var el = queue[qi][0], txt = queue[qi][1];
+        if (ci >= txt.length) { el.textContent = txt; qi++; ci = 0; continue; }
+        ci++; el.textContent = txt.slice(0, ci) + "▍";
+      }
+      if (qi < queue.length) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+  function clearMemPanel() {}   // memories live in the sky now — nothing to clear
 
   // --- what the catalogue holds, said plainly. Observation only: the Archive is a record
   // of what was seen, and it does not explain the things it cannot explain. ---
@@ -986,12 +1144,26 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
     }
   }
 
-  function showGalaxy() {
-    cosmos.view = "galaxy"; $("si-back-galaxy").hidden = true; clearMemPanel();
+  function showGalaxy(introStar) {
+    cosmos.view = "galaxy"; setBack(null); clearMemPanel();
     var svg = freshSvg();
     var W = STARS.bounds.w, H = STARS.bounds.h;
-    var pz = panZoom(svg, { x: 0, y: 0, w: W, h: H }, { x: W * 0.30, y: H * 0.28, w: W * 0.40, h: H * 0.44 });
+    // open on the charted region: frame the lit stars, not an arbitrary window
+    var litPre = (STARS.stars || []).filter(function (s) { return s.name && starShown(s); });
+    var home = { x: W * 0.30, y: H * 0.28, w: W * 0.40, h: H * 0.44 };
+    if (litPre.length) {
+      var x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+      litPre.forEach(function (s) { x0 = Math.min(x0, s.x); y0 = Math.min(y0, s.y); x1 = Math.max(x1, s.x); y1 = Math.max(y1, s.y); });
+      var hw = Math.min(W, Math.max((x1 - x0) * 1.5, W * 0.28)), hh = hw * 0.55;
+      home = { x: Math.min(Math.max((x0 + x1) / 2 - hw / 2, 0), W - hw),
+               y: Math.min(Math.max((y0 + y1) / 2 - hh / 2, 0), H - hh), w: hw, h: hh };
+    }
+    var pz = panZoom(svg, { x: 0, y: 0, w: W, h: H }, home);
     cosmos.panzoom = pz;
+    if (introStar && introStar.x != null) {
+      pz.jumpTo(introStar.x, introStar.y, 110);
+      pz.flyTo(home.x + home.w / 2, home.y + home.h / 2, home.w, 800);
+    }
     skyDefs(svg);
 
     // Anything can be clicked for what it is. Extended objects get a bigger catch radius.
@@ -1002,7 +1174,7 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
     // neither: quasars from outside the galaxy, and the five that nobody has accounted for.
     var gMilk = svgEl(svg, "g", { "class": "si-neb" }), gDeep = svgEl(svg, "g", {}),
         gField = svgEl(svg, "g", {}), gOdd = svgEl(svg, "g", {}), gFar = svgEl(svg, "g", {}),
-        gAnom = svgEl(svg, "g", {}), gLit = svgEl(svg, "g", {});
+        gAnom = svgEl(svg, "g", {}), gMesh = svgEl(svg, "g", {}), gLit = svgEl(svg, "g", {});
     milkyWay(svg, gMilk, W, H);
 
     (STARS.deep || []).forEach(function (d) {
@@ -1042,7 +1214,7 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
 
     var lit = [];
     STARS.stars.forEach(function (s) {
-      if (s.name && starLit(s)) { lit.push(s); return; }
+      if (s.name && starShown(s)) { lit.push(s); return; }
       var desc = describeStar(s);
       if (!s.kind || s.kind === "wd") {
         // ordinary stars — and the multiples most of them turn out to be. The companions sit
@@ -1154,9 +1326,33 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
       var t = svgEl(svg, "text", { x: s.x + 11, y: s.y + 4, "class": "si-starlabel" }, g); t.textContent = s.name;
       function info() { setSky("a charted system", s.name, s.note || "", s.system ? "Click to enter." : ""); }
       g.addEventListener("mouseenter", info);
-      g.addEventListener("click", function (e) { e.stopPropagation(); if (pz.moved() > 5) return; if (s.system && SYSTEMS[s.system]) showSystem(s.system); else info(); });
-      g.addEventListener("keydown", function (e) { if ((e.key === "Enter" || e.key === " ") && s.system) { e.preventDefault(); showSystem(s.system); } });
+      g.addEventListener("click", function (e) { e.stopPropagation(); if (pz.moved() > 5) return; if (s.system && SYSTEMS[s.system]) enterSystem(s); else info(); });
+      g.addEventListener("keydown", function (e) { if ((e.key === "Enter" || e.key === " ") && s.system) { e.preventDefault(); enterSystem(s); } });
     });
+
+    // ---- the mesh: the routes the books have lit. An edge draws only when BOTH of
+    // its stars are shown — the reader's mesh is a map of every book they've read.
+    var byId = {}; lit.forEach(function (s) { if (s.id) byId[s.id] = s; });
+    var edges = (STARS.routes || []).filter(function (r) { return byId[r.a] && byId[r.b]; });
+    var meshBtn = $("si-mesh-toggle");
+    function drawMesh() {
+      while (gMesh.firstChild) gMesh.removeChild(gMesh.firstChild);
+      if (!cosmos.mesh) return;
+      edges.forEach(function (r) {
+        var a = byId[r.a], b = byId[r.b];
+        var mx = (a.x + b.x) / 2, my = (a.y + b.y) / 2;
+        var dx = b.x - a.x, dy = b.y - a.y, len = Math.hypot(dx, dy) || 1;
+        var bow = Math.min(22, len * 0.08);                     // routes are never straight lines
+        var qx = mx - dy / len * bow, qy = my + dx / len * bow;
+        svgEl(svg, "path", { d: "M " + a.x + " " + a.y + " Q " + qx.toFixed(1) + " " + qy.toFixed(1) + " " + b.x + " " + b.y,
+                             "class": "si-mesh-edge" + (r.status === "dead" ? " si-mesh-edge--dead" : "") }, gMesh);
+      });
+    }
+    meshBtn.hidden = !edges.length;
+    meshBtn.setAttribute("aria-pressed", cosmos.mesh ? "true" : "false");
+    drawMesh();
+    cosmos.redrawMesh = drawMesh;
+    cosmos.meshEdges = edges.length;
 
     // click anything: nearest object wins, normalised by its own size so a nebula doesn't
     // swallow the stars inside it. The catch radius grows as you zoom out.
@@ -1175,6 +1371,7 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
       "Reading lights the stars that the books have named. Everything else is astronomy, and is " +
       "there whether or not anyone has written it down.",
       lit.length + (lit.length === 1 ? " system charted" : " systems charted") +
+      (edges.length ? " · " + edges.length + (edges.length === 1 ? " route" : " routes") + " on the mesh" : "") +
       " · drag to pan · scroll to zoom · click anything to see what it is.");
   }
 
@@ -1196,12 +1393,14 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
     return img;
   }
 
-  function showSystem(sysId) {
+  function showSystem(sysId, intro) {
     var sys = SYSTEMS[sysId]; if (!sys) { showGalaxy(); return; }
-    cosmos.view = "system"; $("si-back-galaxy").hidden = !galaxyUnlocked(); clearMemPanel();
+    cosmos.view = "system"; setBack(galaxyUnlocked() ? "sky" : null); $("si-mesh-toggle").hidden = true; clearMemPanel();
     var svg = freshSvg();
-    var R = 560, pz = panZoom(svg, { x: -R * 2.4, y: -R * 2.4, w: R * 4.8, h: R * 4.8 }, { x: -R * 1.2, y: -R * 1.2, w: R * 2.4, h: R * 2.4 });
+    var R = 560, home = intro === "dive" ? { x: -55, y: -55, w: 110, h: 110 } : { x: -R * 2.0, y: -R * 2.0, w: R * 4.0, h: R * 4.0 };
+    var pz = panZoom(svg, { x: -R * 2.4, y: -R * 2.4, w: R * 4.8, h: R * 4.8 }, home);
     cosmos.panzoom = pz;
+    pz.flyTo(0, 0, R * 2.4, intro === "dive" ? 800 : 450);   // bloom outward from the sun — arriving, not appearing
     var planets = (sys.bodies || []).filter(function (b) { return b.kind === "planet"; });
     var belts = (sys.bodies || []).filter(function (b) { return b.kind === "belt"; });
     var maxAu = 1; planets.forEach(function (p) { if (p.orbit && p.orbit.au > maxAu) maxAu = p.orbit.au; });
@@ -1221,6 +1420,30 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
       svgEl(svg, "circle", { cx: px.toFixed(1), cy: py.toFixed(1), r: pr.toFixed(1), fill: col, "class": "si-pbody" }, g);
       bodyArt(svg, g, px, py, pr, sysId, p.id);
       (p.moons || []).forEach(function (m, j) { var ma = ang + 1.1 + j * 0.9, mr = pr + 5 + j * 4; svgEl(svg, "circle", { cx: (px + Math.cos(ma) * mr).toFixed(1), cy: (py + Math.sin(ma) * mr).toFixed(1), r: 1.5, fill: "#dce6ff", "class": "si-moon" }, g); });
+      if (p.story && sys.system.star_ref) {
+        var mems = memoriesForStar(sys.system.star_ref);
+        mems.forEach(function (it, k) {
+          var mma = ang + 0.7 + k * (6.2832 / Math.max(mems.length, 3)), mmr = pr + 16 + (k % 2) * 6;
+          var mx = px + Math.cos(mma) * mmr, my = py + Math.sin(mma) * mmr;
+          var mote = svgEl(svg, "g", { "class": "si-mote" + (it.unlocked ? "" : " si-mote--sealed"), tabindex: "0", role: "button" });
+          mote.setAttribute("aria-label", it.unlocked ? "A recorded memory: " + it.mem.title : "A sealed memory");
+          svgEl(svg, "circle", { cx: mx.toFixed(1), cy: my.toFixed(1), r: 5.5, "class": "si-mote-halo" }, mote);
+          svgEl(svg, "circle", { cx: mx.toFixed(1), cy: my.toFixed(1), r: 1.5, "class": "si-mote-core" }, mote);
+          function tell() {
+            setSky("a recorded memory", it.unlocked ? it.mem.title : "Sealed",
+              it.unlocked ? (it.mem.frame || "") : "Read the chapter it belongs to, and this light opens.",
+              it.unlocked ? "Click the light to fly in." : "");
+          }
+          mote.addEventListener("mouseenter", tell);
+          mote.addEventListener("click", function (e) {
+            e.stopPropagation(); if (pz.moved() > 5) return;
+            if (!it.unlocked) { tell(); return; }
+            pz.flyTo(mx, my, 26, 620);
+            setTimeout(function () { openInhabit(it.sliceId, it.mem.id); }, 560);
+          });
+          mote.addEventListener("keydown", function (e) { if ((e.key === "Enter" || e.key === " ") && it.unlocked) { e.preventDefault(); openInhabit(it.sliceId, it.mem.id); } });
+        });
+      }
       var lbl = svgEl(svg, "text", { x: (px + pr + 5).toFixed(1), y: (py + 4).toFixed(1), "class": "si-planetlabel" }, g); lbl.textContent = p.name;
       function pick() { setPlanetPanel(sys, p); }
       g.addEventListener("mouseenter", pick);
@@ -1246,16 +1469,130 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
     if (ob.au) orb.push(ob.au + " AU");
     if (ob.period_yr) orb.push(ob.period_yr < 1 ? Math.round(ob.period_yr * 365) + "-day orbit" : ob.period_yr + "-yr orbit");
     if ((p.moons || []).length) orb.push(p.moons.length + (p.moons.length === 1 ? " moon" : " moons"));
-    $("si-sp-status").textContent = orb.join(" · ");
     if (p.story && sys.system.star_ref) {
       var list = memoriesForStar(sys.system.star_ref);
-      $("si-rec-head").hidden = !list.length; $("si-rec-head").textContent = "Memories of " + p.name;
-      renderMemories(list);
-    } else { clearMemPanel(); }
+      if (list.length) {
+        var open = list.filter(function (x) { return x.unlocked; }).length;
+        orb.push(list.length + (list.length === 1 ? " memory hangs" : " memories hang") + " in orbit — " +
+                 (open ? "click a light to step inside" : "sealed until their chapters are read"));
+      }
+    }
+    $("si-sp-status").textContent = orb.join(" · ");
   }
 
+  // ============================ SEARCH & ASK ==============================
+  // One box, upper left: type a star's name and the camera flies to it; ask a
+  // question and the Archive answers — from the charted record, nothing beyond it.
+  (function () {
+    var box = $("si-search"), results = $("si-search-results");
+    if (!box) return;
+    var activeIdx = -1, rows = [], debounce = null;
+    function namedStars() { return (STARS.stars || []).filter(function (s) { return s.name && starShown(s); }); }
+    function close() { results.hidden = true; results.innerHTML = ""; rows = []; activeIdx = -1; }
+    function goTo(s) {
+      close(); box.blur();
+      if (cosmos.view !== "galaxy") { fadeSwap(showGalaxy); setTimeout(function () { flyAndTell(s); }, 300); }
+      else flyAndTell(s);
+    }
+    function flyAndTell(s) {
+      if (cosmos.panzoom) cosmos.panzoom.flyTo(s.x, s.y, Math.max((STARS.bounds.w || 2000) * 0.14, 240));
+      setSky("a charted system", s.name, s.note || "", s.system ? "Click the star to enter its system." : "");
+    }
+    function renderRows(list) {
+      results.innerHTML = ""; rows = []; activeIdx = -1;
+      list.forEach(function (s) {
+        var r = document.createElement("button");
+        r.type = "button"; r.className = "si-sr-row";
+        r.innerHTML = "<span></span><span class=\"si-sr-note\"></span>";
+        r.firstChild.textContent = s.name;
+        r.lastChild.textContent = s.note || "a charted system";
+        r.addEventListener("click", function () { goTo(s); });
+        results.appendChild(r); rows.push({ el: r, star: s });
+      });
+      results.hidden = !list.length;
+    }
+    function matches(q) {
+      q = q.toLowerCase();
+      return namedStars().filter(function (s) {
+        return s.name.toLowerCase().indexOf(q) === 0 || s.name.toLowerCase().indexOf(q) >= 0 ||
+               (s.note || "").toLowerCase().indexOf(q) >= 0;
+      }).slice(0, 7);
+    }
+    function showAnswer(text, note) {
+      results.innerHTML = "";
+      var a = document.createElement("div"); a.className = "si-sr-answer";
+      a.textContent = text;
+      if (note) { var n = document.createElement("span"); n.className = "si-sr-note"; n.textContent = note; a.appendChild(n); }
+      results.appendChild(a); results.hidden = false;
+    }
+    async function askArchive(q) {
+      if (!getKey()) { openSettings(); return; }
+      showAnswer("…", "the Archive is consulting its record");
+      var lit = namedStars();
+      var ctx = "The charted record:\n" + (lit.length ? lit.map(function (s) {
+        return "- " + s.name + " (class " + s.cls + ")" + (s.note ? " — " + s.note : "");
+      }).join("\n") : "- nothing is charted yet");
+      try {
+        var resp = await fetch(API_URL, {
+          method: "POST",
+          headers: { "content-type": "application/json", "x-api-key": getKey(), "anthropic-version": "2023-06-01", "anthropic-dangerous-direct-browser-access": "true" },
+          body: JSON.stringify({
+            model: resolveModelId(), max_tokens: 300,
+            system: "You are the Archive of the Memory of Stars — an old, courteous catalogue that " +
+              "speaks plainly and briefly, in complete sentences, never in hype. Answer ONLY from the " +
+              "charted record below plus ordinary astronomy. If the record holds no answer, say so in " +
+              "one line: the Archive does not guess. Never invent names, places, or events. Under 120 words.\n\n" + ctx,
+            messages: [{ role: "user", content: q }]
+          })
+        });
+        var data = await resp.json();
+        if (!resp.ok) throw new Error((data.error && data.error.message) || ("HTTP " + resp.status));
+        var text = (data.content || []).filter(function (b) { return b.type === "text"; }).map(function (b) { return b.text; }).join("");
+        showAnswer(text || "The Archive returned silence.", "the Archive · from the charted record");
+      } catch (err) {
+        showAnswer("The Archive could not answer: " + ((err && err.message) || err), "check Settings if this persists");
+      }
+    }
+    box.addEventListener("input", function () {
+      clearTimeout(debounce);
+      var q = box.value.trim();
+      if (!q) { close(); return; }
+      debounce = setTimeout(function () { renderRows(matches(q)); }, 120);
+    });
+    box.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") { close(); box.blur(); return; }
+      if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+        if (!rows.length) return;
+        e.preventDefault();
+        activeIdx = (activeIdx + (e.key === "ArrowDown" ? 1 : rows.length - 1)) % rows.length;
+        rows.forEach(function (r, i) { r.el.classList.toggle("si-sr-active", i === activeIdx); });
+        return;
+      }
+      if (e.key !== "Enter") return;
+      e.preventDefault();
+      var q = box.value.trim(); if (!q) return;
+      if (activeIdx >= 0 && rows[activeIdx]) { goTo(rows[activeIdx].star); return; }
+      var m = matches(q);
+      var exact = m.find(function (s) { return s.name.toLowerCase() === q.toLowerCase(); });
+      if (exact) { goTo(exact); return; }
+      if (m.length && !/\?\s*$/.test(q) && q.length < 14) { goTo(m[0]); return; }
+      askArchive(q);
+    });
+    document.addEventListener("click", function (e) {
+      if (!e.target.closest || !e.target.closest(".si-search")) close();
+    });
+  })();
+
   if ($("si-map-reset")) $("si-map-reset").addEventListener("click", function () { if (cosmos.panzoom) cosmos.panzoom.reset(); });
-  if ($("si-back-galaxy")) $("si-back-galaxy").addEventListener("click", showGalaxy);
+  if ($("si-zoom-in")) $("si-zoom-in").addEventListener("click", function () { if (cosmos.panzoom) cosmos.panzoom.zoomBy(1 / 1.45); });
+  if ($("si-zoom-out")) $("si-zoom-out").addEventListener("click", function () { if (cosmos.panzoom) cosmos.panzoom.zoomBy(1.45); });
+  if ($("si-back-galaxy")) $("si-back-galaxy").addEventListener("click", function () { if (cosmos.back) cosmos.back(); });
+  if ($("si-mesh-toggle")) $("si-mesh-toggle").addEventListener("click", function () {
+    cosmos.mesh = !cosmos.mesh;
+    try { localStorage.setItem("mos_mesh", cosmos.mesh ? "1" : "0"); } catch (e) {}
+    this.setAttribute("aria-pressed", cosmos.mesh ? "true" : "false");
+    if (cosmos.redrawMesh) cosmos.redrawMesh();
+  });
 
   function buildMap() {
     var idx = window.SI_INDEX_FULL || window.SI_INDEX, svg = $("si-map");
@@ -1466,7 +1803,7 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
   function updateResolved() { var el = $("si-model-resolved"); if (el) el.textContent = previewModelId(); }
   modelSel.addEventListener("change", function () { $("si-model-hint").textContent = MODELS[modelSel.value].hint; updateResolved(); });
   $("si-model-custom").addEventListener("input", updateResolved);
-  function openSettings() { $("si-key").value = getKey(); $("si-model-custom").value = localStorage.getItem(LS.custom) || ""; buildModelOptions(); updateResolved(); modal.hidden = false; setTimeout(function () { $("si-key").focus(); }, 30); }
+  function openSettings() { $("si-key").value = getKey(); $("si-model-custom").value = localStorage.getItem(LS.custom) || ""; buildModelOptions(); updateResolved(); modal.hidden = false; setTimeout(function () { $("si-key").focus({ preventScroll: true }); }, 30); }
   function closeSettings() { modal.hidden = true; }
   $("si-save").addEventListener("click", function () {
     var k = $("si-key").value.trim(); if (k) localStorage.setItem(LS.key, k); else localStorage.removeItem(LS.key);
@@ -1497,11 +1834,16 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
     var list = raw.map(function (it) { return { sliceId: it.sliceId, mem: it.mem, unlocked: memUnlocked(star, it.mem, all) }; });
     var openable = list.filter(function (x) { return x.unlocked; });
     if (openable.length === 1) { openInhabit(openable[0].sliceId, openable[0].mem.id); return; }
-    renderMemories(list);
-    var h = $("si-rec-head"); if (h) { h.hidden = false; h.scrollIntoView({ behavior: "smooth" }); }
+    var st = (STARS.stars || []).find(function (s2) { return s2.id === star || (s2.refs || []).indexOf(star) >= 0; });
+    if (st && st.system && SYSTEMS[st.system]) showSystem(st.system); else showDefault();
   }
 
   // ---- boot ----
+  // the page always starts at the top: no restored scroll from a previous visit,
+  // and nothing below the map gets to steal the first frame
+  if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+  window.scrollTo(0, 0);
+  $("si-home-link").href = (window.SI_BASEURL || "") + "/";
   showDefault(); buildModelOptions();
   var params = new URLSearchParams(location.search);
   var openParam = params.get("open"), atParam = params.get("at");

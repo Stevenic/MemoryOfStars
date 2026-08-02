@@ -73,7 +73,7 @@ bodies:
     kind: planet
     order: 1
     common: "the Cinder"
-    orbit: { au: 0.31, period_yr: 0.17, ecc: 0.05, tilt_deg: 3 }
+    orbit: { au: 0.31, period_yr: 0.18, ecc: 0.05, tilt_deg: 3 }
     phys:
       radius_e: 0.42
       mass_e: 0.06

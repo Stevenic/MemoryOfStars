@@ -1,0 +1,130 @@
+# =============================================================================
+# THE HEARTH SYSTEM — an old red dwarf and three small planets.
+# Data-first worldbuilding in the Auros-exemplar format (docs/_data/system-orin.yml).
+# Believable hard-SF (obeys the foundation: known physics, no contradictions). Orbits
+# are Kepler-honest (period = √(a³/M) around a 0.23-solar-mass star); stats are
+# Earth-relative where marked (_e = Earth = 1, _g = Earth gravity = 1). No settled
+# world; nobody lives here to name the bodies, so they carry catalog designations.
+# Notes describe what is observed, never what it means. Each body carries an
+# `art.prompt` for gpt-image-2 (scripts/gen-art.py); generated stills land in
+# docs/assets/art/hearth-system/<id>.png.
+#
+# READ-TO-REVEAL: this file lives bible-side until its book publishes; then it is
+# copied to docs/_data/ and its star added to stars-named.yml (see systems/README.md).
+# NOTE: astronomy only. The ancient temporal-transmitter mesh (which will one day
+# overlay the galaxy map) is PRIVATE roadmap and must NOT appear here.
+# =============================================================================
+
+system:
+  id: hearth-system
+  name: "The Hearth System"
+  star_ref: book-29                 # the galaxy star that is Hearth (ties to the map)
+  summary: >
+    An old, dim, metal-poor red dwarf with three small planets on near-circular,
+    near-coplanar orbits, all inside two-thirds of an astronomical unit. No giant
+    planets, no resolved belt, no detected activity cycle. The innermost planet keeps
+    a thin remnant atmosphere and a temperate band along its terminator. In every
+    catalog sense the system is unremarkable.
+  view:
+    au_span: 0.7                    # outer edge to render (AU); Hearth d sits near this
+    tilt_deg: 16                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: hearth
+    name: "Hearth"
+    role: primary
+    common: null                    # a roll-name only; no one lives here to call it anything
+    spectral: "M4 V"
+    stats:
+      mass_sol: 0.23
+      radius_sol: 0.26
+      temp_k: 3150
+      luminosity_sol: 0.006
+      color: "dim ember red"
+      age_gyr: 11.4
+      metallicity_fe_h: -0.52       # metal-poor; an old star
+      activity: "very quiet — flare rate well below the median for its class"
+    palette: ["#c95a44", "#9a3a28", "#5e2418"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of a small, dim red-dwarf star (M-class, ~3150K)
+        against deep black space: a smooth ember-red photosphere, almost unspotted,
+        no flares, a very thin corona, the surrounding starfield sparse. Scientific,
+        understated, quiet astronomy. No lens flare kitsch.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: hearth-b
+    name: "Hearth b"
+    kind: planet
+    order: 1
+    common: null
+    orbit: { au: 0.08, period_yr: 0.047, ecc: 0.01, tilt_deg: 1 }
+    phys:
+      radius_e: 0.6
+      mass_e: 0.15
+      gravity_g: 0.42
+      day_hr: 414                   # tide-locked; day = year (a 17.2-day round)
+      mean_temp_c: -22
+      atmosphere: "thin remnant CO₂/N₂ (~0.04 bar); temperate only along the terminator"
+    palette: ["#8a7d70", "#5e544a", "#332d27"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small worn grey-brown rocky world seen from orbit, tide-locked to a dim red
+        star: a dull warm-lit dayside of old shallow craters, a black nightside, and
+        along the unmoving terminator a band of long shadows and low frost. A thin
+        haze-line of atmosphere at the limb, no clouds to speak of. Photoreal,
+        scientific, quiet astronomy.
+
+  - id: hearth-c
+    name: "Hearth c"
+    kind: planet
+    order: 2
+    common: null
+    orbit: { au: 0.21, period_yr: 0.2, ecc: 0.01, tilt_deg: 2 }
+    phys:
+      radius_e: 0.82
+      mass_e: 0.48
+      gravity_g: 0.71
+      day_hr: 1759                  # tide-locked; day = year (a 73-day round)
+      mean_temp_c: -118
+      atmosphere: "none detected; CO₂ frost observed on the nightside"
+    palette: ["#7d7a75", "#55524e", "#2d2b28"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A mid-sized grey rocky world seen from orbit, far enough from its dim red star
+        that the light lies long and low: pale frost sheets on the dark hemisphere,
+        bare regolith on the lit one, crater rims throwing long shadows across the
+        terminator. No atmosphere visible. Photoreal, scientific, still and cold.
+
+  - id: hearth-d
+    name: "Hearth d"
+    kind: planet
+    order: 3
+    common: null
+    orbit: { au: 0.52, period_yr: 0.78, ecc: 0.02, tilt_deg: 1 }
+    phys:
+      radius_e: 0.44
+      mass_e: 0.04
+      gravity_g: 0.21
+      day_hr: 31
+      mean_temp_c: -175
+      atmosphere: "none"
+    palette: ["#8a8f94", "#5e6266", "#33363a"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small ice-and-rock world at the outer edge of a dim red dwarf's small system,
+        lit like late dusk: smooth grey water-ice plains, a few sharp young craters,
+        long soft shadows, the star a mere ember point. No atmosphere, no moons.
+        Photoreal, scientific, remote and unremarkable.

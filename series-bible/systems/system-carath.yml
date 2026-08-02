@@ -1,0 +1,275 @@
+# =============================================================================
+# THE VOSS SYSTEM — Carath's home solar system
+# Data-first worldbuilding for the explorable "system view" of the Archive/star map.
+# Believable hard-SF (obeys the foundation: known physics, no contradictions). Orbits
+# are to scale-ish (period ≈ √(a³/M) around a 1.12-solar-mass F star); stats are
+# Earth-relative where marked (_e = Earth = 1, _g = Earth gravity = 1). Not all bodies
+# touch the story — the system should feel real. Each body carries an `art.prompt` for
+# gpt-image-2 (scripts/gen-art.py); generated stills land in
+# docs/assets/art/carath-system/<id>.png.
+#
+# READ-TO-REVEAL: lives bible-side; copies to docs/_data when its book publishes
+# (Book 10, *Where the Names Go*) and Voss joins stars-named.yml.
+#
+# NOTE: astronomy only. The ancient temporal-transmitter mesh (which will one day overlay
+# the galaxy map) is PRIVATE roadmap and must NOT appear here.
+# =============================================================================
+
+system:
+  id: carath-system
+  name: "The Voss System"
+  star_ref: book-10                 # the galaxy star that is Voss (ties to the map)
+  summary: >
+    A bright, wide system around a white-gold F star, busier-lit than most skies and
+    carrying more worlds than most rolls bother to count. One living world — Carath,
+    third out, warm and crowded with towns. Beyond it a fallow rust world, a ground-rock
+    belt, a great ringed wagon of a gas giant, a blue-black ice giant, and far out where
+    the light gives up, a dwarf of old snow. A system with room in it, and traffic to
+    fill the room.
+  view:
+    au_span: 25                     # outer edge to render (AU); Firn sits near this
+    tilt_deg: 16                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: voss
+    name: "Voss"
+    role: primary
+    common: "the Sun (to Carath, simply 'the sun' — whiter and harder than most)"
+    spectral: "F9 V"
+    stats:
+      mass_sol: 1.12
+      radius_sol: 1.17
+      temp_k: 6050
+      luminosity_sol: 1.65
+      color: "white-gold, bright"
+      age_gyr: 3.4
+    palette: ["#fdf6dc", "#f7e8ac", "#ecd07a", "#d3a94a"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of a bright white-gold main-sequence star (late-F,
+        ~6050K) filling most of the frame against deep black space: a hard pale-gold
+        granulated photosphere, few and small starspots, crisp prominences at the limb,
+        a clean bright corona. Harder and whiter than the sun. Scientific, cinematic,
+        no lens flare kitsch. Believable stellar astronomy.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: kiln
+    name: "Kiln"
+    kind: planet
+    order: 1
+    common: "the Anvil"
+    orbit: { au: 0.36, period_yr: 0.20, ecc: 0.08, tilt_deg: 4 }
+    phys:
+      radius_e: 0.38
+      mass_e: 0.055
+      gravity_g: 0.38
+      day_hr: 1030                  # tide-slowed; a long hammered day
+      mean_temp_c: 460
+      atmosphere: "none (baked off)"
+    palette: ["#8a7462", "#5c4a3c", "#332822", "#c9a468"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small scorched airless rocky world seen from orbit, close in under a hard
+        white-gold sun: dense cratering, glassy lava plains, a searing overexposed
+        dayside and a knife-edge black terminator, no atmosphere. Mercury-like but
+        lit whiter and harsher. Photoreal, scientific, brutal. Black star-strewn
+        space behind.
+
+  - id: scald
+    name: "Scald"
+    kind: planet
+    order: 2
+    common: "the Kettle"
+    orbit: { au: 0.68, period_yr: 0.53, ecc: 0.02, tilt_deg: 1 }
+    phys:
+      radius_e: 1.12
+      mass_e: 1.4
+      gravity_g: 1.12
+      day_hr: 3100                  # slow spin under a heavy sky
+      mean_temp_c: 340
+      atmosphere: "thick CO₂ + sulphur haze (opaque, boiling)"
+    palette: ["#f2e0b0", "#dcbb7a", "#b58a4c", "#87602f"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cloud-drowned hothouse world seen from orbit under a bright white-gold sun:
+        an unbroken deck of cream and pale-brass sulphur clouds rolling in slow boiling
+        cells, no surface visible, a hard bright limb and a soft golden terminator.
+        Venus-like but lit whiter. Photoreal, scientific, airless dread over endless
+        cloud.
+
+  - id: carath
+    name: "Carath"
+    kind: planet
+    order: 3
+    common: "the World / home"
+    story: >
+      Carath is the living hub world of *Where the Names Go* (and the crossroads
+      behind Book 9's frontier) — the city of squares, and above its oldest quarter
+      the Hall of Rolls.
+    orbit: { au: 1.26, period_yr: 1.34, ecc: 0.012, tilt_deg: 21 }
+    phys:
+      radius_e: 1.09
+      mass_e: 1.25
+      gravity_g: 1.05
+      day_hr: 22.4
+      mean_temp_c: 15
+      atmosphere: "breathable (N₂/O₂), temperate"
+    palette: ["#38678a", "#6a9158", "#d9c27e", "#f2f4f8"]
+    moons:
+      - id: tally
+        name: "Tally"
+        common: "the Count"
+        radius_e: 0.27
+        orbit_days: 29
+        note: "One bright moon whose steady count keeps the market-calendars of a hundred towns; on Carath you tally by it."
+    art:
+      size: "1024x1024"
+      prompt: >
+        A living temperate world seen from orbit under a bright white-gold sun: blue
+        continental-shelf seas, broad green and tawny continents veined with rivers,
+        dense scatterings of grey-gold town-glints along the coasts and valleys, white
+        weather in long fronts, small polar caps. One pale cratered moon in the black
+        star-strewn sky. Earthlike but busier, warmer-toned, plainly long-settled;
+        photoreal, scientific, prosperous and bright. Soft rim light on the limb.
+
+  - id: marl
+    name: "Marl"
+    kind: planet
+    order: 4
+    common: "the Fallow"
+    orbit: { au: 2.1, period_yr: 2.88, ecc: 0.07, tilt_deg: 22 }
+    phys:
+      radius_e: 0.49
+      mass_e: 0.09
+      gravity_g: 0.37
+      day_hr: 25.8
+      mean_temp_c: -60
+      atmosphere: "thin CO₂ (cold, dry)"
+    palette: ["#a8785a", "#7d5640", "#c9a97e", "#e8ddd0"]
+    moons:
+      - id: fleck
+        name: "Fleck"
+        radius_e: 0.02
+        orbit_days: 1.1
+        note: "A chip of dark rock, close and quick; blink and you file it under stars."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cold dry ochre world seen from orbit: pale marl-and-umber plains scored with
+        dust-streaks, low worn ranges, frost whitening the floors of old basins, thin
+        bright polar ice, the barest skin of atmosphere at the limb. Mars-like but
+        chalkier, softer-toned. One tiny dark moon as a speck. Photoreal, scientific,
+        patient and empty.
+
+  - id: grist
+    name: "The Grist"
+    kind: belt
+    order: 5
+    common: "the Grist (ground rock; the millstones never met a world here)"
+    orbit: { au_inner: 3.1, au_outer: 4.3 }
+    story: null
+    art: null                       # rendered as a ring of specks, not a still
+
+  - id: wain
+    name: "Wain"
+    kind: planet
+    order: 6
+    common: "the Wain (a wagon of a planet; its rings show in any honest glass)"
+    orbit: { au: 5.6, period_yr: 12.5, ecc: 0.04, tilt_deg: 2 }
+    phys:
+      radius_e: 11.1
+      mass_e: 310
+      gravity_g: 2.5
+      day_hr: 9.8
+      mean_temp_c: -125
+      atmosphere: "hydrogen/helium gas giant, banded"
+    rings: true
+    moons:
+      - id: cotter
+        name: "Cotter"
+        radius_e: 0.09
+        orbit_days: 1.9
+        note: "A pin of a moon, small and fast, holding the inner ring-edge sharp."
+      - id: withy
+        name: "Withy"
+        radius_e: 0.24
+        orbit_days: 4.8
+        note: "A pale ice moon, cracked in long withy-weave ridges; refrozen more than once."
+      - id: cob
+        name: "Cob"
+        radius_e: 0.29
+        orbit_days: 12.6
+        note: "A dark, round, heavy moon, cratered and quiet; the big horse of the team."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A great banded gas giant seen from orbit, three-quarter lit by a bright
+        white-gold sun: broad cream, wheat and slate cloud bands, a chain of small
+        pale storm-ovals, and a wide bright ring system tilted across the frame,
+        crisp-edged, laying a hard shadow line on the cloud tops. Two or three small
+        moons as points nearby. Saturn-like grandeur in its own colours. Photoreal,
+        majestic, scientific.
+
+  - id: sloe
+    name: "Sloe"
+    kind: planet
+    order: 7
+    common: "the Blue"
+    orbit: { au: 11.2, period_yr: 35.4, ecc: 0.03, tilt_deg: 26 }
+    phys:
+      radius_e: 4.3
+      mass_e: 19
+      gravity_g: 1.03
+      day_hr: 15.6
+      mean_temp_c: -190
+      atmosphere: "hydrogen/methane ice giant"
+    moons:
+      - id: haw
+        name: "Haw"
+        radius_e: 0.11
+        orbit_days: 7.4
+        note: "Sloe and Haw — hedge-fruit names off one settler's tongue; the small red-grey moon rides its dark blue planet like the berry beside the fruit."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A deep blue-black ice giant seen from orbit, far from a bright pinpoint sun:
+        a sloe-dark methane atmosphere with faint slate bands and one high white
+        streak of cloud, a dim thin ring arc, cold specular limb light. Neptune-like
+        but darker, almost fruit-black. One small grey moon nearby. Photoreal,
+        scientific, remote and cold.
+
+  - id: firn
+    name: "Firn"
+    kind: planet
+    order: 8
+    common: "the Old Snow"
+    orbit: { au: 23.5, period_yr: 108, ecc: 0.21, tilt_deg: 15 }
+    phys:
+      radius_e: 0.16
+      mass_e: 0.0025
+      gravity_g: 0.10
+      day_hr: 88
+      mean_temp_c: -220
+      atmosphere: "trace (frozen most of its orbit)"
+    moons: []
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A tiny frozen dwarf world at the far edge of a system, lit by a brilliant but
+        distant pinpoint sun: plains of old compacted snow-ice, grey-white and faintly
+        blue in the hollows, dark rubble ridges, long low light raking the surface, no
+        atmosphere. Pluto-like, small and clean and forgotten. Photoreal, scientific,
+        lonely.

@@ -1,0 +1,268 @@
+# =============================================================================
+# THE LOAM SYSTEM — Moss's home solar system
+# Data-first worldbuilding for the explorable "system view" of the Archive/star map.
+# Believable hard-SF (obeys the foundation: known physics, no contradictions). Orbits
+# are to scale-ish (period ≈ √(a³/M) around a 0.98-solar-mass star); stats are
+# Earth-relative where marked (_e = Earth = 1, _g = Earth gravity = 1). Not all bodies
+# touch the story — the system should feel real. Each body carries an `art.prompt` for
+# gpt-image-2 (scripts/gen-art.py); stills will land in docs/assets/art/moss-system/<id>.png.
+#
+# READ-TO-REVEAL: this file lives bible-side (series-bible/systems/) until Book 21
+# publishes; then it is copied to docs/_data/ and Loam joins stars-named.yml. Until
+# then, nothing on the site references it.
+#
+# NOTE: astronomy only. The ancient temporal-transmitter mesh (which will one day overlay
+# the galaxy map) is PRIVATE roadmap and must NOT appear here.
+#
+# The joke the surveyors never got to make: there is nothing to flag here. One plain
+# yellow star, tidy circular orbits, one thin belt, one green world. The Loam system
+# is ordinary the way a field is ordinary — and that is the whole of what this file knows.
+# =============================================================================
+
+system:
+  id: moss-system
+  name: "The Loam System"
+  star_ref: book-21                 # the galaxy star that is Loam (ties to the map)
+  summary: >
+    A system that would pass any survey unflagged: a plain yellow main-sequence star,
+    seven planets in near-circular orbits, a thin scattered belt, no resonances, no
+    excesses. Its one living world — Moss — is green, damp, mild, and good-soiled, and
+    remarkable in no measurable way. The settlers named the bodies the way they named
+    their fields, and the names fit.
+  view:
+    au_span: 17                     # outer edge to render (AU); Peat sits near this
+    tilt_deg: 16                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: loam
+    name: "Loam"
+    role: primary
+    common: "the Sun (to Moss, simply 'the sun')"
+    spectral: "G4 V"
+    stats:
+      mass_sol: 0.98
+      radius_sol: 0.97
+      temp_k: 5680
+      luminosity_sol: 0.88
+      color: "plain yellow-white"
+      age_gyr: 5.6
+    palette: ["#fff3c9", "#ffe08a", "#f0c25e", "#c98f38"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of an utterly ordinary yellow main-sequence star (mid-G,
+        ~5700K) filling most of the frame against deep black space: even granulated
+        photosphere, one modest starspot group, quiet prominences at the limb, faint
+        corona. Nothing dramatic — a working sun, steady and unremarkable. Scientific,
+        cinematic, no lens flare kitsch. Believable stellar astronomy.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: kiln
+    name: "Kiln"
+    kind: planet
+    order: 1
+    common: "the Spark"
+    orbit: { au: 0.39, period_yr: 0.25, ecc: 0.08, tilt_deg: 2 }
+    phys:
+      radius_e: 0.45
+      mass_e: 0.08
+      gravity_g: 0.40
+      day_hr: 1600                  # tide-dragged; a long baking day
+      mean_temp_c: 330
+      atmosphere: "none"
+    palette: ["#8a7360", "#5c4a3c", "#332a24"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small scorched airless rocky world seen from orbit, close to a plain yellow sun:
+        cratered grey-brown surface fired like old brick, long shadow-filled scarps, a hard
+        black terminator, no atmosphere, no clouds. Mercury-like, kiln-baked. Photoreal,
+        scientific, stark. Black star-strewn space behind.
+
+  - id: haze
+    name: "Haze"
+    kind: planet
+    order: 2
+    common: "the Pearl (a soft bright morning and evening star over Moss)"
+    orbit: { au: 0.70, period_yr: 0.59, ecc: 0.01, tilt_deg: 3 }
+    phys:
+      radius_e: 0.95
+      mass_e: 0.85
+      gravity_g: 0.94
+      day_hr: 4700                  # slow spin under an opaque sky
+      mean_temp_c: 245
+      atmosphere: "thick CO₂ with high pale haze (opaque)"
+    palette: ["#f2e2b8", "#dcc088", "#ad8a52"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cloud-shrouded hothouse world seen from orbit: a smooth unbroken shell of pale
+        cream and bone-white haze, faint slow swirls, no surface ever visible, a soft
+        pearly terminator. Venus-like but paler, gentler-looking than it is. Photoreal,
+        scientific, serene and unreadable.
+
+  - id: moss
+    name: "Moss"
+    kind: planet
+    order: 3
+    common: "the World / home"
+    story: >
+      The living world Books 21–25 walk: mild, damp, mossy in its temperate belts,
+      good-soiled in its lowlands — an ordinary green colony world, by every measure
+      a world like any other. Its ordinariness is the truest thing the surveys recorded.
+    orbit: { au: 0.98, period_yr: 0.98, ecc: 0.02, tilt_deg: 21 }
+    phys:
+      radius_e: 0.99
+      mass_e: 0.97
+      gravity_g: 0.99
+      day_hr: 24.9
+      mean_temp_c: 11
+      atmosphere: "breathable (N₂/O₂), temperate, damp"
+    palette: ["#4a7a56", "#6f9a63", "#8fa3ad", "#e9edf2"]
+    moons:
+      - id: cob
+        name: "Cob"
+        common: "the Loaf"
+        radius_e: 0.25
+        orbit_days: 26
+        note: "One round pale moon, risen like a loaf; its phases set Moss's months and market days."
+    art:
+      size: "1024x1024"
+      prompt: >
+        A living temperate world seen from orbit, lit by a plain yellow sun: green
+        continents softened everywhere by moss and meadow, slow rivers, broad shallow
+        gulfs, long grey-white weather fronts trailing rain, modest ice caps. One round
+        pale moon in the black star-strewn sky. Earthlike but gentler — no great ranges,
+        no deserts, nothing extreme; a world like a well-kept field. Photoreal, scientific,
+        quietly beautiful. Soft rim light on the limb.
+
+  - id: fallow
+    name: "Fallow"
+    kind: planet
+    order: 4
+    common: "the Winter Field"
+    orbit: { au: 1.6, period_yr: 2.04, ecc: 0.07, tilt_deg: 22 }
+    phys:
+      radius_e: 0.55
+      mass_e: 0.12
+      gravity_g: 0.40
+      day_hr: 25.8
+      mean_temp_c: -60
+      atmosphere: "thin CO₂ (cold, dry)"
+    palette: ["#a08a6f", "#7a6a54", "#cfc4ae"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cold dun-and-grey desert world seen from orbit: frost-paled plains the colour of
+        turned winter earth, dark old lava flows, thin bright polar ice, a few high wisps
+        of cloud in a sky-thin atmosphere. Mars-like but browner, quieter, a field left
+        fallow. No moons. Photoreal, scientific, austere.
+
+  - id: belt
+    name: "The Grist"
+    kind: belt
+    order: 5
+    common: "the Grist (a thin scatter, like grain spilled at the mill)"
+    orbit: { au_inner: 2.3, au_outer: 3.2 }
+    story: null
+    art: null                       # rendered as a ring of specks, not a still
+
+  - id: grange
+    name: "Grange"
+    kind: planet
+    order: 6
+    common: "the Great Light (brightest wanderer in Moss's evening sky)"
+    orbit: { au: 5.0, period_yr: 11.3, ecc: 0.04, tilt_deg: 2 }
+    phys:
+      radius_e: 10.1
+      mass_e: 240
+      gravity_g: 2.35
+      day_hr: 9.8
+      mean_temp_c: -150
+      atmosphere: "hydrogen/helium gas giant, banded"
+    palette: ["#e3cf9e", "#c9a96a", "#8f6f4a", "#6b5a48"]
+    moons:
+      - id: pease
+        name: "Pease"
+        radius_e: 0.24
+        orbit_days: 2.8
+        note: "A close bright ice moon, resurfaced smooth; it crosses Grange's face in a night."
+      - id: tare
+        name: "Tare"
+        radius_e: 0.20
+        orbit_days: 5.9
+        note: "A grey cratered moon, the weed among the crop, tumbled and scarred."
+      - id: awn
+        name: "Awn"
+        radius_e: 0.14
+        orbit_days: 13.7
+        note: "A far thin-frosted moon, bristle-cracked along one hemisphere."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A great banded gas giant seen from orbit, three-quarter lit by a distant yellow
+        sun: broad calm bands of wheat-gold, cream and umber, a few small oval storms, no
+        rings to speak of. Two or three small moons as points nearby. Jupiter-like but
+        mellower, a barn of a planet. Photoreal, majestic, scientific.
+
+  - id: rime
+    name: "Rime"
+    kind: planet
+    order: 7
+    common: "the Frost"
+    orbit: { au: 9.6, period_yr: 30.0, ecc: 0.03, tilt_deg: 26 }
+    phys:
+      radius_e: 3.8
+      mass_e: 17
+      gravity_g: 1.18
+      day_hr: 16.4
+      mean_temp_c: -195
+      atmosphere: "hydrogen/methane ice giant"
+    palette: ["#9fc4bc", "#6f9a96", "#4a6f70"]
+    moons:
+      - id: hoar
+        name: "Hoar"
+        radius_e: 0.12
+        orbit_days: 6.5
+        note: "A white-furred moon, every crater rim feathered with frost."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A serene ice-giant world seen from orbit: a pale glaucous blue-green methane
+        atmosphere, faint whiter bands, one small bright cloud streak, no rings. One small
+        white-frosted moon. Neptune-like, cold and quiet as a winter morning. Photoreal,
+        scientific, still.
+
+  - id: peat
+    name: "Peat"
+    kind: planet
+    order: 8
+    common: "the Far Dark"
+    orbit: { au: 15.5, period_yr: 61.6, ecc: 0.18, tilt_deg: 14 }
+    phys:
+      radius_e: 0.16
+      mass_e: 0.0025
+      gravity_g: 0.10
+      day_hr: 118
+      mean_temp_c: -225
+      atmosphere: "trace (frozen most of its orbit)"
+    palette: ["#4a3f3a", "#6f5f52", "#2b2422"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small dark dwarf world at the edge of a system, barely lit by a far-off pinpoint
+        yellow sun: surfaces of dark reddish-brown ice pressed in low layered plains, a few
+        pale frost basins, no atmosphere, no moon. Pluto-like but darker, a cut of black
+        turf at the bottom of the sky. Photoreal, scientific, lonely.

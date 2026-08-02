@@ -1,0 +1,240 @@
+# =============================================================================
+# THE GRELL SYSTEM — Marrow's home solar system (Book 8, The Last Librarian)
+# Data-first worldbuilding for the explorable "system view" of the Archive/star map.
+# Believable hard-SF (obeys the foundation: known physics, no contradictions). Orbits
+# are to scale-ish (period ≈ √(a³/M) around a ~1.0-solar-mass star); stats are
+# Earth-relative where marked (_e = Earth = 1, _g = Earth gravity = 1). Not all bodies
+# touch the story — the system should feel real. Each body carries an `art.prompt` for
+# gpt-image-2 (scripts/gen-art.py); stills land in docs/assets/art/marrow-system/<id>.png.
+#
+# BIBLE-SIDE / READ-TO-REVEAL: this file lives in series-bible/systems/ until Book 8
+# publishes — then it is copied to docs/_data/ and Grell is added to stars-named.yml.
+# Until that day, no site data references it (see systems/README.md).
+#
+# NOTE: astronomy only. The ancient temporal-transmitter mesh (which will one day overlay
+# the galaxy map) is PRIVATE roadmap and must NOT appear here.
+# =============================================================================
+
+system:
+  id: marrow-system
+  name: "The Grell System"
+  star_ref: book-08                 # the galaxy star that is Grell (ties to the map)
+  summary: >
+    An old, settled system around a clear white-gold star much like the oldest almanacs'
+    idea of a sun. One living world — Marrow, dry and quiet, its mountains hollow with
+    holdings. Six planets, a thin gravel belt, and at the cold edge a little crossing
+    world that keeps time with the ice giant and never collides. Nothing here hurries.
+  view:
+    au_span: 16                     # outer edge to render (AU); Rime swings near this
+    tilt_deg: 20                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: grell
+    name: "Grell"
+    role: primary
+    common: "the sun (to Marrow, simply 'the sun'); Grell in the rolls"
+    spectral: "G2 V"
+    stats:
+      mass_sol: 0.99
+      radius_sol: 1.02
+      temp_k: 5740
+      luminosity_sol: 1.05          # an old G2, gently brightened with age
+      color: "clear white-gold"
+      age_gyr: 7.2
+    palette: ["#fff3cf", "#ffe29a", "#f2c46a", "#d99c3f"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of a Sun-like G2 star (~5740K) filling most of the frame
+        against deep black space: white-gold granulated photosphere, sparse small starspots,
+        one modest prominence arc at the limb, a faint quiet corona. An old, steady star.
+        Scientific, cinematic, no lens flare kitsch. Believable stellar astronomy.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: kiln
+    name: "Kiln"
+    kind: planet
+    order: 1
+    common: "the Scorch"
+    orbit: { au: 0.39, period_yr: 0.245, ecc: 0.08, tilt_deg: 4 }
+    phys:
+      radius_e: 0.36
+      mass_e: 0.04
+      gravity_g: 0.31
+      day_hr: 950                   # a slow, baked turning
+      mean_temp_c: 360              # dayside; airless
+      atmosphere: "none (long since stripped)"
+    palette: ["#8a7462", "#5c4b3e", "#332a24"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small scorched airless rocky world seen from orbit, close to a white-gold sun:
+        dense cratering, lava-flooded basins gone grey, long bright ray systems, a hard
+        black terminator and no atmosphere at the limb. Mercury-like, bleached and old.
+        Photoreal, scientific, stark. Black star-strewn space behind.
+
+  - id: pall
+    name: "Pall"
+    kind: planet
+    order: 2
+    common: "the Shroud"
+    orbit: { au: 0.68, period_yr: 0.56, ecc: 0.02, tilt_deg: 1 }
+    phys:
+      radius_e: 0.88
+      mass_e: 0.72
+      gravity_g: 0.93
+      day_hr: 4200                  # slow spin under permanent cloud
+      mean_temp_c: 335
+      atmosphere: "thick CO₂ under an unbroken pearl haze"
+    palette: ["#efe0c2", "#d6ba8a", "#a98756"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cloud-shrouded hothouse world seen from orbit: a featureless pearl-and-bone deck
+        of high haze, only the faintest slow banding, no surface ever visible, a soft warm
+        terminator fading to black. Venus-like but paler, chalkier. Photoreal, scientific,
+        oppressive stillness.
+
+  - id: marrow
+    name: "Marrow"
+    kind: planet
+    order: 3
+    common: "the World / home"
+    story: >
+      Marrow is the Librarian's world of *The Last Librarian*: old and tectonically quiet,
+      a temperate-dry world of karst and cavern country at continental scale — and in its
+      southern range the mountains are hollow, halls of holdings cut into the bones of
+      the world.
+    orbit: { au: 1.08, period_yr: 1.13, ecc: 0.03, tilt_deg: 19 }
+    phys:
+      radius_e: 0.95
+      mass_e: 0.85
+      gravity_g: 0.94
+      day_hr: 25.7
+      mean_temp_c: 9
+      atmosphere: "breathable (N₂/O₂), temperate-dry; clear high skies"
+    palette: ["#c9bfa4", "#8f9a76", "#5f7d8a", "#efe9d8"]
+    moons:
+      - id: hone
+        name: "Hone"
+        common: "the Moon"
+        radius_e: 0.27
+        orbit_days: 29
+        note: "One pale close moon; its pull works the slow water in the caves, and its phases keep the mountain calendar."
+    art:
+      size: "1024x1024"
+      prompt: >
+        An old dry temperate world seen from orbit, lit by a clear white-gold sun: pale
+        bone-and-ochre karst continents pocked with sinkhole fields and long cave-collapse
+        scars, olive scrubland, narrow landlocked seas, one immense weathered mountain range
+        across the southern hemisphere, thin dry weather, small ice caps. One pale moon in
+        the black star-strewn sky. Earthlike but worn and quiet; photoreal, scientific,
+        serene. Soft rim light on the limb.
+
+  - id: belt
+    name: "The Gravel"
+    kind: belt
+    order: 4
+    common: "the Gravel"
+    orbit: { au_inner: 1.9, au_outer: 2.6 }
+    story: null
+    art: null                       # rendered as a ring of specks, not a still
+
+  - id: quern
+    name: "Quern"
+    kind: planet
+    order: 5
+    common: "the Millstone (a slow bright wanderer in Marrow's evenings)"
+    orbit: { au: 4.6, period_yr: 9.9, ecc: 0.06, tilt_deg: 2 }
+    phys:
+      radius_e: 11.2
+      mass_e: 335
+      gravity_g: 2.67
+      day_hr: 9.7
+      mean_temp_c: -150
+      atmosphere: "hydrogen/helium gas giant, banded"
+    palette: ["#c7b9a2", "#9c8a74", "#6d6a72", "#e5ddc9"]
+    moons:
+      - id: grist
+        name: "Grist"
+        radius_e: 0.24
+        orbit_days: 2.9
+        note: "A close moon flexed hot by Quern's pull; thin yellow sulphur plains."
+      - id: bran
+        name: "Bran"
+        radius_e: 0.2
+        orbit_days: 6.4
+        note: "Grey ice, cracked and refrozen; an old dark ocean suspected beneath."
+      - id: cobble
+        name: "Cobble"
+        radius_e: 0.12
+        orbit_days: 15.5
+        note: "A battered, quiet far moon, dark as a river stone."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A great banded gas giant seen from orbit, three-quarter lit by a distant white-gold
+        sun: slate, cream and dull copper cloud bands, two small pale storm ovals, no
+        prominent rings — only a faint thread of dust catching the light at the ring plane.
+        Three small moons as points nearby. Jupiter-like, its own colours. Photoreal,
+        majestic, scientific.
+
+  - id: sleet
+    name: "Sleet"
+    kind: planet
+    order: 6
+    common: "the Grey Deep"
+    orbit: { au: 11.5, period_yr: 39.2, ecc: 0.03, tilt_deg: 26 }
+    phys:
+      radius_e: 3.8
+      mass_e: 15
+      gravity_g: 1.04
+      day_hr: 16.1
+      mean_temp_c: -200
+      atmosphere: "hydrogen/methane ice giant"
+    palette: ["#7d9aa4", "#5a7783", "#3a515c"]
+    moons:
+      - id: sift
+        name: "Sift"
+        radius_e: 0.11
+        orbit_days: 7.3
+        note: "A frosted moon of nitrogen snow; slow dark geyser streaks on the ice."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A serene ice-giant world seen from orbit: a deep grey-teal methane atmosphere with
+        faint paler bands and one high white cloud streak, a thin dark ring arc barely
+        there. Neptune-like, cold and quiet. One small frosted moon. Photoreal, scientific,
+        still.
+
+  - id: rime
+    name: "Rime"
+    kind: planet
+    order: 7
+    common: "the Crosser (its long orbit dips inside Sleet's; a near 2:3 rhythm keeps them forever apart)"
+    orbit: { au: 15.1, period_yr: 59.0, ecc: 0.21, tilt_deg: 14 }
+    phys:
+      radius_e: 0.16
+      mass_e: 0.0015
+      gravity_g: 0.06
+      day_hr: 130
+      mean_temp_c: -215
+      atmosphere: "trace (frost most of its orbit)"
+    palette: ["#c8ccd2", "#9299a2", "#5a6068"]
+    moons: []
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A tiny frozen dwarf world at the edge of a system, barely lit by a far-off pinpoint
+        sun: pale grey nitrogen-ice plains rimed with bright frost, soft ancient craters,
+        one long fault like a hairline crack, no atmosphere. Pluto-like, remote and clean.
+        Photoreal, scientific, lonely.

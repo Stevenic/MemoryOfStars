@@ -1,0 +1,271 @@
+# =============================================================================
+# THE SALT SYSTEM — Quay's home solar system (the port between; Book 7 epilogue)
+# Data-first worldbuilding in the format of docs/_data/system-orin.yml (the Auros
+# exemplar) — see README.md in this folder. Believable hard-SF (obeys the foundation:
+# known physics, no contradictions). Orbits are Kepler-computed (period = √(a³/M)
+# around a 0.84-solar-mass star); stats are Earth-relative where marked (_e = Earth
+# = 1, _g = Earth gravity = 1). Not all bodies touch the story — the system should
+# feel real. Each body carries an `art.prompt` for gpt-image-2 (scripts/gen-art.py);
+# generated stills land in docs/assets/art/quay-system/<id>.png once revealed.
+#
+# READ-TO-REVEAL: this file lives bible-side; it copies to docs/_data/ when its book
+# publishes (Book 7, A Hundred Empty Years — Quay appears in the epilogue) and Salt
+# joins stars-named.yml.
+# NOTE: astronomy only. The ancient temporal-transmitter mesh is PRIVATE roadmap
+# (planning/) and must NOT appear here.
+# =============================================================================
+
+system:
+  id: quay-system
+  name: "The Salt System"
+  star_ref: book-07                 # the galaxy star that is Salt (Quay's sun; the port between Reed and Sowen)
+  summary: >
+    A working system around an amber-orange star, known for one thing: Quay, the world
+    that is mostly its harbor — island chains on a globe of ocean, and one great port
+    where the crossings meet. Inward, a cinder and a shrouded hothouse; outward, the
+    Shoals, a bright ringed giant the sailors steer by, a cold blue deep, a far islet
+    of ice, and a long-period comet the harbor calls the Long Sail.
+  view:
+    au_span: 17                     # outer edge to render (AU); Holm sits near this (Skein's aphelion lies far beyond the frame)
+    tilt_deg: 15                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: salt
+    name: "Salt"
+    role: primary
+    common: "the Sun (to Quay's harbormen, simply 'the sun'); Salt in the rolls, for the world it keeps"
+    spectral: "K0 V"
+    stats:
+      mass_sol: 0.84
+      radius_sol: 0.79
+      temp_k: 5150
+      luminosity_sol: 0.40
+      color: "amber-orange"
+      age_gyr: 6.2
+    palette: ["#ffd894", "#f5b45e", "#e08c3a", "#b06426"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of an amber-orange main-sequence star (K0, ~5150K)
+        filling most of the frame against deep black space: warm honey-toned granulation,
+        a modest belt of dark starspots, one bright faculae region near the limb, soft
+        prominences, quiet corona. Steady and long-burning. Scientific, cinematic, no
+        lens flare kitsch. Believable stellar astronomy.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: char
+    name: "Char"
+    kind: planet
+    order: 1
+    common: "the Coal"
+    orbit: { au: 0.09, period_yr: 0.0295, ecc: 0.08, tilt_deg: 2 }
+    phys:
+      radius_e: 0.68
+      mass_e: 0.31
+      gravity_g: 0.67
+      day_hr: 508                   # 3:2 spin-orbit lock, Mercury-fashion; a double-year day
+      mean_temp_c: 460
+      atmosphere: "none (bare rock)"
+    palette: ["#9a7b62", "#6e5344", "#453329", "#241a14"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small airless scorched world close under an amber-orange star, seen from orbit:
+        dark heat-baked rock, immense old impact basins ringed in brighter ejecta, a
+        blinding dayside and a hard black terminator, no atmosphere. Mercury-like, its
+        greys warmed orange by the star. Photoreal, scientific, stark.
+
+  - id: scald
+    name: "Scald"
+    kind: planet
+    order: 2
+    common: "the Shrouded"
+    orbit: { au: 0.35, period_yr: 0.226, ecc: 0.01, tilt_deg: 2 }
+    phys:
+      radius_e: 0.94
+      mass_e: 0.85
+      gravity_g: 0.96
+      day_hr: 2900                  # slow, sun-worked spin
+      mean_temp_c: 320
+      atmosphere: "thick CO₂, runaway greenhouse (an ocean's worth of steam gone to acid haze)"
+    palette: ["#e6c48e", "#c79758", "#9c6f3c", "#6b4a28"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cloud-sealed hothouse world seen from orbit under an amber-orange sun: one
+        unbroken deck of dense buttermilk-and-ochre cloud, slow chevron banding, no
+        surface ever visible, a soft glowing limb. Venus-like, a drowned world boiled
+        into its own sky. Photoreal, scientific, oppressive.
+
+  - id: quay
+    name: "Quay"
+    kind: planet
+    order: 3
+    common: "the World / the Harbor (offworld crews rarely bother saying more)"
+    story: >
+      Quay is the world that is mostly its harbor — better than four-fifths ocean, its
+      land strung out in island chains, and one great port city where the crossings
+      between the old worlds and the young ones put in. Book 7's epilogue stands on
+      its docks.
+    orbit: { au: 0.65, period_yr: 0.57, ecc: 0.012, tilt_deg: 9 }
+    phys:
+      radius_e: 1.06
+      mass_e: 1.15
+      gravity_g: 1.02
+      day_hr: 22.4
+      mean_temp_c: 16
+      atmosphere: "breathable (N₂/O₂), humid, maritime; great slow storm-belts"
+      ocean_pct: 85
+    palette: ["#2e6d8c", "#4d8fa6", "#7fb0a8", "#f0ede0"]
+    moons:
+      - id: skiff
+        name: "Skiff"
+        common: "the Great Moon"
+        radius_e: 0.3
+        orbit_days: 18
+        note: "A big close moon; its tides are the harbor's clock, and no berth on Quay is let without a tide-table."
+      - id: gull
+        name: "Gull"
+        common: "the Far Light"
+        radius_e: 0.04
+        orbit_days: 32
+        note: "A small far fleck of a moon, riding beyond Skiff; sailors call a night with both up a fair-crossing sky."
+    art:
+      size: "1024x1024"
+      prompt: >
+        An ocean world seen from orbit, lit by an amber-orange sun: a globe of deep
+        teal-blue water, long green-and-stone island chains like wakes across it, bright
+        turquoise shallows, a great spiral storm-belt riding the mid-latitudes, small
+        polar ice. One large pale moon and one tiny far point in the black star-strewn
+        sky. Earthlike but sea-ruled, luminous. Photoreal, scientific, open water to
+        every horizon.
+
+  - id: shoals
+    name: "The Shoals"
+    kind: belt
+    order: 4
+    common: "the Shoals (charted like reef water; miners work them the way Quay works a tide)"
+    orbit: { au_inner: 1.4, au_outer: 2.2 }
+    story: null
+    art: null                       # rendered as a ring of specks, not a still
+
+  - id: keel
+    name: "Keel"
+    kind: planet
+    order: 5
+    common: "the Riding Light (brightest wanderer in Quay's sky; harbor watches are set by it)"
+    orbit: { au: 4.1, period_yr: 9.1, ecc: 0.05, tilt_deg: 2 }
+    phys:
+      radius_e: 10.8
+      mass_e: 290
+      gravity_g: 2.5
+      day_hr: 10.2
+      mean_temp_c: -165
+      atmosphere: "hydrogen/helium gas giant, banded"
+    rings: true
+    moons:
+      - id: oar
+        name: "Oar"
+        radius_e: 0.25
+        orbit_days: 3.3
+        note: "A close worked moon, resurfaced young by the giant's kneading."
+      - id: creel
+        name: "Creel"
+        radius_e: 0.18
+        orbit_days: 7.4
+        note: "A cracked ice moon, netted over with dark refrozen lines."
+      - id: kelp
+        name: "Kelp"
+        radius_e: 0.13
+        orbit_days: 17.1
+        note: "A dim green-grey moon, stained with old carbon frost."
+      - id: spar
+        name: "Spar"
+        radius_e: 0.08
+        orbit_days: 41
+        note: "A far pale splinter, likely shepherd to the ring's outer edge in ages past."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A great ringed gas giant seen from orbit, three-quarter lit by a distant
+        amber-orange sun: bands of pearl, honey and slate, one long pale storm, and a
+        broad bright ring system tilted across the frame, its shadow laid clean on the
+        cloud tops. Several small moons as points along the ring plane. Saturn-like,
+        warmed amber, a lamp hung in a dark harbor. Photoreal, majestic, scientific.
+
+  - id: neap
+    name: "Neap"
+    kind: planet
+    order: 6
+    common: "the Slack (in harbor idiom, the far still water of the sky)"
+    orbit: { au: 8.3, period_yr: 26.1, ecc: 0.03, tilt_deg: 29 }
+    phys:
+      radius_e: 3.8
+      mass_e: 15
+      gravity_g: 1.04
+      day_hr: 17.9
+      mean_temp_c: -195
+      atmosphere: "hydrogen/methane ice giant"
+    moons:
+      - id: mist
+        name: "Mist"
+        radius_e: 0.1
+        orbit_days: 6.3
+        note: "A soft-white frosted moon, its plains renewed by slow cryo-seeps."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A tilted ice giant seen from orbit, far from a small amber sun: a calm
+        blue-grey methane disc rolled nearly on its side, faint banding curving the
+        wrong way to the eye, a thin dark ring arc, one small white moon. Uranus-like
+        in its tilt, Neptune-like in its calm. Photoreal, scientific, remote.
+
+  - id: holm
+    name: "Holm"
+    kind: planet
+    order: 7
+    common: "the Islet"
+    orbit: { au: 15.5, period_yr: 66.6, ecc: 0.15, tilt_deg: 11 }
+    phys:
+      radius_e: 0.17
+      mass_e: 0.003
+      gravity_g: 0.1
+      day_hr: 130
+      mean_temp_c: -217
+      atmosphere: "trace (frozen most of its orbit)"
+    moons: []
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small frozen dwarf world far out in the dark, its amber sun a bright rivet in
+        the black: pale grey water-ice plains, dark old terrain like weathered planking,
+        a single deep frost-floored basin, no atmosphere, no moon. An islet off every
+        chart's edge. Photoreal, scientific, lonely.
+
+  - id: skein
+    name: "Skein"
+    kind: comet
+    order: 8
+    common: "the Long Sail (returns about every 74 years; harbor lore says it tows luck in)"
+    orbit: { au: 16.6, period_yr: 73.8, ecc: 0.96 }   # perihelion ~0.66 AU — it crosses Quay's sky close and bright
+    phys:
+      radius_e: 0.002               # a nucleus a dozen kilometres long, no more
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A great comet near perihelion over an amber-orange star: a small dark tumbling
+        nucleus venting bright jets, a broad white dust tail curved like a filled sail
+        and a straight blue ion tail beside it, stars showing through both. Seen from
+        space, oblique, the tails running out of frame. Photoreal, scientific, and
+        quietly glorious.

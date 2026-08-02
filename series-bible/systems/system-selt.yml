@@ -1,0 +1,251 @@
+# =============================================================================
+# THE SELT SYSTEM — the Selt's three settled worlds (Book 9)
+# Data-first worldbuilding in the format of docs/_data/system-orin.yml (the Auros
+# exemplar) — see README.md in this folder. Believable hard-SF (obeys the foundation:
+# known physics, no contradictions). Orbits are Kepler-computed (period = √(a³/M)
+# around a 0.36-solar-mass red dwarf); stats are Earth-relative where marked (_e =
+# Earth = 1, _g = Earth gravity = 1). The whole system is a compact resonant chain —
+# every neighbouring pair of worlds beats in near-whole-number time (8:5, 3:2, 3:2,
+# 3:2, 4:3, 4:3) — so periods are also given in days (period_d), where the ratios can
+# be read. Each body carries an `art.prompt` for gpt-image-2 (scripts/gen-art.py);
+# generated stills land in docs/assets/art/selt-system/<id>.png once revealed.
+#
+# NAMES: the system carries its people's name; the star needs no other. The Selt's
+# own names for their worlds stay off the page, as ever — the registry keeps catalog
+# letters, and the rolls' descriptive commons stand in.
+#
+# READ-TO-REVEAL: this file lives bible-side; it copies to docs/_data/ when its book
+# publishes (Book 9, The Severed Reach) and the Selt joins stars-named.yml.
+# NOTE: astronomy only. The ancient temporal-transmitter mesh is PRIVATE roadmap
+# (planning/) and must NOT appear here.
+# =============================================================================
+
+system:
+  id: selt-system
+  name: "The Selt System"
+  star_ref: book-09                 # the galaxy star that is the Selt's sun (Book 9)
+  summary: >
+    A small deep-red star and seven close worlds turning in one running resonance —
+    each orbit beating whole-number time against its neighbours, a chain that has held
+    itself in order for eight billion years. Its heart is three temperate worlds on
+    adjacent rungs, all three alive, all three settled: a plural people on a plural
+    chain. Their own names for their worlds are not written here. The rolls keep the
+    letters, and call the settled trio simply the Three.
+  view:
+    au_span: 1.0                    # outer edge to render (AU); the chain sits inside 0.16, the Fray rings the edge
+    tilt_deg: 20                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: selt
+    name: "Selt"
+    role: primary
+    common: "the system carries its people's name; the star was never given another"
+    spectral: "M3 V (red dwarf)"
+    stats:
+      mass_sol: 0.36
+      radius_sol: 0.38
+      temp_k: 3350
+      luminosity_sol: 0.016
+      color: "deep ember-red"
+      age_gyr: 8.2                  # old and quiet; its flaring youth is billions of years spent
+    palette: ["#e08060", "#c44f38", "#93301f", "#571a10"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of a small, old red-dwarf star (M-class, ~3350K)
+        filling most of the frame against deep black space: a deep ember-red mottled
+        photosphere, large dark spot groups, low quiet prominences, a faint corona.
+        No flares — this is an ancient, settled star, its violent youth long past.
+        Scientific, cinematic, no lens flare kitsch. Believable stellar astronomy.
+
+# --------------------------------------------------------------- planets --
+# No moons anywhere in the chain: orbits this tight leave each world too small a
+# gravitational grip (Hill sphere) to keep one. The chain is the family.
+bodies:
+  - id: selt-b
+    name: "Selt b"
+    kind: planet
+    order: 1
+    common: "the Coal"
+    orbit: { au: 0.0339, period_yr: 0.01042, period_d: 3.806, ecc: 0.004, tilt_deg: 0 }
+    phys:
+      radius_e: 0.71
+      mass_e: 0.38
+      gravity_g: 0.75
+      day_hr: 91.3                  # tide-locked; day = year, as for the whole chain
+      mean_temp_c: 255
+      atmosphere: "none (stripped in the star's flare age, never regained)"
+    palette: ["#8a5a48", "#5c352a", "#33201a", "#120b09"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small airless rocky world hugging a deep-red dwarf star, seen from orbit:
+        a dull-glowing charcoal-and-umber dayside of bare scoured rock, a hard black
+        terminator, a frozen starless nightside. The ember-red star huge and near
+        beyond the limb. Photoreal, scientific, stark and simple.
+
+  - id: selt-c
+    name: "Selt c"
+    kind: planet
+    order: 2
+    common: "the Anvil"
+    orbit: { au: 0.0464, period_yr: 0.01667, period_d: 6.090, ecc: 0.005, tilt_deg: 0 }   # 8:5 with b
+    phys:
+      radius_e: 1.02
+      mass_e: 1.10
+      gravity_g: 1.06
+      day_hr: 146.2                 # tide-locked
+      mean_temp_c: 180
+      atmosphere: "thin CO₂, dust-veiled (a scraped survivor of the flare age)"
+    palette: ["#b07a55", "#835239", "#553527", "#2c1c15"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A hot rocky world under a deep-red dwarf sun, seen from orbit: a fixed baked
+        dayside of hammered brown highlands and dust-filled basins, thin grey haze
+        smeared toward the terminator by one endless wind, night black beyond. Red
+        light, long shadows. Photoreal, scientific, punished and still.
+
+  - id: selt-d
+    name: "Selt d"
+    kind: planet
+    order: 3
+    common: "the Kettle"
+    orbit: { au: 0.0608, period_yr: 0.02501, period_d: 9.134, ecc: 0.005, tilt_deg: 1 }   # 3:2 with c
+    phys:
+      radius_e: 0.94
+      mass_e: 0.82
+      gravity_g: 0.93
+      day_hr: 219.2                 # tide-locked
+      mean_temp_c: 335
+      atmosphere: "thick CO₂ (runaway greenhouse; an ocean boiled into the sky)"
+    palette: ["#d9a970", "#b37e4a", "#7d5433", "#453022"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cloud-choked hothouse world under a red dwarf sun, seen from orbit: an
+        unbroken deck of dull ochre and rust clouds banded around a fixed bright
+        sub-stellar glare, no surface visible, a soft smouldering terminator fading
+        to black. Venus-like but lit ember-red. Photoreal, scientific, oppressive.
+
+  - id: selt-e
+    name: "Selt e"
+    kind: planet
+    order: 4
+    common: "the Husk"
+    orbit: { au: 0.0797, period_yr: 0.03751, period_d: 13.702, ecc: 0.006, tilt_deg: 0 }  # 3:2 with d
+    phys:
+      radius_e: 0.87
+      mass_e: 0.68
+      gravity_g: 0.90
+      day_hr: 328.8                 # tide-locked
+      mean_temp_c: 90
+      atmosphere: "thin N₂/CO₂, bone-dry (its water lost ages since)"
+    palette: ["#c2a077", "#96784f", "#665137", "#3a2e21"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A dry dead-sea world under a red dwarf sun, seen from orbit: a fixed dayside
+        of tan and bone-pale empty basins ringed with old salt shores, cracked
+        highlands, no cloud but thin dust, a sharp terminator into night. The ghost
+        of oceans in its shapes. Photoreal, scientific, parched and quiet.
+
+  - id: selt-f
+    name: "Selt f"
+    kind: planet
+    order: 5
+    common: "the First of the Three"
+    story: >
+      Innermost of the three settled worlds — warm, dry-eyed, alive along its ring
+      of evening. What its people call it is theirs and stays off the page.
+    orbit: { au: 0.1045, period_yr: 0.05627, period_d: 20.552, ecc: 0.006, tilt_deg: 0 }  # 3:2 with e
+    phys:
+      radius_e: 1.05
+      mass_e: 1.15
+      gravity_g: 1.04
+      day_hr: 493.3                 # tide-locked; life keeps to the twilight belt
+      mean_temp_c: 29
+      atmosphere: "dense N₂/O₂/CO₂ — a desert dayside, a green livable ring at the terminator"
+    palette: ["#c98d5e", "#6f8757", "#3f5e63", "#1c2733"]
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A tide-locked living world under a deep-red dwarf sun, seen from orbit: a
+        fixed ochre desert dayside beneath the red glare, and around the whole
+        terminator a belt of dusk-green and steel-blue — vegetation, lakes, cloud —
+        a ring of evening where the world is alive, fading into a starless frozen
+        nightside. Eyeball-planet astronomy, honest and strange. Photoreal,
+        scientific, quietly beautiful.
+
+  - id: selt-g
+    name: "Selt g"
+    kind: planet
+    order: 6
+    common: "the Second of the Three"
+    story: >
+      Middle of the Three and mildest — an eye of ocean and cloud turned always to
+      the sun. Its own name is not written here.
+    orbit: { au: 0.1265, period_yr: 0.07503, period_d: 27.403, ecc: 0.007, tilt_deg: 0 }  # 4:3 with f
+    phys:
+      radius_e: 0.95
+      mass_e: 0.86
+      gravity_g: 0.95
+      day_hr: 657.7                 # tide-locked
+      mean_temp_c: 7
+      atmosphere: "N₂/O₂ over a warm dayside sea; ice closes it off from the night"
+    palette: ["#4a7387", "#5f8a68", "#c8cfd6", "#1a2430"]
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A tide-locked ocean world under a red dwarf sun, seen from orbit: a fixed
+        dayside sea of deep slate-blue under a vast slow spiral of white cloud
+        centred on the sub-stellar point, green island chains toward the terminator,
+        and beyond it a nightside sealed in starlit ice. One warm eye open to its
+        sun. Photoreal, scientific, serene and alive.
+
+  - id: selt-h
+    name: "Selt h"
+    kind: planet
+    order: 7
+    common: "the Third of the Three"
+    story: >
+      Outermost of the Three and coldest — settled where the ice gives, under the
+      noon eye. Its own name is not written here.
+    orbit: { au: 0.1533, period_yr: 0.10003, period_d: 36.538, ecc: 0.008, tilt_deg: 1 }  # 4:3 with g
+    phys:
+      radius_e: 1.12
+      mass_e: 1.42
+      gravity_g: 1.13
+      day_hr: 876.9                 # tide-locked
+      mean_temp_c: -26
+      atmosphere: "heavy CO₂/N₂; open water and bare ground only under the noon eye"
+    palette: ["#dfe6ec", "#9db4c4", "#557187", "#22303f"]
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A tide-locked ice world under a dim red dwarf sun, seen from orbit: a globe
+        of white and blue-grey ice with one dark open eye at the sub-stellar point —
+        a round meltwater sea ringed by bare rock and thin cloud, red light pooled
+        on it — the rest of the world frozen shut into the night. Photoreal,
+        scientific, austere, with one warm secret.
+
+  - id: fray
+    name: "The Fray"
+    kind: belt
+    order: 8
+    common: "the Fray (where the chain's order gives out into scattered ice)"
+    orbit: { au_inner: 0.4, au_outer: 0.9 }
+    story: null
+    art: null                       # rendered as a ring of specks, not a still

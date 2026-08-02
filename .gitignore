@@ -48,3 +48,7 @@ vendor/
 # finals live in /docs/assets/art/ and ARE committed (public site assets).
 /scripts/art/work/
 /scripts/art/gen-log.jsonl
+
+# chart preview artifacts (local only — production learns stars per published book)
+/docs/_data/starfield_full.json
+/docs/_data/systems_full.json

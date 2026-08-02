@@ -1,0 +1,298 @@
+# =============================================================================
+# THE LULL SYSTEM — the quiet system (Books 5, 27)
+# Data-first worldbuilding for the explorable "system view" of the Archive/star map.
+# Believable hard-SF (obeys the foundation: known physics, no contradictions). Orbits
+# are to scale-ish (period ≈ √(a³/M) around a 0.66-solar-mass star); stats are
+# Earth-relative where marked (_e = Earth = 1, _g = Earth gravity = 1). No settled
+# world — the roll-name doubles for the star, and the minor bodies carry catalog
+# designations with a few surveyors' verdicts. The system's architecture is its
+# character: rich, well-spaced, and calm — every eccentricity under two hundredths
+# but one, every plane within a hand's width of the rest. Each body carries an
+# `art.prompt` for gpt-image-2 (scripts/gen-art.py); generated stills land in
+# docs/assets/art/lull-system/<id>.png.
+#
+# Read-to-reveal: this file lives bible-side until Book 5 publishes — then it is
+# copied to docs/_data/ and Lull is added to stars-named.yml (see systems/README.md).
+#
+# NOTE: astronomy only. Notes describe what is OBSERVED, never what it means — the
+# moonlet at Lull h gets numbers, not a story. The ancient temporal-transmitter mesh
+# is PRIVATE roadmap and must NOT appear here.
+# =============================================================================
+
+system:
+  id: lull-system
+  name: "The Lull System"
+  star_ref: book-05                 # the galaxy star that is Lull (ties to the map)
+  summary: >
+    A quiet orange star with its affairs in order: eight planets well-spaced from scald
+    to snow, orbits round to a fault, one narrow raked-looking belt, and no settled
+    world at all. High off the plane and far from the roads. The one thing in it that
+    argues with the tidiness is small, white, and four hundred kilometres across.
+  view:
+    au_span: 14                     # outer edge to render (AU); Lull i sits near this
+    tilt_deg: 15                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: lull
+    name: "Lull"
+    role: primary
+    common: "the system's roll-name doubles for the star; no settled tongue ever coined another"
+    spectral: "K6 V"
+    stats:
+      mass_sol: 0.66
+      radius_sol: 0.64
+      temp_k: 4200
+      luminosity_sol: 0.115
+      color: "quiet orange"
+      age_gyr: 7.9
+    palette: ["#ffbe7a", "#ef9448", "#c76a2b", "#8f4519"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of a placid orange main-sequence star (late-K, ~4200K)
+        against deep black space: a smooth granulated orange photosphere, almost
+        spotless, no prominences of any size, a thin settled corona. A star with
+        nothing to say. Scientific, cinematic, restrained. Believable stellar
+        astronomy.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: lull-b
+    name: "Lull b"
+    kind: planet
+    order: 1
+    common: "the Scald"
+    orbit: { au: 0.08, period_yr: 0.028, ecc: 0.004, tilt_deg: 1 }
+    phys:
+      radius_e: 0.52
+      mass_e: 0.13
+      gravity_g: 0.48
+      day_hr: 245                   # spin equals orbit — one face sunward forever
+      mean_temp_c: 300
+      atmosphere: "none"
+    palette: ["#8f6a52", "#63443a", "#3a2723"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small scorched airless world tide-locked close to a quiet orange star: one
+        hemisphere glowing dull umber under permanent noon, smooth heat-annealed plains
+        with sparse craters, a hard black terminator. Mercury-like, orange-lit.
+        Photoreal, scientific, stark and orderly.
+
+  - id: lull-c
+    name: "Lull c"
+    kind: planet
+    order: 2
+    common: "the Bare"
+    orbit: { au: 0.16, period_yr: 0.079, ecc: 0.006, tilt_deg: 2 }
+    phys:
+      radius_e: 0.71
+      mass_e: 0.33
+      gravity_g: 0.65
+      day_hr: 1380                  # 3:2 spin lock; a solar day twice its year
+      mean_temp_c: 132
+      atmosphere: "trace CO₂"
+    palette: ["#a6835f", "#7c5c42", "#4c372b"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A hot bare rocky world under an orange sun: tan and umber rock from pole to
+        pole, old lava plains, shallow craters softened by heat, the thinnest haze of an
+        atmosphere on the limb, no clouds, no ice, nothing moving. Photoreal,
+        scientific, plainly and completely empty.
+
+  - id: lull-d
+    name: "Lull d"
+    kind: planet
+    order: 3
+    common: "the Fallow"
+    orbit: { au: 0.30, period_yr: 0.202, ecc: 0.008, tilt_deg: 12 }
+    phys:
+      radius_e: 0.92
+      mass_e: 0.78
+      gravity_g: 0.92
+      day_hr: 31.6
+      mean_temp_c: 2
+      atmosphere: "thin N₂/Ar, dry — no seas, and no weather to speak of"
+    palette: ["#b9a780", "#8f8268", "#6a655c", "#dcd8cf"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A temperate but utterly dry world seen from orbit, lit by a quiet orange sun:
+        dun and buff plains, grey salt pans where seas could have been and never were,
+        thin frost at the poles, air too thin for more than a faint limb-haze, not one
+        cloud and not one trace of green. A world in the right place with nothing on
+        it. Photoreal, scientific, still as a held breath.
+
+  - id: lull-e
+    name: "Lull e"
+    kind: planet
+    order: 4
+    common: "the Shingle"
+    orbit: { au: 0.55, period_yr: 0.502, ecc: 0.005, tilt_deg: 7 }
+    phys:
+      radius_e: 0.48
+      mass_e: 0.10
+      gravity_g: 0.43
+      day_hr: 27.9
+      mean_temp_c: -54
+      atmosphere: "thin CO₂, frost-cycling"
+    palette: ["#9aa1a8", "#6e757d", "#454b53"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small cold grey world of gravel plains and low ridges under an orange sun:
+        slate and pewter rock, bright seasonal frost pooled in hollows like surf on
+        shingle, a wisp-thin atmosphere. Photoreal, scientific, austere, tidy.
+
+  - id: lull-f
+    name: "Lull f"
+    kind: planet
+    order: 5
+    common: "the Firn"
+    orbit: { au: 1.05, period_yr: 1.32, ecc: 0.010, tilt_deg: 4 }
+    phys:
+      radius_e: 0.81
+      mass_e: 0.52
+      gravity_g: 0.79
+      day_hr: 19.4
+      mean_temp_c: -115
+      atmosphere: "thin N₂; CO₂ snows at the poles"
+    palette: ["#dfe7ee", "#adbecb", "#7c93a5"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A white frozen world seen from orbit, its whole surface old compacted snow-ice
+        turned firn: blue-white plains, long dune-fields of frost, faint pole hoods of
+        fresh brighter snow, a thin clean atmosphere. Lit gently by a distant orange
+        sun. Photoreal, scientific, smooth and calm.
+
+  - id: windrow
+    name: "The Windrow"
+    kind: belt
+    order: 6
+    common: "the Windrow (a belt so narrow and swept it looks raked)"
+    orbit: { au_inner: 2.05, au_outer: 2.28 }
+    story: null
+    note: >
+      Unusually narrow and unusually flat: the tracked bodies keep within a quarter
+      degree of a common plane, and the belt's edges are sharp on a survey plot.
+      Observed; not explained.
+    art: null                       # rendered as a ring of specks, not a still
+
+  - id: lull-g
+    name: "Lull g"
+    kind: planet
+    order: 7
+    common: "the Broad"
+    orbit: { au: 3.8, period_yr: 9.12, ecc: 0.012, tilt_deg: 3 }
+    phys:
+      radius_e: 9.9
+      mass_e: 180
+      gravity_g: 1.84
+      day_hr: 10.9
+      mean_temp_c: -190
+      atmosphere: "hydrogen/helium gas giant, faintly banded, few storms"
+    rings: true
+    moons:
+      - id: lull-g-1
+        name: "Lull g I"
+        radius_e: 0.10
+        orbit_days: 3.1
+        note: "An ice moon, lightly cratered, close and quick."
+      - id: lull-g-2
+        name: "Lull g II"
+        radius_e: 0.21
+        orbit_days: 5.8
+        note: "The largest moon: smooth young ice laid over old fractures."
+      - id: lull-g-3
+        name: "Lull g III"
+        radius_e: 0.13
+        orbit_days: 11.9
+        note: "Grey, quiet, unremarkable — the survey's own word."
+    palette: ["#d8c9a8", "#b09a72", "#7e6f56", "#9aa4b5"]
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A broad calm gas giant seen from orbit, lit by a far-off orange sun: wide soft
+        bands of fawn, cream and pale slate with barely a storm among them, one thin
+        neat ring casting a fine shadow-line, three small moons as points. Jupiter-sized
+        but placid, everything about it unhurried. Photoreal, majestic, scientific.
+
+  - id: lull-h
+    name: "Lull h"
+    kind: planet
+    order: 8
+    common: "the Still"
+    orbit: { au: 7.6, period_yr: 25.8, ecc: 0.006, tilt_deg: 10 }
+    phys:
+      radius_e: 3.8
+      mass_e: 16
+      gravity_g: 1.11
+      day_hr: 15.8
+      mean_temp_c: -214
+      atmosphere: "hydrogen/methane ice giant, nearly featureless"
+    moons:
+      - id: lull-h-1
+        name: "Lull h I"
+        radius_e: 0.05
+        orbit_days: 4.2
+        note: "A dark ordinary moonlet, carbon-grey and lumpy, as moons are."
+      - id: lull-h-2
+        name: "Lull h II"
+        common: "the Pearl"
+        radius_e: 0.031
+        orbit_days: 10.1
+        note: >
+          Some four hundred kilometres through and bright as fresh frost (albedo 0.91).
+          Round to the limit of every survey that has measured it: the measured radii
+          differ by less than the instrument; the limb is circular at every phase; radar
+          comes back smooth at every wavelength tried; the light curve is flat. The
+          numbers are as stated. What they mean, the numbers do not say.
+    palette: ["#5e7d9e", "#48627f", "#324659"]
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A serene slate-blue ice giant seen from orbit, nearly featureless, lit faintly
+        by a distant orange pinpoint sun. Two moons: one a dark irregular lump — and
+        one a small perfect white sphere, brilliantly bright, its surface utterly
+        smooth and without a single crater, like a pearl set against the black. The
+        contrast between the lumpy moon and the flawless one is the picture. Photoreal,
+        hard-SF, quiet, quietly wrong.
+
+  - id: lull-i
+    name: "Lull i"
+    kind: planet
+    order: 9
+    common: "the Hindmost"
+    orbit: { au: 12.8, period_yr: 56.4, ecc: 0.015, tilt_deg: 6 }
+    phys:
+      radius_e: 0.18
+      mass_e: 0.004
+      gravity_g: 0.12
+      day_hr: 9.3
+      mean_temp_c: -228
+      atmosphere: "trace (frozen)"
+    palette: ["#8b8fa3", "#5d6175", "#383b4d"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small frozen dwarf world at the far edge of a tidy system, barely lit by a
+        remote orange pinpoint sun: pale grey nitrogen-ice plains, soft muted contrast,
+        a handful of shallow craters, no atmosphere, no companion. Pluto-like, remote,
+        unbothered. Photoreal, scientific, last in line and content there.

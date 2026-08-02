@@ -1,0 +1,38 @@
+# =============================================================================
+# MESH ROUTES — the chart-level route graph between gazetteer systems.
+# The reader-facing mesh: one edge per established road between named systems,
+# drawn on the Archive sky when BOTH endpoint stars are lit (read-to-reveal).
+# This is chart data, not topology — the mesh's real structure (clusters, node
+# counts, the trunks) stays planning-side in mesh-model.yml.
+#
+# status: live — a lit road at series present
+#         dead — a dark road: it exists, and nothing answers along it
+# Hearth has no edges, deliberately: the unroaded system is not on the mesh.
+# scripts/gen-chart.rb consumes this (preview builds now; per-book wiring later).
+# =============================================================================
+routes:
+  - { a: enara,   b: skerry,  status: live }   # the Signal's chain (02 -> 03)
+  - { a: skerry,  b: gault,   status: live }
+  - { a: gault,   b: hush,    status: live }
+  - { a: gault,   b: quay,    status: live }
+  - { a: quay,    b: reed,    status: live }
+  - { a: reed,    b: sowen,   status: live }   # the Mercy's children's crossing (07)
+  - { a: gault,   b: carath,  status: live }
+  - { a: carath,  b: hush,    status: live }
+  - { a: carath,  b: penna,   status: live }
+  - { a: penna,   b: scrive,  status: live }
+  - { a: penna,   b: aulis,   status: live }   # the Leaving's berth lanes (12)
+  - { a: carath,  b: cairn,   status: live }
+  - { a: cairn,   b: vane,    status: live }
+  - { a: vane,    b: holt,    status: live }   # the pilot region's triangle (19)
+  - { a: holt,    b: mirren,  status: live }
+  - { a: mirren,  b: vane,    status: live }
+  - { a: carath,  b: marrow,  status: live }
+  - { a: marrow,  b: fell,    status: live }   # the long shelf's far run (08)
+  - { a: marrow,  b: moss,    status: live }
+  - { a: moss,    b: tolm,    status: live }
+  - { a: tolm,    b: cinder,  status: live }   # the salvage run (11)
+  - { a: corvane, b: dresk,   status: live }   # the frontier's own road (09, 17)
+  - { a: dresk,   b: selt,    status: live }   # relit for the Selt (09)
+  - { a: corvane, b: aven,    status: dead }   # the severed system (09)
+  - { a: moss,    b: lull,    status: dead }   # the unroaded approach (05, 27)

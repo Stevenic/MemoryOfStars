@@ -1,0 +1,204 @@
+# =============================================================================
+# THE HOLT SYSTEM — second of the pilot-region neighbours (Book 19 background;
+# geography only). Data-first worldbuilding in the Auros-exemplar format
+# (docs/_data/system-orin.yml). Believable hard-SF (obeys the foundation: known
+# physics, no contradictions). Orbits are Kepler-honest (period = √(a³/M) around a
+# 0.93-solar-mass star); stats are Earth-relative where marked (_e = Earth = 1,
+# _g = Earth gravity = 1). Not all bodies touch the story — the system should feel
+# real. Each body carries an `art.prompt` for gpt-image-2 (scripts/gen-art.py);
+# generated stills land in docs/assets/art/holt-system/<id>.png.
+#
+# READ-TO-REVEAL: this file lives bible-side until Book 19 publishes; then it is
+# copied to docs/_data/ and its star added to stars-named.yml (see systems/README.md).
+# NOTE: astronomy only. The ancient temporal-transmitter mesh (which will one day
+# overlay the galaxy map) is PRIVATE roadmap and must NOT appear here.
+# =============================================================================
+
+system:
+  id: holt-system
+  name: "The Holt System"
+  star_ref: book-19                 # the galaxy star that is Garn (ties to the map)
+  summary: >
+    A full, well-made system around a yellow star a shade cooler than standard, with one
+    living world — Holt, a wooded lowland world of slow braided rivers and modest towns
+    where the rivers meet. Five planets from a scorched inner rock to a far cold dwarf.
+    Holt's night sky keeps its neighbours close: Squall, Vane's orange sun, sits plain
+    to the naked eye, and on the clearest nights Keld, Mirren's red one, can just be
+    found. The three neighbours steer by each other's suns.
+  view:
+    au_span: 18                     # outer edge to render (AU); Knot sits near this
+    tilt_deg: 19                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: weir
+    name: "Garn"
+    role: primary
+    common: "the sun (to Holt); the brightest lamp in Vane's and Mirren's night skies"
+    spectral: "G6 V"
+    stats:
+      mass_sol: 0.93
+      radius_sol: 0.92
+      temp_k: 5620
+      luminosity_sol: 0.76
+      color: "soft yellow-gold"
+      age_gyr: 5.6
+    palette: ["#ffe9a8", "#ffd97d", "#f0b855", "#c98a30"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of a soft yellow main-sequence star (mid-G, ~5600K)
+        filling most of the frame against deep black space: fine golden granulation, a
+        pair of modest dark starspot groups, low arcing prominences at the limb, a faint
+        even corona. Scientific, cinematic, no lens flare kitsch. Believable stellar
+        astronomy.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: kiln
+    name: "Kiln"
+    kind: planet
+    order: 1
+    common: "the Ember (a low quick evening star from Holt)"
+    orbit: { au: 0.3, period_yr: 0.17, ecc: 0.08, tilt_deg: 2 }
+    phys:
+      radius_e: 0.75
+      mass_e: 0.35
+      gravity_g: 0.62
+      day_hr: 996                   # 3:2 spin-orbit resonance, Mercury-fashion
+      mean_temp_c: 165
+      atmosphere: "trace CO₂ (a thin baked wisp)"
+    palette: ["#9a6a4a", "#6f4630", "#3a2418"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A slow-turning scorched rocky world seen from orbit, near a soft yellow sun:
+        terracotta and umber cratered plains, long fault scarps, a glassy heat-glazed
+        basin on the dayside, the barest haze of an atmosphere at the limb. Mercury-like
+        but larger and redder. Photoreal, scientific, stark. Black star-strewn space
+        behind.
+
+  - id: holt
+    name: "Holt"
+    kind: planet
+    order: 2
+    common: "the World / the Wood (its people's word for the planet and the country both)"
+    story: >
+      Holt is Book 19 background — geography only. A wooded lowland world: broadleaf
+      country from coast to coast, slow rivers braiding through it, and modest towns
+      grown up at the meetings of the rivers, timber-built and bridge-proud.
+    orbit: { au: 0.89, period_yr: 0.87, ecc: 0.02, tilt_deg: 22 }
+    phys:
+      radius_e: 0.98
+      mass_e: 0.94
+      gravity_g: 0.98
+      day_hr: 25.1
+      mean_temp_c: 11
+      atmosphere: "breathable (N₂/O₂), humid, river-hazed"
+    palette: ["#3f7d5a", "#6a9a4c", "#3f6f8f", "#e8eef4"]
+    moons:
+      - id: rook
+        name: "Rook"
+        common: "the Rookery"
+        radius_e: 0.27
+        orbit_days: 30
+        note: >
+          A single pale, well-cratered moon on an easy month-long round; its phases keep
+          Holt's calendar, and its dark maria make the bird that names it.
+    art:
+      size: "1024x1024"
+      prompt: >
+        A living forest world seen from orbit, lit by a soft yellow sun: deep green
+        lowland continents veined everywhere with branching silver rivers, wide shallow
+        estuaries, banks of fair-weather cloud, small bright ice caps. One pale cratered
+        moon in the black star-strewn sky. Earthlike but greener and wetter; photoreal,
+        scientific, calm and generous. Soft rim light on the limb.
+
+  - id: bole
+    name: "Bole"
+    kind: planet
+    order: 3
+    common: "the Great Lamp (brightest wandering light in Holt's sky)"
+    orbit: { au: 4.0, period_yr: 8.3, ecc: 0.05, tilt_deg: 3 }
+    phys:
+      radius_e: 10.8
+      mass_e: 290
+      gravity_g: 2.49
+      day_hr: 9.9
+      mean_temp_c: -154
+      atmosphere: "hydrogen/helium gas giant, strongly banded"
+    palette: ["#c9a97a", "#9a7d55", "#6f5a3f", "#e0cfae"]
+    rings: false
+    moons:
+      - id: burl
+        name: "Burl"
+        radius_e: 0.24
+        orbit_days: 4.2
+        note: "A knotted, mottled inner moon, flexed warm by Bole's pull; young ice over old rock."
+      - id: wisp
+        name: "Wisp"
+        radius_e: 0.09
+        orbit_days: 11.3
+        note: "A small bright outer moon, little more than a moving point from Holt."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A great banded gas giant seen from orbit, three-quarter lit by a distant yellow
+        sun: walnut, cream and slate cloud bands, two long-lived oval storms, no rings.
+        Two small moons as points nearby, one casting a pin of shadow on the clouds.
+        Jupiter-like, its own browner colours. Photoreal, majestic, scientific.
+
+  - id: fen
+    name: "Fen"
+    kind: planet
+    order: 4
+    common: "the Deep Green (a dim slow star, teal in a good glass)"
+    orbit: { au: 9.5, period_yr: 30.4, ecc: 0.03, tilt_deg: 26 }
+    phys:
+      radius_e: 3.6
+      mass_e: 13
+      gravity_g: 1.0
+      day_hr: 16.5
+      mean_temp_c: -200
+      atmosphere: "hydrogen/methane ice giant"
+    palette: ["#4a7d8f", "#35606f", "#7fa8b8"]
+    moons:
+      - id: sedge
+        name: "Sedge"
+        radius_e: 0.12
+        orbit_days: 6.4
+        note: "A frost-white moon on a tidy orbit; slow nitrogen geysers streak its plains."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A serene ice-giant world seen from orbit: a deep green-teal methane atmosphere,
+        faint darker bands, one small bright storm spot, a thin dark ring arc. One small
+        frosted moon. Neptune-like, cold and quiet. Photoreal, scientific, still.
+
+  - id: knot
+    name: "Knot"
+    kind: planet
+    order: 5
+    common: "the Knot (the far tangle-point of the almanac tables)"
+    orbit: { au: 16.0, period_yr: 66.4, ecc: 0.21, tilt_deg: 14 }
+    phys:
+      radius_e: 0.17
+      mass_e: 0.002
+      gravity_g: 0.07
+      day_hr: 118
+      mean_temp_c: -215
+      atmosphere: "trace (frozen most of its orbit)"
+    palette: ["#9a8f85", "#6f665e", "#3a352f"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A tiny frozen dwarf world at the far edge of a system, barely lit by a pinpoint
+        yellow sun: tan-grey nitrogen-ice plains crossed by dark pressure ridges knotted
+        at their crossings, no atmosphere. Pluto-like, remote and intricate. Photoreal,
+        scientific, lonely.

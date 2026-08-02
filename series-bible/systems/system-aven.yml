@@ -1,0 +1,178 @@
+# =============================================================================
+# THE AVEN SYSTEM — Aven's home system (Book 9)
+# Data-first worldbuilding in the format of docs/_data/system-orin.yml (the Auros
+# exemplar) — see README.md in this folder. Believable hard-SF (obeys the foundation:
+# known physics, no contradictions). Orbits are Kepler-computed (period = √(a³/M)
+# around a 0.60-solar-mass star); stats are Earth-relative where marked (_e = Earth
+# = 1, _g = Earth gravity = 1). A sparse system: late-K dwarfs keep lean families,
+# and this one is leaner than most. Each body carries an `art.prompt` for gpt-image-2
+# (scripts/gen-art.py); generated stills land in docs/assets/art/aven-system/<id>.png
+# once revealed.
+#
+# READ-TO-REVEAL: this file lives bible-side; it copies to docs/_data/ when its book
+# publishes (Book 9, The Severed Reach) and Aven joins stars-named.yml.
+# NOTE: astronomy only. The ancient temporal-transmitter mesh is PRIVATE roadmap
+# (planning/) and must NOT appear here.
+# =============================================================================
+
+system:
+  id: aven-system
+  name: "The Aven System"
+  star_ref: book-09                 # the galaxy star that is Aven's sun (Book 9)
+  summary: >
+    A sparse, old system around a deep-orange star: one scorched inner rock, one
+    living world — Aven, a cold-temperate world of fjord coasts and ice-carved
+    highlands, thinly peopled — then gravel, one quiet ice giant, and a far frozen
+    stray. A small sky, easily learned; Aven's fisher-farmers know every light in it.
+  view:
+    au_span: 7.5                    # outer edge to render (AU); Firn sits near this
+    tilt_deg: 15                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: aven-sun
+    name: "Aven"
+    role: primary
+    common: "the sun (to Aven, simply 'the sun'); the system roll-name serves star and world alike — no second name was ever coined"
+    spectral: "K8 V"
+    stats:
+      mass_sol: 0.60
+      radius_sol: 0.61
+      temp_k: 4050
+      luminosity_sol: 0.09
+      color: "deep orange"
+      age_gyr: 7.6
+    palette: ["#ffb36b", "#ef8d43", "#c9662a", "#8d3f1a"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of a deep-orange late-K dwarf star (~4050K) filling
+        most of the frame against deep black space: a copper-orange granulated
+        photosphere, a scatter of dark spots, low slow prominences at the limb, a
+        modest corona. Old, steady, unhurried. Scientific, cinematic, no lens flare
+        kitsch. Believable stellar astronomy.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: char
+    name: "Char"
+    kind: planet
+    order: 1
+    common: "the Char (a spark lost in the sun's skirts, seen only at eclipse-grazing dusk)"
+    orbit: { au: 0.09, period_yr: 0.0349, ecc: 0.03, tilt_deg: 1 }
+    phys:
+      radius_e: 0.55
+      mass_e: 0.16
+      gravity_g: 0.53
+      day_hr: 306                   # tide-locked; day = year
+      mean_temp_c: 240
+      atmosphere: "none (baked off)"
+    palette: ["#9a6a4d", "#6d4632", "#402a1e", "#1c110b"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small scorched airless world close to a deep-orange dwarf sun, seen from
+        orbit: a cratered burnt-brown dayside, a hard black terminator, a frozen
+        nightside, no atmosphere. The orange star large beyond the limb. Photoreal,
+        scientific, stark.
+
+  - id: aven
+    name: "Aven"
+    kind: planet
+    order: 2
+    common: "the World / home"
+    story: >
+      Aven is this system's one living world, and world and system share the one
+      name. A cold-temperate world, most of it upland and ice-worn: long drowned
+      glacial coasts cut into fjords, dark spruce-analog forest in the sheltered
+      valleys, and a thin scatter of harbor towns on the sounds. Few people, long
+      winters, deep water.
+    orbit: { au: 0.372, period_yr: 0.293, ecc: 0.03, tilt_deg: 24 }
+    phys:
+      radius_e: 0.94
+      mass_e: 0.83
+      gravity_g: 0.94
+      day_hr: 37.4                  # an old day, worn long by the sun's patient tides
+      mean_temp_c: -1
+      atmosphere: "breathable (N₂/O₂), cold and clean"
+    palette: ["#3c5a70", "#5d7561", "#b9c6cf", "#eef3f6"]
+    moons:
+      - id: ness
+        name: "Ness"
+        common: "the Moon"
+        radius_e: 0.21
+        orbit_days: 14.6
+        note: "One pale close moon; its quick strong tides run the fjords like breath, and Aven's harbors keep its count."
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cold living world seen from orbit, lit by a deep-orange sun: grey-green
+        highland continents sheeted with ice at the poles and crowns, coasts torn
+        into long silver fjords and drowned valleys, cold dark seas, ragged white
+        weather fronts. One pale moon in the black star-strewn sky. Earthlike but
+        northern, spare, handsome. Photoreal, scientific, clear and cold.
+
+  - id: wrack
+    name: "The Wrack"
+    kind: belt
+    order: 3
+    common: "the Wrack (sky-gravel, cast up past the world like weed at the tideline)"
+    orbit: { au_inner: 0.95, au_outer: 1.5 }
+    story: null
+    art: null                       # rendered as a ring of specks, not a still
+
+  - id: mull
+    name: "Mull"
+    kind: planet
+    order: 4
+    common: "the Headland (the far bright wanderer; Aven's almanacs steer the year by it)"
+    orbit: { au: 2.7, period_yr: 5.73, ecc: 0.02, tilt_deg: 8 }
+    phys:
+      radius_e: 3.5
+      mass_e: 12
+      gravity_g: 0.98
+      day_hr: 15.8
+      mean_temp_c: -185
+      atmosphere: "hydrogen/methane ice giant"
+    palette: ["#5b7d8f", "#3f6274", "#2a4656", "#16242e"]
+    moons:
+      - id: voe
+        name: "Voe"
+        radius_e: 0.10
+        orbit_days: 5.6
+        note: "A small ice moon, seamed and refrozen; named for the narrow inlets of home."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A quiet ice-giant world seen from orbit: a deep grey-teal methane atmosphere,
+        faint pale banding, one small bright cloud streak, no rings. One small icy
+        moon nearby. Lit thin and orange by a far late-K sun. Neptune-like, cold,
+        composed. Photoreal, scientific, still.
+
+  - id: firn
+    name: "Firn"
+    kind: planet
+    order: 5
+    common: "the Old Snow"
+    orbit: { au: 6.9, period_yr: 23.4, ecc: 0.18, tilt_deg: 11 }
+    phys:
+      radius_e: 0.17
+      mass_e: 0.0018
+      gravity_g: 0.06
+      day_hr: 96
+      mean_temp_c: -218
+      atmosphere: "trace (frozen most of its orbit)"
+    palette: ["#d8d4cf", "#a9a29c", "#6f6a66", "#3a3736"]
+    moons: []
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small frozen dwarf world at the cold edge of a sparse system, lit by a
+        far-off orange pinpoint sun: grey and old-ivory nitrogen-ice plains packed
+        and recrystallized like ancient snow, soft-shouldered ridges, a few sharp
+        young craters, no atmosphere, no moon. Pluto-like, remote, patient.
+        Photoreal, scientific, lonely.

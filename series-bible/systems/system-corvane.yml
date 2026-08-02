@@ -1,0 +1,270 @@
+# =============================================================================
+# THE CORVANE SYSTEM — Corvane's home solar system (Books 9/17)
+# Data-first worldbuilding in the format of docs/_data/system-orin.yml (the Auros
+# exemplar) — see README.md in this folder. Believable hard-SF (obeys the foundation:
+# known physics, no contradictions). Orbits are Kepler-computed (period = √(a³/M)
+# around a 1.03-solar-mass star); stats are Earth-relative where marked (_e = Earth
+# = 1, _g = Earth gravity = 1). The system's signature is rock-wealth: an unusually
+# heavy main belt and the most cluttered, most-cataloged near-world sky in any roll.
+# Each body carries an `art.prompt` for gpt-image-2 (scripts/gen-art.py); generated
+# stills land in docs/assets/art/corvane-system/<id>.png once revealed.
+#
+# READ-TO-REVEAL: this file lives bible-side; it copies to docs/_data/ when its book
+# publishes (first Book 9, The Severed Reach; Book 17, The Memory War, returns) and
+# Corvane joins stars-named.yml.
+# NOTE: astronomy only. The ancient temporal-transmitter mesh is PRIVATE roadmap
+# (planning/) and must NOT appear here.
+# =============================================================================
+
+system:
+  id: corvane-system
+  name: "The Corvane System"
+  star_ref: book-09                 # the galaxy star that is Corvane's sun (Books 9/17)
+  summary: >
+    A bright young-middle-aged system around a white-gold star a shade stronger than
+    the sun, with one living world — Corvane, temperate and continental, its great
+    river basins draining old mineral shields to broad harbored coasts. What sets the
+    system apart is rocks: a massive broken belt, twin shoals riding the gas giant's
+    orbit, and hundreds of numbered crossers in Corvane's own sky. The almanacs here
+    run to more volumes than anywhere — wealth, counted in stone.
+  view:
+    au_span: 22                     # outer edge to render (AU); the Tailings end near this
+    tilt_deg: 19                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: corvane-sun
+    name: "Corvane"
+    role: primary
+    common: "the Sun (at home, simply 'the sun'); polity, world and star share the one name, and the registry follows"
+    spectral: "G1 V"
+    stats:
+      mass_sol: 1.03
+      radius_sol: 1.02
+      temp_k: 5870
+      luminosity_sol: 1.11
+      color: "white-gold"
+      age_gyr: 4.3
+    palette: ["#fff3d6", "#ffe09a", "#f3bf62", "#d18f36"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of a white-gold main-sequence star (early-G, ~5870K)
+        filling most of the frame against deep black space: a brilliant finely
+        granulated photosphere, small sharp spot pairs, active prominences at the
+        limb, a strong clean corona. Vigorous, bright, exact. Scientific, cinematic,
+        no lens flare kitsch. Believable stellar astronomy.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: flint
+    name: "Flint"
+    kind: planet
+    order: 1
+    common: "the Spark"
+    orbit: { au: 0.34, period_yr: 0.195, ecc: 0.15, tilt_deg: 1 }
+    phys:
+      radius_e: 0.60
+      mass_e: 0.22
+      gravity_g: 0.61
+      day_hr: 1142                  # 3:2 spin-orbit, Mercury-fashion
+      mean_temp_c: 170
+      atmosphere: "none (a sodium ghost at most)"
+    palette: ["#8f8579", "#635b52", "#3b352f", "#191613"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small dense airless world near a brilliant white-gold sun, seen from orbit:
+        iron-grey cratered plains with long bright ray systems and dark struck
+        hollows like worked stone, no atmosphere, a hard terminator. Mercury-like,
+        flinty, sharp-lit. Photoreal, scientific, stark.
+
+  - id: scald
+    name: "Scald"
+    kind: planet
+    order: 2
+    common: "the Lid (an unbroken roof of cloud; nothing beneath it has ever been seen)"
+    orbit: { au: 0.70, period_yr: 0.577, ecc: 0.01, tilt_deg: 2 }
+    phys:
+      radius_e: 0.95
+      mass_e: 0.85
+      gravity_g: 0.94
+      day_hr: 2800                  # slow retrograde spin
+      mean_temp_c: 340
+      atmosphere: "thick CO₂ + sulphuric haze (opaque)"
+    palette: ["#f0dca6", "#d8b877", "#b18a4e", "#7d5c33"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cloud-sealed hothouse world seen from orbit, lit hard by a white-gold sun:
+        a total, featureless deck of pale bone-and-honey sulphur clouds in slow
+        chevron bands, no surface ever visible, a bright searing limb. Venus-like.
+        Photoreal, scientific, blank and pitiless.
+
+  - id: corvane
+    name: "Corvane"
+    kind: planet
+    order: 3
+    common: "the World / home"
+    story: >
+      Corvane is the living world that named the system. Continental and temperate:
+      three great river basins drain a hard old shield of mineral country — iron
+      ranges, coal measures, bright ore seams — down to coasts cut deep with natural
+      harbors. Geography that gathers people and works them. Its near sky is the
+      most cataloged in any almanac: hundreds of numbered crossing rocks, and the
+      Lode beyond.
+    orbit: { au: 1.06, period_yr: 1.075, ecc: 0.016, tilt_deg: 21 }
+    phys:
+      radius_e: 1.06
+      mass_e: 1.18
+      gravity_g: 1.05
+      day_hr: 22.6
+      mean_temp_c: 14
+      atmosphere: "breathable (N₂/O₂), temperate"
+    palette: ["#38678a", "#5c8557", "#a68a56", "#edf1f7"]
+    moons:
+      - id: barrow
+        name: "Barrow"
+        common: "the Great Moon"
+        radius_e: 0.26
+        orbit_days: 24.3
+        note: "A pale close moon, heavily quarried by craters; its tides work the three river mouths, and the basin calendars keep its count."
+      - id: skiff
+        name: "Skiff"
+        common: "the Little Passenger"
+        radius_e: 0.005
+        orbit_days: 5.8
+        note: "A caught rock a few miles across, fast and low — first of the numbered near-world stones, and the only one with a name."
+    art:
+      size: "1024x1024"
+      prompt: >
+        A living temperate world seen from orbit, lit by a white-gold sun: green and
+        tawny continents veined with three enormous silver river systems fanning to
+        deltas, dark iron-grey shield uplands, deep natural harbors along bold
+        coasts, white weather, polar ice. One large pale moon and one tiny point
+        companion in the black star-strewn sky. Earthlike but broad-shouldered and
+        rich. Photoreal, scientific, confident.
+
+  - id: chert
+    name: "Chert"
+    kind: planet
+    order: 4
+    common: "the Dry Neighbor"
+    orbit: { au: 1.71, period_yr: 2.20, ecc: 0.08, tilt_deg: 26 }
+    phys:
+      radius_e: 0.60
+      mass_e: 0.16
+      gravity_g: 0.44
+      day_hr: 25.7
+      mean_temp_c: -58
+      atmosphere: "thin CO₂ (cold, dusty)"
+    palette: ["#b06a44", "#8a4e30", "#5e3521", "#d9a877"]
+    story: null
+    moons:
+      - id: spall
+        name: "Spall"
+        radius_e: 0.02
+        orbit_days: 1.3
+        note: "A flake of rock knocked loose and kept, tumbling close."
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cold dry rust-and-buff desert world seen from orbit: wind-scoured stone
+        plains, dark dune seas, a thin bright ice cap, dust haze at the limb.
+        Mars-like but paler, banded like worked chert. One tiny irregular moon.
+        Photoreal, scientific, austere.
+
+  - id: lode
+    name: "The Lode"
+    kind: belt
+    order: 5
+    common: "the Lode (wealth in rocks; the almanacs number its tens of thousands)"
+    orbit: { au_inner: 2.2, au_outer: 3.5 }
+    story: >
+      An unusually massive belt — the wreck of a world that Wain's resonances never
+      let finish. Much of it is differentiated stuff: iron-cored shards, bright
+      metal faces, water-ice in the outer reaches past the snowline. No other
+      charted belt comes close to its count of numbered stones.
+    art: null                       # rendered as a ring of specks, not a still
+
+  - id: wain
+    name: "Wain"
+    kind: planet
+    order: 6
+    common: "the Waggon (brightest wanderer in Corvane's sky; two shoals of numbered rocks lead and trail it on its road)"
+    orbit: { au: 5.3, period_yr: 12.0, ecc: 0.05, tilt_deg: 3 }
+    phys:
+      radius_e: 10.9
+      mass_e: 300
+      gravity_g: 2.5
+      day_hr: 9.9
+      mean_temp_c: -150
+      atmosphere: "hydrogen/helium gas giant, banded"
+    rings: true
+    moons:
+      - id: axle
+        name: "Axle"
+        radius_e: 0.25
+        orbit_days: 3.4
+        note: "A close ochre moon, kneaded hot inside; young floods glaze its plains."
+      - id: spoke
+        name: "Spoke"
+        radius_e: 0.20
+        orbit_days: 6.8
+        note: "A cracked white ice moon in 2:1 time with Axle; a dark ocean is suspected beneath."
+      - id: hitch
+        name: "Hitch"
+        radius_e: 0.13
+        orbit_days: 15.9
+        note: "A grey outrider, soft-cratered and old; a dozen smaller stones ride numbered behind it."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A great banded gas giant seen from orbit, three-quarter lit by a bright
+        white-gold sun: bands of cream, bronze and slate, one long pale storm train,
+        and a thin bright ring tilted across the frame casting a knife of shadow.
+        Three small moons strung as points along the plane. Jupiter-like, its own
+        colours. Photoreal, majestic, scientific.
+
+  - id: sleet
+    name: "Sleet"
+    kind: planet
+    order: 7
+    common: "the Cold Lamp"
+    orbit: { au: 10.9, period_yr: 35.5, ecc: 0.03, tilt_deg: 27 }
+    phys:
+      radius_e: 3.8
+      mass_e: 15
+      gravity_g: 1.04
+      day_hr: 16.9
+      mean_temp_c: -188
+      atmosphere: "hydrogen/methane ice giant"
+    palette: ["#7fa6bb", "#527d96", "#35586e", "#1b2f3d"]
+    moons:
+      - id: pane
+        name: "Pane"
+        radius_e: 0.09
+        orbit_days: 4.4
+        note: "A smooth window-flat ice moon, bright as glass at opposition."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A serene pale-blue ice giant seen from orbit: a deep hydrogen-methane
+        atmosphere of glacial blue with faint silver banding and a few high white
+        streaks, a thin dark ring arc. One small bright ice moon. Neptune-like,
+        polished, cold. Photoreal, scientific, still.
+
+  - id: tailings
+    name: "The Tailings"
+    kind: belt
+    order: 8
+    common: "the Tailings (the far spill of leftover stone and ice beyond Sleet)"
+    orbit: { au_inner: 15, au_outer: 21 }
+    story: null
+    art: null                       # rendered as a ring of specks, not a still

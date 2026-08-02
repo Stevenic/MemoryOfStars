@@ -1,0 +1,236 @@
+# =============================================================================
+# THE HARL SYSTEM — Sowen's home solar system (the colony of Book 7)
+# Data-first worldbuilding in the format of docs/_data/system-orin.yml (the Auros
+# exemplar) — see README.md in this folder. Believable hard-SF (obeys the foundation:
+# known physics, no contradictions). Orbits are Kepler-computed (period = √(a³/M)
+# around a 0.78-solar-mass star); stats are Earth-relative where marked (_e = Earth
+# = 1, _g = Earth gravity = 1). Not all bodies touch the story — the system should
+# feel real. Each body carries an `art.prompt` for gpt-image-2 (scripts/gen-art.py);
+# generated stills land in docs/assets/art/sowen-system/<id>.png once revealed.
+#
+# READ-TO-REVEAL: this file lives bible-side; it copies to docs/_data/ when its book
+# publishes (Book 7, A Hundred Empty Years) and Harl joins stars-named.yml.
+# NOTE: astronomy only. The ancient temporal-transmitter mesh is PRIVATE roadmap
+# (planning/) and must NOT appear here.
+# =============================================================================
+
+system:
+  id: sowen-system
+  name: "The Harl System"
+  star_ref: book-07                 # the galaxy star that is Harl (Sowen's sun; ~9 ly from Reed)
+  summary: >
+    A close-built system around a deep-orange star, the kind K dwarfs favour: its worlds
+    huddled near the warmth, its one living world — Sowen, dry-continental, hard-skied,
+    settled around CR 200 by emigrants out of Meret who went far enough to start over
+    and no farther. Inward, a cinder and a shrouded not-quite-Neptune; outward, a thin
+    belt, one modest giant, a cold blue deep, and a far stray.
+  view:
+    au_span: 14                     # outer edge to render (AU); Rind sits near this
+    tilt_deg: 20                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: harl
+    name: "Harl"
+    role: primary
+    common: "the Sun (to Sowen, simply 'the sun'); from Reed's night sky, the point the emigrant ships steered for"
+    spectral: "K2 V"
+    stats:
+      mass_sol: 0.78
+      radius_sol: 0.74
+      temp_k: 4960
+      luminosity_sol: 0.30
+      color: "deep orange-gold"
+      age_gyr: 7.5
+    palette: ["#ffca7a", "#f0a04e", "#d97c30", "#a3541e"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of a deep orange-gold main-sequence star (early-K,
+        ~5000K) filling most of the frame against deep black space: coarse amber
+        granulation, a scatter of large dark starspots, one low arched prominence at the
+        limb, a modest corona. Older, dimmer, longer-lived than the sun. Scientific,
+        cinematic, no lens flare kitsch. Believable stellar astronomy.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: grit
+    name: "Grit"
+    kind: planet
+    order: 1
+    common: "the Spark"
+    orbit: { au: 0.05, period_yr: 0.0127, ecc: 0.01, tilt_deg: 1 }
+    phys:
+      radius_e: 1.2
+      mass_e: 2.1
+      gravity_g: 1.46
+      day_hr: 114                   # tide-locked; one face always to the sun
+      mean_temp_c: 650
+      atmosphere: "none (stripped by flares long ago)"
+    palette: ["#e8a06a", "#a85f38", "#5f3322", "#241611"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A scorched tide-locked rocky world skimming close over its orange star, seen from
+        orbit: a glowing rust-and-charcoal dayside webbed with cooling lava veins, a knife
+        terminator, an utterly black nightside. The orange star vast behind the limb.
+        Photoreal, scientific, stark.
+
+  - id: scud
+    name: "Scud"
+    kind: planet
+    order: 2
+    common: "the Grey Lamp"
+    orbit: { au: 0.16, period_yr: 0.072, ecc: 0.03, tilt_deg: 2 }
+    phys:
+      radius_e: 2.3
+      mass_e: 6.8
+      gravity_g: 1.29
+      day_hr: 90
+      mean_temp_c: 240
+      atmosphere: "deep hydrogen haze over a hot steam mantle (no surface to speak of)"
+    palette: ["#cfd4d9", "#a9b3bd", "#7d8a97", "#525f6d"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A featureless grey-veiled sub-Neptune seen from orbit, lit orange by a near
+        K-dwarf sun: a smooth deep haze envelope, pearl-grey shading to slate at the
+        terminator, no surface, no storms visible, only faint banded shadings. Common
+        as worlds go, and utterly unwelcoming. Photoreal, scientific, muted.
+
+  - id: sowen
+    name: "Sowen"
+    kind: planet
+    order: 3
+    common: "the World / home (to its settlers); the Colony (in Meret's old ledgers)"
+    story: >
+      Sowen is the colony world of Book 7 — dry-continental, big-skied, settled around
+      CR 200 by emigrants from Meret after a twenty-year crossing. From its high desert
+      equator a tether-port rises, the colony's one door to orbit. Hot days, hard cold
+      nights, and dust the settlers learned to love.
+    orbit: { au: 0.55, period_yr: 0.46, ecc: 0.04, tilt_deg: 14 }
+    phys:
+      radius_e: 0.9
+      mass_e: 0.72
+      gravity_g: 0.89
+      day_hr: 31
+      mean_temp_c: 9
+      atmosphere: "breathable (N₂/O₂), dry; dust hazes in the long summer"
+    palette: ["#c9a06a", "#8f9a6a", "#6a7d8f", "#efe8d8"]
+    moons:
+      - id: cleat
+        name: "Cleat"
+        common: "the Moon"
+        radius_e: 0.09
+        orbit_days: 12.1
+        note: "A small bright moon, close and quick; the settlers named it for the thing you tie a line to."
+    art:
+      size: "1024x1024"
+      prompt: >
+        A dry-continental living world seen from orbit under a deep-orange sun: broad
+        tan and olive continents, narrow landlocked seas, salt flats flashing white,
+        sparse cloud in long ribs, small ice caps. One small bright moon in the black
+        star-strewn sky. Habitable but hard-edged, more steppe than garden. Photoreal,
+        scientific, spare and hopeful.
+
+  - id: chaff
+    name: "The Chaff"
+    kind: belt
+    order: 4
+    common: "the Chaff (what the harvest of worlds left over, in settler joke)"
+    orbit: { au_inner: 1.2, au_outer: 2.0 }
+    story: null
+    art: null                       # rendered as a ring of specks, not a still
+
+  - id: brunt
+    name: "Brunt"
+    kind: planet
+    order: 5
+    common: "the Doorman (its pull fends the inner worlds from strays)"
+    orbit: { au: 3.4, period_yr: 7.1, ecc: 0.05, tilt_deg: 3 }
+    phys:
+      radius_e: 9.6
+      mass_e: 180
+      gravity_g: 1.95
+      day_hr: 11.3
+      mean_temp_c: -160
+      atmosphere: "hydrogen/helium gas giant, banded"
+    moons:
+      - id: latch
+        name: "Latch"
+        radius_e: 0.2
+        orbit_days: 3.1
+        note: "A close rust-and-grey moon, tide-worked and restless."
+      - id: haft
+        name: "Haft"
+        radius_e: 0.16
+        orbit_days: 6.7
+        note: "An old ice moon, crazed with refrozen fractures."
+      - id: burr
+        name: "Burr"
+        radius_e: 0.1
+        orbit_days: 15.8
+        note: "A dark far moon, rough as its name."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A modest banded gas giant seen from orbit, lit low and warm by a distant orange
+        sun: bands of butterscotch, sand and dove-grey, one small dark storm-eye, no
+        rings. Three small moons as points nearby. Jupiter-like but smaller and calmer,
+        its colours warmed by K-dwarf light. Photoreal, majestic, scientific.
+
+  - id: firth
+    name: "Firth"
+    kind: planet
+    order: 6
+    common: "the Cold Eye"
+    orbit: { au: 7.4, period_yr: 22.8, ecc: 0.02, tilt_deg: 24 }
+    phys:
+      radius_e: 3.5
+      mass_e: 12
+      gravity_g: 0.98
+      day_hr: 15.7
+      mean_temp_c: -195
+      atmosphere: "hydrogen/methane ice giant"
+    moons:
+      - id: shim
+        name: "Shim"
+        radius_e: 0.1
+        orbit_days: 5.2
+        note: "A thin bright sliver of a moon, frost over stone."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A deep-blue ice giant seen from orbit, far from a small orange sun: a smooth
+        methane-blue disc, the faintest paler banding, one wisp of high white cloud,
+        no rings. A single small frosted moon. Neptune-like, cold as a held breath.
+        Photoreal, scientific, still.
+
+  - id: rind
+    name: "Rind"
+    kind: planet
+    order: 7
+    common: "the Last"
+    orbit: { au: 12.6, period_yr: 50.6, ecc: 0.18, tilt_deg: 9 }
+    phys:
+      radius_e: 0.14
+      mass_e: 0.002
+      gravity_g: 0.1
+      day_hr: 96
+      mean_temp_c: -215
+      atmosphere: "trace (frozen most of its orbit)"
+    moons: []
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small frozen dwarf world at a system's cold rim, its orange sun no more than
+        the brightest star: dark reddish tholin-stained ice, pale frost basins, a low
+        ridge circling it like an old scar, no atmosphere, no moon. Remote and patient.
+        Photoreal, scientific, lonely.

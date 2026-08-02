@@ -1,0 +1,274 @@
+# =============================================================================
+# THE CINDER SYSTEM — the broken ring's system (Book 11)
+# Data-first worldbuilding for the explorable "system view" of the Archive/star map.
+# Believable hard-SF (obeys the foundation: known physics, no contradictions). Orbits
+# are to scale-ish (period ≈ √(a³/M) around a 0.16-solar-mass red dwarf — an M-dwarf
+# system, so everything sits tight: the ring arcs orbit at 0.05 AU in ten days); stats
+# are Earth-relative where marked (_e = Earth = 1, _g = Earth gravity = 1). No settled
+# world. The system's signature is a broken Dyson ring: five vast arc-fragments of an
+# incomplete ring structure in close orbit, a swarm of derelict construction bodies,
+# and three moon-sized industrial hulks. Each body carries an `art.prompt` for
+# gpt-image-2 (scripts/gen-art.py); generated stills land in
+# docs/assets/art/cinder-system/<id>.png.
+#
+# Read-to-reveal: this file lives bible-side until Book 11 publishes — then it is
+# copied to docs/_data/ and Cinder is added to stars-named.yml (see systems/README.md).
+#
+# NOTE: astronomy only. The made objects here are catalogued as a survey would
+# catalogue them — masses, orbits, dimensions, albedos. Notes describe what is
+# OBSERVED, never what it means: no builders, no purpose, no age beyond what the
+# numbers say. The ancient temporal-transmitter mesh is PRIVATE roadmap and must NOT
+# appear here.
+# =============================================================================
+
+system:
+  id: cinder-system
+  name: "The Cinder System"
+  star_ref: book-11                 # the galaxy star that is Cinder (ties to the map)
+  summary: >
+    An old, dim red star, quiet with age, wearing five bright arcs where a ring should
+    close — and a shoal of made shapes about them, three of the pieces the size of
+    moons. One scorched rock inside the arcs, cold grit far outside, and a coal-dark
+    dwarf in the grit. The survey gives masses, orbits, and albedos. It does not give
+    reasons.
+  view:
+    au_span: 4.5                    # outer edge to render (AU); the Grit thins out here
+    tilt_deg: 21                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: cinder
+    name: "Cinder"
+    role: primary
+    common: "the name is a navigator's plain verdict — a coal barely alight"
+    spectral: "M5 V (red dwarf, old and flare-quiet)"
+    stats:
+      mass_sol: 0.16
+      radius_sol: 0.19
+      temp_k: 3000
+      luminosity_sol: 0.0026
+      color: "deep ember red"
+      age_gyr: 11.4
+    palette: ["#c0503c", "#93301f", "#5f1b12"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of a small ancient red-dwarf star (M-class, ~3000K)
+        against deep black space: a dim ember-red granulated disc, no flares, few spots,
+        the corona thin and settled — a star long past its temper. Scientific, cinematic,
+        understated. The darkness around it should feel heavier than the light.
+
+# ----------------------------------------------------- planets & structures --
+bodies:
+  - id: cinder-b
+    name: "Cinder b"
+    kind: planet
+    order: 1
+    common: "the Clinker"
+    orbit: { au: 0.02, period_yr: 0.0071, ecc: 0.0, tilt_deg: 0 }
+    phys:
+      radius_e: 0.45
+      mass_e: 0.08
+      gravity_g: 0.40
+      day_hr: 62                    # spin equals orbit — one face sunward forever
+      mean_temp_c: 170              # dayside ~230; the locked nightside far below zero
+      atmosphere: "none"
+      albedo: 0.09
+    palette: ["#6e4a3c", "#452c24", "#241614"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small airless rocky world very close to a dim red-dwarf star, tide-locked: one
+        hemisphere lit dull red like iron cooling from the forge-heat of noon, dense
+        cratering, a hard terminator into absolute black. Mercury-like but ember-lit.
+        Photoreal, scientific, stark.
+
+  - id: arcs
+    name: "The Arcs"
+    kind: structure
+    order: 2
+    common: "the Arcs (five bright bows where a ring should close)"
+    orbit: { au: 0.05, period_yr: 0.028, ecc: 0.0, tilt_deg: 0 }
+    phys:
+      dims_km: "five arc-fragments, 900 km wide, ~70 km deep; the longest spans 51° of its circle"
+      arc_deg_total: 118            # of 360 — just under a third of a closed ring
+      mass_e: 0.009                 # combined; roughly three-quarters of a Moon
+      mean_temp_c: 5
+      atmosphere: "none"
+      albedo: "0.04 starward faces; 0.51 trailing faces (bare bright metal)"
+    palette: ["#2b2b30", "#4d4f58", "#9aa0ad", "#c0503c"]
+    story: null
+    moons: []
+    note: >
+      Five arcs, catalogued A through E, sharing one orbit at 0.05 AU — ten days
+      around. Worked structure: trussed, seamed, machined, the sections ending in open
+      framework rather than fracture. The shared orbit is circular to the limit of
+      measurement and coplanar with the star's equator to less than a tenth of a
+      degree; each arc turns once per orbit, holding the same face starward. The
+      numbers are as stated. What they mean, the numbers do not say.
+    art:
+      size: "1024x1024"
+      prompt: >
+        A vast curved megastructure fragment in close orbit around a dim red-dwarf star:
+        a bow of dark trussed metal hundreds of kilometres wide, kilometres deep, its
+        sunward face char-black, its trailing face bright bare alloy catching ember-red
+        light, both ends ending in open unfinished framework. Far along the same orbit,
+        two more arcs as thin bright threads. Hard-SF, photoreal, immense and silent.
+        No ships, no lights, no motion.
+
+  - id: shoal
+    name: "The Shoal"
+    kind: swarm
+    order: 3
+    common: "the Shoal (a swarm thick enough to read as weather on a survey plot)"
+    orbit: { au_inner: 0.038, au_outer: 0.072 }
+    phys:
+      count_est: "~9,000 tracked bodies over 1 km; smaller uncounted"
+      dims_km: "1 to 260"
+      mass_e: 0.004                 # combined estimate
+      mean_temp_c: "50 inner edge to -39 outer"
+      albedo: "0.03 to 0.55, mottled"
+    palette: ["#3a3b42", "#6b6e78", "#b8bcc6"]
+    story: null
+    moons: []
+    note: >
+      A swarm of derelict bodies threaded through and around the Arcs' orbit. The
+      shapes repeat: cylinders, open frames, lattices, forms that recur at different
+      sizes. Most tumble. Some do not — attitude held steady across every decade of
+      watching, with no measured means of holding it. Observed; not explained.
+    art:
+      size: "1024x1024"
+      prompt: >
+        A dense drifting field of derelict geometric objects in the ember light of a red
+        dwarf: cylinders, open cage-frames, repeated lattice shapes from house-sized to
+        mountain-sized, some tumbling slowly, some eerily still, dark silhouettes and
+        thin red glints stretching away to the star. Hard-SF, photoreal, cold and
+        wordless. No ships, no lights.
+
+  - id: anvil
+    name: "Cinder A-1"
+    kind: derelict
+    order: 4
+    common: "the Anvil (named for its silhouette)"
+    orbit: { au: 0.061, period_yr: 0.0377, ecc: 0.002, tilt_deg: 0.1 }
+    phys:
+      dims_km: "3,100 × 1,900 × 1,700"
+      mass_e: 0.0011
+      gravity_g: 0.02
+      day_hr: 214                   # a slow end-over-end tumble
+      mean_temp_c: -18
+      atmosphere: "none"
+      albedo: 0.07
+    palette: ["#26262b", "#45454d", "#77787f"]
+    story: null
+    moons: []
+    note: >
+      Moon-sized and moon-massed nowhere near: mean density 1.1 — far under stone.
+      The interior is mostly void. Surface returns show flat facets kilometres across
+      and right angles at every scale the radar can resolve.
+    art:
+      size: "1024x1024"
+      prompt: >
+        A moon-sized derelict industrial mass in orbit around a dim red star: a single
+        dark anvil-shaped body thousands of kilometres long, faceted with flat planes
+        and hard right angles, micro-cratered like old metal, one edge catching a dull
+        ember-red rim light. Hard-SF, photoreal, monumental and inert against a dense
+        starfield.
+
+  - id: drum
+    name: "Cinder A-2"
+    kind: derelict
+    order: 5
+    common: "the Drum"
+    orbit: { au: 0.068, period_yr: 0.0443, ecc: 0.001, tilt_deg: 0.3 }
+    phys:
+      dims_km: "2,400 long, 1,080 across (a closed cylinder)"
+      mass_e: 0.0006
+      gravity_g: 0.01
+      day_hr: 38                    # spins about its long axis, steady to measurement
+      mean_temp_c: -32
+      atmosphere: "none"
+      albedo: 0.34
+    palette: ["#54565e", "#82858f", "#b3b7c2"]
+    story: null
+    moons: []
+    note: >
+      A closed cylinder, spinning about its long axis with a period steady to the limit
+      of measurement across the whole record of watching. Nothing enters or leaves it.
+      Its skin is brighter than the swarm's average and unbroken by any opening the
+      surveys have found.
+    art:
+      size: "1024x1024"
+      prompt: >
+        An immense derelict cylinder in space near a dim red-dwarf star: a closed
+        drum-shaped body over two thousand kilometres long, smooth pale-grey metal skin
+        with faint longitudinal seams, slowly rotating, seamless and doorless, lit along
+        one flank with ember-red light. Hard-SF, photoreal, serene and unreadable.
+
+  - id: comb
+    name: "Cinder A-3"
+    kind: derelict
+    order: 6
+    common: "the Comb (nine parallel vanes on a single spine)"
+    orbit: { au: 0.072, period_yr: 0.0483, ecc: 0.003, tilt_deg: 0.2 }
+    phys:
+      dims_km: "2,800 × 1,400 × 300"
+      mass_e: 0.0004
+      gravity_g: 0.008
+      day_hr: null                  # no rotation measured; it holds one attitude
+      mean_temp_c: -39
+      atmosphere: "none"
+      albedo: "0.05 spine; 0.48 vanes"
+    palette: ["#2e2f36", "#5d616c", "#a9aeba"]
+    story: null
+    moons: []
+    note: >
+      Nine flat vanes standing off a single dark spine, evenly spaced, each vane
+      hundreds of kilometres on a side and tens of metres thin. It does not tumble.
+      The vanes stay face-on to the star through the whole of its orbit, by no means
+      the surveys have measured. Observed; not explained.
+    art:
+      size: "1024x1024"
+      prompt: >
+        A vast comb-shaped derelict structure in space: nine enormous flat rectangular
+        vanes in perfect parallel rank along a dark central spine thousands of
+        kilometres long, the thin vanes glowing dull red where they face a dim ember
+        star, black space showing between the teeth. Hard-SF, photoreal, geometric,
+        utterly still.
+
+  - id: grit
+    name: "The Grit"
+    kind: belt
+    order: 7
+    common: "the Grit (cold leavings, far out and going nowhere)"
+    orbit: { au_inner: 1.5, au_outer: 4.0 }
+    story: null
+    art: null                       # rendered as a ring of specks, not a still
+
+  - id: coal
+    name: "Cinder c"
+    kind: planet
+    order: 8
+    common: "the Coal"
+    orbit: { au: 1.9, period_yr: 6.55, ecc: 0.21, tilt_deg: 9 }
+    phys:
+      radius_e: 0.14
+      mass_e: 0.002
+      gravity_g: 0.10
+      day_hr: 46
+      mean_temp_c: -227
+      atmosphere: "none"
+      albedo: 0.04
+    palette: ["#26222a", "#171420", "#0b0a12"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A near-black ice dwarf in the cold outer dark of a red-dwarf system, barely lit
+        by a faint red pinpoint sun: coal-dark carbon-dusted ice, the faintest ember
+        sheen along one limb, one pale fresh crater like a spark. Almost swallowed by
+        the starfield behind it. Photoreal, scientific, the loneliest object in the
+        frame.

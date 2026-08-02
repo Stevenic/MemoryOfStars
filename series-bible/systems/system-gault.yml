@@ -1,0 +1,248 @@
+# =============================================================================
+# THE PIKE SYSTEM — Gault's home solar system (Books 6 & 8 ground)
+# Data-first worldbuilding for the explorable "system view" of the Archive/star map.
+# Believable hard-SF (obeys the foundation: known physics, no contradictions). Orbits
+# are Kepler-honest (period_yr = √(a_au³ / mass_sol) around a 0.90-solar-mass star);
+# stats are Earth-relative where marked (_e = Earth = 1, _g = Earth gravity = 1).
+# One living world — Gault, clay country under a waymark star. Story color stays at
+# the surface (a chapter-house world, kiln towns); nothing institutional belongs
+# here. Each body carries an `art.prompt` for gpt-image-2 (scripts/gen-art.py).
+#
+# Read-to-reveal: this file lives bible-side; it copies to docs/_data when its book
+# publishes (and Pike joins stars-named.yml).
+#
+# NOTE: astronomy only. The ancient temporal-transmitter mesh (which will one day
+# overlay the galaxy map) is PRIVATE roadmap and must NOT appear here.
+# =============================================================================
+
+system:
+  id: gault-system
+  name: "The Pike System"
+  star_ref: book-06                 # the galaxy star that is Pike (ties to the map)
+  summary: >
+    A steady straw-gold star and a tidy, middle-aged family: two dry rocks inside,
+    one living world — Gault, clay country, old guild ground — one cold rock
+    outside it, a belt of shards, a great banded giant, and a far blue-green deep.
+    Nothing here hurries. Gault's people fire pots, cut peat, and watch the Slow
+    Star cross their winters, the way they have for a very long time.
+  view:
+    au_span: 10.5                   # outer edge to render (AU); Fen sits near this
+    tilt_deg: 16                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: pike
+    name: "Pike"
+    role: primary
+    common: "the sun (to Gault, simply 'the sun'); Pike in the rolls — a hill you steer by"
+    spectral: "G8 V"
+    stats:
+      mass_sol: 0.90
+      radius_sol: 0.87
+      temp_k: 5350
+      luminosity_sol: 0.56          # warm band at √0.56 ≈ 0.75 AU
+      color: "pale straw-gold"
+      age_gyr: 7.4
+    palette: ["#f7e2a0", "#eec670", "#dfa64e", "#b87c30"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of a pale straw-gold main-sequence star (late-G,
+        ~5350K) filling most of the frame against deep black space: a finely
+        granulated photosphere, a small quiet spot pair, low soft prominences at the
+        limb, faint corona. Older and calmer than our sun. Scientific, cinematic, no
+        lens flare kitsch. Believable stellar astronomy.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: slip
+    name: "Slip"
+    kind: planet
+    order: 1
+    common: "the Glaze"
+    orbit: { au: 0.30, period_yr: 0.17, ecc: 0.06, tilt_deg: 1 }
+    phys:
+      radius_e: 0.38
+      mass_e: 0.05
+      gravity_g: 0.35
+      day_hr: 1100                  # slow, tide-worn spin
+      mean_temp_c: 170
+      atmosphere: "none"
+    palette: ["#8f6a4e", "#6b4632", "#3a251b"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small scorched airless world close to a straw-gold sun, its sunward plains
+        fired smooth and faintly sheened like overbaked clay: dark heat-cracked
+        lowlands, bright glassy crater floors, a hard black terminator. Mercury-like
+        but warmer and glossier. Photoreal, scientific, stark. Black star-strewn
+        space behind.
+
+  - id: marl
+    name: "Marl"
+    kind: planet
+    order: 2
+    common: "the Dry Field"
+    orbit: { au: 0.52, period_yr: 0.40, ecc: 0.03, tilt_deg: 8 }
+    phys:
+      radius_e: 0.88
+      mass_e: 0.68
+      gravity_g: 0.88
+      day_hr: 41
+      mean_temp_c: 70
+      atmosphere: "thin CO₂, dust-veiled"
+    palette: ["#c9a06a", "#a87d4c", "#7d5a38", "#e0cba0"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A dry tan world seen from orbit under a straw-gold sun: dust-veiled plains in
+        buff and pale umber, wide white salt pans where seas never quite happened,
+        long wind-streaks, a thin hazy limb. Almost-Earth-sized and utterly parched.
+        Photoreal, scientific, heat-still.
+
+  - id: gault
+    name: "Gault"
+    kind: planet
+    order: 3
+    common: "the Clay / home"
+    story: >
+      Gault is clay country — the old guild ground of Books 6 and 8, the
+      chapter-house world: low red-brown hills, slow rivers thick with silt,
+      shallow green seas, and kiln-smoke towns whose bricks are the ground they
+      stand on.
+    orbit: { au: 0.76, period_yr: 0.70, ecc: 0.02, tilt_deg: 21 }
+    phys:
+      radius_e: 0.95
+      mass_e: 0.85
+      gravity_g: 0.94
+      day_hr: 25.8
+      mean_temp_c: 12
+      atmosphere: "breathable (N₂/O₂), temperate"
+    palette: ["#8a5a3f", "#a97f52", "#5f7d5a", "#7fa3ad"]
+    moons:
+      - id: kiln
+        name: "Kiln"
+        common: "the Moon"
+        radius_e: 0.22
+        orbit_days: 24.6
+        note: "One ochre moon, warm-toned in the evening; its slow month sets Gault's markets and firing days."
+    art:
+      size: "1024x1024"
+      prompt: >
+        A living temperate world seen from orbit, lit by a pale straw-gold sun:
+        red-brown and ochre continents veined with silty rivers, shallow green-grey
+        seas, patchwork lowlands, ranks of soft cloud, small polar caps. One ochre
+        moon in the black star-strewn sky. Earthlike but earthen — a world the
+        colour of pottery. Photoreal, scientific, warm and settled. Soft rim light
+        on the limb.
+
+  - id: whin
+    name: "Whin"
+    kind: planet
+    order: 4
+    common: "the Hard Ground"
+    orbit: { au: 1.4, period_yr: 1.75, ecc: 0.07, tilt_deg: 18 }
+    phys:
+      radius_e: 0.61
+      mass_e: 0.16
+      gravity_g: 0.43
+      day_hr: 29.5
+      mean_temp_c: -65
+      atmosphere: "thin CO₂ (cold, dry)"
+    palette: ["#6e6258", "#4c433c", "#8f8274", "#d9d9d9"]
+    moons:
+      - id: cob
+        name: "Cob"
+        radius_e: 0.03
+        orbit_days: 1.1
+        note: "A lump of captured rock, low and quick."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cold hard rocky world seen from orbit: dark basalt plains and grey-brown
+        uplands dusted with frost, bright ice caps, wisps of high cloud in a
+        sky-thin atmosphere, one tiny irregular moon. Mars-like in station,
+        gunmetal in palette. Photoreal, scientific, unyielding.
+
+  - id: shards
+    name: "The Shards"
+    kind: belt
+    order: 5
+    common: "the Shards"
+    orbit: { au_inner: 2.3, au_outer: 3.1 }
+    story: null
+    art: null                       # rendered as a ring of specks, not a still
+
+  - id: kettle
+    name: "Kettle"
+    kind: planet
+    order: 6
+    common: "the Slow Star (brightest wanderer in Gault's winter sky)"
+    orbit: { au: 4.6, period_yr: 10.4, ecc: 0.05, tilt_deg: 3 }
+    phys:
+      radius_e: 10.9
+      mass_e: 310
+      gravity_g: 2.61
+      day_hr: 9.8
+      mean_temp_c: -161
+      atmosphere: "hydrogen/helium gas giant, banded"
+    rings: true
+    moons:
+      - id: scree
+        name: "Scree"
+        radius_e: 0.24
+        orbit_days: 1.8
+        note: "A close sulphur-stained moon, flexed hot by Kettle's pull; it smokes."
+      - id: ling
+        name: "Ling"
+        radius_e: 0.19
+        orbit_days: 5.4
+        note: "An ice moon, smooth and faintly pink-veined; a buried ocean is suspected."
+      - id: sump
+        name: "Sump"
+        radius_e: 0.13
+        orbit_days: 17.0
+        note: "A dark, quiet, distant moon."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A great banded gas giant seen from orbit, three-quarter lit by a distant
+        straw-gold sun: tea-brown, cream and copper cloud bands, a long oval storm,
+        and a thin bright ring tilted across the frame casting a fine shadow line.
+        Two or three small moons as points nearby, one faintly yellow. Jupiter-like,
+        its own colours. Photoreal, majestic, scientific.
+
+  - id: fen
+    name: "Fen"
+    kind: planet
+    order: 7
+    common: "the Far Water"
+    orbit: { au: 9.5, period_yr: 30.9, ecc: 0.03, tilt_deg: 26 }
+    phys:
+      radius_e: 3.8
+      mass_e: 17
+      gravity_g: 1.18
+      day_hr: 16.5
+      mean_temp_c: -195
+      atmosphere: "hydrogen/methane ice giant"
+    palette: ["#4a7d8a", "#356470", "#7fa9b2", "#e8f2f4"]
+    moons:
+      - id: sedge
+        name: "Sedge"
+        radius_e: 0.12
+        orbit_days: 5.8
+        note: "A frost-white moon grooved like combed reeds; old flexing, long finished."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A serene ice-giant world seen from orbit: a deep teal-green methane
+        atmosphere, soft pale banding, a few bright cirrus streaks, a whisper-thin
+        ring arc. Neptune-like, marsh-water colours. One small grooved white moon.
+        Photoreal, scientific, calm.

@@ -1,0 +1,205 @@
+# =============================================================================
+# THE LORN SYSTEM — Fell's home solar system (Book 8 epilogue, The Last Librarian)
+# Data-first worldbuilding for the explorable "system view" of the Archive/star map.
+# Believable hard-SF (obeys the foundation: known physics, no contradictions). Orbits
+# are to scale-ish (period ≈ √(a³/M) around a 0.55-solar-mass red dwarf); stats are
+# Earth-relative where marked (_e = Earth = 1, _g = Earth gravity = 1). A compact
+# M-dwarf family: everything close-in, the habitable zone a hand's-width from the fire.
+# Each body carries an `art.prompt` for gpt-image-2 (scripts/gen-art.py); stills land
+# in docs/assets/art/fell-system/<id>.png.
+#
+# BIBLE-SIDE / READ-TO-REVEAL: this file lives in series-bible/systems/ until Book 8
+# publishes — then it is copied to docs/_data/ and Lorn is added to stars-named.yml.
+# Until that day, no site data references it (see systems/README.md).
+#
+# NOTE: astronomy only. The ancient temporal-transmitter mesh (which will one day overlay
+# the galaxy map) is PRIVATE roadmap and must NOT appear here.
+# =============================================================================
+
+system:
+  id: fell-system
+  name: "The Lorn System"
+  star_ref: book-08                 # the galaxy star that is Lorn (ties to the map)
+  summary: >
+    A small old red star at the settled routes' far end, and its close-drawn family:
+    five worlds and a scree of rubble, all within three times the span of Marrow's
+    orbit. The habitable zone is a narrow band a third of the way to where Enara would
+    sit, and in it hangs Fell — cold upland moor under a low red sun, its two inner
+    neighbours locked one-faced to the fire, Fell itself kept turning by the stretch
+    of its orbit. The star is quiet; its flares are rare, and remembered.
+  view:
+    au_span: 2.8                    # outer edge to render (AU); Sloe sits near this
+    tilt_deg: 22                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: lorn
+    name: "Lorn"
+    role: primary
+    common: "the sun (to Fell, simply 'the sun' — small, red, never far up the sky)"
+    spectral: "M0 V (red dwarf)"
+    stats:
+      mass_sol: 0.55
+      radius_sol: 0.55
+      temp_k: 3820
+      luminosity_sol: 0.06
+      color: "dull ember-orange"
+      age_gyr: 9.5
+    palette: ["#f0926a", "#d3603f", "#a63c28", "#6e2419"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of an old, quiet red dwarf star (M0, ~3820K) filling most
+        of the frame against deep black space: ember-orange photosphere with coarse
+        granulation, a few large dark starspot groups, one low prominence, thin corona.
+        Smaller and dimmer than a sun, patient and long-lived. Scientific, cinematic,
+        no lens flare kitsch. Believable stellar astronomy.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: whin
+    name: "Whin"
+    kind: planet
+    order: 1
+    common: "the Coal"
+    orbit: { au: 0.05, period_yr: 0.015, ecc: 0.0, tilt_deg: 0 }
+    phys:
+      radius_e: 0.55
+      mass_e: 0.16
+      gravity_g: 0.53
+      day_hr: 132                   # tide-locked — one face forever sunward
+      mean_temp_c: 590              # dayside; the nightside never sees dawn
+      atmosphere: "none (flare-stripped ages ago)"
+    palette: ["#9a5a44", "#5e332a", "#2a1a17"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small tide-locked rocky world hanging close to a huge dim red star: one hemisphere
+        glowing dull charcoal-red under the permanent glare, cracked lava plains, a hard
+        terminator dividing it from a nightside of absolute black. No atmosphere. Photoreal,
+        scientific, pitiless. The red star looms large in the frame's edge.
+
+  - id: sedge
+    name: "Sedge"
+    kind: planet
+    order: 2
+    common: "the Smother"
+    orbit: { au: 0.09, period_yr: 0.036, ecc: 0.01, tilt_deg: 1 }
+    phys:
+      radius_e: 1.08
+      mass_e: 1.35
+      gravity_g: 1.16
+      day_hr: 319                   # tide-locked
+      mean_temp_c: 315
+      atmosphere: "dense CO₂ (runaway; cloud-wrapped)"
+    palette: ["#d8b18a", "#b07f52", "#7c5232"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cloud-wrapped runaway-greenhouse world lit low and red by a dim M-dwarf sun: an
+        unbroken deck of dun and rust-cream clouds drawn into a great slow spiral over the
+        forever-noon point, darkening toward a nightside limb faintly lit by airglow.
+        Venus-like under red light. Photoreal, scientific, smothered.
+
+  - id: fell
+    name: "Fell"
+    kind: planet
+    order: 3
+    common: "the World / home"
+    story: >
+      Fell is the schoolhouse world of *The Last Librarian*'s epilogue — the settled
+      routes' far end. Upland moor under a low red sun: one green valley-belt holds all
+      its people, and the moors above hold the wind.
+    orbit: { au: 0.30, period_yr: 0.22, ecc: 0.15, tilt_deg: 5 }
+    phys:
+      radius_e: 0.92
+      mass_e: 0.78
+      gravity_g: 0.92
+      day_hr: 3885                  # solar day — a 3:2 spin-orbit resonance (held by the
+                                    # orbit's stretch, like Mercury's): two of Fell's years
+                                    # to one full day-and-night
+      mean_temp_c: -6               # the valley-belt runs milder; seasons come from the
+                                    # orbit's stretch, not from tilt
+      atmosphere: "breathable (N₂/O₂), cold and dry; endless wind off the heights"
+    palette: ["#7c8a6a", "#a8925f", "#5b6570", "#e8e4d6"]
+    moons:
+      - id: heath
+        name: "Heath"
+        common: "the Lantern-moon"
+        radius_e: 0.05
+        orbit_days: 4.1
+        note: "A small quick moon; through the eighty-day night it is the only clock the moors keep."
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cold moorland world seen from orbit, lit low and warm by a dim red-orange sun:
+        olive and umber upland moors streaked with snow, dark peat-country, small hard ice
+        caps, one narrow green valley-belt threading between ranges like a vein, sparse dry
+        cloud. The light is late-afternoon amber everywhere it falls. One tiny moon as a
+        bright point. Earthlike but austere and wind-scoured; photoreal, scientific, hushed.
+
+  - id: belt
+    name: "The Scree"
+    kind: belt
+    order: 4
+    common: "the Scree"
+    orbit: { au_inner: 0.48, au_outer: 0.62 }
+    story: null
+    art: null                       # rendered as a ring of specks, not a still
+
+  - id: ling
+    name: "Ling"
+    kind: planet
+    order: 5
+    common: "the Blue Lamp (brightest wanderer in Fell's long night)"
+    orbit: { au: 0.8, period_yr: 0.96, ecc: 0.03, tilt_deg: 10 }
+    phys:
+      radius_e: 2.5
+      mass_e: 6.0
+      gravity_g: 0.96
+      day_hr: 15
+      mean_temp_c: -130
+      atmosphere: "deep hydrogen over ice — a little cold sub-Neptune"
+    palette: ["#6a8fb0", "#48678a", "#2c4560"]
+    moons:
+      - id: haw
+        name: "Haw"
+        radius_e: 0.08
+        orbit_days: 2.8
+        note: "A dark round pebble of a moon, close and quick."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small hazy blue-grey sub-Neptune seen from orbit, dimly lit by a distant red
+        star: a smooth deep hydrogen atmosphere with the faintest banding, a soft glowing
+        crescent limb, no rings. One small dark moon nearby. Photoreal, scientific, cold
+        and self-contained.
+
+  - id: sloe
+    name: "Sloe"
+    kind: planet
+    order: 6
+    common: "the Last Stone"
+    orbit: { au: 2.4, period_yr: 5.0, ecc: 0.18, tilt_deg: 20 }
+    phys:
+      radius_e: 0.13
+      mass_e: 0.0008
+      gravity_g: 0.05
+      day_hr: 90
+      mean_temp_c: -196
+      atmosphere: "trace (frozen)"
+    palette: ["#5e5a66", "#3d3a46", "#232028"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A tiny frozen dwarf world at a red dwarf system's edge, its sun a mere bright
+        ember-point: dark blue-grey methane-frosted plains, dim ancient craters, a faint
+        dusting of brighter frost along one ridge, no atmosphere. Remote past all telling.
+        Photoreal, scientific, lonely.

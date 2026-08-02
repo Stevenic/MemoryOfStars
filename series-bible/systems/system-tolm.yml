@@ -1,0 +1,271 @@
+# =============================================================================
+# THE CROOK SYSTEM — Tolm's home solar system (Book 14)
+# Data-first worldbuilding for the explorable "system view" of the Archive/star map.
+# Believable hard-SF (obeys the foundation: known physics, no contradictions). Orbits
+# are to scale-ish (period ≈ √(a³/M) around a 0.76-solar-mass star); stats are
+# Earth-relative where marked (_e = Earth = 1, _g = Earth gravity = 1). Not all bodies
+# touch the story — the system should feel real. Each body carries an `art.prompt` for
+# gpt-image-2 (scripts/gen-art.py); generated stills land in
+# docs/assets/art/tolm-system/<id>.png.
+#
+# Read-to-reveal: this file lives bible-side until Book 14 publishes — then it is
+# copied to docs/_data/ and Crook is added to stars-named.yml (see systems/README.md).
+#
+# NOTE: astronomy only. Tolm's surface color stays at geography and agriculture —
+# terraces, orchards, bell towers. Nothing here about who or what tends the world;
+# that is story, not astronomy. The ancient temporal-transmitter mesh is PRIVATE
+# roadmap and must NOT appear here. Notes describe what is OBSERVED, never what it
+# means.
+# =============================================================================
+
+system:
+  id: tolm-system
+  name: "The Crook System"
+  star_ref: book-14                 # the galaxy star that is Crook (ties to the map)
+  summary: >
+    A copper-orange star with one living world — Tolm, a world of terraces, orchards,
+    and bell towers, under a single great moon whose rounds keep its calendar and whose
+    pull works its tides. Seven planets and a winnowed belt; farm country all the way
+    up: the sky itself is named for the work.
+  view:
+    au_span: 15                     # outer edge to render (AU); Sloe sits near this
+    tilt_deg: 17                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: crook
+    name: "Crook"
+    role: primary
+    common: "the Sun (to Tolm's terraces, simply 'the sun')"
+    spectral: "K3 V"
+    stats:
+      mass_sol: 0.76
+      radius_sol: 0.74
+      temp_k: 4800
+      luminosity_sol: 0.26
+      color: "deep copper-orange"
+      age_gyr: 5.6
+    palette: ["#ffc27a", "#f0a052", "#d97e35", "#a85520"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of a copper-orange main-sequence star (early-K, ~4800K)
+        filling most of the frame against deep black space: a granulated amber-copper
+        photosphere, scattered dark starspots larger than a sun's, low quiet prominences
+        at the limb, a modest corona. Scientific, cinematic, no lens flare kitsch.
+        Believable stellar astronomy, warmer and dimmer than a G star.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: kiln
+    name: "Kiln"
+    kind: planet
+    order: 1
+    common: "the Firing"
+    orbit: { au: 0.09, period_yr: 0.031, ecc: 0.11, tilt_deg: 2 }
+    phys:
+      radius_e: 0.38
+      mass_e: 0.05
+      gravity_g: 0.35
+      day_hr: 542                   # 3:2 spin lock; a solar day twice its year
+      mean_temp_c: 385
+      atmosphere: "none (baked away)"
+    palette: ["#8a6f5a", "#5c4638", "#33261e"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small scorched airless rocky world seen from orbit, very close to a copper-orange
+        sun: baked terracotta-grey crust, dense cratering, long cooling ridges like kiln
+        cracks, a blinding dayside and a knife-hard terminator, no atmosphere. Mercury-like
+        but redder-lit. Photoreal, scientific, stark. Black star-strewn space behind.
+
+  - id: scrim
+    name: "Scrim"
+    kind: planet
+    order: 2
+    common: "the Smudge"
+    orbit: { au: 0.21, period_yr: 0.110, ecc: 0.02, tilt_deg: 1 }
+    phys:
+      radius_e: 0.85
+      mass_e: 0.62
+      gravity_g: 0.86
+      day_hr: 2600                  # slow spin under a heavy sky
+      mean_temp_c: 315
+      atmosphere: "thick CO₂ + white sulphur haze (opaque)"
+    palette: ["#e9dcc4", "#cdb896", "#a68a63"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A haze-shrouded hothouse world seen from orbit under a copper-orange sun: one
+        unbroken deck of bone-white and pale-tan clouds, faintly banded, no surface ever
+        visible, a soft amber limb. Venus-like but paler, a thumb-smudge of a planet.
+        Photoreal, scientific, featureless and still.
+
+  - id: tolm
+    name: "Tolm"
+    kind: planet
+    order: 3
+    common: "the World / home"
+    story: >
+      Tolm is the settled world of Book 14 — one world under one sun, its mountain
+      shoulders cut into ten thousand terraces: orchards on the warm faces, tide-flats
+      and sluice-ponds along the shores, bell towers keeping the hours of the valleys.
+    orbit: { au: 0.52, period_yr: 0.43, ecc: 0.01, tilt_deg: 21 }
+    phys:
+      radius_e: 0.98
+      mass_e: 0.95
+      gravity_g: 0.99
+      day_hr: 25.1
+      mean_temp_c: 14
+      atmosphere: "breathable (N₂/O₂), temperate"
+    palette: ["#5b8a5a", "#87a35c", "#c9a86a", "#3f6f8f"]
+    moons:
+      - id: malm
+        name: "Malm"
+        common: "the Reckoner"
+        radius_e: 0.30
+        orbit_days: 22.4
+        note: >
+          One great near moon, pale as chalk. Seven of its rounds make Tolm's year, near
+          enough that the terrace calendar leaps a single day in nine; its pull runs the
+          tide twice a day, filling the sluice-ponds and baring the flats — planting,
+          picking, and bell-hours are all counted against it.
+    art:
+      size: "1024x1024"
+      prompt: >
+        A living temperate world seen from orbit, lit by a copper-orange sun: blue-green
+        seas, one broad mountainous continent whose slopes are visibly stepped — vast
+        green terrace-bands catching the light — orchard country in ochre and green,
+        bright tide-flats along the coasts, swirls of white weather, small ice caps. One
+        single large pale moon hanging in the black star-strewn sky. Earthlike but its
+        own world; photoreal, scientific, worked and tended and hopeful.
+
+  - id: hoar
+    name: "Hoar"
+    kind: planet
+    order: 4
+    common: "the White Field"
+    orbit: { au: 1.1, period_yr: 1.32, ecc: 0.06, tilt_deg: 18 }
+    phys:
+      radius_e: 0.60
+      mass_e: 0.15
+      gravity_g: 0.42
+      day_hr: 21.7
+      mean_temp_c: -83
+      atmosphere: "thin CO₂ (frost cycles pole to pole)"
+    palette: ["#e8ecef", "#b9c4cc", "#7e8b96"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cold frost-covered world seen from orbit: pale grey-white plains rimed edge to
+        edge, darker stone showing through at the equator, seasonal frost sheets
+        advancing in visible fronts, a wisp-thin atmosphere on the limb. Mars-like in
+        scale but white, a field under hoarfrost. Photoreal, scientific, austere.
+
+  - id: chaff
+    name: "The Chaff"
+    kind: belt
+    order: 5
+    common: "the Chaff (the winnowed leavings, scattered where no world gathered)"
+    orbit: { au_inner: 1.8, au_outer: 2.6 }
+    story: null
+    art: null                       # rendered as a ring of specks, not a still
+
+  - id: grange
+    name: "Grange"
+    kind: planet
+    order: 6
+    common: "the Harvest Star (its evening rising opens the picking season on Tolm)"
+    orbit: { au: 3.4, period_yr: 7.19, ecc: 0.04, tilt_deg: 2 }
+    phys:
+      radius_e: 9.6
+      mass_e: 210
+      gravity_g: 2.3
+      day_hr: 9.8
+      mean_temp_c: -165
+      atmosphere: "hydrogen/helium gas giant, banded"
+    moons:
+      - id: pip
+        name: "Pip"
+        radius_e: 0.08
+        orbit_days: 2.9
+        note: "A small bright ice moon, close and quick."
+      - id: stone
+        name: "Stone"
+        radius_e: 0.24
+        orbit_days: 6.1
+        note: "The largest moon: grey, cratered, patient."
+      - id: bole
+        name: "Bole"
+        radius_e: 0.17
+        orbit_days: 14.3
+        note: "A dark reddish far moon, barked and cracked like old wood."
+    palette: ["#e3cfa0", "#b98a5c", "#8a5f3d", "#6b7080"]
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A great banded gas giant seen from orbit, three-quarter lit by a distant
+        copper-orange sun: bands of cream, russet and dun like ploughed land seen from a
+        hill, two long pale storm-ovals, no rings. Three small moons as points nearby —
+        one bright, one grey, one dark red. Jupiter-like, its own harvest colours.
+        Photoreal, majestic, scientific.
+
+  - id: woad
+    name: "Woad"
+    kind: planet
+    order: 7
+    common: "the Dyer (a blue point in Tolm's night; its colour named it)"
+    orbit: { au: 7.8, period_yr: 25.0, ecc: 0.03, tilt_deg: 26 }
+    phys:
+      radius_e: 3.7
+      mass_e: 14
+      gravity_g: 1.02
+      day_hr: 16.4
+      mean_temp_c: -202
+      atmosphere: "hydrogen/methane ice giant"
+    moons:
+      - id: sleet
+        name: "Sleet"
+        radius_e: 0.12
+        orbit_days: 5.4
+        note: "A frost-grey moon streaked with fresh bright ice."
+    palette: ["#3a5e9e", "#2c477c", "#1d2f57"]
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A serene ice-giant world seen from orbit: a deep dye-blue methane atmosphere,
+        faint paler bands, one small white cloud streak, no rings. Neptune-like, the
+        exact blue of woad dye, cold and quiet. One small frost-grey moon. Photoreal,
+        scientific, still.
+
+  - id: sloe
+    name: "Sloe"
+    kind: planet
+    order: 8
+    common: "the Late Star (last to ripen, the orchard joke goes)"
+    orbit: { au: 13.2, period_yr: 55.0, ecc: 0.19, tilt_deg: 14 }
+    phys:
+      radius_e: 0.16
+      mass_e: 0.003
+      gravity_g: 0.12
+      day_hr: 118
+      mean_temp_c: -218
+      atmosphere: "trace (frozen most of its orbit)"
+    palette: ["#4a4e5e", "#33364a", "#1e2030"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A tiny frozen dwarf world at the edge of a system, barely lit by a far-off
+        copper pinpoint sun: dark blue-black nitrogen-ice plains with a dusty bloom of
+        pale frost like the skin of a sloe berry, a few sharp bright craters, no
+        atmosphere. Pluto-like, remote, dark and lovely. Photoreal, scientific, lonely.

@@ -1,0 +1,295 @@
+# =============================================================================
+# THE BLANCH SYSTEM — Scrive's home solar system
+# Data-first worldbuilding for the explorable "system view" of the Archive/star map.
+# Believable hard-SF (obeys the foundation: known physics, no contradictions). Orbits
+# are to scale-ish (period ≈ √(a³/M) around a 1.30-solar-mass star); stats are
+# Earth-relative where marked (_e = Earth = 1, _g = Earth gravity = 1). Not all bodies
+# touch the story — the system should feel real. Each body carries an `art.prompt` for
+# gpt-image-2 (scripts/gen-art.py); stills will land in docs/assets/art/scrive-system/<id>.png.
+#
+# READ-TO-REVEAL: this file lives bible-side (series-bible/systems/) until Book 16
+# publishes; then it is copied to docs/_data/ and Blanch joins stars-named.yml. Until
+# then, nothing on the site references it.
+#
+# NOTE: astronomy only. The ancient temporal-transmitter mesh (which will one day overlay
+# the galaxy map) is PRIVATE roadmap and must NOT appear here.
+#
+# F-star honesty, kept throughout: Blanch is brighter and whiter than a G sun, so its
+# habitable zone sits farther out and runs wider — but the same physics that spreads the
+# zone shortens the lease. An F5 V spends itself in ~4.6 billion years; Blanch has burned
+# 2.1 of them already. Everything alive here lives on a young world under a strict sun,
+# on a shorter clock than most, and the light is hard with ultraviolet even where the
+# warmth is right.
+# =============================================================================
+
+system:
+  id: scrive-system
+  name: "The Blanch System"
+  star_ref: book-16                 # the galaxy star that is Blanch (ties to the map)
+  summary: >
+    A bright white F-type star with a wide-set family and a two-year year on its living
+    world. Scrive rides the middle of a broad habitable zone — chalk hills and pale
+    grassland under a high hard light, forests grown deep-shaded against it, towns kept
+    to the valley shade. Farther out: a broken scree of a belt, a great ringed giant,
+    a far ice giant, one pale stake of a dwarf at the boundary — and, a long way off,
+    a dim red companion star, a pinprick ember in a white-lit sky.
+  view:
+    au_span: 22                     # outer edge to render (AU); Pale sits near this
+    tilt_deg: 15                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: blanch
+    name: "Blanch"
+    role: primary
+    common: "the Sun (to Scrive, 'the white sun', or simply 'the sun')"
+    spectral: "F5 V"
+    stats:
+      mass_sol: 1.30
+      radius_sol: 1.30
+      temp_k: 6550
+      luminosity_sol: 2.8
+      color: "brilliant white, faintly gold at the limb"
+      age_gyr: 2.1                  # of a ~4.6 Gyr main-sequence span — the age budget is real
+    palette: ["#ffffff", "#f5f7ff", "#ffeecc", "#d9d2b8"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of a brilliant white F-type main-sequence star (~6550K)
+        filling most of the frame against deep black space: fine hot granulation, very few
+        starspots, tall bright faculae, a strong pearly corona. Harder and cleaner than a
+        yellow sun — light like noon on chalk. Scientific, cinematic, no lens flare kitsch.
+        Believable stellar astronomy.
+  - id: blanch-b
+    name: "Blanch B"
+    role: companion
+    common: "the Red Pin (a faint steady red point in Scrive's night sky)"
+    spectral: "M6 V (red dwarf)"
+    orbit: { au: 2400, period_yr: 103000, ecc: 0.45 }
+    stats:
+      mass_sol: 0.10
+      radius_sol: 0.13
+      temp_k: 2900
+      luminosity_sol: 0.0008
+      color: "deep dim red"
+    palette: ["#c95a48", "#8f2f22", "#521a13"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A very small, very dim red-dwarf star seen from far away: a deep ember-red point
+        barely resolved into a disc, one faint flare arc, against a dense cold starfield.
+        The least of suns beside the whitest. Scientific and understated.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: glare
+    name: "Glare"
+    kind: planet
+    order: 1
+    common: "the Speck (lost in the sun's skirts; seen only at twilight)"
+    orbit: { au: 0.52, period_yr: 0.33, ecc: 0.11, tilt_deg: 2 }
+    phys:
+      radius_e: 0.38
+      mass_e: 0.05
+      gravity_g: 0.35
+      day_hr: 620                   # tide-dragged, slow
+      mean_temp_c: 360
+      atmosphere: "none"
+    palette: ["#b3a390", "#7a6d5c", "#3d362e"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A tiny blasted airless world close under a brilliant white star: bleached bone-grey
+        regolith burnt to glass in the basins, craters flooded with hard white light, a
+        black knife of a terminator. Smaller and starker than Mercury. Photoreal,
+        scientific, pitiless. The white sun huge and clean at frame's edge.
+
+  - id: lime
+    name: "Lime"
+    kind: planet
+    order: 2
+    common: "the Morning Star (brightest thing in Scrive's sky after the suns)"
+    orbit: { au: 0.94, period_yr: 0.80, ecc: 0.02, tilt_deg: 3 }
+    phys:
+      radius_e: 1.02
+      mass_e: 1.1
+      gravity_g: 1.06
+      day_hr: 3900                  # slow spin under a burnt-white sky
+      mean_temp_c: 410
+      atmosphere: "crushing CO₂ (a carbonate world burnt to quicklime)"
+    palette: ["#f7f2e0", "#e0d6b8", "#b8a882"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A blinding white hothouse world seen from orbit: a total unbroken shell of
+        chalk-white and pale bone cloud, lit to a glare by a white F-type sun, the barest
+        slow swirl in the deck, no surface ever. Venus-like but whiter, brighter, harder to
+        look at. Photoreal, scientific, radiant and dead.
+
+  - id: sear
+    name: "Sear"
+    kind: planet
+    order: 3
+    common: "the Dry"
+    orbit: { au: 1.3, period_yr: 1.3, ecc: 0.06, tilt_deg: 12 }
+    phys:
+      radius_e: 0.81
+      mass_e: 0.55
+      gravity_g: 0.84
+      day_hr: 22.4
+      mean_temp_c: 50
+      atmosphere: "thin dry CO₂/N₂ (its water lost long ago)"
+    palette: ["#d9b88f", "#b38f5c", "#8a6a42"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A hot dry world at the bright inner edge of a habitable zone, seen from orbit:
+        tawny windworn plains, vast dry sea-beds ringed with salt-white shorelines that
+        remember water, long dune seas, no ice anywhere, thin cloudless air. A world seared
+        just past saving by a white sun. Photoreal, scientific, parched.
+
+  - id: scrive
+    name: "Scrive"
+    kind: planet
+    order: 4
+    common: "the World / home"
+    story: >
+      The bright-sky world Book 16 walks: chalk hills and pale grasslands under a hard
+      white sun, forests grown deep-shaded against the ultraviolet, and settlements that
+      keep, sensibly, to the valley shade. Its year runs two of Enara's; its light
+      forgives nothing at noon.
+    orbit: { au: 1.72, period_yr: 1.98, ecc: 0.03, tilt_deg: 19 }   # mid-HZ; the zone here spans ~1.6–2.8 AU
+    phys:
+      radius_e: 1.05
+      mass_e: 1.12
+      gravity_g: 1.02
+      day_hr: 23.4
+      mean_temp_c: 13
+      atmosphere: "breathable (N₂/O₂), thick ozone, high surface UV"
+    palette: ["#e8e4d2", "#c2c9a3", "#5c7a4d", "#2e4030"]
+    moons:
+      - id: flint
+        name: "Flint"
+        common: "the Dark Moon"
+        radius_e: 0.27
+        orbit_days: 19
+        note: "One dark stone moon in a white-lit sky — the darkest thing Scrive's nights own; its round sets the calendar."
+    art:
+      size: "1024x1024"
+      prompt: >
+        A pale bright living world seen from orbit under a brilliant white sun: chalk-white
+        uplands and bone-pale grassland continents veined with deep green shadowed valleys
+        and dark dense forest bands, milky shallow coastal water, hard small white clouds,
+        clean ice caps. One dark grey moon against the black. Earthlike but bleached and
+        high-contrast, a world squinting into its own light. Photoreal, scientific,
+        stark and beautiful. Bright rim light on the limb.
+
+  - id: belt
+    name: "The Scree"
+    kind: belt
+    order: 5
+    common: "the Scree (a slope of broken rock between the warm worlds and the cold)"
+    orbit: { au_inner: 3.1, au_outer: 4.3 }
+    story: null
+    art: null                       # rendered as a ring of specks, not a still
+
+  - id: scarp
+    name: "Scarp"
+    kind: planet
+    order: 6
+    common: "the Crown (its rings stand off it like a rim of chalk cliff)"
+    orbit: { au: 6.8, period_yr: 15.6, ecc: 0.04, tilt_deg: 4 }
+    phys:
+      radius_e: 11.0
+      mass_e: 310
+      gravity_g: 2.56
+      day_hr: 9.1
+      mean_temp_c: -140
+      atmosphere: "hydrogen/helium gas giant, banded"
+    rings: true
+    palette: ["#e8dfc9", "#c9b891", "#948263", "#635648"]
+    moons:
+      - id: combe
+        name: "Combe"
+        radius_e: 0.28
+        orbit_days: 3.9
+        note: "A close ice moon scored with deep sheltered valleys; a thin ocean is suspected under the floors of them."
+      - id: dene
+        name: "Dene"
+        radius_e: 0.19
+        orbit_days: 8.8
+        note: "A grey-wooded-looking moon of dark ridge and pale hollow, dusted with ring-fall."
+      - id: furze
+        name: "Furze"
+        radius_e: 0.13
+        orbit_days: 21
+        note: "A small rough outer moon, prickled all over with young sharp craters."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A great pale gas giant seen from orbit, lit hard by a distant white sun: high cool
+        bands of ivory, fawn and slate, and a wide brilliant ring system standing off the
+        planet like a rim of white cliff, throwing a crisp shadow line across the bands.
+        Three small moons as points at varying distances. Saturn-like but whiter, colder
+        in tone. Photoreal, majestic, scientific.
+
+  - id: weald
+    name: "Weald"
+    kind: planet
+    order: 7
+    common: "the Far Green"
+    orbit: { au: 13.0, period_yr: 41.1, ecc: 0.03, tilt_deg: 27 }
+    phys:
+      radius_e: 4.1
+      mass_e: 16
+      gravity_g: 0.95
+      day_hr: 14.6
+      mean_temp_c: -190
+      atmosphere: "hydrogen/methane ice giant"
+    palette: ["#5c8a70", "#3d6354", "#26423a"]
+    moons:
+      - id: shaw
+        name: "Shaw"
+        radius_e: 0.12
+        orbit_days: 6.1
+        note: "A small dark-frosted moon, a coppice of shadow at the edge of Weald's green."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A deep green-toned ice giant seen from orbit: a dark forest-green methane
+        atmosphere shading to blue at the limb, faint banding, one bright high cloud lane,
+        a thin dark ring arc. One small dark moon. Neptune-like but greener, a far cold
+        wood of a world. Photoreal, scientific, still.
+
+  - id: pale
+    name: "Pale"
+    kind: planet
+    order: 8
+    common: "the Far Stake (a pale is a boundary post; past it, nothing of Blanch's)"
+    orbit: { au: 20.5, period_yr: 81.4, ecc: 0.22, tilt_deg: 10 }
+    phys:
+      radius_e: 0.18
+      mass_e: 0.004
+      gravity_g: 0.12
+      day_hr: 132
+      mean_temp_c: -220
+      atmosphere: "trace (frozen most of its orbit)"
+    palette: ["#e0dcd2", "#b3aea3", "#6f6a61"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small white dwarf world at the far boundary of a system, lit faint and clean by
+        a pinpoint white sun: smooth pale nitrogen-ice plains, low bleached ridges, one
+        bright fresh crater like a hammer-mark on a post, no atmosphere, no moon.
+        Pluto-like but paler, a whittled stake at the fence-line of the dark. Photoreal,
+        scientific, final.

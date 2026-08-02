@@ -1,0 +1,247 @@
+# =============================================================================
+# THE MURR SYSTEM — Hush's home solar system (Books 11 & 15 ground)
+# Data-first worldbuilding for the explorable "system view" of the Archive/star map.
+# Believable hard-SF (obeys the foundation: known physics, no contradictions). Orbits
+# are Kepler-honest (period_yr = √(a_au³ / mass_sol) around a 0.72-solar-mass star);
+# stats are Earth-relative where marked (_e = Earth = 1, _g = Earth gravity = 1).
+# One living world — Hush, quiet under murmur: the Listeners' motherhouse world.
+# Story color stays at the surface (geography, sky-names); nothing of the order's
+# workings belongs here. Each body carries an `art.prompt` for gpt-image-2
+# (scripts/gen-art.py).
+#
+# Read-to-reveal: this file lives bible-side; it copies to docs/_data when its book
+# publishes (and Murr joins stars-named.yml).
+#
+# NOTE: astronomy only. The ancient temporal-transmitter mesh (which will one day
+# overlay the galaxy map) is PRIVATE roadmap and must NOT appear here.
+# =============================================================================
+
+system:
+  id: hush-system
+  name: "The Murr System"
+  star_ref: book-11                 # the galaxy star that is Murr (ties to the map)
+  summary: >
+    A soft copper star, old and even-tempered, holding a close warm family: a glowing
+    ember rock, a shrouded hothouse, and — in the narrow copper warm band — Hush,
+    a world of high mossy uplands and wide unbroken forest under long slow days.
+    Beyond it a bare cold hill of a planet, a scattered belt called the Mutter, one
+    storm-banded giant that is the only loud thing in Hush's sky, and a last frost
+    at the edge.
+  view:
+    au_span: 9.0                    # outer edge to render (AU); Hoar sits near this
+    tilt_deg: 19                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: murr
+    name: "Murr"
+    role: primary
+    common: "the sun (to Hush, simply 'the sun'); Murr in the rolls — quiet under murmur"
+    spectral: "K4 V"
+    stats:
+      mass_sol: 0.72
+      radius_sol: 0.70
+      temp_k: 4550
+      luminosity_sol: 0.19          # warm band at √0.19 ≈ 0.44 AU
+      color: "soft copper-orange"
+      age_gyr: 8.6
+    palette: ["#f2b070", "#e08c4a", "#c06a30", "#8a4520"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of a soft copper-orange main-sequence star (mid-K,
+        ~4550K) filling most of the frame against deep black space: a smooth
+        finely-granulated photosphere, one small dark spot, low quiet prominences,
+        faint corona. Dimmer and steadier than a yellow sun — a star with its voice
+        lowered. Scientific, cinematic, no lens flare kitsch. Believable stellar
+        astronomy.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: thrum
+    name: "Thrum"
+    kind: planet
+    order: 1
+    common: "the Glow"
+    orbit: { au: 0.12, period_yr: 0.049, ecc: 0.02, tilt_deg: 0 }
+    phys:
+      radius_e: 0.45
+      mass_e: 0.08
+      gravity_g: 0.40
+      day_hr: 430                   # tide-locked — the same face forever sunward
+      mean_temp_c: 255
+      atmosphere: "none"
+    palette: ["#96604a", "#6e4032", "#3a2018"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small airless rock world locked close to a copper-orange sun: its dayside
+        baked to dull terracotta and shot with dark cooled lava seams, a hard black
+        terminator, a frozen night hemisphere. Cratered, cracked, glowing faintly at
+        the sub-solar point. Photoreal, scientific, stark. Black star-strewn space
+        behind.
+
+  - id: char
+    name: "Char"
+    kind: planet
+    order: 2
+    common: "the Shroud"
+    orbit: { au: 0.26, period_yr: 0.156, ecc: 0.01, tilt_deg: 3 }
+    phys:
+      radius_e: 0.92
+      mass_e: 0.78
+      gravity_g: 0.92
+      day_hr: 3100                  # slow, tide-thickened spin
+      mean_temp_c: 335
+      atmosphere: "thick CO₂ + sulphur haze (opaque)"
+    palette: ["#d9b078", "#b28048", "#7d5230"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cloud-shrouded hothouse world seen from orbit under copper light: an
+        unbroken deck of dun and burnt-cream sulphur clouds in slow smeared bands,
+        no surface visible, a smouldering orange terminator. Venus-like but lit
+        like embers. Photoreal, scientific, airless dread.
+
+  - id: hush
+    name: "Hush"
+    kind: planet
+    order: 3
+    common: "the World / home"
+    story: >
+      Hush is the Listeners' motherhouse world (Books 11 and 15): a cool quiet
+      world of high moss-and-heather uplands — the Loft — falling away into wide
+      unbroken forest, the Weald, cut by slow rivers and standing mist, under
+      long copper days.
+    orbit: { au: 0.44, period_yr: 0.34, ecc: 0.02, tilt_deg: 14 }
+    phys:
+      radius_e: 1.08
+      mass_e: 1.25
+      gravity_g: 1.07
+      day_hr: 54                    # tide-slowed: a long copper day, still lengthening
+      mean_temp_c: 10
+      atmosphere: "breathable (N₂/O₂), cool and damp"
+    palette: ["#3d5a44", "#6b8f5e", "#b8865a", "#c9cdd6"]
+    moons:
+      - id: hark
+        name: "Hark"
+        common: "the Great Moon"
+        radius_e: 0.27
+        orbit_days: 18              # well inside Hush's Hill sphere (tight, at 0.44 AU)
+        note: "One great pale moon; its tide steadies Hush's slow turning, and its light fills the long nights grey."
+    art:
+      size: "1024x1024"
+      prompt: >
+        A living temperate world seen from orbit, lit by a soft copper-orange sun:
+        deep green forested continents under standing banks of mist, darker mossy
+        upland spines, slow silver rivers, cool grey seas, broad polar frost. One
+        large pale moon in the black star-strewn sky. Earthlike but dimmer, greener,
+        stiller — a world with its voice lowered. Photoreal, scientific, hushed and
+        beautiful. Soft rim light on the limb.
+
+  - id: wold
+    name: "Wold"
+    kind: planet
+    order: 4
+    common: "the Bare Hill"
+    orbit: { au: 0.85, period_yr: 0.92, ecc: 0.09, tilt_deg: 22 }
+    phys:
+      radius_e: 0.58
+      mass_e: 0.14
+      gravity_g: 0.42
+      day_hr: 21.7
+      mean_temp_c: -70
+      atmosphere: "thin CO₂ (cold, dry)"
+    palette: ["#8a7d6e", "#665c50", "#443c34", "#dcdcdc"]
+    moons:
+      - id: clod
+        name: "Clod"
+        radius_e: 0.02
+        orbit_days: 0.6
+        note: "A flake of captured rock, low and quick."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cold bare rocky world seen from orbit in weak copper light: rolling dun
+        and grey-brown uplands rimed with frost, empty basins, thin bright ice
+        caps, a sky-thin haze at the limb, one tiny irregular moon. Mars-like in
+        station, moorland in palette. Photoreal, scientific, windless and bare.
+
+  - id: mutter
+    name: "The Mutter"
+    kind: belt
+    order: 5
+    common: "the Mutter"
+    orbit: { au_inner: 1.6, au_outer: 2.4 }
+    story: null
+    art: null                       # rendered as a ring of specks, not a still
+
+  - id: drum
+    name: "Drum"
+    kind: planet
+    order: 6
+    common: "the Loud One (brightest wanderer in a quiet sky)"
+    orbit: { au: 3.8, period_yr: 8.7, ecc: 0.04, tilt_deg: 4 }
+    phys:
+      radius_e: 10.1
+      mass_e: 210
+      gravity_g: 2.06
+      day_hr: 10.2
+      mean_temp_c: -179
+      atmosphere: "hydrogen/helium gas giant, storm-banded"
+    rings: true
+    moons:
+      - id: knap
+        name: "Knap"
+        radius_e: 0.20
+        orbit_days: 1.4
+        note: "A close rocky moon, flexed warm; thin fissure-plumes vent at its poles."
+      - id: skein
+        name: "Skein"
+        radius_e: 0.14
+        orbit_days: 5.4
+        note: "An ice moon threaded with long pale fracture-lines, like geese strung across winter."
+      - id: haw
+        name: "Haw"
+        radius_e: 0.09
+        orbit_days: 16.0
+        note: "A small dark red-tinged outer moon."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A great storm-banded gas giant seen from orbit, three-quarter lit by a
+        distant copper sun: bands of bruised amber, slate-blue and cream rolling
+        with knotted storms, a faint thin ring tilted across the frame, two or
+        three small moons as points nearby. Jupiter-like and restless — the one
+        loud thing in a quiet system. Photoreal, majestic, scientific.
+
+  - id: hoar
+    name: "Hoar"
+    kind: planet
+    order: 7
+    common: "the Last Frost"
+    orbit: { au: 8.2, period_yr: 27.7, ecc: 0.21, tilt_deg: 11 }
+    phys:
+      radius_e: 0.17
+      mass_e: 0.002
+      gravity_g: 0.07
+      day_hr: 130
+      mean_temp_c: -210
+      atmosphere: "trace nitrogen (a breath at perihelion, frozen the rest)"
+    palette: ["#c2ccd4", "#93a0ac", "#5e6874"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A tiny frozen dwarf world at the edge of a copper star's system, its sun a
+        warm bright point far away: pale nitrogen-ice plains faintly amber-lit,
+        grey water-ice ridges, a soft sublimation haze barely clinging near the
+        bright limb. Pluto-like, remote and patient. No moons. Photoreal,
+        scientific, the last quiet place.

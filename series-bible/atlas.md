@@ -212,7 +212,7 @@ plural by nature: a carriage and a warding, never a flagship.)*
 | **Scrive** — the ceded territories' world | **Blanch** | 16 | The order unwrote the world's own name; it meant *to write*. The registry keeps the irony they refused. |
 | Penna *(named)* | **Plume** | 18 | Feather and pen; the green blank keeps its name only in the ledger. |
 | **Cairn** — the Record's site | **Nock** | 19 | A made place: stones piled to remember. |
-| **Vane · Holt · Mirren** — the pilot region | *(three systems)* | 19 | The three that referenced everything to the Record; their annex the largest single loss in the series. |
+| **Vane · Holt · Mirren** — the pilot region | **Squall · Garn · Keld** | 19 | The three that referenced everything to the Record; their annex the largest single loss in the series. Close neighbors — each features brightly in the others' skies. |
 | Moss *(named)* | **Loam** | 21–25 | Moss under Loam: the garden over the grave. |
 | **Hearth** — the keeper's system | *(system roll-name)* | 29, 30 | The dead address's sky. On-page it stays "the threshold" — but the last house in the series always had the oldest name for home. |
 

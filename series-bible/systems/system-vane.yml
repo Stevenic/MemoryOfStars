@@ -1,0 +1,176 @@
+# =============================================================================
+# THE VANE SYSTEM — first of the pilot-region neighbours (Book 19 background;
+# geography only). Data-first worldbuilding in the Auros-exemplar format
+# (docs/_data/system-orin.yml). Believable hard-SF (obeys the foundation: known
+# physics, no contradictions). Orbits are Kepler-honest (period = √(a³/M) around a
+# 0.68-solar-mass star); stats are Earth-relative where marked (_e = Earth = 1,
+# _g = Earth gravity = 1). Not all bodies touch the story — the system should feel
+# real. Each body carries an `art.prompt` for gpt-image-2 (scripts/gen-art.py);
+# generated stills land in docs/assets/art/vane-system/<id>.png.
+#
+# READ-TO-REVEAL: this file lives bible-side until Book 19 publishes; then it is
+# copied to docs/_data/ and its star added to stars-named.yml (see systems/README.md).
+# NOTE: astronomy only. The ancient temporal-transmitter mesh (which will one day
+# overlay the galaxy map) is PRIVATE roadmap and must NOT appear here.
+# =============================================================================
+
+system:
+  id: vane-system
+  name: "The Vane System"
+  star_ref: book-19                 # the galaxy star that is Squall (ties to the map)
+  summary: >
+    A lean, tidy system around a middle-aged orange star, with one living world — Vane,
+    a windswept prairie world whose small settled population works the weather the way
+    other worlds work the soil. Four planets, no belt worth the name, and a night sky
+    that is never lonely: Garn, Holt's yellow sun, burns first-magnitude six light-years
+    off, and Keld, Mirren's deep-red one, glows faint beside it. The three neighbours
+    steer by each other's suns.
+  view:
+    au_span: 10                     # outer edge to render (AU); Stook sits near this
+    tilt_deg: 17                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: squall
+    name: "Squall"
+    role: primary
+    common: "the sun (to Vane); a modest orange star in Holt's and Mirren's nights"
+    spectral: "K5 V"
+    stats:
+      mass_sol: 0.68
+      radius_sol: 0.70
+      temp_k: 4440
+      luminosity_sol: 0.17
+      color: "warm deep orange"
+      age_gyr: 5.2
+    palette: ["#ffcf7d", "#f2a95a", "#d97f35", "#a85a22"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of an orange main-sequence star (mid-K, ~4400K) filling
+        most of the frame against deep black space: coarse coppery granulation, a scatter
+        of large dark starspots, low quiet prominences at the limb, a thin corona.
+        Scientific, cinematic, no lens flare kitsch. Believable stellar astronomy.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: chaff
+    name: "Chaff"
+    kind: planet
+    order: 1
+    common: "the Spark (a fast dawn-and-dusk star from Vane)"
+    orbit: { au: 0.09, period_yr: 0.033, ecc: 0.02, tilt_deg: 1 }
+    phys:
+      radius_e: 0.5
+      mass_e: 0.09
+      gravity_g: 0.36
+      day_hr: 287                   # tide-locked; day = year
+      mean_temp_c: 275
+      atmosphere: "none (baked off)"
+    palette: ["#8a7a66", "#5a4c40", "#312820"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small tide-locked airless rocky world seen from orbit, close to a big orange
+        sun: one hemisphere baked dull umber and crater-glazed, the far side pure black,
+        a hard unmoving terminator between them, no atmosphere, no clouds. Photoreal,
+        scientific, stark. Black star-strewn space behind.
+
+  - id: vane
+    name: "Vane"
+    kind: planet
+    order: 2
+    common: "the World / the Open (its settlers' word for the prairie and the planet both)"
+    story: >
+      Vane is Book 19 background — geography only. A prairie world, weather-worked: its
+      few towns sit in the lee of long low ridges, the rains are steered and the worst
+      winds blunted, and the grass runs to the horizon in every direction there is.
+    orbit: { au: 0.42, period_yr: 0.33, ecc: 0.03, tilt_deg: 19 }
+    phys:
+      radius_e: 0.95
+      mass_e: 0.85
+      gravity_g: 0.94
+      day_hr: 37.4                  # tide-slowed by the close sun; long mornings
+      mean_temp_c: 11
+      atmosphere: "breathable (N₂/O₂), dry and wind-scoured; worked weather"
+    palette: ["#c9b36a", "#8f9a5a", "#5a7d8f", "#efe9d8"]
+    moons:
+      - id: sickle
+        name: "Sickle"
+        common: "the Reaper's moon"
+        radius_e: 0.18
+        orbit_days: 9.5
+        note: >
+          A close, quick moon, most often seen as a thin bright curve — hence the name.
+          Its nine-day round is Vane's working week; its tides are in the grass-sea's
+          weather more than in any water.
+    art:
+      size: "1024x1024"
+      prompt: >
+        A living prairie world seen from orbit, lit by a deep-orange sun: vast tan-and-gold
+        grassland continents veined with green river lines, shallow silver inland seas,
+        long ranks of orderly cloud streets combed by managed weather, small polar caps.
+        One small moon as a bright sickle nearby. Earthlike but drier and golder; photoreal,
+        scientific, open and wind-swept. Soft rim light on the limb.
+
+  - id: mill
+    name: "Mill"
+    kind: planet
+    order: 3
+    common: "the Millwheel (its rings catch the sun; the steadiest lamp in Vane's sky)"
+    orbit: { au: 2.9, period_yr: 5.99, ecc: 0.04, tilt_deg: 5 }
+    phys:
+      radius_e: 8.9
+      mass_e: 110
+      gravity_g: 1.39
+      day_hr: 10.8
+      mean_temp_c: -177
+      atmosphere: "hydrogen/helium gas giant, softly banded"
+    palette: ["#d9c49a", "#b09a6f", "#7d6a4c", "#e8dcc0"]
+    rings: true
+    moons:
+      - id: grist
+        name: "Grist"
+        radius_e: 0.15
+        orbit_days: 3.6
+        note: "An inner ice-and-rock moon, bright and battered; it shepherds the rings' clean edge."
+      - id: sail
+        name: "Sail"
+        radius_e: 0.22
+        orbit_days: 8.9
+        note: "The big moon, pale grey and smooth-plained; from Vane a keen eye can split it from the rings."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A pale gas giant seen from orbit, three-quarter lit by a distant orange sun:
+        soft butter-and-oat cloud bands, a broad bright system of rings tilted across
+        the frame like a turning wheel, the ring shadow a clean line on the cloud tops.
+        Two small moons as points nearby. Saturn-like, its own warmer colours. Photoreal,
+        majestic, scientific.
+
+  - id: stook
+    name: "Stook"
+    kind: planet
+    order: 4
+    common: "the Last Sheaf (the outermost thing the almanacs bother to list)"
+    orbit: { au: 8.6, period_yr: 30.6, ecc: 0.18, tilt_deg: 9 }
+    phys:
+      radius_e: 0.22
+      mass_e: 0.004
+      gravity_g: 0.08
+      day_hr: 96
+      mean_temp_c: -220
+      atmosphere: "trace (frozen most of its orbit)"
+    palette: ["#b8aeb8", "#8a8291", "#4c4652"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small frozen dwarf world at the edge of a system, barely lit by a far-off orange
+        pinpoint sun: grey-violet ice plains, low scarps, a dusting of dark grit along the
+        ridgelines, no atmosphere. Pluto-like, remote and plain. Photoreal, scientific,
+        lonely.

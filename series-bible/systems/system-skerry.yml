@@ -1,0 +1,230 @@
+# =============================================================================
+# THE BECK SYSTEM — the Skerry's crossing (Book 3, *The Lighthouse*)
+# Data-first worldbuilding for the explorable "system view" of the Archive/star map.
+# Believable hard-SF (obeys the foundation: known physics, no contradictions). Orbits
+# are Kepler-honest (period_yr = √(a_au³ / mass_sol) around a 0.46-solar-mass red
+# dwarf); stats are Earth-relative where marked (_e = Earth = 1, _g = Earth gravity
+# = 1). No settled world here — the system's only named ground is the Skerry, a bare
+# beacon moonlet of the gas giant Weir. Each body carries an `art.prompt` for
+# gpt-image-2 (scripts/gen-art.py).
+#
+# Read-to-reveal: this file lives bible-side; it copies to docs/_data when its book
+# publishes (and Beck joins stars-named.yml).
+#
+# NOTE: astronomy only. The ancient temporal-transmitter mesh (which will one day
+# overlay the galaxy map) is PRIVATE roadmap and must NOT appear here.
+# =============================================================================
+
+system:
+  id: skerry-system
+  name: "The Beck System"
+  star_ref: book-03                 # the galaxy star that is Beck (ties to the map)
+  summary: >
+    A small red sun and its stone-quiet family: four barren rocks huddled close in,
+    a thin shingle of a belt, one far dim gas giant, and nothing living anywhere.
+    The only ground anyone ever named is the Skerry — three hundred kilometres of
+    bare grey moonlet riding Weir's middle orbit, with a single lit post on its
+    crown. Ten thousand crossings ford this system; almost none of them stop.
+  view:
+    au_span: 8.5                    # outer edge to render (AU); Sleet sits near this
+    tilt_deg: 22                    # a steeper 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: beck
+    name: "Beck"
+    role: primary
+    common: "the sun (to the Skerry's watch); Beck in the rolls — a stream ten thousand crossings ford"
+    spectral: "M1 V (red dwarf)"
+    stats:
+      mass_sol: 0.46
+      radius_sol: 0.45
+      temp_k: 3650
+      luminosity_sol: 0.032         # warm band at √0.032 ≈ 0.18 AU
+      color: "deep ember-orange"
+      age_gyr: 7.9
+    palette: ["#f0885a", "#d65f38", "#a03a22", "#5e2114"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of a red-dwarf star (early-M, ~3650K) filling most of
+        the frame against deep black space: a deep ember-orange granulated photosphere,
+        large dark starspot groups, one bright flare loop arcing off the limb, thin
+        corona. Smaller and angrier than a yellow sun. Scientific, cinematic, no lens
+        flare kitsch. Believable stellar astronomy.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: scald
+    name: "Scald"
+    kind: planet
+    order: 1
+    common: "the Coal"
+    orbit: { au: 0.05, period_yr: 0.0165, ecc: 0.01, tilt_deg: 0 }
+    phys:
+      radius_e: 0.35
+      mass_e: 0.04
+      gravity_g: 0.33
+      day_hr: 145                   # tide-locked — the same face forever sunward
+      mean_temp_c: 230
+      atmosphere: "none"
+    palette: ["#8a5a48", "#5c352a", "#2e1a14"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A tiny airless rock world hanging very close to a red-dwarf sun: its locked
+        dayside baked and glowing dull rust under ember-orange light, a hard black
+        terminator, a frozen soot-dark farside. Cratered, cracked, no atmosphere.
+        Photoreal, scientific, brutal. Black star-strewn space behind.
+
+  - id: grit
+    name: "Grit"
+    kind: planet
+    order: 2
+    common: "the Grey"
+    orbit: { au: 0.09, period_yr: 0.040, ecc: 0.02, tilt_deg: 1 }
+    phys:
+      radius_e: 0.48
+      mass_e: 0.09
+      gravity_g: 0.39
+      day_hr: 350                   # tide-locked
+      mean_temp_c: 115
+      atmosphere: "none"
+    palette: ["#7d7168", "#544a42", "#2b2521"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small dust-grey airless world lit low and red by a dim dwarf sun: fine
+        powdered regolith, overlapping craters, long soft shadows across the locked
+        dayside, an ink-black night hemisphere. Moon-like but red-lit. Photoreal,
+        scientific, still.
+
+  - id: shale
+    name: "Shale"
+    kind: planet
+    order: 3
+    common: "the False Hearth"
+    orbit: { au: 0.17, period_yr: 0.103, ecc: 0.03, tilt_deg: 2 }
+    phys:
+      radius_e: 0.71
+      mass_e: 0.31
+      gravity_g: 0.62
+      day_hr: 905                   # tide-locked — a hot eye, a frozen back
+      mean_temp_c: -5               # sits in Beck's warm band, but airless: no luck
+      atmosphere: "none (flare-stripped long ago)"
+    palette: ["#8a7a66", "#665a4c", "#3d352d", "#b0a08a"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A mid-sized airless rocky world at the warm edge of a red dwarf's reach, locked
+        with one face to its ember sun: layered slate-and-tan rock exposed in vast
+        scarps, dry basins that were never seas, a bright warm eye of daylight fading
+        through a wide dusk ring to a frost-pale farside. A living world's orbit, a
+        dead world's face. Photoreal, scientific, quietly sad.
+
+  - id: rime
+    name: "Rime"
+    kind: planet
+    order: 4
+    common: "the Frost"
+    orbit: { au: 0.30, period_yr: 0.24, ecc: 0.08, tilt_deg: 5 }
+    phys:
+      radius_e: 0.52
+      mass_e: 0.11
+      gravity_g: 0.41
+      day_hr: 4200                  # 3:2 spin-orbit waltz, Mercury-fashion
+      mean_temp_c: -60
+      atmosphere: "trace CO₂ (frosts out each long night)"
+    palette: ["#a8b2b8", "#77828a", "#4a525a"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small cold rocky world under thin red light: grey stone plains sheeted in
+        patchy white CO₂ frost, crisp crater rims picked out in rime, a faint pink
+        cast from the distant ember sun. No clouds, near-no air. Photoreal,
+        scientific, austere.
+
+  - id: shingle
+    name: "The Shingle"
+    kind: belt
+    order: 5
+    common: "the Shingle"
+    orbit: { au_inner: 0.6, au_outer: 1.0 }
+    story: null
+    art: null                       # rendered as a ring of specks, not a still
+
+  - id: weir
+    name: "Weir"
+    kind: planet
+    order: 6
+    common: "the Broadback — the Skerry's whole standing sky"
+    story: >
+      Weir's middle moon is the Skerry — the beacon moonlet of *The Lighthouse*
+      (Book 3): three hundred kilometres of bare grey rock with one lit post on
+      its crown.
+    orbit: { au: 3.4, period_yr: 9.2, ecc: 0.04, tilt_deg: 2 }
+    phys:
+      radius_e: 9.6
+      mass_e: 140
+      gravity_g: 1.52
+      day_hr: 10.8
+      mean_temp_c: -208
+      atmosphere: "hydrogen/helium gas giant, dim-banded"
+    rings: false
+    moons:
+      - id: holm
+        name: "Holm"
+        radius_e: 0.16
+        orbit_days: 1.2
+        note: "An ice moon, close and cracked; Weir's pull keeps its seams from healing."
+      - id: the-skerry
+        name: "The Skerry"
+        common: "the post"
+        radius_e: 0.024
+        orbit_days: 3.2
+        note: "Bare grey rock, some three hundred kilometres end to end, airless and cratered — with a single lit post at its crown. Book 3's ground."
+      - id: stack
+        name: "Stack"
+        radius_e: 0.11
+        orbit_days: 8.3
+        note: "A dark outer moon, soot-toned and pitted, likely a captured wanderer."
+    art:
+      size: "1024x1024"
+      prompt: >
+        A vast dim gas giant far from a small red sun, three-quarters in shadow:
+        slate, umber and dull rust cloud bands barely lit by ember-orange light, a
+        slow pale storm streak, no rings. Three small moons as points — one of them a
+        mere grey fleck close in. Jupiter-like in bulk, twilight in mood. Photoreal,
+        majestic, scientific, cold.
+
+  - id: sleet
+    name: "Sleet"
+    kind: planet
+    order: 7
+    common: "the Outmost"
+    orbit: { au: 7.6, period_yr: 30.9, ecc: 0.19, tilt_deg: 9 }
+    phys:
+      radius_e: 0.16
+      mass_e: 0.0015
+      gravity_g: 0.06
+      day_hr: 110
+      mean_temp_c: -230
+      atmosphere: "none (frozen out)"
+    palette: ["#b8c2cc", "#8a94a2", "#565e6a"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A tiny frozen dwarf world at the far edge of a red dwarf's system, its sun a
+        mere bright ember point: nitrogen-and-water ice plains in pale blue-grey,
+        dark collapse pits, a smeared bright ray system from one young crater. No
+        atmosphere, no moons. Photoreal, scientific, utterly alone.

@@ -1,0 +1,250 @@
+# =============================================================================
+# THE TORR SYSTEM — Farrow's home solar system
+# Data-first worldbuilding for the explorable "system view" of the Archive/star map.
+# Believable hard-SF (obeys the foundation: known physics, no contradictions). Orbits
+# are to scale-ish (period ≈ √(a³/M) around a 0.86-solar-mass K star); stats are
+# Earth-relative where marked (_e = Earth = 1, _g = Earth gravity = 1). Not all bodies
+# touch the story — the system should feel real. Each body carries an `art.prompt` for
+# gpt-image-2 (scripts/gen-art.py); generated stills land in
+# docs/assets/art/farrow-system/<id>.png.
+#
+# READ-TO-REVEAL: lives bible-side; copies to docs/_data when its book publishes
+# (Book 06, *The Cartographer of Silence*) and Torr joins stars-named.yml.
+#
+# NOTE: astronomy only. The ancient temporal-transmitter mesh (which will one day overlay
+# the galaxy map) is PRIVATE roadmap and must NOT appear here.
+# =============================================================================
+
+system:
+  id: farrow-system
+  name: "The Torr System"
+  star_ref: book-06                 # the galaxy star that is Torr (ties to the map)
+  summary: >
+    A modest working system around a low copper-orange star — a bare tor of a star,
+    the navigators' roll says, and the name stuck. One living world — Farrow, third
+    out: one town, its port, the forests, and winters taken seriously. Inward, a coal
+    and a shrouded kettle; outward, a red waste, a gravel belt, a fat granary of a
+    gas giant, and a grey ice giant where the light runs out. The far edge of the
+    settled routes; past Torr the rolls go thin.
+  view:
+    au_span: 11                     # outer edge to render (AU); Haar sits near this
+    tilt_deg: 19                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: torr
+    name: "Torr"
+    role: primary
+    common: "the Sun (to Farrow, simply 'the sun' — low and pale half the year)"
+    spectral: "K1 V"
+    stats:
+      mass_sol: 0.86
+      radius_sol: 0.83
+      temp_k: 5100
+      luminosity_sol: 0.42
+      color: "pale copper-orange"
+      age_gyr: 5.9
+    palette: ["#fbd9a0", "#eeb46a", "#d18c42", "#a4632b"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of a copper-orange main-sequence star (early-K,
+        ~5100K) filling most of the frame against deep black space: a warm dun-gold
+        granulated photosphere, a scatter of dark starspots, low steady prominences
+        at the limb, a modest corona. Cooler and dimmer than the sun — a hearth-fire
+        of a star. Scientific, cinematic, no lens flare kitsch. Believable stellar
+        astronomy.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: char
+    name: "Char"
+    kind: planet
+    order: 1
+    common: "the Coal"
+    orbit: { au: 0.18, period_yr: 0.082, ecc: 0.10, tilt_deg: 2 }
+    phys:
+      radius_e: 0.44
+      mass_e: 0.07
+      gravity_g: 0.36
+      day_hr: 1440                  # slow 3:2 resonant spin, Mercury-fashion
+      mean_temp_c: 440
+      atmosphere: "none (burned off)"
+    palette: ["#6e5a4c", "#463830", "#241d18", "#b08050"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small charred airless rocky world close under a copper-orange sun: dark
+        basalt plains and dense cratering, a dull-glowing overlit dayside fading
+        through ember tones to a hard black terminator, no atmosphere. Mercury-like
+        but sootier, warmer-toned. Photoreal, scientific, stark. Black star-strewn
+        space behind.
+
+  - id: pall
+    name: "Pall"
+    kind: planet
+    order: 2
+    common: "the Smoke"
+    orbit: { au: 0.42, period_yr: 0.29, ecc: 0.02, tilt_deg: 3 }
+    phys:
+      radius_e: 0.90
+      mass_e: 0.75
+      gravity_g: 0.93
+      day_hr: 4400                  # slow spin under a dead sky
+      mean_temp_c: 290
+      atmosphere: "thick CO₂ + sulphur haze (opaque)"
+    palette: ["#ddbe8e", "#bd9560", "#8f6a3e", "#5f4428"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A smothered hothouse world seen from orbit under a copper-orange sun: one
+        unbroken deck of dun and grey-amber sulphur cloud, faint slow spirals, no
+        surface ever visible, a smoky terminator dissolving into dark. Venus-like
+        but duller, browner, a shroud rather than a veil. Photoreal, scientific,
+        oppressive.
+
+  - id: farrow
+    name: "Farrow"
+    kind: planet
+    order: 3
+    common: "the World / home"
+    story: >
+      Farrow is the frontier world of *The Cartographer of Silence* — one town and
+      its port, the forests around them, and the far edge of the settled routes.
+      The winters are long, and the town plans by them.
+    orbit: { au: 0.70, period_yr: 0.63, ecc: 0.06, tilt_deg: 29 }
+    phys:
+      radius_e: 0.96
+      mass_e: 0.95
+      gravity_g: 1.03
+      day_hr: 27.8
+      mean_temp_c: 4                # a 231-day year; the tilt makes the winters hard
+      atmosphere: "breathable (N₂/O₂), cool and clean"
+    palette: ["#31596e", "#3e6647", "#8a9478", "#eef2f6"]
+    moons:
+      - id: thaw
+        name: "Thaw"
+        common: "the Promise"
+        radius_e: 0.21
+        orbit_days: 23
+        note: "When Thaw stands full at midwinter the town calls the season half-spent; the name is a promise, and it keeps it."
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cool living world seen from orbit under a copper-orange sun: dark green
+        conifer-forest continents edged with grey coasts, cold blue seas, heavy white
+        winter reaching far down from the poles, one small clearing of settled land
+        with a harbor on a southern shore, long weather fronts. One pale moon in the
+        black star-strewn sky. Earthlike but colder, emptier, on the edge of things;
+        photoreal, scientific, hard and beautiful. Soft rim light on the limb.
+
+  - id: rud
+    name: "Rud"
+    kind: planet
+    order: 4
+    common: "the Red"
+    orbit: { au: 1.3, period_yr: 1.60, ecc: 0.09, tilt_deg: 24 }
+    phys:
+      radius_e: 0.58
+      mass_e: 0.14
+      gravity_g: 0.42
+      day_hr: 23.1
+      mean_temp_c: -75
+      atmosphere: "thin CO₂ (cold, dry)"
+    palette: ["#a84f34", "#7d3a24", "#c98a5c", "#e0d6ca"]
+    moons:
+      - id: fitch
+        name: "Fitch"
+        radius_e: 0.025
+        orbit_days: 0.9
+        note: "A dark quick scrap of rock, low and close, named for the polecat that raids at dusk."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cold red-ochre desert world seen from orbit: rud-red dust plains and dark
+        ferrous highlands, wind-scoured streaks, frost pooling white in the deep
+        basins, thin ice caps, the faintest skin of atmosphere at the limb. Mars-like
+        under a dimmer orange sun. One tiny irregular moon. Photoreal, scientific,
+        austere.
+
+  - id: shingle
+    name: "The Shingle"
+    kind: belt
+    order: 5
+    common: "the Shingle (a beach of gravel where a world never came ashore)"
+    orbit: { au_inner: 2.0, au_outer: 2.9 }
+    story: null
+    art: null                       # rendered as a ring of specks, not a still
+
+  - id: stow
+    name: "Stow"
+    kind: planet
+    order: 6
+    common: "the Granary (the fat bright store-light of Farrow's winter sky)"
+    orbit: { au: 4.6, period_yr: 10.6, ecc: 0.05, tilt_deg: 2 }
+    phys:
+      radius_e: 9.6
+      mass_e: 210
+      gravity_g: 2.3
+      day_hr: 11.3
+      mean_temp_c: -160
+      atmosphere: "hydrogen/helium gas giant, banded"
+    moons:
+      - id: peat
+        name: "Peat"
+        radius_e: 0.19
+        orbit_days: 2.8
+        note: "A dark sooty inner moon, flexed warm by Stow's pull; it smokes, slowly, from old vents."
+      - id: mere
+        name: "Mere"
+        radius_e: 0.26
+        orbit_days: 6.1
+        note: "A smooth ice moon, cracked and refrozen; a still dark water is suspected beneath the shell."
+      - id: sedge
+        name: "Sedge"
+        radius_e: 0.12
+        orbit_days: 14.9
+        note: "A pale far moon, streaked grey-green with old frost; quiet as a margin."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A heavy banded gas giant seen from orbit, three-quarter lit by a distant
+        copper-orange sun: broad bands of oat, umber and slate, one long-lived
+        russet storm-eye, no rings, three small moons strung as points of light
+        nearby. Jupiter-like heft in harvest colours. Photoreal, majestic,
+        scientific.
+
+  - id: haar
+    name: "Haar"
+    kind: planet
+    order: 7
+    common: "the Grey"
+    orbit: { au: 9.7, period_yr: 32.6, ecc: 0.03, tilt_deg: 27 }
+    phys:
+      radius_e: 3.6
+      mass_e: 13
+      gravity_g: 1.0
+      day_hr: 16.8
+      mean_temp_c: -205
+      atmosphere: "hydrogen/methane ice giant"
+    moons:
+      - id: scud
+        name: "Scud"
+        radius_e: 0.10
+        orbit_days: 5.3
+        note: "A small frost moon driven round fast and low, like cloud before wind."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cold grey-teal ice giant at the dim edge of a system, lit by a far
+        copper-orange pinpoint sun: a hushed fogbank of an atmosphere, faint pale
+        banding, one thin bright cloud streak, a barely-there ring arc. Neptune-like
+        but greyer, seen as if through sea-mist. One small moon. Photoreal,
+        scientific, still and far.

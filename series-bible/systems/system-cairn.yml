@@ -1,0 +1,164 @@
+# =============================================================================
+# THE NOCK SYSTEM — Cairn's home solar system
+# Data-first worldbuilding for the explorable "system view" of the Archive/star map.
+# Believable hard-SF (obeys the foundation: known physics, no contradictions). Orbits
+# are to scale-ish (period ≈ √(a³/M) around a 0.62-solar-mass K star); stats are
+# Earth-relative where marked (_e = Earth = 1, _g = Earth gravity = 1). The spareness
+# is deliberate and in-character: four bodies, wide gaps, no belt — a metal-poor disk
+# made few worlds and made them tidy. Each body carries an `art.prompt` for gpt-image-2
+# (scripts/gen-art.py); generated stills land in docs/assets/art/cairn-system/<id>.png.
+#
+# READ-TO-REVEAL: lives bible-side; copies to docs/_data when its book publishes
+# (Book 19, *The One Who Remembers Everything*) and Nock joins stars-named.yml.
+#
+# NOTE: astronomy only. The ancient temporal-transmitter mesh (which will one day overlay
+# the galaxy map) is PRIVATE roadmap and must NOT appear here.
+# =============================================================================
+
+system:
+  id: cairn-system
+  name: "The Nock System"
+  star_ref: book-19                 # the galaxy star that is Nock (ties to the map)
+  summary: >
+    A spare, orderly system around a small old ember of a star — metal-poor, flare-quiet,
+    eleven billion years into a patient life. Four bodies and wide dark gaps between
+    them; no belt, no rubble, almost no noise. One living world — Cairn, a cold steppe
+    under big skies. The kind of system a careful person circles on a chart for what it
+    doesn't have.
+  view:
+    au_span: 10.5                   # outer edge to render (AU); Stray swings near this
+    tilt_deg: 20                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: nock
+    name: "Nock"
+    role: primary
+    common: "the Sun (to Cairn, simply 'the sun' — small, exact, and old)"
+    spectral: "K7 V"
+    stats:                          # metal-poor and radio-quiet: an old, slow, flare-free star
+      mass_sol: 0.62
+      radius_sol: 0.63
+      temp_k: 4050
+      luminosity_sol: 0.10
+      color: "ember orange"
+      age_gyr: 11.5
+    palette: ["#f5b878", "#e2924e", "#c26f33", "#8f4c22"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of a small ancient orange dwarf star (K7, ~4050K)
+        filling most of the frame against deep black space: a smooth ember-orange
+        photosphere with fine quiet granulation, no spots, no flares, a thin
+        disciplined corona. A star with everything unnecessary long since burned
+        away. Scientific, still, austere. Believable stellar astronomy.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: grit
+    name: "Grit"
+    kind: planet
+    order: 1
+    common: "the Scorch"
+    orbit: { au: 0.09, period_yr: 0.034, ecc: 0.01, tilt_deg: 0.5 }
+    phys:
+      radius_e: 0.31
+      mass_e: 0.025
+      gravity_g: 0.26
+      day_hr: 301                   # tide-locked; its day is its year
+      mean_temp_c: 440
+      atmosphere: "none"
+    palette: ["#9a8570", "#6b5847", "#3a2f27", "#1c1713"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A very small airless rocky world hanging close to an ember-orange dwarf star:
+        one hemisphere fixed sunward and baked dull red-grey, the far side lost in
+        permanent black, a sharp unmoving terminator between. Dense old craters
+        softened by aeons. Tide-locked, ancient, absolutely still. Photoreal,
+        scientific, stark.
+
+  - id: cairn
+    name: "Cairn"
+    kind: planet
+    order: 2
+    common: "the World / home"
+    story: >
+      Cairn is the cold steppe world of *The One Who Remembers Everything* — chosen,
+      people would one day say, for the cleanness of its signal-floor.
+    orbit: { au: 0.35, period_yr: 0.26, ecc: 0.03, tilt_deg: 9 }
+    phys:
+      radius_e: 0.92
+      mass_e: 0.78
+      gravity_g: 0.92
+      day_hr: 41                    # tide-slowed by an old close sun; dawn takes an hour
+      mean_temp_c: -4               # a 96-day year; the seasons are weeks, mild and cold
+      atmosphere: "breathable (N₂/O₂), thin and dry"
+    palette: ["#b8a878", "#8a9070", "#5c7186", "#e8ecf2"]
+    moons:
+      - id: whin
+        name: "Whin"
+        common: "the Lamp"
+        radius_e: 0.13
+        orbit_days: 19
+        note: "A small pale moon named for the steppe-gorse; on a clear night its light is enough to walk by."
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cold dry living world seen from orbit under a small ember-orange sun: vast
+        tawny-and-sage steppe continents, shallow grey-blue seas, long thin streamers
+        of high cloud, hard white winter frost reaching down from both poles, air thin
+        enough that the stars crowd the limb. One small pale moon in the black sky.
+        Earthlike only just — wide, open, orderly, austere. Photoreal, scientific,
+        big-skied and quiet.
+
+  - id: rime
+    name: "Rime"
+    kind: planet
+    order: 3
+    common: "the Lone Light (the only wanderer bright enough to notice in Cairn's sky)"
+    orbit: { au: 3.8, period_yr: 9.41, ecc: 0.02, tilt_deg: 3 }
+    phys:
+      radius_e: 1.9
+      mass_e: 4.0
+      gravity_g: 1.11
+      day_hr: 19
+      mean_temp_c: -200
+      atmosphere: "deep cold methane haze over ice"
+    palette: ["#9fb4c4", "#6e8496", "#465a6c", "#26323e"]
+    moons: []
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A lone mid-sized ice world in the empty outer reach of a spare system, lit
+        thin by a far ember-orange star: a smooth pale blue-grey globe under a deep
+        cold haze, faint banding, no rings, no moons, nothing near it in any
+        direction. The emphasis is the emptiness around it. Photoreal, scientific,
+        solitary.
+
+  - id: stray
+    name: "Stray"
+    kind: planet
+    order: 4
+    common: "the Stray (the one body in the system that won't keep the plane)"
+    orbit: { au: 9.5, period_yr: 37.2, ecc: 0.26, tilt_deg: 24 }
+    phys:
+      radius_e: 0.14
+      mass_e: 0.002
+      gravity_g: 0.10
+      day_hr: 63
+      mean_temp_c: -230
+      atmosphere: "none (frozen)"
+    palette: ["#c8ccd4", "#8d94a0", "#565e6a", "#2a3038"]
+    moons: []
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A tiny frozen dwarf world far out at the cold end of a spare system, its sun
+        a mere orange spark: dirty grey nitrogen-ice plains, a few dark scars, the
+        long tilt of its off-plane orbit suggested by a skewed field of background
+        stars. Small, errant, half-forgotten. Photoreal, scientific, lonely.

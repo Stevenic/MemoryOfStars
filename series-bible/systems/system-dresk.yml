@@ -1,0 +1,261 @@
+# =============================================================================
+# THE DRESK SYSTEM — Dresk's home solar system (Books 9/17)
+# Data-first worldbuilding in the format of docs/_data/system-orin.yml (the Auros
+# exemplar) — see README.md in this folder. Believable hard-SF (obeys the foundation:
+# known physics, no contradictions). Orbits are Kepler-computed (period = √(a³/M)
+# around a 0.82-solar-mass star); stats are Earth-relative where marked (_e = Earth
+# = 1, _g = Earth gravity = 1). Like Corvane's, this is a belt-rich system — the Seam
+# is nearly as heavy as the Lode — but the living world is harder: drier, colder,
+# and half again the pull underfoot. Each body carries an `art.prompt` for
+# gpt-image-2 (scripts/gen-art.py); generated stills land in
+# docs/assets/art/dresk-system/<id>.png once revealed.
+#
+# READ-TO-REVEAL: this file lives bible-side; it copies to docs/_data/ when its book
+# publishes (first Book 9, The Severed Reach; Book 17, The Memory War, returns) and
+# Dresk joins stars-named.yml.
+# NOTE: astronomy only. The ancient temporal-transmitter mesh is PRIVATE roadmap
+# (planning/) and must NOT appear here.
+# =============================================================================
+
+system:
+  id: dresk-system
+  name: "The Dresk System"
+  star_ref: book-09                 # the galaxy star that is Dresk's sun (Books 9/17)
+  summary: >
+    An amber system a step cooler and older than Corvane's, with one living world —
+    Dresk, dry and cold and heavy, high steppe under thin bright skies, its water
+    locked in inland seas and its wealth locked in stone. An iron-dark belt, a
+    hammer-headed gas giant with its moons in drumbeat time, and a far cold whetstone
+    of an ice giant round out a sky that gives nothing away for free.
+  view:
+    au_span: 18                     # outer edge to render (AU); the Spoil ends near this
+    tilt_deg: 21                    # a gentle 3/4 tilt for the orbit plane
+
+# ------------------------------------------------------------------- suns --
+stars:
+  - id: dresk-sun
+    name: "Dresk"
+    role: primary
+    common: "the Sun (at home, simply 'the sun'); polity, world and star share the one name, and the registry follows"
+    spectral: "K0 V"
+    stats:
+      mass_sol: 0.82
+      radius_sol: 0.79
+      temp_k: 5250
+      luminosity_sol: 0.43
+      color: "deep amber"
+      age_gyr: 6.4
+    palette: ["#ffd489", "#f0ac55", "#c97e30", "#96551d"]
+    art:
+      size: "1024x1024"
+      prompt: >
+        A photoreal close render of a deep-amber early-K dwarf star (~5250K) filling
+        most of the frame against deep black space: a dense honey-amber granulated
+        photosphere, broad quiet spot groups, low steady prominences, a restrained
+        corona. Older and cooler than a sun, giving a harder, warmer light.
+        Scientific, cinematic, no lens flare kitsch. Believable stellar astronomy.
+
+# --------------------------------------------------------------- planets --
+bodies:
+  - id: scree
+    name: "Scree"
+    kind: planet
+    order: 1
+    common: "the Loose Stone"
+    orbit: { au: 0.21, period_yr: 0.106, ecc: 0.09, tilt_deg: 1 }
+    phys:
+      radius_e: 0.48
+      mass_e: 0.10
+      gravity_g: 0.43
+      day_hr: 932                   # tide-locked; day = year
+      mean_temp_c: 220
+      atmosphere: "none"
+    palette: ["#8c7d6d", "#5f544a", "#38312b", "#161311"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A small airless rubble-grey world near an amber dwarf sun, seen from orbit:
+        slumped crater walls, long slides of broken talus down every slope, a hard
+        black terminator, no atmosphere. Sharp amber light. Photoreal, scientific,
+        stark and crumbling.
+
+  - id: swelt
+    name: "Swelt"
+    kind: planet
+    order: 2
+    common: "the Smother"
+    orbit: { au: 0.45, period_yr: 0.333, ecc: 0.02, tilt_deg: 3 }
+    phys:
+      radius_e: 0.90
+      mass_e: 0.75
+      gravity_g: 0.93
+      day_hr: 3400                  # slow heavy spin
+      mean_temp_c: 315
+      atmosphere: "thick CO₂ + sulphur haze (opaque)"
+    palette: ["#e3c18b", "#c49a5c", "#94703e", "#614a2a"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A shrouded hothouse world seen from orbit under an amber sun: an unbroken
+        deck of dun and old-gold sulphur clouds in slow smeared bands, no surface
+        visible, a heavy soft limb. Venus-like, dimmer and browner. Photoreal,
+        scientific, airless-feeling for all its air.
+
+  - id: dresk
+    name: "Dresk"
+    kind: planet
+    order: 3
+    common: "the World / home"
+    story: >
+      Dresk is the living world that named the system: drier and colder than most
+      settled worlds, and heavier — half again a stone's weight in the hand. Its
+      oceans are inland seas ringed by high cold steppe; its ranges run long and
+      ore-veined under thin clear skies; its forests grow low and hard. Country
+      that gives nothing away, and keeps what it makes.
+    orbit: { au: 0.72, period_yr: 0.675, ecc: 0.045, tilt_deg: 19 }
+    phys:
+      radius_e: 1.08
+      mass_e: 1.34
+      gravity_g: 1.15
+      day_hr: 25.6
+      mean_temp_c: 4
+      atmosphere: "breathable (N₂/O₂), dry, cold and clear"
+    palette: ["#7c6f52", "#4f6664", "#a5977a", "#dfe4e6"]
+    moons:
+      - id: whet
+        name: "Whet"
+        common: "the First Stone"
+        radius_e: 0.12
+        orbit_days: 8.7
+        note: "A grey angular moon, close and quick; its small tides barely stir the inland seas."
+      - id: burr
+        name: "Burr"
+        common: "the Second Stone"
+        radius_e: 0.05
+        orbit_days: 26.1
+        note: "A dim far second moon in 3:1 time with Whet; the two align like tools laid straight."
+    art:
+      size: "1024x1024"
+      prompt: >
+        A dry cold heavy world seen from orbit, lit by a deep-amber sun: vast tawny
+        and grey-green steppe continents, dark ore-shadowed mountain ranges in long
+        parallel chains, a handful of large landlocked seas instead of oceans, thin
+        sparse cloud, broad ice caps. Two small angular moons in the black
+        star-strewn sky. Earthlike but harder, drier, heavier. Photoreal,
+        scientific, unsentimental and fine.
+
+  - id: ruddle
+    name: "Ruddle"
+    kind: planet
+    order: 4
+    common: "the Marked (a red point; named for the ochre that marks the flocks)"
+    orbit: { au: 1.17, period_yr: 1.40, ecc: 0.07, tilt_deg: 23 }
+    phys:
+      radius_e: 0.52
+      mass_e: 0.11
+      gravity_g: 0.41
+      day_hr: 26.8
+      mean_temp_c: -65
+      atmosphere: "thin CO₂ (cold, dry)"
+    palette: ["#a85238", "#7e3c27", "#c98457", "#4c2a1c"]
+    story: null
+    moons: []
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cold red-ochre desert world seen from orbit under an amber sun: rust and
+        oxblood plains streaked with dark basalt, deep dry canyon country, small
+        bright ice caps, a wisp-thin atmosphere at the limb. Mars-like, redder, no
+        moon. Photoreal, scientific, austere.
+
+  - id: seam
+    name: "The Seam"
+    kind: belt
+    order: 5
+    common: "the Seam (the vein the sky left open; its numbered stones run to tens of thousands)"
+    orbit: { au_inner: 1.6, au_outer: 2.5 }
+    story: >
+      An iron-dark belt nearly as heavy as Corvane's Lode — a world Maul's
+      resonances kept breaking until only the seam of it was left. Dense, metal-
+      faced rock inboard; dirty ice past the snowline at its outer edge.
+    art: null                       # rendered as a ring of specks, not a still
+
+  - id: maul
+    name: "Maul"
+    kind: planet
+    order: 6
+    common: "the Hammer (brightest wanderer in Dresk's sky)"
+    orbit: { au: 4.1, period_yr: 9.17, ecc: 0.05, tilt_deg: 6 }
+    phys:
+      radius_e: 10.6
+      mass_e: 270
+      gravity_g: 2.4
+      day_hr: 10.3
+      mean_temp_c: -160
+      atmosphere: "hydrogen/helium gas giant, banded"
+    moons:
+      - id: peen
+        name: "Peen"
+        radius_e: 0.23
+        orbit_days: 5.2
+        note: "A close rock-and-ice moon, worked warm inside by Maul's pull."
+      - id: haft
+        name: "Haft"
+        radius_e: 0.18
+        orbit_days: 10.4
+        note: "A pale cracked ice moon in 2:1 time with Peen."
+      - id: wedge
+        name: "Wedge"
+        radius_e: 0.14
+        orbit_days: 20.8
+        note: "A dark far moon completing the 1:2:4 chain — three moons striking in drumbeat time."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A heavy banded gas giant seen from orbit, three-quarter lit by a deep-amber
+        sun: bands of bronze, umber and cold slate, one hard dark storm-eye, no
+        rings. Three small moons in a straight-ruled line along the orbit plane.
+        Jupiter-like but duskier, forged-looking. Photoreal, majestic, scientific.
+
+  - id: hone
+    name: "Hone"
+    kind: planet
+    order: 7
+    common: "the Whetstone (a far cold point the almanacs true their tables against)"
+    orbit: { au: 8.9, period_yr: 29.3, ecc: 0.03, tilt_deg: 24 }
+    phys:
+      radius_e: 3.6
+      mass_e: 13
+      gravity_g: 1.0
+      day_hr: 15.1
+      mean_temp_c: -198
+      atmosphere: "hydrogen/methane ice giant"
+    palette: ["#6e93a4", "#48708a", "#2e4d64", "#182a38"]
+    moons:
+      - id: flake
+        name: "Flake"
+        radius_e: 0.08
+        orbit_days: 5.2
+        note: "A thin bright chip of an ice moon, smooth as a honed edge."
+    story: null
+    art:
+      size: "1024x1024"
+      prompt: >
+        A cold blue-grey ice giant seen from orbit: a deep methane atmosphere the
+        colour of oiled steel, faint pale banding, one thin bright cloud streak, no
+        rings. One small bright ice moon. Neptune-like, harder-toned. Photoreal,
+        scientific, still.
+
+  - id: spoil
+    name: "The Spoil"
+    kind: belt
+    order: 8
+    common: "the Spoil (the far heap of stone and ice the system never used)"
+    orbit: { au_inner: 12, au_outer: 17 }
+    story: null
+    art: null                       # rendered as a ring of specks, not a still
