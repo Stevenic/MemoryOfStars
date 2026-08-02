@@ -242,6 +242,21 @@ question it draws down, if any).
   plural makers · self-division; identity veiled, fear unnamed, fate open. Cycle-local
   mystery: *why do the testimonies rhyme* (raised 11, resolved 15); *why are the old
   minds stirring now* (raised 12, deliberately unresolved → C4).
+- **Fifteen-book review applied (2026-08):** renames (Coss→Tavel, Wick→Nell,
+  Ferrow's Rest→Lowen's Rest, Ansel-porter→Petch, Marda→Willa; "the lucid hour"→**the
+  Clearing**); B11 given a statutory memory-claim clock, a contaminated-testimony
+  scene, a contested middle, and a stated fate; B15 rebuilt — four volumes + fifth
+  shelf, the Erasure brushes a daughter-house copy (Casque proved right; the Reading
+  gets a clock), the returned component arrives mid-Convening, Ch 7 re-pointed to the
+  flight-vs-consent collision, the bill paid (originals dispersed; Casque's sealed
+  copy the one in-house survivor; Averil's testimony fills the fifth shelf); the
+  14→15 referral de-fanged (Rill's signed inference, never a god's instruction).
+  **Hidden answer, logged:** the Marigold line descends from an *earlier* Aulis rise
+  — how the 32nd entered the inheritance; never stated in C3; a later cycle may pay
+  it. **Drafting notes:** the "many, then fewer" trigram renders only in each
+  witness's idiom until the Reading; vary where the protagonist's tic breaks (the
+  tic-surrender arc is a house template now — B11 breaks it mid-book; consider one
+  future lead who keeps the tic and is right to).
 - **Canvas plan:** the megastructure cycle — the Cathedral of Engines, the planetary
   mind, the inherited ship, and the series' first **Dyson-scale** sight (Law 7's promise,
   spent here). Few systems, enormous objects, deep time.
@@ -370,7 +385,7 @@ discovered prose. (This maps directly onto the existing skill pipeline: `outline
    |-------|------|--------|----------|
    | 1 | **02 The Archivist** *(retroactive)* | FIRM | detective momentum + the series' driest wit; Acts II–III keep the propulsion — the cost collects in Act III |
    | 2 | **09 The Severed Reach** | FIRM | the beacon heist |
-   | 3 | 13 The Inheritors | pencil | shipboard adventure — a crew that is its own ancestry |
+   | 3 | 13 The Inheritors | **FIRM** (confirmed at charter, 2026-08) | shipboard adventure — a crew that is its own ancestry; opens cold per house custom |
    | 4 | 17 The Memory War | pencil | war-thriller propulsion (contrast enough in the dark cycle) |
    | 5 | 21 The Golden Age That Wasn't | pencil | explorer's adventure — the joy of discovery before the grief of it |
    | 6 | 26 The Gathering | pencil | reunion warmth — the pleasure of threads meeting |

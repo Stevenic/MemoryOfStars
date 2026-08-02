@@ -36,6 +36,7 @@ slot into this chronology without contradiction. Companion: [`atlas.md`](atlas.m
 | ~300 | Farrow's silence; plural holding's precedent · Sowen's first Hundredth | 06, 07 | Contemporaneous, different worlds. |
 | ~301 | The Librarian's dispersal; the beacon-registry released | 08 | Sowen's crates arrive with the new year. |
 | ~312 | The beacon war; the Selt relit; the treaty annex promotes Carath | 09 | The registry's echo, a decade on. |
+| ~316 | The Listeners' founding note — *"the old minds are going quiet, and no one has asked them anything"* | 15 | The young order requisitions the Carath report two years later (Book 10's epilogue). |
 | ~318 | The Carath event — the first witnessed Erasure; the Night of Strangers | 10 | The letters from tomorrow resolved (senders unidentified). |
 | ~350 | The Wright's testimony; the Cathedral of Engines completes its work and goes quiet | 11 | The dossier's first entry; the shipment accepted at a dead address. |
 | ~362 | The Leaving of Aulis; the Observer's tenth season | 12 | The nine rises deposed; the farewell-naming rite enters the diaspora. |
@@ -61,6 +62,6 @@ _Where each novella sits on the timeline (they need not be in chronological orde
 | 10 | ~318 (prologue ~313) | ~1 week | Carath |
 | 11 | ~350 | ~weeks | The Cathedral of Engines; the Listeners' motherhouse |
 | 12 | ~362 (epilogue seasons later) | ~1 Leaving-year | Aulis |
-| 13 | ~375 | ~40 days | The Charter Run's three legs; the *Marigold* |
+| 13 | ~375 | ~1 season (forty days to the Run, then the Run) | The Charter Run's three legs; the *Marigold* |
 | 14 | ~388 (epilogue a year later) | ~1 harvest-year | Tolm |
 | 15 | ~400 (epilogue a year later) | ~weeks | The Listeners' motherhouse |

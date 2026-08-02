@@ -56,26 +56,27 @@ the convening, the reading, the keeping.
   Reading's living voices; Veck's filed unease (*the old minds are stirring*) is
   the assembly's second agenda, unresolved on purpose.
 - **The carrier** — unnamed until she stands: a woman of Odri's practice, come to
-  the motherhouse on the open day, carrying the Choir's oldest hearing. The sixth
+  the motherhouse on the open day, carrying the Choir's oldest hearing. The fifth
   voice nobody requisitioned.
-- **The dossier** — the cycle's true witness: five volumes, shelved apart, about to
-  be spoken together for the first and perhaps only time.
+- **The dossier** — the cycle's true witness: four volumes, shelved apart, about to
+  be spoken together for the first and perhaps only time. The charter provides for a
+  fifth shelf. In the order's whole history, no Prime has ever filed to it.
 
 ## Chapter structure
 
 | Act | Ch | Title | Target | Beat |
 |-----|----|-------|-------:|------|
-| **Prologue** | — | The Founding Note | 1,400 | The order's first page, read aloud each year: *the old minds are going quiet, and no one has asked them anything.* Then the present tense: five testimonies, four collectors, one Prime — and a polite letter from a mapping institute requesting a complete copy of the dossier. Averil declines it, files it, and cannot stop thinking about the word "complete." |
-| **Act I — The Convening** | 1 | The Five Volumes | 2,900 | The dossier taught in work (the cycle recapped as *holdings*, the artifact as front door): the feeling, the stratum, the stowaway's page, the god's half-sentence — shelved apart, by law. Averil's private collation notes, kept in her head, where the charter can't see them. |
-| | 2 | The Rehearsal | 3,200 | **Detonation.** Testing a suspicion she can't file, Averil has Veck and Rill speak two testimonies aloud, together, in a closed room — and the texts complete each other's sentences. Four witnesses across a million years, one shape. The room is very quiet. Casque, invited as witness, says the worst possible thing, calmly: *"Now it exists. You made it exist by hearing it at once."* |
-| | 3 | The Charter | 3,000 | The order's law, given full force — the founding reasons, the Librarian's lesson, the whole cycle testifying *for* Casque: complete things get taken. The factions form with terrible courtesy. Averil's ruling: neither synthesis nor silence — she convenes **the Reading**, under rules no order has ever used. |
-| **Act II — The Reading** | 4 | The Rules of the Reading | 3,200 | The armor built in procedure: spoken once, written never; attendance plural by design (Listeners, lay keepers, a sexton of Tolm, a captain of the line); each attendee assigned a different *emphasis* to carry away. Knowledge dressed as the Night of Strangers. Casque attends — to witness the mistake, he says, and to hold an emphasis, he does not say. |
-| | 5 | The Four Voices | 3,000 | The Reading, first movement: the testimonies in full, in collection order — factory, planet, stowaway, god. Rendered as the cycle's echoes made chorus; the rhyme laid bare on the page for reader and room at once. What the four cannot say: *why.* Fear, yes. Of what — the sentence still has no end. |
-| | 6 | The Sixth Voice *(midpoint)* | 3,300 | **Wonder beat (Law 7), and the eucatastrophe's seed.** From the open-day benches, a woman stands: a carrier, Odri's practice, holding the Choir's oldest hearing — and adds the testimony nobody requisitioned: long before humanity, the Choir *heard the makers pass* — and what they heard was not flight only. *"Many voices, choosing to be a chord."* Consent. Even love. The room's fear acquires a second face, and the Reading has a fifth rhyme from a species none of the order ever met. |
-| **Act III — The Keeping** | 7 | What the Shape Says | 3,000 | The synthesis, spoken only (the page renders it as the room hears it): **the network is a made defense; its makers were plural and afraid; they divided themselves to survive.** The divided ones. And the held breath no one exhales into words: division that thorough doesn't have to mean *gone.* Casque, holding his emphasis, asks the question that will haunt four cycles: *"Then what did they fear, that dividing was the better fate?"* No one answers. That is the answer's shape. |
+| **Prologue** | — | The Founding Note | 1,400 | The order's first page, read aloud each year: *the old minds are going quiet, and no one has asked them anything.* Then the present tense: four testimonies, four collectors, one Prime — and a polite letter from a mapping institute requesting a complete copy of the dossier. Averil declines it, files it, and cannot stop thinking about the word "complete." |
+| **Act I — The Convening** | 1 | The Empty Shelf | 2,900 | **The front door is a person:** Averil taking a minor testimony — an old harbor-mind, nothing cosmic — her craft in work: the interviewer who never testifies, shown listening. Only then the dossier, through her hands: four volumes shelved apart by law (the feeling, the stratum, the stowaway's page, the god's half-sentence) — and the fifth shelf, empty, that the charter provides and no Prime has ever filled. Her private collation notes, kept in her head, where the charter can't see them. |
+| | 2 | The Rehearsal | 3,200 | **Detonation.** Rereading Rill's referral entry — the Clearing's words, and Rill's *signed inference* beneath them — Averil tests the suspicion she can't file: Veck and Rill speak two testimonies aloud, together, in a closed room — and the texts complete each other's sentences. Four witnesses across a million years, one shape. The room is very quiet. Casque, invited as witness, says the worst possible thing, calmly: *"Now it exists. You made it exist by hearing it at once."* |
+| | 3 | The Blank Page | 3,000 | **Casque proved right, on the page:** word from a daughter-house — its copy of the Wright's testimony has been found blank where the proper nouns stood. No cause, no explanation, the grammar the reach learned at Carath. The order's law, given full force — and now with evidence: complete things get taken, and the rhyme has made the four testimonies *one thing*. The factions form with terrible courtesy; Casque adds a second charge — that the Prime was led here by a god's words (Averil's answer: the inference is Rill's, and signed). Averil's ruling, under a clock now: neither synthesis nor silence — she convenes **the Reading**, before the blankness finds the originals. |
+| **Act II — The Reading** | 4 | The Rules of the Reading | 3,200 | The armor built in procedure: spoken once, written never; attendance plural by design (Listeners, lay keepers, a sexton of Tolm, a captain of the line); each attendee assigned a different *emphasis* to carry away. Knowledge dressed as the Night of Strangers. Casque attends — to witness the mistake, he says, and to hold an emphasis, he does not say. And mid-preparation, the cycle's dread finally moves: from the Cathedral's dead address, a crate arrives at the motherhouse — the finished component, **returned**, with a second stamp nobody can read. The old minds are not just stirring. Something is answering the mail. |
+| | 5 | The Four Voices | 3,000 | The Reading, first movement: the testimonies in full, in collection order — factory, planet, stowaway, god. **Drafted as scene, never recap** — four living speakers, four idioms, the room's weather changing between them; the rhyme laid bare for reader and room at once. What the four cannot say: *why.* Fear, yes. Of what — the sentence still has no end. |
+| | 6 | The Fifth Voice *(midpoint)* | 3,300 | **Wonder beat (Law 7).** From the open-day benches, a woman stands: a carrier, Odri's practice, holding the Choir's oldest hearing — and adds the testimony nobody requisitioned: long before humanity, the Choir *heard the makers pass* — and what they heard was not flight only. *"Many voices, choosing to be a chord."* Consent. Even love. The room's fear acquires a second face, and the Reading has a fifth voice from a species none of the order ever met. |
+| **Act III — The Keeping** | 7 | What the Shape Says | 3,000 | **The climax is a collision, not a conclusion.** The guessable half is said plainly and early: the network is a made defense; its makers were plural and afraid; **they divided themselves to survive.** The divided ones. What detonates is that the Reading now holds two irreconcilable readings of that act — *flight* (the four testimonies' fear) and *consent* (the Choir's chord) — both true, neither complete, refusing to resolve (Book 4's two records, at cosmic scale). The synthesis is plural in **content**, not just custody; writing it down wouldn't just be dangerous — it would be false. And the held breath no one exhales into words: division that thorough doesn't have to mean *gone.* Casque, holding his emphasis, asks the question that will haunt four cycles: *"Then what did they fear, that dividing was the better fate?"* No one answers. That is the answer's shape. |
 | | 8 | The Division of the Knowing | 3,800 | **Set-piece.** The Reading's closing rite: the synthesis is never written; each attendee departs carrying their assigned emphasis — the knowing itself divided, deliberately, in the makers' own pattern *(the room realizes what it is reenacting mid-rite; nobody says it aloud)*. **The eucatastrophe (device 13, named):** at the rite's end, unprompted, the attendees do what the crowd on Carath did — each speaks their name to two strangers. Arrives like instinct; paid for by four books; and it turns the heaviest knowledge in the reach into the warmest hour the order has ever kept. |
-| | 9 | The Prime Testifies | 2,900 | The split, honored: Casque's faction keeps the charter and the shelved-apart volumes; Averil's keeps the Reading's practice; both remain one order — plural by construction, at last, in fact as well as law. And Averil does the thing forty years overdue: she gives testimony — the first Prime to enter her own dossier — beginning with the founding note and ending with the sentence the whole cycle earned: *"We asked the old minds what they remembered. They remembered being many."* |
-| **Epilogue** | — | The Open Day | 1,300 | The motherhouse, a year on: five volumes still shelved apart; the Reading's attendees scattered across the reach, each a walking emphasis; the mapping institute's second letter — firmer — declined again, filed with the first. *(→ Cycle 4: the ones who measure are coming.)* On the open-day bench, a warm man nobody registered listens to the founding note with his eyes closed, like someone hearing a song he knew before the order existed. He signs nothing. |
+| | 9 | The Prime Testifies | 2,900 | **The bill, paid in full.** With the blankness loose and the Reading done, the order does the Librarian's move knowingly: the four original volumes leave the motherhouse forever — dispersed to carriers and daughter-keepers beyond the order's own reach, unfindable even to themselves. The founding collection is gone; the library of the Listeners is now mostly empty shelves. **And singular custody gets its one win, on the page:** Casque's sealed charter-copy — never read, never spoken, untouched by the blankness — is the only volume left under the motherhouse roof. He was right too; the book says so plainly. The split is honored (his practice and hers, one order, two disciplines), and Averil does the thing forty years overdue: she gives testimony — the first Prime to enter her own dossier — and her volume goes to the fifth shelf, the only full one in the hall: *"We asked the old minds what they remembered. They remembered being many."* |
+| **Epilogue** | — | The Open Day | 1,300 | The motherhouse, a year on: empty shelves kept dusted like graves; Casque's sealed volume and Averil's testimony, the library's whole holdings; the mapping institute's second letter — firmer — declined again, filed with the first. *(→ Cycle 4: the ones who measure are coming.)* On the open-day bench, a warm man nobody registered listens to the founding note with his eyes closed. He signs nothing. |
 | | | **Total** | **~31,000** | |
 
 ## The Writer's Test (must pass)
@@ -101,7 +102,7 @@ the convening, the reading, the keeping.
 - **Reveal-must-enlarge:** the answer's every clause opens a larger question —
   *divided into what? fled from what? are they gone?* The book ends bigger than it
   began or it has failed.
-- **No prophecy / no puppeteer:** the sixth voice is a coincidence of open doors
+- **No prophecy / no puppeteer:** the fifth voice is a coincidence of open doors
   and long luck, not a summons; the warm man on the bench watches and signs
   nothing. *(Seren's cycle appearance is Book 11; the epilogue's listener is left
   deliberately unidentified — if the author prefers, he is nobody at all.)*
@@ -109,7 +110,7 @@ the convening, the reading, the keeping.
   strike, silently); the page never says her name in Ch 7. The connection belongs
   to the reader and to later cycles.
 - **No chosen one:** the Reading is attended by whoever the open day brought; the
-  sixth voice stands because carriers go where remembering is happening. Law 6,
+  fifth voice stands because carriers go where remembering is happening. Law 6,
   exactly.
 
 ## Continuity
@@ -117,8 +118,9 @@ the convening, the reading, the keeping.
 - **Echoes carried:** the Night of Strangers (← Book 10), as closing rite; the
   emphases (← Book 8's dispersal, done to knowledge itself); the Choir's hearing
   (← Book 5 — the carrier line alive and practicing); "the divided ones" (← Book
-  5's one flagged sentence, now the cycle's title paid); the founding note (←
-  Book 10's requisitioned report, grown into an order).
+  5's one flagged sentence, now the cycle's title paid); the founding note (← the
+  young order that requisitioned Book 10's report, grown since into the motherhouse
+  and its charter).
 - **Hooks outward (Cycle 4):** the mapping institute's letters (the Cartographers,
   politely insistent — C4's anchor institution, knocking); the scattered emphases
   (living targets for anyone who wants the synthesis); Veck's unresolved *why now.*

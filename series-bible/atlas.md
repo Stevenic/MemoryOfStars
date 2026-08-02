@@ -51,7 +51,7 @@ atlas can agree. *(Proposed — confirm or replace; `timeline.md` carries the pl
 | 12 The Ninth Observer | ~362 | **Aulis** — a settled world under a failing sun | Ferrow's Rest, the Harrow valley terraces, the mountain slot | The diaspora berths; nine buried rises |
 | 13 The Inheritors | ~375 | The **Charter Run's three legs** (relay-dense core lanes) | The *Marigold*, deck to deck | The dim off-chart star *("where the shepherd stands" → Book 14)* |
 | 14 The God That Forgot | ~388 | **Tolm** — one god, one world *(star unnamed — debt)* | The temple, the terraces, Coss's garden | Whatever set the Shepherd in place |
-| 15 The Divided Ones | ~400 | The Listeners' **motherhouse** | The reading hall, the five shelves, the open-day benches | The scattered emphases; the mapping institute *(→ Cycle 4)* |
+| 15 The Divided Ones | ~400 | The Listeners' **motherhouse** | The reading hall, the shelves (emptied, one full), the open-day benches | The scattered emphases; the mapping institute *(→ Cycle 4)* |
 
 **Census after the Cycle 3 outlines: ~14 on-page systems · 8 walkable worlds · the
 Cathedral ring (the series' first Dyson-scale object) · 2 moonlets · the Librarian's
@@ -77,7 +77,7 @@ still a handful, in an enormous dark house.
 | **The Librarian** | Archive-mind + site (human-built, settled-ages old) | 08 | Deleted its own name first; dispersed its holdings to the long shelf; smaller now, and alive. |
 | **The beacon graveyard & the moved beacons** | Infrastructure (mobile) | 09 | Beacons can be towed; reach is treaty-capped; one placed illegally for the Selt, later legalized (placement-as-right precedent). |
 | **Carath's substructure** | Ancient infrastructure (foundation-deep, beneath the Hall of Rolls) | 10 | Woke once, fought the taking, guttered. Circle-crossed-line on the warm stone. Builders unknown. |
-| **The Cathedral of Engines** | Megastructure — a broken Dyson ring, working | 11 | A million years building one unfinished component; finished it once, and stopped. The series' largest object. |
+| **The Cathedral of Engines** | Megastructure — a broken Dyson ring | 11 | A million years building one unfinished component; finished it once, and stopped. The Combine's dismantling proceeded — an honest grave. The series' largest object, now its largest salvage. |
 | **The Observer** | Planetary mind (grown or made: never settled) | 12 | Nine rises held as seasons; answered a petitioner for the first time in its record. |
 | **The Shepherd** | Caretaker mind (god of Tolm) | 14 | Set to protect against [unfinished]; tends past remembering why. Now plural-kept by its own flock. |
 | *The suspected whole* | — | 02 → | Gate, Hall, Lens, beacons, Wells, vault — and now Carath's root — may be limbs of **one network**. Open mystery; never confirmed on the page. |
@@ -114,15 +114,15 @@ meaningful act — the Anthem and the Marigold earned it; battleships don't.)*
 | Renn's *Observations* notebook | 02 | The first artifact of the new method. |
 | The sealed casket of Meret | 04 | The Mercy's one unread copy; circle-crossed-line on the seal. |
 | The *Anthem* fragments | 03 → 04 | Distributed memory of a lost ship; one an heirloom in Meret. |
-| **The circle crossed by a single line** | 01 → | Road markers (02), waystation (02), beacon seal (03), Well copings (04), vault threshold (05 — *older than the Choir*), Carath's substructure (10). Rationed: deliberately absent from 06–09. Never explained. |
+| **The circle crossed by a single line** | 01 → | Road markers (02), waystation (02), beacon seal (03), Well copings (04), vault threshold (05 — *older than the Choir*), Carath's substructure (10), the temple's oldest stone on Tolm (14). Rationed: deliberately absent from 06–09, 11–13, and 15. Never explained. |
 | **The river lullaby** | 04 → 05 | Sung whole (04 Ch 1); a verse lost to the Mercy (04 Ch 8, reader-only); heard whole in the vault (05 Ch 8 — the eucatastrophe). The series' mutating song; canonical text written at Book 4's drafting. |
 | **The patient mail (the letters from tomorrow)** | 06 → 10 | Raised (06), echoed (07: the century-dated envelope; 08: "not yet due"), resolved (10: the watchers — senders unidentified). Cycle 2's spine artifact. |
 | **The guild almanac** | 06 → | The census ticker, diegetic: *11,406 worlds answering*. Never decrements in Cycle 2. |
 | **The map of silences** | 06 → 10 | Veya's chart of holes; a later edition rides with the responders (10, one line). |
 | **Sowen's crates & the urn of ash** | 07 → 08 | A century exported; one decade burned unrecoverable. First cargo of the long shelf. |
 | **The rite-book** | 10 | Assembled over decades from opened letters; source of the Night of Strangers. |
-| **The dossier** | 11 → 15 | Five testimonies, five volumes, shelved apart by charter; spoken together exactly once (the Reading). Cycle 3's spine artifact. |
-| **The finished component** | 11 | The Wright's million-year work, completed once; shipped to a dead address. The receipt came back stamped. |
+| **The dossier** | 11 → 15 | Four collected volumes, shelved apart by charter; five voices spoken together exactly once (the Reading); a fifth volume — the Prime's own testimony — filed after. The originals dispersed beyond the order's reach; Casque's sealed copy the one in-house survivor. Cycle 3's spine artifact. |
+| **The finished component** | 11 → 15 | The Wright's million-year work, completed once; shipped to a dead address. The manifest came back stamped — and the crate came back *returned*, with a second stamp nobody can read (15). |
 | **The line's book (the Marigold)** | 13 | Each captain's page in their own hand; one shared page in five hands. |
 
 ## Naming debts (things that exist but have no name yet)
@@ -132,7 +132,7 @@ meaningful act — the Anthem and the Marigold earned it; battleships don't.)*
 - [ ] The Skerry's star / locale designation
 - [ ] Book 05's expedition ship
 - [ ] Farrow's star; Sowen's star; Carath's star; the Librarian's world
-- [ ] The Cathedral's star; Tolm's star; the Listeners' motherhouse locale
+- [ ] The Cathedral's star; Tolm's star; Aulis's failing sun; the Listeners' motherhouse locale
 - [ ] The dating system, in-world (per-culture; CR is authorial only)
 
 **Deliberately never paid (weight-of-names doctrine — mark, don't fill):**

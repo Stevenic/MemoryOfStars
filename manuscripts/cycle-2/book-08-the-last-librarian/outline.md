@@ -118,7 +118,7 @@ deep, never owed.
   the long shelf, the dispersal.
 
 ## Continuity checklist
-- [ ] Placed on the [master timeline](../../../series-bible/timeline.md) (~CR 305).
+- [ ] Placed on the [master timeline](../../../series-bible/timeline.md) (~CR 301).
 - [ ] New characters/locations/factions → [bible](../../../series-bible/) (Joss, the Librarian, the long shelf).
 - [ ] New terms → [glossary](../../../series-bible/glossary.md) (the Librarian, the long shelf, the dispersal).
 - [ ] No [intentionally-undefined question](../../../series-bible/seven-laws.md#things-that-are-intentionally-undefined) answered.
