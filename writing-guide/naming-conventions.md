@@ -20,8 +20,9 @@ is the registry of record).
 - **Worlds carry settler names:** short, homely, often plain words — Moss, Farrow,
   Fell, Quay, Marrow, Reed. The people who stay name a place the way they name a
   field.
-- **Stars carry roll-names:** one hard syllable, coined by navigators — Sarn, Beck,
-  Torr, Voss, Loam, Gloam. A star is a thing you steer by, not a thing you live on;
+- **Stars carry roll-names:** one hard syllable, coined by navigators — Beck,
+  Torr, Voss, Loam, Gloam. *(Auros, the founding exception, predates the doctrine —
+  the site's Archive named it first, and published names win.)* A star is a thing you steer by, not a thing you live on;
   its name lives in rolls and almanacs, which is why daily speech on the page almost
   never says one.
 - **Cities and towns take the local register** (Orin, Valen, Meret, Carath, Tolm's
@@ -46,18 +47,26 @@ mail, the long shelf, relay-held, the great wearing, the watch-roll. Prefer a co
 word given freight to a new word given a gloss. No apostrophe-coinage. Pluralize
 normally.
 
+Reserved (time & position, 2026-08): **the First Bell** (the original temporal
+transmitter, on Gault), **the Toll** (its count — the institutional reckoning; Toll 0
+= the Bell's first sounding; CR 0 = Toll 7,214), **the Bell-frame** (x/y/z in years
+of light, origin at the Bell — see the atlas). Prose keeps saying "years"; the Toll
+belongs to ledgers, rolls, manifests, and the mail.
+
 ## The don't-reuse list
 
 Kept current so 30 books don't collide. Personal names in use: see each cycle's
 outlines (POV and cast lists) — roughly a hundred names; grep before coining.
 Worlds and stars now reserved by the gazetteer:
 
-- **Worlds/systems:** Alder, Reed, Lull, Marrow, Gault, Quay, Fell, Aven, Hush,
+- **Worlds/systems:** Enara, Reed, Lull, Marrow, Gault, Quay, Fell, Aven, Hush,
   Scrive, Cairn, Vane, Holt, Mirren, Hearth (plus the established Orin, Valen, Meret,
   Farrow, Sowen, Carath, Aulis, Tolm, Penna, Moss, the Skerry, the Selt, Corvane,
   Dresk).
-- **Stars:** Sarn, Karst, Beck, Torr, Harl, Grell, Pike, Salt, Lorn, Voss, Cinder,
-  Gloam, Crook, Murr, Blanch, Plume, Nock, Loam.
-- **Near-rhymes ruled acceptable:** Alba/Alder (deliberate — the finale comes home to
-  it). Ruled out and renamed historically: see the rename record in
-  [planning/the-long-mystery.md](../planning/the-long-mystery.md).
+- **Stars:** Auros (and Auros B, *the Watcher* — Enara's red companion), Karst, Beck,
+  Torr, Harl, Grell, Pike, Salt, Lorn, Voss, Cinder, Gloam, Crook, Murr, Blanch,
+  Plume, Nock, Loam.
+- **Precedence note (2026-08):** Enara/Auros were established first by the site's
+  Archive (star chart + system file) and supersede the atlas's short-lived
+  Alder/Sarn coinage — published names win. Renamed historically: see the rename
+  record in [planning/the-long-mystery.md](../planning/the-long-mystery.md).

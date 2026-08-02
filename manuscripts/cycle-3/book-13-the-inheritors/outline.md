@@ -108,6 +108,11 @@ custom), and an adventure wants its bill late.
 - **No chosen one:** Nell is newest because the calendar says so; the 32nd chose the
   *line* (nine generations of practiced inheritance), not the girl.
 
+- **Travel texture (tech-bible §8):** the Run's legs are lit corridors; the dead
+  third leg is ridden on stale soundings with the line's own braking — that is
+  why hulls balk, and why the Marigold's crossing-craft vests as property. Sail-
+  trim and burn windows on the page, never mechanism.
+
 ## Continuity
 - **Timeline:** **~CR 375.**
 - **Echoes carried:** inheritance rites (Bearers ← Book 4, keepers ← Book 3, made a

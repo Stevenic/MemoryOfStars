@@ -101,6 +101,11 @@ its remembering cost us?* (Book 4's consequence shape, at planetary patience.)
 - **No chosen one:** the Observer answers a schoolteacher because he is the one who
   kept writing. Persistence, not election.
 
+- **Travel texture (tech-bible §8):** the Leaving is berth-limited because
+  corridors are: a world moves at the speed of its road's capacity, and the berth
+  lotteries are the physics showing through. Sails and torch-light on the page;
+  no drive-words.
+
 ## Continuity
 - **Timeline:** **~CR 362.** The Leaving of Aulis enters the timeline; the diaspora
   carries the farewell-naming rite outward.

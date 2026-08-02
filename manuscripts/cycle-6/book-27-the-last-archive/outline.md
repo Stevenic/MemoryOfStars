@@ -114,6 +114,11 @@ oldest room the series ever lit.
 - **Serial momentum:** ends mid-race by design; its own arc (the deposition and
   the stand) is complete; Book 28 opens on its own ground.
 
+- **Travel texture (tech-bible §8):** the great carriage converges at
+  road-speed — every carrier's arrival paid for leg by leg; the Regency's
+  better-funded arrival is better funding, not better physics. Burn-light and
+  berths on the page, never mechanism.
+
 ## Continuity
 - **Timeline:** **~CR 490,** weeks after Book 26.
 - **Echoes carried:** Book 5 entire, as ground and grammar; the carriage rite

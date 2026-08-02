@@ -483,6 +483,32 @@ question it draws down, if any).
   Zel's carried-consent scene (29 Ch 8); the two ⚑ calls RESOLVED per unanimous
   review (the dissent; the far sky), flippable until draft. Rename: Emlin→Ketra.
   CR frame ratified in both shared docs.
+- **The Bell-frame (added 2026-08, re-origined same month):** time zero is human
+  (the Toll — the First Bell on Gault; CR 0 = Toll 7,214) but the **spatial origin
+  is inherited**: per the tech-bible, transmitters are pair-made and ferried, so the
+  mesh's routing tables count from **where the first transmitter was made** — and
+  0/0/0 is **Hearth**, the keeper's system, with the oldest works in a 23–53 ly
+  shell around it. The guild has always treated the zero as convention; it is a
+  place. B29's triangulation performs the discovery mechanically (its documents'
+  coordinates run *small*); no page ever frames it; a reader who plots the registry
+  — or, one day, the accurate star chart — can. Guards: builders' identity never
+  named (location ≠ identity); "home of the makers" a permitted reading, never
+  confirmed; the far door has no coordinates in any frame. Registry:
+  `series-bible/bell-frame.yml` (positions only; mesh topology stays planning-side
+  until the node pass). **Open tension, resolve at drafting:** outline-era journey
+  durations (26/27/29's season-scale crossings) vs. sublight-always — the
+  tech-bible's presence-vs-travel machinery (telepresence, the Gate-truth) is the
+  intended reconciliation; per-book calls owed when prose fixes durations.
+  Naming precedence settled: Enara/Auros (site Archive) supersede Alder/Sarn.
+- **The spiral evolution (2026-08):** the galaxy is ours-like and *rotates*
+  (`scripts/gen-galaxy.rb`, deterministic, renders any epoch). This upgrades the
+  origin-discovery from geometry to memory: at present the works-shell reads rough
+  (~10 ly rms — a million years of drift); run the sky backward and it sharpens to
+  ~2 ly about the zero, because the makers' systems are a **co-moving association**
+  (family stars drift together; ≤4.5 km/s internal). Reader-facing endgame: a
+  deep-time slider on the Archive's galaxy layer — un-forget the sky and the circle
+  closes. Site data stays anonymous astronomy (no named systems in `galaxy.json`;
+  read-to-reveal holds); the named overlay merges per-book at wiring time.
 - **Kept, formally:** the curator's fingerprints — deliberately untouched in C6;
   kept alongside the mercy-horror and the root (the keeper's house lets the
   reader close the circle unaided; answering would spend what B30 Ch 5 refuses).

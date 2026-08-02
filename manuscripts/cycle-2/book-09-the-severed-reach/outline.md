@@ -103,6 +103,12 @@ bill late; the chapters run short and punchy, and the epilogue is the invoice.
 - **No chosen one:** the Selt are saved by a *contractor with a crew*, and it almost
   doesn't work. History from choices, priced.
 
+- **Travel texture (tech-bible §8):** Madge's tow rides a dead road — the old
+  line's heading with her own braking brought along; slow, blind, survivable
+  exactly once. Beacons themselves travel only as ferried mass, sublight — which
+  is why moving one is an act of war. Guy-lines and burn-light on the page, not
+  mechanism.
+
 ## Continuity
 - **Timeline:** **~CR 312.** The registry released ~CR 301 (Book 8); the war is the
   paperwork's echo, a decade on.

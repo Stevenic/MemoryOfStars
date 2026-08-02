@@ -125,6 +125,10 @@ cycle opens mid-route, already carrying mail.
   navigation data only. The far door (Book 1's tower; the watchers; D3: mail
   only) is never the destination and never conflated with the dead address.
 
+- **Travel texture (tech-bible §8):** Gale's route is stops, tolls, and
+  depot-light — the summons travels at the speed of the roads, and the manifest
+  is a map of what the roads allow. No drive-words; the page shows the riding.
+
 ## Continuity
 - **Timeline:** **~CR 490** (see [timeline](../../../series-bible/timeline.md));
   six years after the Testament.

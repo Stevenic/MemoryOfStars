@@ -128,6 +128,11 @@ books of practice become one coordinated act.
   introduction would do; Zel is simply the one who has never introduced
   herself any other way. Law 6, at the last door.
 
+- **Travel texture (tech-bible §8):** the crossing to the door is off-road on a
+  remembered line — own braking, real cost, Law 1 to the last. The warding fleet
+  holds the threshold the way sublight fleets must: it arrived long before it is
+  seen. No drive-words on the page.
+
 ## Continuity
 - **Timeline:** **~CR 491,** the season after the Scouring.
 - **Echoes carried:** the whole series, deliberately, as the wearing (every

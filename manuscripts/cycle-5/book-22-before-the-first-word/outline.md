@@ -119,6 +119,11 @@ place you stand.
 - **No chosen one:** the keeper of songs is a keeper who counted. Kova walks
   because walking is her job. The origin itself obeys Law 6.
 
+- **Travel texture (tech-bible §8):** the walked era may glimpse the makers'
+  freight sky — corridor-light, patient automated mass — as background wonder
+  only; rendered other, never explained. The strata show; the book does not
+  gloss.
+
 ## Continuity
 - **Timeline:** **~CR 474.**
 - **Echoes carried:** carrier practice (← Book 5, load-bearing at last);

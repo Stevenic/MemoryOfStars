@@ -37,7 +37,7 @@ atlas can agree. *(Ratified 2026-08, after thirty books built on it; `timeline.m
 
 | Book | When (CR, proposed) | System / locale | Walkable ground | Off-page places invoked |
 |------|--------------------:|-----------------|-----------------|-------------------------|
-| 01 The First Pilgrim | 0 | **The Orin system** *(world **Alder**, star **Sarn** — gazetteer; unspoken on the page)* | Orin, the mountain, the Gate | "Another sky" — Amarin's world *(physical place vs. memory-space: deliberately ambiguous)* |
+| 01 The First Pilgrim | 0 | **The Auros system** *(world **Enara** — gazetteer & the site's Archive; unspoken on the page)* | Orin, the mountain, the Gate | "Another sky" — Amarin's world *(physical place vs. memory-space: deliberately ambiguous)* |
 | 02 The Archivist | ~25 | The Orin system | Orin, the road east, the waystation ruin, **Valen** | The **distant system that answers** (Ch 6); the **northern beacon** (epilogue) |
 | 03 The Lighthouse | ~60 | **The Skerry's post** — a beacon moonlet at a route-crossing *(star **Beck** — gazetteer)* | The station itself | The **southern relay** (dark, then one flash); the routes of ten thousand crossings; the *Anthem*'s last position |
 | 04 The City That Forgave | ~180 | **Meret's system** *(world **Reed**, star **Karst** — gazetteer)* | Meret, the river Sil, the bridge, the two Wells | The Bridge Night (~CR −120, on the same ground); the diaspora routes outward |
@@ -191,7 +191,7 @@ plural by nature: a carriage and a warding, never a flagship.)*
 
 | World / system | Star (roll-name) | Books | Registry note |
 |---|---|---|---|
-| **Alder** — the Orin world | **Sarn** | 01, 02, 26, 28, 30 | Orin, Valen, the mountain, the Gate. The page has never needed the world's name; it survives in the Hall's oldest roll. *(The Alba/Alder near-rhyme is deliberate — the finale comes home to it.)* |
+| **Enara** — the Orin world | **Auros** | 01, 02, 26, 28, 30 | Orin, Valen, the mountain, the Gate. Established by the Archive (the site's star chart): the Auros system — seven planets, a scattered belt, and the red companion **Auros B**, *the Watcher* in Enara's night sky. The page itself has never needed the world's name; it survives in the Hall's oldest roll. *(Supersedes the short-lived Alder/Sarn coinage, 2026-08.)* |
 | **Reed** — Meret's world | **Karst** | 04, 07, 20 | The river Sil crosses it; Meret is its city. Limestone country under a river town. |
 | The Skerry *(moonlet, already named)* | **Beck** | 03 | The route-crossing's star; a beck is a stream — ten thousand crossings ford it. |
 | **Lull** — the unroaded system | *(system roll-name)* | 05, 27 | The name the routes lost when space was made to forget it. **On-page: never** — the forgetting is the point; the registry remembers so the series doesn't have to. |
@@ -225,7 +225,9 @@ plural by nature: a carriage and a warding, never a flagship.)*
 
 **Remaining true debts (non-planetary):**
 - [ ] Book 05's expedition ship (before drafting)
-- [ ] The dating system, in-world (per-culture; CR is authorial only)
+- ~~The dating system, in-world~~ — **paid 2026-08:** the Toll, the count of the
+  First Bell (see `timeline.md` and the Bell-frame below). Local calendars stand,
+  per Law 1; the Toll is institutional reckoning, not a civil calendar.
 
 **Deliberately never paid (weight-of-names doctrine — mark, don't fill):**
 - The Selt's own name for themselves — plural, untranslated, kept off the page (09).
@@ -236,6 +238,87 @@ plural by nature: a carriage and a warding, never a flagship.)*
 - The dark itself (24) — named only as shape, forever so far.
 - The Record's smaller name (19) — spoken once on the page, written nowhere, including here.
 - The keeper's keeper — role-named only, first to last.
+
+## The Bell-frame — positions (ratified 2026-08, re-origined same month)
+
+> **The rule:** every system in the gazetteer has a position — **x/y/z in years of
+> light**. The guild calls the frame the Bell-frame and dates everything by the
+> Toll, but the two zeros are not the same, and that asymmetry is load-bearing:
+> **time zero is human** (the Bell's first sounding, Gault), while **the spatial
+> origin is inherited** — the mesh's own routing tables count from a point the
+> guild has always treated as convention and never visited. Route-books call it
+> **the old zero.** Nothing answers there. *(See "what the frame quietly holds,"
+> below.)*
+>
+> **Distance rules (constraints, not mechanisms — per cosmology):** ships are
+> sublight, always; near-instant messaging exists **only along routes someone
+> already physically traveled** (a new link is a slow ferry, years–decades, losable);
+> dark or dead segments carry signal at light speed — the Signal's 35-year crawl
+> (02→03) is the canonical exhibit. On the living mesh the count is one: **to be
+> linked is to share a present. Severed worlds fall out of the shared now** — which
+> is what falling silent *is*, here. Coordinates below are authorial registry
+> figures; on-page distances are always **route**-distances, and routes are never
+> straight lines.
+
+**Galactic context (spiral, ratified 2026-08):** the galaxy is a spiral like ours —
+two great arms and two minor, turning on a flat curve (~213-My galactic year at the
+pocket's radius). The walked pocket spans ~130 years of light on a minor spur —
+navigators just call the band across every sky **the Road**, and the reach lives on
+a quiet shoulder of it — ~26,000 from the core; the settled reach (the almanac's
+thousands) runs ~2,000 along the spur, because settlement follows the stars and the
+roads follow settlement. The inter-arm gaps are the frontiers: the beacon graveyard
+sits where the spur thins, the Selt past it, Fell at the far end. Bands shear (~30 ly
+of slip per My per 1,000 ly of radius), but the pocket is a **co-moving stellar
+association** — the family drifts together, so the Bell-frame rides it and stays
+valid; model and epochs in `scripts/gen-galaxy.rb`.
+
+| System | x | y | z | Note |
+|---|---:|---:|---:|---|
+| **Hearth** | 0 | 0 | 0 | **The old zero.** The keeper's system; the dead address. See below. |
+| **Enara** (Auros — Orin) | 6 | 40 | −5 | The founding corner: quiet, far, and closer to the zero's meridian than anyone has noticed. |
+| The Skerry | −8 | 22 | 0 | The crossing: ~23 ly line-of-sight to Enara; the Signal's crawl ran ~35 route-years by relay dogleg — honored. |
+| **Gault** (the Bell) | −32 | 18 | 1 | The first human node. The guild grew up around the Bell: wayfinding begins with knowing when. |
+| Hush | −27 | 30 | −6 | The motherhouse — the Listeners built where the mail was thick. |
+| Cairn | −23 | 15 | 16 | The Record's site: chosen for a clean signal-floor, which should have been a warning. |
+| Carath | −20 | 10 | 4 | Route-dense — why the re-routed mesh promoted it to hub. |
+| Reed (Meret) | −47 | 24 | −1 | Old core of the human web. |
+| Sowen | −54 | 29 | −3 | ~9 ly out from Reed — a 20-year colony crossing: the Mercy's children went far enough to start over, no farther. |
+| Quay | −41 | 32 | 2 | The port between. |
+| Scrive | −49 | 56 | 23 | The ceded territories, off the thick routes. |
+| Penna | −36 | 47 | −17 | The green blank. |
+| Aulis | −13 | 65 | 13 | Under Gloam, far enough that the Leaving took a generation of berths. |
+| Marrow | −25 | −7 | −10 | The Librarian dug in mid-reach, equidistant from its patrons. |
+| Moss | −3 | −15 | −18 | The garden over the grave — and 24 years of light from the zero. |
+| Tolm | 12 | −34 | 9 | One god, one world, far from everything but its flock. |
+| Cinder | 31 | 0 | −26 | The Cathedral's dim star, deep in old space. |
+| **Lull** | 19 | −22 | 34 | The unroaded system: high off the plane — space was made to forget it, and the roads obliged. |
+| Vane · Holt · Mirren | −58/−63/−60 | 6/9/1 | 29/26/32 | The pilot region: three neighbors, one annex, one loss. |
+| Corvane | −62 | −34 | −7 | Power. |
+| Dresk | −76 | −46 | −12 | Power. The Corvane–Dresk frontier (beacon graveyard) runs between them. |
+| The Selt | −84 | −27 | −19 | Past the frontier — which is why their relay aged unrelieved. |
+| Aven | −70 | −39 | −2 | The severed system, inside the war's shadow. |
+| Fell | −93 | −15 | 15 | The long shelf's far end. |
+
+**What the frame quietly holds (never stated on any page):** the frame's origin is
+not a convention. Transmitters are made in pairs and ferried outward, so every
+coordinate in the mesh's inherited tables is measured **from where the first
+transmitter was made** — and the oldest works (the Gate at Enara, the Wells at Reed,
+the vault at Lull, Carath's root, the Cathedral at Cinder, the Shepherd at Tolm, the
+substrate under Moss) stand in a rough, wobbling shell, twenty-three to fifty-three
+years of light out, around that point. At 0/0/0 sits a dim system with no settled
+world and exactly one address: **Hearth**, the keeper's system. Book 29's
+triangulation (the Wright's manifest, the Witness's referral, the letters' margin —
+Bell-frame documents whose numbers run *small*) performs the discovery mechanically,
+as navigation; no character ever says what it means that seven thousand years of
+mail has been measured from the makers' doorstep, or that the one who stayed,
+stayed *home*. And one layer deeper: at the present epoch the shell only reads
+*rough* — a million years of stellar drift has smeared it. Run the sky backward
+(the galaxy model can) and the wobble resolves: the strangers leave, the family
+stays, the circle sharpens to ~2 ly about the zero. To read the makers' geometry
+you have to remember where the stars used to be. **Guards:** who built the works stays unanswered (location is not
+identity); "home of the makers" is a reading the map permits and the series never
+confirms; the far door ("another sky," 01/30) has no coordinates in any frame —
+deliberately. Machine-readable registry: [`bell-frame.yml`](bell-frame.yml).
 
 ## Upkeep
 

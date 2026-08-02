@@ -97,6 +97,11 @@ founding shape the way Cycle 1 did — the front door swings on familiar hinges.
   **Cycle 2 spends zero canon** — this book answers nothing from the undefined list.
 - **No chosen one:** Veya is the holder of record. That is the whole reason it is her.
 
+- **Travel texture (tech-bible §8):** a held crossing is a lit corridor — boost
+  out, the far depot's beam to catch you; an unheld crossing means bringing your
+  own stopping. Veya's craft is the road's craft: the page shows lights, ledgers,
+  and the far end's answer, never drive-words.
+
 ## Continuity
 - **Timeline:** **~CR 300.** Two generations after Book 5; the waking has been crawling
   the relays for 275 years, never named on the page.

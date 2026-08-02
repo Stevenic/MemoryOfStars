@@ -4,10 +4,17 @@ The single source of truth for **when** things happen. Every book's synopsis sho
 slot into this chronology without contradiction. Companion: [`atlas.md`](atlas.md)
 (**where**).
 
-> **Dating system:** in-world cultures keep local calendars (Law 1 — no universal
-> calendar). Authoring uses the neutral **CR (Cycle Reference)** frame: **CR 0 = the
-> Pilgrimage of Lyra Ash** (Book 01). CR never appears on the page. *(Ratified 2026-08 —
-> confirm or replace.)*
+> **Dating system (ratified 2026-08):** daily life keeps **local calendars** (Law 1 —
+> lived time stays diverse; "year" in any mouth means the speaker's own). The
+> institutions share one reckoning: **the Toll** — the count of **the First Bell**,
+> the original temporal transmitter, raised on Gault by the guild's ancestors and
+> sounding ever since. Human zero: **Toll 0 = the Bell's first sounding.** On the
+> living mesh the count is one — to be linked is to share a present; off the mesh
+> the count crawls at light speed and arrives old, and a severed world falls out of
+> the shared now (see the atlas's Bell-frame for the distance rules).
+> Ledgers, rolls, manifests, and the patient mail date in Tolls; prose keeps saying
+> "years." Authoring keeps the neutral **CR** frame: **CR 0 = the Pilgrimage of
+> Lyra Ash** (Book 01) = **Toll 7,214**. CR never appears on the page; the Toll may.
 
 ## Ages / eras
 

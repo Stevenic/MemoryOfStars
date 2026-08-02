@@ -95,6 +95,11 @@ costs). A held breath, structured like one. *(Re-drafted 2026-08.)*
   institution. The Skerry has a name; its world does not.
 - **No chosen one:** Edda is on watch. That is the whole reason it is her.
 
+- **Travel texture (tech-bible §8):** the station serves sail-and-torch traffic —
+  soundings, tolls, the depot's light; a convoy that goes blind mid-crossing is a
+  convoy that cannot brake. Drives are never named; the page shows canvas,
+  burn-light, and fear of the far end.
+
 ## Continuity
 - **Timeline:** **~CR 60** — decades after Book 2, long enough for the Signal to have
   crawled the relays (distance is real; never state the mechanism). Anthem lost ~CR −252.

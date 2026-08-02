@@ -1,0 +1,157 @@
+# =============================================================================
+# THE MESH MODEL — clusters, anchors, totals, and the build timeline.
+# Planning layer (never read by the site; the exploration generator consumes this
+# and emits only read-to-reveal-safe data). Companion to tech-bible.md §7.
+#
+# Frame: Bell-frame ly (x = rotation-leading along the Road, y = outward from the
+# core, z = galactic north; origin = the old zero / Hearth). Coordinates beyond the
+# walked pocket are model-scale, not book-canon — books never leave the pocket.
+#
+# Derivation discipline: everything below follows from pinned constraints —
+# ferries 0.3–0.5c; hops mostly 2–15 ly; ~10–20 transmitters per node (a two-way
+# link costs 2); range = age; the current age can MOVE transmitters, never make.
+# =============================================================================
+
+assumptions:
+  ferry_speed_c: [0.3, 0.5]
+  hop_ly: { typical: [2, 15], rare_long_haul: 40 }
+  commissioning_yr_per_link: 20        # arrival -> aged-in, routed, answering
+  frontier_wave_speed_ly_per_yr: 0.22  # 10-ly hop per ~45 yr, ferry + commissioning
+  transmitters_per_node: { typical: [10, 20], core_works: [50, 200] }
+  links_per_node_two_way: [5, 10]      # a two-way link costs 2 transmitters
+
+timeline:                              # "how long to build": the answer
+  makers_build:
+    span: "~1.45M -> ~1.05M years ago (~400,000 years of construction)"
+    phases:
+      - "the shell: the works ring the origin (~50-60 systems; a few thousand years)"
+      - "the association fill: the family's volume, ~2,500 systems (~50,000 years)"
+      - "the trunk lines: 8,000-15,000 ly long-hauls — 100,000+ year projects each,
+         the longest sustained engineering in the galaxy's known history"
+  the_ending:
+    span: "~1.05M years ago"
+    note: "mesh at peak (~10^5 nodes); the pouring; the keeper's watch begins;
+           the Choir end in the same deep age (the vault predates even them)"
+  the_long_dark:
+    span: "~1.0M -> ~200k years ago"
+    note: "the web idles under maintenance; branches decay; nothing new is built"
+  golden_age_tenancy:
+    span: "~200k years ago"
+    note: "the prior human rise re-lights the inner spur web (~40k branch systems
+           over its run), is collected; its branches go dark a second time"
+  current_regrowth:
+    span: "~30,000 years ago -> now"
+    note: "recovery crawl at ferry speed (frontier wave ~0.22 ly/yr with plateaus);
+           the First Bell sounds ~7,700 years before series end (Toll 0) as the
+           guild consolidates; the almanac's 11,406 answering at series present,
+           and falling through Cycle 4"
+
+clusters:
+  - id: hearth-core
+    name: "the works-shell (the deep core)"
+    anchor: [0, 0, 0]
+    extent_ly: { radius: 55 }
+    nodes: 60
+    age_yr: "1.40M-1.05M (range=age: the deepest channels in existence)"
+    status: kept                        # the keeper's own; answers nothing
+    transmitters: 4000                  # core nodes run rich (50-200 each)
+  - id: association-web
+    name: "the family fill (the walked pocket rides in it)"
+    anchor: [0, 0, 0]
+    extent_ly: { radius: 150 }
+    nodes: 2500
+    status: mixed                       # living / reused / dark, interleaved
+  - id: spur-web-trailing
+    name: "the living reach, trailing arm of the web"
+    anchor: [-600, 40, 0]
+    extent_ly: { along_x: 1200, across: 300, vertical: 200 }
+    nodes: 18000                        # ever-touched, current-era
+    status: living-edge                 # Corvane/Dresk, the Selt, Fell out here
+  - id: spur-web-leading
+    name: "the living reach, leading arm of the web"
+    anchor: [500, 20, 0]
+    extent_ly: { along_x: 800, across: 300, vertical: 200 }
+    nodes: 12000
+    status: living-edge
+  - id: golden-age-branches
+    name: "the prior rise's regrowth (dark twice over)"
+    anchor: [-200, 10, -10]
+    extent_ly: { along_x: 900, across: 250, vertical: 150 }
+    nodes: 40000
+    status: dark                        # collected with their tenancy, ~200k ago
+  - id: trunk-inward
+    name: "the inward trunk (crosses the gap toward the inner arm)"
+    anchor_from: [0, 0, 0]
+    direction: [0.2, -0.97, 0.0]
+    length_ly: 12000
+    nodes: 1200                         # relay chain, ~10-ly spacing
+    status: dark
+    note: "where it goes: never answered on any page"
+  - id: trunk-outward
+    name: "the outward trunk (toward the far arm)"
+    anchor_from: [0, 0, 0]
+    direction: [-0.3, 0.95, 0.1]
+    length_ly: 8000
+    nodes: 800
+    status: dark
+  - id: trunk-alongarm
+    name: "the long trunk (down the spur, into the next association)"
+    anchor_from: [0, 0, 0]
+    direction: [0.98, 0.1, -0.15]
+    length_ly: 15000
+    nodes: 1500
+    status: dark
+  - id: far-webs
+    name: "whatever the trunks connected to"
+    nodes: uncounted
+    status: unknown
+    note: "attested only by the trunks that point at them; off every map"
+
+totals:
+  nodes_ever: "~76,000 counted + far webs uncounted  (order 10^5 — cosmology's pin)"
+  transmitters_created: "~1.1 million — every one of them by the makers; the
+                         current age has never made one and never will"
+  disposition_at_series_present:
+    in_living_service: "~137,000  (11,406 answering nodes x ~12 average)"
+    dark_but_extant: "~560,000    (dead branches, trunks, the golden age's web)"
+    destroyed_or_collected: "~400,000  (ferry losses, the beacon wars, the
+                             Accords' decommissions, and the keeper's collections
+                             — the count only ever goes down)"
+  note: "humanity's working inheritance is ~12% of everything ever made; the
+         beacon war (09) was fought over single-digit percentages of that"
+
+derelicts:                             # discoverable objects (tech-bible sec. 8)
+  doctrine: "off-mesh = beneath the maintenance's notice; safe while dark;
+             LINKING one enters it in the conversation -> collection risk.
+             Every derelict is a sim-mode site (objects are capture points)."
+  classes:
+    - id: lost-ferry
+      era: "makers (1.0-1.45M yr)"
+      where: "along the three trunk corridors and the association's old lanes"
+      count: "~dozens"
+      value: "aged paired transmitters — partner mouth still live in the mesh;
+              recovery opens an instant deep link to the ferry's origin"
+    - id: silent-arrival
+      era: "makers (1.0-1.45M yr)"
+      where: "in-system, at addresses that never answered (the ancient
+              dead-letter list in the routing tables is the treasure map)"
+      count: "~hundreds"
+      value: "hull + transmitter never commissioned"
+    - id: works-swarm-hulk
+      era: "makers"
+      where: "around the great works (the Cathedral's swarm = canon exemplar, B11)"
+      count: "~thousands of fragments, few coherent"
+    - id: choir-crossing
+      era: "the Choir (~1M yr)"
+      where: "the old lanes near Lull and the Choir's home sea"
+      count: "~a handful"
+      value: "interwoven-voice recordings; carriage-sensitive cargo"
+    - id: golden-age-hull
+      era: "~200k yr"
+      where: "the inner spur web's lanes"
+      count: "~scores"
+    - id: recent-wreck
+      era: "human, settled ages (the Anthem class)"
+      where: "the living web's routes and dead roads"
+      count: "~common"
+      value: "residue (B3 canon: reconstructions assemble from it)"

@@ -151,6 +151,40 @@ rarely-accessed and the cleanly-collectable. Full treatment in
 8. **The crowded past / future ghosts.** Future observers telepresence into historical moments, unseen — the dead are the *most-watched* show — and their bleed-through **IS** Book 1's uncanny presence (the seventh bell; "someone should have been there"). Retro-grounds the eerie beats.
 9. **War becomes archival.** Disposable bodies + backed-up minds ⇒ the only real death is *deletion*, the only weapon is *erasure/forgery* of memory. All conflict = memory-warfare = the Erasure at human scale (Cycle 4).
 
+## The propulsion on-ramp — 2026 → 3026 (added 2026-08)
+
+The real-physics millennium between today and starflight, charted so the tech-bible's
+deep-future stack (§8) sits at the end of a credible curve. The punchline is the
+thesis arriving on its own: **by ~3026 the state of the art is not an engine — it is
+a road.** Humanity's first starflight millennium independently converges on the
+makers' pattern (slow ferry first, then the lit corridor), which is why, ages later,
+settlers recognized the mesh's logic on sight: they had built roads before they
+found better ones already laid.
+
+1. **2030s–40s** — full rocket reuse; nuclear-thermal demos; solar-electric
+   everywhere; first big solar-sail flotillas.
+2. **2050s–70s** — megawatt nuclear-electric; **gram-scale laser-pushed probes at
+   ~0.1c** fly by nearby stars. *The first interstellar travel is information, not
+   matter* — presence precedes bodies from the very start.
+3. **~2100** — fusion-torch first flights; the solar-gravity-lens telescope at
+   550+ AU images exoworlds in detail. *We see the destinations long before we go.*
+4. **2100s–2200s** — the torch era: the solar system shrinks to weeks-months;
+   terawatt beam arrays push ton-scale probes to ~0.05c with first magsail braking.
+5. **2200s–2400s** — the first **seed-ferries** depart: slow (0.03–0.08c),
+   robotic, multi-century bets carrying braking-array hardware to nearby systems.
+   Solar-statite beamer swarms grow around the sun.
+6. **2500s–2800s** — the first corridors complete: braking arrays live at the far
+   ends; the first crewed 0.2–0.3c sail-liners *arrive* somewhere.
+7. **~3026 — state of the art:** a handful of lit corridors; beamer swarms
+   drinking the sun; sail-liners at 0.2–0.5c between depots; fusion torches for
+   everything local; magsails as arrival insurance; solar sails, eternal, for
+   patient freight. Engines plateaued at fusion around 2200 — every gain since
+   was infrastructure. **Velocity became a public work.**
+
+Rungs deliberately absent, then and forever: antimatter torches (production
+economics never close), and FTL matter (physics). The ladder tops out exactly
+where the tech-bible's deep-future stack begins.
+
 ## Placement rules
 - New coined terms → [glossary](../series-bible/glossary.md) once a *published* book uses them.
 - Deep mechanics / how these tie to the Erasure → stays **here (private)** until revealed on the page.

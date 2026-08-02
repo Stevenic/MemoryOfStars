@@ -100,6 +100,11 @@ shape, at the largest scale it has ever held.
 - **No chosen one:** Mott takes the commission because nobody senior would. That is
   the whole reason it is her.
 
+- **Travel texture (tech-bible §8):** the Combine's salvage works the ring's
+  swarm — construction hulls a million years cold, an honest grave worked by
+  torch-tugs. The makers' freight ran on laid corridors; nothing about *how* is
+  ever said — the scale says it.
+
 ## Continuity
 - **Timeline:** **~CR 350** (see [timeline](../../../series-bible/timeline.md)); the
   Listeners hold the Carath report (← Book 10's epilogue, one line, uncommented).

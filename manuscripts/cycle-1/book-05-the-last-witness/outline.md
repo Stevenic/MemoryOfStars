@@ -122,6 +122,10 @@ the smallest possible bite:
   qualification is grief-literacy, not destiny. Anyone could have said yes. No one else
   did. That is Law 6, exactly.
 
+- **Travel texture (tech-bible §8):** the expedition runs off-road — fusion crawl
+  out, months of risk, its own braking or none; that is what *unroaded* costs. The
+  page shows the burn schedule and the silence, never the mechanism.
+
 ## Continuity
 - **Timeline:** **~CR 240** — roughly a lifetime after Book 4; Odri is diaspora-born,
   raised by grandparents who remembered remembering. The Choir ended ~a million years ago.

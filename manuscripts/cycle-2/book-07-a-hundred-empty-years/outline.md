@@ -103,6 +103,10 @@ ask the harder question: *does forgetting count if you could take it back?*
 - **Easy-Read note:** the reversible/irreversible distinction is the book's one
   concept; teach it entirely through crates, fires, and manifests. No terminology.
 
+- **Travel texture (tech-bible §8):** the crates ride the tether to orbit and
+  patient sails outward — a century's export moves at freight pace, and the
+  slowness is the point. Torch-light for the couriers; no drive is ever named.
+
 ## Continuity
 - **Timeline:** **~CR 300** (founded ~CR 200 by the Mercy's emigrant children; the
   events of Book 4 are ~120 years past). Contemporaneous with Book 6, different world.

@@ -1,0 +1,108 @@
+# =============================================================================
+# THE BELL-FRAME — canonical 3-D positions for every system in the gazetteer.
+# Source of truth for the accurate star chart (docs/_data/stars-named.yml plate
+# positions will be DERIVED from these once the projection is wired — Auros's
+# already-published plate pin at (760, 470) anchors the projection).
+#
+# Units: years of light. Origin: "the old zero" — inherited from the ancient mesh's
+# routing tables (see atlas.md, "what the frame quietly holds"). Time is separate:
+# the Toll, human zero (CR 0 = Toll 7,214).
+#
+# NO mesh / temporal-transmitter topology here — that layer is private (planning/)
+# until the node pass. Positions are astronomy; the mesh is story.
+#
+# Every position honors the distance rules (cosmology.md — Established specifics):
+#   - ships sublight always; colony crossings = years-to-decades (Reed->Sowen ~9 ly / ~20 yr)
+#   - dark/dead relay segments carry signal at light speed (Enara->Skerry: 23 ly
+#     line-of-sight, ~35 route-years by dogleg = the Signal's crawl, Books 02->03)
+#   - route-distances on the page are never straight lines
+# =============================================================================
+frame:
+  space:
+    unit: ly
+    origin: "the old zero (Hearth) — inherited, not chosen; see atlas guards"
+    plane: "z ~ 0 is the local galactic plane"
+  time:
+    unit: toll
+    zero: "the First Bell's first sounding (Gault)"
+    cr0_toll: 7214
+  galactic_context:
+    core_distance_ly: 26000
+    walked_pocket_ly: 130
+    settled_reach_ly: 2000
+    note: "the chart's milky band is the plane seen from inside it"
+  kinematics:   # the spiral evolution (ratified 2026-08) — model: scripts/gen-galaxy.rb
+    galaxy: "spiral, ours-like — two great arms + two minor, logarithmic, pitch ~12.5 deg"
+    rotation: "flat curve ~230 km/s; galactic year at the pocket ~213 My; arms are a pattern (omega_p 0.0256 rad/My) stars flow through"
+    shear: "bands 1,000 ly apart slip ~30 ly per My — arm-scale reshuffling is a 100-My-to-Gy affair"
+    anchor: { r_ly: 26000, phi_rad: 0.35, z_ly: -40 }   # Hearth, on the spur's shoulder of the Road
+    orientation: "bell x = direction of rotation (leading), y = outward from the core, z = galactic north"
+    comoving: >
+      the frame rides the pocket's stellar association — the family drifts together
+      (internal dispersion ~4.5 km/s, ~15 ly/My), which is why seven millennia of
+      route-tables stay valid; over the series' five centuries the map moves less
+      than a hundredth of a light-year
+    deep_time: >
+      run the model backward ~1 My and the association's internal drift unwinds:
+      the oldest works' spread tightens from ~10 ly rms to ~2 ly rms about the zero
+      (author-side check in gen-galaxy.rb; see atlas guards before using this)
+
+systems:
+  - { id: hearth,  world: "Hearth",  star: null,      x: 0,   y: 0,   z: 0,
+      books: [29, 30], note: "the old zero; the keeper's system; the dead address" }
+  - { id: enara,   world: "Enara",   star: "Auros",   x: 6,   y: 40,  z: -5,
+      books: [1, 2, 26, 28, 30], chart_pin: { x: 760, y: 470 },
+      note: "Orin, Valen, the mountain, the Gate; red companion Auros B (the Watcher)" }
+  - { id: skerry,  world: null,      star: "Beck",    x: -8,  y: 22,  z: 0,
+      books: [3], note: "beacon moonlet at the crossing; 23 ly to Enara, ~35 route-yr dark crawl" }
+  - { id: gault,   world: "Gault",   star: "Pike",    x: -32, y: 18,  z: 1,
+      books: [6, 8], note: "the First Bell; the guild's chapter-house world" }
+  - { id: hush,    world: "Hush",    star: "Murr",    x: -27, y: 30,  z: -6,
+      books: [11, 15], note: "the Listeners' motherhouse" }
+  - { id: cairn,   world: "Cairn",   star: "Nock",    x: -23, y: 15,  z: 16,
+      books: [19], note: "the Whole Record's site" }
+  - { id: carath,  world: "Carath",  star: "Voss",    x: -20, y: 10,  z: 4,
+      books: [9, 10], note: "hub of the re-routed mesh" }
+  - { id: reed,    world: "Reed",    star: "Karst",   x: -47, y: 24,  z: -1,
+      books: [4, 7, 20], note: "Meret, the river Sil, the Wells" }
+  - { id: sowen,   world: "Sowen",   star: "Harl",    x: -54, y: 29,  z: -3,
+      books: [7], note: "~9 ly from Reed; ~20-year colony crossing (the Mercy's children)" }
+  - { id: quay,    world: "Quay",    star: "Salt",    x: -41, y: 32,  z: 2,
+      books: [7], note: "the port between" }
+  - { id: scrive,  world: "Scrive",  star: "Blanch",  x: -49, y: 56,  z: 23,
+      books: [16], note: "the ceded territories" }
+  - { id: penna,   world: "Penna",   star: "Plume",   x: -36, y: 47,  z: -17,
+      books: [18], note: "the green blank" }
+  - { id: aulis,   world: "Aulis",   star: "Gloam",   x: -13, y: 65,  z: 13,
+      books: [12], note: "the Leaving; the Observer" }
+  - { id: marrow,  world: "Marrow",  star: "Grell",   x: -25, y: -7,  z: -10,
+      books: [8], note: "the Librarian's hollowed range" }
+  - { id: moss,    world: "Moss",    star: "Loam",    x: -3,  y: -15, z: -18,
+      books: [21, 22, 23, 24, 25], note: "the cold store; 24 ly from the zero" }
+  - { id: tolm,    world: "Tolm",    star: "Crook",   x: 12,  y: -34, z: 9,
+      books: [14], note: "the Shepherd's world" }
+  - { id: cinder,  world: null,      star: "Cinder",  x: 31,  y: 0,   z: -26,
+      books: [11], note: "the Cathedral of Engines; the broken ring is its world" }
+  - { id: lull,    world: null,      star: "Lull",    x: 19,  y: -22, z: 34,
+      books: [5, 27], note: "the unroaded system; the vault moonlet; high off the plane" }
+  - { id: vane,    world: "Vane",    star: null,      x: -58, y: 6,   z: 29,
+      books: [19], note: "pilot region" }
+  - { id: holt,    world: "Holt",    star: null,      x: -63, y: 9,   z: 26,
+      books: [19], note: "pilot region" }
+  - { id: mirren,  world: "Mirren",  star: null,      x: -60, y: 1,   z: 32,
+      books: [19], note: "pilot region" }
+  - { id: corvane, world: "Corvane", star: null,      x: -62, y: -34, z: -7,
+      books: [9, 17], note: "power; polity = home-system name" }
+  - { id: dresk,   world: "Dresk",   star: null,      x: -76, y: -46, z: -12,
+      books: [9, 17], note: "power; the beacon-graveyard frontier runs toward Corvane" }
+  - { id: selt,    world: null,      star: null,      x: -84, y: -27, z: -19,
+      books: [9], note: "the Selt's three settlements; past the frontier" }
+  - { id: aven,    world: "Aven",    star: null,      x: -70, y: -39, z: -2,
+      books: [9], note: "the severed system" }
+  - { id: fell,    world: "Fell",    star: "Lorn",    x: -93, y: -15, z: 15,
+      books: [8], note: "the long shelf's far end" }
+
+# The oldest works and their distance from the old zero (the quiet shell):
+#   Gate (Enara) 41 - Wells (Reed) 53 - vault (Lull) 45 - Carath's root 23 -
+#   Cathedral (Cinder) 40 - Shepherd (Tolm) 37 - substrate (Moss) 24
+# Never stated on any page. See atlas.md guards.
