@@ -37,27 +37,27 @@ atlas can agree. *(Ratified 2026-08, after thirty books built on it; `timeline.m
 
 | Book | When (CR, proposed) | System / locale | Walkable ground | Off-page places invoked |
 |------|--------------------:|-----------------|-----------------|-------------------------|
-| 01 The First Pilgrim | 0 | **The Orin system** *(star & world unnamed — naming debt)* | Orin, the mountain, the Gate | "Another sky" — Amarin's world *(physical place vs. memory-space: deliberately ambiguous)* |
+| 01 The First Pilgrim | 0 | **The Orin system** *(world **Alder**, star **Sarn** — gazetteer; unspoken on the page)* | Orin, the mountain, the Gate | "Another sky" — Amarin's world *(physical place vs. memory-space: deliberately ambiguous)* |
 | 02 The Archivist | ~25 | The Orin system | Orin, the road east, the waystation ruin, **Valen** | The **distant system that answers** (Ch 6); the **northern beacon** (epilogue) |
-| 03 The Lighthouse | ~60 | **The Skerry's post** — a beacon moonlet at a route-crossing *(its star unnamed — naming debt)* | The station itself | The **southern relay** (dark, then one flash); the routes of ten thousand crossings; the *Anthem*'s last position |
-| 04 The City That Forgave | ~180 | **Meret's system** *(star & world unnamed — naming debt)* | Meret, the river Sil, the bridge, the two Wells | The Bridge Night (~CR −120, on the same ground); the diaspora routes outward |
-| 05 The Last Witness | ~240 | **The unroaded system** *(unnamed by design — space was made to forget it)* | The vault moonlet | The **Choir's homeworld** (in carried memory only); the re-remembered roads |
-| 06 The Cartographer of Silence | ~300 | The **chapter-house system** (guild post) + **Farrow** *(frontier world; its star unnamed — naming debt)* | The chapter-house, Farrow's town and port | The silences on Veya's map — frontier worlds gone quiet, uncounted |
-| 07 A Hundred Empty Years | ~300 *(prologue ~200)* | **Sowen** *(one settled world; star unnamed — naming debt)* | The colony: bindery, depot, tether-port | Meret (the founders' city, one scene); the Librarian (as an address only) |
-| 08 The Last Librarian | ~301 *(epilogue years later)* | **The Librarian's site** — a hollowed mountain range of holdings *(its world unnamed — naming debt)* | The halls, the wings, the tea room | The **long shelf** — hundreds of small keepers across the reach, implied |
+| 03 The Lighthouse | ~60 | **The Skerry's post** — a beacon moonlet at a route-crossing *(star **Beck** — gazetteer)* | The station itself | The **southern relay** (dark, then one flash); the routes of ten thousand crossings; the *Anthem*'s last position |
+| 04 The City That Forgave | ~180 | **Meret's system** *(world **Reed**, star **Karst** — gazetteer)* | Meret, the river Sil, the bridge, the two Wells | The Bridge Night (~CR −120, on the same ground); the diaspora routes outward |
+| 05 The Last Witness | ~240 | **The unroaded system** *(roll-name **Lull** — gazetteer; on-page never, by design)* | The vault moonlet | The **Choir's homeworld** (in carried memory only); the re-remembered roads |
+| 06 The Cartographer of Silence | ~300 | The **chapter-house system** *(world **Gault**, star **Pike** — gazetteer)* + **Farrow** *(star **Torr** — gazetteer)* | The chapter-house, Farrow's town and port | The silences on Veya's map — frontier worlds gone quiet, uncounted |
+| 07 A Hundred Empty Years | ~300 *(prologue ~200)* | **Sowen** *(star **Harl** — gazetteer)* | The colony: bindery, depot, tether-port | Meret (the founders' city, one scene); the Librarian (as an address only) |
+| 08 The Last Librarian | ~301 *(epilogue years later)* | **The Librarian's site** — a hollowed mountain range of holdings *(world **Marrow**, star **Grell** — gazetteer)* | The halls, the wings, the tea room | The **long shelf** — hundreds of small keepers across the reach, implied |
 | 09 The Severed Reach | ~312 | The **Corvane–Dresk frontier**: the beacon graveyard, the blockade run, the **Selt system** | The auction yard, the tug, the relight site | The vacated placement (an empty sky going dark); the peace conference |
 | 10 Where the Names Go | ~318 *(prologue ~313)* | **Carath** — hub world of the re-routed mesh | The Hall of Rolls, the squares, the substructure beneath | The letters' origin: a relay three centuries dark *(D3 — Book 1's calling tower)* |
-| 11 The Cathedral of Engines | ~350 | **The Cathedral's system** — a broken Dyson ring around a dim star *(star unnamed — naming debt)* + the Listeners' **motherhouse** *(locale unnamed — debt)* | The ring's forges, the interview gallery, the motherhouse | The dead shipping address *(which accepted)* |
-| 12 The Ninth Observer | ~362 | **Aulis** — a settled world under a failing sun | Lowen's Rest, the Harrow valley terraces, the mountain slot | The diaspora berths; nine buried rises |
+| 11 The Cathedral of Engines | ~350 | **The Cathedral's system** — a broken Dyson ring around a dim star *(star **Cinder** — gazetteer)* + the Listeners' **motherhouse** *(world **Hush**, star **Murr** — gazetteer)* | The ring's forges, the interview gallery, the motherhouse | The dead shipping address *(which accepted)* |
+| 12 The Ninth Observer | ~362 | **Aulis** — a settled world under a failing sun *(star **Gloam** — gazetteer)* | Lowen's Rest, the Harrow valley terraces, the mountain slot | The diaspora berths; nine buried rises |
 | 13 The Inheritors | ~375 | The **Charter Run's three legs** (relay-dense core lanes) | The *Marigold*, deck to deck | The dim off-chart star *("where the shepherd stands" → Book 14)* |
-| 14 The God That Forgot | ~388 | **Tolm** — one god, one world *(star unnamed — debt)* | The temple, the terraces, Tavel's garden | Whatever set the Shepherd in place |
+| 14 The God That Forgot | ~388 | **Tolm** — one god, one world *(star **Crook** — gazetteer)* | The temple, the terraces, Tavel's garden | Whatever set the Shepherd in place |
 | 15 The Divided Ones | ~400 | The Listeners' **motherhouse** | The reading hall, the shelves (emptied, one full), the open-day benches | The scattered emphases; the mapping institute *(→ Cycle 4)* |
-| 16 The Unwritten | ~430 | The Unwritten's **ceded territories** *(unnamed by their own rite)* | The order's houses, the sanctuary site (blank), the institute's border post | The donated keeper-town's archive (a long-shelf holding); the bridge-deed's city, unvisited |
+| 16 The Unwritten | ~430 | The Unwritten's **ceded territories** *(world **Scrive**, star **Blanch** — gazetteer; unnamed on the page by the order's own rite)* | The order's houses, the sanctuary site (blank), the institute's border post | The donated keeper-town's archive (a long-shelf holding); the bridge-deed's city, unvisited |
 | 17 The Memory War | ~438 | The **Corvane–Dresk front** (second war) | The targeting floors, the strike zones, the Accords table | The unmade rally-names; several passes nobody can remember mattering |
-| 18 The Cartographers of the End | ~445 | The **institute** + **Penna**, the green blank | The committee room, the overlay wall, Penna's orchards and the house | The dedication page's lost regions; the almanac's shrinking count |
-| 19 The One Who Remembers Everything | ~452 | The **Record's site** + the **pilot region** (three systems) | The lattice halls, the handler's wing, the hearing room | The collected annex *(where it went: untouched → C5)* |
+| 18 The Cartographers of the End | ~445 | The **institute** + **Penna**, the green blank *(star **Plume** — gazetteer)* | The committee room, the overlay wall, Penna's orchards and the house | The dedication page's lost regions; the almanac's shrinking count |
+| 19 The One Who Remembers Everything | ~452 | The **Record's site** *(world **Cairn**, star **Nock**)* + the **pilot region** *(systems **Vane**, **Holt**, **Mirren** — gazetteer)* | The lattice halls, the handler's wing, the hearing room | The collected annex *(where it went: untouched → C5)* |
 | 20 The Falling Node | ~460 | **Meret** — the node's fall | The Wells (cooling → fallen), the unopened room, the bridge | The keeper's keeper, witnessed; the casket, taken sealed |
-| 21 The Golden Age That Wasn't | ~470 | **Moss** — an ordinary green world over an extraordinary grave | The dig, the shaft, the walked bright city *(never named — its name did not survive)* | The first rise, under everyone's feet |
+| 21 The Golden Age That Wasn't | ~470 | **Moss** — an ordinary green world over an extraordinary grave *(star **Loam** — gazetteer)* | The dig, the shaft, the walked bright city *(never named — its name did not survive)* | The first rise, under everyone's feet |
 | 22 Before the First Word | ~474 | The store under Moss — the **deep horizon** | The frame camp; the walked era of the first minds | Who the first minds were *(walked, veiled)* |
 | 23 The Makers' Grief | ~477 | The store — the **fused stratum** | The walked golden-age household; the walked pouring | The curator who filed two griefs together |
 | 24 The Name of the Dark | ~481 | The store — the **dark strata** | The walked instrument hall; the mark's chamber | What the mark's shape refuses to word |
@@ -66,7 +66,7 @@ atlas can agree. *(Ratified 2026-08, after thirty books built on it; `timeline.m
 | 27 The Last Archive | ~490 | The **unroaded system** — the vault's end | The vault, the threshold's mark, the carriage fleet | Where the Witness and the uncarried went *(kept)* |
 | 28 The Unmaking | ~491 | **Orin — the Scouring** | The festival, the Hall, the mountain (going cold), Mara's line's kitchen | The Gate's nature, glimpsed only in its loss |
 | 29 What the Stars Remember | ~491 | The reach (the **great wearing**) + the road to the **threshold** | Forty worlds' rites, one season; the dead address in person | Past the door |
-| 30 The Memory of Stars | ~492 | The **house of the keeper** + Orin (the kitchen) | The keeper's rooms, the deepest room (door closed by choice), the kitchen | Beneath another sky *(⚑ answers at last — or stays a promise)* |
+| 30 The Memory of Stars | ~492 | The **house of the keeper** *(system **Hearth** — gazetteer; on-page only ever the threshold)* + Orin (the kitchen) | The keeper's rooms, the deepest room (door closed by choice), the kitchen | Beneath another sky *(⚑ answers at last — or stays a promise)* |
 
 **Census after the Cycle 6 outlines — the last count:** almost no new rooms, by
 charter: the cycle returns to lit ones (Valen, the vault, Orin, the roads) and adds
@@ -180,29 +180,62 @@ plural by nature: a carriage and a warding, never a flagship.)*
 | **The SAEL plaque** *(updated)* | 01 → 28 | Taken in the Scouring, ~CR 491. **The name held** — carried in mouths since Book 2 made it a case; plural past any collector's reach. |
 | **The Gate** *(updated)* | 01 → 28 | Fell silent in the Scouring, ~CR 491; the mountain's substructure collected; its nature glimpsed only in the moment of loss — enlarged, never explained. The town stays. |
 
-## Naming debts (things that exist but have no name yet)
+## Gazetteer — every star and world, named (doctrine ratified 2026-08)
 
-- [ ] The Orin world and its star *(Books 01–02 walk it; nobody has named it)*
-- [ ] Meret's world and its star
-- [ ] The Skerry's star / locale designation
-- [ ] Book 05's expedition ship
-- [ ] Farrow's star; Sowen's star; Carath's star; the Librarian's world
-- [ ] The Cathedral's star; Tolm's star; Aulis's failing sun; the Listeners' motherhouse locale
-- [ ] Penna's star; the Record's site; the pilot region's three systems
-- [ ] Moss's star
+> **The rule:** every world and star the series touches has a name in this registry,
+> even when no page speaks it. Worlds carry **settler names** — short, homely, often
+> plain words (Moss, Farrow); stars carry **roll-names** — one hard syllable, coined
+> by navigators, because a star is a thing you steer by, not a thing you live on.
+> The page still withholds a name wherever the story wants silence; the registry
+> holds it anyway. An unspoken name is not a debt now — it is a reserve.
 
-**Additions to the deliberately-never-paid list (weight-of-names doctrine):**
+| World / system | Star (roll-name) | Books | Registry note |
+|---|---|---|---|
+| **Alder** — the Orin world | **Sarn** | 01, 02, 26, 28, 30 | Orin, Valen, the mountain, the Gate. The page has never needed the world's name; it survives in the Hall's oldest roll. *(The Alba/Alder near-rhyme is deliberate — the finale comes home to it.)* |
+| **Reed** — Meret's world | **Karst** | 04, 07, 20 | The river Sil crosses it; Meret is its city. Limestone country under a river town. |
+| The Skerry *(moonlet, already named)* | **Beck** | 03 | The route-crossing's star; a beck is a stream — ten thousand crossings ford it. |
+| **Lull** — the unroaded system | *(system roll-name)* | 05, 27 | The name the routes lost when space was made to forget it. **On-page: never** — the forgetting is the point; the registry remembers so the series doesn't have to. |
+| Farrow *(named)* | **Torr** | 06 | Frontier world under a bare tor of a star. |
+| Sowen *(named)* | **Harl** | 07 | — |
+| **Marrow** — the Librarian's world | **Grell** | 08 | A hollowed mountain range of holdings: the bones of the world, filled with paper. |
+| **Gault** — the chapter-house world | **Pike** | 06, 08 | Guild ground; clay country under a waymark star. |
+| **Quay** — the port world | **Salt** | 07 *(epilogue)* | One scene; a world that is mostly its harbor. |
+| **Fell** — the schoolhouse world | **Lorn** | 08 *(epilogue)* | The long shelf's far end; upland, one absurdly fine treasure. |
+| **Aven** — the severed system | *(system roll-name)* | 09 | Dropped out of the audible sky mid-transmission. The name outlives the listening. |
+| The Selt system *(named for its people)* | — | 09 | Their own plural self-name stays off the page, as ever. |
+| Carath *(named)* | **Voss** | 10 | — |
+| **Cinder** — the Cathedral's star | *(the ring is its world)* | 11 | A dim star inside a broken ring; the name is a navigator's plain verdict. |
+| Aulis *(named)* | **Gloam** | 12 | The failing sun, named by the people leaving under it. |
+| Tolm *(named)* | **Crook** | 14 | The Shepherd's star: a crook above the flock. |
+| **Hush** — the motherhouse world | **Murr** | 11, 15 | The Listeners' ground: Hush under Murr — quiet under murmur. |
+| Corvane · Dresk | *(polity = home-system name)* | 09, 17 | Both powers named their systems after themselves; the registry follows. |
+| **Scrive** — the ceded territories' world | **Blanch** | 16 | The order unwrote the world's own name; it meant *to write*. The registry keeps the irony they refused. |
+| Penna *(named)* | **Plume** | 18 | Feather and pen; the green blank keeps its name only in the ledger. |
+| **Cairn** — the Record's site | **Nock** | 19 | A made place: stones piled to remember. |
+| **Vane · Holt · Mirren** — the pilot region | *(three systems)* | 19 | The three that referenced everything to the Record; their annex the largest single loss in the series. |
+| Moss *(named)* | **Loam** | 21–25 | Moss under Loam: the garden over the grave. |
+| **Hearth** — the keeper's system | *(system roll-name)* | 29, 30 | The dead address's sky. On-page it stays "the threshold" — but the last house in the series always had the oldest name for home. |
+
+**Still unnamed, by design (doctrine, not debt):**
+- The land beyond the Gate / "another sky" (01, 30) — physical place vs. memory-space
+  stays deliberately ambiguous; naming it would answer an intentionally-undefined question.
+- The Choir's homeworld (05) — a species that kept no single name for itself keeps
+  none for home.
 - The bright city (21) — its name did not survive, and the series refuses to invent one.
-- The first minds, the builder, the mother, and the one who stayed (22–23) — walked, witnessed, never named.
-- The dark itself (24) — named only as shape, forever so far.
+
+**Remaining true debts (non-planetary):**
+- [ ] Book 05's expedition ship (before drafting)
 - [ ] The dating system, in-world (per-culture; CR is authorial only)
 
 **Deliberately never paid (weight-of-names doctrine — mark, don't fill):**
 - The Selt's own name for themselves — plural, untranslated, kept off the page (09).
 - The Librarian's name — the first thing it deleted (08).
-- The unroaded system (05) and the walked worlds of Cycle 1 — unnamed by design.
 - The Wright's makers (11) and the Shepherd's true designation (14) — never recovered.
 - "The divided ones" (15) — a description, not a name; the makers are given none.
+- The first minds, the builder, the mother, and the one who stayed (22–23) — walked, witnessed, never named.
+- The dark itself (24) — named only as shape, forever so far.
+- The Record's smaller name (19) — spoken once on the page, written nowhere, including here.
+- The keeper's keeper — role-named only, first to last.
 
 ## Upkeep
 
