@@ -31,7 +31,7 @@ In-world cultures keep **local calendars** (Law 1: isolation breeds diversity �
 universal calendar would flatten it). For *authoring*, the series uses a neutral
 coordinate: **CR (Cycle Reference)**, with **CR 0 = the Pilgrimage of Lyra Ash**
 (Book 01's main events). CR never appears on the page; it exists so synopses and this
-atlas can agree. *(Proposed — confirm or replace; `timeline.md` carries the placements.)*
+atlas can agree. *(Ratified 2026-08, after thirty books built on it; `timeline.md` carries the placements.)*
 
 ## Where & when, per book
 
@@ -70,10 +70,9 @@ atlas can agree. *(Proposed — confirm or replace; `timeline.md` carries the pl
 
 **Census after the Cycle 6 outlines — the last count:** almost no new rooms, by
 charter: the cycle returns to lit ones (Valen, the vault, Orin, the roads) and adds
-exactly two — the **threshold** and the **house of the keeper** — plus the last new
-place the series shows, which is small, and home: a kitchen in Orin. The atlas's
-work is done: thirty books, ~21 systems walked, thousands implied, and the map's
-final entry is a room with bread in it.
+exactly two — the **threshold** and the **house of the keeper** — and ends where it
+began: a kitchen in Orin. The atlas's work is done: thirty books, ~21 systems
+walked, thousands implied, and the map's final entry is a room with bread in it.
 
 **Census after the Cycle 5 outlines — history, not breadth:** one new system (Moss);
 the rest of the cycle's ground is *layers under known space* — the walked past
@@ -119,7 +118,7 @@ still a handful, in an enormous dark house.
 | **The Shepherd** | Caretaker mind (god of Tolm) | 14 | Set to protect against [unfinished]; tends past remembering why. Now plural-kept by its own flock. |
 | **The Whole Record** | Engineered mind (the coalition's) | 19 | Built complete; audited; holed by its own handler and passed over. Survives plural-inside. Its smaller name written nowhere. |
 | **The Wells of Meret** *(updated)* | Ancient infrastructure — **fallen** | 04 → 20 | Cooled and collected ~CR 460; the city survives relay-held. The casket went with them, sealed. |
-| *The suspected whole* | — | 02 → | Gate, Hall, Lens, beacons, Wells, vault — and now Carath's root — may be limbs of **one network**. Open mystery; never confirmed on the page. |
+| *The suspected whole* | — | 02 → | Gate, Hall, Lens, beacons, Wells, vault, Carath's root: limbs of **one network** — confirmed in substance by the dissolution (B23: the makers became the substrate) and on the page at the Scouring (B28: "a limb of its own network"); whether every named structure is one *system* stays unmapped. |
 
 **Count: 9 named structures (+1 suspected whole).**
 
@@ -153,7 +152,7 @@ meaningful act — the Anthem and the Marigold earned it; battleships don't.)*
 | Renn's *Observations* notebook | 02 | The first artifact of the new method. |
 | The sealed casket of Meret | 04 | The Mercy's one unread copy; circle-crossed-line on the seal. |
 | The *Anthem* fragments | 03 → 04 | Distributed memory of a lost ship; one an heirloom in Meret. |
-| **The circle crossed by a single line** | 01 → | Road markers (02), waystation (02), beacon seal (03), Well copings (04), vault threshold (05 — *older than the Choir*), Carath's substructure (10), the temple's oldest stone on Tolm (14). Rationed: deliberately absent from 06–09, 11–13, and 15. Never explained. |
+| **The circle crossed by a single line** | 01 → 30 | Road markers (02), waystation (02), beacon seal (03), Well copings (04), vault threshold (05 — *older than the Choir*), Carath's substructure (10), the temple stone on Tolm (14), the mark's chamber (24 — **meaning read:** the kept-whole and the cut, warning and instruction in one figure), schoolhouse walls (25), the Convening door — uncovered, not new (26), the vault threshold again (27), the keeper's door (29). Rationed: deliberately absent from 06–09, 11–13, 15–23, 28, 30. **Authorship of every instance: never explained.** |
 | **The river lullaby** | 04 → 05 | Sung whole (04 Ch 1); a verse lost to the Mercy (04 Ch 8, reader-only); heard whole in the vault (05 Ch 8 — the eucatastrophe). The series' mutating song; canonical text written at Book 4's drafting. |
 | **The patient mail (the letters from tomorrow)** | 06 → 10 | Raised (06), echoed (07: the century-dated envelope; 08: "not yet due"), resolved (10: the watchers — senders unidentified). Cycle 2's spine artifact. |
 | **The guild almanac** | 06 → | The census ticker, diegetic: *11,406 worlds answering*. Never decrements in Cycle 2. |

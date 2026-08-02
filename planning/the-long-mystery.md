@@ -110,6 +110,10 @@ across the plural, mutual web.** They don't defeat the Custodian; they retire it
 just steward* (it triages coldly because storage genuinely is finite, and it might be
 **right** — you argue with a god who isn't wrong). Likely a **flicker of lucidity inside the
 senility**, so it can be reached. **Not** *no-mind* (that leaves Cycle 6 nothing to face).
+**Dial CLOSED by the C6 outlines (2026-08):** failing, with a flicker of lucidity —
+B30 Ch 2's "setting something down halfway" is the flicker, rendered rather than
+argued; the mercy-horror stays held, so "coldly right" survives as a possibility
+nobody voices.
 
 ---
 
@@ -150,7 +154,7 @@ question it draws down, if any).
 | 3 | **Who built** the network — partially: the builders were plural, afraid, and divided themselves; identity stays veiled | the "gods," consciousness-after-death |
 | 4 | The Erasure's **nature** (garbage collection; the Custodian glimpsed) | *why* storage is finite; where collected memories go |
 | 5 | **What happened before recorded history** — the golden age, the first defense, the builders' dissolution; plus the C4-deferred half-answer: *some* collected memory went to cold storage | the Erasure's root cause (named only as shape); the rest of "where the collected go"; what collected memories *become* (C6's forever-candidate) |
-| 6 | Resolution of the whole — and **one mystery kept forever** (choose late; current lean: what collected memories become) | — |
+| 6 | Resolution of the whole — and **one mystery kept forever: what collected memories become** (CONFIRMED FINAL 2026-08; enacted on the page, B30 Ch 5 — they do not ask) | — |
 
 ### Cycle 1 — *Fragments of the First Memory* *(charter retro-fitted; books outlined)*
 - **Local spine (as grown):** Lyra → Kieran (the Ash line) → the Signal/flash → the
@@ -445,7 +449,7 @@ question it draws down, if any).
   Regency and Chancellor Bode (the single-steward faction; the Mule's argument
   matured into politics; ⚑ author call at B30: Bode signs-last vs. dissent-filed
   — house recommends the dissent).
-- **The committee:** Gale (wayfinder, B26 POV) · Emlin (listener, B27) · Idra
+- **The committee:** Gale (wayfinder, B26 POV) · Ketra (listener, B27) · Idra
   (cartographer, B28) · Zel (carrier, B29) · Alba (restorer, B30 — Amel's
   student). Elders cameo one scene each (Isla, Yent, Ondine); no repeat POVs —
   the 30-book streak holds.
@@ -461,6 +465,38 @@ question it draws down, if any).
   30 founding 3×3, closing the series in its first shape). Ch-1 openings varied
   per the mandate (26 mid-route; 28 opens in festival stillness, not
   taught-in-work); wonder beats tagged in-table in all five.
+- **Final thirty-book review applied (2026-08):** the frictionless relief priced
+  (B30: a strand slips in the braiding; one world's wearing falters in Ch 6; the
+  keeper's last spike collects the Witness's deposition mid-transfer — it
+  survives only in what Ketra can say aloud); the door-rule kept singular (Bode
+  admitted as part of the committee's plural — *"Bode, and those who brought
+  him"* — his fleet's stand-down staged as 29 Ch 9's event); the returned crate
+  carried by Ketra from the motherhouse as the committee's credential (27
+  epilogue → 30 prologue); the temptation staged (Ketra nearly asks; the refusal
+  bound to the mechanism); B30's Writer's Test reframed (truth taught by act);
+  the 26↔28 armor logic welded (compliance-vs-practice — the collected roll worn
+  *by record*; "mostly" kept alive); the one-who-stayed epithet returned to Book
+  5's carried witness (B27 rhymes the shape, never the quote); the Wright's
+  question threaded in-cycle (the Witness heard the keeper of keepers ask it —
+  B27 Ch 5 → B30 Ch 2); Orin's blank watch-roll column (28 prologue → 29 Ch 2's
+  exit image: Orin signs); the mark *uncovered*, not chalked (26 epilogue);
+  Zel's carried-consent scene (29 Ch 8); the two ⚑ calls RESOLVED per unanimous
+  review (the dissent; the far sky), flippable until draft. Rename: Emlin→Ketra.
+  CR frame ratified in both shared docs.
+- **Kept, formally:** the curator's fingerprints — deliberately untouched in C6;
+  kept alongside the mercy-horror and the root (the keeper's house lets the
+  reader close the circle unaided; answering would spend what B30 Ch 5 refuses).
+  The Marigold line's earlier-rise descent (C3's hidden answer) — **never paid;
+  kept** (no later cycle exists; it stops dangling here).
+- **Owed at drafting (final additions):** extend the atlas mark-trail through
+  the C5–C6 instances as they draft (24 chamber · 25 schoolhouses · 26 the
+  Convening door · 27 threshold · 29 the door); glossary annotations at their
+  drafts (SAEL taken/name held · the farewell identified · the Gate silent); a
+  ⚑-resolution sweep at B30's drafting if the author confirms or flips; the
+  suspected-whole atlas row cites B28's "first limb of the network" at its
+  draft; B27's referral idiom rendered as what the Witness *heard*, never as
+  bookkeeping it never saw; the audio pipeline notes (Isla EYE-la; Zel/Sael and
+  Gale/Gate proximity watch; Bode pronunciation).
 - **The Scouring beat (owed — Tolkien's lesson):** before the ending, the Erasure touches
   **Orin itself** — the protected first place is not exempt. The reader who loved Book 1
   must feel the stakes come home before the resolution earns its grace.
@@ -538,7 +574,7 @@ discovered prose. (This maps directly onto the existing skill pipeline: `outline
    | 3 | 13 The Inheritors | **FIRM** (confirmed at charter, 2026-08) | shipboard adventure — a crew that is its own ancestry; opens cold per house custom |
    | 4 | 17 The Memory War | **FIRM** (confirmed at charter, 2026-08) | war-thriller propulsion (contrast enough in the dark cycle); opens cold per house custom |
    | 5 | 21 The Golden Age That Wasn't | **FIRM** (confirmed at charter, 2026-08) | explorer's adventure — the joy of discovery before the grief of it; opens cold per house custom |
-   | 6 | 26 The Gathering | pencil | reunion warmth — the pleasure of threads meeting |
+   | 6 | 26 The Gathering | **FIRM** (confirmed at charter, 2026-08) | reunion warmth — the pleasure of threads meeting; opens cold per house custom |
 4. **Reveal-must-enlarge** *(Expanse's discipline, mechanized).* Any mechanism revealed
    must **enlarge a mystery in the same book** — no scene may close a question without
    opening a larger one. This is the checkable form of "texture, not lecture," and the
@@ -548,7 +584,7 @@ discovered prose. (This maps directly onto the existing skill pipeline: `outline
    readers watch the number for twenty books before Cycle 4 makes it run backward.
 6. **The artifact as front door** *(Hyperion's frame-tale, serialized).* Each cycle's
    spine artifact (C2 the letters · C3 the dossier · C4 the ledger · C5 the testament ·
-   C6 the gathering's charge) doubles as the **recap and boarding point** for new
+   C6 the watch-roll) doubles as the **recap and boarding point** for new
    readers. Write each artifact so it can be read first.
 7. **The Mule slot** *(Foundation's lesson, with Dune's treatment).* **Book 19** is the
    series' pattern-breaking singularity — and it must be **sympathetic and

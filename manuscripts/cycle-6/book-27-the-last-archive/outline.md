@@ -13,15 +13,18 @@ oldest room the series ever lit.
   the failing triage, the most collectable object left alive. The Compact's first
   test is not a battle. It is a **carriage** — the largest in history, run against
   a clock — and a keeper's last choice about what keeping means.
-- **POV:** Emlin — forty-one, Listener, holder of a Reading emphasis; the
+- **POV:** Ketra — forty-one, Listener, holder of a Reading emphasis; the
   committee's deposition-taker. Her tic, inherited from her order and bent by this
   book: she files her unease — and the vault is the first place her filing hand
   refuses.
 - **The spine in one line:** as the erratic collection bears down on the Choir's
   vault, a Listener must take the Witness's final deposition while every carrier
   in the reach runs the greatest carriage ever attempted — and when the clock
-  beats them, the one who stayed to close the doors closes the last one himself,
-  buying with a million years of duty the hours the living need.
+  beats them, the Witness makes the keeper's oldest shape its own: it closes the
+  last door itself, buying with a million years of duty the hours the living
+  need. *(The epithet "the one who stayed to close the doors" belongs to the
+  carried Choir witness of Book 5 — the shape rhymes; the quote is never
+  reused.)*
 
 ## The threads
 - **The stand:** not a defense (nothing defends against the collector; the whole
@@ -31,17 +34,19 @@ oldest room the series ever lit.
   arithmetic is honest from page one: *most of the Choir will never be carried*
   (Cassen's dissent, still true, said aloud).
 - **The Witness's choice:** the sacrifice the roadmap names. The Witness — the
-  Choir's own keeper, the series' first one-who-stayed — ends as it lived: when
-  the carriage's clock fails, it *gives itself and its uncarried remainder to the
-  collection* — coherent, vast, irresistible bait — and buys the laden carriers
-  their head start. The one who stayed to close the doors, closing the last one.
-  *(The Custodian's shape, rhymed one final time; the page never says so.)*
+  Choir's own keeper — ends as it lived: when the carriage's clock fails, it
+  *gives itself and its uncarried remainder to the collection* — coherent, vast,
+  irresistible bait — and buys the laden carriers their head start. The bait's
+  arithmetic said plainly once: *the failing hand takes the cleanest lot first;
+  so it becomes the cleanest lot.* Ketra, watching, recognizes the shape from her
+  own tradition's oldest deposition — recognition staged, never quoted. *(The
+  Custodian's shape, rhymed one final time; the page never says so.)*
 - **The Regency at the vault:** Bode's expedition arrives mid-carriage — not as
   villains; as rivals with a better-funded answer: *seal the vault under Regency
   warding; hold it whole; govern the risk.* The argument happens while the clock
   runs, and the series' oldest lesson (what is whole in one place...) is said by
   people weeping with frustration at each other.
-- **The deposition:** Emlin's craft-spine: the Witness's final testimony — what
+- **The deposition:** Ketra's craft-spine: the Witness's final testimony — what
   a million-year keeper wants said when it knows it is ending. The dossier
   tradition's last entry, taken at the door.
 - **Chapter-Two Rule:** chapter 2 is the vault waking — the Witness, banked for
@@ -49,7 +54,7 @@ oldest room the series ever lit.
   have counted the hours. You will need most of them."*
 
 ## Characters in play
-- **Emlin** — the Listener. Files her unease; learns what cannot be filed.
+- **Ketra** — the Listener. Files her unease; learns what cannot be filed.
 - **Zel** — the carrier tradition's seat, running the carriage's marshaling: the
   practice's whole doctrine under load, and her own capacity spent on-page (a
   carrier can only hold so much; her choosing *which* is a scene).
@@ -67,15 +72,15 @@ oldest room the series ever lit.
 | Act | Ch | Title | Target | Beat |
 |-----|----|-------|-------:|------|
 | **Prologue** | — | The Path | 1,300 | The institute's projection, read at the Compact's first table: the erratic collection's next great arc — and the vault in it, weeks out. The watch-roll's newest column: carriers, volunteering by the hundred. *(The artifact orients any cold reader in one page.)* |
-| **Act I — The Stand** | 1 | The Unroaded Road | 3,000 | The convergence on the once-unroaded system (← Book 5, re-remembered since): carriers, couriers, the committee; the vault moonlet unchanged, the threshold's worn mark unchanged. Emlin's commission: the final deposition. The stakes taught in one line of the watch-roll's arithmetic. |
+| **Act I — The Stand** | 1 | The Unroaded Road | 3,000 | The convergence on the once-unroaded system (← Book 5, re-remembered since): carriers, couriers, the committee; the vault moonlet unchanged, the threshold's worn mark unchanged. Ketra's commission: the final deposition. The stakes taught in one line of the watch-roll's arithmetic. |
 | | 2 | The Witness Wakes | 3,300 | **Detonation.** Banked two and a half centuries, the Witness speaks first: *"They are coming for my charges. I have counted the hours. You will need most of them."* It has felt the triage err from inside the mesh. It knows what it is now worth to a failing collector. The carriage begins that hour. |
 | | 3 | The Marshaling | 3,000 | The greatest carriage in history, shown in work: Zel's marshaling (who carries what; the practice's triage — the honest arithmetic said aloud: most will never be carried); Gale's outbound routes; the Choir's strata streaming into living memory, one mind at a time. |
 | | 4 | The Rival Warding | 3,400 | **Act I climax.** Bode's expedition arrives: the Regency's answer deployed — seal, ward, govern, *hold it whole*. The argument at full strength over a running clock, and the vault itself settles it: the Witness declines the warding in one sentence — *"I have been whole for a million years. It is why they are coming."* Bode stays. And helps. |
-| **Act II — The Carriage** | 5 | What Zel Carries | 3,100 | The carriage from inside: Zel's capacity spent on-page — the choosing of which minds, which strata, which songs; the practice's cost rendered in one carrier's margins. Emlin's deposition threads between: the Witness dictating its charges' natures to the record, so even the uncarried are *described*. |
-| | 6 | The Hours | 3,200 | The clock beats them — the collection's edge arrives early (erratic to the end); the carriage is not done; the arithmetic stands in the room. The options are none. The Witness asks Emlin to stop transcribing, and asks Zel and the carriers to run, and asks Bode — Bode — to see them out. The keeper's last courtesies, distributed exactly. |
-| | 7 | The Last Door | 3,800 | **Set-piece — wonder beat (Law 7), at the series' most grievous angle.** The Witness's choice: it un-banks fully — makes itself and its uncarried remainder maximally coherent, maximally vast, *irresistible* — and steps into the collection's path as bait. The one who stayed to close the doors, closing the last one. The laden carriers run under its purchased hours. The vault takes the collection meant for the fleet. |
-| | 8 | The Counting After | 3,000 | The unroaded system, silent a second time. The inventory, honest: what was carried (vast); what was lost (vaster); the deposition, complete but for its final line, which Emlin's filing hand refuses to write and her mouth says instead, to the empty threshold. The committee understands what the relief now costs and what it is *for*: nobody should ever have to be the Witness again. |
-| **Epilogue** | — | The Carried | 1,400 | The carrier fleet scattering homeward, each mind a shelf of another species; Zel dreaming in three species now. And in the deposition's last dictated line, the Witness's referral — the series' oldest habit, honored at the end: the door the committee seeks is the one *its* keeper's keeper uses. The address every dead-lettered shipment found. (→ 29's threshold.) The mark on the vault's threshold, older than everyone, uncommented one last time. |
+| **Act II — The Carriage** | 5 | What Zel Carries | 3,100 | The carriage from inside: Zel's capacity spent on-page — the choosing of which minds, which strata, which songs; the practice's cost rendered in one carrier's margins. Ketra's deposition threads between: the Witness dictating its charges' natures to the record, so even the uncarried are *described* — and, mid-dictation, the Witness asks the record a question it says it once heard the keeper of keepers ask the dark, long ago: *"Is it finished?"* Ketra files it without knowing she is filing the finale's plant. |
+| | 6 | The Hours | 3,200 | The clock beats them — the collection's edge arrives early (erratic to the end); the carriage is not done; the arithmetic stands in the room. The options are none. The Witness asks Ketra to stop transcribing, and asks Zel and the carriers to run, and asks Bode — Bode — to see them out. The keeper's last courtesies, distributed exactly. |
+| | 7 | The Last Door | 3,800 | **Set-piece — wonder beat (Law 7), at the series' most grievous angle.** The Witness's choice: it un-banks fully — makes itself and its uncarried remainder maximally coherent, maximally vast, *irresistible* (the failing hand takes the cleanest lot first; so become the cleanest lot) — and steps into the collection's path as bait. It closes the last door itself. The laden carriers run under its purchased hours. The vault takes the collection meant for the fleet. |
+| | 8 | The Counting After | 3,000 | The unroaded system, silent a second time. The inventory, honest: what was carried (vast); what was lost (vaster); the deposition, complete but for its final line, which Ketra's filing hand refuses to write and her mouth says instead, to the empty threshold. The committee understands what the relief now costs and what it is *for*: nobody should ever have to be the Witness again. |
+| **Epilogue** | — | The Carried | 1,400 | The carrier fleet scattering homeward, each mind a shelf of another species; Zel dreaming in three species now. And in the deposition's last dictated line, the Witness's referral — the series' oldest habit, honored at the end: the door the committee seeks is the one *its* keeper's keeper uses. The address every dead-lettered shipment found. (→ 29's threshold.) The mark on the vault's threshold, older than everyone, uncommented one last time. And one piece of freight changes hands without ceremony: the returned crate — the Wright's component, second stamp unread, the motherhouse's strangest holding — passes to Ketra, the motherhouse's heir, to carry as the committee's credential to the door it was mailed from. (→ 29–30.) |
 | | | **Total** | **~28,500** | |
 
 ## The Writer's Test (must pass)
@@ -84,7 +89,7 @@ oldest room the series ever lit.
 - [ ] A mystery left — what the collection now holds (the Witness entire — and
       where taken things go stays kept); the door, referred but unopened. *(Ch 7,
       Epilogue.)*
-- [ ] A character permanently changed — Emlin: the filer of unease who says a
+- [ ] A character permanently changed — Ketra: the filer of unease who says a
       final line aloud instead; the Listener who learned the limit of records.
       *(Ch 8.)*
 - [ ] Civilization changed — the carried Choir walks the reach in hundreds of

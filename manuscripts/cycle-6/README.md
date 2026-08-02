@@ -9,7 +9,8 @@ forgets.
 This cycle alone runs **serial momentum** — Books 26–30 as one continuous movement,
 the deliberate exception to the series' no-continuations rule. Each book still
 stands behind one POV with a complete arc; the **watch-roll** (a count that goes
-*up* — the final cycle's artifact) does the orienting on every first page. The cast
+*up* — the final cycle's artifact) does the orienting on every first page from
+Book 27 on — Book 26 is its origin. The cast
 is the **committee of traditions**: a courier, a carrier, a listener, a
 cartographer, a restorer — five seats, no chosen one, each indispensable, none
 sufficient.

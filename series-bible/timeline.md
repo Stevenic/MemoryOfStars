@@ -6,7 +6,7 @@ slot into this chronology without contradiction. Companion: [`atlas.md`](atlas.m
 
 > **Dating system:** in-world cultures keep local calendars (Law 1 — no universal
 > calendar). Authoring uses the neutral **CR (Cycle Reference)** frame: **CR 0 = the
-> Pilgrimage of Lyra Ash** (Book 01). CR never appears on the page. *(Proposed —
+> Pilgrimage of Lyra Ash** (Book 01). CR never appears on the page. *(Ratified 2026-08 —
 > confirm or replace.)*
 
 ## Ages / eras

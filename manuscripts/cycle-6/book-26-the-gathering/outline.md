@@ -21,7 +21,10 @@ cycle opens mid-route, already carrying mail.
 - **POV:** Gale — thirty-three, a Wayfinders' Guild route-holder of the old school:
   the courier entrusted with carrying the Convening summons across the reach. Her
   tic, and it is the book's engine: she has never once failed to deliver — and
-  this route's manifest keeps growing as she rides.
+  this route's manifest keeps growing as she rides. **Voice note (the romp lives
+  here):** Gale's register is courier's wit — complaint-as-love, dry marginalia
+  in the manifest, the professional's running commentary on everyone's luggage.
+  Draft her funny or the cycle's one bright book isn't.
 - **The spine in one line:** a courier carrying the summons to the last convening
   gathers, road by road, the five traditions and their descendants — racing a
   rival convention that answers the same crisis with one throne — while the news
@@ -60,7 +63,7 @@ cycle opens mid-route, already carrying mail.
   when the delivery is *everyone*.
 - **Zel** — a carrier of Odri's practice, first passenger: dreams in two species,
   speaks for the carried. *(POV of Book 29.)*
-- **Emlin** — a Listener, holder of a Reading emphasis. *(POV of Book 27.)*
+- **Ketra** — a Listener, holder of a Reading emphasis. *(POV of Book 27.)*
 - **Idra** — a Cartographer, keeper of the corrected preface. *(POV of Book 28.)*
 - **Alba** — a Restorer, Amel's student, keeper of a Testament hole. *(POV of
   Book 30.)*
@@ -69,23 +72,23 @@ cycle opens mid-route, already carrying mail.
   the way the series' best opponents are wrong — by one clause.
 - **The elders** — cameo lattice, one scene each, never a reunion tour: Isla Ash
   (gray, claimless, amused), Advocate Yent (retired, unretained, helpful at
-  last), Provost-Surveyor Ondine (the first to sign the watch-roll).
+  last), Ondine — provost no longer (← Book 25) — the first to sign the watch-roll.
 
 ## Chapter structure
 
 | Mv | Ch | Title | Target | Beat |
 |----|----|-------|-------:|------|
 | **I — The Summons** | 1 | The Manifest | 2,900 | **Cold open.** Gale mid-route with sealed mail and no idea she is carrying the series' last act: the summons, addressed plural (five traditions, every surviving institution). Guild texture at full warmth; the manifest's first name boards at the first stop. |
-| | 2 | The Reason | 3,100 | **Detonation.** The summons unsealed at a relay-house, per protocol, before witnesses: a relay-held roll — plural, copied, worn exactly as the rules require — was **collected entire**. Verified thrice. The armor failed, and nobody knows if it was the first time or only the first *noticed*. The room is very quiet. Gale re-plots her route for speed. |
-| **II — The Roads** | 3 | The Carrier | 3,000 | Zel boards (the carrier tradition's seat): the practice at its maturest — and its stake named plainly: carriers are walking plural archives; if the armor fails, they are the most collectable people alive. Reunion warmth with teeth. |
+| | 2 | The Reason | 3,100 | **Detonation.** The summons unsealed at a relay-house, per protocol, before witnesses: a relay-held roll — plural, copied, worn exactly as the rules require — was **collected entire**. Verified thrice — and one detail that will matter two books from now, planted cold: the roll's wearing was verified *by record*; the rules were kept on paper, as everything is kept now. The armor failed, and nobody knows if it was the first time or only the first *noticed*. The room is very quiet. Gale re-plots her route for speed. |
+| **II — The Roads** | 3 | The Carrier | 3,000 | Zel boards (the carrier tradition's seat) — and her stake costs a scene, not a sentence: the relay-house refuses her lodging (carriers are walking plural archives; if the armor fails, they are the most collectable people alive, and fear does arithmetic fast). Gale's route-craft solves what courtesy can't; the two women measure each other over it. Reunion warmth with teeth. |
 | | 4 | The Lit Map | 2,900 | The romp's heart: three stops in one chapter — Farrow's holders, a Tolm sexton, a Meret warden — the series' surviving customs shown *working*, each sending a delegate or a token, the manifest growing. The pleasure of threads meeting, at speed. |
 | | 5 | The Rival Summons | 3,000 | The Regency's convention, encountered mid-route: Bode's people gathering the same worlds with better funding and a simpler pitch. Bode and Gale, one scene, courteous: he offers her the Regency's courier contract — every road, forever, one employer. She declines on instinct and spends three chapters understanding why. |
-| | 6 | The Listener and the Mapper | 3,100 | Emlin and Idra board (the Reading's emphasis; the corrected preface) — and the traditions argue *on the road*: what the Convening is even for; whether relief is possible or piety. The committee begins to exist by disagreeing well. |
-| | 7 | The Restorer | 3,000 | Alba boards last, carrying a Testament hole and Amel's habit of listening. The team's shape visible now — and the news catches up: a second plural-held collection. The erratic phase is accelerating. Both gatherings become races. |
-| | 8 | The Convening | 3,700 | **Set-piece — wonder beat (Law 7):** Valen, the Lens's old city, lit for the first Convening in series history: five traditions, forty worlds' delegates, the elders one scene each — and the **watch-roll** opened: the count that goes up, read aloud in disagreeing tallies from every world, none matching, all binding. The reach, volunteering. |
+| | 6 | The Listener and the Mapper | 3,100 | Ketra and Idra board (the Reading's emphasis; the corrected preface) — and the traditions argue *on the road*: what the Convening is even for; whether relief is possible or piety. The committee begins to exist by disagreeing well. |
+| | 7 | The Restorer | 3,000 | Alba boards last, carrying a Testament hole and Amel's habit of listening — and the news catches up mid-boarding: a second plural-held collection, this one a world Gale's own route serves. The friction is immediate and personal (a courier's manifest now includes a world she may not be able to deliver *to*); the argument over rerouting is the chapter. The erratic phase is accelerating. Both gatherings become races. |
+| | 8 | The Convening | 3,700 | **Set-piece — wonder beat (Law 7):** Valen, the Lens's old city, lit for the first Convening of its name: five traditions, forty worlds' delegates, the elders one scene each — and the **watch-roll** opened: the count that goes up, read aloud in disagreeing tallies from every world, none matching, all binding. The reach, volunteering. |
 | **IV — The Compact** | 9 | The Rival Table | 3,000 | The Regency convenes across the same city — the bill arriving with the warmth: Bode's coalition is *larger*. Decent worlds, frightened well, signing for a warden. The two tables send envoys; the arguments are the series' whole spine, said by people who mean them; nothing resolves. The Compact is signed anyway — smaller, plural, stubborn. |
 | | 10 | The First Watch | 2,800 | The Compact's first act: not war with the Regency — a race to the same door (both tables now know the way must be found: the dead address that accepted a shipment, the letters' margin, the threshold everything points to). Gale's last delivery of the book: the watch-roll itself, entrusted to the committee she assembled. Her manifest, for the first time in her life, complete. |
-| **Epilogue** | — | The Roads Out | 1,300 | Five departures from Valen in five directions — the committee scattering to gather what the relief will need (→ 27–29) — and behind them, on the Convening hall's door, chalked by no hand anyone saw: a circle crossed by a single line. The series' mark, where the series will end. |
+| **Epilogue** | — | The Roads Out | 1,300 | Five departures from Valen in five directions — the committee scattering to gather what the relief will need (→ 27–29) — and behind them, as the Convening's banner comes down, **uncovered** in the hall door's old wood: a circle crossed by a single line, worn shallow by hands nobody counted. It was always there. The series' mark, where the series will end. |
 | | | **Total** | **~31,800** | |
 
 ## The Writer's Test (must pass)
@@ -116,6 +119,11 @@ cycle opens mid-route, already carrying mail.
   door is sought, not shown; the Custodian appears only as consequence.
 - **No chosen one:** the committee is five seats, elected by five traditions;
   Gale assembles it because carrying is her job. Law 6, opening the last act.
+- **Cast fence (at ceiling):** ten named is the maximum — Ch 4's three-stop
+  montage adds *no* further named characters; the stops stay offices, not names.
+- **Two doors, one guard:** the letters' margin *triangulates* the threshold —
+  navigation data only. The far door (Book 1's tower; the watchers; D3: mail
+  only) is never the destination and never conflated with the dead address.
 
 ## Continuity
 - **Timeline:** **~CR 490** (see [timeline](../../../series-bible/timeline.md));
@@ -127,7 +135,7 @@ cycle opens mid-route, already carrying mail.
 - **Hooks outward:** the door (→ 27–29's search; → 30's threshold); the Regency's
   parallel race (→ every remaining book); the second failure's location — unnamed
   here, named in 28 (→ the Scouring).
-- **New names** (→ glossary via `canonize` when drafted): Gale, Zel, Emlin, Idra,
+- **New names** (→ glossary via `canonize` when drafted): Gale, Zel, Ketra, Idra,
   Alba, Chancellor Bode, the Regency, the Convening, the Compact, the watch-roll.
 
 ## Continuity checklist
