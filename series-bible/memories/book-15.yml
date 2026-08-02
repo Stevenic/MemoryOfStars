@@ -1,0 +1,55 @@
+# Memories catalog — Book 15, The Divided Ones (~CR 400)
+# Catalog only; world DB is built at publish. Slice firewall applies at frame level.
+
+book: book-15
+slices:
+  - id: motherhouse-reading
+    star: book-15
+    title: "The motherhouse — the year of the Reading"
+    frame: >
+      The Listeners' motherhouse: four testimonies shelved apart by law, beneath a
+      fifth shelf no Prime has ever filled. The order's charter forbids assembling a
+      complete answer; this recording is what the order did instead. Who the makers
+      were, and what they feared, are not in this recording — they are not in any
+      recording.
+    memories:
+      - id: the-rehearsal
+        title: "The Rehearsal"
+        when: "before the Reading · a closed room"
+        chapters: [chapter-2]
+        inhabit: [averil, veck, rill, casque]
+        frame: >
+          Averil's test of the suspicion she cannot file: Veck and Rill speak two
+          testimonies aloud, together, for the first time — and the texts complete
+          each other's sentences. Four witnesses across a million years, one shape.
+          Casque, invited as witness, says the worst possible thing, calmly: now it
+          exists; you made it exist by hearing it at once. The room is very quiet;
+          keep it that way.
+
+      - id: the-fifth-voice
+        title: "The Fifth Voice"
+        when: "the day of the Reading · the open benches"
+        chapters: [chapter-6]
+        inhabit: [averil, casque, veck, rill]
+        frame: >
+          The Reading in session — four living voices in collection order, factory,
+          planet, stowaway, god — when a woman stands from the open-day benches: a
+          carrier of Odri's practice, holding the Choir's oldest hearing, the
+          testimony nobody requisitioned. What the Choir heard passing was not
+          flight only: many voices, choosing to be a chord. The room's fear acquires
+          a second face. Let the fifth voice land as a gift, not a twist.
+
+      - id: the-prime-testifies
+        title: "The Prime Testifies"
+        when: "after the Reading · the fifth shelf"
+        chapters: [chapter-9]
+        inhabit: [averil, casque]
+        frame: >
+          The order does the Librarian's move knowingly: the four original volumes
+          leave the motherhouse forever, dispersed beyond even the order's own
+          finding, while Casque's sealed charter-copy — never read, untouched by the
+          blankness — remains the only volume under the roof; he was right too. Then
+          Averil does the thing forty years overdue: she gives testimony, the first
+          Prime to enter her own dossier, and her volume goes to the fifth shelf, the
+          only full one in the hall. We asked the old minds what they remembered;
+          they remembered being many.

@@ -1,0 +1,51 @@
+# Memories catalog — Book 05, The Last Witness (~CR 240)
+# Catalog only; world DBs are built at publish. Frames are slice-firewall clean:
+# nothing from the offer onward, later books, or planning/.
+
+book: book-05
+slices:
+  - id: the-vault
+    star: book-05
+    title: "The Vault"
+    frame: >
+      An unroaded system — rich, orderly, utterly silent, remembered by no route-memory
+      anywhere — and inside its too-smooth moonlet, the chambers. Odri found the place by
+      its absence; Cassen's contract says survey, salvage, no contact. The terms have not
+      been stated; what is asked of the crew, and what Odri answers, are not in this
+      recording.
+    memories:
+      - id: the-counting
+        title: "The Counting"
+        when: "the first day inside the vault"
+        chapters: [chapter-2]
+        inhabit: [odri, dov, fenn]
+        frame: >
+          Identical chambers in rows, and rows beyond the rows. The crew count, and the
+          counts disagree; the niches run past a billion. Build the dread by arithmetic,
+          not spectacle — and let the number become a face when Dov finds the first one.
+          Odri inventories what is present, never what is absent; keep her happier than
+          anyone else aboard.
+
+      - id: the-singing
+        title: "The Singing"
+        when: "the second day · the singing begins"
+        chapters: [chapter-3]
+        inhabit: [odri, fenn, cassen]
+        frame: >
+          The sound begins — not in the instruments, in memory: each of them hears a song
+          out of their own childhood, and Fenn hears routes. Behind them, their wake
+          through the dust is being tidied. Cassen orders withdrawal, and the door does
+          not stop them — which is somehow worse. State every wrongness flatly and
+          explain none of it; this is still a tomb, so far as anyone here knows.
+
+      - id: first-contact
+        title: "First Contact"
+        when: "the day the vault speaks"
+        chapters: [chapter-4]
+        inhabit: [odri, cassen, dov]
+        frame: >
+          The intelligence speaks through what each visitor carries — for Odri, a lullaby
+          shaped like the one her city deleted, assembled from the absence she has
+          carried all her life. It introduces itself by its function: it witnesses. It
+          has been alone with its dead for a million years. Courteous, ancient, and
+          unexplained; do not make it sinister, and do not yet make it safe.

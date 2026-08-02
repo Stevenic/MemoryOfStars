@@ -1,0 +1,80 @@
+# Memories catalog — Book 30: The Memory of Stars (format: see README.md)
+# Slice firewall: each frame holds only what its scene knows at that moment.
+# House guards: the keeper is role-named only and never inhabitable; the deepest
+# room keeps its question kept; nothing here says what the collected become.
+
+book: book-30
+slices:
+  - id: keepers-house
+    star: book-30
+    title: "The Keeper's House"
+    frame: >
+      Past the threshold: a keeper's rooms, small and worn and kept — a million
+      years of duty rendered as furniture. The committee is received
+      courteously, with the sense of being expected; not by prophecy, by hope.
+      The keeper is never seen and never named. What the kept become is not in
+      this recording, and never will be.
+    memories:
+      - id: is-it-finished
+        title: "Is It Finished?"
+        when: "the first days in the house"
+        chapters: [chapter-2]
+        inhabit: [alba, ketra, zel]
+        frame: >
+          The house asks the living, at last, whether the work of keeping is
+          finished — and Alba, whose whole craft is tending the unfinished,
+          gives the honest answer: no; it was never going to be; that was never
+          the assignment. Somewhere in the rooms, something very old sets
+          something down halfway. The relief becomes possible in that sound.
+          Keep it quiet; no one raises a voice in this house.
+
+      - id: what-they-do-not-ask
+        title: "What They Do Not Ask"
+        when: "deep in the relief · the deepest room"
+        chapters: [chapter-5]
+        inhabit: [alba, ketra, zel]
+        frame: >
+          In the deepest room the oldest question is answerable at last —
+          present, offerable, the keeper willing — and Ketra reaches the
+          threshold of asking with a lifetime's craft behind her; stopping costs
+          her everything her order taught her. They do not ask: the door
+          answered plurality, the watch must stay refusable, and a committee
+          that took the whole answer would carry the old error into the final
+          hour. Some things go home with the keeper. Alba closes that door
+          gently, from outside.
+
+      - id: the-farewell
+        title: "The Farewell"
+        when: "the day the watch passes"
+        chapters: [chapter-7]
+        inhabit: [alba, zel, gale, idra]
+        frame: >
+          The roll signed by the traditions' five, and then the words — said by
+          everyone at once, to the keeper, plainly, as mechanism: "Come home
+          carrying more people than yourself." The watch passes; the duty
+          distributes; the one who stayed is carried at last, held by the living
+          the whole way down. The weeping belongs to the living. Render the
+          relief with restraint — a duty completed, and a burden taken up by
+          many hands.
+
+  - id: the-kitchen
+    star: book-30
+    title: "The Kitchen"
+    frame: >
+      The last place the story shows: a kitchen in Orin, after everything —
+      bread, thyme, the two bowls, the amended festival outside, the silent
+      mountain wearing stars. The story itself is told here now, the way this
+      civilization keeps everything.
+    memories:
+      - id: the-story-told
+        title: "The Story, Told"
+        when: "after everything · evening in Orin"
+        chapters: [epilogue]
+        inhabit: [alba, zel]
+        frame: >
+          A child asks for the story and gets it the way everything is kept now
+          — told plural, held light, one voice among many, drifting a little in
+          the telling, which is how it survives. Guests who were there let the
+          town's version stand. On the sill, wet with black grass, the red bird;
+          on the child's answer, the two-finger gesture at the sky. Small, and
+          home; end there.

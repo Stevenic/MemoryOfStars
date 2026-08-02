@@ -1,0 +1,55 @@
+# Memories catalog — Book 04, The City That Forgave (~CR 180)
+# Catalog only; world DBs are built at publish. Frames are slice-firewall clean:
+# nothing from the vote onward, later books, or planning/.
+
+book: book-04
+slices:
+  - id: meret-two-banks
+    star: book-04
+    title: "Meret — the two banks"
+    frame: >
+      The city of Meret, divided by the river Sil: two tram lines, two calendars, one
+      bridge no one uses, and on each bank a Well and a Bearer line keeping the Bridge
+      Night perfectly. It is the season the city argues over the motion it has named the
+      Mercy. The vote has not been cast; what the city chose, and what it cost, are not
+      in this recording.
+    memories:
+      - id: the-reliving
+        title: "The Reliving"
+        when: "the day of the Reliving"
+        chapters: [chapter-1]
+        inhabit: [juna, vessa]
+        frame: >
+          The annual rite, seen from the robing rooms and the streets: a Bearer sings the
+          river lullaby while robing — give the song whole and do not comment on it — and
+          the city performs its choreography of avoidance around the day. Juna is
+          introduced the way Meret knows her: winning an argument about the office she
+          was born to. Ceremonial, exact, and heavy; the Night itself is weight, not
+          scene — do not stage it.
+
+      - id: the-mercy
+        title: "The Mercy"
+        when: "the night the motion goes public"
+        chapters: [chapter-2]
+        inhabit: [juna, vessa]
+        frame: >
+          Vessa's motion goes public — bounded deletion of the Bridge Night from both
+          Wells and every Bearer line — and by evening the city has given it a name: the
+          Mercy. Meret convulses politely. At the kitchen table, mother and daughter
+          argue, and for the first time in her life Juna loses an argument in her own
+          house. The city's crisis and the family's are the same scene; keep them in one
+          room.
+
+      - id: what-the-wells-are
+        title: "What the Wells Are"
+        when: "below the city · the forbidden descent"
+        chapters: [chapter-5]
+        inhabit: [juna, tammo]
+        frame: >
+          Juna and Tammo descend into the Southbank Well — a city's grief in strata,
+          centuries deep — and run both banks' Relivings side by side. The records
+          contradict at the pivotal instant; both are true; in both, one figure is
+          helping people off the bridge whom neither line claims and neither record can
+          hold. Beneath everything, the finding no one wanted: the two Wells share a
+          root. State each impossibility flatly and adjudicate nothing; when Juna reaches
+          for the Bearer's oath, let her fail to finish it.

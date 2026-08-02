@@ -1,0 +1,65 @@
+# Memories catalog — Book 13, The Inheritors (~CR 375)
+# Catalog only; world DB is built at publish. Slice firewall applies at frame level.
+
+book: book-13
+slices:
+  - id: marigold-charter-run
+    star: book-13
+    title: "The Marigold — the Charter Run"
+    frame: >
+      A family junk-ship in its mourning year, racing the reach's oldest contract
+      race with a creditor's rider aboard and thirty-one dead captains in its newest
+      one. Lose the Run and the line's inheritance is attached — the dead sold as an
+      asset lot. Where the thirty-second memory came from, and where it is going,
+      are not in this recording.
+    memories:
+      - id: thirty-two
+        title: "Thirty-Two"
+        when: "forty days before the Run · the rite"
+        chapters: [chapter-2]
+        inhabit: [nell, pol, dree]
+        frame: >
+          The inheritance rite, done proper: thirty-one captains arriving in order,
+          oldest first, a family walking into a nineteen-year-old one at a time. Then
+          a thirty-second — older than the hull, no name, no rank, afraid; a memory
+          of being many and choosing fewer. The consult goes silent for the first
+          time in nine generations. Nell tells no one, badly.
+
+      - id: the-charter-run
+        title: "The Charter Run"
+        when: "the eve of the Run · dockside"
+        chapters: [chapter-3]
+        inhabit: [nell, dree, marsh]
+        frame: >
+          The race taught in work: bonded freight, three legs, and Captain Dagny of
+          the Roan needling Nell dockside about racing a ship full of dead people.
+          What losing costs is made explicit — thirty-one captains, attachable, in
+          Marsh's locked case — and Marsh states, as a lawyerly kindness, the trap
+          nobody hears click: inheritances vest under existing liens. The romp engine
+          at full spin; the debt's hard edge underneath.
+
+      - id: the-storm-leg
+        title: "The Storm Leg"
+        when: "the third leg · the dead route"
+        chapters: [chapter-7]
+        inhabit: [nell, dree, pol]
+        frame: >
+          The third leg's route is dead — soundings stale, rivals balking, Dagny
+          turning back with a salute — and no stored chart can help. What the 32nd
+          has is not a map; it is live fear-craft, reading unroaded dark the way
+          something that survived it once learned to. Nell gives the stowaway the
+          conn; Dree flies; the line's whole chorus holds steady around a stranger.
+          Speed and dread in the same breath.
+
+      - id: first-hull-home
+        title: "First Hull Home"
+        when: "the Run's last hour · the finish"
+        chapters: [chapter-8]
+        inhabit: [nell, dree, marsh]
+        frame: >
+          First hull home through dark no chart holds — the charter safe, the dock a
+          roar — and the bill arriving in the same hour: the crossing-craft they flew
+          is now the most valuable navigational asset in the reach, vested under the
+          lien the moment it was used, and its only holder is the 32nd. Marsh opens
+          his case and takes no pleasure in it. Let the triumph land before the trap
+          does.

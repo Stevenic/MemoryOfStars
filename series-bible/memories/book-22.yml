@@ -1,0 +1,67 @@
+# Memories catalog — Book 22: Before the First Word (~CR 474)
+# Catalog only; world DBs are built at publish. Spoiler firewall applies at
+# frame level: each frame holds only what that scene knows at that moment.
+
+book: book-22
+slices:
+  - id: deep-horizon-first-walk
+    star: book-22
+    title: "The deep horizon — the first deep walk"
+    frame: >
+      Four years into the store, beneath the golden-age horizon: strata older
+      than any human rise, and the vote to walk the oldest of them, taken
+      across three sessions. What was found further down, in later years, is
+      not in this recording.
+    memories:
+      - id: the-walkers-rite
+        title: "The Walker's Rite"
+        when: "four years on · the morning of the first session"
+        chapters: [chapter-1]
+        inhabit: [kova, isla, amel, hask]
+        frame: >
+          Preparation as liturgy: carrier discipline, the witness circle,
+          Amel's live transcript, Hask's controls. The rule is taught plainly
+          before anyone goes down — an opened stratum plays to its end whether
+          walked or not; interrupt, and the remainder passes unwitnessed
+          forever. Kova counts thresholds the way other people breathe. Solemn,
+          exact, not without dry humor; the fear kept procedural.
+
+      - id: the-keeper-of-songs
+        title: "The Keeper of Songs"
+        when: "the first session · a morning a million years deep"
+        chapters: [chapter-2]
+        inhabit: [kova]
+        frame: >
+          The first walked chapter of the deep past: an era rendered other,
+          entire, and in it one keeper of songs counting verses the way keepers
+          do — finding one gone, not forgotten, gone, the shape of its absence
+          still warm. Render the walked past as other; the visitor cannot
+          change it, and the stratum spends as it plays. The figures here may
+          be witnessed, never worn and never named. The sting inside the
+          wonder.
+
+      - id: the-mis-join
+        title: "The Mis-Join"
+        when: "mid-walk · the braid slips"
+        chapters: [chapter-5]
+        inhabit: [kova, pim, isla]
+        frame: >
+          Kova surfaces mid-walk speaking a dead grammar, missing an hour of
+          her own childhood and holding an hour of someone else's morning. Pim
+          works the un-join live, threshold by threshold, Isla holding the
+          witness circle steady — while below, the opened stratum burns on
+          without them, unwitnessed, minute by minute. Fast hands and held
+          breath; nobody is calm, and everybody must act as if they were.
+
+      - id: the-next-walk
+        title: "The Next Walk"
+        when: "after the third session · the advocate at the door"
+        chapters: [chapter-8]
+        inhabit: [kova, isla, hask, yent]
+        frame: >
+          Advocate Yent arrives in person for the Claimants' Concord, courteous
+          and persistent, demanding observer standing at all future walks — and
+          he is not wrong that five people hold a civilization's past under one
+          claim. Hask half-agrees with the petition, which is worse. The
+          argument over the next descent is real; nobody pretends any of it
+          will be gentler.

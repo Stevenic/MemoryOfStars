@@ -1,0 +1,68 @@
+# Memories catalog — Book 23: The Makers' Grief (~CR 477)
+# Catalog only; world DBs are built at publish. Spoiler firewall applies at
+# frame level: each frame holds only what that scene knows at that moment.
+
+book: book-23
+slices:
+  - id: fused-stratum
+    star: book-23
+    title: "The cold face — the fused day"
+    frame: >
+      Seven years on, one stratum refuses classification: it reads as two ages
+      at once, playing as one impossible day. The joiner's season, from the
+      wrong note to the verdict. What lies in the dark strata below is not in
+      this recording.
+    memories:
+      - id: the-wrong-note
+        title: "The Wrong Note"
+        when: "seven years on · listening at the cold face"
+        chapters: [prologue]
+        inhabit: [pim, isla]
+        frame: >
+          The deep horizon thinning, the ledger accumulating strike-throughs,
+          and one stratum the instruments cannot classify: it reads as two ages
+          at once. Pim listens at the cold face and hears the join the way a
+          tuner hears a beat-frequency — wrong, and beautiful. Quiet,
+          technical, the hook set gently.
+
+      - id: the-ethics-of-the-weld
+        title: "The Ethics of the Weld"
+        when: "after the fused day · the table set for argument"
+        chapters: [chapter-3]
+        inhabit: [pim, kova, hask, isla]
+        frame: >
+          The team's argument at full strength on every side: Hask holds that a
+          fused record is a lie and moves to un-join; Kova, the only living
+          carrier of a benign fusion, testifies for the weld with both hands
+          flat on the table to keep them from shaking; Isla holds the clock —
+          whatever is done is done once. Outside, the Concord's suit has
+          reached a tribunal and an injunction gathers. Decent people, none of
+          them wrong, and the store is finite.
+
+      - id: the-one-who-stayed
+        title: "The One Who Stayed"
+        when: "deep in the builder's thread · the pouring's edge"
+        chapters: [chapter-6]
+        inhabit: [pim]
+        frame: >
+          At the edge of the pouring, one figure remains unpoured — steadying
+          the last and most frightened of the pourers, one by one, the way you
+          hand people down into a boat, and then, the boat gone, remaining.
+          Render the walked past as other; the visitor cannot change it, and
+          the stratum spends as it plays. The figure may be witnessed, never
+          worn and never named; its whole testimony is what it does and that it
+          stays. The stillest place in the store — let it be still.
+
+      - id: the-verdict-of-the-joiner
+        title: "The Verdict of the Joiner"
+        when: "the last day at the weld · the verdict argued in work"
+        chapters: [chapter-7]
+        inhabit: [pim, kova, hask, amel]
+        frame: >
+          The un-join question returns with everything known, and Pim answers
+          in craft: the two threads were filed together on purpose — the store
+          has a curator's fingerprints — and un-joining would unmake an act of
+          meaning. The first deliberate fusion in the team's practice, re-joined
+          as a chord, Amel inventing the notation as it happens; Hask dissents
+          formally and signs the page anyway. Work as argument; grief held as
+          music.

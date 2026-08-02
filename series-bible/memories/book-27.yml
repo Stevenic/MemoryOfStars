@@ -1,0 +1,51 @@
+# Memories catalog — Book 27: The Last Archive (format: see README.md)
+# Slice firewall: each frame holds only what its scene knows at that moment.
+
+book: book-27
+slices:
+  - id: vault-last-stand
+    star: book-27
+    title: "The Vault's Last Stand"
+    frame: >
+      The unroaded system, the vault of the Choir, and the greatest carriage
+      ever attempted, run against a counted clock. Every carrier the practice
+      ever trained is converging. How the hours are spent is this recording;
+      where the taken go is not.
+    memories:
+      - id: the-witness-wakes
+        title: "The Witness Wakes"
+        when: "the convergence · the hour the vault wakes"
+        chapters: [chapter-2]
+        inhabit: [ketra, zel, gale]
+        frame: >
+          Banked for two and a half centuries, the vault's keeper is awake — it
+          has felt the triage err from inside the mesh, and it has counted the
+          hours remaining. The carriage begins within the hour: the Choir's
+          strata streaming into living memory, one mind at a time. Ketra's
+          commission is the final deposition, and this is the first place her
+          filing hand refuses.
+
+      - id: the-rival-warding
+        title: "The Rival Warding"
+        when: "mid-carriage · the Regency's arrival"
+        chapters: [chapter-4]
+        inhabit: [ketra, zel, bode]
+        frame: >
+          Bode's expedition deploys the Regency's answer — seal, ward, govern,
+          hold it whole — and the argument runs at full strength over a running
+          clock, made by people weeping with frustration at each other. The
+          vault itself declines the warding; wholeness is why the collection is
+          coming. Bode stays. And helps.
+
+      - id: the-last-door
+        title: "The Last Door"
+        when: "the last hours · the vault's threshold"
+        chapters: [chapter-7]
+        inhabit: [ketra, zel, bode]
+        frame: >
+          The clock has beaten the carriage; the collection's edge is early, and
+          the options are none. The keeper of the Choir makes itself and its
+          uncarried remainder the cleanest lot and steps into the collection's
+          path, closing the last door itself; the laden carriers run under its
+          purchased hours. Grief without ceremony — hold to the counting, and
+          let the door be closed gently.

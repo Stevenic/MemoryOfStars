@@ -1,0 +1,74 @@
+# Memories catalog — Book 25: The Last Testament (~CR 484)
+# Catalog only; world DBs are built at publish. Spoiler firewall applies at
+# frame level: each frame holds only what that scene knows at that moment.
+
+book: book-25
+slices:
+  - id: cold-face-blank
+    star: book-25
+    title: "The cold face, blank"
+    frame: >
+      Fourteen years of walks, alive now only above ground: the store is empty,
+      the ledger closed, and the team stands where the past used to be. The
+      commissioning of the testament, and the ruling that will cost its scribe
+      the most.
+    memories:
+      - id: where-the-past-used-to-be
+        title: "Where the Past Used to Be"
+        when: "fourteen years on · the cold face, blank"
+        chapters: [prologue]
+        inhabit: [amel, isla, kova, hask]
+        frame: >
+          Instruments reading nothing; fourteen years of walks existing only in
+          the team and their transcripts. Isla says what the moment needs: now
+          we owe it interest. The testament is commissioned by nobody and by
+          all of them, the way the important things always are. Quiet, spent,
+          and strangely light.
+
+      - id: the-pronoun
+        title: "The Pronoun"
+        when: "the testament commissioned · the ruling"
+        chapters: [chapter-2]
+        inhabit: [amel, isla, pim, hask]
+        frame: >
+          The ruling: a testament of walks must be testimony, not compilation —
+          one coherent whole, authored by no one, would be collectable by
+          anything — so each survivor writes their own walks as I. The frame
+          falls to Amel, who in fourteen years of records has never once
+          written that word. The detonation is a pronoun; let it land like a
+          cliff.
+
+  - id: testament-writing-room
+    star: book-25
+    title: "The writing of the testament"
+    frame: >
+      The testament taking shape against a clock: on lapse day the claim's
+      shield over the walk-products ends, and whatever is unpublished becomes
+      seizable. Five documents, deliberate holes, and one section with nothing
+      to hold.
+    memories:
+      - id: what-was-never-lost
+        title: "What Was Never Lost"
+        when: "the blank section · late in the writing room"
+        chapters: [chapter-7]
+        inhabit: [amel]
+        frame: >
+          Blocked on the final section — how to end it, which the store never
+          held — Amel returns alone to the first deep-walk transcript and its
+          first page, and reads the rendered words at the bottom aloud to the
+          empty writing room. Let the recognition arrive as a homecoming, not a
+          twist: the oldest words in the reach, heard for the first time as
+          what they are.
+
+      - id: the-lapse-of-the-claim
+        title: "The Lapse of the Claim"
+        when: "lapse day · the presses still warm"
+        chapters: [chapter-9]
+        inhabit: [amel, isla, yent]
+        frame: >
+          The testament published hours before the counter-claim matures — five
+          documents printed apart, holes and all, scattered on the long shelf's
+          pattern — and Yent arrives to seize what is now everywhere and owned
+          by no one. Isla lets the Ash claim die: the first of her line in five
+          centuries to open the hand. The checkmate played gently; the cost
+          real and paid on the page.

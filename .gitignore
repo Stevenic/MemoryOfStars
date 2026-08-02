@@ -52,3 +52,4 @@ vendor/
 # chart preview artifacts (local only — production learns stars per published book)
 /docs/_data/starfield_full.json
 /docs/_data/systems_full.json
+/docs/_data/memories_full.json

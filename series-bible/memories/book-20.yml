@@ -1,0 +1,67 @@
+# =============================================================================
+# MEMORY CATALOG — Book 20, The Falling Node
+# Planned recordings only; world DBs are built at publish. Frames obey the
+# spoiler firewall: each memory may hold only what its own scene knows.
+# =============================================================================
+
+book: book-20
+slices:
+  - id: meret-node-fall
+    star: book-20
+    title: "Meret — the fall of the node"
+    frame: >
+      Meret, three centuries after the Mercy: the Wells cooling, the rolls plural, the
+      city defending its node for the first time in the reach's history. Everything the
+      practice has built is worn here, casually, at civic scale. What works the Wells'
+      failing is witnessed, never explained; every why stays unanswered.
+    memories:
+      - id: southern-mouth
+        title: "The Southern Mouth"
+        when: "the night the southern mouth died"
+        chapters: [chapter-2]
+        inhabit: [yune, doss]
+        frame: >
+          Mid-rite, the southern Well-mouth goes cold — the first node-death of a
+          working Well in recorded history — and the district it anchored begins to
+          thin, rolls blanking faster than the relay teams can copy. Yune performs the
+          decrement herself, in the warden's ledger, in her own hand, while the city
+          watches her write. Ceremony holding where certainty has gone.
+
+      - id: keepers-keeper
+        title: "The Keeper's Keeper"
+        when: "the cooling's edge · at the northern mouth"
+        chapters: [chapter-6]
+        inhabit: [yune, doss, breda]
+        frame: >
+          Through the northern Well-mouth, the collector is witnessed at work: patient,
+          exact, tending — culling strata the way a keeper culls a flooding archive,
+          pausing over the relay-held and the holed as a hand pauses over what won't
+          lift. And failing: it re-culls its own work; its triage stutters. Never
+          spoken to; never speaking. The city coins the only name that fits, and the
+          scene explains nothing.
+
+      - id: wardens-mercy
+        title: "The Warden's Mercy"
+        when: "the last hours of the Wells"
+        chapters: [chapter-8]
+        inhabit: [yune, neva, doss]
+        frame: >
+          The node's heart empties district by district, everything plural walking out
+          alive. Yune, alone at the last with the casket and the cold door, does not
+          open it, does not run with it, does not burn it: she carries it to the
+          northern mouth and gives it, still sealed, to the keeper's keeper — a
+          warden's mercy to a failing caretaker. The mercy buys nothing; the city's
+          survival was bought elsewhere, and that is the point. The Wells fall. The
+          city does not.
+
+      - id: standing-city
+        title: "The Standing City"
+        when: "after the fall · the standing city"
+        chapters: [chapter-9]
+        inhabit: [yune, breda, doss]
+        frame: >
+          Meret alive on relay-held rolls and practiced names — the first city to
+          survive its node — grieving infrastructure the way you grieve a grandmother:
+          enormous, ordinary. Breda, from forty years of contraband, surrenders her
+          sole-source founding deed of the city's bridge to the new rolls, by choice,
+          without ceremony. It is small. It is enough to build on.

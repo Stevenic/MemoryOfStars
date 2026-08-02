@@ -1,0 +1,65 @@
+# Memories catalog — Book 14, The God That Forgot (~CR 388)
+# Catalog only; world DB is built at publish. Slice firewall applies at frame level.
+
+book: book-14
+slices:
+  - id: tolm-temple
+    star: book-14
+    title: "Tolm — the temple and the terraces"
+    frame: >
+      A small world tended by its god: rain to the fields that need it, storms
+      walked around the orchards, the morning office kept for forty years by a Voice
+      whose certainty is performed. The god is old, and it is forgetting. What the
+      Shepherd is, and what it was for, are not in this recording.
+    memories:
+      - id: the-harvest-oracle
+        title: "The Harvest Oracle"
+        when: "the harvest oracle · the whole world watching"
+        chapters: [chapter-2]
+        inhabit: [tavel, willa, petch]
+        frame: >
+          The year's great rite, mid-oracle, when the Shepherd stops — loses the
+          antiphon it has spoken for a thousand years — and asks, through the Voice,
+          in front of everyone: what comes next? Tavel answers the rite from memory,
+          seamlessly, and only he and the god know what just happened. The
+          congregation sees nothing wrong. Play the seamlessness; the terror is
+          private.
+
+      - id: deposing-a-god
+        title: "Deposing a God"
+        when: "the deposition · in secret"
+        chapters: [chapter-4]
+        inhabit: [tavel, rill]
+        frame: >
+          Sister Rill's interview, on Tavel's terms: questions submitted through the
+          Voice, answers arriving as weather and harvest-signs, and her recorder
+          useless — a sky cannot be sealed into a page. The Shepherd wants to answer,
+          which is more terrible than reluctance. It remembers the flock utterly, and
+          nothing before the flock.
+
+      - id: the-clearing
+        title: "The Clearing"
+        when: "one hour, once · the Clearing"
+        chapters: [chapter-6]
+        inhabit: [tavel, rill]
+        frame: >
+          Once, cause never known, the Shepherd remembers everything for one hour —
+          and spends it not on the answer but on the flock, the year's whole tending
+          done in sixty minutes, perfectly, the way it was meant. A stillness lies
+          planet-wide; a wind moves through every bell tower on Tolm, once, softly.
+          At the hour's end it begins a sentence, looks at what saying it would put
+          into two mortal heads, and chooses not to finish. Then it forgets again —
+          and knows it has, and thanks them for witnessing.
+
+      - id: the-flock-keeps-the-shepherd
+        title: "The Flock Keeps the Shepherd"
+        when: "the season after · the observation walks"
+        chapters: [chapter-8]
+        inhabit: [tavel, willa]
+        frame: >
+          The congregation learns the liturgy's working half — the observation walks,
+          the field-signs, the antiphons that are actually instructions — the god's
+          own care, plural-held by a thousand ordinary keepers. Worship becomes
+          maintenance becomes worship again. The Shepherd, tended, steadies: not
+          restored — accompanied. Keep it practical and gentle; aprons and
+          field-signs, not miracles.

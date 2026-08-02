@@ -1,0 +1,68 @@
+# =============================================================================
+# MEMORY CATALOG — Book 10, Where the Names Go (~CR 318)
+# Catalog only; world DBs are built at publish. SPOILER FIREWALL: each frame may
+# contain only what its own scene knows at that moment — nothing from later
+# chapters, later books, or planning/. The event is witnessed, never explained;
+# the watchers stay unidentified; the epilogue's letter is not cataloged here.
+# =============================================================================
+
+book: book-10
+slices:
+  - id: carath-hall-of-rolls
+    star: book-10
+    title: "Carath — the Hall of Rolls"
+    frame: >
+      The reach's newest hub, young and proud and loud, and the registry where the city
+      agrees it exists one entry at a time. The names are beginning to fail — off stones, out
+      of records, out of mouths — and nobody can say what that is. State the impossible
+      flatly; keep every why unanswered. Domestic dread, rendered in ledgers.
+    memories:
+      - id: counts
+        title: "The Counts Disagree"
+        when: "the first week of the misprints · the registry counter"
+        chapters: [chapter-2]
+        inhabit: [ivet, marek]
+        frame: >
+          The census re-run disagrees with itself; a child comes to re-register a grandmother
+          because the stone is blank; and at the counter, mid-sentence, a woman loses her
+          street's name out of her own mouth — reaches for it, and the reach comes back empty.
+          Real time, small, absolute. The hall goes very quiet, and Ivet re-inks her pen
+          because her hands need a job. No one here has a word for this yet.
+
+      - id: patient-mail
+        title: "The Patient Mail"
+        when: "the week of the taking · the responders' post"
+        chapters: [chapter-4]
+        inhabit: [ivet, noor]
+        frame: >
+          The guild responders are working a protocol nobody knew existed — duplicate
+          everything, speak everything, plural-copy the rolls — and Ivet asks the only good
+          question: how does a rite-book exist for a thing that has never happened? Noor shows
+          her: decades of letters opened on their dates, plain warnings converging on Carath,
+          unsigned, most of them misfiled for years. Say what the letters say and nothing
+          about who sent them; nobody knows. Tired, methodical, and quietly enormous.
+
+      - id: night-of-strangers
+        title: "The Night of Strangers"
+        when: "the Night of Strangers · dusk to dawn"
+        chapters: [chapter-7]
+        inhabit: [ivet, noor]
+        frame: >
+          The rite-book's last page, deployed citywide: every person speaks their name to two
+          strangers and takes theirs in return. Ivet, who knows every name and almost no
+          faces, walks the squares all night matching one to the other — her ledger-craft
+          finally embodied. Somewhere in the crowd, the child tells her a name at last. A city
+          becoming each other's keeping; fear and tenderness in the same breath.
+
+      - id: renaming
+        title: "The Renaming"
+        when: "after · the new rolls"
+        chapters: [chapter-9]
+        inhabit: [ivet, marek, noor]
+        frame: >
+          Dawn's arithmetic has been counted: what was spoken to strangers in time survived,
+          every one, and what was singly held is gone — the famous name of Carath entire.
+          Nothing taken comes back; the losses are inventoried plainly, and Marek seals the
+          damaged rolls unread. The survivors take new names — plural, by custom, on purpose —
+          and Ivet opens the new register, its first entry her own two. Grief and beginning,
+          held level.

@@ -1,0 +1,54 @@
+# =============================================================================
+# MEMORY CATALOG — Book 08, The Last Librarian (~CR 301)
+# Catalog only; world DBs are built at publish. SPOILER FIREWALL: each frame may
+# contain only what its own scene knows at that moment — nothing from later
+# chapters, later books, or planning/.
+# =============================================================================
+
+book: book-08
+slices:
+  - id: librarian-halls
+    star: book-08
+    title: "The Librarian's Halls"
+    frame: >
+      The galaxy's attic: an archive-mind older than nations, its holdings a hollowed
+      mountain range, its friendships conducted in receipts, catalog numbers, and tea. It is
+      courteous, slow, precise — and it is shrinking on purpose. State the scale flatly; keep
+      the mind's reasons its own until it gives them. Gentle, vast, exact.
+    memories:
+      - id: long-contract
+        title: "The Long Contract"
+        when: "the twentieth run · arrival day"
+        chapters: [chapter-1]
+        inhabit: [joss, tilde]
+        frame: >
+          Joss's annual delivery, twentieth year: the long approach to the archive, shelves at
+          the scale of geology, then the small rituals — manifests signed, catalog numbers
+          exchanged, tea. In his hold, a consignment of crates from a colony called Sowen, and
+          a passenger, Tilde, disembarking with them. The friendship is real and made entirely
+          of paperwork. Unhurried wonder; courtesy as its own language.
+
+      - id: interview
+        title: "The Interview"
+        when: "the week of the refusal · the reading rooms"
+        chapters: [chapter-3]
+        inhabit: [joss, hale]
+        frame: >
+          The Librarian has refused the year's consignment — the first refusal in anyone's
+          records — and whole wings are dark behind the reading rooms; the annual catalog count
+          is down. The trustees call it senescence, and Hale wants the mind sealed and
+          preserved whole, as monument and trust. Joss keeps asking the next question. Its
+          public reasons are true and insufficient; go no further than it goes.
+
+      - id: injunction
+        title: "The Day of the Injunction"
+        when: "the dispersal · the day of the injunction"
+        chapters: [chapter-7]
+        inhabit: [joss, hale]
+        frame: >
+          Couriers load irreplaceables in small consignments for hundreds of minor keepers
+          while Hale arrives with injunctions, seals, and the endowment's guards. The Librarian
+          testifies once, in the hall it built: what it holds it holds for someone, and a trust
+          that outlives its beneficiaries is a mausoleum. While the injunction is being
+          stamped, it unreads the contested wings — you cannot seize what the keeper has
+          already given away. Formal fury, freight schedules, and grief on both sides.

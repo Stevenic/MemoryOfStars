@@ -1,0 +1,73 @@
+# Memories catalog — Book 29: What the Stars Remember (format: see README.md)
+# Slice firewall: each frame holds only what its scene knows at that moment.
+
+book: book-29
+slices:
+  - id: great-wearing
+    star: book-29
+    title: "The Great Wearing"
+    frame: >
+      The season in which the reach practiced everything at once, on purpose:
+      rolls relay-copied, names spoken to strangers, the drifted song in ten
+      thousand variants — designed in one night around a map of a scoured town.
+      Whether it will be enough is not in this recording.
+    memories:
+      - id: the-wearing-designed
+        title: "The Wearing, Designed"
+        when: "the season's eve · one night at the Compact's table"
+        chapters: [chapter-2]
+        inhabit: [zel, gale, idra]
+        frame: >
+          The proof from Orin argued into a plan in a single night — every armor
+          the reach knows, scheduled into one season, world by world, rite by
+          rite; volunteered, unenforceable, priced honestly. The last image is
+          the spark, not the schedule: Orin signs. The blank column filled at
+          last, Gate-silent and undeterred — the first place volunteering first.
+
+  - id: road-to-the-door
+    star: book-29
+    title: "The Road to the Door"
+    frame: >
+      The committee's crossing to the dead address, paid for leg by leg, while
+      the season holds behind them. A guest-master is finally asked what he can
+      do; a door is finally knocked on. What waits past the threshold is not in
+      this recording.
+    memories:
+      - id: seren-asked
+        title: "Seren, Asked"
+        when: "the crossing · a quiet watch"
+        chapters: [chapter-5]
+        inhabit: [zel, ketra]
+        frame: >
+          Zel asks, plurally, as she asks everything — and Seren answers with
+          what he can do, which is nothing, except witness. A million years of
+          watching other people keep each other, and someone has finally asked
+          him to be useful in the only way he is; for the first time, the
+          watcher weeps. One scene, no doctrine. He cannot open the door. He can
+          witness them in.
+
+      - id: the-song-everywhere
+        title: "The Song in Ten Thousand Mouths"
+        when: "the season's crest · heard from the crossing"
+        chapters: [chapter-6]
+        inhabit: [zel, alba, idra]
+        frame: >
+          The season crests: the drifted song sung everywhere at once — every
+          variant different, every variant recognizable, none matching and all
+          one. Heard from the crossing, it is the proof made audible: nothing
+          that various can be lifted whole. Let it be wonder, not argument.
+
+      - id: the-door
+        title: "The Door"
+        when: "the threshold · the hour of the knock"
+        chapters: [chapter-8]
+        inhabit: [zel, gale, ketra, bode]
+        frame: >
+          First the consent the practice owes: Zel convenes her carried and asks
+          whether they will enter the keeper's house; their answer is a chord,
+          not a vote, and it costs her a night and buys the right to knock. The
+          dead address in person is small, worn, ordinary, its mark drawn by the
+          first hands; Seren witnesses them in — attendance, never
+          authorization. The door answers no credential on either side. It
+          answers an introduction — "Zel, and those I carry" — and the Regency's
+          warden, singular by design, stays outside.

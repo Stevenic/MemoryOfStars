@@ -1,0 +1,63 @@
+# Memories catalog — Book 12, The Ninth Observer (~CR 362)
+# Catalog only; world DB is built at publish. Slice firewall applies at frame level.
+
+book: book-12
+slices:
+  - id: lowens-rest
+    star: book-12
+    title: "Lowen's Rest — the Leaving year"
+    frame: >
+      The last town on Aulis, in the generation of the Leaving: the sun failing, the
+      ships booked years out, a town packing crate by crate under a mountain with a
+      letter slot nobody remembers cutting. Above the town, the Harrow terraces; in
+      the town, a schoolteacher who has written to the mountain all his life. The
+      nine earlier seasons, and why the mountain answers now, are not in this
+      recording.
+    memories:
+      - id: letters-to-the-mountain
+        title: "Letters to the Mountain"
+        when: "the Leaving year · morning post"
+        chapters: [chapter-1]
+        inhabit: [imre, veck]
+        frame: >
+          Imre posts a letter into the mountain slot his grandmother showed him, as
+          he has since he was a boy; the mountain has never answered anyone. Sister
+          Veck arrives carrying a referral in her satchel — the one who watches the
+          rains — and explains, politely, that the order has come to depose the
+          planet. Imre laughs. Then doesn't.
+
+      - id: the-valley-answers
+        title: "The Valley Answers"
+        when: "overnight · first light on the Harrow"
+        chapters: [chapter-2]
+        inhabit: [imre, lyddi, veck]
+        frame: >
+          Overnight the Harrow valley has re-greened, out of season and against the
+          dusk, in the shape of the town's word for stay — the letterforms traced
+          stroke for stroke from the schoolhouse lintel. Lyddi is the one who sees it
+          true: it's a picture, not a word. After nine civilizations of silence the
+          mountain has replied, and the awe curdles fast into why now, and why never
+          before. No one has an answer; do not supply one.
+
+      - id: the-grandmothers-trick
+        title: "The Grandmother's Trick"
+        when: "the last festival · dusk on the terraces"
+        chapters: [chapter-8]
+        inhabit: [imre, lyddi, veck]
+        frame: >
+          The town's last festival, restaged as the old greeting-rite on the Harrow
+          terraces where the Observer can watch: every person speaking their name to
+          two others, the farewell worn as a dance. It cannot keep the names. It can
+          keep, forever, the shape of a people who named each other. Warm, crowded,
+          and grieving underneath; the goodbye is the point.
+
+      - id: the-last-letter
+        title: "The Last Letter"
+        when: "sailing day · the last post"
+        chapters: [chapter-9]
+        inhabit: [imre, lyddi]
+        frame: >
+          The ships go. Imre posts one more letter into the slot — not a petition; a
+          thank-you — and boards with Lyddi. They are not the keepers here; they are
+          the kept, held forever, imperfectly, namelessly, by something that will
+          outlast every ship. Keep it plain, and let the gratitude carry it.

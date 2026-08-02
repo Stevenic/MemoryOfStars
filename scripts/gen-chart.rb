@@ -92,11 +92,34 @@ end
 full = base.dup
 full['stars']  = base['stars'] + extra
 full['named']  = (base['named'] || 1) + extra.length
-full['routes'] = routes
+# route endpoints use bell-frame system ids; published stars may carry older chart
+# ids (enara's star was named auros before the frame existed) — remap at emit
+# the published auros row predates the frame: widen its refs to every book its
+# system carries, so the preview hangs all of Enara's recordings at its star
+enara_refs = (bell['systems'].find { |s| s['id'] == 'enara' }['books'] || []).map { |b| format('book-%02d', b) }
+au = full['stars'].find { |s| s['id'] == 'auros' }
+au['refs'] = ((au['refs'] || []) + enara_refs).uniq if au
+ALIAS = { 'enara' => 'auros' }.freeze
+full['routes'] = routes.map { |r| r.merge('a' => ALIAS.fetch(r['a'], r['a']), 'b' => ALIAS.fetch(r['b'], r['b'])) }
 File.write(File.join(ROOT, 'docs', '_data', 'starfield_full.json'), JSON.generate(full))
 File.write(File.join(ROOT, 'docs', '_data', 'systems_full.json'), JSON.generate(systems_bundle))
 
+# --- the memory catalog: bible-side recordings become preview pseudo-slices ---
+mems_bundle = {}
+Dir[File.join(ROOT, 'series-bible', 'memories', 'book-*.yml')].sort.each do |mf|
+  d = YAML.load_file(mf)
+  (d['slices'] || []).each do |sl|
+    mems_bundle[sl['id']] = {
+      'slice' => { 'id' => sl['id'], 'star' => sl['star'] || d['book'], 'title' => sl['title'], 'frame' => sl['frame'] },
+      'memories' => sl['memories'] || [],
+      'catalog' => true
+    }
+  end
+end
+File.write(File.join(ROOT, 'docs', '_data', 'memories_full.json'), JSON.generate(mems_bundle))
+
 puts "starfield_full.json: #{full['stars'].length} stars (#{extra.length} unrevealed pins) + #{routes.length} routes"
 puts "systems_full.json:   #{systems_bundle.length} systems"
+puts "memories_full.json:  #{mems_bundle.length} catalog slices, #{mems_bundle.values.sum { |s| s['memories'].length }} memories"
 puts "\n— wiring pins (copy into stars-named.yml when each book publishes) —"
 pins.each { |p| puts '  ' + p }

@@ -1,0 +1,51 @@
+# Memories catalog — Book 28: The Unmaking (format: see README.md)
+# Slice firewall: each frame holds only what its scene knows at that moment.
+
+book: book-28
+slices:
+  - id: orin-in-the-scouring
+    star: book-28
+    title: "Orin in the Scouring"
+    frame: >
+      Orin, five centuries after Lyra: the festival calendar running on its old
+      ground as the erratic arc arrives at the first place. The town's rites,
+      the committee's instruments, and a taking that is gentle and wrong. What
+      the Gate was is not in this recording — only what it cost.
+    memories:
+      - id: the-gate-falls-silent
+        title: "The Gate Falls Silent"
+        when: "the Festival of Last Things · mid-rite"
+        chapters: [chapter-2]
+        inhabit: [idra, gale, zel]
+        frame: >
+          Mid-festival, mid-rite, the mountain's voice simply stops — present
+          since anyone's memory of anything, and then not. The town's disbelief
+          comes first; the instruments only confirm what the silence already
+          said. The erratic arc has come to the first place. Play the hush
+          honestly; nobody screams.
+
+      - id: the-question-of-the-plaque
+        title: "The Question of the Plaque"
+        when: "the taking · the night of the choosing"
+        chapters: [chapter-5]
+        inhabit: [idra, ketra, alba]
+        frame: >
+          The plaque — singular, sacred, by every rule bait — and the debate the
+          town was always going to have: disperse it, ward it, or keep it as the
+          thing it is. The town chooses the town's way: the plaque stays, at
+          known cost, because keeping is what it is for. That night the name
+          goes plural into every mouth regardless — the Night of Strangers, with
+          one name at its center.
+
+      - id: the-name-holds
+        title: "The Name Holds"
+        when: "after the arc · the morning count"
+        chapters: [chapter-8]
+        inhabit: [idra, gale, alba]
+        frame: >
+          The arc has passed; the audit is unflinching — the Gate silent, the
+          mountain cold, the plaque taken — and the town standing. At the
+          morning count the name answers from more mouths than ever held it:
+          what was practiced held, what was assumed did not, and Idra's survey
+          closes on that correlation. The cartographer finishes the map before
+          she lets herself weep over it.

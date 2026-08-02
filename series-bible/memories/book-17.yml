@@ -1,0 +1,74 @@
+# =============================================================================
+# MEMORY CATALOG — Book 17, The Memory War
+# Planned recordings only; world DBs are built at publish. Frames obey the
+# spoiler firewall: each memory may hold only what its own scene knows.
+# =============================================================================
+
+book: book-17
+slices:
+  - id: targeting-floor
+    star: book-17
+    title: "The Targeting Floor"
+    frame: >
+      Dresk's strike corps at war: the maps, the firing liturgies, the audit culture of
+      a power that has weaponized forgetting. The strikes' delivery is never shown —
+      maps, liturgy, and effects only. Thriller propulsion; nobody's grief is set
+      dressing.
+    memories:
+      - id: the-echo
+        title: "The Echo"
+        when: "days after the masterpiece strike"
+        chapters: [chapter-2]
+        inhabit: [kest, brom, sette]
+        frame: >
+          Kest's masterpiece has unmade a Corvane rally-name across three systems — and
+          days later a true blank arrives, unaimed and unowned, along the exact profile
+          she drew. Sette's overlay confirms what Kest already knows in her stomach: the
+          weather has her signature. Keep the floor's professional calm intact around
+          her; the dread is private, and it has a deadline.
+
+      - id: the-audit
+        title: "The Audit"
+        when: "deep in the war · the audit of her record"
+        chapters: [chapter-6]
+        inhabit: [kest, brom]
+        frame: >
+          Brom's suspicion has become a formal audit of Kest's targeting record, and she
+          has been drawing her recent strikes to miss. What saves her is the thing that
+          damns her: her old strikes' echoes, arriving on schedule, proving her maps
+          still work. She watches a blank eat her own handiwork's aftermath and files
+          the paperwork with steady hands. Near-catch dread; targeting language as
+          armor.
+
+  - id: neutral-channel
+    star: book-17
+    title: "The Neutral Channel"
+    frame: >
+      The ledger's neutral ground: the institute's channel between two powers at war,
+      Sette's overlay counting strikes by day and blanks by night — and, after, the
+      watch kept there. The only place in the reach where enemies can read each other's
+      work.
+    memories:
+      - id: the-correction
+        title: "The Correction"
+        when: "the day the map came back"
+        chapters: [chapter-4]
+        inhabit: [kest, arno, sette]
+        frame: >
+          Through the ledger's neutral channel, one of Kest's maps returns corrected —
+          an error in her blast-profile annotated in an enemy hand. Arno has been
+          reading her work for years, and the correction is also a proof: his strikes
+          echo too. First contact between the only two people alive who can see the
+          pattern. Professional courtesy as treason; not one word wasted.
+
+      - id: first-watch
+        title: "First Watch"
+        when: "after the Accords · the first shared watch"
+        chapters: [epilogue]
+        inhabit: [kest, arno]
+        frame: >
+          Kest and Arno's first watch as war-observers: decaying echo-counts read aloud
+          between them, professional shorthand becoming something like friendship. The
+          strike-echoes reach zero — and beneath, revealed by the war's absence, the
+          blanks continue: slower, patient, unfed and unbothered. Arno says it so Kest
+          doesn't have to. Quiet, spent, and honest; nothing the war unmade returns.

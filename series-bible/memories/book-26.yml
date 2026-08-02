@@ -1,0 +1,69 @@
+# Memories catalog — Book 26: The Gathering (format: see README.md)
+# Slice firewall: each frame holds only what its scene knows at that moment.
+
+book: book-26
+slices:
+  - id: summons-route
+    star: book-26
+    title: "The Summons Route"
+    frame: >
+      The weeks a courier spent gathering the last Convening, one road and one
+      passenger at a time. The summons has been unsealed; everyone aboard knows
+      the reason, and the manifest keeps growing. Where the roads end is not in
+      this recording.
+    memories:
+      - id: the-carrier
+        title: "The Carrier"
+        when: "days out from the unsealing · nightfall at a relay-house"
+        chapters: [chapter-3]
+        inhabit: [gale, zel]
+        frame: >
+          A relay-house has refused Zel a bed — carriers are walking plural
+          archives, and fear does arithmetic fast. Gale's route-craft solves what
+          courtesy couldn't, and the two women take each other's measure over the
+          solving. Reunion warmth with teeth; let the road do the rest.
+
+      - id: the-rival-summons
+        title: "The Rival Summons"
+        when: "mid-route · the Regency's convention"
+        chapters: [chapter-5]
+        inhabit: [gale, bode]
+        frame: >
+          Chancellor Bode's convention is gathering the same worlds with better
+          funding and a simpler pitch. He offers Gale the Regency's courier
+          contract — every road, forever, one employer — and she declines on
+          instinct, not yet knowing why. Courteous on both sides; neither is
+          wrong yet.
+
+  - id: convening-at-valen
+    star: book-26
+    title: "The Convening at Valen"
+    frame: >
+      Valen, the Lens's old city, lit for the first Convening of its name: five
+      traditions, forty worlds' delegates — and across the same city, a rival
+      table, larger. What both tables are racing toward is not in this
+      recording.
+    memories:
+      - id: the-watch-roll
+        title: "The Watch-Roll Opened"
+        when: "the first Convening · Valen, lit"
+        chapters: [chapter-8]
+        inhabit: [gale, zel, ketra, idra]
+        frame: >
+          The watch-roll opened before the five traditions: a count that goes
+          up, read aloud in disagreeing tallies from every world — none matching,
+          all binding. The reach, volunteering for a watch not yet defined. Let
+          the wonder be plain and the arithmetic honest.
+
+      - id: the-first-watch
+        title: "The First Watch"
+        when: "after the signing · Gale's last delivery"
+        chapters: [chapter-10]
+        inhabit: [gale, zel, alba]
+        frame: >
+          The Compact is signed — smaller than the coalition across the city,
+          plural, stubborn — and its first act is not war but a race to a door
+          nobody has seen. Gale's last delivery of the route is the watch-roll
+          itself, entrusted to the committee she assembled. Her manifest, for the
+          first time in her life, complete. Keep the relief quiet; the race has
+          already begun.

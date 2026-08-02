@@ -1,0 +1,52 @@
+# =============================================================================
+# MEMORY CATALOG — Book 07, A Hundred Empty Years (~CR 300)
+# Catalog only; world DBs are built at publish. SPOILER FIREWALL: each frame may
+# contain only what its own scene knows at that moment — nothing from later
+# chapters, later books, or planning/.
+# =============================================================================
+
+book: book-07
+slices:
+  - id: sowen-emptying-year
+    star: book-07
+    title: "Sowen — the Hundredth year"
+    frame: >
+      A small colony that empties itself every hundred years: no statues, no surnames older
+      than a generation, law without precedent, and a Manual of skills that is all anyone
+      inherits. The first Hundredth is approaching like weather. The practice is taught as
+      freedom, and the freedom is real. Plain, domestic, close.
+    memories:
+      - id: manual
+        title: "The Manual"
+        when: "the ninety-ninth year · an ordinary week"
+        chapters: [chapter-1]
+        inhabit: [tilde, ansel, petra]
+        frame: >
+          Sowen at ninety-nine years, shown working: the Manual in daily use, the wheelwright's
+          yard, a town that keeps skills and not stories. Tilde, apprentice Keeper, has a
+          private vice — she recites: names of dogs, storms, bread prices, kept nowhere but her
+          head. The Hundredth is coming and nobody dreads it out loud. Warm, small, and steady.
+
+      - id: page
+        title: "The Page"
+        when: "weeks before the Hundredth · the bindery, late"
+        chapters: [chapter-2]
+        inhabit: [tilde, ansel]
+        frame: >
+          In the bindery, a page that predates the founding — contraband past, in a town where
+          nothing old should exist. Tilde brings it to Ansel and watches his face do the wrong
+          thing: not surprise. Recognition. Say nothing more than the scene knows; the floor of
+          the holy practice has just moved. Quiet, and colder than it looks.
+
+      - id: emptying
+        title: "The Hundredth"
+        when: "the Hundredth · the day of the Emptying"
+        chapters: [chapter-8]
+        inhabit: [tilde, vorn, petra]
+        frame: >
+          The great Emptying, performed in full — and reformed mid-rite: Tilde, Keeper now,
+          tells the town the truth, that Sowen does not burn but sends away, and the crates go
+          up the tether in plain sight. Vorn answers with fire — one crate, a decade of the
+          colony, ash before everyone's eyes, and no one will ever know what it held. The town,
+          having tasted real forgetting, must choose with its eyes open. Liturgical, raw, and
+          very public.

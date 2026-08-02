@@ -1,0 +1,74 @@
+# =============================================================================
+# MEMORY CATALOG — Book 18, The Cartographers of the End
+# Planned recordings only; world DBs are built at publish. Frames obey the
+# spoiler firewall: each memory may hold only what its own scene knows.
+# =============================================================================
+
+book: book-18
+slices:
+  - id: cartographers-institute
+    star: book-18
+    title: "The Institute of the End"
+    frame: >
+      The Cartographers at work: survey pairs, verification rules, the overlay wall,
+      the ledger's three states — answering, relay-held, attested. The cycle's quietest
+      horror is arithmetic; keep every scene administrative and let the dread come from
+      the numbers.
+    memories:
+      - id: agenda-item-three
+        title: "Agenda Item Three"
+        when: "committee night · the vote"
+        chapters: [chapter-2]
+        inhabit: [tess, grier, marn]
+        frame: >
+          The committee room. The evidence read into the record, the vote taken, and
+          the first decrement in the count's history: one world, present by telescope,
+          absent from every mind and register that once held it, struck from answering
+          to attested. The number goes down while the room holds its breath. Procedure
+          throughout — the horror is that it is minuted.
+
+      - id: the-plot
+        title: "The Overlay Wall"
+        when: "after the survey · the night of the plotting"
+        chapters: [chapter-7]
+        inhabit: [tess, grier, marn]
+        frame: >
+          Tess plots the cycle's data on the overlay wall — the fast-blanked obscure,
+          the clean-collected strike-zones, the stubborn plural-held, Penna's sand —
+          and a rule resolves out of the noise: the obscure vanish; the referenced
+          persist; the coherent collect cleanest. The room goes quiet the way rooms do
+          when arithmetic becomes theology. Pattern only; no one here knows what the
+          thing is.
+
+  - id: penna-green-blank
+    star: book-18
+    title: "Penna — the green blank"
+    frame: >
+      A region that exists, walkably, greenly, while every record of it unwrites: roads
+      good, roofs sound, orchards gone feral, nobody home. Names slide off living minds
+      in days here. Beauty first, then the arithmetic of it; the grief stays specific —
+      a doorframe, a bell, a ford — never generalized.
+    memories:
+      - id: the-green-blank
+        title: "The Survey's First Day"
+        when: "the survey's first day in Penna"
+        chapters: [chapter-3]
+        inhabit: [tess, marn]
+        frame: >
+          Penna exists — sunlight on a world no memory will hold, evacuated a
+          generation ago as the records thinned. A local guide meets the survey at the
+          bend as if expected; no one remarks on it. By nightfall Marn must re-teach
+          himself the day's place-names from his notes, and Tess's notes are already
+          wrong. Wonder inverted to ache; state the impossible flatly.
+
+      - id: the-house
+        title: "The House on Her Papers"
+        when: "the survey · the house"
+        chapters: [chapter-5]
+        inhabit: [tess, marn]
+        frame: >
+          Tess's papers lead to a house, and the fieldwork is her own childhood:
+          measuring rooms she cannot remember, cataloguing a garden run wild, finding
+          pencil-marks on a doorframe at exactly her heights. Love without memory's
+          help. Marn quietly takes the house's shift himself each day so her notes
+          never have to. Precision as tenderness; no elegy allowed on the page.

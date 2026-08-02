@@ -1,0 +1,51 @@
+# Memories catalog — Book 03, The Lighthouse (~CR 60)
+# Catalog only; world DBs are built at publish. Frames are slice-firewall clean:
+# nothing from Act II, later books, or planning/.
+
+book: book-03
+slices:
+  - id: the-skerry
+    star: book-03
+    title: "The Skerry"
+    frame: >
+      A beacon station on a bare rock between crossings: one keeper, and a light that is
+      not light but route-memory — the remembered crossings every passing ship takes its
+      soundings from. Edda has kept it nine years alone. Nothing past the first descent
+      into the routes is in this recording.
+    memories:
+      - id: soundings
+        title: "Soundings"
+        when: "a quarter-day · the courier's visit"
+        chapters: [chapter-1]
+        inhabit: [edda, pell]
+        frame: >
+          Station life, shown in work: a freighter takes its soundings and pays its toll;
+          Pell the courier makes the quarterly call, warm and unbothered, and leaves.
+          Edda narrates her rounds to the station, teases the Log, wishes the kettle good
+          morning; nothing answers. Keep it companionable and unhurried, and let the
+          silence after the courier's sail be the loudest thing in it.
+
+      - id: the-anthem
+        title: "The Anthem"
+        when: "the night watch · the oldest band"
+        chapters: [chapter-2]
+        inhabit: [edda, the-log]
+        frame: >
+          On the oldest band, a position-hail arrives from the Anthem — a ship lost three
+          hundred and twelve years — in the voice of Joren, Edda's predecessor, nine
+          years dead and born long after the ship vanished. Protocol answers; the hail
+          answers back. It is not a recording. State each impossibility flatly and answer
+          none of them; in a lifetime of talking to things, this is the first thing that
+          has ever spoken back.
+
+      - id: residue
+        title: "Residue"
+        when: "the first descent into the routes"
+        chapters: [chapter-4]
+        inhabit: [edda, the-log]
+        frame: >
+          Edda goes into the routes: ten thousand remembered crossings at once, the space
+          between stars rendered as a remembered sea. Two kinds of keeping, taught in one
+          lesson — the loose surface freely skimmed, and the load-bearing strata live
+          ships stand on. In the routes, the Anthem's wake. Recent. Render the sea with
+          awe and the wake with dread, and explain neither.

@@ -1,0 +1,67 @@
+# Memories catalog — Book 24: The Name of the Dark (~CR 481)
+# Catalog only; world DBs are built at publish. Spoiler firewall applies at
+# frame level: each frame holds only what that scene knows at that moment.
+
+book: book-24
+slices:
+  - id: the-dark-strata
+    star: book-24
+    title: "The store — the last two pages"
+    frame: >
+      The ledger mostly strike-throughs and two strata left, both dark-reading:
+      deeper, colder, refusing classification. The walks of the builders' own
+      investigation, and what the team decided the reach was owed. The
+      testament, and everything after the store, is not in this recording.
+    memories:
+      - id: the-litany
+        title: "The Litany"
+        when: "two strata left · the vote"
+        chapters: [prologue]
+        inhabit: [hask, isla, kova, pim]
+        frame: >
+          The store nearly spent, and the last two strata reading dark. Hask
+          says his litany the way he has said it before every walk — objections
+          one through nine, ending where it always ends: and yet we will walk
+          it. The team would not go down without it. Dry, exact, and more
+          afraid than anyone says aloud.
+
+      - id: the-instrument-hall
+        title: "The Instrument Hall"
+        when: "the first dark walk · the builders' research era"
+        chapters: [chapter-2]
+        inhabit: [hask, kova]
+        frame: >
+          The builders' research hall, alive: instruments the size of weather,
+          arguments in the era's idiom, data accumulating on the dying of
+          meaning — and on the threshold, worn shallow by the era's own hands,
+          a mark nobody comments on. Render the walked past as other; the
+          visitor cannot change it, and the stratum spends as it plays; the
+          investigators may be witnessed, never worn and never named. Let the
+          reframe land in-scene: they were investigating too.
+
+      - id: the-question-of-telling
+        title: "The Question of Telling"
+        when: "up from the mark · the argument over what is owed"
+        chapters: [chapter-7]
+        inhabit: [hask, isla, kova, amel]
+        frame: >
+          The team, up, with the mark's reading — and, underneath it, a
+          possibility from the data that nobody is asked to believe and
+          everybody has to carry. The argument at full dignity: publish the
+          shape as armor for everyone, against publishing what could unmake the
+          will to keep anything. Isla must rule as a steward; Hask dissents,
+          and is asked to hold the harder thing anyway, because a doubter's
+          custody is the safest kind.
+
+      - id: the-tenth-article
+        title: "The Tenth Article"
+        when: "the store spent · the last departure rite"
+        chapters: [epilogue]
+        inhabit: [hask, amel, isla, kova]
+        frame: >
+          The cold face blank, the ledger all strike-throughs, the team
+          standing where the past used to be for the last rite of departure.
+          Hask says the litany aloud with witnesses — objections one through
+          nine, and then, for the first time, an unnumbered tenth, held not
+          argued. Amel does not transcribe it, and everyone present knows that
+          is the point.

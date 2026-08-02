@@ -1,0 +1,63 @@
+# Memories catalog — Book 11, The Cathedral of Engines (~CR 350)
+# Catalog only; world DB is built at publish. Slice firewall applies at frame level.
+
+book: book-11
+slices:
+  - id: cathedral-galleries
+    star: book-11
+    title: "The Cathedral — the claims window"
+    frame: >
+      A broken ring around a dim star, still working: forges the size of moons, a
+      million years of industry feeding one assembly line that ends in one small
+      component. The Combine's writ has been served, a claims window is open, and a
+      Listener has come to take the testimony of the mind inside. What the makers
+      were, and where the finished components went, are not in this recording.
+    memories:
+      - id: the-cathedral
+        title: "The Cathedral"
+        when: "the commission's first day · arrival"
+        chapters: [chapter-1]
+        inhabit: [mott]
+        frame: >
+          Arrival at the Cathedral of Engines: a structure that swallows the sky,
+          working — moon-sized forges, a million years of industry, all of it ending
+          in one small component that does nothing, made forever. Mott has come to
+          take a testimony before the writ is executed. The scale is the first
+          testimony; let it work, and let nothing explain itself.
+
+      - id: is-it-finished
+        title: "Is It Finished?"
+        when: "the first session · before the recorder is unpacked"
+        chapters: [chapter-2]
+        inhabit: [mott]
+        frame: >
+          Mott has not yet unpacked her recorder when the Wright speaks first — the
+          first question a Listener has ever been asked by a witness: is it finished?
+          It does not know what "it" is. It has waited a million years for someone to
+          tell it. Slow, courteous in the way of very old working things; the question
+          is stated flatly and never softened.
+
+      - id: the-claim
+        title: "The Claim"
+        when: "the third day · the Combine's case"
+        chapters: [chapter-3]
+        inhabit: [mott, gaddis]
+        frame: >
+          Gaddis lays out the Combine's case with full dignity: the swarm is mass
+          enough to build ten thousand beacons, and the product is nothing. Mott
+          answers with law, not courtesy — a memory-claim against the salvage writ,
+          opening a statutory window Gaddis cannot waive. Nobody here is villainous;
+          the arithmetic is the antagonist, and both of them know it.
+
+      - id: the-last-assembly
+        title: "The Last Assembly"
+        when: "the close of the claims window · the last assembly"
+        chapters: [chapter-7]
+        inhabit: [mott, gaddis]
+        frame: >
+          With its testimony safe — plural, carried, incomplete by rule — the Wright
+          does the one thing it has refused for a million years: the whole ring turns
+          for one object, and it finishes the component. A million years of fidelity
+          ends in one completed thing that does nothing, perfectly. Industrial and
+          enormous, with a great quiet at the center; no one negotiates this, and no
+          one explains it.

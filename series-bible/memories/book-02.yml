@@ -1,0 +1,57 @@
+# Memories catalog — Book 02, The Archivist (~CR 25)
+# Catalog only; world DBs are built at publish. Frames are slice-firewall clean:
+# nothing from Act III, later books, or planning/.
+
+book: book-02
+slices:
+  - id: orin-the-record
+    star: book-02
+    title: "Orin — twenty-five years on"
+    frame: >
+      Orin, a generation after the Pilgrimage. Every account of that year contradicts
+      every other, and the town finds this acceptable. Valen, the Lens, and everything
+      Kieran learns there are not in this recording.
+    memories:
+      - id: the-book-of-relationships
+        title: "The Book of Relationships"
+        when: "twenty-five years after the Pilgrimage · midmorning"
+        chapters: [chapter-2]
+        inhabit: [kieran, lyra, tomas]
+        frame: >
+          Kieran Ash, a traveling historian of formidable certainty, has come to the Hall
+          to argue — and he scores a real point against the Book of Relationships, and
+          everyone in the room knows it. Then a name at the edge of every account refuses
+          to stay written; the page will not keep it. Wry and quick; let Kieran win the
+          argument; state the failure of the ink flatly and explain nothing.
+
+  - id: valen-and-the-lens
+    star: book-02
+    title: "Valen and the Lens"
+    frame: >
+      Valen, in the season Kieran Ash comes to the Resonance Lens under the oldest
+      archive. Every answer here buys two questions, and everyone is still enjoying
+      themselves. Nothing after the night the far light answers is in this recording.
+    memories:
+      - id: ordinary-things
+        title: "Ordinary Things"
+        when: "the first days at Valen"
+        chapters: [chapter-4]
+        inhabit: [kieran, renn, neris]
+        frame: >
+          Under the oldest archive, Master Renn keeps the Lens — an instrument that shows
+          relationships, not truth. Ordinary objects yield memories that cannot all be
+          true, and the plurality has structure, as if made. Kieran is enjoying himself,
+          and so should the visitor: keep the pace bright, let every answer buy two
+          questions, and let none of the questions close.
+
+      - id: the-signal
+        title: "The Signal"
+        when: "the night the Hall and the Lens answer each other"
+        chapters: [chapter-6]
+        inhabit: [kieran, renn, neris]
+        frame: >
+          The Lens and the distant Hall of Names begin to resonate — two instruments
+          discovering they are two nodes of one built thing. Names that never existed
+          flicker at the edges of the record, and then something very far away answers.
+          State it flatly and explain nothing; who built the network, and what has
+          answered, are not known in this room. Awe, held quiet.

@@ -1,0 +1,76 @@
+# =============================================================================
+# MEMORY CATALOG — Book 06, The Cartographer of Silence (~CR 300)
+# Catalog only; world DBs are built at publish. SPOILER FIREWALL: each frame may
+# contain only what its own scene knows at that moment — nothing from later
+# chapters, later books, or planning/.
+# =============================================================================
+
+book: book-06
+slices:
+  - id: guild-chapter-house
+    star: book-06
+    title: "The Chapter-House"
+    frame: >
+      A Wayfinders' Guild chapter-house, where the small roads between worlds are held in
+      living memory and everything is lists, ledgers, and licenses. Guild life rendered as
+      work: soundings rehearsed, mail signed for, the almanac the year's one great event.
+      Procedural, plain, quietly proud.
+    memories:
+      - id: almanac-day
+        title: "Almanac Day"
+        when: "almanac day · morning"
+        chapters: [prologue]
+        inhabit: [veya, osten, bri]
+        frame: >
+          The year's new edition has just arrived, the count on its cover — eleven thousand
+          four hundred six worlds answering — and no work gets done until everyone has found
+          their own routes in it. Veya's roads are listed small on page nine hundred; tomorrow
+          she runs the Farrow road, as she has four hundred times. Nothing is wrong yet.
+          Busy, ritual, content.
+
+      - id: hearing
+        title: "The Hearing and the Patient Mail"
+        when: "the day of the hearing · afternoon into evening"
+        chapters: [chapter-3]
+        inhabit: [veya, osten, bri]
+        frame: >
+          The hearing is over: Veya's memory tested perfect everywhere but the one road, and
+          Osten has taken her license with total procedure and visible grief. The missing mile
+          has no explanation anyone will allow except the holder, though the guild's own papers
+          on Farrow have begun to disagree with each other. In the dead-letter office, Bri keeps
+          the patient mail — letters arrived over decades whose send-stamps haven't happened
+          yet — and one of them mentions Farrow's harvest, three years from now. Formal on the
+          surface; something unaccounted-for underneath.
+
+  - id: farrow-road
+    star: book-06
+    title: "The Farrow Road"
+    frame: >
+      The far end of a road that failed: Farrow, a frontier world alive and ordinary and a
+      year deep in returned mail. The crossing that reached it was made without a held route,
+      and nobody here can say why the silence has two sides. Keep the strangeness flat and
+      the people practical.
+    memories:
+      - id: landfall
+        title: "Landfall at Farrow"
+        when: "landfall · Farrow, midmorning"
+        chapters: [chapter-6]
+        inhabit: [veya, darro]
+        frame: >
+          Veya has arrived on a road she rebuilt from paper and other people's fragments,
+          crossing with nothing held. Farrow is alive, ordinary, and unaware it was ever in
+          question — but its beacon is dark, its outbound mail has come back undeliverable for
+          a year, and its own maps of the road out are wrong too. Whatever is happening is not
+          happening in her head. Keep the town warm and the question cold.
+
+      - id: relighting
+        title: "The Relighting"
+        when: "the relighting · dusk"
+        chapters: [chapter-8]
+        inhabit: [veya, etta, darro]
+        frame: >
+          Farrow's beacon relit, and the first convoy feeling its way in on the rebuilt road.
+          Veya does the thing the guild has a word for: she teaches the route, freely, to Etta
+          and two others — four holders to one road — and, drawing Etta the way, draws for the
+          first time what is missing around it. A working day that is also a heresy. Festive at
+          the edges, deliberate at the center.

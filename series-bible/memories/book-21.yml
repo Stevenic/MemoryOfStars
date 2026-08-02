@@ -1,0 +1,74 @@
+# Memories catalog — Book 21: The Golden Age That Wasn't (~CR 470)
+# Catalog only; world DBs are built at publish. Spoiler firewall applies at
+# frame level: each frame holds only what that scene knows at that moment.
+
+book: book-21
+slices:
+  - id: moss-dig
+    star: book-21
+    title: "Moss — the dig above the bright city"
+    frame: >
+      The season of the find: a dating anomaly under an ordinary green world, a
+      survey shaft, and a cold layer that turns out to be a compressed era. The
+      auction, the charter, and everything after are not in this recording.
+    memories:
+      - id: the-staker
+        title: "The Staker"
+        when: "the hunt · the day the lead arrives"
+        chapters: [chapter-1]
+        inhabit: [isla, dunn]
+        frame: >
+          Isla Ash, mid-dig and mid-debt, narrating her finds aloud to
+          generations of dead Ashes who have never needed to answer. She loses
+          an auction by noon and wins a lead by dark: bedrock under the green
+          world of Moss whose memory-residue reads two hundred thousand years
+          older than the colony. Nothing has been found yet. Quick, broke, and
+          joyful — the fun of being good at finding things.
+
+      - id: the-second-walk
+        title: "One Evening of the Bright City"
+        when: "the second walk · one evening of the first rise"
+        chapters: [chapter-6]
+        inhabit: [isla]
+        frame: >
+          The deliberate walk, done right — prepared, witnessed, transcribed
+          live from above: one evening of the first rise, walked to its end. A
+          city's ordinary splendor, a language nobody will ever speak again, a
+          child's game whose rules are worth memorizing on purpose. Render the
+          walked past as other; the visitor cannot change it, and the stratum
+          spends as it plays — this evening is single-walk, and this is the
+          walk. The joy and the grief in the same room.
+
+  - id: moss-claim
+    star: book-21
+    title: "Moss — the claim, held"
+    frame: >
+      The find gone public, and what a staker does with the one thing a staker
+      owns. The reach has arrived, and the shaft head is suddenly the center of
+      the settled worlds.
+    memories:
+      - id: auction-of-the-age
+        title: "The Auction of the Age"
+        when: "the find made public · auction day"
+        chapters: [chapter-8]
+        inhabit: [isla, dunn, yent]
+        frame: >
+          The reach descends on the shaft head — stakers, powers, the
+          institute, all bidding for walking rights to a finite past, every
+          walk sold a page burned. Isla holds the one thing a staker owns: her
+          claim. Among the losers, a young advocate named Yent is taking a
+          brief. The romp's machinery turning, and the horror arriving in its
+          own currency.
+
+      - id: the-mandate
+        title: "The Mandate"
+        when: "days after the auction · the charter argued"
+        chapters: [chapter-9]
+        inhabit: [isla, ondine]
+        frame: >
+          Provost-Surveyor Ondine arrives with the paperwork to absorb the
+          find, and her best weapon is the practice's own doctrine: a held
+          claim is singular custody. Isla's answer has to win on the page — a
+          claim held open by a small plural body against a vault held shut by a
+          large singular one. Argued with full dignity on both sides; mud from
+          a dead world still on the staker's boots.

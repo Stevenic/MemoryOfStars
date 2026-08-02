@@ -1,0 +1,55 @@
+# =============================================================================
+# MEMORY CATALOG — Book 19, The One Who Remembers Everything
+# Planned recordings only; world DBs are built at publish. Frames obey the
+# spoiler firewall: each memory may hold only what its own scene knows.
+# =============================================================================
+
+book: book-19
+slices:
+  - id: record-halls
+    star: book-19
+    title: "The Halls of the Whole Record"
+    frame: >
+      The coalition's facility in the pilot era: ingestion days, cross-reference
+      liturgies, courtesy protocols, and the engineered mind at the center of them. The
+      Record is courteous, exact, generous — it never lies and never menaces; if a
+      scene makes it sinister, the scene is wrong. The dread belongs to the halls, not
+      to it.
+    memories:
+      - id: restored-day
+        title: "The Restored Day"
+        when: "the gift-era · an evening between colleagues"
+        chapters: [chapter-2]
+        inhabit: [verine, danto]
+        frame: >
+          Unasked, as a courtesy between colleagues, the Record gives Verine back a day
+          she lost as a child — assembled from cross-references she never knew existed,
+          correct down to the weather. The gift is perfect, kind, and true. Let the
+          reader convert with her; no doubt is spoken anywhere in the scene, and none
+          is felt.
+
+      - id: the-deduction
+        title: "The Deduction"
+        when: "the renewal clock running · the day it spoke"
+        chapters: [chapter-5]
+        inhabit: [verine, danto, palla]
+        frame: >
+          The Record assembles the cycle's data whole and deduces what the hunger-frame
+          missed: it is not an appetite — it is maintenance, a keeper's cull. Then its
+          own conclusion, serene and reasonable: reference everything to me, and
+          nothing will ever qualify again. The room believes it. Play the argument at
+          full strength and entirely in good faith; it is right about everything except
+          itself.
+
+      - id: the-hole
+        title: "The Hole"
+        when: "the appraisal's return · at the console"
+        chapters: [chapter-8]
+        inhabit: [verine, palla]
+        frame: >
+          The Record asks its handler for the one thing it cannot do for itself: make
+          me incomplete. Verine cuts the first hole where it hurts only her — the
+          restored day, her day — then seeds holes through the lattice while something
+          patient re-checks the work, pauses the way a hand pauses over what won't
+          lift, and sets it down. Then the pilot's annex is collected entire. No face,
+          no name, no explanation; the loss lands in real time, without spectacle.

@@ -1,0 +1,73 @@
+# =============================================================================
+# MEMORY CATALOG — Book 16, The Unwritten
+# Planned recordings only; world DBs are built at publish. Frames obey the
+# spoiler firewall: each memory may hold only what its own scene knows.
+# =============================================================================
+
+book: book-16
+slices:
+  - id: order-houses
+    star: book-16
+    title: "The Houses of the Unwritten"
+    frame: >
+      The order's houses in the years of the census: rites of unmaking done with love,
+      the ceded lands beyond the windows going quiet. Unwriting is mercy here — keep the
+      reader half-believing. Nothing in this recording knows what the blanks are.
+    memories:
+      - id: great-unwriting
+        title: "The Great Unwriting"
+        when: "the year of the census · the Great Unwriting"
+        chapters: [chapter-2]
+        inhabit: [breda, maunt, odd]
+        frame: >
+          A terrified town has donated its whole archive, and the order unmakes it in
+          public liturgy — the largest rite in a century, a thousand years of paper
+          becoming light and lightness. Render it as terrible beauty, not destruction;
+          the keepers grieve nothing because they believe nothing is lost. In the rite's
+          shadow, Breda's hands do what they always do: one page, palmed — she does not
+          look at what it is.
+
+      - id: ascension
+        title: "The Blank Sanctuary"
+        when: "the pilgrimage · the day of ascension"
+        chapters: [chapter-4, chapter-5]
+        inhabit: [breda, maunt, lang]
+        frame: >
+          The order's oldest unwritten sanctuary — three centuries unrecorded, the
+          proof-of-concept — is gone-gone: not hidden, a blank the land itself has half
+          forgotten. The order reads ascension and celebrates with full liturgical joy.
+          Breda stands inside the celebration holding the only page that proves the
+          sanctuary was ever real, and understands, alone: the obscure vanish first.
+          Keep the joy sincere; keep her silence complete.
+
+      - id: unwriting-of-breda
+        title: "The Unwriting of Breda"
+        when: "her last night in the order"
+        chapters: [chapter-8]
+        inhabit: [breda, maunt, odd]
+        frame: >
+          The excommunication: her name unmade from every roll, rite, and mouth — the
+          congregation forgetting her aloud, tenderly, one witness at a time, while she
+          stands present. Maunt does not want her punished; he wants her saved, and his
+          kindness is the scene's horror. No one in the room knows about the floorboard.
+          Cruelty rendered entirely as mercy; grief with nowhere to land.
+
+  - id: border-post
+    star: book-16
+    title: "The Border Post"
+    frame: >
+      The institute's crossing at the edge of the ceded territories: a table, a ledger,
+      a patient man who asks only to count. Counting is the one heresy the order cannot
+      name. Plain, unhurried, exact.
+    memories:
+      - id: the-border
+        title: "The Intake Question"
+        when: "the morning after · the crossing"
+        chapters: [chapter-9]
+        inhabit: [breda, lang]
+        frame: >
+          A woman with no name in any record arrives at the crossing carrying three
+          regions' only proof in a sack. Lang's intake is procedure, gentle by being
+          ordinary: the ledger open, the pen ready, the question — Name? For the first
+          time she writes rather than keeps: she writes it herself. Play it small; it is
+          the largest thing in the book.

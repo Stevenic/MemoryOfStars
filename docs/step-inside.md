@@ -10,6 +10,7 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
   window.SI_STARS = {{ site.data.starfield | jsonify }};   /* the deterministic star catalog */
   window.SI_STARS_FULL = {% if site.data.starfield_full %}{{ site.data.starfield_full | jsonify }}{% else %}null{% endif %};   /* local preview only (gitignored) */
   window.SI_SYSTEMS_FULL = {% if site.data.systems_full %}{{ site.data.systems_full | jsonify }}{% else %}null{% endif %};
+  window.SI_MEMS_FULL = {% if site.data.memories_full %}{{ site.data.memories_full | jsonify }}{% else %}null{% endif %};   /* local preview: the memory catalog */
   window.SI_SYSTEMS = {                                     /* drill-down solar systems, by id */
     {% for sys in site.data %}{% if sys[1].system %}"{{ sys[1].system.id }}": {{ sys[1] | jsonify }},{% endif %}{% endfor %}
   };
@@ -39,6 +40,7 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
       <input id="si-search" type="text" placeholder="Find a star, or ask the Archive…"
              autocomplete="off" spellcheck="false" aria-label="Find a star, or ask the Archive">
       <div class="si-search-results" id="si-search-results" hidden></div>
+      <div class="si-greet" id="si-greet" hidden aria-live="polite"></div>
     </div>
   </div>
   <div class="si-star-panel" id="si-star-panel">
@@ -223,6 +225,16 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
 .si-sr-row .si-sr-note { display: block; color: var(--muted); font-size: .74rem; margin-top: .1rem; }
 .si-sr-answer { padding: .7rem .9rem; color: var(--star); font-size: .85rem; line-height: 1.5; }
 .si-sr-answer .si-sr-note { display: block; color: var(--muted); font-size: .72rem; margin-top: .45rem; }
+.si-greet { margin-top: .35rem; border: 1px solid var(--border); border-radius: var(--radius);
+  background: rgba(12,16,30,.9); backdrop-filter: blur(8px); padding: .6rem .9rem;
+  transition: opacity .5s ease; }
+.si-greet[hidden] { display: none; }
+.si-greet.si-greet-fade { opacity: 0; }
+.si-greet-title { color: var(--text); font-family: "Iowan Old Style", Palatino, Georgia, serif; font-size: 1.05rem; margin-bottom: .15rem; }
+.si-greet-line { color: var(--star); font-size: .8rem; line-height: 1.55; }
+.si-greet-typing { color: var(--gold); animation: si-caret-blink .7s steps(1) infinite; }
+@keyframes si-caret-blink { 50% { opacity: 0; } }
+.si-star-panel[hidden] { display: none; }
 .si-starlabel { fill: var(--gold); font-size: 11px; letter-spacing: .04em; pointer-events: none; }
 .si-planetlabel { fill: var(--muted); font-size: 10px; pointer-events: none; }
 .si-orbit { fill: none; stroke: rgba(207,224,255,.13); stroke-width: 1; }
@@ -431,6 +443,7 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
 (function () {
   "use strict";
   var ARCHIVE = window.SI_ARCHIVE || {};
+  if (window.SI_MEMS_FULL) Object.keys(window.SI_MEMS_FULL).forEach(function (k) { if (!ARCHIVE[k]) ARCHIVE[k] = window.SI_MEMS_FULL[k]; });
   var LS = { key: "mos_api_key", model: "mos_model", custom: "mos_model_custom" };
   var MODELS = {
     sonnet: { label: "Sonnet 5", hint: "The best mix of speed and intelligence — recommended.", id: "claude-sonnet-5" },
@@ -503,6 +516,16 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
     var refs = {}; (all || []).forEach(function (m) { (m.chapters || []).forEach(function (ck) { refs[ck] = true; }); });
     var keys = Object.keys(refs);
     return keys.length > 0 && keys.every(function (ck) { return isRead(star, ck); });
+  }
+  function memoriesForSystem(sysId) {
+    var star = ((window.SI_STARS_FULL || window.SI_STARS || {}).stars || []).find(function (s) { return s.system === sysId; });
+    var refs = (star && star.refs ? star.refs.slice() : []);
+    var sys = (window.SI_SYSTEMS || {})[sysId] || (window.SI_SYSTEMS_FULL || {})[sysId];
+    var sr = sys && sys.system && sys.system.star_ref;
+    if (sr && refs.indexOf(sr) < 0) refs.push(sr);
+    var out = [];
+    refs.forEach(function (r) { out = out.concat(memoriesForStar(r)); });
+    return out;
   }
   function memoriesForStar(starId) {
     var out = [];
@@ -913,6 +936,49 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
              zoomBy: function (f) { flyTo(vb.x + vb.w / 2, vb.y + vb.h / 2, vb.w * f, 260); },
              reset: function () { vb = { x: home.x, y: home.y, w: home.w, h: home.h }; apply(); } };
   }
+  // --- the greeting: the instrument reports its status under the input, line by line.
+  var greetSeq = { token: 0 };
+  function dismissGreet(instant) {
+    var g = $("si-greet"); if (!g || g.hidden) return;
+    greetSeq.token++;
+    if (instant) { g.hidden = true; g.classList.remove("si-greet-fade"); return; }
+    g.classList.add("si-greet-fade");
+    setTimeout(function () { g.hidden = true; g.classList.remove("si-greet-fade"); }, 520);
+  }
+  function countOpenMemories() {
+    var n = 0;
+    Object.keys(ARCHIVE).forEach(function (sid) {
+      var s = ARCHIVE[sid]; if (!s || !s.slice) return;
+      var all = s.memories || [];
+      all.forEach(function (m) { if (memUnlocked(s.slice.star, m, all)) n++; });
+    });
+    return n;
+  }
+  function showGreeting(nCharted, nRoutes) {
+    var g = $("si-greet"); if (!g) return;
+    var tok = ++greetSeq.token;
+    g.innerHTML = ""; g.hidden = false; g.classList.remove("si-greet-fade");
+    var title = document.createElement("div"); title.className = "si-greet-title"; title.textContent = "The Known Sky";
+    g.appendChild(title);
+    var lines = [
+      nCharted + (nCharted === 1 ? " system charted" : " systems charted"),
+      nRoutes + " on the mesh",
+      countOpenMemories() + " memories available"
+    ];
+    var i = 0;
+    function next() {
+      if (tok !== greetSeq.token) return;
+      if (i >= lines.length) return;
+      var ln = document.createElement("div"); ln.className = "si-greet-line si-greet-typing"; ln.textContent = "▍";
+      g.appendChild(ln);
+      setTimeout(function () {
+        if (tok !== greetSeq.token) return;
+        ln.className = "si-greet-line"; ln.textContent = lines[i]; i++;
+        next();
+      }, 500);
+    }
+    next();
+  }
   // --- continuous camera: views never cut, they arrive. A fade masks the svg swap;
   // entering a system flies the camera into the star first, then dissolves inward.
   function fadeSwap(fn) {
@@ -938,6 +1004,7 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
   function setSky(sub, title, blurb, status) {
     // old glass: the name lands whole; the annotation streams in after it
     var tok = ++skyStream.token;
+    $("si-star-panel").hidden = !((sub || "") + (title || "") + (blurb || "") + (status || ""));
     $("si-sp-cycle").textContent = sub || "";
     $("si-sp-title").textContent = title || "";
     $("si-sp-facet").textContent = "";
@@ -1367,12 +1434,11 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
       if (best) setSky(best.d[0], best.d[1], best.d[2], best.d[3]);
     });
 
-    setSky("", "The known sky",
-      "Reading lights the stars that the books have named. Everything else is astronomy, and is " +
-      "there whether or not anyone has written it down.",
-      lit.length + (lit.length === 1 ? " system charted" : " systems charted") +
-      (edges.length ? " · " + edges.length + (edges.length === 1 ? " route" : " routes") + " on the mesh" : "") +
-      " · drag to pan · scroll to zoom · click anything to see what it is.");
+    setSky("", "", "", "");
+    showGreeting(lit.length, edges.length);
+    // moving the map puts the report away — the instrument yields to the hand
+    svg.addEventListener("wheel", function () { dismissGreet(); }, { passive: true });
+    svg.addEventListener("pointermove", function (e) { if (e.buttons) dismissGreet(); });
   }
 
   // Overlay a body's generated render (docs/assets/art/<sys>/<id>.png), circle-clipped
@@ -1395,12 +1461,13 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
 
   function showSystem(sysId, intro) {
     var sys = SYSTEMS[sysId]; if (!sys) { showGalaxy(); return; }
-    cosmos.view = "system"; setBack(galaxyUnlocked() ? "sky" : null); $("si-mesh-toggle").hidden = true; clearMemPanel();
+    cosmos.view = "system"; setBack(galaxyUnlocked() ? "sky" : null); $("si-mesh-toggle").hidden = true; dismissGreet(true); clearMemPanel();
     var svg = freshSvg();
     var R = 560, home = intro === "dive" ? { x: -55, y: -55, w: 110, h: 110 } : { x: -R * 2.0, y: -R * 2.0, w: R * 4.0, h: R * 4.0 };
     var pz = panZoom(svg, { x: -R * 2.4, y: -R * 2.4, w: R * 4.8, h: R * 4.8 }, home);
     cosmos.panzoom = pz;
     pz.flyTo(0, 0, R * 2.4, intro === "dive" ? 800 : 450);   // bloom outward from the sun — arriving, not appearing
+    var motesHung = false;
     var planets = (sys.bodies || []).filter(function (b) { return b.kind === "planet"; });
     var belts = (sys.bodies || []).filter(function (b) { return b.kind === "belt"; });
     var maxAu = 1; planets.forEach(function (p) { if (p.orbit && p.orbit.au > maxAu) maxAu = p.orbit.au; });
@@ -1421,7 +1488,8 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
       bodyArt(svg, g, px, py, pr, sysId, p.id);
       (p.moons || []).forEach(function (m, j) { var ma = ang + 1.1 + j * 0.9, mr = pr + 5 + j * 4; svgEl(svg, "circle", { cx: (px + Math.cos(ma) * mr).toFixed(1), cy: (py + Math.sin(ma) * mr).toFixed(1), r: 1.5, fill: "#dce6ff", "class": "si-moon" }, g); });
       if (p.story && sys.system.star_ref) {
-        var mems = memoriesForStar(sys.system.star_ref);
+        motesHung = true;
+        var mems = memoriesForSystem(sysId);
         mems.forEach(function (it, k) {
           var mma = ang + 0.7 + k * (6.2832 / Math.max(mems.length, 3)), mmr = pr + 16 + (k % 2) * 6;
           var mx = px + Math.cos(mma) * mmr, my = py + Math.sin(mma) * mmr;
@@ -1430,8 +1498,10 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
           svgEl(svg, "circle", { cx: mx.toFixed(1), cy: my.toFixed(1), r: 5.5, "class": "si-mote-halo" }, mote);
           svgEl(svg, "circle", { cx: mx.toFixed(1), cy: my.toFixed(1), r: 1.5, "class": "si-mote-core" }, mote);
           function tell() {
+            var cat = ARCHIVE[it.sliceId] && ARCHIVE[it.sliceId].catalog;
             setSky("a recorded memory", it.unlocked ? it.mem.title : "Sealed",
-              it.unlocked ? (it.mem.frame || "") : "Read the chapter it belongs to, and this light opens.",
+              it.unlocked ? (it.mem.frame || "") : (it.mem.when ? it.mem.when + " — " : "") +
+                (cat ? "its book is not yet written into the record." : "read the chapter it belongs to, and this light opens."),
               it.unlocked ? "Click the light to fly in." : "");
           }
           mote.addEventListener("mouseenter", tell);
@@ -1450,7 +1520,31 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
       g.addEventListener("click", function (e) { e.stopPropagation(); if (pz.moved() > 5) return; pick(); });
       g.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pick(); } });
     });
-    setSky(primary.spectral || "solar system", sys.system.name, sys.system.summary || "", "Click a world for its stats. Drag to pan · scroll to zoom.");
+    if (!motesHung && sys.system.star_ref) {
+      var orphan = memoriesForSystem(sysId);
+      orphan.forEach(function (it, k) {
+        var oa = 0.9 + k * (6.2832 / Math.max(orphan.length, 3)), orr = 64 + (k % 2) * 10;
+        var ox = Math.cos(oa) * orr, oy = Math.sin(oa) * orr;
+        var mote = svgEl(svg, "g", { "class": "si-mote" + (it.unlocked ? "" : " si-mote--sealed"), tabindex: "0", role: "button" });
+        mote.setAttribute("aria-label", it.unlocked ? "A recorded memory: " + it.mem.title : "A sealed memory");
+        svgEl(svg, "circle", { cx: ox.toFixed(1), cy: oy.toFixed(1), r: 5.5, "class": "si-mote-halo" }, mote);
+        svgEl(svg, "circle", { cx: ox.toFixed(1), cy: oy.toFixed(1), r: 1.5, "class": "si-mote-core" }, mote);
+        var cat = ARCHIVE[it.sliceId] && ARCHIVE[it.sliceId].catalog;
+        mote.addEventListener("mouseenter", function () {
+          setSky("a recorded memory", it.unlocked ? it.mem.title : "Sealed",
+            it.unlocked ? (it.mem.frame || "") : (it.mem.when ? it.mem.when + " — " : "") +
+              (cat ? "its book is not yet written into the record." : "read the chapter it belongs to, and this light opens."),
+            it.unlocked ? "Click the light to fly in." : "");
+        });
+        mote.addEventListener("click", function (e) {
+          e.stopPropagation(); if (pz.moved() > 5) return;
+          if (!it.unlocked) { mote.dispatchEvent(new MouseEvent("mouseenter")); return; }
+          pz.flyTo(ox, oy, 26, 620);
+          setTimeout(function () { openInhabit(it.sliceId, it.mem.id); }, 560);
+        });
+      });
+    }
+        setSky(primary.spectral || "solar system", sys.system.name, sys.system.summary || "", "Click a world for its stats. Drag to pan · scroll to zoom.");
   }
 
   function setPlanetPanel(sys, p) {
@@ -1470,7 +1564,7 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
     if (ob.period_yr) orb.push(ob.period_yr < 1 ? Math.round(ob.period_yr * 365) + "-day orbit" : ob.period_yr + "-yr orbit");
     if ((p.moons || []).length) orb.push(p.moons.length + (p.moons.length === 1 ? " moon" : " moons"));
     if (p.story && sys.system.star_ref) {
-      var list = memoriesForStar(sys.system.star_ref);
+      var list = memoriesForSystem(sysId);
       if (list.length) {
         var open = list.filter(function (x) { return x.unlocked; }).length;
         orb.push(list.length + (list.length === 1 ? " memory hangs" : " memories hang") + " in orbit — " +
@@ -1554,6 +1648,7 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
       }
     }
     box.addEventListener("input", function () {
+      dismissGreet();
       clearTimeout(debounce);
       var q = box.value.trim();
       if (!q) { close(); return; }
@@ -1579,7 +1674,10 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
       askArchive(q);
     });
     document.addEventListener("click", function (e) {
-      if (!e.target.closest || !e.target.closest(".si-search")) close();
+      if (!e.target.closest || !e.target.closest(".si-search")) {
+        close();
+        if (box.value) box.value = "";   // a click elsewhere always hands the box back empty
+      }
     });
   })();
 
@@ -1752,6 +1850,13 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
     if (resetBtn) resetBtn.addEventListener("click", function () { vb = { x: HOME.x, y: HOME.y, w: HOME.w, h: HOME.h }; applyVB(); });
   }
   function openInhabit(sliceId, memoryId) {
+    var cs = ARCHIVE[sliceId];
+    if (cs && cs.catalog) {
+      var cm = (cs.memories || []).filter(function (m) { return m.id === memoryId; })[0] || {};
+      setSky("a recorded memory", cm.title || "An unwritten recording", cm.frame || "",
+        "This recording is not yet transcribed — its book is still being written.");
+      return;
+    }
     if (!getKey()) { openSettings(); return; }
     state.sliceId = sliceId; var s = ARCHIVE[sliceId];
     var mem = memoriesFor(sliceId).filter(function (m) { return m.id === memoryId; })[0] || memoriesFor(sliceId)[0];

@@ -1,0 +1,74 @@
+# =============================================================================
+# MEMORY CATALOG — Book 09, The Severed Reach (~CR 312)
+# Catalog only; world DBs are built at publish. SPOILER FIREWALL: each frame may
+# contain only what its own scene knows at that moment — nothing from later
+# chapters, later books, or planning/.
+# =============================================================================
+
+book: book-09
+slices:
+  - id: auction-yard
+    star: book-09
+    title: "The Auction Yard"
+    frame: >
+      The beacon-war's marketplaces: salvage rights on dead routes, decommissioned
+      lighthouses under the hammer, and a small people sixty days from unhearable. Nothing
+      here is destroyed and nothing is provable; the war is conducted in paperwork and
+      tow-fees. Quick, funny, and a little sick of itself.
+    memories:
+      - id: sixty-days
+        title: "Sixty Days"
+        when: "sixty days to the severance"
+        chapters: [chapter-2]
+        inhabit: [lio, ru]
+        frame: >
+          Lio watches a severance complete — a settled system dropping out of the audible sky
+          mid-transmission — with Ru beside him putting three settlements' faces on the next
+          one. The Selt's last hop is scheduled; their petition is declined for want of
+          standing; a war-surplus beacon comes up for auction. Lio takes the job as a
+          brokerage, fee on delivery, and would like everyone to believe that is the whole
+          reason. Brisk and wry, with the floor missing under it.
+
+      - id: auction
+        title: "The Graveyard Auction"
+        when: "the graveyard auction · midday"
+        chapters: [chapter-5]
+        inhabit: [lio, quill, madge, onna]
+        frame: >
+          The beacon graveyard, and the crew at its first job together: Onna, who called the
+          work blasphemy and packed anyway; Madge, who treats a lighthouse like any other
+          barge; Quill, whose papers are craftsmanship. Rival bidders — a Corvane scrap
+          cartel, a Dresk heritage trust — and a win that lands more or less legally, which
+          everyone finds vaguely disappointing. Fast, funny, competent.
+
+  - id: beacon-tow
+    star: book-09
+    title: "A Lighthouse Under Tow"
+    frame: >
+      A working beacon riding a barge train through the dark — mass in motion between stars,
+      guy-lines and burn-light, a dead road under the keel. The crew is guild-illegal and the
+      cargo is a people's voice. Keep the jokes and the physics honest at the same time.
+    memories:
+      - id: dead-road
+        title: "Mass in Motion"
+        when: "nine days · the dead road, under tow"
+        chapters: [chapter-7]
+        inhabit: [lio, madge, onna]
+        frame: >
+          The severance moved early: sixty days became nine, and the only unseen way in is a
+          dead road Onna raised from residue, far outside any license, while the guild
+          disavowed them mid-transmission. Now the crossing, with a lighthouse on their backs
+          and their own stopping brought along. Halfway, the beacon's old station-voice wakes
+          and begins courteously logging them as crew. Nobody laughs; then everybody does.
+
+      - id: relight
+        title: "The Relight"
+        when: "the relight · night into dawn"
+        chapters: [chapter-8]
+        inhabit: [lio, ru, onna, madge]
+        frame: >
+          Placement and light-up: the Selt's relay finds the new hop, and three settlements
+          resolve out of silence mid-sentence — a year of undelivered mail begins to move, a
+          people reappearing in the audible sky like a shoreline at dawn. Somewhere behind the
+          war's lines, the vacated placement goes dark over empty space. Do not price this
+          scene; nobody in it can. Triumph, with its bill not yet presented.
