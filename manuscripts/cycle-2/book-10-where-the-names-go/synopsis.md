@@ -4,7 +4,7 @@
 [canon ledger](canon-ledger.md).
 
 On promotion night, a dozen new lights climb Carath's sky as the re-routed relays come
-on, and the city celebrates becoming the reach's newest hub. Five years later, Ivet —
+on, and the city celebrates becoming the reach's newest hub. A few years later, Ivet —
 junior registrar of the Hall of Rolls, a woman who knows everyone's name and almost no
 one's face — watches the wrongness arrive at her counter: the census re-run disagrees
 with itself; a child comes to re-register a grandmother because the stone is blank; and

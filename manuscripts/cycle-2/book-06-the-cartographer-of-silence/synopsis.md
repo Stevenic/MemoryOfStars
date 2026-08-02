@@ -35,4 +35,5 @@ embarrassment and offers Veya her license back. She declines. Cartographer of th
 silences now, she leaves a copy of the growing map with Bri — filed where the patient
 mail lives — and one with Cobb: the holder who lost his road to age, across the table
 from the one who lost hers to something else. Next year's almanac lists Farrow, four
-holders of record, and the cover count is one higher.
+holders of record, and the cover count is one higher. In the dead-letter office, the
+drawer of patient mail has gained a letter.

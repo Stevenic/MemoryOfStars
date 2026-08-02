@@ -110,7 +110,7 @@ shape for the cycle's quietest horror: arithmetic.
 - **Hooks outward:** the selection rule + the wrong frame (→ Book 19's deduction);
   the relay-held column (→ Book 20: Meret's survival mechanics); the dedication
   page (available to C5).
-- **New names** (→ glossary via `canonize` when drafted): Tess, Marn, Warden
+- **New names** (→ glossary via `canonize` when drafted): Tess, Marn, Provost
   Grier, Penna, the relay survey, relay-held, the decrement, the Cartographers
   of the End (formalized). *(Weight of names: Penna keeps its name **only in
   the ledger** — the first place in the series where a name survives solely by

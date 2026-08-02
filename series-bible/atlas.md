@@ -135,9 +135,17 @@ still a handful, in an enormous dark house.
 | The consignment ship (Sowen's crates) | 07 → 08 | Joss's courier run; ten crates, one urn, one passenger. |
 | Madge's tug (+ the beacon under tow) | 09 | A lighthouse riding a barge train — the war's image. The beacon's old station-voice logs the crew, courteously. |
 | **The *Marigold*** | 13 | The series' **second named ship** — a junk-line family hull, nine generations inherited; won the Charter Run by a dead road. The naming is load-bearing. |
+| The Roan (line) | 13 | The rival family line; Dagny's hull turns back on the dead leg and salutes. A named *line*, not a named ship — the distinction is deliberate. |
+| The evacuation berths of Aulis | 12 | The Leaving's unnamed ships, booked years out; a world boards them by lottery. |
+| The relief transports | 20 | The reach's convoy to Meret at the node's fall; Breda comes off the third one, sack first. |
+| Gale's courier hull | 26 | Unnamed, per guild custom; the summons route ridden stop by stop, the manifest complete for the first time in her life. |
+| **The carriage fleet** | 27 | Every carrier the practice ever trained, converged on the vault — the largest carriage in history; scatters homeward laden. A fleet as a rite, not a navy. |
+| **The warding fleet** | 29 | Bode's armada in warding formation at the threshold — the series' last armada; stands down formation by formation, on the page. |
 
-**Count: 2 named · ~10 unnamed with on-page roles.** *(Naming a ship stays a
-meaningful act — the Anthem and the Marigold earned it; battleships don't.)*
+**Count: 2 named ships · 1 named line · ~25 unnamed hulls and fleets with
+on-page roles.** *(Naming a ship stays a meaningful act — the Anthem and the
+Marigold earned it; battleships don't, and the series' two great fleets are
+plural by nature: a carriage and a warding, never a flagship.)*
 
 ## Registry — significant objects
 
