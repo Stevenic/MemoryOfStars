@@ -47,14 +47,26 @@ its own folder with `manuscript.md`, `outline.md`, `synopsis.md`, `canon-ledger.
 | 14 | [The God That Forgot](cycle-3/book-14-the-god-that-forgot/) | divinity / doubt | Outlining |
 | 15 | [The Divided Ones](cycle-3/book-15-the-divided-ones/) | sacrifice | Outlining |
 
-## Cycles 4–6 — *to be defined*
+## Cycle 4 — [*The Collection*](cycle-4/) · *the count runs backward*
+
+> Connective tissue: the **Cartographers of the End** and their ledger — five books,
+> five edges of one institute (defector · war-surveyor · mapper · handler · warden).
+
+| # | Title | Memory as… | Status |
+|---|-------|------------|--------|
+| 16 | [The Unwritten](cycle-4/book-16-the-unwritten/) | heresy | Outlining |
+| 17 | [The Memory War](cycle-4/book-17-the-memory-war/) | weapon | Outlining |
+| 18 | [The Cartographers of the End](cycle-4/book-18-the-cartographers-of-the-end/) | loss | Outlining |
+| 19 | [The One Who Remembers Everything](cycle-4/book-19-the-one-who-remembers-everything/) | the perfect record | Outlining |
+| 20 | [The Falling Node](cycle-4/book-20-the-falling-node/) | survival | Outlining |
+
+## Cycles 5–6 — *to be defined*
 
 Five books each, numbered globally. Give each cycle a title and theme, then name and fill
 its books.
 
 | Cycle | Books | Status |
 |-------|-------|--------|
-| [Cycle 4](cycle-4/) | 16–20 | Planned |
 | [Cycle 5](cycle-5/) | 21–25 | Planned |
 | [Cycle 6](cycle-6/) | 26–30 | Planned |
 

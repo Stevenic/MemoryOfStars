@@ -18,6 +18,7 @@ slot into this chronology without contradiction. Companion: [`atlas.md`](atlas.m
 | The waking (Cycle 1's undertow) | ~25 → | The Signal (Book 02) crawls the relays; dark infrastructure begins answering. Never named on the page in Cycle 1. |
 | The scattered light (Cycle 2's present) | ~300 → ~320 | The mesh as everyday life; the Wayfinders' Guild; the letters from tomorrow; the first *witnessed* Erasure event (Carath) and the defense's first visible flicker. |
 | The long watch (Cycle 3's present) | ~350 → ~400 | The Listeners interview the old minds; the dossier grows by referral; the old minds are stirring; the Reading. |
+| The collection (Cycle 4's present) | ~430 → ~460 | The blanks undeniable; the count runs backward; the factions' answers fail informatively; the Custodian witnessed; the first defended node falls and its city survives. |
 
 ## Chronology
 
@@ -43,6 +44,11 @@ slot into this chronology without contradiction. Companion: [`atlas.md`](atlas.m
 | ~375 | The Charter Run; the 32nd memory divided among the Marigold's crew | 13 | The plural-attachment precedent enters salvage law. |
 | ~388 | The lucid hour on Tolm; the flock keeps the Shepherd | 14 | The first caretaker mind glimpsed; the Voice retired for a sexton. |
 | ~400 | The Reading at the motherhouse | 15 | Cycle 3's canon spend: made defense · plural makers · self-division (identity veiled). |
+| ~430 | The Great Unwriting; Breda's defection; three regions attested-sole-source | 16 | The Unwritten's answer fails informatively: the obscure vanish first. |
+| ~438 | The Memory War; the Blackout Accords | 17 | Corvane–Dresk, round two; strikes fed the blanks; erasure-weapons banned. |
+| ~445 | The first decrement; the selection rule named (wrongly framed) | 18 | The relay survey adopted; Corrove becomes the first relay-held entry. |
+| ~452 | The Whole Record: the pilot, the audit, the hole | 19 | Maintenance-nature deduced; the annex collected; incompleteness doctrine born. |
+| ~460 | The node-death of Meret; the Custodian witnessed; the mandate | 20 | Cycle 4's canon spend logged: maintenance, failing. The city survives its node. |
 
 ## Book placements
 
@@ -65,3 +71,8 @@ _Where each novella sits on the timeline (they need not be in chronological orde
 | 13 | ~375 | ~1 season (forty days to the Run, then the Run) | The Charter Run's three legs; the *Marigold* |
 | 14 | ~388 (epilogue a year later) | ~1 harvest-year | Tolm |
 | 15 | ~400 (epilogue a year later) | ~weeks | The Listeners' motherhouse |
+| 16 | ~430 | ~1 season | The Unwritten's territories; the institute's border |
+| 17 | ~438 | ~1 year | The Corvane–Dresk front; the targeting floors |
+| 18 | ~445 (epilogue at the new edition) | ~1 season | The institute; Corrove, the green blank |
+| 19 | ~452 | ~90 days (the renewal clock) | The Record's site; the pilot region |
+| 20 | ~460 | ~weeks | Meret — the Wells, the node's heart |

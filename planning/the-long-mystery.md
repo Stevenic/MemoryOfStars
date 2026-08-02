@@ -275,8 +275,31 @@ question it draws down, if any).
   has failed.
 - **The Custodian's entrance:** glimpsed only through effects until B19–20 — the
   perfect-record mind meets something in the mesh that *audits* it.
-- **Romp (pencil — re-confirm at charter): Book 17 (The Memory War)** — war-thriller
-  propulsion; in the dark cycle, momentum itself is the contrast.
+- **Romp — CONFIRMED FIRM at charter (2026-08): Book 17 (The Memory War)** —
+  war-thriller propulsion; in the dark cycle, momentum itself is the contrast (not
+  wit — the scoping is deliberate). Opens cold per house custom.
+- **Retitle ADOPTED (2026-08): Cycle 4 = *The Collection*** (was *The Rising Dark*).
+- **Device placements (2026-08 outlines):** the **vanishing name's third instance
+  escalates to an event** — the Charter Run's winning year (← B13), blank in B19
+  Ch 2's ingest log; the perfect record doesn't notice (see device table); **Seren**
+  is B18's guide in the green blank ("here before" every survey for forty years);
+  **the ledger is the front-door artifact**, taught in B16's margins and B18's
+  prologue; **the ticker runs backward** — first formal decrement B18 Ch 2, district
+  decrements B20, the atlas census contracts on the page; **eucatastrophe** named in
+  B20 Ch 9 (Breda's page — the bridge-deed, lifetime-paid); the **cycle
+  through-thread** is Breda's hoard (palmed B16 Ch 2 → paid B20 Ch 9).
+- **Canon spend (scoped across 19–20, logged at 20):** B19 *deduces*
+  maintenance-nature and experiences the audit as effects only; B20 *witnesses* the
+  Custodian at work — dutiful triage, failing — and logs the answer. Untouched,
+  verified: identity/origin (C5's), why storage is finite, where collected things
+  go (C5's cold-storage reveal), the senile-vs-lucid dial (still open; B20 renders
+  "failing triage" without ruling). The city's folk name — *the keeper's keeper* —
+  is belief, not canon.
+- **Outlined 2026-08:** CR ~430–460; grids varied per the Shape Rule (16 re-pointed
+  3×3, the false proof at midpoint · 17 cold-open ten-chapter thriller · 18 chamber
+  2×4 · 19 founding 3×3 · 20 finale echo). Tic-note honored: B16's Breda *keeps her
+  tic and is right to* (the review's requested variant). The Scouring guard holds:
+  Meret falls; **Orin untouched** until C6's scheduled beat.
 - **Canvas plan:** the cycle where **the atlas shrinks on the page** — mapped regions
   going blank, census numbers running backward book by book. Track it in the atlas
   deliberately; the contraction *is* the horror.
@@ -370,6 +393,7 @@ discovered prose. (This maps directly onto the existing skill pipeline: `outline
    |-------|--------------|------------|-----------------|
    | 2 | **Master Rian** — Orin's shopkeeper (the blue hat, the lamp oil) | 01 | **09**, Ch 4 — a blank where his name should be, in the trade-roll the forger copies; uncommented |
    | 3 | **The Skerry** — the beacon-station itself (a *place* now; the escalation begins) | 03 | **12**, Ch 4 — a blank where the beacon's name should stand, in the Observer transcription appendix; uncommented |
+   | 4 | **The Charter Run's winning year** — an *event* now (Nell's Run, the dead-road finish) | 13 | **19**, Ch 2 — an empty event-slot in the Record's ingest log; the perfect record doesn't notice; uncommented |
    | 3–6 | _escalate: places, then events, then a book's own record_ | — | TBD |
 2. **The continuity witness** *(Foundation's Daneel — defanged).* **Seren** (already
    canon-strange: never sleeps, "several different men," distributed presence) is the

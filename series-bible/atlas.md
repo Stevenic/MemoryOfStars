@@ -52,6 +52,19 @@ atlas can agree. *(Proposed — confirm or replace; `timeline.md` carries the pl
 | 13 The Inheritors | ~375 | The **Charter Run's three legs** (relay-dense core lanes) | The *Marigold*, deck to deck | The dim off-chart star *("where the shepherd stands" → Book 14)* |
 | 14 The God That Forgot | ~388 | **Tolm** — one god, one world *(star unnamed — debt)* | The temple, the terraces, Coss's garden | Whatever set the Shepherd in place |
 | 15 The Divided Ones | ~400 | The Listeners' **motherhouse** | The reading hall, the shelves (emptied, one full), the open-day benches | The scattered emphases; the mapping institute *(→ Cycle 4)* |
+| 16 The Unwritten | ~430 | The Unwritten's **ceded territories** *(unnamed by their own rite)* | The order's houses, the sanctuary site (blank), the institute's border post | The donated city's archive; the bridge-deed's city, unvisited |
+| 17 The Memory War | ~438 | The **Corvane–Dresk front** (second war) | The targeting floors, the strike zones, the Accords table | The unmade rally-names; several passes nobody can remember mattering |
+| 18 The Cartographers of the End | ~445 | The **institute** + **Corrove**, the green blank | The committee room, the overlay wall, Corrove's orchards and the house | The dedication page's lost regions; the almanac's shrinking count |
+| 19 The One Who Remembers Everything | ~452 | The **Record's site** + the **pilot region** (three systems) | The lattice halls, the handler's wing, the hearing room | The collected annex *(where it went: untouched → C5)* |
+| 20 The Falling Node | ~460 | **Meret** — the node's fall | The Wells (cooling → fallen), the unopened room, the bridge | The keeper's keeper, witnessed; the casket, taken sealed |
+
+**Census after the Cycle 4 outlines — the contraction, tracked deliberately:** the
+walked map still grows (~17 on-page systems visited), but the *count* runs backward
+for the first time: Corrove struck to relay-held (18), three pilot-region annexes
+collected (19), Meret's node fallen — city standing, relay-held (20), plus the war's
+unremembered passes (17) and the order's blanked sanctuaries (16). The almanac's
+diegetic number goes down on the page in Books 18 and 20. **The shrinking is the
+horror; track every decrement here as books draft.**
 
 **Census after the Cycle 3 outlines: ~14 on-page systems · 8 walkable worlds · the
 Cathedral ring (the series' first Dyson-scale object) · 2 moonlets · the Librarian's
@@ -80,6 +93,8 @@ still a handful, in an enormous dark house.
 | **The Cathedral of Engines** | Megastructure — a broken Dyson ring | 11 | A million years building one unfinished component; finished it once, and stopped. The Combine's dismantling proceeded — an honest grave. The series' largest object, now its largest salvage. |
 | **The Observer** | Planetary mind (grown or made: never settled) | 12 | Nine rises held as seasons; answered a petitioner for the first time in its record. |
 | **The Shepherd** | Caretaker mind (god of Tolm) | 14 | Set to protect against [unfinished]; tends past remembering why. Now plural-kept by its own flock. |
+| **The Whole Record** | Engineered mind (the coalition's) | 19 | Built complete; audited; holed by its own handler and passed over. Survives plural-inside. Its smaller name written nowhere. |
+| **The Wells of Meret** *(updated)* | Ancient infrastructure — **fallen** | 04 → 20 | Cooled and collected ~CR 460; the city survives relay-held. The casket went with them, sealed. |
 | *The suspected whole* | — | 02 → | Gate, Hall, Lens, beacons, Wells, vault — and now Carath's root — may be limbs of **one network**. Open mystery; never confirmed on the page. |
 
 **Count: 9 named structures (+1 suspected whole).**
@@ -124,6 +139,9 @@ meaningful act — the Anthem and the Marigold earned it; battleships don't.)*
 | **The dossier** | 11 → 15 | Four collected volumes, shelved apart by charter; five voices spoken together exactly once (the Reading); a fifth volume — the Prime's own testimony — filed after. The originals dispersed beyond the order's reach; Casque's sealed copy the one in-house survivor. Cycle 3's spine artifact. |
 | **The finished component** | 11 → 15 | The Wright's million-year work, completed once; shipped to a dead address. The manifest came back stamped — and the crate came back *returned*, with a second stamp nobody can read (15). |
 | **The line's book (the Marigold)** | 13 | Each captain's page in their own hand; one shared page in five hands. |
+| **The institute's ledger** | 16 → 20 | The count of what answers, persists, and is attested-only; the first decrement (18); the relay-held column; the corrected preface (20). Cycle 4's spine artifact. |
+| **Breda's hoard** | 16 → 20 | A lifetime of palmed pages; sole surviving proof of three regions — and the bridge-deed of Meret, paid forward at the fall. |
+| **The sealed casket of Meret** *(updated)* | 04 → 20 | Kept three centuries unread; surrendered sealed to the keeper's keeper at the node's fall. *"We keep it so no one must"* — completed. |
 
 ## Naming debts (things that exist but have no name yet)
 
@@ -133,6 +151,7 @@ meaningful act — the Anthem and the Marigold earned it; battleships don't.)*
 - [ ] Book 05's expedition ship
 - [ ] Farrow's star; Sowen's star; Carath's star; the Librarian's world
 - [ ] The Cathedral's star; Tolm's star; Aulis's failing sun; the Listeners' motherhouse locale
+- [ ] Corrove's star; the Record's site; the pilot region's three systems
 - [ ] The dating system, in-world (per-culture; CR is authorial only)
 
 **Deliberately never paid (weight-of-names doctrine — mark, don't fill):**
