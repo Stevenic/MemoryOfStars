@@ -62,6 +62,18 @@ atlas can agree. *(Proposed — confirm or replace; `timeline.md` carries the pl
 | 23 The Makers' Grief | ~477 | The store — the **fused stratum** | The walked golden-age household; the walked pouring | The curator who filed two griefs together |
 | 24 The Name of the Dark | ~481 | The store — the **dark strata** | The walked instrument hall; the mark's chamber | What the mark's shape refuses to word |
 | 25 The Last Testament | ~484 | The **empty store** + the reach (publication) | The cold face (blank), the writing room | The ending — the only unexplored territory left |
+| 26 The Gathering | ~490 | The roads + **Valen** (the Convening) | The relay-houses, the Convening hall, the rival table | The door, sought by two gatherings |
+| 27 The Last Archive | ~490 | The **unroaded system** — the vault's end | The vault, the threshold's mark, the carriage fleet | Where the Witness and the uncarried went *(kept)* |
+| 28 The Unmaking | ~491 | **Orin — the Scouring** | The festival, the Hall, the mountain (going cold), Mara's line's kitchen | The Gate's nature, glimpsed only in its loss |
+| 29 What the Stars Remember | ~491 | The reach (the **great wearing**) + the road to the **threshold** | Forty worlds' rites, one season; the dead address in person | Past the door |
+| 30 The Memory of Stars | ~492 | The **house of the keeper** + Orin (the kitchen) | The keeper's rooms, the deepest room (door closed by choice), the kitchen | Beneath another sky *(⚑ answers at last — or stays a promise)* |
+
+**Census after the Cycle 6 outlines — the last count:** almost no new rooms, by
+charter: the cycle returns to lit ones (Valen, the vault, Orin, the roads) and adds
+exactly two — the **threshold** and the **house of the keeper** — plus the last new
+place the series shows, which is small, and home: a kitchen in Orin. The atlas's
+work is done: thirty books, ~21 systems walked, thousands implied, and the map's
+final entry is a room with bread in it.
 
 **Census after the Cycle 5 outlines — history, not breadth:** one new system (Moss);
 the rest of the cycle's ground is *layers under known space* — the walked past
@@ -157,6 +169,9 @@ meaningful act — the Anthem and the Marigold earned it; battleships don't.)*
 | **The ledger of the strata** | 21 → 25 | The Restorers' accounting of the cold store: every walked stratum struck through. The series' first artifact that *empties*. |
 | **The Testament of the Restorers** | 25 | Four testimonies + the frame — five documents — printed apart, deliberately holed; the blank section titled *How to End It*, holding the farewell. No whole edition exists anywhere, by design. |
 | **The chord** | 23 → 25 | A maker's farewell and a mother's lullaby, kept deliberately fused; Amel's notation. *Some things are only true together.* |
+| **The watch-roll** | 26 → 30 | The Convening's roll of volunteers — the count that goes **up**; disagreeing tallies, all binding; signed by five traditions, forty worlds, and (⚑) one hand from beneath another sky. Cycle 6's spine artifact, and the series' last. |
+| **The SAEL plaque** *(updated)* | 01 → 28 | Taken in the Scouring, ~CR 491. **The name held** — carried in mouths since Book 2 made it a case; plural past any collector's reach. |
+| **The Gate** *(updated)* | 01 → 28 | Fell silent in the Scouring, ~CR 491; the mountain's substructure collected; its nature glimpsed only in the moment of loss — enlarged, never explained. The town stays. |
 
 ## Naming debts (things that exist but have no name yet)
 

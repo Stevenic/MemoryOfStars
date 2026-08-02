@@ -421,8 +421,46 @@ question it draws down, if any).
   none sufficient (Law 6 at series scale).
 - **Structural note:** this cycle alone may run serial momentum (26→30 as one movement);
   that's a deliberate exception to the no-continuations rule — confirm at charter time.
-- **Romp (pencil — re-confirm at charter): Book 26 (The Gathering)** — reunion warmth;
-  the pleasure of threads meeting is the cycle's one bright book before the price.
+- **Romp — CONFIRMED FIRM at charter (2026-08): Book 26 (The Gathering)** — reunion
+  warmth; the pleasure of threads meeting is the cycle's one bright book before the
+  price. Opens cold per house custom.
+- **Serial momentum — CONFIRMED at charter (2026-08), scoped:** 26–30 run as one
+  continuous movement (the sanctioned exception); each book keeps one POV and a
+  complete internal arc, opens on its own ground, and the **watch-roll** does the
+  orienting (no previously-on, ever). The Easy-Read standalone-first rule bends
+  here by design and nowhere else.
+- **Device placements (2026-08 outlines):** the **watch-roll** is the cycle
+  artifact — a count that goes UP (the ticker redeemed; disagreeing tallies that
+  bind); **the vanishing name falls SILENT** — no C6 instance; the ladder closed
+  at four and the strongest final statement is absence (logged in the device
+  table); **Seren cashed** in B29 Ch 5 as act-and-relationship (a thread of the
+  poured, powerless, warm; "he can witness them in" — one scene, no doctrine;
+  device 2's "unexplained until C5/6" discharged exactly); **the song cashed** in
+  B29 Ch 6 (ten thousand drifted variants at once — the drift audible, no verse
+  printed; B4's drafting still owes the canonical text); **eucatastrophe** B30
+  Ch 8 — ⚑ author call: the far-sky signature (pays D3's kept child at series
+  scale — house recommendation) vs. the red bird's return (the promise kept
+  either way); **the Scouring discharged** B28, in kind (witnessed, felt, at
+  Orin; the plaque taken, the name held); **counterparty from book one** — the
+  Regency and Chancellor Bode (the single-steward faction; the Mule's argument
+  matured into politics; ⚑ author call at B30: Bode signs-last vs. dissent-filed
+  — house recommends the dissent).
+- **The committee:** Gale (wayfinder, B26 POV) · Emlin (listener, B27) · Idra
+  (cartographer, B28) · Zel (carrier, B29) · Alba (restorer, B30 — Amel's
+  student). Elders cameo one scene each (Isla, Yent, Ondine); no repeat POVs —
+  the 30-book streak holds.
+- **The ending, honored as locked:** relieved-not-defeated; the farewell as
+  mechanism said plainly (B30 Ch 7); an act, not an answer (nothing learned in
+  the final room); succession dramatized (the counter-volunteering to B23's lone
+  volunteer); the Custodian met as relationship, never revelation (the volunteer
+  reading, per the reconciliation); **the forever-mystery CONFIRMED FINAL: what
+  collected memories become — kept on the page, by choice** (B30 Ch 5: they do
+  not ask; the budget's "choose late" is hereby chosen).
+- **Outlined 2026-08:** CR ~490–492; grids varied (26 cold-open ten-chapter romp ·
+  27 chamber 2×4 · 28 founding 3×3 *on the founding ground* · 29 re-pointed 3×3 ·
+  30 founding 3×3, closing the series in its first shape). Ch-1 openings varied
+  per the mandate (26 mid-route; 28 opens in festival stillness, not
+  taught-in-work); wonder beats tagged in-table in all five.
 - **The Scouring beat (owed — Tolkien's lesson):** before the ending, the Erasure touches
   **Orin itself** — the protected first place is not exempt. The reader who loved Book 1
   must feel the stakes come home before the resolution earns its grace.
@@ -482,7 +520,7 @@ discovered prose. (This maps directly onto the existing skill pipeline: `outline
    | 3 | **The Skerry** — the beacon-station itself (a *place* now; the escalation begins) | 03 | **12**, Ch 4 — a blank where the beacon's name should stand, in the Observer transcription appendix; uncommented |
    | 4 | **The Charter Run's winning year** — an *event* now (Nell's Run, the dead-road finish) | 13 | **19**, Ch 2 — an empty event-slot in the Record's ingest log; the perfect record doesn't notice; uncommented |
    | 5 | **Elias's name in the Hall's account of the First Pilgrimage** — *a book's own record* (the escalation's last step) | 01 | **24**, Ch 3 — the reach's most-copied text, read aloud for drift-calibration, blank where the old climber's name stands; no living character ever knew it; uncommented |
-   | — | **The ladder is complete at four** (person → place → event → a book's own record, instances 09/12/19/24). C6: a new rung or none — a ceiling, not a quota; the strongest option may be silence. | — | — |
+   | — | **The ladder is complete at four** (person → place → event → a book's own record, instances 09/12/19/24). **C6: silence — chosen (2026-08).** No fifth instance; the device's last statement is its absence, and the reader who learned to look finds nothing missing in the final cycle, which is the ending working. | — | — |
 2. **The continuity witness** *(Foundation's Daneel — defanged).* **Seren** (already
    canon-strange: never sleeps, "several different men," distributed presence) is the
    series' one recurring figure: present somewhere in **every cycle**, warm, minor,

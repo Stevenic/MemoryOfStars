@@ -73,10 +73,19 @@ its own folder with `manuscript.md`, `outline.md`, `synopsis.md`, `canon-ledger.
 | 24 | [The Name of the Dark](cycle-5/book-24-the-name-of-the-dark/) | the unnameable | Outlining |
 | 25 | [The Last Testament](cycle-5/book-25-the-last-testament/) | inheritance | Outlining |
 
-## Cycle 6 — *to be defined*
+## Cycle 6 — [*The Memory of Stars*](cycle-6/) · *the culmination*
 
-| Cycle | Books | Status |
-|-------|-------|--------|
-| [Cycle 6](cycle-6/) | 26–30 | Planned |
+> Connective tissue: the **committee of traditions** and the **watch-roll** — a
+> count that goes up. The one cycle that runs serial momentum, by design.
+
+| # | Title | Memory as… | Status |
+|---|-------|------------|--------|
+| 26 | [The Gathering](cycle-6/book-26-the-gathering/) | convergence | Outlining |
+| 27 | [The Last Archive](cycle-6/book-27-the-last-archive/) | sacrifice | Outlining |
+| 28 | [The Unmaking](cycle-6/book-28-the-unmaking/) | loss | Outlining |
+| 29 | [What the Stars Remember](cycle-6/book-29-what-the-stars-remember/) | the thesis made a weapon | Outlining |
+| 30 | [The Memory of Stars](cycle-6/book-30-the-memory-of-stars/) | everything | Outlining |
+
+**All thirty novellas are now outlined.**
 
 _Status values: Planned · Outlining · Drafting · Revising · Draft complete · Published._

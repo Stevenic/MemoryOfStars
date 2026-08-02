@@ -20,6 +20,7 @@ slot into this chronology without contradiction. Companion: [`atlas.md`](atlas.m
 | The long watch (Cycle 3's present) | ~350 → ~400 | The Listeners interview the old minds; the dossier grows by referral; the old minds are stirring; the Reading. |
 | The collection (Cycle 4's present) | ~430 → ~460 | The blanks undeniable; the count runs backward; the factions' answers fail informatively; the collector witnessed at work — *the keeper's keeper*, the cities call it; the first defended node falls and its city survives. |
 | The first silence (Cycle 5's present) | ~470 → ~484 | The cold strata found; the deep past walked and spent; the golden age, the first defense, and the pouring recovered; the mark read; the Testament published. |
+| The memory of stars (Cycle 6's present — the series' end) | ~490 → ~492 | The armor begins to fail with the failing keeper; the Convening and the Regency; the vault's last stand; the Scouring of Orin; the great wearing; the relief — the watch taken up by everyone. |
 
 ## Chronology
 
@@ -55,6 +56,11 @@ slot into this chronology without contradiction. Companion: [`atlas.md`](atlas.m
 | ~477 | The fused day; the pouring walked; the one who stayed, witnessed | 23 | The makers became the substrate. The store's curator's fingerprints found. |
 | ~481 | The dark strata; the mark read; the store spent | 24 | The root named only as shape; the mercy-horror held plural. |
 | ~484 | The Testament of the Restorers published; the team disbands | 25 | The farewell identified as the first defense's instruction. The ending remains. |
+| ~490 | The first plural-held collections; the Convening at Valen; the Compact and the Regency | 26 | The keeper's triage goes erratic; the watch-roll opened — the count that goes up. |
+| ~490 | The stand at the vault; the great carriage; the Witness's last door | 27 | The Choir carried in hundreds of minds; the uncarried lost; the door referred. |
+| ~491 | **The Scouring of Orin** — the Gate falls silent; the plaque taken, the name held | 28 | The decisive correlation: worn holds, assumed fails. |
+| ~491 | The great wearing; the threshold found; the door answers plurality | 29 | The season bends the failure curve; Seren's one act; the Regency's fleet cannot enter. |
+| ~492 | **The relief** — the watch distributed; the keeper carried home; the far sky answers *(⚑)* | 30 | The farewell as the mechanism, said plainly. One mystery kept forever, by choice. |
 
 ## Book placements
 
@@ -87,3 +93,8 @@ _Where each novella sits on the timeline (they need not be in chronological orde
 | 23 | ~477 | ~weeks | The store; the fused stratum; the pouring (walked) |
 | 24 | ~481 | ~weeks | The store; the dark strata; the instrument hall (walked) |
 | 25 | ~484 | ~1 year | The empty store; the writing room; the reach (published) |
+| 26 | ~490 | ~1 season | The roads; Valen (the Convening) |
+| 27 | ~490 | ~weeks | The unroaded system; the vault (its end) |
+| 28 | ~491 | ~weeks | Orin — the Scouring |
+| 29 | ~491 | ~1 season | The reach (the great wearing); the road to the threshold |
+| 30 | ~492 | ~weeks (epilogue after) | The house of the keeper; Orin (the kitchen) |
