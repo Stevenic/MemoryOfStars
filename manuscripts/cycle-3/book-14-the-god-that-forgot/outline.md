@@ -106,7 +106,7 @@ subject held in its steadiest shape.
   spending), its idiom is weather and duty, and the resolution is infrastructure
   maintenance, not a caregiving arc. The flock's own coinage ("the Clearing") does
   the naming; no clinical vocabulary survives into draft.
-- **No chosen one:** Tavel is the Voice because he stayed forty years. Ansel was
+- **No chosen one:** Tavel is the Voice because he stayed forty years. Petch was
   asked a question once and nobody believed him. That is how this universe works.
 
 ## Continuity

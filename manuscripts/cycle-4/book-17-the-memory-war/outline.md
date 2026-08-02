@@ -29,11 +29,13 @@ this one is a thriller: the propulsion is dread with a deadline.
   Mercy's technology, militarized). And the cycle's second data point: **strikes
   attract the blanks.** Weaponized forgetting is bait. The war is feeding what it
   cannot see.
-- **The old rivals:** Corvane and Dresk, round two (← Book 9) — a century of peace
-  spent re-arming, and the new territory is memory itself. Neither is villainous;
-  both are terrified; the arms race has its own momentum (Law 4: the weapon rebuilt
-  the war).
-- **The counterpart:** Ivo — Corvane's strike-surveyor, Kest's opposite number and
+- **The old rivals:** Corvane and Dresk, round two (← Book 9) — a long century of
+  peace spent re-arming, and the new territory is memory itself. And the war's
+  founding error, seeded early: **it began as misattribution** — the earliest blanks
+  were read by each power as the other's first strikes. The whole war is the dark,
+  answered badly from its very first day. Neither is villainous; both are terrified;
+  the arms race has its own momentum (Law 4: the weapon rebuilt the war).
+- **The counterpart:** Arno — Corvane's strike-surveyor, Kest's opposite number and
   mirror: two targeting officers who have spent five years studying each other's
   work and are the only two people alive who can read the pattern. The thriller's
   spine: enemies conspiring to miss.
@@ -49,11 +51,14 @@ this one is a thriller: the propulsion is dread with a deadline.
   works of art and she has begun to dream in them. Deflection: she narrates
   everything as targeting language — until the book breaks the habit at the worst
   possible moment.
-- **Ivo** — Corvane's surveyor. Older, drier, further down the same road; he
+- **Arno** — Corvane's surveyor. Older, drier, further down the same road; he
   noticed first and said nothing for a year. His first message to Kest is a
   correction to one of her maps — professional courtesy as treason.
-- **Brom** — Kest's commander. Decent, exhausted, institutionally incapable of
-  hearing "our weapon feeds the enemy nobody declared." The arithmetic in uniform.
+- **Brom** — Kest's commander, and the war's buried author: he ordered Dresk's
+  first retaliatory strike, against a blank he read as Corvane's opening blow. His
+  refusal to see the pattern is self-protection wearing doctrine — if the overlay
+  is right, he started the war against the weather. He doesn't know he knows this.
+  The book lets him find out in public.
 - **Observer Sette** — the institute's war-observer; keeper of the overlay; the
   neutral human channel. Counts strikes by day and blanks by night and has stopped
   sleeping between.
@@ -66,15 +71,15 @@ this one is a thriller: the propulsion is dread with a deadline.
 |----|----|-------|-------:|------|
 | **I — The Strike** | 1 | The Surveyor | 2,800 | **Cold open.** A forgetting-strike, executed: Kest's map, the firing liturgy, and an enemy garrison that wakes unable to remember why it holds the pass — bloodless, total, obscene. The war taught in one strike; Kest's mastery and her insomnia in one scene. |
 | | 2 | The Echo | 3,000 | **Detonation.** Her masterpiece: a strike unmaking a Corvane rally-name across three systems. Days later, a *true* blank arrives — unaimed, unowned — along the exact profile she drew. Sette's overlay confirms what Kest already knows in her stomach: the weather has her signature. |
-| **II — The Pattern** | 3 | The Overlay | 2,900 | Kest takes the pattern up the chain. Brom's refusal, given full dignity: wars have weather; correlation is defeatism; fire the next strike. The institute's observers are barred from the targeting floor. She fires the next strike. It echoes. |
-| | 4 | The Correction | 3,000 | A message arrives through the ledger's neutral channel: one of Kest's maps, returned, *corrected* — an error in her blast-profile annotated in an enemy hand. Ivo has been reading her work for years. The correction is also a proof: his strikes echo too. First contact between the only two people who can see it. |
-| **III — The Conspiracy** | 5 | The Missing | 3,100 | The conspiracy begins: Kest and Ivo, through Sette's channel, start *missing* — strikes aimed at nothing, profiles drawn to fall on empty registry. Thriller mechanics: two staffs auditing their surveyors, two surveyors forging their art, one observer carrying both sides' treason in her ledger. |
+| **II — The Pattern** | 3 | The Overlay | 2,900 | Kest takes the pattern up the chain. Brom's refusal, given full dignity — and its buried root: the war's first "strike" was a blank he answered; wars have weather; correlation is defeatism; fire the next strike. The institute's observers are barred from the targeting floor. She fires the next strike. It echoes. |
+| | 4 | The Correction | 3,000 | A message arrives through the ledger's neutral channel: one of Kest's maps, returned, *corrected* — an error in her blast-profile annotated in an enemy hand. Arno has been reading her work for years. The correction is also a proof: his strikes echo too. First contact between the only two people who can see it. |
+| **III — The Conspiracy** | 5 | The Missing | 3,100 | The conspiracy begins: Kest and Arno, through Sette's channel, start *missing* — strikes aimed at nothing, profiles drawn to fall on empty registry. Thriller mechanics: two staffs auditing their surveyors, two surveyors forging their art, one observer carrying both sides' treason in her ledger. |
 | | 6 | The Audit | 3,000 | Brom's suspicion sharpens into a formal audit of Kest's targeting record. The near-catch, played for dread; what saves her is the thing that damns her — her old strikes' echoes, arriving on schedule, proving her maps still work. She watches a blank eat her own handiwork's aftermath and files the audit's paperwork with steady hands. |
-| | 7 | The Broken Habit | 3,100 | The turn: a strike Kest cannot miss — the target is real, civilian-adjacent, and her forged profile fails review; Brom will fire her map as drawn. The targeting language she thinks in finally breaks — the book's one interiority collapse — and she does the unforgivable, professional thing: she warns the target. Through Ivo. Across the war. |
-| | 8 | The Blackout | 3,700 | **Set-piece.** The warned evacuation becomes the war's most public secret; both commands realize their surveyors have been conspiring — and before either can hang them, the pattern goes public: Sette releases the overlay to both capitals at once. The proof, undeniable, in every head at once: every strike has fed the thing; the blanks are wearing both nations' signatures. The war stops the way a hand stops touching a stove. |
-| **IV — The Accords** | 9 | The Price of the Maps | 3,000 | The Blackout Accords, drafted in terror: erasure-weapons banned, strike-archives to be destroyed — and the bill lands on Kest: to unmake the *capability*, she must erase her own corps' targeting archive. Her life's work, her comrades' craft, the proof of her own guilt — unmade by her own hand, per the treaty she caused. What she erased in the war stays erased too; the treaty restores nothing. |
-| | 10 | The Surveyors | 2,700 | After: two nations that cannot remember why several passes mattered, keeping a peace made of fear; Kest and Ivo meet once, in the open, at the institute — the only two people alive who can still read the old pattern — and take the ledger's oath as war-observers. The best targeting officers of their generation, retrained to watch. |
-| **Epilogue** | — | The Overlay, Continued | 1,200 | Sette's ledger, one season on: strike-echoes decaying to zero — the feeding stopped. And the base rate underneath, revealed by the war's absence: the blanks continue, slower, patient, unfed and unbothered. The war was never the cause. It was a tip. The count goes down by one more. |
+| | 7 | The Broken Habit | 3,100 | The turn: a strike Kest cannot miss — the target is real, civilian-adjacent, and her forged profile fails review; Brom will fire her map as drawn. The targeting language she thinks in finally breaks — the book's one interiority collapse — and she does the unforgivable, professional thing: she warns the target. Through Arno. Across the war. |
+| | 8 | The Blackout | 3,700 | **Set-piece, and the wonder beat (Law 7) inverted to awe-at-proof.** The warned evacuation becomes the war's most public secret; both commands realize their surveyors have been conspiring — and before either can hang them, Sette releases the overlay to both capitals at once. Argument alone would die in committee, as it died in Brom — what stops the war is the convincer that arrives *while the overlay is being read*: a true blank lands on a Dresk command archive, along a profile drawn by Dresk's own corps. The weapon's echo, on the weapon's house, in the weapon's hand. And in the overlay's first page, public now, the war's origin: the opening "strike" Brom answered was never Corvane's. He started it against the weather, and learns so with both capitals watching. The firing stops that hour — informally, raggedly, the way terrified institutions actually stop. |
+| **IV — The Accords** | 9 | The Price of the Maps | 3,000 | The Blackout Accords, signed only after the next blank arrives *unfed* — proving the halt bought nothing back, and terror finishing what proof began: erasure-weapons banned, strike-archives to be destroyed — and the bill lands on Kest: to unmake the *capability*, she must erase her own corps' targeting archive. Her life's work, her comrades' craft, the proof of her own guilt — unmade by her own hand, per the treaty she caused. What she erased in the war stays erased too; the treaty restores nothing. |
+| | 10 | The Surveyors | 2,700 | After: two nations that cannot remember why several passes mattered, keeping a peace made of fear; Kest and Arno meet once, in the open, at the institute — the only two people alive who can still read the old pattern — and take the ledger's oath as war-observers. The best targeting officers of their generation, retrained to watch. |
+| **Epilogue** | — | First Watch | 1,200 | **A scene, not a document:** Kest and Arno's first shared watch as war-observers — the decaying echo-counts read aloud between them, professional shorthand becoming something like friendship. The strike-echoes reach zero: the feeding stopped. And beneath, revealed by the war's absence, the base rate: the blanks continue — slower, patient, unfed and unbothered. Arno says it so Kest doesn't have to: *the war was never the cause. It was a tip.* |
 | | | **Total** | **~31,500** | |
 
 ## The Writer's Test (must pass)
@@ -98,6 +103,10 @@ this one is a thriller: the propulsion is dread with a deadline.
   audit culture; shown in furniture.
 - **Canon-spend guard:** zero. *Why* strikes feed it is never explained; the
   selection rule stays unnamed (Book 18's); the blanks are tracked, never sourced.
+- **Draft guards:** the strike's *delivery mechanism* is never shown — liturgy,
+  maps, and effects only (the Mercy's tech stays unspecified, as Book 4 left it).
+  And no almanac count moves in this book — the overlay gains blanks; the formal
+  count's first decrement belongs to Book 18's committee room.
 - **No cheap resurrection:** nothing the war unmade returns — not the rally-names,
   not the passes, not Kest's archive. The Accords ban; they do not restore.
 - **No chosen one:** Kest sees the pattern because she drew it. Authorship, not
@@ -110,14 +119,14 @@ this one is a thriller: the propulsion is dread with a deadline.
   parity); the Mercy's technology militarized (← Book 4, named once, with dread);
   the ledger as neutral ground (the cycle artifact working).
 - **Hooks outward:** the overlay and the base rate (→ Book 18's pattern-naming);
-  war-observer Kest and Ivo (available to 18–20 as the institute's sharpest
+  war-observer Kest and Arno (available to 18–20 as the institute's sharpest
   readers); the strike-echo data (→ Book 19: the Record ingests it).
-- **New names** (→ glossary via `canonize` when drafted): Kest, Ivo, Brom,
+- **New names** (→ glossary via `canonize` when drafted): Kest, Arno, Brom,
   Observer Sette, strike-surveyor, forgetting-strike, the overlay, the Blackout
   Accords.
 
 ## Continuity checklist
 - [ ] Placed on the [master timeline](../../../series-bible/timeline.md) (~CR 438).
-- [ ] New characters/locations/factions → [bible](../../../series-bible/) (Kest, Ivo, the strike corps, the Accords).
+- [ ] New characters/locations/factions → [bible](../../../series-bible/) (Kest, Arno, the strike corps, the Accords).
 - [ ] New terms → [glossary](../../../series-bible/glossary.md) (forgetting-strike, strike-surveyor, the overlay).
 - [ ] No [intentionally-undefined question](../../../series-bible/seven-laws.md#things-that-are-intentionally-undefined) answered.

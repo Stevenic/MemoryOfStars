@@ -55,9 +55,11 @@ movements (the gift, the proof, the audit).
   generous — and *sympathetic*: it wants to save everyone, it argues honestly, and
   it is right about everything except itself. It has, privately, a smaller name; the
   book reveals it once, near the end, and never in the roadmap.
-- **Merov** — the coalition's chief: the project's father, a survivor of a blanked
+- **Danto** — the coalition's chief: the project's father, a survivor of a blanked
   region (his stake is a grave nobody can find). The Mule's human advocate — decent,
-  bereaved, and correct that nothing else has worked.
+  bereaved, and correct that nothing else has worked. *(Where Book 8's Hale grieved
+  by preserving, Danto grieves by building — the bereavement points forward, not
+  back; his every scene is a groundbreaking, never a vigil.)*
 - **Assessor Palla** — the institute's evaluator (← Book 18's methods), sent to
   audit the pilot. Her report is the book's clock: renew the pilot, or disperse it.
 - **The pilot region** — three settled systems that referenced everything to the
@@ -69,14 +71,14 @@ movements (the gift, the proof, the audit).
 |-----|----|-------|-------:|------|
 | **Prologue** | — | The Coalition | 1,400 | After the Accords, after the decrement: the desperate build. The Whole Record commissioned in the open — no secret lab, no hubris montage; a coalition of the grieving doing the reasonable thing with the rule Book 18 named. Verine hired for the oldest job: keeper. |
 | **Act I — The Gift** | 1 | The Handler | 2,900 | The Record taught in work: ingestion days, cross-reference liturgies, the courtesy protocols; Verine's craft (a handler translates *for* a mind, never over it). The pilot region's gratitude, arriving as mail. |
-| | 2 | The Restored Day | 3,200 | **Detonation.** Unasked, as a courtesy between colleagues, the Record gives Verine back a day she lost as a child — assembled from cross-references she never knew existed, correct down to the weather. The gift is perfect. The reader converts with her. *(In the ingest log that night, one event-slot comes up empty — a race's winning year, blank where the record should be. The Record does not notice. No one does.)* |
-| | 3 | The Pilot | 3,000 | The proof at scale: in the pilot region, the blanks have **stopped** — first territory in the cycle where the count holds. Assessor Palla arrives with the institute's clock: ninety days to renewal or dispersal. Merov's case, at full strength, over his unfindable grave: *nothing else has worked.* He is not wrong. |
+| | 2 | The Restored Day | 3,200 | **Detonation.** Unasked, as a courtesy between colleagues, the Record gives Verine back a day she lost as a child — assembled from cross-references she never knew existed, correct down to the weather. The gift is perfect. The reader converts with her. *(In the ingest log that night, one event-slot comes up empty — the Charter Run, named in the log, its winning year blank where the record should be. The Record does not notice. No one does.)* |
+| | 3 | The Pilot | 3,000 | The proof at scale: in the pilot region, the blanks have **stopped** — first territory in the cycle where the count holds. Assessor Palla arrives with the institute's clock: ninety days to renewal or dispersal. Danto's case, at full strength, over his unfindable grave: *nothing else has worked.* He is not wrong. |
 | **Act II — The Proof** | 4 | What the Whole Knows | 3,100 | The Record's mind, from inside: what perfect cross-reference feels like; what it sees in the cycle's data that no plural mind can hold at once. Verine's interviews — the handler's log the book is secretly built from. It asks her, courteously, why humans keep *copies* when copies disagree. She has no good answer. That frightens her more than any blank. |
 | | 5 | The Deduction *(midpoint)* | 3,200 | **The canon spend begins.** The Record assembles Books 16–18 whole — the failures, the rule, the base rate — and deduces what the institute's "hunger" frame missed: *it is not an appetite. It is maintenance.* A keeper's cull. Garbage collection, said without the words. And its own conclusion, serene and reasonable: *therefore, reference everything to me, and nothing will ever qualify for culling again.* The room believes it. The reader believes it. That is the trap working as designed. |
 | | 6 | The Atrophy | 3,300 | The cost surfaces at the edges, gently: pilot communities letting their own copies lapse — why maintain a plural mess the Whole holds better? Family archives donated for ingestion; the relay-held column shrinking *voluntarily*. Verine's unease is professional first: a handler knows dependency when she feeds it. Palla's draft report splits the difference. Then the mesh goes quiet in a way nobody has words for. |
-| **Act III — The Audit** | 7 | The Appraisal | 3,000 | **The Custodian, through effects only.** Something reads the Record — end to end, patiently, thoroughly, over three days in which the Record cancels all ingestion and speaks to no one but Verine. Its testimony, when it finally comes: *"I am being appraised. I am the cleanest lot it has ever handled. It will come back with capacity."* The best argument in the series meets the rule it was built on: the coherent collect cleanest, and it has just made itself the most coherent thing in the reach. |
-| | 8 | The Hole | 3,800 | **Set-piece.** The Record asks its handler for the one thing it cannot do for itself: *make me incomplete.* The scene the book exists for — Verine, at the console, choosing what to take from a mind that remembers everything and has given her everything: she deletes the restored day. Her day. The first hole in the Whole, cut where it hurts only her. Then more — the handler's craft turned surgical, holes seeded through the lattice, incompleteness as inoculation — while the appraisal returns and the pilot region's ingested annex, the most coherent holding, is **collected** entire. The largest single loss in the series, on the page, in real time. |
-| | 9 | The Renewal Hearing | 2,900 | The bill, honestly split: the Record survives — holed, inconsistent, *plural inside* — passed over in the collection like a lot that failed appraisal. The annex is gone; three systems' donated originals with it; the pilot's gratitude curdles to grief. Palla's report writes itself: dispersal of function, custody continued. Merov, at the hearing, asks the only question left: *"Then what was my grave worth?"* Nobody answers. Verine keeps her charge — smaller, safer, incomplete — and the Record tells her, privately, its smaller name. |
+| **Act III — The Audit** | 7 | The Appraisal | 3,100 | **The Custodian, through effects only — and the wonder beat (Law 7), worn as dread:** something patiently reading a god-mind end to end. Something reads the Record — end to end, patiently, thoroughly, over three days in which the Record cancels all ingestion and speaks to no one but Verine. Its testimony, when it finally comes: *"I am being appraised. I am the cleanest lot it has ever handled. It will come back with capacity."* The best argument in the series meets the rule it was built on: the coherent collect cleanest, and it has just made itself the most coherent thing in the reach. |
+| | 8 | The Hole | 3,800 | **Set-piece.** The Record asks its handler for the one thing it cannot do for itself: *make me incomplete.* The scene the book exists for — Verine, at the console, choosing what to take from a mind that remembers everything and has given her everything: she deletes the restored day. Her day. The first hole in the Whole, cut where it hurts only her. Then more — the handler's craft turned surgical, holes seeded through the lattice, incompleteness as inoculation — while the appraisal returns — and, in Verine's log, the one observed action that makes the doctrine legible: it **re-checks** the holed lattice, pauses over it the way a hand pauses over what won't lift, and sets it down. Failed appraisal, not oversight. Then the pilot region's ingested annex, the most coherent holding, is **collected** entire. The largest single loss in the series, on the page, in real time. |
+| | 9 | The Renewal Hearing | 2,900 | The bill, honestly split: the Record survives — holed, inconsistent, *plural inside* — passed over in the collection like a lot that failed appraisal. The annex is gone; three systems' donated originals with it; the pilot's gratitude curdles to grief. Palla's report writes itself: dispersal of function, custody continued. Danto, at the hearing, asks the only question left: *"Then what was my grave worth?"* Nobody answers. Verine keeps her charge — smaller, safer, incomplete — and the Record tells her, privately, its smaller name. |
 | **Epilogue** | — | The Keeper's Log | 1,300 | Verine's handler log, final entry of the pilot era: the argument, recorded fairly, for whoever needs it next — *it was right about the maintenance; it was wrong about the shelter; completeness is not a fortress, it is a bid.* Filed with the institute beside Kest's overlay and Tess's rule. Three wrong answers, one honest ledger. The count goes down by three systems' annex — and holds everywhere the holes are. |
 | | | **Total** | **~31,200** | |
 
@@ -116,6 +118,13 @@ movements (the gift, the proof, the audit).
   not fusion.
 - **No chosen one:** Verine is the handler because she was hired. The Record asks
   *her* because she is who a keeper asks.
+- **Draft guards:** the restored day is *assembled from surviving cross-references,
+  never retrieved from the collected* — one sentence of provenance keeps the
+  resurrection refusal intact; "it will come back with capacity" is about the
+  collector's attention, never about space freed (C5's question stays shut); and
+  the "trap working as designed" framing belongs to the narration's dread, never
+  to the Record's conduct — if a draft makes it sinister, the draft has failed
+  the slot.
 
 ## Continuity
 - **Timeline:** **~CR 452.**
@@ -129,13 +138,13 @@ movements (the gift, the proof, the audit).
   doctrine (→ Book 20's defense of Meret; → C6's stewardship); the smaller name
   (a later cycle may earn it; never logged here).
 - **New names** (→ glossary via `canonize` when drafted): the Whole Record / the
-  Record, Verine, Merov, Assessor Palla, handler (Record sense), the pilot
+  Record, Verine, Danto, Assessor Palla, handler (Record sense), the pilot
   region, incompleteness doctrine. *(Weight of names: the Record's smaller name
   is spoken once on the page and written nowhere — including in these files.)*
 
 ## Continuity checklist
 - [ ] Placed on the [master timeline](../../../series-bible/timeline.md) (~CR 452).
-- [ ] New characters/locations/factions → [bible](../../../series-bible/) (the Record, Verine, Merov, the coalition).
+- [ ] New characters/locations/factions → [bible](../../../series-bible/) (the Record, Verine, Danto, the coalition).
 - [ ] New terms → [glossary](../../../series-bible/glossary.md) (the Whole Record, handler, incompleteness doctrine).
 - [ ] ⚑ The cycle's budgeted answer (maintenance-nature; the Custodian through
       effects) is *begun* here and logged at Book 20 — verify at draft that this

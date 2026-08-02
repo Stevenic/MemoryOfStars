@@ -56,8 +56,9 @@ back half is a woman deciding what to do about being right alone.
 - **Sister Odd** — Breda's novice; sharp-eyed; the one who notices her keeper's
   sleeves are always heavier leaving a rite than arriving.
 - **The hoard** — under the floorboard: pages, threads, a child's name-tag, the
-  founding deed of a bridge in a city Breda has never seen. The book's true second
-  character.
+  founding deed of a bridge in a city Breda has never seen *(a long-shelf stray,
+  diaspora-carried — survived by being scattered, obscure, and finally stolen)*. The
+  book's true second character.
 
 ## Chapter structure
 
@@ -65,11 +66,11 @@ back half is a woman deciding what to do about being right alone.
 |-----|----|-------|-------:|------|
 | **Prologue** | — | The Undertakers | 1,300 | An unwriting, small and tender: a dying woman gives the order her letters; the rite unmakes them; she goes light. The practice shown as mercy first — the reader must half-believe before the book argues. |
 | **Act I — The Practice** | 1 | The Keeper | 2,900 | The order taught in work: what keepers keep (the practice), what they unmake (everything else); the ceded territories; Lang at the border, counting. Breda's floorboard, shown without comment. |
-| | 2 | The Great Unwriting | 3,100 | **Detonation.** A city's whole archive, donated in terror of the blanks, unmade in public liturgy — the order's largest rite in a century. And in its shadow, Breda's hands do what they always do: one page, palmed. The reader sees what it is before she does: the founding deed of a bridge, in a city called Meret. |
+| | 2 | The Great Unwriting | 3,100 | **Detonation, and the wonder beat (Law 7) worn as mourning:** a keeper-town's whole archive — long-shelf holdings, diaspora bequests and all — donated in terror of the blanks and unmade in public liturgy, the order's largest rite in a century: a thousand years of paper becoming light and lightness, rendered as terrible beauty. And in its shadow, Breda's hands do what they always do: one page, palmed — a long-shelf stray, carried out of the south by the Meret diaspora generations ago. The reader sees what it is before she does: the founding deed of a bridge, in a city called Meret. |
 | | 3 | The Census | 2,800 | Lang's survey reaches the order's table: the ceded territories are going blank *faster* than the kept world. Maunt's serenity absorbs it — of course the unwritten go first; they are *ready*. Breda's first crack: she checks the count herself, at night, against her floorboard. |
 | **Act II — The Proof** | 4 | The Sanctuary | 3,000 | Pilgrimage to the order's oldest unwritten sanctuary — the proof-of-concept, three centuries unrecorded and thriving. It is *gone-gone*: not hidden, not ascended — a blank the land itself has half-forgotten, the way the reader knows blanks work. |
 | | 5 | Ascension *(midpoint)* | 3,200 | The order's reading, made with full liturgical joy: the sanctuary has **survived into the unwritten** — the answer works; the saved are safe; the rite doubles down. Breda stands in the celebration holding the only page that proves the sanctuary was ever real — and understands, alone, entirely: *the obscure vanish first.* The heresy's proof lands at the midpoint, and it proves the opposite. |
-| | 6 | The Keeper's Arithmetic | 3,100 | Breda runs the ledger the order refuses to keep: every unmade thing she has stolen from, mapped against Lang's blanks. The correlation is perfect and damning. Sister Odd catches her at it — and the book holds its breath over which loyalty the novice keeps. |
+| | 6 | The Keeper's Arithmetic | 3,100 | Breda runs the ledger the order refuses to keep: every unmade thing she has stolen from, mapped against Lang's blanks. The correlation is damning — perfect but for one entry: a single unmade thing that persists, and it is the one item that had been copied into three towns' registries before the order got it. She doesn't know what the exception means. The reader is being handed the second clause. Sister Odd catches her at it — and the book holds its breath over which loyalty the novice keeps. |
 | **Act III — The Defection** | 7 | The Question of Odd | 2,900 | Odd's choice, given full weight: she reports the heavier sleeves — not from malice; from faith (a keeper who keeps is unmaking the *order's* salvation). Maunt comes to Breda's cell with love and a rite. He does not want her punished. He wants her *saved*. |
 | | 8 | The Unwriting of Breda | 3,500 | **Set-piece.** The excommunication: her name unmade from every roll, rite, and mouth — the congregation forgetting her aloud, tenderly, one witness at a time, while she stands present. The order's cruelest mercy, rendered in full liturgy. They cannot touch the floorboard they don't know about. She walks out nameless, carrying everything. |
 | | 9 | The Border | 2,800 | Lang at the crossing, ledger open, pen ready — the institute takes in a woman with no name in any record and three regions' only proof in a sack. The intake question that ends the book's argument: *"Name?"* — and Breda, for the first time in the book, writes rather than keeps: she writes it herself. |
@@ -103,6 +104,8 @@ back half is a woman deciding what to do about being right alone.
   keeping → letting go.
 - **No chosen one:** Breda is the one who couldn't stop stealing. That is the whole
   reason it is her.
+- **Draft watch:** Sister Odd's name sits near "Odri's practice" (live vocabulary
+  since Book 15) — keep the novice's name off any page discussing carriers.
 
 ## Continuity
 - **Timeline:** **~CR 430** (see [timeline](../../../series-bible/timeline.md)).

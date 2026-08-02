@@ -44,8 +44,9 @@ this story has three true movements: the cooling, the defense, the fall.
   whole book is that sentence.
 - **The hoard arrives:** Breda — old now, the institute's strangest archivist —
   comes with the relief columns, carrying attested-sole-source proof of three
-  collected regions… and one page she palmed forty years ago in another life: the
-  founding deed of Meret's bridge (← Book 16, Ch 2).
+  collected regions… and one page she palmed thirty years ago in another life: the
+  founding deed of Meret's bridge (← Book 16, Ch 2 — a long-shelf stray the diaspora
+  carried out; survived by being scattered, obscure, and finally stolen).
 - **Chapter-Two Rule:** chapter 2 is the cooling made undeniable — the southern
   Well-mouth goes cold mid-rite, and the almanac decrements by a district, on the
   page, in the warden's own hand.
@@ -57,7 +58,7 @@ this story has three true movements: the cooling, the defense, the fall.
 - **Breda** — (← Book 16) the keeper who keeps, vindicated at scale: her sack is
   the pattern's control data and the city's strange comfort. The cycle's
   through-thread pays off in her presence.
-- **Commander Sett-of-the-relays** — the responders' descendant service, running
+- **Commander Neva-of-the-relays** — the responders' descendant service, running
   the civic defense; the rite-book's fourth edition in her coat.
 - **Doss** — Yune's deputy, young, roll-keeper of Southbank; the book's unguarded
   heart, and the voice of the question everyone thinks: *open the room; read it
@@ -76,11 +77,11 @@ this story has three true movements: the cooling, the defense, the fall.
 | | 2 | The Southern Mouth | 3,200 | **Detonation.** Mid-rite, the southern Well-mouth goes cold — the first node-death of a working Well in recorded history — and the district it anchored begins to thin: rolls blanking faster than relay teams copy. Yune performs the decrement herself, in the warden's ledger, in her own hand. The count goes down by a district while the city watches her write. |
 | | 3 | The Relief | 3,000 | The reach answers: relay teams, the responders' fourth-edition rite-book, institute observers — and Breda, off the third transport, sack first. The defense assembles around a question nobody says aloud: nodes have never been *defended*. There is no precedent. They will be the precedent. |
 | **Act II — The Defense** | 4 | Everything We Know | 3,200 | The full-dress deployment, taught in work: relay-held rolls copied on the Night-of-Strangers pattern; incompleteness doctrine applied to the Wells' own strata (holes cut in the deep copies — the institute's surgeons doing to a node what Verine did to the Record); the city rehearsing its names to strangers nightly. The armor, entire. It slows the cooling. It does not stop it. |
-| | 5 | The Room Question | 3,100 | Doss asks it formally: the casket — the most coherent object in the node — is a lure; open it, read it plural, dissolve its coherence into a thousand heads. The office's law says never. The rule says the law will kill them. Yune's night rite, that night, is an argument with a door — and the door, for the first time in three centuries, seems to be *listening.* |
-| | 6 | The Keeper's Keeper *(midpoint)* | 3,300 | **The Custodian, witnessed.** Through the northern Well-mouth, at the cooling's edge: the collector at work — patient, exact, *tending* — culling strata the way a keeper culls a flooding archive, pausing over the relay-held and the holed as a hand pauses over what won't lift. Maintenance, confirmed in sight. Failing, confirmed in sight: it re-culls what it has already culled; its triage stutters. The city coins the only name that fits: *the keeper's keeper.* The institute's hunger-frame dies in one witnessing. |
+| | 5 | The Room Question | 3,100 | Doss asks it formally: the casket — the most coherent object in the node — is a lure; open it, read it plural, dissolve its coherence into a thousand heads. The office's law says never. The rule says the law will kill them. Yune's night rite, that night, is an argument with a door — and it seems to her, that night, like the door is listening. Grief makes furniture attentive. *(Draft guard: the door never acts; the seeming stays Yune's.)* |
+| | 6 | The Keeper's Keeper *(midpoint)* | 3,300 | **The Custodian, witnessed — the wonder beat (Law 7), at the series' darkest angle.** Through the northern Well-mouth, at the cooling's edge: the collector at work — patient, exact, *tending* — culling strata the way a keeper culls a flooding archive, pausing over the relay-held and the holed as a hand pauses over what won't lift. Maintenance, confirmed in sight. Failing, confirmed in sight: it re-culls what it has already culled; its triage stutters. The city coins the only name that fits: *the keeper's keeper.* The institute's hunger-frame dies in one witnessing. |
 | **Act III — The Fall** | 7 | What Won't Lift | 3,000 | The defense's true finding, at the worst hour: the plural holds. Everywhere the rolls are relay-held, everywhere the holes are cut, the culling passes over — *witnessed, repeatable, real.* And everywhere singular and coherent, it takes clean. The node itself — old, deep, perfectly coherent — cannot be made plural in time. The Wells are going to fall. The question is only what falls with them. |
-| | 8 | The Warden's Mercy | 3,900 | **Set-piece — the office ends correctly.** The evacuation of the node's heart, district by district, everything plural walking out alive. And Yune, alone at the last, with the casket and the cold door — the choice the whole series aimed her at: she does not open it (the room's law), does not run with it (a lure travels), does not burn it (the founders' law: never unrecoverable — and it is too late for that anyway). **She carries it to the northern mouth and gives it to the keeper's keeper** — a warden's mercy to a failing caretaker; the sealed thing surrendered still sealed, so that no one must ever read it. *"We keep it so no one must"* — completed, the hard way. The Wells fall. The casket goes with them. The city does not. |
-| | 9 | The Standing City | 2,900 | After: Meret alive on relay-held rolls and practiced names — the first city to *survive its node* — grieving infrastructure the way you grieve a grandmother: enormous, ordinary. **The eucatastrophe (device 13, named):** Breda's page, produced without ceremony from forty years of contraband — the founding deed of the bridge, sole surviving pre-Mercy record of the city's oldest promise. Arrives like luck; paid for by a lifetime of the sin the order unmade her for. The city that lost its deep past twice is handed one page of it by a thief. It is small. It is enough to build on. |
+| | 8 | The Warden's Mercy | 3,900 | **Set-piece — the office ends correctly.** The evacuation of the node's heart, district by district, everything plural walking out alive. And Yune, alone at the last, with the casket and the cold door — the choice the whole series aimed her at: she does not open it (the Mercy's own clause: kept unread), does not run with it (a lure travels), does not burn it (Sowen's law, come home to the mother city as reach-wide doctrine: *never again unrecoverable* — the emigrant children's rule, and she names it as theirs). **She carries it to the northern mouth and gives it to the keeper's keeper** — a warden's mercy to a failing caretaker; the sealed thing surrendered still sealed, so that no one must ever read it — knowing, and saying so aloud to the door one last time, that the "against need" clause dies with this choice: whatever need comes, the copy is beyond it now. *"We keep it so no one must"* — completed, the hard way, at its honest price. The Wells fall. The casket goes with them. The city does not. *(Draft guard: the survival is purchased by Ch 7's plural armor, never by the gift — no bargain, no trade; the mercy buys nothing and that is the point.)* |
+| | 9 | The Standing City | 2,900 | After: Meret alive on relay-held rolls and practiced names — the first city to *survive its node* — grieving infrastructure the way you grieve a grandmother: enormous, ordinary. **The eucatastrophe (device 13, named) — and Breda's arc completed:** the keeper who keeps, *giving*: from forty years of contraband she surrenders her sole-source original — the founding deed of the bridge, oldest surviving record of the city's first promise — to Meret's new rolls, by choice, without ceremony. The tic kept whole in Book 16, spent freely in Book 20. Arrives like luck; paid for by a lifetime of the sin the order unmade her for; and it is a gift, not a coincidence. The city that lost its deep past twice is handed one page of it by a thief who finally has somewhere worth giving it. It is small. It is enough to build on. |
 | **Epilogue** | — | The Mandate | 1,400 | The ledger's new edition: Meret — *answering (relay-held)*; the node's line closed with the warden's mark. The institute's revised preface, Grier's hand, the hunger struck out: *it maintains; it is failing; fighting it has failed.* The cycle's verdict becomes C5's commission on one page: **understand it.** Yune's last night rite, spoken to open air where a door used to be — and, for the first time in three centuries of the office, she says the news to the city instead. The wardens' rite goes plural. |
 | | | **Total** | **~31,400** | |
 
@@ -119,6 +120,23 @@ this story has three true movements: the cooling, the defense, the fall.
   keeps the two distinct.
 - **No chosen one:** Yune holds the office the calendar gave her; the defense is
   a city's, not a hero's; the Custodian chooses nothing — it triages.
+- **Applicability guard (the series' highest-risk book for it):** the keeper's
+  keeper fails in archival and mechanical terms (re-culling, stuttering triage);
+  the city grieves in civic ones (a fallen well, a closed office). The two idioms
+  never share a chapter's climax; the grandmother simile stays in Ch 9 and the
+  Custodian's stutter in Ch 6, and no draft may move them adjacent. The failing
+  is purpose-residue, not disease.
+- **Draft guards:** the witnessed failure-behaviors must each admit a lucid
+  reading (the re-culling can be re-culling *regenerated relay copies*) — the
+  senile-vs-lucid dial stays genuinely open; inherited armors are taught one per
+  scene with Doss as the cold reader's proxy (no hazing in the finale); "doing to
+  a node what Verine did to the Record" must be shown in-scene, never by
+  allusion; if the close strains, fold the ledger line and Grier's preface into
+  Ch 9 and leave the Epilogue two beats — the mandate, and Yune telling the news
+  to the city.
+- **Name note (ruled deliberate):** Yune/Juna is the office-line homage — sound
+  carrying where blood doesn't (the office is succession, never descent). Logged
+  so no draft "fixes" it.
 
 ## Continuity
 - **Timeline:** **~CR 460.** Three centuries after the Mercy (~180); the office
@@ -133,7 +151,7 @@ this story has three true movements: the cooling, the defense, the fall.
   and Kest's overlay in the institute's toolkit; where the collected go — the
   question C5's Restorers will answer.
 - **New names** (→ glossary via `canonize` when drafted): Yune, Warden of the
-  Wells (office), Doss, Commander Sett, the keeper's keeper (folk name), the
+  Wells (office), Doss, Commander Neva, the keeper's keeper (folk name), the
   node-death, relay-held (civic sense). *(Weight of names: the Custodian is
   named by nobody with authority — only by a grieving city, which is how the
   series names its truest things.)*

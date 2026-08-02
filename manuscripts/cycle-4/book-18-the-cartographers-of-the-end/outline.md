@@ -48,7 +48,7 @@ shape for the cycle's quietest horror: arithmetic.
 - **Marn** — her survey partner: young, strong-backed, keeps the equipment and the
   jokes; the expedition's warmth — and the control subject, because Marn *can*
   hold the region's names for almost a week, and Tess cannot hold them at all.
-- **Warden Grier** — the institute's head; Breda's employer now (← Book 16); the
+- **Provost Grier** — the institute's head; Breda's employer now (← Book 16); the
   one who must put the decrement to a vote and the wrong name to the rule.
   Decent, exhausted, measuring the end of the world in committee.
 - **The guide** — a local of the blank region who meets each survey at the same
@@ -61,16 +61,16 @@ shape for the cycle's quietest horror: arithmetic.
 
 | Act | Ch | Title | Target | Beat |
 |-----|----|-------|-------:|------|
-| **Prologue** | — | The Count | 1,300 | The ledger taught in one page: what the institute counts, how a world earns its line, what *attested, single source* means (← Breda's sack, three entries in a careful hand). The count has never gone down. Tonight's agenda item three. |
-| **Act I — The Decrement** | 1 | The Mappers | 3,000 | The institute in work: survey pairs, verification rules, the overlay wall (← Book 17); Tess's forward-only rule shown, not explained; Marn's warmth; Warden Grier's exhaustion. The assignment nobody wants: re-verify Corrove — the green blank — and Tess's papers say *born: Corrove*. |
-| | 2 | Agenda Item Three | 3,200 | **Detonation.** The committee room. The evidence read into the record. The vote. The first decrement in the count's history — one world, present by telescope, absent from every mind and every register that once held it — struck from *answering* to *attested*. The number goes down while the room holds its breath, and the almanac's next cover will carry it. Tess accepts the Corrove commission the same hour, forward-only rule and all. |
-| | 3 | The Green Blank | 2,900 | Arrival: Corrove exists — orchards gone feral, roads good, roofs sound, no one home (evacuated a generation ago as the records thinned). The guide meets them at the bend as if expected. Survey begins; by nightfall, Marn has to re-teach himself the day's place-names from his notes. Tess's notes are already wrong. |
+| **Prologue** | — | The Count | 1,300 | The ledger taught in one page — its three states defined in its own terms: **answering** (a world in the mesh's conversation), **relay-held** (answering by plural bookkeeping alone), **attested** (existing only in surviving reference; ← Breda's sack, three entries in a careful hand). The count has never gone down. Tonight's agenda item three. |
+| **Act I — The Decrement** | 1 | The Mappers | 3,000 | The institute in work: survey pairs, verification rules, the overlay wall (← Book 17); Tess's forward-only rule shown, not explained; Marn's warmth; Provost Grier's exhaustion. The assignment nobody wants: re-verify Penna — the green blank — and the bureaucracy's soundest reason lands on Tess: her papers say *born: Penna*, and born-there means presumed local knowledge. The one qualification the blank has already taken from her. |
+| | 2 | Agenda Item Three | 3,200 | **Detonation.** The committee room. The evidence read into the record. The vote. The first decrement in the count's history — one world, present by telescope, absent from every mind and every register that once held it — struck from *answering* to *attested*. The number goes down while the room holds its breath, and the almanac's next cover will carry it. Tess accepts the Penna commission the same hour, forward-only rule and all. |
+| | 3 | The Green Blank | 2,900 | **Wonder beat (Law 7), inverted to ache:** Penna exists — orchards gone feral, roads good, roofs sound, sunlight on a world no memory will hold; beauty with nobody home (evacuated a generation ago as the records thinned). The guide meets them at the bend as if expected. Survey begins; by nightfall, Marn has to re-teach himself the day's place-names from his notes. Tess's notes are already wrong. |
 | | 4 | The Sand Map | 3,400 | **Act I climax.** The survey's horror, precise: the region will not stay written — entries unwrite in the ledger's own pages; photographs mis-file; the theodolite's log drops fixes. Mapping it is pouring water into sand. Tess builds the workaround that makes her career and breaks her rule: **the relay survey** — many mappers, short shifts, plural notes reconciled daily; no single record asked to hold anything alone. It holds. *(The armor, discovered as method.)* |
 | **Act II — The Pattern** | 5 | The House | 3,000 | Tess's papers lead to a house. Fieldwork on her own childhood: measuring rooms she cannot remember, cataloguing a garden run wild, finding the pencil-marks of a growing child on a doorframe at exactly her heights. Love without memory's help — the facet, held to the light. Marn quietly takes the house's shift himself each day so her notes never have to. |
 | | 6 | The Guide | 3,100 | The guide walks them to everything the survey would have missed — the well, the ford, the school bell in the grass — and Marn's control-notes surface the impossible detail: the rolls hold no one of his description, and he has been "here before" every survey for forty years. Nobody says anything. The reader may. *(Uncommented; one paragraph; gone by morning.)* |
-| | 7 | The Plot | 3,700 | **Set-piece — the cycle's synthesis.** Back at the institute: Tess plots the whole cycle's data on the overlay wall — Breda's fast-blanked obscurities, the war's clean-collected strike-zones, Farrow's stubborn plural-held persistence, Corrove's sand — and the **selection rule** resolves out of the noise: *the obscure vanish; the referenced persist; the coherent collect cleanest.* The room goes quiet the way rooms do when arithmetic becomes theology. |
-| | 8 | The Naming | 3,100 | Grier must name it for the ledger's preface, and names it wrong: an appetite; an adversary; *the hunger at the end of maps*. Tess files her dissent in method rather than words — the relay survey adopted institute-wide; Corrove's line in the ledger converted to the first **relay-held entry**: a world kept answering by plural bookkeeping alone. The decrement stands. The method spreads. |
-| **Epilogue** | — | The New Edition | 1,400 | The almanac's new edition: the count, down; the preface, wrong; the relay-held entries, a new column, small and growing. In the back, the surveyors' dedication page — names of mappers lost to blanked regions — and one line Tess added to the institute's oath: *we go back over old ground.* She signs the Corrove re-verification for next year. Forward-only no more. |
+| | 7 | The Plot | 3,700 | **Set-piece — the cycle's synthesis.** Back at the institute: Tess plots the whole cycle's data on the overlay wall — Breda's fast-blanked obscurities, the war's clean-collected strike-zones, Farrow's stubborn plural-held persistence, Penna's sand — and the **selection rule** resolves out of the noise: *the obscure vanish; the referenced persist; the coherent collect cleanest.* The room goes quiet the way rooms do when arithmetic becomes theology. |
+| | 8 | The Naming | 3,100 | Grier must name it for the ledger's preface, and names it wrong: an appetite; an adversary; *the hunger at the end of maps*. Tess files her dissent in method rather than words — the relay survey adopted institute-wide; Penna's line converted to the first **relay-held entry**. **And the method's own law collects its inventor:** relay-holding forbids sole custody, so Tess surrenders her private notes of the house — the doorframe heights, the garden, the one thing she meant to keep singly — into the relay, to be held by strangers in shifts. The ending charges her the exact coin her invention spends. The decrement stands. The method spreads. |
+| **Epilogue** | — | The New Edition | 1,400 | The almanac's new edition: the count, down; the preface, wrong; the relay-held entries, a new column, small and growing. In the back, the surveyors' dedication page — names of mappers lost to blanked regions — and one line Tess added to the institute's oath: *we go back over old ground.* She signs the Penna re-verification for next year. Forward-only no more. |
 | | | **Total** | **~28,100** | |
 
 ## The Writer's Test (must pass)
@@ -94,10 +94,10 @@ shape for the cycle's quietest horror: arithmetic.
   still lands 19–20.
 - **Counting discipline:** the counts-that-disagree device stays retired; this
   book's dread is the count that agrees — and goes down.
-- **Applicability guard:** Corrove is not a metaphor for any one real loss — the
+- **Applicability guard:** Penna is not a metaphor for any one real loss — the
   survey's grief must stay specific (a doorframe, a bell, a ford), never
   generalized on the page.
-- **No chosen one:** Tess is assigned Corrove because her papers say *born there*
+- **No chosen one:** Tess is assigned Penna because her papers say *born there*
   and the institute is out of volunteers. Bureaucracy, not destiny.
 
 ## Continuity
@@ -111,13 +111,13 @@ shape for the cycle's quietest horror: arithmetic.
   the relay-held column (→ Book 20: Meret's survival mechanics); the dedication
   page (available to C5).
 - **New names** (→ glossary via `canonize` when drafted): Tess, Marn, Warden
-  Grier, Corrove, the relay survey, relay-held, the decrement, the Cartographers
-  of the End (formalized). *(Weight of names: Corrove keeps its name **only in
+  Grier, Penna, the relay survey, relay-held, the decrement, the Cartographers
+  of the End (formalized). *(Weight of names: Penna keeps its name **only in
   the ledger** — the first place in the series where a name survives solely by
   institutional plural care.)*
 
 ## Continuity checklist
 - [ ] Placed on the [master timeline](../../../series-bible/timeline.md) (~CR 445).
-- [ ] New characters/locations/factions → [bible](../../../series-bible/) (Tess, Grier, Corrove, the institute formalized).
+- [ ] New characters/locations/factions → [bible](../../../series-bible/) (Tess, Grier, Penna, the institute formalized).
 - [ ] New terms → [glossary](../../../series-bible/glossary.md) (relay survey, relay-held, the decrement).
 - [ ] No [intentionally-undefined question](../../../series-bible/seven-laws.md#things-that-are-intentionally-undefined) answered — the rule is pattern, not mechanism; the "hunger" is a logged belief.

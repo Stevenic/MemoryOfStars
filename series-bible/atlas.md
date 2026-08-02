@@ -48,21 +48,21 @@ atlas can agree. *(Proposed — confirm or replace; `timeline.md` carries the pl
 | 09 The Severed Reach | ~312 | The **Corvane–Dresk frontier**: the beacon graveyard, the blockade run, the **Selt system** | The auction yard, the tug, the relight site | The vacated placement (an empty sky going dark); the peace conference |
 | 10 Where the Names Go | ~318 *(prologue ~313)* | **Carath** — hub world of the re-routed mesh | The Hall of Rolls, the squares, the substructure beneath | The letters' origin: a relay three centuries dark *(D3 — Book 1's calling tower)* |
 | 11 The Cathedral of Engines | ~350 | **The Cathedral's system** — a broken Dyson ring around a dim star *(star unnamed — naming debt)* + the Listeners' **motherhouse** *(locale unnamed — debt)* | The ring's forges, the interview gallery, the motherhouse | The dead shipping address *(which accepted)* |
-| 12 The Ninth Observer | ~362 | **Aulis** — a settled world under a failing sun | Ferrow's Rest, the Harrow valley terraces, the mountain slot | The diaspora berths; nine buried rises |
+| 12 The Ninth Observer | ~362 | **Aulis** — a settled world under a failing sun | Lowen's Rest, the Harrow valley terraces, the mountain slot | The diaspora berths; nine buried rises |
 | 13 The Inheritors | ~375 | The **Charter Run's three legs** (relay-dense core lanes) | The *Marigold*, deck to deck | The dim off-chart star *("where the shepherd stands" → Book 14)* |
-| 14 The God That Forgot | ~388 | **Tolm** — one god, one world *(star unnamed — debt)* | The temple, the terraces, Coss's garden | Whatever set the Shepherd in place |
+| 14 The God That Forgot | ~388 | **Tolm** — one god, one world *(star unnamed — debt)* | The temple, the terraces, Tavel's garden | Whatever set the Shepherd in place |
 | 15 The Divided Ones | ~400 | The Listeners' **motherhouse** | The reading hall, the shelves (emptied, one full), the open-day benches | The scattered emphases; the mapping institute *(→ Cycle 4)* |
-| 16 The Unwritten | ~430 | The Unwritten's **ceded territories** *(unnamed by their own rite)* | The order's houses, the sanctuary site (blank), the institute's border post | The donated city's archive; the bridge-deed's city, unvisited |
+| 16 The Unwritten | ~430 | The Unwritten's **ceded territories** *(unnamed by their own rite)* | The order's houses, the sanctuary site (blank), the institute's border post | The donated keeper-town's archive (a long-shelf holding); the bridge-deed's city, unvisited |
 | 17 The Memory War | ~438 | The **Corvane–Dresk front** (second war) | The targeting floors, the strike zones, the Accords table | The unmade rally-names; several passes nobody can remember mattering |
-| 18 The Cartographers of the End | ~445 | The **institute** + **Corrove**, the green blank | The committee room, the overlay wall, Corrove's orchards and the house | The dedication page's lost regions; the almanac's shrinking count |
+| 18 The Cartographers of the End | ~445 | The **institute** + **Penna**, the green blank | The committee room, the overlay wall, Penna's orchards and the house | The dedication page's lost regions; the almanac's shrinking count |
 | 19 The One Who Remembers Everything | ~452 | The **Record's site** + the **pilot region** (three systems) | The lattice halls, the handler's wing, the hearing room | The collected annex *(where it went: untouched → C5)* |
 | 20 The Falling Node | ~460 | **Meret** — the node's fall | The Wells (cooling → fallen), the unopened room, the bridge | The keeper's keeper, witnessed; the casket, taken sealed |
 
 **Census after the Cycle 4 outlines — the contraction, tracked deliberately:** the
-walked map still grows (~17 on-page systems visited), but the *count* runs backward
-for the first time: Corrove struck to relay-held (18), three pilot-region annexes
-collected (19), Meret's node fallen — city standing, relay-held (20), plus the war's
-unremembered passes (17) and the order's blanked sanctuaries (16). The almanac's
+walked map still grows (~19 on-page systems visited), but the *count* runs backward
+for the first time: Penna struck to relay-held (18), one annex holding three systems'
+material collected (19), Meret's node fallen — city standing, relay-held (20), plus
+the war's unremembered passes (17) and the order's blanked sanctuaries (16). The almanac's
 diegetic number goes down on the page in Books 18 and 20. **The shrinking is the
 horror; track every decrement here as books draft.**
 
@@ -151,7 +151,7 @@ meaningful act — the Anthem and the Marigold earned it; battleships don't.)*
 - [ ] Book 05's expedition ship
 - [ ] Farrow's star; Sowen's star; Carath's star; the Librarian's world
 - [ ] The Cathedral's star; Tolm's star; Aulis's failing sun; the Listeners' motherhouse locale
-- [ ] Corrove's star; the Record's site; the pilot region's three systems
+- [ ] Penna's star; the Record's site; the pilot region's three systems
 - [ ] The dating system, in-world (per-culture; CR is authorial only)
 
 **Deliberately never paid (weight-of-names doctrine — mark, don't fill):**

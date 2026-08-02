@@ -300,6 +300,31 @@ question it draws down, if any).
   2×4 · 19 founding 3×3 · 20 finale echo). Tic-note honored: B16's Breda *keeps her
   tic and is right to* (the review's requested variant). The Scouring guard holds:
   Meret falls; **Orin untouched** until C6's scheduled beat.
+- **Twenty-book review applied (2026-08):** renames (Corrove→Penna, Merov→Danto,
+  Ivo→Arno, Sett→Neva, Grier retitled Provost); B17 welded into the faction
+  architecture (the war began as misattribution; Brom ordered the first strike
+  against a blank and learns so with both capitals watching; the stove-stop
+  replaced with the convincer — a blank on Dresk's own command archive mid-reading;
+  the Accords signed only after the next blank arrives *unfed*; epilogue re-staged
+  as scene — Kest and Arno's first watch); B18's ending now costs Tess (her
+  private house-notes surrendered into the relay); B19's pass-over legible (the
+  re-check observed); B20's eucatastrophe upgraded to Breda *giving* the deed, the
+  door pinned to grief, the allegory guard added, Sowen's law named as come-home,
+  and the "against need" clause's death said aloud. Yune/Juna ruled deliberate
+  (office-line homage). Wonder beats tagged in all five (the third cycle running
+  that missed them — add the tag to the outline template's habits).
+- **Cycle 5 mandate from the review (log for the C5 charter):** the
+  institution-spine tripod (order + growing document + edge-POVs) is at its
+  formula limit after three runs. C5 must break a leg: the Restorers should be
+  small and *fallible-as-spine* (a team, not an institution), the connective
+  subject should be the thing itself (the recovered strata; the fallen node as a
+  continuing place), and the cycle artifact should **empty rather than grow**
+  (the cold strata drawn down; a testament read out page by page). Do not open C5
+  with plurality as solved tech — the armor is practice, never physics. Optional
+  author call, logged: the reviewers rank B12 the weakest of twenty (no
+  opposition of any kind) with a specified gentle fix (a rival claim on the
+  Observer's last stratum, or a berth-lottery cost worsened by acceptance) —
+  reopen only if the author wishes.
 - **Canvas plan:** the cycle where **the atlas shrinks on the page** — mapped regions
   going blank, census numbers running backward book by book. Track it in the atlas
   deliberately; the contraction *is* the horror.
@@ -410,7 +435,7 @@ discovered prose. (This maps directly onto the existing skill pipeline: `outline
    | 1 | **02 The Archivist** *(retroactive)* | FIRM | detective momentum + the series' driest wit; Acts II–III keep the propulsion — the cost collects in Act III |
    | 2 | **09 The Severed Reach** | FIRM | the beacon heist |
    | 3 | 13 The Inheritors | **FIRM** (confirmed at charter, 2026-08) | shipboard adventure — a crew that is its own ancestry; opens cold per house custom |
-   | 4 | 17 The Memory War | pencil | war-thriller propulsion (contrast enough in the dark cycle) |
+   | 4 | 17 The Memory War | **FIRM** (confirmed at charter, 2026-08) | war-thriller propulsion (contrast enough in the dark cycle); opens cold per house custom |
    | 5 | 21 The Golden Age That Wasn't | pencil | explorer's adventure — the joy of discovery before the grief of it |
    | 6 | 26 The Gathering | pencil | reunion warmth — the pleasure of threads meeting |
 4. **Reveal-must-enlarge** *(Expanse's discipline, mechanized).* Any mechanism revealed
