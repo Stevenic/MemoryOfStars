@@ -344,9 +344,42 @@ question it draws down, if any).
   story.
 - **Handoffs:** each book recovers one stratum; B24 gets closest to naming the dark
   (shape, not name); B25 assembles the testament — everything except how to end it.
-- **Romp (pencil — re-confirm at charter): Book 21 (The Golden Age That Wasn't)** — the
-  explorer's adventure; the joy of discovery runs ahead of the grief of what was
-  discovered.
+- **Romp — CONFIRMED FIRM at charter (2026-08): Book 21 (The Golden Age That
+  Wasn't)** — the explorer's adventure; the joy of discovery runs ahead of the grief
+  of what was discovered. Opens cold per house custom.
+- **Ash descendant — ADOPTED (2026-08):** Isla Ash, B21's POV and the team's lead —
+  the family that hunts erased things, bookended against its oldest story.
+- **Review mandate honored (tripod broken):** team-not-institution (five people,
+  disbanding at cycle's end); the connective subject is the strata themselves; the
+  cycle artifact **empties** — the ledger of the strata is struck through book by
+  book and drains into the testament. Plurality is NOT solved tech down there: the
+  walks have new costs (single-walk, mis-joins, kept threads) and nobody's armor
+  applies.
+- **Device placements (2026-08 outlines):** the **vanishing name's fourth instance
+  escalates to the series' own record** — the Hall's account of the First
+  Pilgrimage, quoted in B24 Ch 3 with a blank where Elias's name stands (device 11's
+  provenance-frame, armed and fired once; see device table); **Seren** is B21's
+  staker's clerk (funds half the frontier's digs; two rival crews describe two
+  different men); **eucatastrophe** named in B25 Ch 8 (the farewell identified as
+  the first defense's surviving instruction — planted Book 1, rendered
+  close-not-verbatim in B22's epilogue so B25 can close the gap); **the emptying
+  ledger** is the front-door artifact (taught B21 epilogue, drained by B24, closed
+  B25).
+- **Canon spend (scoped across the cycle, logged at drafting):** the golden age
+  (21) · the noticing and the first defense as *acts, identity veiled* (22) · the
+  dissolution — the makers became the substrate; the one who stayed witnessed,
+  unnamed (23) · the root cause named **only as shape** — the mark decoded as
+  meaning, not authorship (24) · cold storage as the budgeted *half*-answer to
+  "where the collected go" (21, held). **Kept on purpose:** the curator's
+  fingerprints (23 — someone filed a maker's farewell to a mother's lullaby; one
+  fingerprint, no hand; C6's territory); the mercy-horror (held plural, unwritten);
+  the root unworded.
+- **Outlined 2026-08:** CR ~470–484; grids varied per the Shape Rule (21 cold-open
+  ten-chapter romp · 22 **braided F/P alternation** — the series' first alternating
+  grid · 23 chamber 2×4 · 24 re-pointed 3×3, the mark at midpoint · 25 finale
+  echo). Wonder beats tagged in all five at write time. Wandering tic-note: Kova
+  counts thresholds and ends at twelve forever (deepened, not surrendered — the
+  Edda shape).
 - **Canvas plan:** the ruins cycle — golden-age sites, the first defense's ground, the
   builders' last cities; old rooms lit for the first time. The atlas gains *history*
   rather than breadth: layers under known space.
@@ -419,6 +452,7 @@ discovered prose. (This maps directly onto the existing skill pipeline: `outline
    | 2 | **Master Rian** — Orin's shopkeeper (the blue hat, the lamp oil) | 01 | **09**, Ch 4 — a blank where his name should be, in the trade-roll the forger copies; uncommented |
    | 3 | **The Skerry** — the beacon-station itself (a *place* now; the escalation begins) | 03 | **12**, Ch 4 — a blank where the beacon's name should stand, in the Observer transcription appendix; uncommented |
    | 4 | **The Charter Run's winning year** — an *event* now (Nell's Run, the dead-road finish) | 13 | **19**, Ch 2 — an empty event-slot in the Record's ingest log; the perfect record doesn't notice; uncommented |
+   | 5 | **Elias's name in the Hall's account of the First Pilgrimage** — *a book's own record* (the escalation's last step) | 01 | **24**, Ch 3 — the reach's most-copied text, read aloud for drift-calibration, blank where the old climber's name stands; no living character ever knew it; uncommented |
    | 3–6 | _escalate: places, then events, then a book's own record_ | — | TBD |
 2. **The continuity witness** *(Foundation's Daneel — defanged).* **Seren** (already
    canon-strange: never sleeps, "several different men," distributed presence) is the

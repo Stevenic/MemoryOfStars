@@ -60,14 +60,23 @@ its own folder with `manuscript.md`, `outline.md`, `synopsis.md`, `canon-ledger.
 | 19 | [The One Who Remembers Everything](cycle-4/book-19-the-one-who-remembers-everything/) | the perfect record | Outlining |
 | 20 | [The Falling Node](cycle-4/book-20-the-falling-node/) | survival | Outlining |
 
-## Cycles 5–6 — *to be defined*
+## Cycle 5 — [*The First Silence*](cycle-5/) · *the deep past, walked*
 
-Five books each, numbered globally. Give each cycle a title and theme, then name and fill
-its books.
+> Connective tissue: the **Restorers** — one small team, five books, five members'
+> eyes — and the ledger of the strata, which **empties** as the cycle proceeds.
+
+| # | Title | Memory as… | Status |
+|---|-------|------------|--------|
+| 21 | [The Golden Age That Wasn't](cycle-5/book-21-the-golden-age-that-wasnt/) | rediscovery | Outlining |
+| 22 | [Before the First Word](cycle-5/book-22-before-the-first-word/) | origin | Outlining |
+| 23 | [The Makers' Grief](cycle-5/book-23-the-makers-grief/) | sacrifice | Outlining |
+| 24 | [The Name of the Dark](cycle-5/book-24-the-name-of-the-dark/) | the unnameable | Outlining |
+| 25 | [The Last Testament](cycle-5/book-25-the-last-testament/) | inheritance | Outlining |
+
+## Cycle 6 — *to be defined*
 
 | Cycle | Books | Status |
 |-------|-------|--------|
-| [Cycle 5](cycle-5/) | 21–25 | Planned |
 | [Cycle 6](cycle-6/) | 26–30 | Planned |
 
 _Status values: Planned · Outlining · Drafting · Revising · Draft complete · Published._

@@ -57,6 +57,18 @@ atlas can agree. *(Proposed — confirm or replace; `timeline.md` carries the pl
 | 18 The Cartographers of the End | ~445 | The **institute** + **Penna**, the green blank | The committee room, the overlay wall, Penna's orchards and the house | The dedication page's lost regions; the almanac's shrinking count |
 | 19 The One Who Remembers Everything | ~452 | The **Record's site** + the **pilot region** (three systems) | The lattice halls, the handler's wing, the hearing room | The collected annex *(where it went: untouched → C5)* |
 | 20 The Falling Node | ~460 | **Meret** — the node's fall | The Wells (cooling → fallen), the unopened room, the bridge | The keeper's keeper, witnessed; the casket, taken sealed |
+| 21 The Golden Age That Wasn't | ~470 | **Tarn** — an ordinary green world over an extraordinary grave | The dig, the shaft, the walked bright city *(never named — its name did not survive)* | The first rise, under everyone's feet |
+| 22 Before the First Word | ~474 | The store under Tarn — the **deep horizon** | The frame camp; the walked era of the first minds | Who the first minds were *(walked, veiled)* |
+| 23 The Makers' Grief | ~477 | The store — the **fused stratum** | The walked golden-age household; the walked pouring | The curator who filed two griefs together |
+| 24 The Name of the Dark | ~481 | The store — the **dark strata** | The walked instrument hall; the mark's chamber | What the mark's shape refuses to word |
+| 25 The Last Testament | ~484 | The **empty store** + the reach (publication) | The cold face (blank), the writing room | The ending — the only unexplored territory left |
+
+**Census after the Cycle 5 outlines — history, not breadth:** one new system (Tarn);
+the rest of the cycle's ground is *layers under known space* — the walked past
+(golden-age city, the first minds' era, the pouring, the instrument hall) exists
+only as spent strata now, held in transcripts, one chord, four carried threads, and
+the Testament. The ledger of the strata: opened Book 21, all strike-throughs by
+Book 24, closed Book 25. **The first atlas section that empties.**
 
 **Census after the Cycle 4 outlines — the contraction, tracked deliberately:** the
 walked map still grows (~19 on-page systems visited), but the *count* runs backward
@@ -142,6 +154,9 @@ meaningful act — the Anthem and the Marigold earned it; battleships don't.)*
 | **The institute's ledger** | 16 → 20 | The count of what answers, persists, and is attested-only; the first decrement (18); the relay-held column; the corrected preface (20). Cycle 4's spine artifact. |
 | **Breda's hoard** | 16 → 20 | A lifetime of palmed pages; sole surviving proof of three regions — and the bridge-deed of Meret, paid forward at the fall. |
 | **The sealed casket of Meret** *(updated)* | 04 → 20 | Kept three centuries unread; surrendered sealed to the keeper's keeper at the node's fall. *"We keep it so no one must"* — completed. |
+| **The ledger of the strata** | 21 → 25 | The Restorers' accounting of the cold store: every walked stratum struck through. The series' first artifact that *empties*. |
+| **The Testament of the Restorers** | 25 | Five testimonies + a frame, printed apart, deliberately holed; the blank section titled *How to End It*, holding the farewell. No whole edition exists anywhere, by design. |
+| **The chord** | 23 → 25 | A maker's farewell and a mother's lullaby, kept deliberately fused; Amel's notation. *Some things are only true together.* |
 
 ## Naming debts (things that exist but have no name yet)
 
@@ -152,6 +167,12 @@ meaningful act — the Anthem and the Marigold earned it; battleships don't.)*
 - [ ] Farrow's star; Sowen's star; Carath's star; the Librarian's world
 - [ ] The Cathedral's star; Tolm's star; Aulis's failing sun; the Listeners' motherhouse locale
 - [ ] Penna's star; the Record's site; the pilot region's three systems
+- [ ] Tarn's star
+
+**Additions to the deliberately-never-paid list (weight-of-names doctrine):**
+- The bright city (21) — its name did not survive, and the series refuses to invent one.
+- The first minds, the builder, the mother, and the one who stayed (22–23) — walked, witnessed, never named.
+- The dark itself (24) — named only as shape, forever so far.
 - [ ] The dating system, in-world (per-culture; CR is authorial only)
 
 **Deliberately never paid (weight-of-names doctrine — mark, don't fill):**

@@ -19,6 +19,7 @@ slot into this chronology without contradiction. Companion: [`atlas.md`](atlas.m
 | The scattered light (Cycle 2's present) | ~300 → ~320 | The mesh as everyday life; the Wayfinders' Guild; the letters from tomorrow; the first *witnessed* Erasure event (Carath) and the defense's first visible flicker. |
 | The long watch (Cycle 3's present) | ~350 → ~400 | The Listeners interview the old minds; the dossier grows by referral; the old minds are stirring; the Reading. |
 | The collection (Cycle 4's present) | ~430 → ~460 | The blanks undeniable; the count runs backward; the factions' answers fail informatively; the collector witnessed at work — *the keeper's keeper*, the cities call it; the first defended node falls and its city survives. |
+| The first silence (Cycle 5's present) | ~470 → ~484 | The cold strata found; the deep past walked and spent; the golden age, the first defense, and the pouring recovered; the mark read; the Testament published. |
 
 ## Chronology
 
@@ -49,6 +50,11 @@ slot into this chronology without contradiction. Companion: [`atlas.md`](atlas.m
 | ~445 | The first decrement; the selection rule named (wrongly framed) | 18 | The relay survey adopted; Penna becomes the first relay-held entry. |
 | ~452 | The Whole Record: the pilot, the audit, the hole | 19 | Maintenance-nature deduced; the annex collected; incompleteness doctrine born. |
 | ~460 | The node-death of Meret; the collector witnessed (*the keeper's keeper*); the mandate | 20 | Cycle 4's canon spend logged: maintenance, failing. The city survives its node. |
+| ~470 | The cold strata found under Tarn; the Restorers chartered | 21 | The golden age confirmed: a prior human rise, erased. Strata are single-walk. |
+| ~474 | The deep walk: the noticing and the first defense, walked | 22 | Kova's kept thread; the origin as practice, not wall. |
+| ~477 | The fused day; the pouring walked; the one who stayed, witnessed | 23 | The makers became the substrate. The store's curator's fingerprints found. |
+| ~481 | The dark strata; the mark read; the store spent | 24 | The root named only as shape; the mercy-horror held plural. |
+| ~484 | The Testament of the Restorers published; the team disbands | 25 | The farewell identified as the first defense's instruction. The ending remains. |
 
 ## Book placements
 
@@ -76,3 +82,8 @@ _Where each novella sits on the timeline (they need not be in chronological orde
 | 18 | ~445 (epilogue at the new edition) | ~1 season | The institute; Penna, the green blank |
 | 19 | ~452 | ~90 days (the renewal clock) | The Record's site; the pilot region |
 | 20 | ~460 | ~weeks | Meret — the Wells, the node's heart |
+| 21 | ~470 | ~1 season | Tarn; the cold strata's first shaft |
+| 22 | ~474 | ~weeks | The store; the deep horizon (walked) |
+| 23 | ~477 | ~weeks | The store; the fused stratum; the pouring (walked) |
+| 24 | ~481 | ~weeks | The store; the dark strata; the instrument hall (walked) |
+| 25 | ~484 | ~1 year | The empty store; the writing room; the reach (published) |
