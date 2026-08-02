@@ -65,3 +65,107 @@ slices:
           nine, and then, for the first time, an unnumbered tenth, held not
           argued. Amel does not transcribe it, and everyone present knows that
           is the point.
+
+      - id: beautiful-contamination
+        title: "Beautiful Contamination"
+        when: "before the dark walks · the skeptic's office"
+        chapters: [chapter-1]
+        inhabit: [hask]
+        frame: >
+          Hask's craft taught in work: what testing a walk means, what
+          beautiful contamination is, and why the team's record is trusted
+          across the reach — along with what a life of doubting things he
+          loved has cost him. Outside, the instruments read the dark strata
+          from above: this was a facility. Dry, exact, and quietly proud of
+          the rigor.
+
+      - id: the-calibration-read
+        title: "The Calibration Read"
+        when: "the walks systematized · a drift-check at the table"
+        chapters: [chapter-3]
+        inhabit: [hask, amel]
+        frame: >
+          Transcription drift checked the standard way: a most-copied text
+          read aloud against the team's copies — the Hall's account of the
+          First Pilgrimage — and the read passes clean. In the quoted
+          passage, where the old climber's name should stand, the line is
+          blank, and it is blank in every copy consulted. No one at the
+          table has anything to notice; keep it uncommented, one paragraph's
+          weight, and move on.
+
+      - id: the-data-of-the-dying
+        title: "The Data of the Dying"
+        when: "the first dark stratum · the investigation's substance"
+        chapters: [chapter-4]
+        inhabit: [hask]
+        frame: >
+          The dying of meaning, mapped by the first minds: the edges
+          thinning first, the obscure and the whole going strangely, dread
+          kept procedural in an idiom half a million years gone. Render the
+          walked past as other; the visitor cannot change it, and the
+          stratum spends. The investigators may be witnessed, never worn and
+          never named. Two rigors recognizing each other across the gap.
+
+      - id: amel-copies
+        title: "Amel Copies"
+        when: "the final chamber reached · the mark taken up"
+        chapters: [chapter-5]
+        inhabit: [amel, hask, kova]
+        frame: >
+          The investigation's final chamber holds no words — one mark, drawn
+          large and everywhere, and the walked context that makes it legible
+          at last. Up in the frame, Amel does not transcribe; Amel copies,
+          stroke for stroke, checking the curve against the transcript like
+          a forger of something holy. Let the room stay silent until the
+          copying is done.
+
+      - id: nine-objections
+        title: "Nine Objections"
+        when: "up with the meaning · the litany failing"
+        chapters: [chapter-6]
+        inhabit: [hask, isla]
+        frame: >
+          Hask says the litany against the finding — objections one through
+          nine — and for the first time in his life the finding stands
+          through all of them. Something surfaces from the data underneath
+          the mark that nobody is asked to believe and nobody says plainly;
+          do not let anyone say it plainly. Certainty arriving at a skeptic,
+          rendered as vertigo.
+
+      - id: the-final-page
+        title: "The Final Page"
+        when: "the last stratum · the burn counted out"
+        chapters: [chapter-8]
+        inhabit: [isla, kova, pim, amel]
+        frame: >
+          The last walk in the store: the team above, counting out the final
+          burn, the ledger open to its last unstruck line. Hask comes up
+          carrying something he does not put into words, and nobody asks —
+          that is the protocol now, and also the kindness. The cold face
+          goes quiet behind them for good.
+
+      - id: everywhere-at-once
+        title: "Everywhere at Once"
+        when: "the injunction maturing · the reading loosed"
+        chapters: [chapter-9]
+        inhabit: [isla, amel, yent]
+        frame: >
+          The Concord's order against publication racing the team's answer
+          to it: the mark and its plain reading sent plural and everywhere
+          at once — schoolhouses, chapter-houses, the long shelf — before
+          the order can be served. You cannot enjoin what is already in
+          every town's hands. Yent, served with his own defeat, files it
+          with something close to admiration.
+
+      - id: the-long-camp
+        title: "The Long Camp"
+        when: "the late seasons · the store nearly spent"
+        chapters: []
+        inhabit: [isla, kova, pim]
+        frame: >
+          The camp in its late seasons: rites worn smooth as stair-stones,
+          the ledger mostly strike-throughs, five people moving around one
+          another like a single practiced body. Supply runs, weather,
+          mending; the dark below patient as ever. Nothing happens here —
+          only the shape of years of doing this together. (Reachable from
+          the sky, not tied to a chapter.)

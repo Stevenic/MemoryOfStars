@@ -38,6 +38,18 @@ slices:
           written that word. The detonation is a pronoun; let it land like a
           cliff.
 
+      - id: the-first-offer
+        title: "The First Offer"
+        when: "the testament commissioned · Ondine at the door"
+        chapters: [chapter-1]
+        inhabit: [amel, isla, ondine]
+        frame: >
+          Ondine's first visit since the store went blank: the institute's
+          offer laid out with real decency — vaults, guards, permanence —
+          by the woman who chartered the team fourteen years ago. The
+          team's silence after she leaves says more than the refusal will.
+          Courteous on every side; the stakes entirely audible underneath.
+
   - id: testament-writing-room
     star: book-25
     title: "The writing of the testament"
@@ -72,3 +84,102 @@ slices:
           by no one. Isla lets the Ash claim die: the first of her line in five
           centuries to open the hand. The checkmate played gently; the cost
           real and paid on the page.
+
+      - id: the-clock-of-the-lapse
+        title: "The Clock of the Lapse"
+        when: "the contest with teeth · lapse day named"
+        chapters: [chapter-3]
+        inhabit: [isla, hask, ondine, yent]
+        frame: >
+          The claim's shield read closely at last: it covers the
+          walk-products — transcripts, the chord, the copied mark — and on
+          lapse day it ends, the same date Yent's counter-claim matures.
+          Ondine returns with the decent version, a reach-wide trust; Hask
+          applies the litany to every offer on the table. The deadline
+          becomes the room's true clock: publish plural before lapse, or
+          lose the past a second time — to custody.
+
+      - id: the-testimonies
+        title: "The Testimonies"
+        when: "the writing begun · colleagues at their own pages"
+        chapters: [chapter-4]
+        inhabit: [amel, kova]
+        frame: >
+          The walkers' books drafted: Kova's twelve thresholds rendered at
+          length, the others arriving in Amel's careful hand. Transcribing
+          testimony is not transcribing walks — this is the team speaking,
+          and the scribe has no notation for colleagues weeping at their
+          own pages. Let the writing room hold both the work and the
+          weeping.
+
+      - id: the-holes
+        title: "The Holes"
+        when: "the doctrine applied · Ondine shown the shape"
+        chapters: [chapter-5]
+        inhabit: [amel, isla, ondine]
+        frame: >
+          The testament's deliberate holes cut by hand — what stays
+          plural-held, what stays unwritten, what stays drawn-only — and
+          Ondine, shown them, understands at last what she is being refused
+          for. Her conversion comes at price: she resigns the provostship
+          to withdraw her institution's bid, and her institution answers by
+          joining the counter-claim. The clock does not slow; it tightens.
+
+      - id: nothing-to-hold
+        title: "Nothing to Hold"
+        when: "the final section · the store's one omission"
+        chapters: [chapter-6]
+        inhabit: [amel, hask, isla]
+        frame: >
+          The final section — how to end it — has nothing to hold: the
+          store never contained it, and the builders themselves poured
+          mid-question. Hask, of all people, refuses the despair-reading:
+          an unanswered question, held properly, is an instruction to keep
+          holding. Nobody can yet write that so a civilization can use it.
+          Let the block be real; do not solve it here.
+
+      - id: the-scribes-i
+        title: "The Scribe's I"
+        when: "the frame written · the first person, once"
+        chapters: [chapter-8]
+        inhabit: [amel]
+        frame: >
+          The frame written at last in the first person — the scribe's I
+          spent like a stratum, once, entirely: how it was found, what it
+          cost, who they were. The blank section titled honestly, holding
+          one line and its attestation. Let the pronoun cost what it costs
+          on every page; this is the surgery Amel agreed to.
+
+      - id: printed-apart
+        title: "Printed Apart"
+        when: "the night before lapse day · the presses"
+        chapters: [chapter-9]
+        inhabit: [pim, kova, hask]
+        frame: >
+          Five documents printed apart on five presses, holes and all, and
+          scattered on the long shelf's pattern through the night — the
+          whole team turned print-crew, counting hours against the
+          counter-claim's maturity. Ink, hurry, and the deep calm of people
+          doing the last version of their work. The checkmate assembled by
+          hand.
+
+  - id: testament-abroad
+    star: book-25
+    title: "The testament, abroad"
+    frame: >
+      A year after the publication: the testament read everywhere, argued
+      everywhere, incomplete everywhere — working. The team unbound, five
+      people gone home carrying each other; the years of walks alive only
+      above ground now.
+    memories:
+      - id: the-interest
+        title: "The Interest"
+        when: "a year on · the account closed"
+        chapters: [epilogue]
+        inhabit: [amel, isla]
+        frame: >
+          A year on: the mark on schoolhouse walls with its plain reading
+          beneath, the testament argued in every town that shelves it, the
+          holes doing their work by staying holes. On the last page of the
+          team's own ledger, in Amel's hand, first person, one line closes
+          the account. Quiet, spent, and strangely light.

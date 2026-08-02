@@ -61,3 +61,125 @@ slices:
           thank-you — and boards with Lyddi. They are not the keepers here; they are
           the kept, held forever, imperfectly, namelessly, by something that will
           outlast every ship. Keep it plain, and let the gratitude carry it.
+
+      - id: the-lintel-lessons
+        title: "Two Geographies"
+        when: "the Leaving year · a school morning"
+        chapters: [chapter-1]
+        inhabit: [imre]
+        frame: >
+          The schoolhouse in the Leaving year: two geographies on one slate board —
+          home, and wherever next — and over the door the old carved lintel, its
+          letters cut by a hand nobody remembers and touched smooth by generations
+          of children going in. Imre teaches the morning as if the year were
+          ordinary. Keep it small and steady; the goodbye stays under the
+          arithmetic.
+
+      - id: the-berth-lottery
+        title: "The Berth Lottery"
+        when: "the Leaving year · lottery day"
+        chapters: [chapter-1]
+        inhabit: [imre]
+        frame: >
+          Lottery day in the meeting hall: berths drawn by household, ships booked
+          years out, a family split across two sailings taking the news standing
+          up. No rescue fleet, no miracle, no speeches — the Leaving is priced, and
+          the town pays in order. Imre keeps the list because someone must; let the
+          fairness be the hard part.
+
+      - id: ship-mad-afternoons
+        title: "Ship-Mad Afternoons"
+        when: "the Leaving year · after school"
+        chapters: [chapter-2]
+        inhabit: [lyddi, imre]
+        frame: >
+          Lyddi's afternoons: sail-tables copied into a notebook, burn windows
+          recited like verses, the berth papers checked weekly against a departure
+          that cannot come soon enough. She is first to leave and least
+          sentimental, and she loves her grandfather anyway, in the practical
+          tense. Bright and quick; her wanting to go is not a wound — do not play
+          it as one.
+
+      - id: the-deposition
+        title: "The Deposition"
+        when: "the deposition's first weeks · the plantings"
+        chapters: [chapter-3]
+        inhabit: [imre, veck]
+        frame: >
+          Veck's interview begins: questions posed in plantings, answers arriving
+          as weather, a sentence a week. The nine rises start to surface — nine
+          civilizations remembered as seasons, their terraces and their winter
+          lights, never one name — and Imre files his own petition beside hers:
+          remember us as we called ourselves. Patient, procedural, and enormous
+          underneath.
+
+      - id: nine-rises
+        title: "Nine Rises"
+        when: "the deposition deepens · the transcription"
+        chapters: [chapter-4]
+        inhabit: [imre, veck]
+        frame: >
+          The testimony deepens: what a season-memory keeps is everything but the
+          words — nine whole peoples held perfectly, anonymously. The beauty and
+          the horror are the same fact, and no one in the room is allowed to choose
+          between them. Keep the Observer's answers in weather and stone; never let
+          it speak like a person.
+
+      - id: the-oldest-stratum
+        title: "The Oldest Stratum"
+        when: "the deposition · beneath the nine"
+        chapters: [chapter-5]
+        inhabit: [veck, imre]
+        frame: >
+          Beneath the nine, the instruments find a passage that was not a rise —
+          older than all of them, rendered in strata and subsidence, a going-down
+          instead of a season. Veck seals the page with shaking hands and files her
+          unease in the order's plain words: the old minds are stirring. State what
+          the stratum holds in the Observer's idiom only, and answer nothing.
+
+      - id: the-tenth-season
+        title: "The Tenth Season"
+        when: "midsummer of the Leaving year · the answer"
+        chapters: [chapter-6]
+        inhabit: [imre, veck]
+        frame: >
+          The Observer answers the petition with an offer and a correction: it has
+          never kept a name in nine tries, and what it can give is larger and worse
+          — the town held as its tenth season, perfectly, forever, namelessly. The
+          awe and the insult arrive together, and the town must now choose between
+          anonymity forever and nothing at all. Let the offer be genuinely kind;
+          its limits and its kindness are the same fact.
+
+      - id: what-a-season-keeps
+        title: "What a Season Keeps"
+        when: "the weeks of dividing · kitchen by kitchen"
+        chapters: [chapter-7]
+        inhabit: [imre, veck]
+        frame: >
+          The town divides over the offer — anonymity forever against nothing at
+          all — and Imre argues both sides nightly, in letters to the mountain.
+          Veck's counsel comes from her order's charter: do not tidy; a plural
+          record beats a perfect one. Domestic, divided, and courteous; nobody is
+          wrong.
+
+  - id: harrow-after-the-ships
+    star: book-12
+    title: "The Harrow — after the ships"
+    frame: >
+      The Harrow terraces seasons after the ships went: an emptied world, a
+      mountain still keeping, and a Listener returned with instruments to read
+      what it wrote. The town's voices are not in this recording; that is the
+      point of it.
+    memories:
+      - id: the-tenth-rise
+        title: "The Tenth Rise"
+        when: "seasons after the ships · the Harrow, by instrument"
+        chapters: [epilogue]
+        inhabit: [veck]
+        frame: >
+          Veck's addendum: the newest stratum read by instrument — a season shaped
+          like people naming one another — and beneath it, freshly cut, the
+          Observer's first addition to its own record in nine rises: a referral,
+          given within its limits, about the ones who left by water that sails. It
+          knows only what departed from it; the sky is not its province. Close the
+          file gently; the mountain is still writing.

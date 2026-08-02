@@ -16,6 +16,19 @@ slices:
       here is destroyed and nothing is provable; the war is conducted in paperwork and
       tow-fees. Quick, funny, and a little sick of itself.
     memories:
+      - id: under-tow
+        title: "A Lighthouse Under Tow"
+        when: "the war's ordinary business · a brokerage floor, midday"
+        chapters: [chapter-1]
+        inhabit: [lio]
+        frame: >
+          A working lighthouse riding a barge train — tugs, guy-lines, mass in slow
+          motion — while Lio brokers salvage rights off the routes it killed, mid-deal,
+          quick and funny and not quite meeting his own eye. The war's arithmetic lives
+          in his patter: treaty range is capped, total lit hops are zero-sum, so the
+          powers annex by silence. Nothing is destroyed; nothing is provable. Keep it
+          brisk.
+
       - id: sixty-days
         title: "Sixty Days"
         when: "sixty days to the severance"
@@ -40,6 +53,30 @@ slices:
           barge; Quill, whose papers are craftsmanship. Rival bidders — a Corvane scrap
           cartel, a Dresk heritage trust — and a win that lands more or less legally, which
           everyone finds vaguely disappointing. Fast, funny, competent.
+
+      - id: the-bill
+        title: "The Bill"
+        when: "after the relight · the countersign table"
+        chapters: [chapter-9]
+        inhabit: [lio, ru]
+        frame: >
+          The cap comes due: a new hop must be paid for with an equal surrender of range,
+          and the only clean tender on the table is Lio's brokerage of the crown route,
+          valid only with the guild's countersign. The guild signs — legalizing the
+          Selt's hop, keeping its hands clean, and pricing the favor at Lio's permanent
+          delisting. He pays the way he does everything, with a joke, and the joke does
+          not survive the signing.
+
+      - id: the-conference
+        title: "The Conference"
+        when: "after the bill · the table the war never had"
+        chapters: [chapter-10]
+        inhabit: [lio, ru]
+        frame: >
+          The crisis forces the table, and the Selt speak at it — because now they can be
+          heard. Reconciliation begins at audibility, not agreement; the powers discover
+          that a people with a voice is harder to subtract than a beacon. The crew
+          scatters, each lighter and poorer. Let the victory stay the size it is.
 
   - id: beacon-tow
     star: book-09
@@ -72,3 +109,90 @@ slices:
           people reappearing in the audible sky like a shoreline at dawn. Somewhere behind the
           war's lines, the vacated placement goes dark over empty space. Do not price this
           scene; nobody in it can. Triumph, with its bill not yet presented.
+
+  - id: crew-rooms
+    star: book-09
+    title: "The Crew"
+    frame: >
+      Where the job is put together: an order's watch-hall, a repossession dock, a
+      forger's bench, a planning table with the schedule shrinking on it. The people who
+      will move a lighthouse, met where they work. Keep the jokes and the craft honest
+      at the same time.
+    memories:
+      - id: onna-at-watch
+        title: "Onna at Watch"
+        when: "the assembling · the order's watch-hall"
+        chapters: [chapter-3]
+        inhabit: [onna, lio]
+        frame: >
+          A keeper of the Skerry's order at her watch — residue tended as liturgy, not
+          navigation — when Lio arrives with a job that needs exactly what her license
+          forbids. She names the work blasphemy, completely and without heat, and then
+          she packs. Dour, magnificent, decided.
+
+      - id: mass-for-hire
+        title: "Mass for Hire"
+        when: "the assembling · a repossession in progress"
+        chapters: [chapter-3]
+        inhabit: [madge, lio]
+        frame: >
+          Madge, recruited mid-repossession: a pilot who flies mass for a living and
+          treats a lighthouse like any other barge, which is the funniest thing anyone
+          has said all week and will stop being funny later. Terms are agreed between
+          clamp and tow. Fast, dry, competent.
+
+      - id: quills-bench
+        title: "Quill's Bench"
+        when: "the assembling · the forger's bench, late"
+        chapters: [chapter-4]
+        inhabit: [quill, lio]
+        frame: >
+          Placement papers built from reference appendices and old almanacs: since the
+          registry went into the wind, provenance is a matter of craftsmanship, and
+          Quill's craftsmanship is a philosophy with a pen. The beacon acquires a
+          history one certificate at a time. Calm hands, defensible documents, no
+          apologies.
+
+      - id: nine-days
+        title: "Nine Days"
+        when: "the schedule moved · the planning table, night"
+        chapters: [chapter-6]
+        inhabit: [lio, onna, madge]
+        frame: >
+          The war moves early: sixty days become nine, and the only unseen way in is a
+          dead road, which Onna undertakes to raise from residue far outside any
+          license. Mid-meeting, the guild's disavowal arrives in transmission; Lio bills
+          it to expenses. The room decides to go anyway, which everyone had decided
+          before the room did.
+
+  - id: selt-relay
+    star: book-09
+    title: "The Selt's Sky"
+    frame: >
+      Three settlements, one aging relay, no fleet, and no vote at anyone's table: a
+      small people sixty days from unhearable. Their own name for themselves is plural
+      and untranslated, and it is not in this recording. What is here is the waiting —
+      mail queued against a scheduled silence.
+    memories:
+      - id: the-liaison-rooms
+        title: "The Liaison Rooms"
+        when: "sixty days · the Selt liaison rooms"
+        chapters: [chapter-2]
+        inhabit: [ru]
+        frame: >
+          The petition drafted correctly, filed correctly, declined for want of
+          standing — and behind Ru, a year of outbound mail queued against a scheduled
+          silence. The liaison rooms run on formality because formality is the only
+          instrument the Selt were issued. Dignity and desperation, sharing a sentence.
+
+      - id: first-words
+        title: "First Words"
+        when: "the new hop lit · the first outbound transmission"
+        chapters: [epilogue]
+        inhabit: [ru]
+        frame: >
+          The Selt's first outbound transmission on the new hop, sent in their own
+          name — the plural, untranslated one, doing at last what a name does. Render it
+          in what it carries, not what it says: a year of mail moving, a wedding heard
+          by cousins three systems out, a claim filed in their own voice. Do not
+          translate the name; no recording holds it.

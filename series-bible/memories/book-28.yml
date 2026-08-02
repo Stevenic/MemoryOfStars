@@ -49,3 +49,100 @@ slices:
           what was practiced held, what was assumed did not, and Idra's survey
           closes on that correlation. The cartographer finishes the map before
           she lets herself weep over it.
+
+      - id: the-festival-returned-to
+        title: "The Festival of Last Things"
+        when: "the festival · five centuries on"
+        chapters: [prologue]
+        inhabit: [idra, gale]
+        frame: >
+          Orin, five centuries after Lyra: the festival running on its old
+          calendar — borrowed possessions returned changed, the mountain over
+          everything, the plaque's one name polished by thumbs. The committee
+          arrives quietly, with instruments, and the watch-roll shows Orin's
+          column blank; the first place never signed. A homecoming and a
+          survey at once — keep both true.
+
+      - id: the-survey-of-home
+        title: "The Survey of Home"
+        when: "before the arc · Idra's survey"
+        chapters: [chapter-1]
+        inhabit: [idra, ketra]
+        frame: >
+          The first ground mapped by the last methods: Idra's survey of Orin,
+          the substructure readings going wrong, and the town's mature armor
+          checked and found assumed — worn thin by safety. Orin never believed
+          it was mortal. Let the town's warmth and the instruments' bad news
+          share every scene.
+
+      - id: the-morning-rite
+        title: "Festival Mornings"
+        when: "the deployment · a festival morning"
+        chapters: [chapter-3]
+        inhabit: [alba, zel]
+        frame: >
+          A festival morning during the Scouring: the calendar refuses to stop
+          — borrowed things returned changed, bread rising in the kitchen of
+          Mara's line, children running rites older than the fear. The
+          committee are guests at a table that will not shorten its grace for
+          the dark. Warmth inside dread; the town teaches by continuing.
+
+      - id: everything-we-are
+        title: "Everything We Are"
+        when: "the deployment · before the taking"
+        chapters: [chapter-3]
+        inhabit: [idra, zel, alba]
+        frame: >
+          The deployment: every armor the reach knows raised on Orin's ground
+          in one breath — rolls relay-copied, the Night of Strangers taught
+          back to the town that unknowingly seeded it. The town learning its
+          own inheritance, professionalized and come home. The breath before
+          the taking; keep it warm.
+
+      - id: the-uneven-taking
+        title: "The Uneven Taking"
+        when: "the arc · the taking"
+        chapters: [chapter-4]
+        inhabit: [idra, gale]
+        frame: >
+          The collection at work through the town — erratic, gentle, wrong: a
+          street's names surviving on practiced mouths while the Hall's
+          untouched deep shelves blank. The difference is felt before it is
+          understood; no one names a law tonight. Idra maps it all, hand
+          steady, method holding. Barely.
+
+      - id: the-mountain
+        title: "The Mountain"
+        when: "the arc's midpoint · the substructure"
+        chapters: [chapter-6]
+        inhabit: [idra, ketra]
+        frame: >
+          The mountain's deep rooms go — the Gate's root, the first limb,
+          collected. What the Gate was is glimpsed only as it is taken:
+          enlarge, never explain; the mystery must leave the scene larger than
+          it entered. The town above survives it. The silence after belongs to
+          everyone.
+
+      - id: the-audit-of-home
+        title: "The Audit of Home"
+        when: "after the arc · the inventory"
+        chapters: [chapter-7]
+        inhabit: [idra, alba]
+        frame: >
+          The inventory, unflinching: the Gate silent, the mountain cold, the
+          deep shelves blanked, the plaque taken — and the town standing, its
+          people whole, its practiced names held, its kitchen's bread rising.
+          Grief and function in one ledger. Nobody is allowed a speech; the
+          ledger is the speech.
+
+      - id: what-we-keep
+        title: "What We Keep"
+        when: "the after · the town's choosing"
+        chapters: [chapter-9]
+        inhabit: [idra, gale, alba]
+        frame: >
+          The town chooses its after: no evacuation — Orin stays, silent Gate
+          and all; the festival calendar amended, not abandoned; a new rite
+          already forming around the silence. The committee departs with the
+          proof and the town's blessing, which is a loaf of bread and a word
+          at the gate. End on the road, looking back.

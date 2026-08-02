@@ -63,3 +63,126 @@ slices:
           lien the moment it was used, and its only holder is the 32nd. Marsh opens
           his case and takes no pleasure in it. Let the triumph land before the trap
           does.
+
+      - id: junk-and-glory
+        title: "Junk and Glory"
+        when: "forty days before the Run · mid-salvage"
+        chapters: [chapter-1]
+        inhabit: [nell, pol, dree, marsh]
+        frame: >
+          The Marigold mid-salvage, working a debris field on family rhythm —
+          junk-line warmth with a creditor's rider aboard, Marsh polite at the rail
+          with his locked case. Then the news from planetside: the old captain is
+          dead, the rite is due, and the Charter says a mourning line races anyway.
+          Warm, quick, and busy; the debt's hard edge stays in the corner of every
+          scene.
+
+      - id: the-consult
+        title: "The Consult"
+        when: "the first leg · under way"
+        chapters: [chapter-4]
+        inhabit: [nell, dree]
+        frame: >
+          The first leg run on inherited skill: Old Bax loudest and wrongest and
+          most beloved, Prue quietest and right twice, and Nell learning to chair
+          her ancestors rather than obey them — she outranks them all, which
+          infuriates Bax. Mid-maneuver the 32nd surfaces, hauling her course sense
+          toward a dim off-chart star; she corrects, and it costs an hour they
+          didn't have. The consult is inheritance, never possession; play it as a
+          crowded family table.
+
+      - id: the-engine-room
+        title: "The Engine Room"
+        when: "the second leg · the route-storm"
+        chapters: [chapter-5]
+        inhabit: [pol, nell]
+        frame: >
+          Pol's engine room in a route-storm: soundings gone stale, burn windows
+          shaved thin, the ship held together by maintenance and opinion. Pol
+          notices Nell talking to someone new and says nothing yet — he has watched
+          captains learn their dead before. "Your gran said that too" at exactly
+          the wrong moment; let the affection carry the worry.
+
+      - id: the-riders-rounds
+        title: "The Rider's Rounds"
+        when: "the second leg · the audit"
+        chapters: [chapter-5]
+        inhabit: [marsh]
+        frame: >
+          Marsh's quiet audit, deck by deck: the lot-inventory of the dead in its
+          locked case, thirty-one captains attachable, every figure honest and
+          every figure terrible. He is precise, courteous, and does not like the
+          vault he serves — and he says none of that, because the arithmetic
+          doesn't care. Decency inside a bad job; no villain aboard.
+
+      - id: what-the-stowaway-wants
+        title: "What the Stowaway Wants"
+        when: "between legs · the full consult"
+        chapters: [chapter-6]
+        inhabit: [nell]
+        frame: >
+          Nell convenes the full consult at last and shows them the 32nd.
+          Generations of salvage wisdom arrive at one line — it isn't cargo, it's
+          crew — and the stowaway's shape is mapped: it cannot speak, it steers; it
+          is running from something and toward something, and both directions are
+          old. Render it as vector, fear, and craft — never a ghost, never a small
+          person.
+
+      - id: the-division
+        title: "The Division"
+        when: "after the Run · the rite reversed"
+        chapters: [chapter-9]
+        inhabit: [nell, pol, dree, marsh]
+        frame: >
+          The decent defense fails — the lien predates the doctrine, and Marsh
+          grieves the ruling he must enforce — so the line answers from older
+          salvage law: what is plural cannot be attached. In the rite reversed,
+          Nell divides the 32nd among five living keepers, and the loss is on the
+          page: the sequence dies; the fear, the yearning, the choosing survive as
+          five true pieces that no longer agree. The stowaway is safe and will
+          never again be whole; let Nell grieve a passenger no one else fully met.
+
+      - id: the-manifest-of-the-line
+        title: "The Manifest of the Line"
+        when: "at dock · the line's book"
+        chapters: [epilogue]
+        inhabit: [nell, pol, dree]
+        frame: >
+          The line's book, kept since Prue: each captain's page in their own hand,
+          and Nell writing hers at nineteen. Beneath it, a second entry, unsigned —
+          five short lines in five crew hands, one shared page for a passenger —
+          and a motherhouse letter, months chasing a trace, read aloud to the
+          consult. The dead vote unanimous for once; the copy goes back with the
+          reply, given, not taken.
+
+  - id: roan-charter-run
+    star: book-13
+    title: "The Roan — the same Run"
+    frame: >
+      The rival's side of the Charter Run: the Roan line, four-time winners, a
+      bridge that has earned its manners. The Marigold's decks, and what rode
+      them, are not in this recording.
+    memories:
+      - id: the-roan-dockside
+        title: "The Roan, Dockside"
+        when: "the eve of the Run · the rival's berth"
+        chapters: [chapter-3]
+        inhabit: [dagny]
+        frame: >
+          Dagny dockside on the eve of the Run, needling the Marigold's new captain
+          about racing a ship full of dead people — and getting the answer back
+          with change. Four wins have taught her exactly what the Run costs and
+          what it keeps, and the ribbing is how respect talks in this trade. Quick
+          and salty; the rivalry is real and so is the regard.
+
+      - id: the-roan-turns-back
+        title: "The Roan Turns Back"
+        when: "the third leg · the turn"
+        chapters: [chapter-7]
+        inhabit: [dagny]
+        frame: >
+          The dead route from the Roan's bridge: soundings stale past trusting, the
+          dark unroaded, and no charter worth a crew. Dagny weighs it the way
+          four-time winners do — quickly, once — and turns back, and salutes the
+          hull that doesn't. Let the turn be seamanship, not cowardice; the salute
+          costs her nothing and means everything.

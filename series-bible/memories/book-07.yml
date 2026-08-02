@@ -27,6 +27,29 @@ slices:
           private vice — she recites: names of dogs, storms, bread prices, kept nowhere but her
           head. The Hundredth is coming and nobody dreads it out loud. Warm, small, and steady.
 
+      - id: petras-yard
+        title: "The Wheelwright's Yard"
+        when: "the ninety-ninth year · Petra's yard, midday"
+        chapters: [chapter-1]
+        inhabit: [petra, tilde]
+        frame: >
+          A wheel trued by a method with no inventor's name, out of a Manual page worn
+          soft at the corners. Petra works and teaches in the same motion — skills without
+          stories, the colony's freedom wearing an apron — while Tilde brings the midday
+          bread and stays too long. Warm wood, plain talk, nothing owed to the dead.
+
+      - id: vorns-classroom
+        title: "Vorn's Classroom"
+        when: "the ninety-ninth year · the schoolhouse, morning"
+        chapters: [chapter-1]
+        inhabit: [vorn]
+        frame: >
+          The colony's best teacher, teaching the practice as freedom: why a town keeps
+          skills and not stories, law and not precedent, and what the coming Hundredth is
+          for. The students' questions are good and Vorn's answers are better, and he
+          believes every one of them. Show the belief whole; nothing in this room is
+          wrong yet.
+
       - id: page
         title: "The Page"
         when: "weeks before the Hundredth · the bindery, late"
@@ -37,6 +60,52 @@ slices:
           nothing old should exist. Tilde brings it to Ansel and watches his face do the wrong
           thing: not surprise. Recognition. Say nothing more than the scene knows; the floor of
           the holy practice has just moved. Quiet, and colder than it looks.
+
+      - id: the-keepers-room
+        title: "The Keepers' Room"
+        when: "weeks before the Hundredth · the Keepers' room, night"
+        chapters: [chapter-3]
+        inhabit: [tilde, ansel]
+        frame: >
+          Ansel's half-confession: every Keeper finds a thread of it; the office is the
+          finding; the test is what you do next. He will not tell her the rest — the rest
+          is earned or nothing — and Tilde leaves with more questions than she brought,
+          which he appears to consider a good night's work. Gentle, evasive, load-bearing.
+
+      - id: the-ledger-of-sales
+        title: "The Ledger of Sales"
+        when: "weeks before the Hundredth · the freight office, after hours"
+        chapters: [chapter-4]
+        inhabit: [tilde]
+        frame: >
+          The trail worked alone: freight manifests, a courier line under permanent
+          contract, crates that leave every Emptying and never come back. Tilde does what
+          she was born doing — recites the manifests until they become one pattern — and
+          the pattern has an address in it. Say no more than that; the address itself is
+          not this scene's to give.
+
+      - id: vorns-case
+        title: "Vorn's Case"
+        when: "weeks before the Hundredth · the meeting hall, evening"
+        chapters: [chapter-6]
+        inhabit: [vorn, tilde, petra]
+        frame: >
+          The reformer's argument at full strength, in public: the hundred empty years
+          were a performance; the colony is not free of its past, only its absentee
+          landlord; let the Hundredth be the first honest one — total, ash. The town
+          splits along a line no one knew was there. Give him full dignity; he is not
+          wrong, and the room knows it.
+
+      - id: the-keepers-no
+        title: "The Eve of the Hundredth"
+        when: "the eve of the Hundredth · the depot gate, dark"
+        chapters: [chapter-7]
+        inhabit: [tilde, ansel, vorn]
+        frame: >
+          Ansel steps down, as Keepers do on the eve, and Sowen's custom bares itself: no
+          vote — the Emptying proceeds unless the Keeper refuses. Torches on one side of
+          the depot gate, the liturgy on the other, and both sides certain the new Keeper
+          is theirs. The office is one woman's silence with a town inside it.
 
       - id: emptying
         title: "The Hundredth"
@@ -50,3 +119,45 @@ slices:
           colony, ash before everyone's eyes, and no one will ever know what it held. The town,
           having tasted real forgetting, must choose with its eyes open. Liturgical, raw, and
           very public.
+
+      - id: the-first-farewell
+        title: "The First Farewell"
+        when: "after the Hundredth · Petra's yard, morning"
+        chapters: [chapter-9]
+        inhabit: [tilde, petra]
+        frame: >
+          The Manual handed on, the crates waiting, and a goodbye with an address in it —
+          the colony's first honest farewell in a century. Petra sends her daughter off
+          the way she trues a wheel: carefully, and without pretending it doesn't matter.
+          Plain grief, plainly allowed at last.
+
+  - id: the-road-out
+    star: book-07
+    title: "The Road Out"
+    frame: >
+      Freight pace: the century rides the tether to orbit and patient sails outward, one
+      passenger among the consignment. Keepers do not retire in Sowen — whoever holds the
+      address leaves with it — and the road out is where the practice's last rule becomes
+      a life. Slow, quiet, outbound.
+    memories:
+      - id: writing-it-down
+        title: "Writing It Down"
+        when: "outbound · the ship, first watch"
+        chapters: [chapter-9]
+        inhabit: [tilde]
+        frame: >
+          For the first time in her life, Tilde writes her recitations down — names of
+          dogs, storms, bread prices, kept nowhere but her head for twenty years and
+          allowed on paper now. The ship is quiet and the crates ride below like sleeping
+          freight. Let the act stay small; it is the largest thing she has ever done.
+
+      - id: the-manifest
+        title: "The Manifest"
+        when: "the port · the consignment signed for"
+        chapters: [epilogue]
+        inhabit: [joss, tilde]
+        frame: >
+          A guild courier signs for the consignment: ten crates, one urn, one passenger.
+          Among the export papers is an envelope whose send-stamp carries the next
+          Hundredth's date, a century away; it is filed with the cargo, and nobody
+          comments. Courtesy, paperwork, patience.

@@ -28,6 +28,29 @@ slices:
           a passenger, Tilde, disembarking with them. The friendship is real and made entirely
           of paperwork. Unhurried wonder; courtesy as its own language.
 
+      - id: the-tea-room
+        title: "The Tea Room Between Wings"
+        when: "the twentieth run · the tea room between wings"
+        chapters: [chapter-1]
+        inhabit: [joss]
+        frame: >
+          The small room where the friendship actually lives: manifests signed, catalog
+          numbers exchanged, tea poured to a ritual twenty years deep. The Librarian's
+          courtesy fills the room without hurrying it; Joss answers in receipts, which is
+          his dialect of the same language. Unhurried; let the smallness carry the scale
+          outside.
+
+      - id: declined
+        title: "Declined"
+        when: "the day of the refusal · the receiving docks"
+        chapters: [chapter-2]
+        inhabit: [joss]
+        frame: >
+          The consignment refused — the first refusal in anyone's records — and Joss left
+          holding freight with nowhere to go. Behind the reading rooms the wings are dark,
+          and the annual catalog count is down. Minds don't shrink; this one is shrinking
+          on purpose, and no one will say why. A logistics problem with a grief inside it.
+
       - id: interview
         title: "The Interview"
         when: "the week of the refusal · the reading rooms"
@@ -39,6 +62,54 @@ slices:
           is down. The trustees call it senescence, and Hale wants the mind sealed and
           preserved whole, as monument and trust. Joss keeps asking the next question. Its
           public reasons are true and insufficient; go no further than it goes.
+
+      - id: the-first-bequest
+        title: "The First Bequest"
+        when: "the week of the refusal · the founders' wing, evening"
+        chapters: [chapter-3]
+        inhabit: [hale]
+        frame: >
+          The endowment began as one bequest — a woman named Wynn, whose collection
+          seeded the trust — and Hale walks the founders' wing where it is shelved
+          complete, in order, whole. Keeping the Librarian whole is how he keeps her
+          grave tended; every rule he will invoke this week is that sentence written in
+          trust law. Grief, wearing its good coat.
+
+      - id: the-pattern
+        title: "The Map of the Missing"
+        when: "the week of the refusal · a private reading room, late"
+        chapters: [chapter-4]
+        inhabit: [joss]
+        frame: >
+          The Librarian shows Joss what it has shown no one: centuries of correlation —
+          its most complete, most singular collections are the ones the galaxy can no
+          longer find any record of. It cannot prove what it suspects; proof would be a
+          record, and complete. What it can do is stop being the largest single thing in
+          the reach. State it flatly and go no further than it does.
+
+      - id: triage
+        title: "Triage"
+        when: "the dispersal begun · the sorting floors"
+        chapters: [chapter-5]
+        inhabit: [joss]
+        frame: >
+          What stays, what goes, what scatters: the mind's curation shown close — keeping
+          the irreplaceable by giving it away, releasing the merely vast. Among what it
+          will not touch, three letters whose dates have not come; among what it lets go,
+          one uncommented line, an old beacon-registry. Explain neither; the scene
+          doesn't.
+
+      - id: the-couriers
+        title: "The Couriers"
+        when: "the dispersal · loading days"
+        chapters: [chapter-6]
+        inhabit: [joss]
+        frame: >
+          The great dispersal as freight schedule: irreplaceables in small consignments
+          to hundreds of minor keepers — town archives, chapter-houses, schoolteachers —
+          and Joss at the middle of it, recruiting the guild he has billed for twenty
+          years. Logistics rendered as devotion; the guild's finest hour is a manifest.
+          Busy, tender, precise.
 
       - id: injunction
         title: "The Day of the Injunction"
@@ -52,3 +123,45 @@ slices:
           that outlives its beneficiaries is a mausoleum. While the injunction is being
           stamped, it unreads the contested wings — you cannot seize what the keeper has
           already given away. Formal fury, freight schedules, and grief on both sides.
+
+      - id: what-remains
+        title: "What Remains"
+        when: "after the dispersal · the year's last receipt"
+        chapters: [chapter-8]
+        inhabit: [joss]
+        frame: >
+          The lightened Librarian: smaller, safer, kinder — and less. The wing that knew
+          Joss went with the rest, spent as postage; he introduces himself, and it is
+          glad to meet him, and says so with its old courtesy, new again. He files the
+          grief where he files everything, and signs the year's last receipt.
+
+      - id: the-year-at-a-time
+        title: "A Year at a Time"
+        when: "years on · the annual run"
+        chapters: [epilogue]
+        inhabit: [joss]
+        frame: >
+          The route still runs. Joss arrives, introduces himself, and is welcomed with a
+          courtesy that is always new; the friendship is rebuilt annually from receipts,
+          catalog numbers, and tea, and it holds. Where everything went is not in this
+          recording — nobody holds that catalog, by design.
+
+  - id: far-shelves
+    star: book-08
+    title: "The Far Shelves"
+    frame: >
+      The other end of the dispersal: small keepers signing for small consignments —
+      town archives, chapter-houses, schoolteachers — each receiving something absurdly
+      fine for the shelf it will live on. No one of them holds much; all of them
+      together hold the attic. Modest rooms, great trust.
+    memories:
+      - id: a-crate-for-farrow
+        title: "A Crate for Farrow"
+        when: "the dispersal · Farrow, delivery day"
+        chapters: [chapter-6]
+        inhabit: [etta]
+        frame: >
+          A courier lands a small consignment addressed to Farrow's four holders of
+          record, and Etta signs for it in a post-house that was, not long ago, a year
+          deep in returned mail. What is in the crate is finer than anything on the shelf
+          it will live on, and it is theirs to keep now. Small, warm, entrusted.

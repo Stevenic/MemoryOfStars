@@ -63,3 +63,115 @@ slices:
           maintenance becomes worship again. The Shepherd, tended, steadies: not
           restored — accompanied. Keep it practical and gentle; aprons and
           field-signs, not miracles.
+
+      - id: the-voice-at-matins
+        title: "The Voice at Matins"
+        when: "matins · lapse three hundred and one"
+        chapters: [prologue]
+        inhabit: [tavel]
+        frame: >
+          Tolm at dawn: the Shepherd's weather laid over the valleys like a made
+          bed, and Tavel performing the morning office with forty years' polish.
+          Privately, in the ledger no one knows exists, he notes lapse number three
+          hundred and one. The certainty is performed and the care is real; keep
+          both true at once.
+
+      - id: the-lapse-ledger
+        title: "The Lapse-Ledger at Night"
+        when: "after compline · the Voice's cell"
+        chapters: [prologue]
+        inhabit: [tavel]
+        frame: >
+          The ledger at night: forty years of small vaguenesses in a god's answers,
+          dated, cross-referenced, kept in a hand that never shakes during the
+          office. It is the most faithful and the most heretical document on Tolm,
+          and Tavel cannot decide which fact damns him. Quiet, private, and
+          unresolved; the doubt is a discipline, not a crisis.
+
+      - id: the-god-of-small-weather
+        title: "The God of Small Weather"
+        when: "the tending year · the valleys"
+        chapters: [chapter-1]
+        inhabit: [tavel, willa]
+        frame: >
+          The faith taught in work: rain to the fields that need it, storms walked
+          around the orchards, the Voice translating and performing and protecting,
+          the valleys believing. The lapses show only at the edges — vagueness
+          where precision used to live — while habit holds the center. Let the
+          tending be genuinely good; the god's love for the flock is real, and
+          rendered in weather.
+
+      - id: the-porters-gate
+        title: "The Porter's Gate"
+        when: "before first light · the pilgrim gate"
+        chapters: [chapter-1]
+        inhabit: [petch]
+        frame: >
+          Petch's rounds: fifty years of letting pilgrims in before first light,
+          every hinge oiled, every face remembered. He claims the god once asked
+          him a question, and the town has smiled at the story for decades; he
+          tells it anyway, and opens the gate. Play the claim as a fond old tale —
+          nothing in this morning says otherwise.
+
+      - id: the-harvest-deaconry
+        title: "The Harvest Deaconry"
+        when: "the harvest press · the deaconry"
+        chapters: [chapter-2]
+        inhabit: [willa]
+        frame: >
+          Willa's deaconry in the harvest press: field crews sorted, tithes
+          weighed, the rite's logistics carried on an apron and a list. Whatever
+          the sky is doing, Tuesday's duties still exist, and she sees to them; the
+          temple runs on her the way the valleys run on rain. Practical,
+          unsentimental, and quietly load-bearing.
+
+      - id: the-referral
+        title: "The Referral"
+        when: "after the oracle · in secret"
+        chapters: [chapter-3]
+        inhabit: [tavel, rill]
+        frame: >
+          Sister Rill arrives carrying the dossier's chain — a family ledger's
+          shared page whose five fragments point where the shepherd stands — and
+          asks for the thing no faith has granted: testimony. The temple's word for
+          it is heresy; Tavel's word, alone with his ledger, is better her than the
+          crowds to come. He permits it, on his terms, in secret; the hinge turns
+          quietly.
+
+      - id: the-half-sentence
+        title: "The Half-Sentence"
+        when: "the deposition · the late sessions"
+        chapters: [chapter-5]
+        inhabit: [tavel, rill]
+        frame: >
+          The purpose surfaces broken: the Shepherd was set here — it did not
+          choose Tolm — and it was set to protect against — and the sentence ends.
+          Again. Its tending is the purpose's residue, protect worn down to tend,
+          and Rill's hands are steady now taking it down. The against is never
+          named; the god cannot finish, and neither may the recording.
+
+      - id: the-voice-breaks
+        title: "The Voice Breaks"
+        when: "the evening office · the truth"
+        chapters: [chapter-7]
+        inhabit: [tavel, willa, petch]
+        frame: >
+          Forty seamless years end: Tavel tells Willa, then the congregation,
+          plainly — our god is old, and made, and failing, and it loves us past its
+          own reasons. Petch, the one man the truth vindicates, is the one it
+          un-homes; his miracle is a data point now, and he closes his gate
+          himself. Willa asks the question that saves what can be saved: then who
+          minds the weather while it rests?
+
+      - id: the-terms-of-the-shepherd
+        title: "The Terms of the Shepherd"
+        when: "the season's end · the smaller title"
+        chapters: [chapter-9]
+        inhabit: [tavel, rill, willa]
+        frame: >
+          Tavel's price, paid unasked: the lapse-ledger becomes a public
+          maintenance log with his fear in the margins, and he retires the Voice
+          for the smaller title of sexton — gladly, he says, and the recording lets
+          you doubt it. The god's blessing on the change is a small rain, perfectly
+          aimed, on his garden only. Petch does not come back for it; leave that
+          plain.

@@ -14,6 +14,20 @@ slices:
       Mercy. The vote has not been cast; what the city chose, and what it cost, are not
       in this recording.
     memories:
+      - id: the-day-before
+        title: "The Eve of the Reliving"
+        when: "the day before the Reliving"
+        chapters: [chapter-1]
+        inhabit: [juna]
+        frame: >
+          The city arranging itself around tomorrow: two tram lines running
+          their separate ways, two calendars agreeing only that the day is
+          coming, the one bridge empty in the dusk. In the robing rooms the
+          vestments are laid out and the river lullaby is hummed, not yet sung.
+          Juna checks the preparations she was born to and argues with no one,
+          which for Juna is preparation too. Ceremonial, exact; the Night
+          itself is tomorrow's weight, not tonight's scene.
+
       - id: the-reliving
         title: "The Reliving"
         when: "the day of the Reliving"
@@ -26,6 +40,18 @@ slices:
           introduced the way Meret knows her: winning an argument about the office she
           was born to. Ceremonial, exact, and heavy; the Night itself is weight, not
           scene — do not stage it.
+
+      - id: the-keepsake
+        title: "The Keepsake"
+        when: "an evening that season"
+        chapters: [chapter-1]
+        inhabit: [juna]
+        frame: >
+          In an old Bearer household, among the oath-tokens, a sliver of
+          ship-metal in a small case: carried from very far off, the family
+          says, so that someone could come home. One line; no one can say
+          more, and no one finds that strange. Do not explain it — nothing in
+          Meret can.
 
       - id: the-mercy
         title: "The Mercy"
@@ -40,6 +66,32 @@ slices:
           house. The city's crisis and the family's are the same scene; keep them in one
           room.
 
+      - id: the-old-bearer
+        title: "The Street Afterward"
+        when: "the day of the incident"
+        chapters: [chapter-4]
+        inhabit: [juna, tammo]
+        frame: >
+          A street on an ordinary afternoon, afterward: an old Bearer whose
+          Reliving bled into the present, a Northbank boy he "remembered" from
+          the Night, neighbours standing between them now, everyone courteous
+          and shaking. By evening the Mercy gains votes by the hour, and no
+          one enjoys being right. Aftermath only — do not stage the attack;
+          the city's politeness is the scene.
+
+      - id: the-night-they-decide
+        title: "The Night They Decide"
+        when: "the night before the descent"
+        chapters: [chapter-5]
+        inhabit: [juna, tammo]
+        frame: >
+          The one rule both banks keep the same way: no one goes down into a
+          Well outside the rite. Juna and Tammo, one Bearer from each line,
+          decide to break it — quietly, with the care of people who keep rules
+          for a living, because they have traded versions and both are true
+          and neither can leave it there. Keep the Wells themselves out of it;
+          this memory is only the deciding.
+
       - id: what-the-wells-are
         title: "What the Wells Are"
         when: "below the city · the forbidden descent"
@@ -53,3 +105,86 @@ slices:
           hold. Beneath everything, the finding no one wanted: the two Wells share a
           root. State each impossibility flatly and adjudicate nothing; when Juna reaches
           for the Bearer's oath, let her fail to finish it.
+
+  - id: northbank
+    star: book-04
+    title: "Northbank"
+    frame: >
+      The other side of the Sil: its own tram line, its own calendar, its own
+      Well and Bearer line keeping the same Night from the other direction.
+      It is the season of the Mercy here too. The vote has not been cast;
+      what the city chose is not in this recording.
+    memories:
+      - id: the-other-robing-room
+        title: "The Other Robing Room"
+        when: "the day of the Reliving · Northbank"
+        chapters: [chapter-3]
+        inhabit: [tammo]
+        frame: >
+          The mirror of everything: Northbank's robing rooms, its own
+          vestments, the same river lullaby, its own choreography of avoidance
+          timed to a different calendar. Tammo bears the Night from the other
+          side — the only person in Meret who knows it the way Juna does.
+          Ceremonial and heavy; the Night itself is weight, not scene — do
+          not stage it.
+
+      - id: trading-versions
+        title: "Trading Versions"
+        when: "the day Juna crosses"
+        chapters: [chapter-3]
+        inhabit: [juna, tammo]
+        frame: >
+          The bridge no one uses, used: Juna crosses to Northbank — Bearers
+          may — and the two Bearers trade versions of the Night for the first
+          time. The records contradict at the pivotal instant; neither
+          flinches; both go back and check. State the contradiction flatly and
+          adjudicate nothing — both banks are telling the truth, and that is
+          the whole problem.
+
+      - id: garrels-archive
+        title: "Garrel's Archive"
+        when: "the argument at full strength"
+        chapters: [chapter-4]
+        inhabit: [garrel]
+        frame: >
+          Northbank's archive, kept to the standard of a man who believes
+          keeping is a moral act: the testimony shelved, the seals unbroken,
+          the ledgers exact. Garrel makes the case against the Mercy with full
+          dignity — deletion is a second Bridge Night, aimed at the dead. Give
+          him the room; he is right, and so are the people he argues against,
+          and the recording takes no side.
+
+  - id: the-council
+    star: book-04
+    title: "The Council of Meret"
+    frame: >
+      The chamber where the Mercy is drafted, argued, and counted toward a
+      vote this recording does not contain. Every position held by someone
+      decent; that is the tragedy, and the register.
+    memories:
+      - id: the-drafting
+        title: "The Drafting"
+        when: "the night before the motion"
+        chapters: [chapter-2]
+        inhabit: [vessa]
+        frame: >
+          A kitchen table, a lamp, and the wording: bounded deletion of the
+          Bridge Night from both Wells and every Bearer line, set out in plain
+          civic language and read aloud to an empty room. Vessa was a Bearer
+          once and set it down; the city has never let her forget the scandal,
+          and she has never asked it to. She believes she is freeing her
+          daughter. Let the belief be whole; nothing of what the motion will
+          cost is in this memory.
+
+      - id: the-motion-count
+        title: "The Count"
+        when: "the counting season"
+        chapters: [chapter-4]
+        inhabit: [vessa, garrel]
+        frame: >
+          The council chamber as the count moves: the Mercy gaining votes by
+          the hour, the old Bearer's street in everyone's argument, both
+          banks' delegations courteous to the exact degree the city requires.
+          Vessa and Garrel are the two best people in the room and on opposite
+          sides; let everyone be decent and no one be comfortable. The vote
+          itself is not in this recording.

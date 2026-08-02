@@ -57,6 +57,107 @@ slices:
           relief with restraint — a duty completed, and a burden taken up by
           many hands.
 
+      - id: past-the-threshold
+        title: "Past the Threshold"
+        when: "arrival · the first rooms"
+        chapters: [prologue]
+        inhabit: [alba, ketra, zel, idra]
+        frame: >
+          The first rooms: small, worn, kept — a million years of duty
+          rendered as furniture, a sealed casket dusted, a returned crate set
+          on its shelf at last. The committee is received the way a keeper
+          receives: courteously, with the sense of being expected — not by
+          prophecy, by hope. No horror. A house.
+
+      - id: the-rooms-walked
+        title: "The Rooms Walked"
+        when: "the first days · the house walked"
+        chapters: [chapter-1]
+        inhabit: [alba, idra, ketra]
+        frame: >
+          The house walked room by room: not a hoard — rooms tended past
+          remembering why, with a keeper's exactness. The crafts read as they
+          go — Idra mapping, Ketra listening, Alba's hands knowing the
+          incomplete when they touch it. Ask nothing of the rooms; let them be
+          kept.
+
+      - id: the-terms-of-the-watch
+        title: "The Terms of the Watch"
+        when: "the succession · designed with the house"
+        chapters: [chapter-3]
+        inhabit: [gale, ketra, bode]
+        frame: >
+          The succession designed with the house, not seized from it: the
+          watch's duties enumerated the way the rooms understand them, matched
+          craft by craft, the roll read aloud tally by disagreeing tally. Bode
+          is admitted the only way the door admits anyone — as part of someone
+          else's plural — and offered a seat, not a throne. Keep the
+          negotiation courteous on every side of it.
+
+      - id: the-braiding
+        title: "The Braiding"
+        when: "the relief · the work"
+        chapters: [chapter-4]
+        inhabit: [gale, zel, idra]
+        frame: >
+          The mechanism assembled, and it is work, not ceremony: routes,
+          hearings, the map, the carrying, the tending — five crafts braided
+          into one succession. A strand slips; an hour runs unheld; something
+          small is lost, and the cost is logged, and the braid is taken up
+          again by hands not yet sure. Learning by failing once is the scene.
+
+      - id: the-guest-rooms
+        title: "The Guest Rooms"
+        when: "between shifts · the quieter rooms"
+        chapters: [chapter-4]
+        inhabit: [alba, zel]
+        frame: >
+          Between shifts of the braiding, the house's quieter rooms: beds kept
+          made for guests who never came, a table laid and dusted and laid
+          again, water that is always somehow warm. The committee sleeps in
+          hope given furniture. Keep it hushed; gratitude here is letting the
+          rooms do their work at last.
+
+      - id: the-season-strains
+        title: "The Season Strains"
+        when: "the long middle · the reach under load"
+        chapters: [chapter-6]
+        inhabit: [alba, gale, idra]
+        frame: >
+          The widest view, under strain: one world's wearing falters —
+          volunteered attention is unenforceable, and a season is long — and
+          the committee inside the house can do nothing but braid faster. Then
+          the crest, costlier and truer for the crack in it: forty worlds
+          holding each other on purpose, imperfectly. The house's weather goes
+          still; it is looking.
+
+      - id: the-first-hours
+        title: "The First Hours"
+        when: "the standing watch · the fever hour"
+        chapters: [chapter-8]
+        inhabit: [ketra, zel, gale]
+        frame: >
+          The distributed watch's first hours — and one final erratic spike,
+          mid-transfer, takes a real thing nobody budgeted: the completed
+          deposition, coherent and singular, collected in the handover's one
+          unguarded hour. It survives from that moment only in what Ketra can
+          say aloud. Then the fever breaks: the triage running plural —
+          consent-shaped, many-handed, refusable. Price the loss plainly and
+          let the relief arrive quiet.
+
+      - id: the-unwinding
+        title: "The Unwinding"
+        when: "the after · the committee disbands"
+        chapters: [chapter-9]
+        inhabit: [alba, bode, gale]
+        frame: >
+          The unwinding done right: no order founded, no charter — the
+          committee disbands into its traditions, the house a visited place
+          now. Bode declines the seat, courteously to the end, and files his
+          dissent beside the roll — both kept, neither ruled on. Alba signs
+          the blank section at last, not with an answer but an attestation;
+          her first unfinished thing, signed gladly.
+
   - id: the-kitchen
     star: book-30
     title: "The Kitchen"
@@ -78,3 +179,15 @@ slices:
           town's version stand. On the sill, wet with black grass, the red bird;
           on the child's answer, the two-finger gesture at the sky. Small, and
           home; end there.
+
+      - id: before-the-asking
+        title: "Before the Asking"
+        when: "after everything · the kitchen at dusk"
+        chapters: [epilogue]
+        inhabit: [alba, zel]
+        frame: >
+          The kitchen before the story is asked for: bread cooling, thyme in
+          the window, the two bowls laid, the amended festival warming up
+          outside and the silent mountain wearing stars. Guests who were there
+          help with supper and claim nothing. Let the ordinary evening carry
+          all the weight it has earned, and wait for the child to ask.

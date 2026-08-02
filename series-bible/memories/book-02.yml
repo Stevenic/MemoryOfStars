@@ -12,6 +12,31 @@ slices:
       every other, and the town finds this acceptable. Valen, the Lens, and everything
       Kieran learns there are not in this recording.
     memories:
+      - id: the-school-by-the-road
+        title: "The School by the Road"
+        when: "the day the historian arrives · morning"
+        chapters: [chapter-1]
+        inhabit: [kieran]
+        frame: >
+          The pavilion school on the road below Orin: a teacher writes names
+          joined by lines, and the children answer together — when history
+          disagrees, we preserve the relationship. A historian walks past on
+          his way to solve the town and declines to be moved. Bright, small,
+          and sly; let the lesson do its work on the visitor instead.
+
+      - id: tea-at-the-hall
+        title: "The Bell That Is Not a Bell"
+        when: "the same day · afternoon"
+        chapters: [chapter-1]
+        inhabit: [kieran, lyra, tomas]
+        frame: >
+          The Hall's upper galleries, the valley beyond, and a single warm note
+          that means Tomas has forgotten to eat again. Lyra walks the historian
+          through a building that organizes history incorrectly on purpose;
+          Tomas greets him as though resuming a conversation neither of them
+          started. Quick and dry; let Kieran's certainty read as formidable,
+          never naive.
+
       - id: the-book-of-relationships
         title: "The Book of Relationships"
         when: "twenty-five years after the Pilgrimage · midmorning"
@@ -24,6 +49,85 @@ slices:
           to stay written; the page will not keep it. Wry and quick; let Kieran win the
           argument; state the failure of the ink flatly and explain nothing.
 
+      - id: elias-keeps-the-names
+        title: "The Caretaker's Rounds"
+        when: "twenty-five years on · his rounds"
+        chapters: [chapter-2]
+        inhabit: [elias]
+        frame: >
+          Elias, very old now, makes his slow round of the wall: the names cut
+          deep and old, the names a week set, and the small plaque he hung and
+          will not explain. Some days he cannot say more; on those days he says
+          less, and the town lets him. Nothing he half-remembers may be
+          explained — not even to himself.
+
+  - id: the-society-rooms
+    star: book-02
+    title: "The Society"
+    frame: >
+      The Royal Historical Society at Valen, in the season it commissions the
+      one true history of Orin. The institutional appetite for a single
+      authoritative record, shown as backing, funding, and applause. Nothing
+      of what the commission becomes is in this recording.
+    memories:
+      - id: the-commission
+        title: "The Commission"
+        when: "the season before Orin · Valen"
+        chapters: [chapter-1]
+        inhabit: [kieran]
+        frame: >
+          The Society's reading rooms: maps copied fair, funding voted, and the
+          great controversy of the age — Orin — marked Uncertain in a ledger
+          that dislikes the word. Kieran accepts the commission for the one
+          true history to warm applause. The Society's appetite and his are the
+          same appetite; show it as praise and excellent maps, and judge no one.
+
+  - id: the-road-to-valen
+    star: book-02
+    title: "The Road to Valen"
+    frame: >
+      The long road between Orin and Valen, walked with a guide who carries
+      letters by heart. The wider world in waystations and ridgelines. Nothing
+      of what waits under the archive is in this recording.
+    memories:
+      - id: four-hundred-miles
+        title: "Four Hundred Miles by Heart"
+        when: "the road to Valen · the third day"
+        chapters: [chapter-3]
+        inhabit: [kieran, nio]
+        frame: >
+          Nio, nineteen, carries letters by heart between settlements that have
+          no other way to speak — the paper would lose the words, she says;
+          this way there are only the words. She has never once tried to win a
+          conversation, and it rests a man who lives among people who need to.
+          The waystation bread is warm and no one explains it. Keep the road
+          easy and the questions open.
+
+      - id: the-family-ledger
+        title: "The Family Ledger"
+        when: "a waystation on the road · night"
+        chapters: [chapter-3]
+        inhabit: [kieran, nio]
+        frame: >
+          You never say your family, Nio observes, and is careful rather than
+          kind about it. Kieran, alone with his papers afterward, reads the Ash
+          line the way he reads a treaty he suspects of lying: generations that
+          thin, entries that stop, gaps with edges. There is an Ash keeping the
+          hall in Orin, and the name has begun, faintly, to itch. Let him treat
+          his own family as a case, and let the visitor notice what he will not.
+
+      - id: first-sight-of-valen
+        title: "First Sight of Valen"
+        when: "the last morning of the road"
+        chapters: [chapter-3]
+        inhabit: [nio, kieran]
+        frame: >
+          Nio stops at the ridge to let him look; she has brought a hundred
+          travelers to this view and knows what the first sight of Valen does
+          to people who have spent a week in the quiet. She has also carried a
+          great many certain men down this road and up it again. Let the city
+          land as wonder, and let her watch the man instead of the view.
+
   - id: valen-and-the-lens
     star: book-02
     title: "Valen and the Lens"
@@ -32,6 +136,19 @@ slices:
       archive. Every answer here buys two questions, and everyone is still enjoying
       themselves. Nothing after the night the far light answers is in this recording.
     memories:
+      - id: observation
+        title: "Observation"
+        when: "years earlier · the forgotten chamber"
+        chapters: [prologue]
+        inhabit: [renn, neris]
+        frame: >
+          A wooden cup under a waiting crystal, and the room fills with people
+          who remain only long enough to remind the world they existed. Two
+          journals of the same hour agree on nothing except who passed what to
+          whom: the memories differ; the relationships hold. Renn titles a
+          blank notebook Observations and writes no conclusions. The instrument
+          was found, not made — keep it that way, and answer nothing.
+
       - id: ordinary-things
         title: "Ordinary Things"
         when: "the first days at Valen"
@@ -43,6 +160,20 @@ slices:
           true, and the plurality has structure, as if made. Kieran is enjoying himself,
           and so should the visitor: keep the pace bright, let every answer buy two
           questions, and let none of the questions close.
+
+      - id: the-red-bird
+        title: "The Red Bird"
+        when: "the day the case turns personal"
+        chapters: [chapter-5]
+        inhabit: [kieran, renn, neris]
+        frame: >
+          Under the crystal, the bird: carriers laid over carriers — Mara,
+          Elias, Lyra, hands in ages no record names — and at the center of
+          every thread, the woman no account can hold. Among the carriers, an
+          Ash no family story kept: Kieran's father. Show the convergence and
+          stop; what it means, and what Kieran does with it, are not in this
+          memory. Let him be quieter afterward than he has been in the whole
+          recording.
 
       - id: the-signal
         title: "The Signal"

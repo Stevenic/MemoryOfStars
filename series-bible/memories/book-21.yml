@@ -39,6 +39,82 @@ slices:
           spends as it plays — this evening is single-walk, and this is the
           walk. The joy and the grief in the same room.
 
+      - id: the-fall-through-the-morning
+        title: "The Fall Through the Morning"
+        when: "the survey shaft · half an hour, by accident"
+        chapters: [chapter-2]
+        inhabit: [isla]
+        frame: >
+          The shaft gives, the cold layer takes, and Isla falls into half an
+          hour of a morning that ended before history began — music she
+          almost knows, bread, a holiday of some kind. Render the walked past
+          as other; the visitor cannot change it, and the stratum spends. She
+          comes up weeping without knowing why, with mud on her boots that is
+          not in Moss's soil record. Nobody, least of all her, knows the
+          rules yet.
+
+      - id: the-permit-caper
+        title: "The Permit Caper"
+        when: "the find season · filing day, twice over"
+        chapters: [chapter-3]
+        inhabit: [isla, dunn]
+        frame: >
+          The claim staked a half-step ahead of two rival crews: permits
+          filed in the right order at the wrong hours, Dunn driving the rig
+          through the night, and the staker's clerk funding it all on a
+          factor's hunch her record barely justifies. The romp at full spin —
+          quick, broke, and winning. The clerk may be met, never worn.
+
+      - id: the-soil-that-was-placed
+        title: "The Soil That Was Placed"
+        when: "the find season · Dunn at the cut face"
+        chapters: [chapter-3]
+        inhabit: [dunn]
+        frame: >
+          Dunn reads soil the way the Ash line reads absences, and the cut
+          face is telling him something no stratum should say: the cold layer
+          is seeded, not native — placed deep, deliberately, long ago. Let
+          the craft carry the scene: horizons, grain, the patience of a man
+          who does not hurry conclusions. The wrongness arrives as
+          workmanship, not dread.
+
+      - id: the-blank-corner
+        title: "The Blank Corner"
+        when: "the mapping weeks · the instruments' first sweep"
+        chapters: [chapter-4]
+        inhabit: [isla, dunn]
+        frame: >
+          The stratum maps out vast — not a pocket, a whole era, compressed —
+          and the camp rides the biggest find in the history of finding. Then
+          the first wrongness: the corner Isla walked now reads blank to
+          every instrument they own. Nobody has a rule for it yet; let the
+          joy and the unease share the tent.
+
+      - id: what-the-soil-said
+        title: "What the Soil Said"
+        when: "the proof assembled · the quiet after the dating"
+        chapters: [chapter-7]
+        inhabit: [dunn, isla]
+        frame: >
+          The dating holds through every check: human, prior, erased — the
+          old colonies' impossible ages re-read in an afternoon as
+          re-inhabited ground. Dunn, who reads soil, says the thing about
+          mourning that nobody in the tent can answer. Keep it small and
+          level; the size of it does the work.
+
+      - id: an-evening-at-the-shaft-head
+        title: "An Evening at the Shaft Head"
+        when: "the find season · after the rain, after dark"
+        chapters: []
+        inhabit: [isla, dunn]
+        frame: >
+          An ordinary camp night in an extraordinary season: Dunn's stew
+          going around twice, tarps ticking with the last of the rain, Isla
+          narrating the day's finds to generations of dead Ashes who have
+          never needed to answer. Nothing happens here. It is only the camp,
+          and the dark below, and two people good at their work. (Reachable
+          from the sky, not tied to a chapter.)
+
   - id: moss-claim
     star: book-21
     title: "Moss — the claim, held"
@@ -72,3 +148,38 @@ slices:
           claim held open by a small plural body against a vault held shut by a
           large singular one. Argued with full dignity on both sides; mud from
           a dead world still on the staker's boots.
+
+  - id: moss-vigil
+    star: book-21
+    title: "Moss — the office founded"
+    frame: >
+      After the charter: the first protocols written at the shaft head, the
+      ledger of the strata opened, and the first night watch of the new
+      office. The walks below, and the years of them, are not in this
+      recording.
+    memories:
+      - id: first-rites
+        title: "First Rites"
+        when: "the charter signed · the protocols written on-site"
+        chapters: [chapter-10]
+        inhabit: [isla, dunn]
+        frame: >
+          The team's first protocols drafted at a camp table — walk seldom,
+          walk witnessed, transcribe everything, spend nothing lightly — and
+          the accounting rule spoken into the record by the whole table:
+          everything read here is read for the last time. The ledger of the
+          strata opened, page one in Isla's hand. Method born as ethics; keep
+          the room plain.
+
+      - id: the-night-watch
+        title: "The Night Watch"
+        when: "the first watch · the lamp turned low"
+        chapters: [epilogue]
+        inhabit: [isla]
+        frame: >
+          Isla alone at the shaft head on the first watch of the new office:
+          the patter tried once, softly, to the dead Ashes, and set down
+          unfinished; the dark below full of finite mornings; the lamp turned
+          low the way you keep a vigil, not a worksite. Her family has sat
+          over absences for close on five hundred years. Tonight one of them
+          sits over what was found.

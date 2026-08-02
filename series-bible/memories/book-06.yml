@@ -28,6 +28,18 @@ slices:
           she runs the Farrow road, as she has four hundred times. Nothing is wrong yet.
           Busy, ritual, content.
 
+      - id: eve-of-the-run
+        title: "The Eve of the Run"
+        when: "the eve of the Farrow run · the holders' room, evening"
+        chapters: [chapter-1]
+        inhabit: [veya, osten]
+        frame: >
+          The night before an ordinary crossing, shown as work: Veya rehearses the Farrow
+          road aloud — soundings, joins, the discipline of a route run four hundred times —
+          while the clients' mail is bundled and signed for. Osten looks in the way a
+          guildmaster does, fond and procedural in the same breath. Nothing is wrong yet;
+          the craft is the whole scene. Quiet, exact, unhurried.
+
       - id: hearing
         title: "The Hearing and the Patient Mail"
         when: "the day of the hearing · afternoon into evening"
@@ -42,6 +54,64 @@ slices:
           yet — and one of them mentions Farrow's harvest, three years from now. Formal on the
           surface; something unaccounted-for underneath.
 
+      - id: closing-the-dead-letters
+        title: "The Dead-Letter Office at Closing"
+        when: "the night after the hearing · the dead-letter office, closing"
+        chapters: [chapter-3]
+        inhabit: [bri]
+        frame: >
+          Lamps down, ledgers squared: Bri closes the office that keeps everything the
+          guild cannot deliver and will not destroy. The drawer of patient mail is checked
+          the way some people check a sleeping child, and the letter that mentions Farrow's
+          harvest goes back into its place, filed and unexplained. Keep the strangeness
+          housed in routine; Bri does not find the drawer strange, only in need of keeping.
+
+      - id: cobbs-recitals
+        title: "What Cobb Still Holds"
+        when: "the rebuilding weeks · Cobb's rooms, afternoon"
+        chapters: [chapter-4]
+        inhabit: [veya, cobb]
+        frame: >
+          A retired holder, half-lost to age, reciting the Farrow road's precursor in
+          pieces that arrive out of order and sometimes twice. Veya listens for which
+          fragments still ring true before she writes anything down; Cobb is proudest in
+          the moments he is most certain, which are not always the moments he is right.
+          Patient, tender, cracked.
+
+      - id: the-reprise-hearing
+        title: "The Reprise Hearing"
+        when: "the reprise hearing · morning"
+        chapters: [chapter-9]
+        inhabit: [veya, osten, bri]
+        frame: >
+          Confronted with Farrow's own corrupted ledgers and the patient letter, the guild
+          must choose between admitting its records failed and accepting four holders as
+          the cheaper embarrassment. It ratifies the holders and offers Veya her license
+          back; she declines it. Osten conducts every step correctly and grieves through
+          none of it out loud. Procedure on the surface; precedent underneath.
+
+      - id: two-holders
+        title: "Two Holders at a Table"
+        when: "after the reprise hearing · a shared table, evening"
+        chapters: [chapter-9]
+        inhabit: [veya, cobb]
+        frame: >
+          The holder who lost his road to age across the table from the one who lost hers
+          to something else; neither says the word for what they are. Veya leaves Cobb a
+          copy of the growing map — the roads, and for the first time the silences drawn
+          around them. Let the conversation stay small; the gift does the talking.
+
+      - id: page-nine-hundred
+        title: "Page Nine Hundred"
+        when: "the next almanac day · the dead-letter office"
+        chapters: [epilogue]
+        inhabit: [bri, osten]
+        frame: >
+          Next year's edition: Farrow is listed, four holders of record, and the count on
+          the cover is one higher. In the dead-letter office, the drawer of patient mail
+          has gained a letter. Nobody comments; the almanac is passed around and the work
+          goes on. Ordinary on purpose.
+
   - id: farrow-road
     star: book-06
     title: "The Farrow Road"
@@ -51,6 +121,18 @@ slices:
       and nobody here can say why the silence has two sides. Keep the strangeness flat and
       the people practical.
     memories:
+      - id: darros-letters
+        title: "Letters into the Dark"
+        when: "a year into the silence · Farrow's post-house, night"
+        chapters: [chapter-6]
+        inhabit: [darro]
+        frame: >
+          Farrow's postmaster, writing into a silence that keeps returning his mail: a
+          year of sacks come back undeliverable, stacked and re-sorted and sent again.
+          Darro writes the next letter anyway, because a post-house that stops writing has
+          agreed with the dark. Practical, stubborn, unsentimental about the strangest
+          thing on the frontier.
+
       - id: landfall
         title: "Landfall at Farrow"
         when: "landfall · Farrow, midmorning"
@@ -63,6 +145,18 @@ slices:
           a year, and its own maps of the road out are wrong too. Whatever is happening is not
           happening in her head. Keep the town warm and the question cold.
 
+      - id: the-towns-scraps
+        title: "The Town's Scraps"
+        when: "the days after landfall · Farrow, the post-house"
+        chapters: [chapter-7]
+        inhabit: [veya, darro, etta]
+        frame: >
+          Re-deriving the outbound road from what a town half-remembers: freight
+          manifests, a schoolroom map, a trader's habit-notes, spread across the
+          post-house tables. The work makes the guild's weak joint visible — one holder to
+          a road is one thread between a world and existence. Keep it communal and
+          concrete; the town is good at this without knowing it is.
+
       - id: relighting
         title: "The Relighting"
         when: "the relighting · dusk"
@@ -74,3 +168,14 @@ slices:
           and two others — four holders to one road — and, drawing Etta the way, draws for the
           first time what is missing around it. A working day that is also a heresy. Festive at
           the edges, deliberate at the center.
+
+      - id: ettas-first-light
+        title: "Etta, First Light"
+        when: "the morning after the relighting · Farrow, first light"
+        chapters: [chapter-8]
+        inhabit: [etta]
+        frame: >
+          The morning after: Etta rehearses the route she was drawn — soundings, joins,
+          and around them the drawn silences — before the town is properly awake. Being
+          one of four holders is a day old and already heavier and lighter than she
+          expected. Small, new, proud.

@@ -13,6 +13,18 @@ slices:
       soundings from. Edda has kept it nine years alone. Nothing past the first descent
       into the routes is in this recording.
     memories:
+      - id: the-flash
+        title: "The Flash"
+        when: "a night watch · the southern relay"
+        chapters: [prologue]
+        inhabit: [edda]
+        frame: >
+          A single flash from the southern relay, dark for centuries; the Log
+          has no entry for it and is most of a day saying so. Edda records the
+          flash twice, properly, and her two entries disagree — the only
+          unprofessional line in nine years of log-keeping. State it flatly and
+          trace nothing; the recording knows no more than she does.
+
       - id: soundings
         title: "Soundings"
         when: "a quarter-day · the courier's visit"
@@ -25,11 +37,24 @@ slices:
           morning; nothing answers. Keep it companionable and unhurried, and let the
           silence after the courier's sail be the loudest thing in it.
 
+      - id: the-keepers-board
+        title: "The Keepers' Board"
+        when: "an ordinary quarter · the rounds"
+        chapters: [chapter-1]
+        inhabit: [edda]
+        frame: >
+          The board of keepers by the Log: first names only, in a column going
+          back centuries — surnames are surrendered to the station with the
+          light. Joren's name stands above hers. Edda polishes the board on her
+          rounds, narrating the work to the kettle and the light; she no longer
+          remembers her own surname, and has stopped considering that strange.
+          Companionable, unhurried; nothing answers, and that is not sad yet.
+
       - id: the-anthem
         title: "The Anthem"
         when: "the night watch · the oldest band"
         chapters: [chapter-2]
-        inhabit: [edda, the-log]
+        inhabit: [edda]
         frame: >
           On the oldest band, a position-hail arrives from the Anthem — a ship lost three
           hundred and twelve years — in the voice of Joren, Edda's predecessor, nine
@@ -38,14 +63,100 @@ slices:
           none of them; in a lifetime of talking to things, this is the first thing that
           has ever spoken back.
 
+      - id: the-watch-after
+        title: "The Watch After"
+        when: "the same night · after the hail"
+        chapters: [chapter-2]
+        inhabit: [edda]
+        frame: >
+          The rest of the watch, after the impossible hail has gone quiet.
+          Protocol was followed; the entry has been written three times and
+          none of the three is wrong. Edda does her rounds anyway, out loud,
+          the way she always has — and listens, now, after each thing she says.
+          Keep the station exactly as it was yesterday; only the listening is
+          new.
+
+      - id: the-log-disagrees
+        title: "The Log Disagrees"
+        when: "the days of checking"
+        chapters: [chapter-3]
+        inhabit: [edda]
+        frame: >
+          The archive against itself: the station's own records of the Anthem
+          do not agree, and the Log's record of Joren has gaps Edda does not
+          remember being there. The hail knew a thing only she and Joren knew;
+          the recording does not say what, and neither may anyone in it.
+          Investigation as housekeeping — methodical, spoken aloud,
+          increasingly quiet.
+
+      - id: jorens-room
+        title: "Joren's Room"
+        when: "the same days · the keeper's room"
+        chapters: [chapter-3]
+        inhabit: [edda]
+        frame: >
+          Her predecessor's room, kept the way the station keeps everything:
+          his effects where he left them nine years ago — a mended coat, a
+          hand-labeled shelf, a tin of tea gone to dust. Edda goes through them
+          for proof of the thing only two people knew, does not find it, and
+          stops looking rather than say why. Grief handled like inventory; let
+          it stay steady, and let nothing be resolved.
+
+      - id: making-ready
+        title: "Making Ready"
+        when: "before the first descent"
+        chapters: [chapter-4]
+        inhabit: [edda]
+        frame: >
+          The station made ready to run without her: the light checked twice,
+          the kettle filled, standing instructions the Log will answer in its
+          own slow hours. What going into the routes asks of a keeper is not
+          explained — Edda does not explain things to herself; she gets them
+          ready. Procedure as courage; keep the fear underneath the checklist,
+          never on top of it.
+
       - id: residue
         title: "Residue"
         when: "the first descent into the routes"
         chapters: [chapter-4]
-        inhabit: [edda, the-log]
+        inhabit: [edda]
         frame: >
           Edda goes into the routes: ten thousand remembered crossings at once, the space
           between stars rendered as a remembered sea. Two kinds of keeping, taught in one
           lesson — the loose surface freely skimmed, and the load-bearing strata live
           ships stand on. In the routes, the Anthem's wake. Recent. Render the sea with
           awe and the wake with dread, and explain neither.
+
+  - id: the-couriers-run
+    star: book-03
+    title: "The Courier's Run"
+    frame: >
+      The courier's route between beacon stations — the quarter-year loop that
+      is some keepers' only visitor. Warm, unbothered, professional about
+      loneliness. Nothing past the quarterly call at the Skerry is in this
+      recording.
+    memories:
+      - id: three-months-of-words
+        title: "Three Months of Words"
+        when: "the quarter's run · inbound"
+        chapters: [chapter-1]
+        inhabit: [pell]
+        frame: >
+          The courier's sail on the last leg to the Skerry, carrying a
+          quarter-year of words for one keeper. A courier learns to carry more
+          than letters: which keeper wants the news first and which wants it
+          last, who asks after the world and who only asks after the other
+          keepers. Pell runs the route by heart and rations the gossip like
+          water. Keep the approach warm and the arithmetic of loneliness quiet.
+
+      - id: the-outbound-leg
+        title: "The Outbound Leg"
+        when: "the same visit · departing"
+        chapters: [chapter-1]
+        inhabit: [pell]
+        frame: >
+          The Skerry dropping astern, its light steady. Nothing was wrong at
+          the station — the toll paid, the kettle hot, the keeper glad of the
+          company and easy about its end — and Pell files the visit the way
+          couriers do, by what a keeper did not ask for. Three months to the
+          next voice Edda hears; let that fact ride along unremarked.

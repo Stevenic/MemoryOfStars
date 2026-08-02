@@ -40,6 +40,68 @@ slices:
           when arithmetic becomes theology. Pattern only; no one here knows what the
           thing is.
 
+      - id: the-count
+        title: "The Count"
+        when: "committee night · before the session"
+        chapters: [prologue]
+        inhabit: [grier, breda]
+        frame: >
+          The ledger taught in one page: answering, relay-held, attested — three
+          states in the institute's own terms, and three entries in a careful hand
+          where the attested column begins. The count has never gone down.
+          Tonight's agenda carries three items; keep the room ordinary and the page
+          heavy.
+
+      - id: the-assignment
+        title: "The Assignment"
+        when: "the season of the re-verification · the roster"
+        chapters: [chapter-1]
+        inhabit: [tess, marn, grier]
+        frame: >
+          The institute in work: survey pairs, verification rules, the overlay
+          wall — and the commission nobody wants, landing by the bureaucracy's
+          soundest reason. Tess's papers say born: Penna, and born-there means
+          presumed local knowledge — the one qualification the blank has already
+          taken from her. Her forward-only rule is shown, never explained.
+
+      - id: the-founders-hall
+        title: "The Founders' Hall"
+        when: "committee night · the hour before the vote"
+        chapters: [chapter-2]
+        inhabit: [grier]
+        frame: >
+          Grier alone in the founders' hall before the session: the first mappers'
+          portraits, the map of silences ancestral to everything the institute is,
+          and an agenda in his coat with an item no provost has ever had to carry.
+          Decent, exhausted, measuring the end of the world in committee. Do not
+          let him rehearse the outcome; the vote belongs to the room.
+
+      - id: the-naming
+        title: "The Naming"
+        when: "after the plotting · the preface"
+        chapters: [chapter-8]
+        inhabit: [tess, grier]
+        frame: >
+          Grier must name the thing for the ledger's preface, and gives it the only
+          name the room can hold: an appetite — the hunger at the end of maps. Tess
+          dissents in method rather than words: the relay survey adopted
+          institute-wide, Penna converted to the first relay-held entry — and the
+          method's own law charges its inventor, as she surrenders her private
+          notes of the house into the relay, to be held by strangers in shifts. Log
+          the name as belief; no one in this room can check it.
+
+      - id: the-new-edition
+        title: "The New Edition"
+        when: "the almanac's new edition"
+        chapters: [epilogue]
+        inhabit: [tess, grier]
+        frame: >
+          The almanac with the count gone down: the relay-held column new and small
+          and growing, the surveyors' dedication page carrying the names of mappers
+          lost to blanked regions, and one line added to the institute's oath in
+          Tess's hand — we go back over old ground. She signs the Penna
+          re-verification for next year. Forward-only no more.
+
   - id: penna-green-blank
     star: book-18
     title: "Penna — the green blank"
@@ -72,3 +134,54 @@ slices:
           pencil-marks on a doorframe at exactly her heights. Love without memory's
           help. Marn quietly takes the house's shift himself each day so her notes
           never have to. Precision as tenderness; no elegy allowed on the page.
+
+      - id: the-sand-map
+        title: "The Sand Map"
+        when: "the survey · the week the pages emptied"
+        chapters: [chapter-4]
+        inhabit: [tess, marn]
+        frame: >
+          The survey's horror, precise: entries unwrite in the ledger's own pages,
+          photographs mis-file, the theodolite drops fixes — mapping Penna is
+          pouring water into sand. So Tess builds the workaround that breaks her
+          rule: many mappers, short shifts, plural notes reconciled daily, no
+          single record asked to hold anything alone. It holds. State the
+          impossible flatly and let the method be the drama.
+
+      - id: the-evening-reconciliation
+        title: "The Evening Reconciliation"
+        when: "the survey · each night at the camp table"
+        chapters: [chapter-3, chapter-4]
+        inhabit: [tess, marn]
+        frame: >
+          The pair's road ritual: notes read across the table each night, the day's
+          place-names re-taught over supper, the equipment cleaned in the same
+          order while Marn keeps the jokes coming. What other camps call
+          discipline, this one calls staying. Warm, small, repeatable; nobody calls
+          it a method yet.
+
+      - id: the-control-subject
+        title: "The Control Subject"
+        when: "the survey · Marn's week of holding"
+        chapters: [chapter-6]
+        inhabit: [marn, tess]
+        frame: >
+          Marn can hold Penna's names for almost a week; Tess cannot hold them at
+          all, and the difference is data: his control-notes, kept as camp games —
+          name-tests at breakfast, scores chalked on the equipment case. One line
+          in his log concerns the guide, and no one remarks on it. Keep the games
+          light and the line uncommented; why he holds longer is nobody's to
+          answer.
+
+      - id: the-well-the-ford-the-bell
+        title: "The Well, the Ford, the Bell"
+        when: "the survey · the guide's day"
+        chapters: [chapter-6]
+        inhabit: [tess, marn]
+        frame: >
+          The guide walks the survey to everything it would have missed — the well,
+          the ford, the school bell in the grass — warm, sure, expected by nobody's
+          records. The rolls hold no one of his description, and he has been here
+          before every survey for forty years. Nobody says anything; one paragraph,
+          gone by morning. The grief stays specific — a bell, a ford — never
+          general.

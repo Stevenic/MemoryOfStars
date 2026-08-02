@@ -24,6 +24,54 @@ slices:
           the spark, not the schedule: Orin signs. The blank column filled at
           last, Gate-silent and undeterred — the first place volunteering first.
 
+      - id: the-road-from-orin
+        title: "The Road from Orin"
+        when: "outbound · the proof carried"
+        chapters: [prologue]
+        inhabit: [zel, gale, idra]
+        frame: >
+          The committee outbound from a scoured town with the proof and the
+          town's loaf, the watch-roll's count read against the failure curve —
+          the race stated in two numbers. Keep the grief behind them and the
+          arithmetic in front; the road does the talking.
+
+      - id: the-correlation
+        title: "The Correlation"
+        when: "the Compact's table · the argument"
+        chapters: [chapter-1]
+        inhabit: [idra, gale, zel]
+        frame: >
+          Orin's map argued into policy: worn holds, assumed fails — therefore
+          wear everything. The audacity is priced honestly — a season of the
+          whole reach's attention, volunteered, unenforceable — while the
+          Regency counter-broadcasts that its warden is ready today. Let both
+          cases be strong; both clocks are real.
+
+      - id: the-season-opens
+        title: "The Season Opens"
+        when: "the season's first weeks · from the road"
+        chapters: [chapter-3]
+        inhabit: [zel, gale, idra]
+        frame: >
+          The wearing, from the road: worlds taking the season up in their own
+          idioms — holders, sextons, wardens, a plural name sung outward — the
+          whole map practicing at once. The failure curve, watched daily,
+          slows where the wearing is thick. Proof, live; keep the wonder in
+          the ordinariness.
+
+      - id: in-the-worlds-own-words
+        title: "In the World's Own Words"
+        when: "the season · one world, one idiom"
+        chapters: [chapter-3]
+        inhabit: [zel, alba]
+        frame: >
+          One world's wearing, watched whole: the season taken up not as
+          policy but in the place's own idiom — its rolls copied where its
+          people actually gather, its names offered to strangers in its own
+          manner of greeting, its songs drifted in its own key. Nothing
+          imported, everything practiced. The armor fits because it was always
+          theirs.
+
   - id: road-to-the-door
     star: book-29
     title: "The Road to the Door"
@@ -71,3 +119,53 @@ slices:
           authorization. The door answers no credential on either side. It
           answers an introduction — "Zel, and those I carry" — and the Regency's
           warden, singular by design, stays outside.
+
+      - id: the-route-assembled
+        title: "The Route Assembled"
+        when: "the crossing planned · the bookkeeping"
+        chapters: [chapter-4]
+        inhabit: [ketra, gale, idra]
+        frame: >
+          The door hunted through the reach's own bookkeeping: the Witness's
+          referral cross-read with an old manifest and the letters' margin, a
+          route assembled from records nobody thought of as maps. Navigation
+          only; the threshold is triangulated, not described. The crossing
+          will be paid for leg by leg, and Gale prices it honestly.
+
+      - id: the-roads-camps
+        title: "The Road's Camps"
+        when: "the crossing · a night's camp"
+        chapters: [chapter-4]
+        inhabit: [gale, zel, alba]
+        frame: >
+          Off-road on a remembered line: the crossing's camps — own braking,
+          real cost, watches divided, the town's loaf shared out slice by
+          slice and made to last. Small talk over a small fire while the
+          season runs behind them. Keep the cost on the page and the company
+          warm.
+
+      - id: the-warding-fleet
+        title: "The Warding Fleet"
+        when: "the threshold · the Regency arrived first"
+        chapters: [chapter-7]
+        inhabit: [gale, ketra, bode]
+        frame: >
+          The door — and the Regency already at it, Bode's fleet in warding
+          formation, his case at its honest strongest: the keeper is dying
+          now; the cure takes a season; a warden takes an hour. The
+          committee's answer is the proof and the season's curve, and neither
+          argument defeats the other, because both clocks are real. Nobody
+          here is wrong enough to lose.
+
+      - id: the-fleet-stands-down
+        title: "The Fleet Stands Down"
+        when: "after the door answers · the stand-down"
+        chapters: [chapter-9]
+        inhabit: [bode, zel, gale]
+        frame: >
+          Bode gives the order his whole coalition was built against: the
+          warding fleet stands down, formation by formation, unmaking itself
+          in silence while its chancellor watches the committee cross a
+          threshold he cannot. His argument survives intact; his fleet does
+          not. Render the discipline of it — no rancor, no conversion, a
+          decent man obeying arithmetic.

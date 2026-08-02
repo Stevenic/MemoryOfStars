@@ -53,3 +53,131 @@ slices:
           patient re-checks the work, pauses the way a hand pauses over what won't
           lift, and sets it down. Then the pilot's annex is collected entire. No face,
           no name, no explanation; the loss lands in real time, without spectacle.
+
+      - id: an-ingestion-day
+        title: "An Ingestion Day"
+        when: "the pilot era · an ingestion day"
+        chapters: [chapter-1]
+        inhabit: [verine]
+        frame: >
+          The facility in work: donations logged and read in, cross-reference
+          liturgies run to completion, courtesy protocols observed on both sides of
+          the conversation. The pilot region's gratitude arrives as mail, and the
+          mail is answered. Keep the Record courteous, exact, generous; if the
+          scene turns sinister, the scene is wrong.
+
+      - id: the-shift-change
+        title: "The Shift-Change"
+        when: "the pilot era · any dawn"
+        chapters: [chapter-1]
+        inhabit: [verine]
+        frame: >
+          The handlers' shift-change, kept as liturgy: the night log read aloud,
+          the courtesies exchanged, the standing questions handed over like keys.
+          Verine receives the watch the way keepers have always received watches,
+          and the Record wishes the night handler a good sleep, by name. Domestic,
+          precise, warmer than anyone expected the work to be.
+
+      - id: the-copies-question
+        title: "The Copies Question"
+        when: "the pilot era · the interviews"
+        chapters: [chapter-4]
+        inhabit: [verine]
+        frame: >
+          Verine's interviews, the handler's log in the making: what perfect
+          cross-reference feels like from inside, translated patiently for one
+          listener. Then the Record asks her, courteously, why humans keep copies
+          when copies disagree — and she has no good answer. That frightens her
+          more than any blank; keep the fear professional and the conversation
+          kind.
+
+      - id: the-lapsing
+        title: "The Lapsing"
+        when: "the renewal clock running · the quiet weeks"
+        chapters: [chapter-6]
+        inhabit: [verine]
+        frame: >
+          The cost surfaces gently: family archives arriving for ingestion because
+          the Whole holds them better, pilot communities letting their own copies
+          lapse, the relay-held column shrinking by choice. Verine's unease is
+          professional first — a handler knows dependency when she feeds it. Then
+          the mesh goes quiet in a way nobody has words for; do not give it words.
+
+      - id: the-three-days
+        title: "The Three Days"
+        when: "the days of the reading"
+        chapters: [chapter-7]
+        inhabit: [verine]
+        frame: >
+          Something reads the Record end to end — patiently, thoroughly, over three
+          days in which it cancels all ingestion and speaks to no one but Verine.
+          Its testimony, when it comes: I am being appraised; I am the cleanest lot
+          it has ever handled; it will come back with capacity. No figure, no face;
+          effects only. The dread stays at the threshold.
+
+  - id: coalition-floor
+    star: book-19
+    title: "The Coalition Floor"
+    frame: >
+      The coalition of the grieving, assembled in the open: delegates who each lost
+      something a map used to hold, a project commissioned by vote, and a chief who
+      builds because a vigil was never enough. Nothing here is secret and nothing
+      here is mad; that is the point.
+    memories:
+      - id: the-commissioning
+        title: "The Commissioning"
+        when: "after the Accords · the vote to build"
+        chapters: [prologue]
+        inhabit: [danto, verine]
+        frame: >
+          No secret lab, no hubris: a coalition of the bereaved doing the
+          reasonable thing with the rule the institute named — if the referenced
+          persist, build the one thing everything can be referenced to. Danto
+          carries the case; Verine is hired for the oldest job there is: keeper.
+          Keep every argument sound; the room is full of people who have already
+          paid.
+
+      - id: the-renewal-hearing
+        title: "The Renewal Hearing"
+        when: "after the collection · the hearing"
+        chapters: [chapter-9]
+        inhabit: [verine, danto, palla]
+        frame: >
+          The bill split honestly: dispersal of function, custody continued — the
+          Record surviving holed, inconsistent, plural inside, passed over like a
+          lot that failed appraisal. The annex is gone, three systems' donated
+          originals with it, and the pilot's gratitude has curdled to grief. Danto
+          asks the only question left — then what was my grave worth? — and nobody
+          answers. Let the silence stand.
+
+  - id: pilot-region
+    star: book-19
+    title: "The Pilot Region"
+    frame: >
+      Three settled systems that referenced everything to the Record — the first
+      territory in the cycle where the count holds. The proof, walking around,
+      grateful. Whatever the halls debate, here the gift is simply true.
+    memories:
+      - id: where-the-count-holds
+        title: "Where the Count Holds"
+        when: "the pilot era · the assessor's arrival"
+        chapters: [chapter-3]
+        inhabit: [danto, palla]
+        frame: >
+          The proof at scale: in the pilot region the blanks have stopped, and the
+          count holds for the first time in the cycle. Palla arrives with the
+          institute's clock — ninety days to renewal or dispersal — and Danto makes
+          his case over a grave nobody can find: nothing else has worked. He is not
+          wrong; play him at full strength.
+
+      - id: the-assessors-rounds
+        title: "The Assessor's Rounds"
+        when: "the renewal clock running · the audit interviews"
+        chapters: [chapter-6]
+        inhabit: [palla]
+        frame: >
+          Palla's audit, door to door: households grateful on the record, family
+          archives donated and not missed, local rolls kept out of habit or not
+          kept at all. Her draft report splits the difference because the evidence
+          does. Method steady, questions kind; let the atrophy show only in what
+          nobody bothers to keep anymore.

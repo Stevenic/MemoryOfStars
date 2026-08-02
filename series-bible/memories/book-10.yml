@@ -17,6 +17,42 @@ slices:
       of records, out of mouths — and nobody can say what that is. State the impossible
       flatly; keep every why unanswered. Domestic dread, rendered in ledgers.
     memories:
+      - id: promotion-night
+        title: "The New Stars"
+        when: "promotion night · a few years before"
+        chapters: [prologue]
+        inhabit: [ivet, marek]
+        frame: >
+          A dozen new lights climb Carath's sky as the re-routed relays come on, and the
+          city celebrates becoming the reach's newest hub — fireworks, speeches, the
+          famous name on everything. The registry keeps late hours because everyone wants
+          their arrival dated tonight. Nothing is wrong; this recording knows no more
+          than the city does. Loud, young, proud.
+
+      - id: a-working-day
+        title: "The Civics of Names"
+        when: "an ordinary week · the registry counter"
+        chapters: [chapter-1]
+        inhabit: [ivet, marek]
+        frame: >
+          The Hall of Rolls at work: births, marriages, arrivals — the ten thousand small
+          acts by which a city agrees it exists, one entry at a time. Ivet knows
+          everyone's name and almost no one's face; ledgers are how she loves people from
+          a safe distance, and Marek's hall runs on that kind of love. Texture, not
+          alarm.
+
+      - id: the-masons-yard
+        title: "The Wrong-Cut Stone"
+        when: "the week of small wrongnesses · the masonry yard, morning"
+        chapters: [chapter-1]
+        inhabit: [ivet]
+        frame: >
+          Small wrongnesses at the edges of a working day: a misprinted sign on the way
+          over, and in the yard a stone the mason swears he cut true, standing blank
+          where a name should be. Nobody is alarmed; wrong is still a word for printers
+          and apprentices. Keep the mason a workman with chalk on his hands, and let the
+          wrongness sit unremarked.
+
       - id: counts
         title: "The Counts Disagree"
         when: "the first week of the misprints · the registry counter"
@@ -28,6 +64,18 @@ slices:
           street's name out of her own mouth — reaches for it, and the reach comes back empty.
           Real time, small, absolute. The hall goes very quiet, and Ivet re-inks her pen
           because her hands need a job. No one here has a word for this yet.
+
+      - id: the-rite-book
+        title: "The Rite-Book"
+        when: "the week of the misprints · the hall, commandeered"
+        chapters: [chapter-3]
+        inhabit: [ivet, noor, marek]
+        frame: >
+          Authority flails — quarantine, sabotage, hysteria — and then the guild
+          responders arrive carrying a protocol nobody knew existed: duplicate
+          everything, speak everything, plural-copy the rolls. Noor drafts Ivet as
+          liaison, because the registrar knows where every name is. Ask no questions the
+          scene doesn't ask yet; the book of answers is still closed.
 
       - id: patient-mail
         title: "The Patient Mail"
@@ -42,6 +90,41 @@ slices:
           unsigned, most of them misfiled for years. Say what the letters say and nothing
           about who sent them; nobody knows. Tired, methodical, and quietly enormous.
 
+      - id: the-speaking-shifts
+        title: "The Speaking Shifts"
+        when: "the week of the taking · the districts, in shifts"
+        chapters: [chapter-5]
+        inhabit: [noor, ivet]
+        frame: >
+          The protocol as work: rosters read aloud in shifts, rolls copied plural,
+          runners between districts, and Noor drilling the volunteers until speaking
+          becomes muscle. Among the volunteers a warm man works three shifts and never
+          seems to sleep; no one remarks on it, and neither does this recording. Weary,
+          exact, holding.
+
+      - id: the-keeper-of-the-rolls
+        title: "The Keeper of the Rolls"
+        when: "the week of the taking · the archive wing, late"
+        chapters: [chapter-5]
+        inhabit: [marek]
+        frame: >
+          Marek, whose faith is the archive, re-copying what the archive is losing: the
+          founding song sung with holes where its proper nouns were, the famous name
+          misrendered on travelers' manifests. He keeps working, with terrible grace,
+          because the alternative is watching. Domestic dread, held level.
+
+      - id: the-flicker
+        title: "The Flicker"
+        when: "the week of the taking · beneath the Hall, night"
+        chapters: [chapter-6]
+        inhabit: [ivet, noor]
+        frame: >
+          Beneath the Hall of Rolls, stone older than the city runs warm, and for one
+          hour a district's names simply stop failing. It is the first sight anyone has
+          had of something on the other side of the taking — and then the flicker
+          gutters, having spent something no one can name. What woke, why now, what it
+          cost: not asked here, not answered anywhere. Awe, briefly; the night goes on.
+
       - id: night-of-strangers
         title: "The Night of Strangers"
         when: "the Night of Strangers · dusk to dawn"
@@ -53,6 +136,29 @@ slices:
           faces, walks the squares all night matching one to the other — her ledger-craft
           finally embodied. Somewhere in the crowd, the child tells her a name at last. A city
           becoming each other's keeping; fear and tenderness in the same breath.
+
+      - id: dawns-arithmetic
+        title: "Dawn's Arithmetic"
+        when: "the crest · night into dawn"
+        chapters: [chapter-8]
+        inhabit: [ivet, noor, marek]
+        frame: >
+          The last surge: what is singly held goes — the famous name of Carath entire —
+          and what was spoken to strangers in time holds, every one. The flicker rises
+          once more and gutters out, its cost visible in cooling stone. Dawn's
+          arithmetic is exact: the saved list is as long as the crowd's courage, no
+          longer. Joy poignant as grief; nothing taken returns.
+
+      - id: sealed-unread
+        title: "Sealed Unread"
+        when: "after · the damaged wing, early"
+        chapters: [chapter-9]
+        inhabit: [marek]
+        frame: >
+          The losses inventoried plainly, and then the act itself: Marek seals the
+          damaged rolls unread — wax, cord, no last look — because reading them would
+          only count again what cannot come back. It is the gentlest thing his faith has
+          left to do, and he does it correctly. Quiet, final, kept.
 
       - id: renaming
         title: "The Renaming"

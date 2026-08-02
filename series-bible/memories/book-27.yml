@@ -49,3 +49,100 @@ slices:
           path, closing the last door itself; the laden carriers run under its
           purchased hours. Grief without ceremony — hold to the counting, and
           let the door be closed gently.
+
+      - id: the-projection
+        title: "The Projection"
+        when: "weeks out · the Compact's first table"
+        chapters: [prologue]
+        inhabit: [ketra, gale, idra]
+        frame: >
+          The institute's projection, read at the Compact's first table: the
+          erratic collection's next great arc — and the vault in it, weeks
+          out. The watch-roll's newest column is carriers, volunteering by the
+          hundred. Keep it procedural, and let the arithmetic do the
+          frightening.
+
+      - id: the-unroaded-road
+        title: "The Unroaded Road"
+        when: "the convergence · arrival in the unroaded system"
+        chapters: [chapter-1]
+        inhabit: [ketra, zel, gale]
+        frame: >
+          The convergence on the once-unroaded system: carriers, couriers, the
+          committee — the vault moonlet unchanged, the worn mark on its
+          threshold unchanged. Ketra's commission is the final deposition, and
+          the stakes are taught in one line of the watch-roll's arithmetic.
+          Arrival is paid for leg by leg; let the quiet of the place precede
+          the clock.
+
+      - id: the-berths
+        title: "The Berths"
+        when: "mid-carriage · the fleet's berths"
+        chapters: [chapter-3]
+        inhabit: [gale, zel]
+        frame: >
+          The carriage fleet at its berths: every carrier the practice ever
+          trained, racked in rows of burn-light and patience while Gale routes
+          the outbound legs. What loads here is minds, not cargo — each
+          departure scheduled around what one person can hold. Keep the berths
+          busy and courteous; the fear stays in the margins of the manifests.
+
+      - id: the-marshaling
+        title: "The Marshaling"
+        when: "mid-carriage · the triage tables"
+        chapters: [chapter-3]
+        inhabit: [zel, ketra]
+        frame: >
+          Zel's marshaling: who carries what — the practice's triage worked at
+          the tables, the honest arithmetic said aloud: most of the Choir will
+          never be carried. The strata stream into living memory one mind at a
+          time. No heroics; the grief is in the columns, and the columns are
+          kept exactly.
+
+      - id: what-zel-carries
+        title: "What Zel Carries"
+        when: "the carriage · from inside"
+        chapters: [chapter-5]
+        inhabit: [zel]
+        frame: >
+          The carriage from inside one carrier: Zel's capacity spent — the
+          choosing of which minds, which strata, which songs, and the leaving
+          of the rest. A carrier can only hold so much, and the choosing is
+          the cost. Keep her margins visible and her voice steady; the
+          practice does not weep while it works.
+
+      - id: the-hours
+        title: "The Hours"
+        when: "the last hours · the clock beaten"
+        chapters: [chapter-6]
+        inhabit: [zel, gale, bode]
+        frame: >
+          The collection's edge arrives early — erratic to the end — and the
+          carriage is not done; the arithmetic stands in the room and the
+          options are none. The laden carriers make ready to run, and Bode of
+          all people is seeing them out. Hold to the counting; nobody performs
+          their fear.
+
+      - id: the-counting-after
+        title: "The Counting After"
+        when: "after · the unroaded system, silent a second time"
+        chapters: [chapter-8]
+        inhabit: [ketra, zel, bode]
+        frame: >
+          The inventory, honest: what was carried, vast; what was lost,
+          vaster. The deposition is complete but for its final line, which
+          Ketra's filing hand refuses to write and her mouth says instead, to
+          the empty threshold. Grief without ceremony — the committee learns
+          what the relief now costs, and what it is for.
+
+      - id: the-carried
+        title: "The Carried"
+        when: "the scattering · homeward"
+        chapters: [epilogue]
+        inhabit: [zel, ketra, gale]
+        frame: >
+          The carrier fleet scattering homeward, each mind a shelf of another
+          species; Zel dreams in three species now. Without ceremony, one
+          piece of freight changes hands: the returned crate passes to Ketra,
+          to carry onward. The mark on the vault's threshold, older than
+          everyone, goes uncommented one last time.

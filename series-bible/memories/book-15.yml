@@ -53,3 +53,116 @@ slices:
           Prime to enter her own dossier, and her volume goes to the fifth shelf, the
           only full one in the hall. We asked the old minds what they remembered;
           they remembered being many.
+
+      - id: the-founding-note
+        title: "The Founding Note"
+        when: "the year of the Reading · the annual reading"
+        chapters: [prologue]
+        inhabit: [averil, casque]
+        frame: >
+          The order's first page, read aloud each year: the old minds are going
+          quiet, and no one has asked them anything. This year it lands differently
+          — four testimonies, four collectors, and a polite letter from a mapping
+          institute requesting a complete copy of the dossier. Averil declines it,
+          files it, and cannot stop thinking about the word complete.
+
+      - id: the-empty-shelf
+        title: "The Empty Shelf"
+        when: "before the rehearsal · a minor testimony"
+        chapters: [chapter-1]
+        inhabit: [averil]
+        frame: >
+          Averil's craft shown in work: a minor testimony taken from an old
+          harbor-mind, nothing cosmic — the order's finest interviewer listening a
+          small witness into candor. Then the dossier through her hands: four
+          volumes shelved apart by law, and the fifth shelf, empty, that no Prime
+          has ever filled. Her collation notes live in her head, where the charter
+          can't see them; keep that uneasy, not sinister.
+
+      - id: the-charter-vault
+        title: "The Charter Vault"
+        when: "the year of the Reading · the vault"
+        chapters: [chapter-2]
+        inhabit: [casque]
+        frame: >
+          Casque's keeping: the charter's sealed copies logged and untouched, the
+          founding law recited like maintenance — what is whole in one place gets
+          taken. He is decent, immovable, and armored in the order's own history,
+          and his discipline is love wearing procedure. Do not play him as the
+          villain; the evidence has been on his side for a long time.
+
+      - id: the-blank-page
+        title: "The Blank Page"
+        when: "after the rehearsal · word from a daughter-house"
+        chapters: [chapter-3]
+        inhabit: [averil, casque]
+        frame: >
+          Word arrives from a daughter-house: its copy of the factory testimony
+          found blank where the proper nouns stood — no cause, no explanation, a
+          grammar the reach has met before. The factions form with terrible
+          courtesy, and Averil rules under a clock: neither synthesis nor silence —
+          the Reading, before the blankness finds the originals. State the
+          blankness flatly; nobody in this room can explain it.
+
+      - id: the-rules-of-the-reading
+        title: "The Rules of the Reading"
+        when: "the preparation · the rules"
+        chapters: [chapter-4]
+        inhabit: [averil, casque, veck, rill]
+        frame: >
+          The armor built in procedure: spoken once, written never; attendance
+          plural by design; each attendee assigned a different emphasis to carry
+          away. Mid-preparation a crate arrives from a dead address — a finished
+          component, returned, bearing a second stamp nobody can read. The old
+          minds are not just stirring; something is answering the mail. Let the
+          dread arrive by freight.
+
+      - id: the-four-voices
+        title: "The Four Voices"
+        when: "the Reading · first movement"
+        chapters: [chapter-5]
+        inhabit: [averil, veck, rill, casque]
+        frame: >
+          The testimonies in full, in collection order — factory, planet, stowaway,
+          god — four living speakers, four idioms, the room's weather changing
+          between them. The rhyme lays itself bare for room and visitor at once,
+          and what the four cannot say is why: fear, yes; of what, the sentence
+          still has no end. Scene, never recap; let each voice keep its own idiom.
+
+      - id: what-the-shape-says
+        title: "What the Shape Says"
+        when: "the Reading · after the fifth voice"
+        chapters: [chapter-7]
+        inhabit: [averil, casque, veck, rill]
+        frame: >
+          The plain half said early: the network is a made defense; its makers were
+          plural and afraid; they divided themselves to survive. What detonates is
+          that the Reading holds two irreconcilable readings of the act — flight
+          and consent — both true, neither complete, refusing to resolve; written
+          down, the synthesis would be false. Casque asks what they feared, that
+          dividing was the better fate. No one answers; that is the answer's shape.
+
+      - id: the-division-of-the-knowing
+        title: "The Division of the Knowing"
+        when: "the Reading · the closing rite"
+        chapters: [chapter-8]
+        inhabit: [averil, casque, veck, rill]
+        frame: >
+          The closing rite: the synthesis never written, each attendee departing
+          with an assigned emphasis — the knowing itself divided, and the room
+          realizing mid-rite what pattern it is reenacting; nobody says it aloud.
+          Then, unprompted, every attendee speaks their name to two strangers, and
+          the heaviest knowledge in the reach becomes the warmest hour the order
+          has ever kept. Earn the warmth; do not explain it.
+
+      - id: the-open-day
+        title: "The Open Day"
+        when: "a year on · the open day"
+        chapters: [epilogue]
+        inhabit: [averil, casque]
+        frame: >
+          The motherhouse a year on: empty shelves dusted like graves, Casque's
+          sealed copy and Averil's testimony the library's whole holdings, the
+          institute's second, firmer letter declined and filed with the first. On
+          the open-day bench a warm man nobody registered listens to the founding
+          note with his eyes closed; he signs nothing. Leave him uncommented.

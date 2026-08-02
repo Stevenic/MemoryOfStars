@@ -35,6 +35,69 @@ slices:
           instinct, not yet knowing why. Courteous on both sides; neither is
           wrong yet.
 
+      - id: the-sealed-mail
+        title: "The Sealed Mail"
+        when: "mid-route · the first leg"
+        chapters: [chapter-1]
+        inhabit: [gale]
+        frame: >
+          Gale mid-route with sealed mail, addressed plural — five traditions,
+          every surviving institution — and no idea what she is carrying. Guild
+          texture at full warmth: tolls, depot-light, dry marginalia in the
+          manifest. She has never once failed a delivery; let the pride sit
+          lightly and the seal stay unbroken.
+
+      - id: the-unsealing
+        title: "The Unsealing"
+        when: "days out · a relay-house, before witnesses"
+        chapters: [chapter-2]
+        inhabit: [gale]
+        frame: >
+          The summons unsealed at a relay-house, per protocol, before
+          witnesses: a relay-held roll — plural, copied, worn exactly as the
+          rules require — was collected entire, verified thrice. Nobody in the
+          room knows whether it was the first time or only the first noticed.
+          The room is very quiet; Gale reads it twice and re-plots her route
+          for speed.
+
+      - id: three-doors
+        title: "Three Doors in One Day"
+        when: "mid-route · the lit map"
+        chapters: [chapter-4]
+        inhabit: [gale, zel]
+        frame: >
+          Three stops in one day — Farrow's holders, a Tolm sexton, a Meret
+          warden — the reach's surviving customs shown working, each door
+          sending a delegate or a token, the manifest growing. The pleasure of
+          threads meeting, at speed. Keep the stops offices, not names; the
+          romp lives in the riding.
+
+      - id: the-relay-house-table
+        title: "The Relay-House Table"
+        when: "mid-route · night at a relay-house"
+        chapters: [chapter-6]
+        inhabit: [gale, zel, ketra, idra]
+        frame: >
+          Night on the summons route: lamplight, road food, the manifest
+          weighted open on the long table. Ketra and Idra are newly aboard,
+          and the traditions argue what the Convening is even for — whether
+          relief is possible or piety. The committee begins to exist by
+          disagreeing well; let the argument stay warm and the beds be too
+          few.
+
+      - id: the-rerouting
+        title: "The Rerouting"
+        when: "late route · Alba's boarding"
+        chapters: [chapter-7]
+        inhabit: [gale, alba]
+        frame: >
+          Alba boards last, carrying a Testament hole and her teacher's habit
+          of listening — and the news catches up mid-boarding: a second
+          plural-held collection, on a world Gale's own route serves. The
+          argument over rerouting is the scene; a courier's manifest now holds
+          a world she may not be able to deliver to. Keep the grief in the
+          route-craft, not in speeches.
+
   - id: convening-at-valen
     star: book-26
     title: "The Convening at Valen"
@@ -67,3 +130,50 @@ slices:
           itself, entrusted to the committee she assembled. Her manifest, for the
           first time in her life, complete. Keep the relief quiet; the race has
           already begun.
+
+      - id: the-kitchens-at-valen
+        title: "The Kitchens at Valen"
+        when: "the first Convening · below stairs"
+        chapters: [chapter-8]
+        inhabit: [alba, zel]
+        frame: >
+          Valen lit for the first Convening of its name, seen from below
+          stairs: kitchens feeding forty worlds' delegates, corridors full of
+          borrowed chairs and runners carrying disagreeing tallies. The wonder
+          upstairs, the work down here — five traditions' suppers on one range
+          of ovens. Let the city's pride show in the small logistics.
+
+      - id: the-first-signature
+        title: "The First Signature"
+        when: "the first Convening · the roll opened"
+        chapters: [chapter-8]
+        inhabit: [ondine, gale]
+        frame: >
+          Ondine — provost no longer — is the first to sign the watch-roll,
+          and the count that goes up begins with her name. One scene, no
+          speeches: a career of institutions ending in a volunteer's line on a
+          page. Let the room understand what it is watching before it cheers.
+
+      - id: gray-and-claimless
+        title: "Gray and Claimless"
+        when: "the first Convening · a bench by the door"
+        chapters: [chapter-8]
+        inhabit: [isla, zel]
+        frame: >
+          Isla Ash at the Convening — gray, claimless, amused — watching forty
+          worlds' delegates try to seat themselves by precedence in a hall
+          that has none. One scene, one bench, no tour: she declines every
+          offered place of honor and keeps the seat by the door. Keep her
+          funny and let the weight of her name stay offstage.
+
+      - id: helpful-at-last
+        title: "Helpful at Last"
+        when: "the first Convening · the drafting tables"
+        chapters: [chapter-8]
+        inhabit: [yent, ketra]
+        frame: >
+          Advocate Yent, retired and unretained, at the drafting tables —
+          helping for once with no client and no fee, steadying the roll's
+          language so that disagreeing tallies can bind. One scene: a lifetime
+          of argued cases spent on a document that belongs to everyone. Let
+          him enjoy it.

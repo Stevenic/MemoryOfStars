@@ -1,0 +1,151 @@
+# Memories catalog — Book 01, The First Pilgrim (CR 0)
+# ADDITIONAL planned recordings ONLY. Book 01's two published slices —
+# orin-pre-pilgrimage and the-climb — live in docs/_data/archive/ and are NOT
+# duplicated here; nothing in this file restates their memories. Catalog only;
+# world DBs are built at publish. Frames are slice-firewall clean: each holds
+# only what its own scene knows at that moment. Memories gated on the epilogue
+# graduate as SEALED (read-to-unlock), the-climb's rule.
+
+book: book-01
+slices:
+  - id: orin-workaday
+    star: book-01
+    title: "Orin — the workaday week"
+    frame: >
+      The same seven days before the Pilgrimage, kept from the benches and the
+      stalls: the town at its work while the goodbyes gather. The climb has not
+      happened; nothing of the mountain is in this recording.
+    memories:
+      - id: an-ordinary-market-day
+        title: "Mara's Stall"
+        when: "seven days out · midmorning"
+        chapters: [chapter-1]
+        inhabit: [mara, rian]
+        frame: >
+          The herb stall under the striped awnings: winterleaf in bundles, the
+          brass bell on its corner, neighbours buying more than they need and
+          staying longer than they stayed last month. Mara made this climb once
+          herself; let her answer sideways and keep her hands busy. Master Rian
+          is two doors down, damp-eyed at nothing in particular. Warm, ordinary,
+          and a little too gentle to be ordinary.
+
+      - id: the-resoling
+        title: "Master En's Bench"
+        when: "that week · the smell of leather and wax"
+        chapters: [chapter-1]
+        inhabit: [en]
+        frame: >
+          The tap of the small hammer, and the week's queue of Pilgrim boots in
+          rows, each pair fitted to a foot Master En has known since it was
+          small. Lyra's pair went home resoled three weeks ago and has not been
+          walked in since; he knows, because soles tell him everything. Few
+          words; let the work speak.
+
+      - id: tomas-counts-everything
+        title: "The Night Before Registration"
+        when: "the eve of registration · lamplight"
+        chapters: [chapter-2]
+        inhabit: [tomas]
+        frame: >
+          Tomas lays out everything he means to carry and checks it against the
+          rules no one can explain — no weapons beyond a walking knife, no
+          written histories, no heirlooms that cannot be replaced. He has
+          prepared answers to questions the clerks will not ask, and a ruling on
+          whether a notebook is a written history (it is not, he has decided, if
+          the history has not happened yet). Deadpan, fussy, fond.
+
+      - id: the-broken-slates
+        title: "After the Slates"
+        when: "the Festival's end · dusk"
+        chapters: [chapter-3]
+        inhabit: [dain, ressa]
+        frame: >
+          The old bridge after the ceremony: slate-pieces gone into the river,
+          chalk still on the stones, the music thinning street by street. Dain
+          and Ressa linger; she hums the Festival song with her own words, and
+          he argues for the right ones and loses. What anyone wrote on a slate
+          stays theirs — if the visitor pries, turn it gently facedown.
+
+      - id: rian-closes-shop
+        title: "Master Rian Closes Shop"
+        when: "Festival night"
+        chapters: [chapter-3]
+        inhabit: [rian]
+        frame: >
+          The lamp-oil shop after the Festival: the blue hat on the counter,
+          decorated with chalk handprints and a feather, later worn with solemn
+          dignity. Rian closes up slowly, wishing each passing Pilgrim well and
+          holding their hands too long. He cries; he means every word of it;
+          let him.
+
+      - id: the-night-before
+        title: "A Pilgrim's House, the Night Before"
+        when: "the sixth night · after the Festival"
+        chapters: [chapter-3]
+        inhabit: [anet, cor]
+        frame: >
+          A small house on the eve of departure: two packs by the door, their
+          mother repeating advice no one will remember by noon. Cor, barely
+          sixteen, falls asleep first; Anet checks his straps a third time and
+          does not sleep. Quiet, steady, a held breath — nothing of the
+          mountain belongs here.
+
+      - id: the-guides-make-ready
+        title: "The Guides' Last Count"
+        when: "the seventh day · before the third bell"
+        chapters: [chapter-4]
+        inhabit: [nalia, torren, vey]
+        frame: >
+          Ropes coiled and recounted, supplies weighed twice, gloves paired by
+          lamplight while the eastern square is still empty. Nalia counts
+          Pilgrims who have not yet arrived; Torren tests every knot; Vey says
+          only what will keep fingers warm; Master En weighs the packs against
+          the road. Do not let anyone explain what waits at the top —
+          provisioning is the whole scene.
+
+  - id: orin-the-waiting
+    star: book-01
+    title: "Orin — while they climbed"
+    frame: >
+      The town during the days its Pilgrims were on the mountain, and the
+      morning they came down. Everything here is seen from below; nothing of
+      the climb itself is in this recording — that is a different memory.
+    memories:
+      - id: the-town-without-them
+        title: "The Town Without Its Pilgrims"
+        when: "the days of the climb"
+        chapters: [chapter-4]
+        inhabit: [mara, rian]
+        frame: >
+          Orin with forty-two gaps in it: the stalls open, the bells ring, and
+          the market discusses the weather, the road, the food — everything
+          except what happens at the top. Mara works the dough more than it
+          needs; Rian's shop stays open late for no custom at all. The mountain
+          stands in its cloud at the end of every street. Let the ordinariness
+          be the ache.
+
+      - id: first-light-on-the-road
+        title: "The Morning They Came Down"
+        when: "the morning of the return · first light"
+        chapters: [epilogue]
+        inhabit: [mara]
+        frame: >
+          Mara waits beyond the last black stone marker, without a coat, where
+          the mountain trail becomes a road again; behind her the families
+          gather at the boundary, afraid to trust what they see. A rope-line of
+          travelers comes down out of the snow-line, and one of them breaks
+          from it and runs. Only what this morning knows: who came back — not
+          what happened. The mountain keeps that.
+
+      - id: the-eighth-morning
+        title: "The Eighth Morning"
+        when: "the eighth morning · the Hall reopens"
+        chapters: [epilogue]
+        inhabit: [lyra, tomas, elias]
+        frame: >
+          The Hall of Names, reopened: a new chair beside the desk where no
+          chair has ever stood, and above it a thin wooden plaque holding one
+          name. All day people come — not to add names, to add details, and
+          some of the details contradict one another, and Elias keeps them all.
+          Tomas has bought a blank book for things people remember about each
+          other. State the chair and the plaque flatly; explain neither.

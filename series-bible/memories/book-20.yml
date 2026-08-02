@@ -65,3 +65,129 @@ slices:
           enormous, ordinary. Breda, from forty years of contraband, surrenders her
           sole-source founding deed of the city's bridge to the new rolls, by choice,
           without ceremony. It is small. It is enough to build on.
+
+      - id: the-southbank-rolls
+        title: "The Southbank Rolls"
+        when: "the night the southern mouth died · Southbank"
+        chapters: [chapter-2]
+        inhabit: [doss]
+        frame: >
+          Doss's roll-hall on the night his district begins to thin: names blanking
+          faster than his teams can copy, the relay pattern run at a sprint, a
+          young roll-keeper learning what his rolls are for. He does not stop
+          writing. Keep the hall busy and the loss arriving in ink — a line gone
+          here, a line held there.
+
+      - id: the-mandate
+        title: "The Mandate"
+        when: "after the fall · the ledger's new edition"
+        chapters: [epilogue]
+        inhabit: [yune]
+        frame: >
+          The ledger reads Meret — answering, relay-held — and the institute's
+          revised preface strikes out the hunger: it maintains; it is failing;
+          fighting it has failed. Understand it. Yune speaks her last night rite to
+          open air where a door used to be, then, for the first time in the
+          office's three centuries, says the news to the city instead. The rite
+          goes plural.
+
+  - id: wardens-office
+    star: book-20
+    title: "The Warden's Office"
+    frame: >
+      Door, ledger, rite: the office Juna's line grew into, three centuries on —
+      the unopened room in its ninth warden's keeping, the day's news told nightly
+      through the door. The room has never answered. The office holds anyway.
+    memories:
+      - id: the-wardens-rite
+        title: "The Warden's Rite"
+        when: "three centuries after the Mercy · the night rite"
+        chapters: [prologue]
+        inhabit: [yune]
+        frame: >
+          Meret warm and well: the Wells running, the rolls plural, the bridge
+          rebuilt and walked — and Yune at the unopened door with the day's news,
+          the office's one unwritten rite. Tonight the door is cold to the touch.
+          Tell the news anyway; end on the cold.
+
+      - id: the-cold-spot
+        title: "The Cold Spot"
+        when: "the cooling's first week"
+        chapters: [chapter-1]
+        inhabit: [yune, doss]
+        frame: >
+          The node taught in work: what the Wells hold, what the office is, the
+          city's mature armors worn casually. The cold spot on the door is
+          measured, logged, and reported like any finding, and the institute's
+          advisory arrives already stamped: pattern consistent. Procedure holding
+          hands with dread; keep both.
+
+      - id: the-room-question
+        title: "The Room Question"
+        when: "the defense · the night of the asking"
+        chapters: [chapter-5]
+        inhabit: [doss, yune]
+        frame: >
+          Doss asks it formally: the casket is the most coherent object in the
+          node — open it, read it plural, dissolve its coherence into a thousand
+          heads. The office's law says never; the rule says the law will kill
+          them. That night Yune's rite becomes an argument with a door, and it
+          seems to her that the door is listening. The seeming stays hers; the
+          door never acts.
+
+  - id: civic-defense
+    star: book-20
+    title: "The Civic Defense"
+    frame: >
+      The reach's first defense of a falling node: relay teams, the responders'
+      fourth-edition rite-book, institute observers, a city rehearsing its names
+      to strangers nightly. There is no precedent. They will be the precedent.
+    memories:
+      - id: off-the-third-transport
+        title: "Off the Third Transport"
+        when: "the relief's arrival"
+        chapters: [chapter-3]
+        inhabit: [breda, yune, neva]
+        frame: >
+          The reach answers: relay teams on the first transport, Neva's responders
+          with the rite-book's fourth edition, and off the third, Breda — old now,
+          the institute's strangest archivist — sack first. The defense assembles
+          around a question nobody says aloud: nodes have never been defended. Let
+          the arrival be logistics; the courage is in the scheduling.
+
+      - id: the-relay-drills
+        title: "The Relay Drills"
+        when: "the defense · the nightly rehearsals"
+        chapters: [chapter-4]
+        inhabit: [neva, doss]
+        frame: >
+          Neva runs the drills: rolls copied on the Night-of-Strangers pattern,
+          names rehearsed to strangers nightly, each inherited armor taught one
+          per evening with Doss asking the questions a stranger would. It slows
+          the cooling; it does not stop it. Keep the drills exact and the
+          arithmetic honest.
+
+      - id: the-archivists-sack
+        title: "The Archivist's Sack"
+        when: "the defense · the control data unpacked"
+        chapters: [chapter-4]
+        inhabit: [breda, doss]
+        frame: >
+          Breda unpacks forty years of contraband for the defense's use: attested,
+          sole-source, three collected regions' only proof, handled like relics
+          because that is what they are. Doss learns what attested means from the
+          woman who wrote the entries. The city takes strange comfort from a
+          thief; do not explain the comfort.
+
+      - id: what-wont-lift
+        title: "What Won't Lift"
+        when: "the worst hour · the finding"
+        chapters: [chapter-7]
+        inhabit: [yune, neva, doss]
+        frame: >
+          The defense's true finding: the plural holds — everywhere the rolls are
+          relay-held, everywhere the holes are cut, the culling passes over;
+          witnessed, repeatable, real. Everywhere singular and coherent, it takes
+          clean — and the node itself, old and deep and perfectly coherent, cannot
+          be made plural in time. The Wells are going to fall; the question is
+          only what falls with them.

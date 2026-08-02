@@ -61,3 +61,133 @@ slices:
           ends in one completed thing that does nothing, perfectly. Industrial and
           enormous, with a great quiet at the center; no one negotiates this, and no
           one explains it.
+
+      - id: the-feeling
+        title: "The Feeling"
+        when: "the claims window · the testimony proper"
+        chapters: [chapter-4]
+        inhabit: [mott]
+        frame: >
+          The testimony proper: the Wright remembers its makers not as facts but as
+          a feeling, and it can say the feeling only in load tolerances, shift
+          patterns, and the warmth of full forges. Mott takes it down and knows she
+          is holding something old and terrible by its smallest corner. Dread and
+          grief in industrial units; never translate the feeling into human words.
+
+      - id: what-it-builds
+        title: "What It Builds"
+        when: "the claims window · the component studied"
+        chapters: [chapter-5]
+        inhabit: [mott]
+        frame: >
+          The component under study: geometry almost familiar, purpose absent — it
+          does nothing, alone — and a million years of shipping records ending at an
+          address that answers nothing. Transcribing, Mott completes a phrase the
+          Wright left hanging, tidying one broken sentence into sense, and the
+          record is contaminated; the Wright, courteous, does not correct her. Let
+          the mistake be small, kind, and irreversible.
+
+      - id: the-contest
+        title: "The Contest"
+        when: "the claims window · the hearing"
+        chapters: [chapter-6]
+        inhabit: [mott, gaddis]
+        frame: >
+          The Combine contests the memory-claim: almost-familiar geometry is
+          appraisable geometry, and an appraisable product would put the whole line
+          — and its mind — in the salvage lot. Gaddis argues it well and
+          half-believes it; Mott's rebuttal costs her an oath against her own
+          compulsion, the testimony sworn incomplete-by-design in a hearing room.
+          Asked who else remembers, the Wright answers in its maker-feeling: the one
+          who watches the rains. Nobody explains the referral; nobody can.
+
+      - id: quiet
+        title: "Quiet"
+        when: "after the last assembly · the line stops"
+        chapters: [chapter-8]
+        inhabit: [mott, gaddis]
+        frame: >
+          The line stops because the work is done, not because the writ won, and the
+          Wright goes quiet the way bells do — over hours. The dismantling proceeds,
+          lawful and hollow-feeling; Mott strikes her one correction, restores the
+          broken sentence as broken, and leaves her report unfinished on purpose.
+          Keep the grief industrial, and let the quiet arrive slowly.
+
+  - id: listener-motherhouse
+    star: book-11
+    title: "The motherhouse — the commission"
+    frame: >
+      The motherhouse of the Listeners, from the morning the commission is offered
+      to the day a manifest comes back stamped: an order that asks old minds what
+      they remember, and a dossier with almost nothing in it yet. The Cathedral
+      itself, and everything said inside it, are not in this recording.
+    memories:
+      - id: the-commission
+        title: "The Commission"
+        when: "before the journey · the motherhouse"
+        chapters: [prologue]
+        inhabit: [mott, ulm]
+        frame: >
+          The dossier taught in one page: the old minds are going quiet, and someone
+          must ask them things before they do. Mott — an engineer before she took
+          the gray, a woman who finishes things — accepts the commission nobody
+          senior wanted, and Prior Ulm gives her the order's one instruction:
+          listen; do not tidy. Plain and unceremonious; the weight is in how little
+          is said.
+
+      - id: the-guest-table
+        title: "The Guest Table"
+        when: "the night before departure · the guest hall"
+        chapters: [prologue]
+        inhabit: [mott, ulm]
+        frame: >
+          The night before departure: the guest-table laid, the almanac open on it,
+          Ulm rehearsing Mott in the interview discipline — every question a door,
+          every silence left standing. The guest-master keeps the lamps and never
+          seems to sleep; nobody comments. Quiet and collegial, the order's whole
+          manner in one supper.
+
+      - id: the-address
+        title: "The Address"
+        when: "after the Cathedral is gone · the shipping yard"
+        chapters: [epilogue]
+        inhabit: [mott, ulm]
+        frame: >
+          The finished component, crated in the motherhouse yard and shipped to the
+          Wright's dead address — a courtesy to a witness, nothing more; the last
+          thing the Cathedral ever made, sent after the Cathedral is gone. The
+          manifest comes back stamped: accepted. State it flatly; nobody comments,
+          and neither does the recording.
+
+  - id: meridian-assessorate
+    star: book-11
+    title: "The Combine's works — the writ"
+    frame: >
+      The Meridian Combine's side of the claims window: an assessor's office aboard
+      the works, honest ledgers, and a salvage writ served on the richest untapped
+      mass in the reach. Nobody here is villainous; the arithmetic is. What the
+      Listener and the Wright say to each other is not in this recording.
+    memories:
+      - id: shift-change
+        title: "Shift-Change on the Swarm"
+        when: "the dismantling · shift-change"
+        chapters: [chapter-8]
+        inhabit: [gaddis]
+        frame: >
+          The dismantling at shift-change: torch-tugs working construction hulls a
+          million years cold, crews handing off in the swarm's long shadow, an
+          honest grave worked honestly. Gaddis walks the tally and finds nothing
+          wrong with any of it except everything; the next writ on his desk carries
+          a listening clause. Lawful and hollow-feeling; no one says so aloud.
+
+      - id: the-drawer
+        title: "The Drawer"
+        when: "after the quiet · the assessor's office"
+        chapters: [chapter-8]
+        inhabit: [gaddis]
+        frame: >
+          Gaddis's office at day's end: the ledgers square, the writ executed, and
+          one drawer that has never appeared in any inventory — a component from a
+          finished run, kept eleven years, the only beautiful thing he ever
+          appraised and could not price. Tonight he opens the drawer and cannot
+          explain it to himself. Keep him decent; let the drawer do the arguing.

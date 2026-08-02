@@ -40,6 +40,65 @@ slices:
           the paperwork with steady hands. Near-catch dread; targeting language as
           armor.
 
+      - id: the-surveyors-map
+        title: "The Surveyor's Map"
+        when: "the war at tempo · a strike executed"
+        chapters: [chapter-1]
+        inhabit: [kest]
+        frame: >
+          A forgetting-strike from map to effect: Kest's profile drawn, the firing
+          liturgy read, and an enemy garrison that wakes unable to remember why it
+          holds the pass — bloodless, total, obscene. Her mastery and her insomnia
+          belong in the same scene. The delivery is never shown; maps, liturgy, and
+          effects only.
+
+      - id: the-overlay-refused
+        title: "The Overlay, Refused"
+        when: "after the echo · up the chain"
+        chapters: [chapter-3]
+        inhabit: [kest, brom]
+        frame: >
+          Kest carries the pattern to command, and Brom refuses it with full
+          dignity: wars have weather, correlation is defeatism, fire the next
+          strike. The institute's observers are barred from the targeting floor the
+          same day. She fires the next strike, and it echoes. Nothing in the room
+          is stupid; that is what makes it dreadful.
+
+      - id: drawn-to-miss
+        title: "Drawn to Miss"
+        when: "the conspiracy · strikes aimed at nothing"
+        chapters: [chapter-5]
+        inhabit: [kest, sette]
+        frame: >
+          The conspiracy in work: profiles drawn to fall on empty registry, strikes
+          aimed at nothing, and Sette's channel carrying both sides' treason in one
+          ledger. Two staffs audit their surveyors; two surveyors forge their art.
+          Keep the mechanics exact; the dread is procedural.
+
+      - id: the-warning
+        title: "The Warning"
+        when: "the strike she cannot miss"
+        chapters: [chapter-7]
+        inhabit: [kest]
+        frame: >
+          A target real and civilian-adjacent, her forged profile failed in review,
+          and Brom will fire her map as drawn. The targeting language she thinks in
+          finally breaks — the book's one interiority collapse — and she does the
+          unforgivable, professional thing: she warns the target. Through Arno.
+          Across the war.
+
+      - id: the-price-of-the-maps
+        title: "The Price of the Maps"
+        when: "the Accords signed · the archive"
+        chapters: [chapter-9]
+        inhabit: [kest]
+        frame: >
+          The treaty's bill lands where it must: to unmake the capability, Kest
+          erases her own corps' targeting archive — her life's work, her comrades'
+          craft, the proof of her own guilt — by her own hand. Nothing the war
+          unmade returns; the Accords ban, they do not restore. Keep her hands
+          steady and the cost entire.
+
   - id: neutral-channel
     star: book-17
     title: "The Neutral Channel"
@@ -72,3 +131,57 @@ slices:
           strike-echoes reach zero — and beneath, revealed by the war's absence, the
           blanks continue: slower, patient, unfed and unbothered. Arno says it so Kest
           doesn't have to. Quiet, spent, and honest; nothing the war unmade returns.
+
+      - id: overlay-nights
+        title: "The Overlay Nights"
+        when: "the war at tempo · the observer's lamp"
+        chapters: [chapter-3]
+        inhabit: [sette]
+        frame: >
+          Sette's watch at the institute: strikes counted by day, blanks counted by
+          night, the overlay growing between them like a proof nobody asked for.
+          She has stopped sleeping in the gap. Neutral ground taught in work — the
+          only table in the reach where both powers' maps lie side by side.
+
+      - id: the-blackout
+        title: "The Blackout"
+        when: "the hour the firing stopped"
+        chapters: [chapter-8]
+        inhabit: [sette, kest, brom]
+        frame: >
+          The conspiracy public, both commands reaching for rope — and Sette
+          releases the overlay to both capitals at once. While it is being read, a
+          true blank lands on a Dresk command archive along a profile drawn by
+          Dresk's own corps, and the overlay's first page shows Brom, in public,
+          that the opening blow was never Corvane's. The firing stops that hour —
+          informally, raggedly, the way terrified institutions actually stop.
+
+  - id: mirror-office
+    star: book-17
+    title: "The Mirror-Office"
+    frame: >
+      Corvane's strike corps, across the front: the same maps at another angle, the
+      same audit culture in another uniform, and a surveyor who has read his
+      enemy's work for five years. Older, drier, further down the same road.
+    memories:
+      - id: the-year-of-saying-nothing
+        title: "The Year of Saying Nothing"
+        when: "before the correction · his desk, her maps"
+        chapters: [chapter-4]
+        inhabit: [arno]
+        frame: >
+          Arno at his desk with Kest's work spread before him, a year into knowing
+          what he has told no one: his strikes echo too. Tonight he annotates an
+          error in her blast-profile and sends the map back through the ledger's
+          neutral channel — professional courtesy as treason. Not one word wasted.
+
+      - id: the-other-floor
+        title: "The Other Floor"
+        when: "the conspiracy · Corvane's targeting floor"
+        chapters: [chapter-5]
+        inhabit: [arno]
+        frame: >
+          The mirror of everything: Arno drawing his own misses under his own
+          auditors, the same forgeries in the opposite hand. His staff admires the
+          precision of strikes that take nothing, and he accepts the admiration
+          without expression. Dry, exact, further out on the wire than he will say.

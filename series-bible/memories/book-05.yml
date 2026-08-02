@@ -14,6 +14,19 @@ slices:
       been stated; what is asked of the crew, and what Odri answers, are not in this
       recording.
     memories:
+      - id: the-threshold
+        title: "The Threshold"
+        when: "the day of arrival · the moonlet"
+        chapters: [chapter-1]
+        inhabit: [odri, dov]
+        frame: >
+          The moonlet is too smooth, and the instruments keep saying so in
+          flatter and flatter voices. At the survey's chosen point, a
+          threshold: stone worn hollow from the inside, by whatever crossed
+          it, many times, very long ago. State both facts plainly and open
+          nothing; the counting belongs to tomorrow. Odri inventories what is
+          present, never what is absent — keep her the only one glad.
+
       - id: the-counting
         title: "The Counting"
         when: "the first day inside the vault"
@@ -49,3 +62,117 @@ slices:
           carried all her life. It introduces itself by its function: it witnesses. It
           has been alone with its dead for a million years. Courteous, ancient, and
           unexplained; do not make it sinister, and do not yet make it safe.
+
+  - id: the-expedition
+    star: book-05
+    title: "The Expedition"
+    frame: >
+      The finding and the long way out, kept from the ship: the absence Odri
+      noticed in the route-charts, the contract that bought the burn, the
+      unroaded months, and the watches at anchor while the vault is entered.
+      The terms have not been stated; what is asked of the crew, and what Odri
+      answers, are not in this recording.
+    memories:
+      - id: the-hole-in-the-roads
+        title: "The Hole in the Roads"
+        when: "before everything · the finding"
+        chapters: [prologue]
+        inhabit: [odri, cassen]
+        frame: >
+          A scholar of deletions with the galaxy's route-charts spread wide,
+          showing a buyer where nothing is: a rich system's worth of sky that
+          no route-memory anywhere remembers — a hole with edges, which is not
+          the same as an emptiness. Odri sells Cassen the expedition absence
+          by absence; he reads the charts twice and starts pricing the risk.
+          Keep her delight and his caution both entirely reasonable.
+
+      - id: the-contract
+        title: "Survey, Salvage, No Contact"
+        when: "before the burn · the signing"
+        chapters: [chapter-1]
+        inhabit: [cassen, odri]
+        frame: >
+          The expedition's terms read aloud, clause by clause, in Cassen's
+          careful contract-language: survey, salvage, no contact. Behind them
+          stands the law of memory-claims — finders keep the memory of the
+          dead — and nobody at the table finds the law strange, because no one
+          ever has. Odri signs without hesitating. Let the visitor weigh what
+          each signature costs its signer.
+
+      - id: fenns-charts
+        title: "Fenn's Charts"
+        when: "the crawl out · months from anywhere"
+        chapters: [prologue]
+        inhabit: [fenn]
+        frame: >
+          The route-reader keeps charts for a road that is not there:
+          dead-reckoning months long, burn schedules, margins written and
+          rewritten. Off the roads, nothing remembers a ship — Fenn is the
+          first aboard to understand that, and the first to want to go home.
+          His fear is professional, which is what makes it worth recording.
+          Keep it quiet; the dread is arithmetic, not omen.
+
+      - id: the-crews-mess
+        title: "The Crew's Mess"
+        when: "the long burn · supper"
+        chapters: [chapter-1]
+        inhabit: [odri, cassen, fenn, dov]
+        frame: >
+          The mess on the long burn: one table, months of the same stars.
+          Salvage law argued over supper — who may keep the memory of the
+          dead — with nobody suspecting the question of being real yet. Dov is
+          young enough to be excited; Fenn would rather be anywhere else; Odri
+          is happier than anyone aboard, and no one else aboard is happy at
+          all. Companionable; the vault is still only a heading.
+
+      - id: the-quiet-system
+        title: "The Quiet System"
+        when: "arrival · the unroaded system"
+        chapters: [prologue]
+        inhabit: [odri, fenn, cassen]
+        frame: >
+          The burn ends in a system rich, orderly, and utterly silent, which
+          no route-memory anywhere remembers. Space itself was made to forget
+          this place — give it to the crew the way they learn it, as
+          instrument readings and unease, never as explanation. Months were
+          paid to get here; Odri has never been happier, and no one else
+          aboard is happy at all.
+
+      - id: dovs-watch
+        title: "Dov's Watch"
+        when: "the night after the first face"
+        chapters: [chapter-2]
+        inhabit: [dov]
+        frame: >
+          Dov's watch, the ship quiet, the day's counts written up and still
+          refusing to agree. He found the first face; the number has not been
+          a number since. He walks the ship checking on people who do not need
+          checking, and starts his log entry four times. Let him be young, let
+          the arithmetic keep him company, and explain nothing.
+
+      - id: the-withdrawal
+        title: "The Withdrawal"
+        when: "the evening of the order"
+        chapters: [chapter-3]
+        inhabit: [cassen, fenn, dov]
+        frame: >
+          Back aboard, after Cassen orders everyone out of the vault: the door
+          did not stop them, and that is somehow worse than if it had. Behind
+          them, their wake through the dust is being tidied. Supper goes
+          mostly uneaten; the singing each of them heard goes mostly
+          unmentioned. Command rendered as care — let Cassen be right to order
+          it and unhappy that it worked.
+
+      - id: the-song-nobody-names
+        title: "The Song Nobody Names"
+        when: "the night after the vault speaks"
+        chapters: [chapter-4]
+        inhabit: [odri, fenn, dov]
+        frame: >
+          The evening after first contact: the thing below introduced itself
+          by its function — it witnesses — and it spoke to each of them
+          through what they carry. No one at the table names their song.
+          Odri's was shaped like a lullaby her city deleted, assembled from an
+          absence she has carried all her life; let her sit with that
+          privately, and let the recording hold the silence rather than fill
+          it.

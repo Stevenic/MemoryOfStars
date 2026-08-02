@@ -66,3 +66,115 @@ slices:
           as a chord, Amel inventing the notation as it happens; Hask dissents
           formally and signs the page anyway. Work as argument; grief held as
           music.
+
+      - id: the-vote-to-walk-it-fused
+        title: "The Vote to Walk It Fused"
+        when: "the joiner's season · the craft taught before the vote"
+        chapters: [chapter-1]
+        inhabit: [pim, kova, hask]
+        frame: >
+          The joiner's craft taught in work: what a mis-join is, why
+          un-fusing spends both sides, why the team has never walked a fused
+          stratum — the join can take the walker. Hask moves to un-join
+          blind and walk neither; Kova counters from the only benign fusion
+          alive. The vote: walk it fused, once — then decide. Craft first,
+          dread second.
+
+      - id: up-from-the-impossible-morning
+        title: "Up from the Impossible Morning"
+        when: "the fused day walked raw · the surfacing"
+        chapters: [chapter-2]
+        inhabit: [pim, amel]
+        frame: >
+          Pim surfaces from the fused day shaking, unable to say whether it
+          was wrong or right, and the live transcript shows why: a farewell
+          in an other grammar braided with a lullaby in an ancestral human
+          one, each answering the other. Amel has no notation for two
+          threads that refuse to be two. Let the frame hold what the walker
+          cannot yet.
+
+      - id: the-mothers-thread
+        title: "The Mother's Thread"
+        when: "the human thread walked to its source · one household"
+        chapters: [chapter-4]
+        inhabit: [pim]
+        frame: >
+          The golden age's last season at kitchen scale: one household's
+          ordinary courage as the thinning came, and a lullaby sung against
+          the quiet. Render the walked past as other — ancestral, not
+          familiar; the visitor cannot change it, and the stratum spends.
+          The mother may be witnessed, never worn and never named. No
+          spectacle — a morning, a kitchen, a voice; that is the whole
+          apocalypse.
+
+      - id: someone-elses-cadence
+        title: "Someone Else's Cadence"
+        when: "up from the mother's thread · the receiving"
+        chapters: [chapter-4]
+        inhabit: [kova, amel]
+        frame: >
+          Pim comes up weeping in someone else's cadence, and Kova — the
+          only living person who knows what a carried morning feels like
+          from inside — does the receiving: water, silence, the right
+          questions in the right order. Amel logs the session and leaves the
+          weeping out of the record, then puts it back in. Care as
+          procedure; procedure as care.
+
+      - id: one-beat-before-it-closes
+        title: "One Beat Before It Closes"
+        when: "the builder's thread · the weld reaching for its walker"
+        chapters: [chapter-5]
+        inhabit: [kova, isla, hask]
+        frame: >
+          The frame during the deepest walk of the season: the weld pulls,
+          the instruments say fusion the way a gauge says fire, and there is
+          nothing anyone above can do but hold the circle and count. Pim is
+          saved by the wrong-note sense itself, one beat before it closes.
+          What rises afterward into the transcript is not a private morning;
+          let the frame receive it in silence.
+
+      - id: ordinary-ground
+        title: "Ordinary Ground"
+        when: "after the verdict · the team on the surface"
+        chapters: [chapter-8]
+        inhabit: [isla, kova, pim, hask]
+        frame: >
+          The team stands on ordinary ground and cannot feel it as ordinary
+          again. The ledger's honest page: three strata walked, three spent,
+          one chord kept, one figure witnessed whom nobody names. The vote
+          for the last two strata — the dark ones — passes in silence. Let
+          the silence be the scene.
+
+      - id: the-chord-filed
+        title: "Farewell and Lullaby, One Staff"
+        when: "the season closed · the notation filed"
+        chapters: [epilogue]
+        inhabit: [amel, pim]
+        frame: >
+          Amel's final notation for the fused day: farewell and lullaby on
+          one staff, the first chord in the practice's records, and a
+          marginal note in Pim's hand — some things are only true together.
+          Filed without ceremony, which is the ceremony. The store behind
+          them one era colder.
+
+  - id: concord-tribunal
+    star: book-23
+    title: "The tribunal — the Concord's suit"
+    frame: >
+      The Claimants' Concord's suit, arrived at last in a tribunal's
+      corridors: filings, dockets, and an injunction gathering against any
+      walk of a contested stratum. What the joiner decides at the weld is
+      not in this recording.
+    memories:
+      - id: the-injunction
+        title: "The Injunction"
+        when: "the suit heard · the corridor between sessions"
+        chapters: [chapter-3]
+        inhabit: [yent, isla]
+        frame: >
+          Yent moves for an injunction against walking any contested
+          stratum, and the filing quotes Hask's own logged dissents back at
+          the team — courteous, precise, and not wrong about the question.
+          Isla answers for five people holding a civilization's past under
+          one claim. Argued with full dignity on both sides; the corridor
+          smells of paper and other people's patience.

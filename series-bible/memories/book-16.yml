@@ -52,6 +52,66 @@ slices:
           kindness is the scene's horror. No one in the room knows about the floorboard.
           Cruelty rendered entirely as mercy; grief with nowhere to land.
 
+      - id: the-letters
+        title: "The Letters"
+        when: "an ordinary season · a small rite"
+        chapters: [prologue]
+        inhabit: [breda, maunt]
+        frame: >
+          A dying woman gives the order her letters, and the rite unmakes them while
+          she watches: paper becoming light, and the woman going light with it. The
+          keepers are undertakers for the written, and their tenderness is real.
+          Mercy first — nothing in this scene argues, and no one in it doubts.
+
+      - id: novice-rounds
+        title: "Novice Rounds"
+        when: "the year of the census · before the dawn office"
+        chapters: [chapter-1]
+        inhabit: [odd, breda]
+        frame: >
+          Sister Odd's rounds before the dawn office: the rite-tools laid out, the
+          bare shelves swept, the liturgy of unmaking recited until it sits level in
+          the mouth. She is the house's sharpest pair of eyes, and everything she
+          notices she keeps in order, the way she was taught. Keep her faith whole
+          and her attention innocent.
+
+      - id: the-census-table
+        title: "The Census at the Table"
+        when: "the year of the census · the survey read aloud"
+        chapters: [chapter-3]
+        inhabit: [maunt, lang, breda]
+        frame: >
+          Lang's survey reaches the order's table: the ceded territories are going
+          blank faster than the kept world. Maunt's serenity absorbs the number
+          whole — of course the unwritten go first; they are ready — and the meeting
+          ends in perfect peace. That night, alone, Breda checks the count against
+          her floorboard. The courtesy never breaks; the crack is private.
+
+      - id: the-keepers-arithmetic
+        title: "The Keeper's Arithmetic"
+        when: "after the pilgrimage · a candle kept late"
+        chapters: [chapter-6]
+        inhabit: [breda, odd]
+        frame: >
+          Breda runs the ledger the order refuses to keep: every unmade thing she
+          has stolen from, mapped against Lang's blanks. The correlation is damning
+          but for one entry — an unmade thing that persists, the one item three
+          towns' registries copied first — and she does not know what the exception
+          means. Sister Odd catches her at it, and the scene holds its breath over
+          which loyalty the novice keeps.
+
+      - id: the-question-of-odd
+        title: "The Question of Odd"
+        when: "the last days · the keeper's cell"
+        chapters: [chapter-7]
+        inhabit: [odd, maunt, breda]
+        frame: >
+          Odd reports the heavier sleeves — not from malice, from faith: a keeper
+          who keeps is unmaking the order's salvation. Maunt comes to Breda's cell
+          with love and a rite; he does not want her punished, he wants her saved.
+          Give the novice's choice its full weight. No one in this scene is lying,
+          and that is the horror.
+
   - id: border-post
     star: book-16
     title: "The Border Post"
@@ -71,3 +131,66 @@ slices:
           ordinary: the ledger open, the pen ready, the question — Name? For the first
           time she writes rather than keeps: she writes it herself. Play it small; it is
           the largest thing in the book.
+
+      - id: accession
+        title: "Accession"
+        when: "after the crossing · the ledger's new entries"
+        chapters: [epilogue]
+        inhabit: [lang, breda]
+        frame: >
+          The institute's ledger takes three regions into the count in a careful
+          hand: attested, single source — and beside each, the librarian's note,
+          sole surviving reference. Far away, under a floorboard in a cell she will
+          never see again, one thread from every binding she could not save. Small
+          entries; let them weigh.
+
+  - id: keeper-town
+    star: book-16
+    title: "The Keeper-Town"
+    frame: >
+      The town that kept a thousand years of paper, in the days before it gave the
+      archive up: long shelves, diaspora bequests, and a fear of the blanks that has
+      outgrown every argument. The order's keepers arrive the way undertakers
+      arrive — early, quiet, kind.
+    memories:
+      - id: the-last-night-of-the-archive
+        title: "The Last Night of the Archive"
+        when: "the eve of the Great Unwriting"
+        chapters: [chapter-2]
+        inhabit: [breda, odd]
+        frame: >
+          The town sits up with its archive the way a family sits up with a body:
+          lamps low, families walking the long shelves, a bequest held one last
+          time. The order's keepers keep the watch with them, certain that nothing
+          will be lost. Grief and relief share the room; do not resolve which is
+          which.
+
+  - id: survey-camps
+    star: book-16
+    title: "The Border Survey"
+    frame: >
+      Lang's camps along the ceded line: a tent, a ledger, a route walked in all
+      weathers. The institute asks nothing of the order but numbers — and numbers
+      are the one heresy it cannot name. Plain, patient, unwelcome.
+    memories:
+      - id: the-counting-camp
+        title: "The Counting Camp"
+        when: "the year of the census · a night on the ceded line"
+        chapters: [chapter-1]
+        inhabit: [lang]
+        frame: >
+          Lang's camp at the border of the ceded lands: the day's route walked, the
+          evening's tally inked, the same columns in the same order every night. He
+          is tolerated, never welcomed, and he minds neither. A patient man doing
+          the one thing the order cannot forgive: counting.
+
+      - id: the-empty-milestones
+        title: "The Empty Milestones"
+        when: "the census · deep in the ceded lands"
+        chapters: [chapter-3]
+        inhabit: [lang]
+        frame: >
+          A survey day in territory the order ceded to silence: good roads, standing
+          wells, and hamlet after hamlet that answers nothing. Lang logs each in the
+          institute's terms and does not editorialize. The dread is in the columns;
+          keep his voice level.

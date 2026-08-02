@@ -65,3 +65,105 @@ slices:
           claim. Hask half-agrees with the petition, which is worse. The
           argument over the next descent is real; nobody pretends any of it
           will be gentler.
+
+      - id: eleven-thresholds
+        title: "Eleven Thresholds Down"
+        when: "four years on · the vote to walk the deep horizon"
+        chapters: [prologue]
+        inhabit: [isla, kova]
+        frame: >
+          The store four years on, the method a rite, and the Concord's
+          petitions arriving with every supply run — a faith, a power, the
+          auction's patient losers — filed, answered, refused. Beneath the
+          golden-age horizon: something older, colder, stranger, and the
+          vote to walk it, taken across three sessions. Kova counts the
+          shaft's thresholds going down: eleven. Administrative and enormous
+          at once.
+
+      - id: the-rehearsal
+        title: "The Rehearsal"
+        when: "before the first session · the drills run dry"
+        chapters: [chapter-1]
+        inhabit: [kova, pim]
+        frame: >
+          Walk protocol rehearsed until it is boring, which is the point:
+          carrier discipline run dry, the witness circle blocked out in the
+          dust, Pim's hands practicing recoveries nobody says aloud they
+          expect to need, Hask timing all of it against his controls. Fear
+          kept procedural. Let the drill's tedium be a kind of tenderness.
+
+      - id: the-first-strike-through
+        title: "The First Strike-Through"
+        when: "after the first session · the frame absorbs it"
+        chapters: [chapter-3]
+        inhabit: [amel, hask, kova]
+        frame: >
+          The frame taking the weight of the first deep walk: Amel's pages
+          read and re-read, Hask testing for beautiful contamination, and
+          the ledger's first strike-through made in front of witnesses.
+          Kova, up, counts her thresholds and comes up one short. She says
+          nothing, and nobody else notices; keep it that way.
+
+      - id: transcript-night
+        title: "Transcript Night"
+        when: "the evening after · the pages read aloud"
+        chapters: [chapter-3]
+        inhabit: [amel, isla, pim]
+        frame: >
+          The camp's newest custom, invented tonight: the day's transcript
+          read aloud entire after supper, corrections called in from around
+          the table, the dead era's morning passing once more through living
+          voices. Solemn without ceremony. What was spent below is, for an
+          hour, the only wealth above.
+
+      - id: the-heresy-of-copying
+        title: "The Heresy of Copying"
+        when: "the second session · the era refusing its own news"
+        chapters: [chapter-4]
+        inhabit: [kova]
+        frame: >
+          Deeper in the walked era: the noticing spreads, and the era's own
+          institutions refuse it with full confidence; the keeper of songs
+          keeps counting alone, and at night begins to copy. Render the
+          walked past as other; the visitor cannot change it, and the
+          stratum spends. The figures here may be witnessed, never worn and
+          never named. Let the copying feel like fear and love doing the
+          same work.
+
+      - id: the-witness-circle
+        title: "The Witness Circle"
+        when: "the walk re-entered · the burn counted from above"
+        chapters: [chapter-6]
+        inhabit: [isla, pim, amel, hask]
+        frame: >
+          The frame during the re-entered walk: the vote taken in minutes,
+          Kova under again, and the opened stratum burning on its own clock
+          below. Isla holds the circle; Pim watches the join like a wire;
+          Amel transcribes what rises; Hask counts what it costs. Nobody in
+          this room sees what she sees. Held breath, all the way down the
+          page.
+
+      - id: carriers-custody
+        title: "Carrier's Custody"
+        when: "after the third session · the verdict on the thread"
+        chapters: [chapter-7]
+        inhabit: [kova, isla]
+        frame: >
+          The stratum spent, the transcript clean as far as testing can say
+          — and the thread that stayed: Kova now remembers one morning that
+          was never hers. The team's ethics meet their first hard case, and
+          the old answer holds: a carrier is custody, not contamination.
+          Quiet, careful, and kinder than anyone expected to need to be.
+
+      - id: between-sessions
+        title: "Between Sessions"
+        when: "the deep-walk season · an off-day at the camp"
+        chapters: []
+        inhabit: [isla, amel]
+        frame: >
+          An off-day between descents: instruments cased, laundry strung on
+          the witness posts, Amel copying pages fair while the weather
+          crosses the shaft head. The store below keeps its silence; the
+          camp keeps its small economies. Nothing happens here, which after
+          this season is its own event. (Reachable from the sky, not tied to
+          a chapter.)
