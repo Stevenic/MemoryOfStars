@@ -51,7 +51,7 @@ Only one candle burned in the kitchen. Breakfast waited on the table. Bread. Che
 
 The words lingered between them longer than Lyra intended. Mara smiled, but only with one corner of her mouth.
 
-“You should eat.”
+Mara slid the plate closer, her eyes on Lyra and not on it. “You should eat.”
 
 “I’m not hungry.”
 
@@ -73,7 +73,7 @@ Around Mara’s neck hung the dark metal ring she wore every day. Her father’s
 
 At least…
 
-That was what Lyra had always believed. She looked away before the thought could grow.
+That was what Lyra had always believed. Her eyes caught on it, then went to the candle before the thought could grow.
 
 “Did you sleep?” Mara asked.
 
@@ -121,7 +121,7 @@ Neither of them moved toward the door. At last Mara reached up and adjusted Lyra
 
 “Good.”
 
-Mara lowered her hands. For an instant she looked strangely uncertain, as though she had forgotten something she had always meant to say. Then she touched two fingers to her heart. Lyra mirrored the gesture.
+Mara lowered her hands. For a moment they hung empty at her sides, as though she had forgotten something she had always meant to say. Then she touched two fingers to her heart. Lyra mirrored the gesture.
 
 “Come home carrying more people than yourself.”
 
@@ -153,7 +153,7 @@ The eastern square was crowded, but almost silent. Forty-two Pilgrims gathered b
 
 Tomas stood beside the fountain. Three packs rested beside him.
 
-Lyra frowned. “Planning to climb the mountain several times?”
+Lyra looked the packs over. “Planning to climb the mountain several times?”
 
 “Only one is mine.”
 
@@ -165,7 +165,7 @@ Lyra frowned. “Planning to climb the mountain several times?”
 
 “I don’t know.”
 
-She blinked. “You don’t know?”
+She turned to face him fully. “You don’t know?”
 
 “A woman asked me to.”
 
@@ -221,7 +221,7 @@ He glanced toward the arch. “Forty-two Pilgrims.”
 
 “What?”
 
-His eyes narrowed. “One moment.”
+His eyes went back to the arch and started over. “One moment.”
 
 The second bell rang. Conversations faded.
 
@@ -281,7 +281,7 @@ Finally Seren nodded once. “You understand the risk.”
 
 “I’ve forgotten it.”
 
-For the first time, Seren looked uncertain. Then he stepped aside. “Very well.”
+For the first time, it was Seren who looked away. Then he stepped aside. “Very well.”
 
 Elias walked past the guides. Not toward them. Toward the Pilgrims.
 
@@ -339,7 +339,7 @@ Lyra finally caught up beside him. “Why are you really here?”
 
 She touched the pocket holding the bird. “Did you come because of this?”
 
-His eyes shifted briefly toward her coat. “No.”
+His eyes went to the pocket, not the coat, and came back to the road. “No.”
 
 They walked three steps in silence. He sighed. “…Perhaps.”
 
@@ -369,7 +369,7 @@ The old man looked toward the trees. “I remember him carrying it.”
 
 Her heartbeat quickened. “My father?”
 
-Elias closed his eyes. For one impossible moment it looked as though the answer stood directly in front of him. Then it slipped away. “I don’t know.”
+Elias stopped. He went entirely still, as though the answer stood directly in front of him. Then it slipped away. “I don’t know.”
 
 “You keep saying that.”
 
@@ -397,7 +397,7 @@ Darkness settled quickly. One by one the Pilgrims crawled beneath their blankets
 
 Beside her, Tomas suddenly sat upright. “Forty-three.”
 
-Lyra frowned. “What?”
+Lyra came up on one elbow. “What?”
 
 “Bedrolls.”
 
@@ -443,7 +443,7 @@ Elias stared at the bedroll. His lips parted around a name that did not arrive.
 
 “I…”
 
-Seren approached. His eyes settled on the empty place. Unlike everyone else, he did not seem surprised.
+Seren approached. His eyes settled on the empty place and did not search it.
 
 “Wake the guides.”
 
@@ -467,7 +467,7 @@ He looked at Elias. The old caretaker’s hands were trembling.
 
 “I…” His eyes never left the empty bedroll. “I know…” The words died.
 
-Seren nodded once. “Count again.”
+Seren turned away from him. “Count again.”
 
 They did. Forty-two bedrolls. The extra one was gone. So was the pack. No flattened grass remained. No mark where it had rested. Nothing.
 

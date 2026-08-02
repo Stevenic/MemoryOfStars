@@ -73,9 +73,9 @@ He could not make out the face. Only the feeling that he had known it once. Know
 
 He reached toward it. The chair was empty again. Only one remained.
 
-Elias stood there for a long while. Finally he nodded. “I understand.”
+Elias stood there for a long while, his hand still out. Finally he let it fall. “I understand.”
 
-He turned and walked toward the entrance. Halfway to the door, he paused. A strange thought settled over him.
+He turned and walked toward the entrance. Halfway to the door, he paused. Something made him look back — to the chair, then to the space across from it.
 
 Not that someone had been in the room.
 

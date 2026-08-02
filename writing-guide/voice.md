@@ -103,6 +103,40 @@ If two speakers share one clipped wit, no amount of tagging will save the exchan
   data. Mara — warm, teasing, guarded. Elias — gentle riddles, *"I keep meaning it."*
   Seren — spare, careful, withholding. (Full cast notes live per book in `audio.yml`.)
 
+### The choreography layer — gesture is dialogue *(added from beta-reader feedback, 2026-08)*
+
+An attached beat that only attributes — *Kieran blinked* — keeps the speakers sorted; it
+does not make them **present to each other**. The layer that separates a conversation
+from a transcript is choreography: eyes and bodies conducting the exchange alongside the
+words. Two people can walk and talk for a page, but if they never look at each other with
+meaning, the scene has sound and no eyes.
+
+- **Gaze has a vector — write the sequence.** Not *she looked at him*, but where the eyes
+  travel and in what order, because the order is the intent: asking to see what someone
+  carries, *she glanced at the pocket, then came up and held his eyes while she asked.*
+  The glance names the thing; the eyes make it a request between people.
+- **A look is a full conversational turn.** Let the body answer before the mouth, instead
+  of it, or against it — a nod that concedes the point so the spoken line can change the
+  subject; eyes that go to the door while the voice says *of course*. When body and line
+  disagree, the body is telling the truth. That is subtext, bought for one sentence.
+- **Micro-gestures carry what the prose won't name** (§6's law at conversation scale):
+  the inside of a cheek chewed, a thumb worrying a strap-seam, a cup turned a
+  quarter-turn, a smile held one beat past its life. Draw from each character's
+  established repertoire — Tomas aligns and counts things; Mara's hands stay busy while
+  her eyes don't; Lyra leans in; Elias goes still.
+- **Ration it like salt.** One choreographed exchange per *beat* of a scene, not per
+  line — most lines still ride on rhythm alone. Never the same gesture twice in a scene.
+  A gesture must change the meaning of the line it rides; if cutting it changes nothing,
+  cut it. Tic-spam — perpetual nodding, eyebrow theater — is worse than flatness.
+- **Hooks go in the hands.** Foreshadowing obeys the same law: a hook planted by narrator
+  emphasis reads blunt and flat at once. Plant it in behavior — an object given
+  wrong-weighted attention, a glance that snags on something and moves on, a question
+  answered a half-beat late. The camera must not know it is foreshadowing; only the
+  hands may know.
+- **The blocking test:** could two actors stage the scene from the prose alone — who
+  looks at whom, when, and what each look means? If every look is "at each other" and
+  every beat is attribution, revise.
+
 ## 4. Rendering the uncanny — flatly
 
 Supernatural and cosmic beats are **underplayed**. No exclamation, no melodrama, no
@@ -188,13 +222,16 @@ came before. The gut-punch is a *plain* sentence, not a flourish.
 
 **Do:** flowing paragraphs by default · the single-line drop saved for real emphasis ·
 plain, concrete diction · tactile nouns (winterleaf, resin, wet spoon) · define by negation ·
-underplay the impossible · action beats attached to dialogue · land chapters on a quiet blow.
+underplay the impossible · action beats attached to dialogue · gaze written as a sequence
+with intent · a look allowed to be a full reply · land chapters on a quiet blow.
 
 **Avoid:** **every line dropped onto its own line** (the whole page as a list — the
-monotony trap) · isolating every dialogue utterance · purple/ornate description ·
-adverb-laden tags (*"she said nervously"*) · explaining the mystery or the emotion ·
-melodramatic reactions to the supernatural · rhetorical questions from the narrator ·
-modern/anachronistic idiom · drifting the canonical litany phrases.
+monotony trap) · isolating every dialogue utterance · beats that only attribute
+(blink-and-nod wallpaper — speakers who never *see* each other) · the same gesture twice
+in a scene · purple/ornate description · adverb-laden tags (*"she said nervously"*) ·
+explaining the mystery or the emotion · melodramatic reactions to the supernatural ·
+rhetorical questions from the narrator · foreshadowing by narrator emphasis (hooks go in
+the hands) · modern/anachronistic idiom · drifting the canonical litany phrases.
 
 ## 30-second self-check
 
@@ -205,5 +242,9 @@ modern/anachronistic idiom · drifting the canonical litany phrases.
 - [ ] Are supernatural beats stated flatly, with dread built by repetition/counting?
 - [ ] Are recurring phrases/gestures reproduced verbatim?
 - [ ] Is the emotion shown obliquely, not named?
+- [ ] Do the speakers **see each other** — at least one gaze-vector or nonverbal turn per
+      scene, no gesture repeated, and no beat that merely attributes where a look could mean?
+- [ ] Are hooks planted **in behavior** (an object handled, a glance that snags), never by
+      narrator emphasis?
 - [ ] Does the section end on a short, resonant line?
 - [ ] Does it earn one moment of wonder ([Law 7](../series-bible/seven-laws.md#law-7--wonder-comes-first))?

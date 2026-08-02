@@ -55,7 +55,7 @@ Downstairs, Mara was kneading bread with more force than the dough deserved. The
 
 “I also say people should come downstairs when called.”
 
-Mara wiped flour from her hands onto her apron and looked at her. She looked a little too long. Lyra pretended not to notice.
+Mara wiped flour from her hands onto her apron and looked at her. Her hands drifted back to the dough. Her eyes stayed where they were. Lyra pretended not to notice.
 
 “What?”
 
@@ -83,7 +83,7 @@ Mara’s hands stopped. Only for an instant. Then she folded the dough again. �
 
 “Then why does everyone act as though we’re dying?”
 
-Mara gave a small laugh, but it arrived too late. “No one thinks you’re dying.”
+Mara pressed the dough flat before she laughed. “No one thinks you’re dying.”
 
 “Master Rian cried when I bought lamp oil yesterday,” Lyra said. “He held both my hands. Told me I’d always be welcome in his shop.”
 
@@ -147,7 +147,7 @@ Lyra frowned. “That doesn’t make sense.”
 
 “Was everything the same?”
 
-Mara’s expression softened. “Nothing is.”
+Mara’s shoulders came down. “Nothing is.”
 
 Before Lyra could ask more, someone struck the front door three times in quick succession. Mara glanced toward it. “That will be Tomas.”
 
@@ -217,9 +217,9 @@ Mara released her. “Come home before sunset.”
 
 “I know.”
 
-Again, that strange look. As if Mara were trying to memorize her.
+Again, that look. Mara’s eyes traveled her face — hairline, brow, mouth — slowly and in order, like someone packing a bag for a long journey.
 
-Lyra leaned forward and kissed her cheek. “I’m only going to the Hall.”
+Lyra kissed her cheek. “I’m only going to the Hall.”
 
 Mara managed a smile. “For now.”
 
@@ -363,7 +363,7 @@ Its walls caught no reflection from the morning sun. Above the entrance, thousan
 
 Every citizen of Orin was recorded there. The living. The dead. Those who had left. Those who had returned.
 
-Tomas stopped beside Lyra. Despite all his theories, he grew quiet.
+Tomas stopped beside Lyra. His gaze went up the carved lines, and up, and for once he counted nothing.
 
 The doors were already open. A crowd had gathered inside. Parents stood beside Pilgrims. Younger siblings darted between adults. Clerks in gray robes moved through the hall carrying tablets and lengths of silver cord.
 
@@ -387,7 +387,7 @@ Lyra stopped. Tomas nearly walked into her.
 
 Tomas followed her gaze down the crowded hall. “There’s no one there.”
 
-“I know,” Lyra said. That was what unsettled her.
+“I know,” Lyra said. Her eyes returned anyway to the place where no one stood.
 
 They joined the line. Along the walls, names climbed from floor to ceiling.
 
@@ -401,11 +401,11 @@ Tomas noticed. “What are you looking for?”
 
 “Thank you.”
 
-The line moved forward. Elias turned. His eyes found Lyra immediately, and the conversation around him seemed to fade. He looked at her the way a man looks at a face he has spent years grieving. Then he caught himself — as though she were only a stranger who resembled someone — and the look was gone.
+The line moved forward. Elias turned. His eyes found Lyra and he went still, whatever he had been saying to the clerk left unfinished. He looked at her the way a man looks at a face he has spent years grieving. Then he caught himself — as though she were only a stranger who resembled someone — and the look was gone.
 
 Lyra touched the red bird in her pocket, though she did not remember putting it there.
 
-Elias looked at the shape beneath her hand. His face changed. “Where did you get that?” he asked.
+Elias’s eyes went to the shape beneath her hand. Then they came up and held hers. “Where did you get that?” he asked.
 
 The question carried across the hall. People turned.
 
@@ -417,7 +417,7 @@ The word was quiet. Certain.
 
 Lyra’s thumb found the chipped wing. She had answered questions about her father all her life with other people’s sentences. This was the first time anyone had refused one.
 
-Then his certainty vanished. He looked at the bird again. At Lyra. At the wall of names.
+Then the stillness went out of him. He looked at the bird again. At Lyra. At the wall of names.
 
 “I’m sorry,” he said. “Of course he did.”
 

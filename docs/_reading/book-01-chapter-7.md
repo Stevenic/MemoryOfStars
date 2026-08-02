@@ -58,15 +58,15 @@ Seren nodded once. “Cross alone.”
 
 Cor went first. He was the youngest Pilgrim after Lyra, barely sixteen, quiet enough that people often forgot he was nearby.
 
-He approached the threshold cautiously. The broken moon reflected in his eyes. Then his face changed.
+He approached the threshold cautiously. The broken moon reflected in his eyes.
 
 “Papa?” The word escaped him like a child’s.
 
-His shoulders relaxed. Tears filled his eyes. He smiled. A smile so complete that Lyra felt her own heart ache.
+His shoulders relaxed. Tears filled his eyes. He smiled. A smile so complete that Lyra turned to see what it had done to Seren.
 
-“My father…” he whispered. “He came back.”
+“My father…” Cor whispered. “He came back.”
 
-Seren closed his eyes. “Go, if you choose.”
+Seren’s eyes were already closed. “Go, if you choose.”
 
 Cor stepped through. The darkness folded around him.
 
@@ -112,7 +112,7 @@ Others crossed. A woman emerged remembering children she had never borne. A man 
 
 No two stories matched.
 
-Seren asked no questions. He merely watched.
+Seren asked no questions. He watched each crossing, and between them his eyes went to Elias and moved on.
 
 <div class="scene-break" aria-hidden="true">⸻</div>
 
@@ -154,7 +154,7 @@ His certainty disappeared. “I don’t know.”
 
 He touched his forehead. “I’ve always known that name.”
 
-“No,” Seren said quietly. “You remembered it.”
+“No,” Seren said quietly. He was looking at Lyra, not Dain. “You remembered it.”
 
 <div class="scene-break" aria-hidden="true">⸻</div>
 
@@ -172,13 +172,13 @@ His voice had become distant. “I remember…” He stopped. The words would no
 
 “There was someone sitting beside me.”
 
-Seren closed his eyes. “I know.”
+Seren kept his eyes on the Gate. “I know.”
 
 Elias turned. “You knew?”
 
 “For thirty-two years.”
 
-The staff began to shake in his hand. “You watched me forget.”
+His knuckles whitened around the staff. “You watched me forget.”
 
 “Yes.”
 
@@ -212,7 +212,7 @@ Elias looked back toward the Gate. His breathing grew uneven. “I remember…�
 
 “No.”
 
-“…someone laughing.” Tears filled his eyes. “I almost have her.”
+“…someone laughing.” His voice was wet. “I almost have her.”
 
 Seren stepped beside him. “If you force the memory…”
 
@@ -274,7 +274,7 @@ He looked back toward the empty chair. “I owe her one more step.”
 
 “I know.”
 
-The old man smiled sadly. “You always worry too much.”
+The old man smiled, and held it one beat too long. “You always worry too much.”
 
 He crossed the threshold. The Gate closed around him.
 
@@ -398,7 +398,7 @@ Seren looked at Lyra. “If you cross now…” He stopped.
 
 “I don’t know if the person who returns will still be only you.”
 
-Lyra looked toward Tomas. He had gone very white. Not for himself. For her.
+Lyra looked toward Tomas. He had gone very white. His eyes were not on the Gate. They were on her.
 
 “I can’t tell you what to do,” he said quietly. “I don’t have any evidence.”
 
@@ -406,9 +406,7 @@ She almost laughed. Even now.
 
 He shook his head. “I only know…” He swallowed. “…that I believe you.”
 
-Three simple words. No notebook. No proof. Only trust.
-
-Lyra realized that was enough.
+No notebook. No proof.
 
 She squeezed his hand once. Then released it.
 

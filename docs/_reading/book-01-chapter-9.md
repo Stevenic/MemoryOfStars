@@ -61,13 +61,13 @@ Elias struck him across the face. The sound startled everyone. Seren did not rel
 
 “You have no right to stop me.”
 
-Seren’s expression changed. Not anger. Surrender. “You gave me the right.”
+Seren made no move to wipe the blood away. Not anger. Surrender. “You gave me the right.”
 
 Elias went still. Snow crossed the plateau in thin white lines. The storm boundary had broken. Wind moved freely around the Gate, pulling at coats and silver cords.
 
 “What did I ask you to do?” Elias said.
 
-Seren looked toward the empty chair. “To keep you from sitting.”
+Seren looked toward the empty chair, then back at Elias. “To keep you from sitting.”
 
 The red bird lay on the stone between them and the threshold. Its carved lines burned through the paint.
 
@@ -89,7 +89,7 @@ Seren removed his gloves. Pale scars crossed both palms. Circles. Lines. The sam
 
 “I crossed this Gate when I was seventeen,” he said.
 
-Nalia closed her eyes. She knew what came next.
+Nalia closed her eyes.
 
 The Pilgrims gathered near the ridge turned back toward him. Even Cor, still holding Anet’s hand, listened.
 
@@ -111,7 +111,7 @@ Seren’s voice had become flat. A voice worn smooth by repetition. “He became
 
 Tomas understood first. “And you?”
 
-Seren looked at him. “I became less.”
+Seren looked at him. Then, briefly, at Lyra. “I became less.”
 
 The wind sharpened.
 
@@ -121,7 +121,7 @@ No one moved.
 
 “He knew our parents better than I did. He carried grief I had once felt. He remembered loving people whose faces I no longer recognized.”
 
-Seren looked toward the empty chair. “The Gate had not copied my brother.”
+Seren turned his face from the chair. “The Gate had not copied my brother.”
 
 His next breath broke. “It had moved him.”
 
@@ -163,7 +163,7 @@ Elias said nothing.
 
 Seren swallowed. “You chose to.”
 
-Elias looked toward Sael. “She was already disappearing.”
+Elias looked past him, toward Sael. “She was already disappearing.”
 
 “Yes.”
 
@@ -193,7 +193,7 @@ Elias took one step toward the Gate. Seren did not stop him.
 
 “What if we were wrong?” Elias asked.
 
-Seren’s expression collapsed. “Then I have denied you thirty-two years.”
+Seren held his eyes. “Then I have denied you thirty-two years.”
 
 “And if we were right?”
 
@@ -283,7 +283,7 @@ The Gate offered her the memory of remembering it. She had been small. Her feet 
 
 “Why did you give it to me?” she asked.
 
-His face softened. “Sit with me.”
+He turned a hand toward the space behind him. “Sit with me.”
 
 Behind him stood two chairs. One occupied. One empty.
 
@@ -417,7 +417,7 @@ She turned toward the Pilgrims. “Take someone’s hand.”
 
 The wind swallowed the words.
 
-Tomas understood. He took hers. With his other hand, he reached for Dain. Dain took Ressa’s. Ressa took the hand of the woman who remembered children she had never borne.
+Tomas took hers anyway. With his other hand, he reached for Dain. Dain took Ressa’s. Ressa took the hand of the woman who remembered children she had never borne.
 
 The line spread.
 
@@ -433,7 +433,7 @@ Anet closed her eyes.
 
 The guides joined next. Nalia took Seren’s scarred hand. He tried to pull away. She held tighter. Torren joined her. Master En took Beren’s hand beyond the silver cord.
 
-Forty-two Pilgrims. Six guides. Elias.
+Tomas’s lips moved, counting. Forty-two Pilgrims. Six guides. Elias.
 
 Forty-nine travelers joined beneath the snow.
 
@@ -445,7 +445,7 @@ The Gate trembled. The red bird remained on the empty chair.
 
 “What now?” Tomas asked.
 
-Lyra looked at the line of travelers. “Remember something small.”
+Lyra looked down the line, watching faces. “Remember something small.”
 
 No one spoke. The request seemed too ordinary for the mountain.
 
@@ -539,13 +539,13 @@ Sael smiled in return. “I do.”
 
 “Sometimes.”
 
-“You painted your hand more than the bird.”
+His eyes dropped to her hands. “You painted your hand more than the bird.”
 
 “I remember.”
 
-His joy became grief. “No,” he said.
+His smile held on a beat too long. “No,” he said.
 
-Sael’s expression changed.
+Sael’s smile faded with his.
 
 Elias looked back at Seren. Then at Lyra. “She remembers everything I gave the chair.”
 
@@ -599,7 +599,7 @@ Elias did not sit.
 
 He joined the chain beside Seren. For a moment, neither man reached for the other.
 
-Then Elias held out his hand. Seren looked at it. “You may not forgive me,” he said.
+Then Elias held out his hand. Seren looked at the hand, then at Elias’s face. “You may not forgive me,” he said.
 
 “No.”
 
@@ -659,7 +659,7 @@ Cor released Anet’s hand. Then immediately took it again. “I don’t remembe
 
 “You cried harder than I did.”
 
-He studied her. “Were you angry?”
+His eyes went to her wrist, then came back up. “Were you angry?”
 
 “For three years.”
 

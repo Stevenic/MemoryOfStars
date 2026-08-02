@@ -7,7 +7,7 @@ the-first-pilgrim:
   default: false
 - id: revised
   label: Revised
-  note: Dialogue, emotion and rhythm pass.
+  note: Dialogue, emotion and rhythm pass; choreography pass (beta-reader feedback).
   default: true
 the-archivist:
 - id: original

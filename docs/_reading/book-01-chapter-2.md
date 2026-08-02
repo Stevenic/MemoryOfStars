@@ -41,7 +41,7 @@ Lyra smiled. “How many?”
 
 “There are at least eleven.”
 
-He produced a folded notebook from his satchel and flipped to a fresh page. “Mystery one, he recognized the bird. Mystery two, he corrected himself almost immediately.” He wrote as he spoke, in remarkably tiny handwriting. “Mystery three.” He looked up. “Whatever frightened him wasn’t the bird.”
+He produced a folded notebook from his satchel and flipped to a fresh page. “Mystery one, he recognized the bird. Mystery two, he corrected himself almost immediately.” He wrote as he spoke, in remarkably tiny handwriting. “Mystery three.” He looked up and waited until she looked back. “Whatever frightened him wasn’t the bird.”
 
 Lyra looked toward the far end of the hall, where Elias stood speaking with a clerk as though nothing in the world had recently refused to make sense. “What was it, then?”
 
@@ -73,7 +73,7 @@ The rules had remained unchanged for generations. No one seemed to know why.
 
 When Lyra reached the table, the eldest clerk smiled kindly. “Lyra Ash.” She confirmed her age, her household, her health, while the clerk marked each answer with a charcoal stylus, and none of it felt like a morning that would matter.
 
-Then the clerk set the stylus down and looked up. “You understand that the Pilgrimage is voluntary.”
+Then the clerk set the stylus down and looked up — at her, not at the record of her. “You understand that the Pilgrimage is voluntary.”
 
 Every Pilgrim received the same question. Everyone already knew the answer. Still, the clerk waited — properly waited, hands folded — as though the question were being asked for the first time in the history of the world.
 
@@ -105,7 +105,7 @@ Outside, Tomas waited beneath a maple tree. “How long did they question you?�
 
 “They should appreciate thoroughness.”
 
-“They do not.”
+“They do not,” she said, watching his face.
 
 He sighed. “They rarely do.”
 
@@ -127,7 +127,7 @@ Lyra waited. It seemed the sort of sentence that deserved an explanation.
 
 None came.
 
-Instead Elias looked toward the red bird still tucked into her coat pocket. “May I?”
+Instead Elias glanced at her coat pocket, where the red bird was tucked. Then his eyes rose to hers, and waited. “May I?”
 
 She handed it to him. He turned it carefully in his hands. His thumb paused over the chipped wing.
 
@@ -137,15 +137,15 @@ She handed it to him. He turned it carefully in his hands. His thumb paused over
 
 “So you said.”
 
-He turned the bird over once more. Whatever he had been looking for, he did not find it, and his shoulders came down half an inch. “He did good work.” He returned the bird. “Take good care of it.”
+He turned the bird over once more, slower than the first time, and his shoulders came down half an inch. “He did good work.” He returned the bird. “Take good care of it.”
 
 “I always have.”
 
 “I know.”
 
-Again there was that strange hesitation. As though he had almost said something else.
+Again Elias went still, like a man stopped halfway through a sentence.
 
-Tomas watched the exchange with open fascination. “Elias?”
+Tomas had given up pretending not to watch. “Elias?”
 
 The old man turned. “Yes?”
 
@@ -175,7 +175,7 @@ Elias stared at it. For several seconds he said nothing. Then he took the compas
 
 “So she did.”
 
-Elias carefully wound the compass once. The needle trembled. For an instant it pointed—not north—but toward the mountain. Then it spun aimlessly again.
+Elias tapped the cracked glass once, gently. The needle trembled. For an instant it pointed—not north—but toward the mountain. Then it spun aimlessly again.
 
 “Strange,” Elias murmured.
 
@@ -187,7 +187,7 @@ Tomas opened his mouth. Closed it again. Even he seemed unsure how to respond.
 
 <div class="scene-break" aria-hidden="true">⸻</div>
 
-They left the Hall just before noon. Neither of them mentioned the compass. It rode in Tomas’s satchel like a small, quiet argument against everything they knew. The market had grown crowded. Pilgrims moved through the streets wearing fresh silver threads around their wrists, easy to recognize even without them. Shopkeepers called them by name. Neighbors offered small gifts. A baker pressed warm rolls into Tomas’s hands despite his protests. A florist tucked another white blossom behind Lyra’s ear.
+They left the Hall just before noon. Neither of them mentioned the compass. Twice, Tomas’s hand went to the satchel flap and came away without opening it. The market had grown crowded. Pilgrims moved through the streets wearing fresh silver threads around their wrists, easy to recognize even without them. Shopkeepers called them by name. Neighbors offered small gifts. A baker pressed warm rolls into Tomas’s hands despite his protests. A florist tucked another white blossom behind Lyra’s ear.
 
 An elderly man she’d never met clasped her shoulders and said, “Carry us well.” Before she could ask what he meant, he had already disappeared into the crowd.
 
@@ -259,7 +259,7 @@ Whenever a conversation approached the summit, it drifted elsewhere. Not abruptl
 
 “What if they just can’t explain it?” she asked.
 
-Tomas considered. “That,” he admitted, “is possible.”
+Tomas looked from the diagram to the mountain. “That,” he admitted, “is possible.”
 
 It was the closest thing to surrender she had ever heard from him.
 
@@ -287,7 +287,7 @@ She smiled. “Thank you.”
 
 “For saying it like you believe it.”
 
-Tomas looked confused. “I do believe it.”
+Tomas turned from the city to her. “I do believe it.”
 
 “I know.”
 
@@ -295,7 +295,7 @@ They sat together in comfortable silence.
 
 Then, from the eastern tower, the evening bells began.
 
-Tomas took the compass out and set it on the warm stone between them. Through the first bell the needle wandered, lazy as ever. Through the second. Through the third. On the last it drifted — unhurried, as though it had all the time in the world — until it pointed at the mountain.
+Tomas took the compass out and set it on the warm stone between them, turning it until the dial’s north faced north. Through the first bell the needle wandered, lazy as ever. Through the second. Through the third. On the last it drifted — unhurried, as though it had all the time in the world — until it pointed at the mountain.
 
 It stayed there, trembling faintly, for as long as the final note hung in the air.
 

@@ -82,6 +82,23 @@ From `seven-laws.md`. It's a per-novella gate; for a single chapter, assess its 
 - Emotion **in the body, never named** — hunt the banned templates (voice.md §6): *"[emotion] crossed/filled/entered his face"*; *"[emotion] rose/arrived/came"* with the feeling as agent; labeled triplets (*"Recognition. Affection. Loss."*); and the narrator frames *"The answer came too quickly/instantly/immediately"* and cousins (*"satisfied no one" / "settled slowly" / "ended the conversation"*).
 - Section **lands on a short, resonant line**.
 
+### The Sarah pass  *(severity: Craft)* — the beta reader's lens, applied every critique
+Named for the series' first beta reader; sourced from her actual findings (2026-08, Books
+1–2 prose). **Add her future notes here — this section accretes.**
+- **Presence check:** do the speakers *see each other*? A conversation can be
+  line-perfect and still 2D if nobody looks at anyone with meaning — no gaze vectors, no
+  nonverbal turns, beats that only attribute. Apply voice.md §3's **choreography layer**:
+  at least one meaningful look or gesture-as-reply per scene beat; flag both absence
+  *and* tic-spam (the overcorrection — perpetual nodding, eyebrow theater).
+- **Gesture intent:** where a gesture is *mentioned or alluded to* rather than rendered
+  ("she gestured at the door"), flag it — render the vector and the intent, or cut it.
+- **Prop realism:** would this object actually behave that way, be operated that way?
+  (The founding instance: *"do you wind a compass?"* — you don't; watches wind,
+  compasses are tapped.) Hunt physical-action errors on props, tools, and hands.
+- **Hook temperature:** foreshadowing that is *blunt and flat at once* = narrator
+  emphasis without embodiment. Hooks go in the hands (voice.md §3): an object given
+  wrong-weighted attention, a glance that snags — never the camera underlining itself.
+
 ### D. Style & mechanics  *(severity: Nit)* — from `style-guide.md`
 - POV (3rd-limited, Lyra) and tense (past) consistent; no head-hopping within a scene.
 - Scene break is a lone `⸻` (or intentional continuous flow); chapter-heading format correct.

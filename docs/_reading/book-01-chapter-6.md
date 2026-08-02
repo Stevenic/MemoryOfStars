@@ -54,7 +54,7 @@ Seren stepped between the rocks. “The path is here.”
 
 Tomas looked toward the trees. “What happened to the other one?”
 
-Seren did not answer.
+Seren did not answer. He had not looked at the trees once.
 
 One by one, the Pilgrims followed him into the gap.
 
@@ -86,7 +86,7 @@ Ahead, Tomas walked with one hand pressed against the notebook beneath his coat.
 
 “Twenty-two.”
 
-“That was not my point.”
+Lyra glanced at his hands. “That was not my point.”
 
 Tomas stopped long enough to retrieve his flask. His fingers trembled. He drank. Then opened the notebook.
 
@@ -114,7 +114,7 @@ A gust of wind pushed them toward the mountain wall. Tomas waited until it passe
 
 “She would tell me a story from before I was born and insist I had been there. She remembered my father dying in three different winters.”
 
-Lyra said nothing.
+Lyra put her eyes back on the trail and said nothing.
 
 “She would ask whether she had already told me she loved me that day.”
 
@@ -194,7 +194,7 @@ He gripped it. The group pulled him upright. They continued across.
 
 Lyra looked back at the ring as it disappeared behind them. Someone had placed it there. Someone had known where a falling person would need to reach.
 
-Tomas watched her. “You couldn’t see it.”
+When she turned, Tomas was already watching her. “You couldn’t see it.”
 
 “No.”
 
@@ -234,7 +234,7 @@ Elias sat near the mouth of the shelter, staring into the wind.
 
 “What did you say?”
 
-He blinked. “Nothing.”
+His eyes came back from the wind. “Nothing.”
 
 “You said Sael.”
 
@@ -246,7 +246,7 @@ Elias repeated the sound silently. His lips shaped it. “Sael.” The name seem
 
 “I don’t know.”
 
-Seren had gone still. Lyra saw it.
+Seren’s hands had gone still on the coil of rope in his lap. Lyra saw it.
 
 “You know the name.”
 
@@ -308,7 +308,7 @@ Seren looked around the shelter. “If I tell you what others saw, you may see t
 
 The word settled among them. Nothing protected Mara from forgetting the woman in blue. Nothing protected Elias from losing a person so completely that only the shape of absence remained.
 
-Seren’s expression softened. “Nothing protects you from remembering,” he said. “It only determines whether the memory belongs to you.”
+Seren’s eyes found Elias and stayed. “Nothing protects you from remembering,” he said. “It only determines whether the memory belongs to you.”
 
 Tomas looked down at his notebook. “And how are we supposed to know?”
 
@@ -332,7 +332,7 @@ Seren was awake near the entrance. His knife rested across his knees. Nalia crou
 
 The footsteps stopped directly above the shelter.
 
-Elias opened his eyes. His face changed. Not recognition. The pain just before recognition.
+Elias opened his eyes. Not recognition. The pain just before recognition.
 
 A voice spoke beyond the stone. Too faint to understand.
 
@@ -394,7 +394,7 @@ Then the light changed. The markings disappeared.
 
 Seren took one step toward her. Lyra closed her hand around the bird.
 
-“You recognize them.”
+His eyes did not leave her closed hand. “You recognize them.”
 
 “Yes.”
 
@@ -406,7 +406,7 @@ Seren took one step toward her. Lyra closed her hand around the bird.
 
 “Yes.”
 
-“Will you tell me what you do know?”
+Lyra watched his face while she asked it. “Will you tell me what you do know?”
 
 Seren looked toward the summit. “No.”
 
@@ -420,7 +420,7 @@ Elias passed beside her. “He is trying to protect you,” he said.
 
 “From what?”
 
-Elias looked ahead. “Himself, perhaps.”
+Elias’s eyes followed Seren up the trail. “Himself, perhaps.”
 
 <div class="scene-break" aria-hidden="true">⸻</div>
 
@@ -464,7 +464,7 @@ Lyra screamed. “Let it go!”
 
 Another piece of ice broke free. It disappeared into the storm.
 
-Tomas’s face broke. Not with fear of falling. With grief.
+Tomas’s face broke. His eyes were not on the drop. They were on the notebook.
 
 Lyra held his wrist with both hands. “Your mother is not in that book!”
 
@@ -498,7 +498,7 @@ The Gate was a single slab of black material taller than the Hall of Names. It r
 
 There was no wall around it. No structure. Only the impossible certainty that it separated one place from another.
 
-The Pilgrims stood at the edge of the plateau. Even Tomas looked up. For a moment, his grief gave way to wonder.
+The Pilgrims stood at the edge of the plateau. Even Tomas looked up. He did not try to measure it.
 
 Elias walked forward. His staff struck the stone. The sound did not echo.
 
@@ -588,7 +588,7 @@ He looked at her.
 
 Lyra tried to answer. Nothing came.
 
-Tomas reached instinctively for his notebook. His hand stopped at his coat. Empty. For once, he had no written proof that the word had ever existed.
+Tomas reached for his notebook. His hand stopped at his coat. Empty. For once, he had no written proof that the word had ever existed.
 
 The Gate opened wider. Beyond it was not darkness. It was a sky filled with unfamiliar stars.
 

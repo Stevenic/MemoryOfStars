@@ -52,7 +52,7 @@ Lyra glanced back at the children. The tallest one pointed. The smallest nodded.
 
 “It’s your bell.”
 
-“You’re the one who noticed.”
+“You’re the one who noticed.” Mara looked up at last — at the children, not at the bell.
 
 “That hardly seems fair.”
 
@@ -92,7 +92,7 @@ Six days. Then the climb.
 
 “Stop counting,” Mara said.
 
-Lyra looked at her. “I wasn’t.”
+Lyra turned. Her mother’s hands were still busy with the coins. Her eyes were not. “I wasn’t.”
 
 “You were.”
 
@@ -158,7 +158,7 @@ She thought of the way people had been looking at her all week. As though memori
 
 Lyra looked toward Master Rian. He had recovered his blue hat. It was now decorated with chalk handprints and a feather. He placed it carefully on his head.
 
-“Is that why you’re not frightened?” Lyra asked.
+Lyra’s eyes came back from the hat to her mother’s face. “Is that why you’re not frightened?”
 
 Mara’s hand paused above the coin box. “I didn’t say I wasn’t.”
 
@@ -214,13 +214,13 @@ He looked at Lyra. “You planned this.”
 
 “I appreciate skill.”
 
-Tomas hurried into the crowd. Mara watched him go. “You chose well.”
+Tomas hurried off. Mara’s eyes followed him until the crowd closed around him. “You chose well.”
 
 Lyra frowned. “What?”
 
 “For a friend.”
 
-The words were simple. Her mother’s expression was not.
+The words were simple. Lyra looked for the rest of them in her mother’s face and did not find it.
 
 Lyra began rearranging the winterleaf again. “He’ll be insufferable all the way up the mountain.”
 
@@ -254,7 +254,7 @@ Tomas adjusted his boots. “You know the younger ones are allowed to take short
 
 “The meaning is to reach the end.”
 
-“The meaning is to determine who is fastest.”
+Tomas was already counting the runners ahead of them. “The meaning is to determine who is fastest.”
 
 “That sounds like a theory.”
 
@@ -344,9 +344,7 @@ Elias frowned, as though the word had left him before he had chosen it. “I sup
 
 “I knew everyone.”
 
-The words hung between them. Elias seemed to hear them only after he had spoken.
-
-He looked toward the Hall. “Everyone in Orin,” he added.
+Elias’s eyes slid to the Hall before hers could find his face. “Everyone in Orin,” he added.
 
 Lyra followed his gaze. The carved names covered the black walls.
 
@@ -360,7 +358,7 @@ He smiled. It was not a happy smile. “I hope so.”
 
 A group of children ran past carrying the stolen brass bell from Mara’s stall. It rang wildly.
 
-Elias turned at the sound. For an instant, his face went pale.
+Elias turned at the sound and went still.
 
 “What is it?” Lyra asked.
 
@@ -370,7 +368,7 @@ He looked around the square. “No.”
 
 “I thought—”
 
-The bell rang again. Elias stared toward the crowd. Then whatever he had heard or expected was gone.
+The bell rang again. Elias tracked the sound through the crowd until it was only a bell.
 
 “Nothing,” he said. “An old habit.”
 
@@ -410,7 +408,7 @@ More glanced at Tomas. He ignored them.
 
 “You have been told what the road demands.”
 
-Lyra looked toward Mara. Her mother’s expression had become unreadable.
+Lyra looked toward Mara. Her mother was watching Seren, her hands holding nothing.
 
 Seren lifted one of the slates. “Tonight, you will write the last thing you wish to carry as a child.”
 
@@ -492,13 +490,13 @@ He looked at the fragment. “I miscalculated.”
 
 “Throw it.”
 
-He hesitated. Then cast it after the first.
+His thumb crossed the broken edge once. Then he cast it after the first.
 
 Lyra stepped forward. She raised her slate.
 
 For a moment, she could not move. If she broke it, the words would disappear. If she kept it, everyone would know.
 
-Mara stood among the crowd. She touched two fingers to her heart.
+Mara stood among the crowd, already watching her. She touched two fingers to her heart.
 
 The farewell gesture.
 
@@ -542,7 +540,7 @@ Mara tightened the knot.
 
 “Well?”
 
-Her mother looked at her. The Festival continued around them, but the sound seemed to move farther away.
+Her mother’s eyes came up from the knot and held hers. The Festival continued around them, but the sound seemed to move farther away.
 
 “Come home carrying more people than yourself,” Mara said.
 
@@ -550,7 +548,7 @@ Lyra had heard the phrase before. Everyone had. It belonged to the Pilgrimage. B
 
 “Who said that to you?” Lyra asked.
 
-Mara’s expression changed. Only slightly.
+Mara’s eyes went somewhere over Lyra’s shoulder. Only briefly.
 
 “My mother, I think.”
 
@@ -566,7 +564,7 @@ A bell rang from somewhere in the Festival. A small brass sound. Mara turned sha
 
 For one impossible instant, Lyra thought someone stood behind her mother. A woman dressed in blue. One hand resting on Mara’s shoulder.
 
-Then the dancers crossed between them. The woman disappeared. Mara blinked.
+Then the dancers crossed between them. The woman disappeared. Mara’s hand rose to her shoulder.
 
 “What is it?” Lyra asked.
 

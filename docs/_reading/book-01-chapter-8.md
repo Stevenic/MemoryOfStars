@@ -50,7 +50,7 @@ The name crossed the plain. One of the silver towers in the distance went dark.
 
 Sael looked toward it. “Do not say my name again.”
 
-Elias stared at her. “You told me not to let them erase you.”
+Elias’s eyes came back from the dark tower. “You told me not to let them erase you.”
 
 “I told you to remember that someone had been erased.”
 
@@ -84,7 +84,7 @@ Elias stepped closer. “You are Amarin.”
 
 “You came when the western cities began losing names.”
 
-“I’ve never seen this place.”
+Lyra closed her fist over the scarred thumb. “I’ve never seen this place.”
 
 “You lived here.”
 
@@ -118,7 +118,7 @@ Another tower went dark.
 
 “What are they?” Lyra asked.
 
-Sael hesitated. It was the first uncertain movement Lyra had seen from her. “We called them anchors.”
+Sael did not answer at once. Lyra had not seen her wait for anything before. “We called them anchors.”
 
 “What did they hold?”
 
@@ -147,6 +147,8 @@ Sael’s face existed here. Lyra saw it. Then forgot it. Not gradually. The memo
 Mara lifted the bird. “One wing is larger.”
 
 “That was Elias,” Sael said.
+
+Elias did not look up from the wing.
 
 “You told me symmetry would make it easier to identify.”
 
@@ -320,7 +322,7 @@ Sael turned back to her. “No one is. The Gate does not choose people. It encou
 
 “Then what is Amarin?”
 
-Young Elias looked at Sael. He had been waiting for the same answer.
+Young Elias’s eyes were on Sael before the question ended.
 
 The wind stopped. The grass remained bent.
 
@@ -420,7 +422,7 @@ Mara carried the farewell. Elias carried grief. Seren carried fear. The bird car
 
 Sael looked at her. “I don’t know.”
 
-The answer was either true or the kind of truth designed to protect them both. Lyra could no longer tell.
+The answer was either true or the kind of truth designed to protect them both. Lyra watched for the difference. There was no face to show it.
 
 “Why am I receiving these memories?”
 
@@ -530,7 +532,7 @@ Sael’s absent face remained unreadable. “I asked you to.”
 
 “I have forgotten why.”
 
-He touched the chair. The white chamber convulsed. Memories burst into the air.
+He went still. Then he touched the chair. The white chamber convulsed. Memories burst into the air.
 
 Sael laughing beside a river. Sael asleep over a table. Sael biting into a pear and immediately spitting it out. Sael covering her left hand in red paint. Sael standing in a storm while insisting she was not afraid. Sael holding Elias’s face between her palms. Sael saying his name.
 
@@ -558,7 +560,7 @@ Lyra saw the change first in his eyes. The joy remained. Everything around it lo
 
 “Elias,” she said.
 
-He looked toward her. Confusion appeared. “Do I know you?”
+He looked toward her. His eyes moved across her face and found nothing to hold. “Do I know you?”
 
 Lyra’s breath stopped. “You walked with me from Orin.”
 
@@ -608,7 +610,7 @@ Sael moved toward the chair. Lyra blocked her. “Get him out.”
 
 “Then stop it.”
 
-Sael looked at Elias. For the first time, her composure failed. Her shoulders folded inward.
+Sael looked at Elias. Her shoulders folded inward.
 
 He had remembered her. That was what she wanted. That was what she feared.
 
@@ -660,7 +662,7 @@ Lyra saw her face. This time, she remembered it. That frightened her most.
 
 The Gate had made the path complete.
 
-On the mountain, Seren stopped struggling. He stared through the opening. He understood.
+On the mountain, Seren stopped struggling. He stared through the opening.
 
 His lips formed one word.
 
@@ -738,7 +740,7 @@ They answered when she touched them. They felt like hers. That did not make them
 
 “Yes,” she said.
 
-Tomas watched her carefully. Then nodded. He believed her.
+Tomas looked from one of her eyes to the other, the way he counted things. Then he nodded.
 
 The Gate widened. The empty chair turned toward Elias. The red bird lay halfway between them. Its hidden markings blazed through the paint.
 

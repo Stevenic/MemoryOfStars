@@ -95,7 +95,7 @@ He reached for it. “Those are my notes.”
 
 “It was frightening.”
 
-The word hung between them. Tomas’s hand remained extended. After a moment, he lowered it. “Yes,” he said. “It was.”
+Tomas’s hand remained extended. His eyes came off the notebook and settled on her face. After a moment, the hand came down. “Yes,” he said. “It was.”
 
 Lyra returned the notebook. He closed it.
 
@@ -211,15 +211,13 @@ He looked at the rock. “You could have seen it.”
 
 “Perhaps you did without realizing.”
 
-“Perhaps.”
+“Perhaps.” She was still looking at the crack when she said it.
 
-The word sounded weak. Tomas studied her face. Then reached for his notebook.
+Tomas studied her face. Then reached for his notebook.
 
 Lyra slapped his hand away. “Not now.”
 
-He stopped. “Right.”
-
-That seemed to cost him something.
+He stopped. “Right.” His hand went back to his coat and smoothed it flat over the notebook, twice.
 
 Seren called for them to continue. Lyra stood. Her knees trembled.
 
@@ -285,7 +283,7 @@ She turned. One of the girls stood behind her.
 
 “Are you taking that bed?”
 
-Lyra looked at the mattress. “Yes.”
+Lyra looked at the mattress. Her hand was still on the bedpost. “Yes.”
 
 She had answered without deciding to. The girl moved on. Lyra sat.
 
@@ -395,7 +393,7 @@ Seren returned to his stew.
 
 Lyra thought of Mara’s warning. An impossible memory could still be true. Seren was suggesting that truth and ownership were different questions.
 
-Tomas looked ready to argue. Lyra touched his wrist. “Later.”
+Tomas’s eyes had not left Seren. Lyra touched his wrist. “Later.”
 
 His hand was cold.
 
@@ -479,7 +477,7 @@ Lyra thought of the woman in blue. Of Mara forgetting who had given her the fare
 
 “Did you hear someone during the crossing today?”
 
-His expression sharpened. “No.”
+The cup stopped halfway to his mouth. “No.”
 
 “A woman told me where to put my hand.”
 
@@ -501,7 +499,7 @@ He stood so quickly that hot water spilled across the table. Several Pilgrims tu
 
 “In a crack in the rock.”
 
-“Show me.”
+His eyes went to her hand and stayed there. “Show me.”
 
 “What?”
 
@@ -523,9 +521,9 @@ For one instant, he smiled. The expression vanished.
 
 “Only that she was frightened to come home.”
 
-Elias looked toward Seren. Again, that silent exchange passed between them.
+Elias looked toward Seren. The guide was already looking back. Neither moved. It was Seren who looked away first.
 
-“Go to sleep,” he said.
+“Go to sleep,” Elias said.
 
 “You know what happened to her.”
 
@@ -615,7 +613,7 @@ Lyra climbed the first stair. Tomas followed.
 
 “Lyra.”
 
-“Not here.”
+She did not turn around. “Not here.”
 
 They continued upward. The house creaked around them. Not like settling wood. Like footsteps moving through rooms they could not see.
 
@@ -763,7 +761,7 @@ None moved.
 
 “Now.”
 
-Something in his voice worked. The girls returned reluctantly to their beds.
+The girls returned reluctantly to their beds.
 
 Tomas sat beside Lyra. “You were calling for Mara.”
 
@@ -927,7 +925,7 @@ No one remembered placing it there.
 
 Seren looked directly at Lyra. Not at the others. At her.
 
-His expression held no surprise. Only concern.
+The look lasted a moment longer than it should have.
 
 “Pack your things,” he said.
 

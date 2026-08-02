@@ -68,9 +68,9 @@ The woman who remembered children she had never borne stood alone until two neig
 
 Elias came last. He walked beside Seren. They did not speak. They no longer needed to pretend silence meant peace.
 
-Mara saw Elias. Her expression changed. She released Lyra and went to him.
+Mara saw Elias. Her hands went still on Lyra’s arms. She released her and went to him.
 
-The old caretaker stopped. For several breaths, they simply looked at one another.
+The old caretaker stopped. For several breaths, neither of them spoke. Mara’s eyes went past him to the mountain, then came back to his face.
 
 “You found it,” Mara said.
 
@@ -104,7 +104,7 @@ The name remained.
 
 Mara closed her eyes. The road seemed to tilt beneath her. Elias reached for her, but she steadied herself.
 
-When she opened her eyes again, they were filled with a grief Lyra had never seen.
+When she opened her eyes again, it took them a moment to find Lyra.
 
 “You remember her,” Lyra said.
 
@@ -154,7 +154,7 @@ Empty.
 
 The Hall had never kept chairs near the records. People were expected to stand. No one questioned it.
 
-Lyra arrived carrying the red bird. Tomas followed with a blank book beneath his arm. She noticed it immediately.
+Lyra arrived carrying the red bird. Tomas followed with a blank book beneath his arm. Her eyes went to it before they went to him.
 
 “You bought another one.”
 
@@ -162,9 +162,7 @@ Lyra arrived carrying the red bird. Tomas followed with a blank book beneath his
 
 “I thought you didn’t need the dates anymore.”
 
-“I don’t.”
-
-He placed the book on the nearest table. Its cover was plain brown cloth.
+“I don’t.” He placed the book on the nearest table and squared it with the edge. Its cover was plain brown cloth.
 
 “What is it for?”
 
@@ -348,7 +346,7 @@ Elias smiled. “You have become very demanding.”
 
 Lyra sighed. Then she laughed despite herself.
 
-Elias’s expression softened. “The first time I crossed, I believed the Gate was the end of the journey.”
+Elias watched her until the laughter ran out. “The first time I crossed, I believed the Gate was the end of the journey.”
 
 He looked toward the northern wall. Stone blocked the view of the mountain.
 
