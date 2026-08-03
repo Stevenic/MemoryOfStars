@@ -978,6 +978,7 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
     });
     return { total: total, open: open };
   }
+  if ($("si-greet")) $("si-greet").addEventListener("click", function () { dismissGreet(); });
   function showBoot(title, items) {
     var g = $("si-greet"); if (!g) return;
     var tok = ++greetSeq.token;
@@ -1657,6 +1658,7 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
         if (sc < bestScore) { bestScore = sc; best = p2; }
       });
       if (best) best.go();
+      else pz.flyTo(w.x, w.y, pz.span() * 0.55, 500);   // empty space: step the camera toward the click
     });
     if (!motesHung && sys.system.star_ref) {
       var orphan = memoriesForSystem(sysId);
