@@ -1006,7 +1006,7 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
     showBoot("The Known Sky", [
       { text: nCharted + (nCharted === 1 ? " system charted" : " systems charted") },
       { text: nRoutes + " mesh nodes found" },
-      { text: mc.open + " of " + mc.total + (mc.total === 1 ? " memory online" : " memories online") }
+      { text: mc.open + (mc.open === 1 ? " memory online" : " memories online") }
     ]);
   }
   // --- continuous camera: views never cut, they arrive. A fade masks the svg swap;
