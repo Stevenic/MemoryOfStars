@@ -246,6 +246,8 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
 .si-greet-typing { color: var(--gold); animation: si-caret-blink .7s steps(1) infinite; }
 @keyframes si-caret-blink { 50% { opacity: 0; } }
 .si-star-panel[hidden] { display: none; }
+#si-map g:focus:not(:focus-visible) { outline: none; }
+#si-map g:focus-visible { outline: 1px dashed var(--gold); outline-offset: 3px; }
 .si-starlabel { fill: var(--gold); font-size: 11px; letter-spacing: .04em; pointer-events: none; }
 .si-planetlabel { fill: var(--muted); font-size: 10px; pointer-events: none; }
 .si-orbit { fill: none; stroke: rgba(207,224,255,.13); stroke-width: 1; }
@@ -1549,9 +1551,11 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
     var sys = SYSTEMS[sysId]; if (!sys) { showGalaxy(); return; }
     cosmos.view = "system"; setBack(galaxyUnlocked() ? "sky" : null); $("si-mesh-toggle").hidden = true; $("si-mem-toggle").hidden = true; clearMemPanel();
     var svg = freshSvg();
-    var R = 560, home = intro === "dive" ? { x: -55, y: -55, w: 110, h: 110 } : { x: -R * 2.0, y: -R * 2.0, w: R * 4.0, h: R * 4.0 };
+    var R = 560, home = { x: -R * 1.2, y: -R * 1.2, w: R * 2.4, h: R * 2.4 };   // reset always returns HERE
     var pz = panZoom(svg, { x: -R * 2.4, y: -R * 2.4, w: R * 4.8, h: R * 4.8 }, home);
     cosmos.panzoom = pz;
+    if (intro === "dive") pz.jumpTo(0, 0, 110);               // arrive sun-tight...
+    else pz.jumpTo(0, 0, R * 4.0);                             // ...or ease in from wide
     pz.flyTo(0, 0, R * 2.4, intro === "dive" ? 800 : 450);   // bloom outward from the sun — arriving, not appearing
     var motesHung = false;
     var sysPicks = [];
