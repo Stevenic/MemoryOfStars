@@ -948,7 +948,7 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
     return { toWorld: toWorld, moved: function () { return moved; }, span: function () { return vb.w; }, flyTo: flyTo,
              jumpTo: function (cx, cy, span) { var w1 = Math.min(Math.max(span, world.w * 0.02), world.w); var h1 = w1 * (vb.h / vb.w); vb = { x: cx - w1 / 2, y: cy - h1 / 2, w: w1, h: h1 }; clamp(); apply(); },
              zoomBy: function (f) { flyTo(vb.x + vb.w / 2, vb.y + vb.h / 2, vb.w * f, 260); },
-             reset: function () { vb = { x: home.x, y: home.y, w: home.w, h: home.h }; apply(); } };
+             reset: function () { flyTo(home.x + home.w / 2, home.y + home.h / 2, home.w, 520); } };
   }
   // --- the greeting: the instrument reports its status under the input, line by line.
   var greetSeq = { token: 0 };
@@ -1198,6 +1198,7 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
   }
   function skyDefs(svg) {
     var defs = svgEl(svg, "defs", {});
+
     function grad(id, stops) {
       var g = svgEl(svg, "radialGradient", { id: id }, defs);
       stops.forEach(function (s) { svgEl(svg, "stop", { offset: s[0], "stop-color": s[1], "stop-opacity": s[2] }, g); });
@@ -1272,7 +1273,7 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
 
     // Anything can be clicked for what it is. Extended objects get a bigger catch radius.
     var picks = [];
-    function pick(x, y, r, desc) { picks.push({ x: +x, y: +y, r: r, d: desc }); }
+    function pick(x, y, r, desc) { var p = { x: +x, y: +y, r: r, d: desc }; picks.push(p); return p; }
 
     // draw order — nebulae and clusters behind, then the stars, then the things that are
     // neither: quasars from outside the galaxy, and the five that nobody has accounted for.
@@ -1436,6 +1437,8 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
       }
       g.addEventListener("mouseenter", info);
       g.addEventListener("click", function (e) { e.stopPropagation(); if (pz.moved() > 5) return; if (s.system && SYSTEMS[s.system]) enterSystem(s); else info(); });
+      var pk2 = pick(s.x, s.y, 20, ["a charted system", s.name, s.note || "", ""]);
+      pk2.go = function () { if (s.system && SYSTEMS[s.system]) enterSystem(s); else info(); };
       g.addEventListener("keydown", function (e) { if ((e.key === "Enter" || e.key === " ") && s.system) { e.preventDefault(); enterSystem(s); } });
     });
 
@@ -1505,7 +1508,11 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
         var rr = p.r * slack, dx = p.x - w.x, dy = p.y - w.y, sc = (dx * dx + dy * dy) / (rr * rr);
         if (sc < bestScore) { bestScore = sc; best = p; }
       });
-      if (best) setSky(best.d[0], best.d[1], best.d[2], best.d[3]);
+      if (best) {
+        if (best.go) { best.go(); return; }               // charted systems: a near-miss still enters
+        setSky(best.d[0], best.d[1], best.d[2], best.d[3]);
+        pz.flyTo(best.x, best.y, Math.max(110, best.r * 16), 600);   // everything clicked comes into focus
+      }
     });
 
     setSky("", "", "", "");
