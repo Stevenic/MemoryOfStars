@@ -28,7 +28,7 @@ which corrupts canon).
 - **Chapter:** the one named, or **the next unwritten** (first `## ` section whose body is still the `_..._` placeholder), or **all remaining** (book mode).
 
 **Never overwrite prose that already exists.** Only fill placeholder (`_..._`) chapters. To
-rework written prose, that's the `revise` skill — or confirm explicitly first.
+rework written prose, that's the `edit` skill (the editor) — or confirm explicitly first.
 
 ## 2. Load before writing (do not skip)
 
