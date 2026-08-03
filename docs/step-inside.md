@@ -1005,7 +1005,7 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
     var mc = countMemories(null);
     showBoot("The Known Sky", [
       { text: nCharted + (nCharted === 1 ? " system charted" : " systems charted") },
-      { text: nRoutes + " on the mesh" },
+      { text: nRoutes + " mesh nodes found" },
       { text: mc.open + " of " + mc.total + (mc.total === 1 ? " memory online" : " memories online") }
     ]);
   }
@@ -1527,7 +1527,9 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
     });
 
     setSky("", "", "", "");
-    showGreeting(lit.length, edges.length);
+    var meshNodes = {};
+    edges.forEach(function (r) { meshNodes[r.a] = 1; meshNodes[r.b] = 1; });
+    showGreeting(lit.length, Object.keys(meshNodes).length);
     // moving the map puts the report away — the instrument yields to the hand
     svg.addEventListener("wheel", function () { dismissGreet(); }, { passive: true });
     svg.addEventListener("pointermove", function (e) { if (e.buttons) dismissGreet(); });
