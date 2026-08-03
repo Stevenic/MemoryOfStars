@@ -15,6 +15,8 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
     {% for sys in site.data %}{% if sys[1].system %}"{{ sys[1].system.id }}": {{ sys[1] | jsonify }},{% endif %}{% endfor %}
   };
   window.SI_BASEURL = "{{ site.baseurl }}";
+  window.SI_BUILD = "{{ site.time | date: "%Y-%m-%d %H:%M:%S" }}";
+  console.info("Archive build:", window.SI_BUILD);
 </script>
 {% raw %}
 <!-- ENTRY: the Archive as a full-page shell — the chart is the app; sheets ride over it -->
