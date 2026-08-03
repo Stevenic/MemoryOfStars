@@ -137,6 +137,43 @@ meaning, the scene has sound and no eyes.
   looks at whom, when, and what each look means? If every look is "at each other" and
   every beat is attribution, revise.
 
+### The conversation layer — wants, voice, and the unsaid *(adopted 2026-08)*
+
+The choreography layer stages a conversation; this layer is what the conversation *is*.
+
+- **The cover-the-names test.** Strip every attribution and beat from the exchange —
+  can you still tell who is talking, from diction, syntax, and deflection alone? McKee's
+  standard: word choices no one but that character would use. This is the test behind
+  the deflection rule above, and it catches shared tics the ear misses — Book 1 hands
+  *"I don't know"* to nearly every speaker 29 times; a phrase that belongs to everyone
+  characterizes no one.
+- **Every major character gets a speech engine** — one sentence naming what all their
+  talk is a version of, derived from what they are and what they want (Tarantino on
+  Landa: *"everything he does is some version of an interrogation"*). Ours: everything
+  Tomas says is a version of an inventory; everything Mara says is a version of tending
+  something on the stove while watching you; everything Elias says is a version of an
+  apology for knowing more than he will tell; everything Seren says is a version of a
+  door held almost shut. Write the engine on the character sheet; when a line could
+  belong to anyone, run it through the engine until it can't.
+- **Two agendas, always.** Every conversation is two wants colliding, however quietly —
+  a scene where both speakers want the same thing and have it is a report, not a
+  conversation. The wants need not be opposed grandly: wanting to tell and wanting not
+  to hear is enough for a whole chapter. Off-axis answers (above) are the *surface* of
+  this; the collision is the engine underneath.
+- **The as-you-know ban.** No character may tell another what both already know so the
+  reader can overhear it — the falseness reads instantly. If the reader needs it, route
+  it through the person who genuinely doesn't know (Book 1 has Pilgrims for this; Book 2
+  has an outsider in an archive), hang it on an object someone handles, or let it stay
+  unsaid and trust the reader.
+- **Gerwig's law — the said-instead.** People use words to *avoid* saying what they
+  mean: her example — a mother who cannot say *"I'm scared"* says *"why do you never
+  clean your room?"* For each loaded exchange, find the sentence the character cannot
+  say, then write the sentence they say **instead** — related to the true one by
+  displacement, not disguise. This is the dialogue-side twin of putting the feeling in
+  the body (§6): the emotion never named, the true line never spoken, both fully heard.
+- **The ear is the final judge.** Read every exchange aloud; a conversation that works
+  on the page and dies in the mouth is dead.
+
 ## 4. Rendering the uncanny — flatly
 
 Supernatural and cosmic beats are **underplayed**. No exclamation, no melodrama, no
@@ -233,6 +270,109 @@ explaining the mystery or the emotion · melodramatic reactions to the supernatu
 rhetorical questions from the narrator · foreshadowing by narrator emphasis (hooks go in
 the hands) · modern/anachronistic idiom · drifting the canonical litany phrases.
 
+**The Dreyer list — banned filler** *(from Dreyer's English, adopted 2026-08)*: never
+write **very, rather, really, quite, in fact, just, so, pretty, of course, surely,
+that said, actually**. They are wan intensifiers and throat-clearers — the sentence is
+stronger with the word deleted, every time. The ban targets the *filler* senses; the
+content senses survive: *just* meaning *only* or *fair*, *so* as a consequence
+conjunction (*so that*, *and so the gate stayed shut*), *pretty* the adjective, *rather*
+expressing preference (*rather than*). In dialogue the list is a near-ban, not an
+absolute one — a character may reach for filler as a deliberate voice choice, but the
+house dialogue is deadpan and clipped, and almost never needs it.
+
+**Adjective rationing — no decorative adjectives** *(adopted 2026-08)*: an adjective
+earns its place only when it adds information the noun doesn't already carry. *Yellow
+dandelion* and *steep cliff* are decoration — dandelions are yellow, cliffs are steep;
+the adjective restates the noun and dulls the page. The test: delete it — if the image
+doesn't change, it was decoration. Keep the adjective that *changes* the noun:
+- **state** — *a wilted dandelion*, *a crushed dandelion*: the flower's condition, not
+  its definition; this is the workhorse case
+- **distinguishes** — *the blue door, not the red*
+- **narrows** — *the youngest guide*
+- **breaks expectation** — *a warm cellar*, *a small war*
+
+Ration hard so the survivors detonate — the same law as gesture: the fewer you spend,
+the more each one is worth.
+
+**Adverb discipline — strong verb beats propped verb** *(adopted 2026-08)*: an adverb
+propping a weak verb is a missed word choice — *ran quickly* is *sprinted*, *said
+softly* is *murmured*, *felt extremely tired* is *was exhausted*. Hunt every *-ly* in
+narration and ask what verb it's compensating for. The survivors are the ones doing what
+no verb can (*he answered carefully* when the care itself is the point), spent as
+sparingly as drops. Corollary — **absolutes take no modifier**: *still*, *silent*,
+*empty*, *dead* are binary states; *completely still* and *utterly silent* prop what
+cannot be propped, and the bare word lands harder (*The room was silent.*).
+
+**Sentence music — vary the length** *(Gary Provost's law, adopted 2026-08)*: never let
+sentence length settle into a pattern. A run of same-length sentences drones — "the
+sound of it drones… the ear demands some variety" — whether they're all five words
+(machine-gun monotony) or all twenty (syrup). Control flow with length: short sentences
+punch and rest the reader; medium sentences carry; and the long sentence — the one that
+builds and rolls and lands like a crescendo — is spent *only* when the reader is rested
+and the moment is worth it (a wonder beat, a chapter turn). This is §1's law at the
+sentence level: Book 1's original draft failed it in one direction (every line clipped),
+purple prose fails it in the other. Read the paragraph aloud; if you can tap a steady
+beat to it, break the beat.
+
+Length is one axis of four. Also vary **openers** (three sentences in a row starting
+with the same word is a device or a defect — decide which), **structures** (the same
+grammatical shape repeated — fronted phrase after fronted phrase, subject-verb after
+subject-verb — drones even when lengths differ; the triple-fragment run is the house's
+own worn shape), and **senses** (a scene rendered only through the eyes goes flat —
+Book 1 says *looked* 176 times; rotate in sound, weight, temperature, smell, and let a
+gaze become *watched*, *studied*, *followed* when it must stay a gaze).
+
+**The image gate — original *and* true** *(adopted 2026-08)*: every metaphor and simile
+must pass two gates at once. **Startling** — the reader has never heard it put that way;
+and **accurate** — so exactly right they wonder why they never thought of it ("the sea
+was all a case of knives"). Cliché fails the first gate; cleverness for its own sake
+fails the second. The working test is honesty (Abercrombie's mother's law): *does the
+thing really look like that, or are you reaching for any old words to fill the space?*
+An image that fails either gate is cut, not polished — plain statement beats a dishonest
+figure every time, and the house's definition-by-negation (§2) exists precisely because
+it forces accuracy: saying what a thing is *not* requires knowing exactly what it is.
+
+**Truthful to the narrator**: the series voice is the instrument; the POV character is
+the player. What gets noticed, what it gets compared to, and which words are available
+all filter through the mind on the page — a baker's daughter reads a stranger's face the
+way she reads proofing dough, not the way a Cartographer reads a chart; Tomas reaches
+for taxonomy where Lyra reaches for touch. An image the narrator couldn't have made is
+dishonest even when it's beautiful. This is the narration-side twin of the dialogue rule
+that every speaker deflects differently (§3). The one earned exception is the **scope
+lift**: at a wonder beat, the narration may briefly widen past the character — *this one
+night in all the world's nights* — and that spend follows the crescendo rule: rare,
+rested, and structurally earned.
+
+**The surprise clause — break something, once** *(adopted 2026-08; this one outranks the
+rest at the moments it applies)*: every rule above makes the prose *cleaner*; none of them
+makes it *alive*. Perfect compliance produces prose where the next word is guessable, and
+guessable is the tell of writing nobody actually wrote. So once or twice per scene, on
+purpose, do something the reader did not see coming.
+
+- **Reach for an approved coinage** from [the Lexicon](lexicon.md) — the series' invented
+  English, which is what makes the voice recognizable across thirty books. **A drafter may
+  propose a coinage; it may never deploy one.** If the word you want isn't approved, write
+  the plain sentence and add the candidate to the Lexicon's Proposed table for a human
+  writer to promote or kill. A plain sentence costs nothing; an unapproved coinage costs
+  the voice. Approved entries carry a usage budget — spend a signature too often and it
+  becomes a tic.
+- **Let a deft or poetic turn arrive with a swerve.** Beauty that behaves as promised is
+  decoration; beauty that lands somewhere the sentence didn't promise is craft. The
+  image gate still applies — startling *and* exactly true — but this clause is its
+  generative twin: the gate says cut what's false, this says risk what's new.
+- **Break a rule when the break is better.** A fragment where the music wants flow; a
+  decorative adjective doing work no state adjective could; a filler word restored
+  because that mouth needs it. The break must beat compliance, not merely differ from it.
+
+**Ration and earn.** One or two per scene — prose that surprises constantly is exhausting
+and becomes its own formula, which is the thing this clause exists to prevent. Then apply
+the delete test: take the surprise out, and if the sentence is as good without it, it was
+decoration. Keep only the breaks that do work compliance couldn't.
+
+**What this never licenses:** canon drift, litany paraphrased, a mystery answered, or the
+reader hazed. The surprise lives at the level of word and sentence, never at the level of
+comprehension — the Easy-Read Standard still outranks everything on this page.
+
 ## 30-second self-check
 
 - [ ] Does the passage read as **flowing paragraphs**, with the single-line drop reserved for a few genuine emphasis beats — not every line?
@@ -246,5 +386,12 @@ the hands) · modern/anachronistic idiom · drifting the canonical litany phrase
       scene, no gesture repeated, and no beat that merely attributes where a look could mean?
 - [ ] Are hooks planted **in behavior** (an object handled, a glance that snags), never by
       narrator emphasis?
+- [ ] Zero Dreyer-list filler in narration (*very, really, just, so, quite, actually*…), and none in dialogue that isn't a deliberate voice choice?
+- [ ] Does every adjective pass the delete test — no decorative ones (*steep cliff*), only ones that change the noun?
+- [ ] Does sentence length vary — no steady beat of same-length sentences, with the long crescendo sentence saved for an earned moment? Openers, structures, and senses varied too?
+- [ ] Is every *-ly* adverb doing what no stronger verb could — and no modifier on an absolute (*completely still*)?
+- [ ] Does every image pass both gates — startling *and* exactly true — and could *this* narrator have made it?
+- [ ] Cover the names: is every speaker identifiable from words alone? Two wants colliding? No line telling a character what they already know — and in the loaded exchange, is the true sentence displaced, not spoken?
+- [ ] Does the scene break something once — an *approved* coinage ([lexicon.md](lexicon.md)), a turn that swerves, a rule beaten by its own breaking — and does that surprise survive the delete test? Any new coinage proposed rather than deployed?
 - [ ] Does the section end on a short, resonant line?
 - [ ] Does it earn one moment of wonder ([Law 7](../series-bible/seven-laws.md#law-7--wonder-comes-first))?
