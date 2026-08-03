@@ -1006,7 +1006,7 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
     showBoot("The Known Sky", [
       { text: nCharted + (nCharted === 1 ? " system charted" : " systems charted") },
       { text: nRoutes + " on the mesh" },
-      { text: mc.total + (mc.total === 1 ? " memory held" : " memories held") + " · " + mc.open + " open" }
+      { text: mc.open + " of " + mc.total + (mc.total === 1 ? " memory online" : " memories online") }
     ]);
   }
   // --- continuous camera: views never cut, they arrive. A fade masks the svg swap;
@@ -1443,7 +1443,7 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
       function info() {
         var mc = countMemories(s.refs || []);
         setSky("a charted system", s.name, s.note || "",
-          (mc.total ? mc.total + (mc.total === 1 ? " recording" : " recordings") + " · " + mc.open + " open · " : "") +
+          (mc.total ? mc.open + " of " + mc.total + (mc.total === 1 ? " memory online" : " memories online") + " · " : "") +
           (s.system ? "Click to enter." : ""));
       }
       g.addEventListener("mouseenter", info);
