@@ -889,7 +889,11 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
     var vb = { x: home.x, y: home.y, w: home.w, h: home.h };
     function apply() { svg.setAttribute("viewBox", vb.x + " " + vb.y + " " + vb.w + " " + vb.h); }
     function clamp() { vb.w = Math.min(vb.w, world.w); vb.h = Math.min(vb.h, world.h); vb.x = Math.min(Math.max(vb.x, world.x), world.x + world.w - vb.w); vb.y = Math.min(Math.max(vb.y, world.y), world.y + world.h - vb.h); }
-    function toWorld(cx, cy) { var r = svg.getBoundingClientRect(); return { x: vb.x + (cx - r.left) / r.width * vb.w, y: vb.y + (cy - r.top) / r.height * vb.h }; }
+    // NB: SVG letterboxes (xMidYMid meet) — the world-per-pixel scale is uniform and
+    // set by the tighter axis; assuming per-axis stretch skews every hit test.
+    function pxScale() { var r = svg.getBoundingClientRect(); return Math.max(vb.w / r.width, vb.h / r.height); }
+    function toWorld(cx, cy) { var r = svg.getBoundingClientRect(); var s = Math.max(vb.w / r.width, vb.h / r.height);
+      return { x: vb.x + vb.w / 2 + (cx - (r.left + r.width / 2)) * s, y: vb.y + vb.h / 2 + (cy - (r.top + r.height / 2)) * s }; }
     function zoomAt(w, f) { var nw = Math.min(Math.max(vb.w * f, world.w * 0.05), world.w); f = nw / vb.w; vb.x = w.x - (w.x - vb.x) * f; vb.y = w.y - (w.y - vb.y) * f; vb.w = nw; vb.h *= f; clamp(); apply(); }
     var pts = new Map(), moved = 0, pinch = 0, pinchMid = null;
     // NB: capture only once a real drag starts — capturing on pointerdown retargets the
@@ -910,7 +914,8 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
       var p = pts.get(e.pointerId); if (!p) return;
       var r = svg.getBoundingClientRect();
       if (pts.size === 1) {
-        vb.x -= (e.clientX - p.x) * vb.w / r.width; vb.y -= (e.clientY - p.y) * vb.h / r.height;
+        var s1 = pxScale();
+        vb.x -= (e.clientX - p.x) * s1; vb.y -= (e.clientY - p.y) * s1;
         moved += Math.abs(e.clientX - p.x) + Math.abs(e.clientY - p.y);
         if (moved > 4 && !svg.hasPointerCapture(e.pointerId)) { try { svg.setPointerCapture(e.pointerId); } catch (err) {} }
         clamp(); apply();
@@ -921,7 +926,7 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
         var d = Math.hypot(a[0].x - a[1].x, a[0].y - a[1].y);
         var mid = { x: (a[0].x + a[1].x) / 2, y: (a[0].y + a[1].y) / 2 };
         // the midpoint pans; the spread zooms — one gesture, both hands honest
-        if (pinchMid) { vb.x -= (mid.x - pinchMid.x) * vb.w / r.width; vb.y -= (mid.y - pinchMid.y) * vb.h / r.height; clamp(); apply(); }
+        if (pinchMid) { var s2 = pxScale(); vb.x -= (mid.x - pinchMid.x) * s2; vb.y -= (mid.y - pinchMid.y) * s2; clamp(); apply(); }
         if (pinch > 0 && d > 0) zoomAt(toWorld(mid.x, mid.y), pinch / d);
         pinch = d; pinchMid = mid;
       }
@@ -1549,6 +1554,7 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
     cosmos.panzoom = pz;
     pz.flyTo(0, 0, R * 2.4, intro === "dive" ? 800 : 450);   // bloom outward from the sun — arriving, not appearing
     var motesHung = false;
+    var sysPicks = [];
     cosmos.moteEl = {}; cosmos.moteSys = sysId;
     var planets = (sys.bodies || []).filter(function (b) { return b.kind === "planet"; });
     var belts = (sys.bodies || []).filter(function (b) { return b.kind === "belt"; });
@@ -1580,6 +1586,9 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
       var col = (p.palette && p.palette[0]) || (giant ? "#c9ae86" : "#9aa8c0");
       var g = svgEl(svg, "g", { "class": "si-planet", tabindex: "0", role: "button" });
       g.setAttribute("aria-label", p.name);
+      sysPicks.push({ x: px, y: py, r: Math.max(16, pr * 1.6), go: (function (pp, ppx, ppy, ppr) {
+        return function () { setPlanetPanel(sys, pp); pz.flyTo(ppx, ppy, Math.max(90, ppr * 16), 600); };
+      })(p, px, py, pr) });
       if (p.rings) svgEl(svg, "ellipse", { cx: px.toFixed(1), cy: py.toFixed(1), rx: (pr * 1.95).toFixed(1), ry: (pr * 0.5).toFixed(1),
         fill: "none", stroke: "#e8ddc8", "stroke-width": (pr * 0.16).toFixed(1), opacity: ".45",
         transform: "rotate(-16 " + px.toFixed(1) + " " + py.toFixed(1) + ")" }, g);
@@ -1627,6 +1636,21 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
       g.addEventListener("mouseenter", pick);
       g.addEventListener("click", function (e) { e.stopPropagation(); if (pz.moved() > 5) return; pick(); pz.flyTo(px, py, Math.max(90, pr * 16), 600); });
       g.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pick(); } });
+    });
+    sysPicks.push({ x: 0, y: 0, r: 56, go: function () {
+      setSky(primary.spectral || "the star", primary.name || sys.system.name, primary.common || "", "");
+      pz.flyTo(0, 0, 260, 600);
+    } });
+    svg.addEventListener("click", function (e) {
+      if (pz.moved() > 5) return;
+      if (e.target.closest && (e.target.closest(".si-planet") || e.target.closest(".si-mote") || e.target.closest(".si-star"))) return;
+      var w = pz.toWorld(e.clientX, e.clientY), slack = Math.max(1, pz.span() / 900);
+      var best = null, bestScore = 1;
+      sysPicks.forEach(function (p2) {
+        var rr = p2.r * slack, dx = p2.x - w.x, dy = p2.y - w.y, sc = (dx * dx + dy * dy) / (rr * rr);
+        if (sc < bestScore) { bestScore = sc; best = p2; }
+      });
+      if (best) best.go();
     });
     if (!motesHung && sys.system.star_ref) {
       var orphan = memoriesForSystem(sysId);
