@@ -5,9 +5,14 @@ the-first-pilgrim:
   label: Original
   note: The first complete draft.
   default: false
+- id: pre-edit
+  label: Pre-edit
+  note: Snapshot before the line pass (Act I, 2026-08) — for comparison.
+  default: false
 - id: revised
   label: Revised
-  note: Dialogue, emotion and rhythm pass; choreography pass (beta-reader feedback).
+  note: Dialogue, emotion and rhythm pass; choreography pass (beta-reader feedback);
+    line pass over Act I (filler, adjectives, adverbs, sentence music).
   default: true
 the-archivist:
 - id: original

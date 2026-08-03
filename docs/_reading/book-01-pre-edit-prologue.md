@@ -8,9 +8,9 @@ label: Prologue
 title: The Mountain Remembers
 order: 0
 generated: true
-version_id: revised
+version_id: pre-edit
 chapter_key: prologue
-version_label: Revised
+version_label: Pre-edit
 mood: elegiac, hushed, reverent
 pace: very slow
 ---
@@ -65,7 +65,7 @@ The memory of one.
 
 He smiled despite himself. “I wondered if you’d still be here.”
 
-For an instant— Another chair stood opposite his own.
+For just an instant— Another chair stood opposite his own.
 
 Occupied.
 

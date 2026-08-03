@@ -17,7 +17,19 @@ versions:
     label: Original
     file: versions/original.md
     note: The first complete draft.
+  - id: pre-edit
+    label: Pre-edit
+    file: versions/pre-edit.md
+    note: Snapshot before the line pass (Act I, 2026-08) — for comparison.
+  - id: v1
+    label: v1 (79.1)
+    file: versions/v1-published.md
+    note: >-
+      The shipping text at the start of the 91+ lift campaign. Baseline 79.1/100
+      (three independent judges: 77.8 / 78.8 / 80.6).
   - id: revised
     label: Revised
     file: manuscript.md
-    note: Dialogue, emotion and rhythm pass; choreography pass (beta-reader feedback).
+    note: >-
+      Dialogue, emotion and rhythm pass; choreography pass (beta-reader feedback);
+      line pass over Act I (filler, adjectives, adverbs, sentence music).

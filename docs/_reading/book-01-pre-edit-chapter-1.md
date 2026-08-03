@@ -8,9 +8,9 @@ label: Chapter 1
 title: The Last Ordinary Morning
 order: 1
 generated: true
-version_id: revised
+version_id: pre-edit
 chapter_key: chapter-1
-version_label: Revised
+version_label: Pre-edit
 mood: warm, domestic, quietly foreboding
 pace: measured
 ---
@@ -367,7 +367,7 @@ Tomas stopped beside Lyra. His gaze went up the carved lines, and up, and for on
 
 The doors were already open. A crowd had gathered inside. Parents stood beside Pilgrims. Younger siblings darted between adults. Clerks in gray robes moved through the hall carrying tablets and lengths of silver cord.
 
-At the far end stood Elias. He was older than anyone Lyra knew. Older, some said, than the Hall itself. He served as caretaker of the names, though Lyra had never been entirely sure what that meant. He repaired the carvings when weather wore them down, recorded births and deaths, and remembered family lines stretching back farther than written histories.
+At the far end stood Elias. He was older than anyone Lyra knew. Older, some said, than the Hall itself. He served as caretaker of the names, though Lyra had never been entirely sure what that meant. He repaired the carvings when weather wore them down. He recorded births and deaths. He remembered family lines stretching back farther than written histories.
 
 As children, they had believed Elias knew every person in Orin. As they grew older, no one had corrected them.
 
@@ -391,7 +391,7 @@ Tomas followed her gaze down the crowded hall. “There’s no one there.”
 
 They joined the line. Along the walls, names climbed from floor to ceiling.
 
-Lyra found herself searching them. Not for anyone in particular. That was the strange part. She had the unreasonable feeling that one name was missing. She did not know whose. She did not know where it should have been. Still, her eyes moved over the carvings as though they might recognize the absence before she did.
+Lyra found herself searching them. Not for anyone in particular. That was the strange part. She had the strong, unreasonable feeling that one name was missing. She did not know whose. She did not know where it should have been. Still, her eyes moved over the carvings as though they might recognize the absence before she did.
 
 Tomas noticed. “What are you looking for?”
 

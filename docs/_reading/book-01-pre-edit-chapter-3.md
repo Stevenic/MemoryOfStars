@@ -8,9 +8,9 @@ label: Chapter 3
 title: The Festival of Last Things
 order: 3
 generated: true
-version_id: revised
+version_id: pre-edit
 chapter_key: chapter-3
-version_label: Revised
+version_label: Pre-edit
 mood: festive and joyous up top, turning intimate and haunted by the end
 pace: lively through the theft/race; slow and grave for the slate ceremony and the
   ending
@@ -502,7 +502,7 @@ The farewell gesture.
 
 Lyra struck the slate. It shattered into three pieces. She threw them into the river.
 
-The current caught them. Dark stone vanished beneath dark water.
+The current caught them immediately. Dark stone vanished beneath dark water.
 
 Lyra felt no different. She had expected something. Relief. Grief. A sudden understanding that childhood was over.
 
@@ -520,7 +520,7 @@ Adults preferred the first. Children preferred the second.
 
 The musicians played both at once. The result was chaos. People danced anyway.
 
-Lyra danced with Tomas until he complained about the rhythm. She danced with Mara until Mara laughed so hard she could no longer stand straight. She danced with children wearing stolen hats, ribbons, aprons, and one enormous boot.
+Lyra danced with Tomas until he complained about the rhythm. She danced with Mara until Mara laughed so hard she could no longer stand straight. She danced with children wearing stolen hats, ribbons, aprons, and one extremely large boot.
 
 Later, everyone reclaimed their missing possessions. Master Rian accepted his blue hat with solemn dignity. Mara recovered her bell, now tied with six ribbons. Tomas found his satchel beneath a table, his notes rearranged into a paper crown.
 

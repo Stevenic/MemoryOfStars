@@ -8,9 +8,9 @@ label: Chapter 2
 title: Tomas Knows Everything
 order: 2
 generated: true
-version_id: revised
+version_id: pre-edit
 chapter_key: chapter-2
-version_label: Revised
+version_label: Pre-edit
 mood: wry, companionable, mystery gathering underneath
 pace: measured; quick in the Lyra/Tomas volleys
 ---
@@ -41,7 +41,7 @@ Lyra smiled. “How many?”
 
 “There are at least eleven.”
 
-He produced a folded notebook from his satchel and flipped to a fresh page. “Mystery one, he recognized the bird. Mystery two, he corrected himself almost immediately.” He wrote as he spoke, in tiny handwriting. “Mystery three.” He looked up and waited until she looked back. “Whatever frightened him wasn’t the bird.”
+He produced a folded notebook from his satchel and flipped to a fresh page. “Mystery one, he recognized the bird. Mystery two, he corrected himself almost immediately.” He wrote as he spoke, in remarkably tiny handwriting. “Mystery three.” He looked up and waited until she looked back. “Whatever frightened him wasn’t the bird.”
 
 Lyra looked toward the far end of the hall, where Elias stood speaking with a clerk as though nothing in the world had recently refused to make sense. “What was it, then?”
 

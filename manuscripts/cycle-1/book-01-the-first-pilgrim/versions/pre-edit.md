@@ -59,7 +59,7 @@ The memory of one.
 
 He smiled despite himself. “I wondered if you’d still be here.”
 
-For an instant— Another chair stood opposite his own.
+For just an instant— Another chair stood opposite his own.
 
 Occupied.
 
@@ -437,7 +437,7 @@ Tomas stopped beside Lyra. His gaze went up the carved lines, and up, and for on
 
 The doors were already open. A crowd had gathered inside. Parents stood beside Pilgrims. Younger siblings darted between adults. Clerks in gray robes moved through the hall carrying tablets and lengths of silver cord.
 
-At the far end stood Elias. He was older than anyone Lyra knew. Older, some said, than the Hall itself. He served as caretaker of the names, though Lyra had never been entirely sure what that meant. He repaired the carvings when weather wore them down, recorded births and deaths, and remembered family lines stretching back farther than written histories.
+At the far end stood Elias. He was older than anyone Lyra knew. Older, some said, than the Hall itself. He served as caretaker of the names, though Lyra had never been entirely sure what that meant. He repaired the carvings when weather wore them down. He recorded births and deaths. He remembered family lines stretching back farther than written histories.
 
 As children, they had believed Elias knew every person in Orin. As they grew older, no one had corrected them.
 
@@ -461,7 +461,7 @@ Tomas followed her gaze down the crowded hall. “There’s no one there.”
 
 They joined the line. Along the walls, names climbed from floor to ceiling.
 
-Lyra found herself searching them. Not for anyone in particular. That was the strange part. She had the unreasonable feeling that one name was missing. She did not know whose. She did not know where it should have been. Still, her eyes moved over the carvings as though they might recognize the absence before she did.
+Lyra found herself searching them. Not for anyone in particular. That was the strange part. She had the strong, unreasonable feeling that one name was missing. She did not know whose. She did not know where it should have been. Still, her eyes moved over the carvings as though they might recognize the absence before she did.
 
 Tomas noticed. “What are you looking for?”
 
@@ -541,7 +541,7 @@ Lyra smiled. “How many?”
 
 “There are at least eleven.”
 
-He produced a folded notebook from his satchel and flipped to a fresh page. “Mystery one, he recognized the bird. Mystery two, he corrected himself almost immediately.” He wrote as he spoke, in tiny handwriting. “Mystery three.” He looked up and waited until she looked back. “Whatever frightened him wasn’t the bird.”
+He produced a folded notebook from his satchel and flipped to a fresh page. “Mystery one, he recognized the bird. Mystery two, he corrected himself almost immediately.” He wrote as he spoke, in remarkably tiny handwriting. “Mystery three.” He looked up and waited until she looked back. “Whatever frightened him wasn’t the bird.”
 
 Lyra looked toward the far end of the hall, where Elias stood speaking with a clerk as though nothing in the world had recently refused to make sense. “What was it, then?”
 
@@ -1303,7 +1303,7 @@ The farewell gesture.
 
 Lyra struck the slate. It shattered into three pieces. She threw them into the river.
 
-The current caught them. Dark stone vanished beneath dark water.
+The current caught them immediately. Dark stone vanished beneath dark water.
 
 Lyra felt no different. She had expected something. Relief. Grief. A sudden understanding that childhood was over.
 
@@ -1321,7 +1321,7 @@ Adults preferred the first. Children preferred the second.
 
 The musicians played both at once. The result was chaos. People danced anyway.
 
-Lyra danced with Tomas until he complained about the rhythm. She danced with Mara until Mara laughed so hard she could no longer stand straight. She danced with children wearing stolen hats, ribbons, aprons, and one enormous boot.
+Lyra danced with Tomas until he complained about the rhythm. She danced with Mara until Mara laughed so hard she could no longer stand straight. She danced with children wearing stolen hats, ribbons, aprons, and one extremely large boot.
 
 Later, everyone reclaimed their missing possessions. Master Rian accepted his blue hat with solemn dignity. Mara recovered her bell, now tied with six ribbons. Tomas found his satchel beneath a table, his notes rearranged into a paper crown.
 
