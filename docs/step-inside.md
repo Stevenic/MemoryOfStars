@@ -527,6 +527,7 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
   function isRead(star, ck) { return !!readSet()[star + "-" + ck]; }
   function markRead(star, ck) { try { var r = readSet(); r[star + "-" + ck] = true; localStorage.setItem("mos_read", JSON.stringify(r)); } catch (e) {} }
   function memUnlocked(star, mem, all) {
+    if (window.SI_STARS_FULL) return true;   // preview: every recording opens, for testing
     var chs = mem.chapters || [];
     if (chs.length) return chs.some(function (ck) { return isRead(star, ck); });
     // chapterless memory (backstory / sky-only): opens once every chapter the book's
@@ -1611,8 +1612,13 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
         var mems = memoriesForSystem(sysId);
         var orbitAnchor = svgEl(svg, "g", { transform: "translate(" + px.toFixed(1) + " " + py.toFixed(1) + ")" });
         var spin = svgEl(svg, "g", { "class": "si-orbiting" }, orbitAnchor);
+        var perRing = 12;
         mems.forEach(function (it, k) {
-          var mma = ang + 0.7 + k * (6.2832 / Math.max(mems.length, 3)), mmr = pr + 16 + (k % 2) * 6;
+          // shells: twelve lights per ring, each ring further out — dense archives stay clickable
+          var ringN = Math.floor(k / perRing), inRing = k % perRing;
+          var ringCount = Math.min(mems.length - ringN * perRing, perRing);
+          var mma = ang + 0.7 + ringN * 0.31 + inRing * (6.2832 / Math.max(ringCount, 3));
+          var mmr = pr + 16 + ringN * 9;
           var rx = Math.cos(mma) * mmr, ry = Math.sin(mma) * mmr;
           var mote = svgEl(svg, "g", { "class": "si-mote" + (it.unlocked ? "" : " si-mote--sealed"), tabindex: "0", role: "button" }, spin);
           mote.setAttribute("aria-label", it.unlocked ? "A recorded memory: " + it.mem.title : "A sealed memory");
@@ -1663,8 +1669,11 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
     if (!motesHung && sys.system.star_ref) {
       var orphan = memoriesForSystem(sysId);
       var oSpin = svgEl(svg, "g", { "class": "si-orbiting" });
+      var operRing = 12;
       orphan.forEach(function (it, k) {
-        var oa2 = 0.9 + k * (6.2832 / Math.max(orphan.length, 3)), orr = 64 + (k % 2) * 10;
+        var oRing = Math.floor(k / operRing), oIn = k % operRing;
+        var oCount = Math.min(orphan.length - oRing * operRing, operRing);
+        var oa2 = 0.9 + oRing * 0.31 + oIn * (6.2832 / Math.max(oCount, 3)), orr = 64 + oRing * 10;
         var ox = Math.cos(oa2) * orr, oy = Math.sin(oa2) * orr;
         var mote = svgEl(svg, "g", { "class": "si-mote" + (it.unlocked ? "" : " si-mote--sealed"), tabindex: "0", role: "button" }, oSpin);
         mote.setAttribute("aria-label", it.unlocked ? "A recorded memory: " + it.mem.title : "A sealed memory");
@@ -1696,12 +1705,15 @@ description: Step into a recorded memory of Memory of Stars — inhabit someone 
     belts.forEach(function (b2) { boot.push({ text: (b2.name || "a belt") + " — belt", wait: 130 }); });
     var held = memoriesForSystem(sysId);
     boot.push({ text: held.length + (held.length === 1 ? " recording held" : " recordings held"), wait: 520 });
-    var sealedN = 0;
+    var sealedN = 0, shownN = 0, extraOpen = 0;
     held.forEach(function (it2) {
-      if (isExperienced(it2.sliceId, it2.mem.id)) boot.push({ text: it2.mem.title, wait: 110, cls: "si-greet-line--lived" });
-      else if (it2.unlocked) boot.push({ text: it2.mem.title, wait: 110, cls: "si-greet-line--open" });
-      else sealedN++;
+      var lived = isExperienced(it2.sliceId, it2.mem.id);
+      if (!lived && !it2.unlocked) { sealedN++; return; }
+      if (shownN >= 6) { extraOpen++; return; }
+      shownN++;
+      boot.push({ text: it2.mem.title, wait: 110, cls: lived ? "si-greet-line--lived" : "si-greet-line--open" });
     });
+    if (extraOpen) boot.push({ text: "+ " + extraOpen + " more open", wait: 220, cls: "si-greet-line--open" });
     if (sealedN) boot.push({ text: sealedN + " sealed", wait: 320, cls: "si-greet-line--sealed" });
     showBoot(sys.system.name, boot);
     svg.addEventListener("wheel", function () { dismissGreet(); }, { passive: true });
