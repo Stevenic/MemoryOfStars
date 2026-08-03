@@ -14,6 +14,7 @@ told.
 | [`style-guide.md`](style-guide.md) | Prose mechanics: POV, tense, formatting, punctuation. |
 | [`voice-and-craft.md`](voice-and-craft.md) | Broader craft principles (see [`voice.md`](voice.md) for the sound of the prose). |
 | [`naming-conventions.md`](naming-conventions.md) | How names of people, places, and coined terms are formed. |
+| [`craft-tchaikovsky.md`](craft-tchaikovsky.md) | **Craft notes from Adrian Tchaikovsky** — world-first process, the left wall, the one big lie, fight scenes, the knowledge triangle; with a mapping to this project's practice. |
 | [`templates/`](templates/) | Reusable scaffolds for outlines, chapters, and character sheets. |
 
 > **Canon lives in the bible.** This guide governs _how_ the series is written; the
